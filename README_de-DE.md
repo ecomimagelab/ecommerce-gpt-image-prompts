@@ -24,7 +24,7 @@ This repository collects reproducible e-commerce image prompts with structured m
 
 | Approved prompts | Industries | Platforms | Last updated |
 |---:|---:|---:|---|
-| **6** | **6** | **19** | **2026-07-20** |
+| **6** | **6** | **15** | **2026-07-20** |
 
 ## Nach Branche durchsuchen
 
@@ -39,26 +39,35 @@ This repository collects reproducible e-commerce image prompts with structured m
 
 ## Empfohlene Prompts
 
-### 1. Luxury Serum Campaign Triptych
+### 1. Platform-Native Serum Art Direction Triptych
 
 ⭐ **Featured**
 
 #### Beschreibung
 
-Creates three consistent premium skincare campaign scenes for the same unbranded serum bottle.
+Creates water-sculpture, botanical-lab, and night-repair art directions for one consistent serum bottle across premium DTC commerce.
 
 #### Prompt
 
 ```text
-Create one seamless 3-panel horizontal contact sheet showing three clearly different premium studio campaign outputs for the same unbranded luxury facial serum bottle. Each panel must be a complete standalone 4:5-style product composition, separated by clean narrow gutters. Panel 1: warm travertine with translucent botanical shadows. Panel 2: blush-pink reflective acrylic with soft haze. Panel 3: ivory paper sculpture with golden morning light. Use the identical clear glass serum bottle in all three panels, with ivory liquid, a brushed champagne-gold dropper, and a minimal blank cream label with no writing. Photorealistic luxury skincare advertising photography, centered product hero, crisp bottle edges, elegant negative space, soft directional studio light, and controlled specular highlights. Preserve the bottle shape, cap, blank label, and liquid level across all panels. No readable text, logo, watermark, hands, extra bottles, labels, or panel numbers.
+Use case: ads-marketing
+Asset type: three premium e-commerce campaign previews in one seamless horizontal contact sheet
+Primary request: Create an exceptionally refined 3-panel horizontal contact sheet for the same unbranded luxury facial serum, with three clearly different Shopify/DTC beauty art directions. Each panel must be a complete standalone vertical 4:5-style composition, separated by perfectly clean narrow off-white gutters.
+Subject invariant: the identical hero product in every panel — a low cylindrical optical-glass serum bottle, pale celadon liquid, heavy rounded glass base, satin ivory pipette cap, tiny blank ivory label with absolutely no writing. Preserve bottle proportions, liquid level, cap, label size, and glass thickness across all panels.
+Panel 1 — WATER SCULPTURE: the bottle rises from a shallow mirror-still pool; one sculptural translucent water arc wraps behind it without covering the product; cool mineral-white palette; pin-sharp caustics; luminous clinical freshness; luxury Shopify homepage hero.
+Panel 2 — BOTANICAL LAB: extreme close editorial still life on hand-cast pale celadon ceramic; a single fresh ginkgo leaf creates a precise translucent shadow; soft northern window light; tactile condensation beads; quiet Japanese apothecary restraint; premium product-detail page.
+Panel 3 — NIGHT REPAIR: bottle on smoked obsidian with a floating halo of warm amber light behind it; black-to-olive gradient; one controlled highlight along the glass edge; cinematic after-dark skincare launch; sophisticated social ad, not a generic neon studio.
+Style/medium: ultra-photorealistic contemporary luxury beauty photography, world-class art direction, realistic optical glass, subtle imperfections, editorial color grading, highly controlled reflections, no plastic CGI look.
+Composition/framing: product large and commanding, elegant asymmetric negative space, distinct camera angle in each panel (low hero, intimate macro, three-quarter night portrait).
+Constraints: no readable text, no logo, no watermark, no hands, no flowers, no stones, no extra bottles, no duplicated products, no panel labels or numbers. The three panels must look intentionally different while preserving the exact same product.
 ```
 
 #### Generierte Vorschauen
 
 <p align="center">
-<img src="assets/prompts/beauty-serum/preview-1.png" width="31%" alt="Serum bottle on warm travertine with botanical shadows">
-<img src="assets/prompts/beauty-serum/preview-2.png" width="31%" alt="Serum bottle in a blush reflective acrylic studio">
-<img src="assets/prompts/beauty-serum/preview-3.png" width="31%" alt="Serum bottle with ivory paper sculptures">
+<img src="assets/prompts/beauty-serum/preview-1.png" width="31%" alt="Celadon serum framed by a sculptural arc of water">
+<img src="assets/prompts/beauty-serum/preview-2.png" width="31%" alt="Condensed celadon serum in a quiet botanical laboratory">
+<img src="assets/prompts/beauty-serum/preview-3.png" width="31%" alt="Celadon serum against an amber night-repair halo">
 </p>
 
 #### Details
@@ -67,33 +76,41 @@ Create one seamless 3-panel horizontal contact sheet showing three clearly diffe
 |---|---|---|---|
 | CommercePrompt Atlas Studio | Originalinhalt dieses Repositorys | `beauty` | `product-hero` |
 
-- **Plattformen:** Amazon, Shopify, Tmall, Shopee
+- **Plattformen:** Shopify, Tmall, Instagram Shop, Shopee
 - **Prompt-Sprache:** `en`
 - **Lizenz:** CC-BY-4.0
 - **Veröffentlicht:** 2026-07-20
 
 ---
 
-### 2. Technical Jacket Launch Triptych
+### 2. Social-Native Technical Jacket Triptych
 
 ⭐ **Featured**
 
 #### Beschreibung
 
-Produces three cinematic launch scenes for one consistent black technical streetwear jacket.
+Combines TikTok street energy, brutalist fashion detail, and a clean Shopify ghost-mannequin hero for the same jacket.
 
 #### Prompt
 
 ```text
-Create one seamless 3-panel horizontal contact sheet showing three clearly different premium launch campaign outputs for the same unbranded black technical streetwear jacket. Each panel must be a complete standalone vertical product composition, separated by clean narrow gutters. Panel 1: jacket suspended in a cobalt studio with hard diagonal light. Panel 2: urban concrete night scene with electric-lime rim lighting and subtle mist. Panel 3: minimalist silver cyclorama with a cobalt floor and crisp shadow. Use the identical black oversized technical jacket in all three panels, with matte ripstop fabric, a high collar, two symmetrical utility pockets, and a black zipper, with no model. Photorealistic premium streetwear campaign photography, full garment visible, vertical catalog framing, tactile fabric detail. Preserve the jacket silhouette, pockets, zipper, and fabric across all panels. No readable text, logo, watermark, human, extra garments, labels, or panel numbers.
+Use case: ads-marketing
+Asset type: three high-impact vertical e-commerce fashion previews in one seamless horizontal contact sheet
+Primary request: Create an editorial 3-panel horizontal contact sheet for the same unbranded oversized technical shell jacket, designed for TikTok Shop, Instagram Shop, and a premium Shopify collection page. Each panel is a complete standalone 9:16-style fashion image, separated by narrow clean black gutters.
+Product invariant: identical charcoal-black oversized technical shell in every panel, cropped hip length, sculptural storm hood, two diagonal waterproof chest zips, two oversized bellows pockets, matte crinkled ripstop, concealed center zipper, elastic drawcord hem. Preserve silhouette, seam map, pocket placement, hood, and material in all panels.
+Panel 1 — TIKTOK STREET ENERGY: young adult model wearing the jacket, full body, mid-stride at night on wet concrete, dramatic 18mm fisheye perspective, direct on-camera flash, blurred scooter lights and subtle motion streaks, raw social-native immediacy, jacket remains sharp and fully readable.
+Panel 2 — DROP CULTURE CLOSE-UP: low-angle waist-up crop on a different gender-neutral model, face partly outside frame, hand adjusting the storm hood, hard noon sunlight against weathered brutalist concrete, deep graphic shadow, tactile ripstop and hardware, bold asymmetry suited to an Instagram Shop carousel.
+Panel 3 — SHOPIFY EDITORIAL: jacket alone on an invisible ghost mannequin, sculptural silhouette in a warm gray seamless studio, soft top light plus razor-thin silver edge light, quiet gallery-like luxury, generous negative space, premium collection hero.
+Style/medium: photorealistic contemporary streetwear campaign photography, high-fashion casting, authentic fabric texture, subtle grain, restrained charcoal/sodium-orange palette, no cyberpunk neon cliché.
+Constraints: no readable text, no logos, no watermark, no extra jacket, no unrelated accessories, no distorted hands, no duplicated limbs, no panel numbers. Keep the exact jacket design consistent even when worn.
 ```
 
 #### Generierte Vorschauen
 
 <p align="center">
-<img src="assets/prompts/fashion-jacket/preview-1.png" width="31%" alt="Black technical jacket in a cobalt studio">
-<img src="assets/prompts/fashion-jacket/preview-2.png" width="31%" alt="Black technical jacket in a lime-lit night scene">
-<img src="assets/prompts/fashion-jacket/preview-3.png" width="31%" alt="Black technical jacket in a silver catalog studio">
+<img src="assets/prompts/fashion-jacket/preview-1.png" width="31%" alt="Technical jacket in a flash-lit fisheye streetwear scene">
+<img src="assets/prompts/fashion-jacket/preview-2.png" width="31%" alt="Technical jacket detail against brutalist concrete">
+<img src="assets/prompts/fashion-jacket/preview-3.png" width="31%" alt="Technical jacket on an invisible mannequin for Shopify">
 </p>
 
 #### Details
@@ -102,33 +119,42 @@ Create one seamless 3-panel horizontal contact sheet showing three clearly diffe
 |---|---|---|---|
 | CommercePrompt Atlas Studio | Originalinhalt dieses Repositorys | `fashion` | `campaign-launch` |
 
-- **Plattformen:** TikTok Shop, Shopify, Taobao, Instagram Shop
+- **Plattformen:** TikTok Shop, Instagram Shop, Shopify
 - **Prompt-Sprache:** `en`
 - **Lizenz:** CC-BY-4.0
 - **Veröffentlicht:** 2026-07-20
 
 ---
 
-### 3. Graphite Smartphone Feature Triptych
+### 3. Marketplace Smartphone Conversion Triptych
 
 ⭐ **Featured**
 
 #### Beschreibung
 
-Generates three precision-oriented product feature images for a consistent unbranded smartphone.
+Builds a compliant Amazon hero, an A+ engineering detail, and a cinematic JD/Tmall feature visual for one consistent phone.
 
 #### Prompt
 
 ```text
-Create one seamless 3-panel horizontal contact sheet showing three clearly different commercial feature visuals for the same unbranded graphite smartphone. Each panel must be a complete standalone square-style product composition, separated by clean narrow gutters. Panel 1: floating three-quarter phone on dark graphite with electric-lime rim light. Panel 2: precision macro of the rear camera cluster on cobalt glass. Panel 3: side-profile and front-screen product arrangement on a clean charcoal studio platform. Use the identical premium graphite smartphone in all panels, with flat sides, three circular rear camera lenses in a triangular cluster, a blank dark screen, and no logo. Photorealistic high-end consumer electronics advertising and Amazon A+ imagery, crisp geometry, clean negative space, controlled highlights, and technical precision. Keep device dimensions, camera positions, buttons, and finish consistent. No readable text, logo, watermark, hands, brand symbols, extra camera lenses, labels, or panel numbers.
+Use case: product-mockup
+Asset type: three platform-specific consumer-electronics e-commerce previews in one seamless horizontal contact sheet
+Primary request: Create a precision-designed 3-panel horizontal contact sheet for the exact same unbranded flagship smartphone, with visually distinct Amazon, Amazon A+, and JD/Tmall campaign treatments. Each panel is a complete standalone square product image, separated by narrow neutral-gray gutters.
+Device invariant: identical satin titanium-gray smartphone in every panel; flat polished side rails; gently rounded corners; three separate circular rear camera lenses arranged vertically in a clean triangular rhythm with one tiny flash; perfectly blank edge-to-edge black front screen; no logo. Preserve dimensions, lens count and positions, buttons, rail color, and finish.
+Panel 1 — AMAZON MAIN IMAGE: the phone alone in a front-and-back three-quarter arrangement on pure #FFFFFF, product occupies about 82% of frame, realistic soft grounding shadow, immaculate catalog cutout, honest proportions, no props, no text.
+Panel 2 — AMAZON A+ ENGINEERING STORY: premium exploded macro composition of the camera system, one intact phone angled behind and three glass lens elements floating in exact alignment above a brushed graphite technical surface; clean cool-gray blueprint-like lighting created only with shapes and shadows, no labels or text; precision and credibility rather than sci-fi.
+Panel 3 — JD/TMALL NIGHT FEATURE HERO: phone hovering horizontally above rain-dark basalt, rear camera nearest lens, a narrow sheet of water bends around but never crosses the device, deep ink-blue environment with one controlled electric-cyan edge reflection and warm micro highlights, cinematic low camera, dramatic but premium.
+Style/medium: ultra-photorealistic high-end electronics advertising, physically plausible metal, glass and water, microscopic machining detail, sharp geometry, controlled reflections, no cheap 3D render feel.
+Composition/framing: each panel uses a different commercial grammar—compliant clean listing, explanatory technical detail, cinematic launch hero.
+Constraints: no readable text, no logo, no watermark, no hands, no cables, no cases, no extra camera lenses, no duplicate phones except the intentional front-and-back pair in panel 1 and one intact phone plus lens elements in panel 2, no panel labels or numbers.
 ```
 
 #### Generierte Vorschauen
 
 <p align="center">
-<img src="assets/prompts/electronics-phone/preview-1.png" width="31%" alt="Graphite smartphone with lime rim light">
-<img src="assets/prompts/electronics-phone/preview-2.png" width="31%" alt="Macro view of a cobalt-lit smartphone camera cluster">
-<img src="assets/prompts/electronics-phone/preview-3.png" width="31%" alt="Front and side views of a graphite smartphone">
+<img src="assets/prompts/electronics-phone/preview-1.png" width="31%" alt="Amazon-ready front-and-back smartphone hero on white">
+<img src="assets/prompts/electronics-phone/preview-2.png" width="31%" alt="Exploded camera-system detail for Amazon A+">
+<img src="assets/prompts/electronics-phone/preview-3.png" width="31%" alt="Cinematic water-resistant smartphone feature hero">
 </p>
 
 #### Details
@@ -137,7 +163,7 @@ Create one seamless 3-panel horizontal contact sheet showing three clearly diffe
 |---|---|---|---|
 | CommercePrompt Atlas Studio | Originalinhalt dieses Repositorys | `consumer-electronics` | `feature-visual` |
 
-- **Plattformen:** Amazon, JD, Walmart, AliExpress
+- **Plattformen:** Amazon, Amazon A+, JD, Tmall
 - **Prompt-Sprache:** `en`
 - **Lizenz:** CC-BY-4.0
 - **Veröffentlicht:** 2026-07-20
@@ -148,26 +174,35 @@ Create one seamless 3-panel horizontal contact sheet showing three clearly diffe
 
 ## beauty
 
-### 1. Luxury Serum Campaign Triptych
+### 1. Platform-Native Serum Art Direction Triptych
 
 ⭐ **Featured**
 
 #### Beschreibung
 
-Creates three consistent premium skincare campaign scenes for the same unbranded serum bottle.
+Creates water-sculpture, botanical-lab, and night-repair art directions for one consistent serum bottle across premium DTC commerce.
 
 #### Prompt
 
 ```text
-Create one seamless 3-panel horizontal contact sheet showing three clearly different premium studio campaign outputs for the same unbranded luxury facial serum bottle. Each panel must be a complete standalone 4:5-style product composition, separated by clean narrow gutters. Panel 1: warm travertine with translucent botanical shadows. Panel 2: blush-pink reflective acrylic with soft haze. Panel 3: ivory paper sculpture with golden morning light. Use the identical clear glass serum bottle in all three panels, with ivory liquid, a brushed champagne-gold dropper, and a minimal blank cream label with no writing. Photorealistic luxury skincare advertising photography, centered product hero, crisp bottle edges, elegant negative space, soft directional studio light, and controlled specular highlights. Preserve the bottle shape, cap, blank label, and liquid level across all panels. No readable text, logo, watermark, hands, extra bottles, labels, or panel numbers.
+Use case: ads-marketing
+Asset type: three premium e-commerce campaign previews in one seamless horizontal contact sheet
+Primary request: Create an exceptionally refined 3-panel horizontal contact sheet for the same unbranded luxury facial serum, with three clearly different Shopify/DTC beauty art directions. Each panel must be a complete standalone vertical 4:5-style composition, separated by perfectly clean narrow off-white gutters.
+Subject invariant: the identical hero product in every panel — a low cylindrical optical-glass serum bottle, pale celadon liquid, heavy rounded glass base, satin ivory pipette cap, tiny blank ivory label with absolutely no writing. Preserve bottle proportions, liquid level, cap, label size, and glass thickness across all panels.
+Panel 1 — WATER SCULPTURE: the bottle rises from a shallow mirror-still pool; one sculptural translucent water arc wraps behind it without covering the product; cool mineral-white palette; pin-sharp caustics; luminous clinical freshness; luxury Shopify homepage hero.
+Panel 2 — BOTANICAL LAB: extreme close editorial still life on hand-cast pale celadon ceramic; a single fresh ginkgo leaf creates a precise translucent shadow; soft northern window light; tactile condensation beads; quiet Japanese apothecary restraint; premium product-detail page.
+Panel 3 — NIGHT REPAIR: bottle on smoked obsidian with a floating halo of warm amber light behind it; black-to-olive gradient; one controlled highlight along the glass edge; cinematic after-dark skincare launch; sophisticated social ad, not a generic neon studio.
+Style/medium: ultra-photorealistic contemporary luxury beauty photography, world-class art direction, realistic optical glass, subtle imperfections, editorial color grading, highly controlled reflections, no plastic CGI look.
+Composition/framing: product large and commanding, elegant asymmetric negative space, distinct camera angle in each panel (low hero, intimate macro, three-quarter night portrait).
+Constraints: no readable text, no logo, no watermark, no hands, no flowers, no stones, no extra bottles, no duplicated products, no panel labels or numbers. The three panels must look intentionally different while preserving the exact same product.
 ```
 
 #### Generierte Vorschauen
 
 <p align="center">
-<img src="assets/prompts/beauty-serum/preview-1.png" width="31%" alt="Serum bottle on warm travertine with botanical shadows">
-<img src="assets/prompts/beauty-serum/preview-2.png" width="31%" alt="Serum bottle in a blush reflective acrylic studio">
-<img src="assets/prompts/beauty-serum/preview-3.png" width="31%" alt="Serum bottle with ivory paper sculptures">
+<img src="assets/prompts/beauty-serum/preview-1.png" width="31%" alt="Celadon serum framed by a sculptural arc of water">
+<img src="assets/prompts/beauty-serum/preview-2.png" width="31%" alt="Condensed celadon serum in a quiet botanical laboratory">
+<img src="assets/prompts/beauty-serum/preview-3.png" width="31%" alt="Celadon serum against an amber night-repair halo">
 </p>
 
 #### Details
@@ -176,7 +211,7 @@ Create one seamless 3-panel horizontal contact sheet showing three clearly diffe
 |---|---|---|---|
 | CommercePrompt Atlas Studio | Originalinhalt dieses Repositorys | `beauty` | `product-hero` |
 
-- **Plattformen:** Amazon, Shopify, Tmall, Shopee
+- **Plattformen:** Shopify, Tmall, Instagram Shop, Shopee
 - **Prompt-Sprache:** `en`
 - **Lizenz:** CC-BY-4.0
 - **Veröffentlicht:** 2026-07-20
@@ -185,26 +220,35 @@ Create one seamless 3-panel horizontal contact sheet showing three clearly diffe
 
 ## consumer-electronics
 
-### 1. Graphite Smartphone Feature Triptych
+### 1. Marketplace Smartphone Conversion Triptych
 
 ⭐ **Featured**
 
 #### Beschreibung
 
-Generates three precision-oriented product feature images for a consistent unbranded smartphone.
+Builds a compliant Amazon hero, an A+ engineering detail, and a cinematic JD/Tmall feature visual for one consistent phone.
 
 #### Prompt
 
 ```text
-Create one seamless 3-panel horizontal contact sheet showing three clearly different commercial feature visuals for the same unbranded graphite smartphone. Each panel must be a complete standalone square-style product composition, separated by clean narrow gutters. Panel 1: floating three-quarter phone on dark graphite with electric-lime rim light. Panel 2: precision macro of the rear camera cluster on cobalt glass. Panel 3: side-profile and front-screen product arrangement on a clean charcoal studio platform. Use the identical premium graphite smartphone in all panels, with flat sides, three circular rear camera lenses in a triangular cluster, a blank dark screen, and no logo. Photorealistic high-end consumer electronics advertising and Amazon A+ imagery, crisp geometry, clean negative space, controlled highlights, and technical precision. Keep device dimensions, camera positions, buttons, and finish consistent. No readable text, logo, watermark, hands, brand symbols, extra camera lenses, labels, or panel numbers.
+Use case: product-mockup
+Asset type: three platform-specific consumer-electronics e-commerce previews in one seamless horizontal contact sheet
+Primary request: Create a precision-designed 3-panel horizontal contact sheet for the exact same unbranded flagship smartphone, with visually distinct Amazon, Amazon A+, and JD/Tmall campaign treatments. Each panel is a complete standalone square product image, separated by narrow neutral-gray gutters.
+Device invariant: identical satin titanium-gray smartphone in every panel; flat polished side rails; gently rounded corners; three separate circular rear camera lenses arranged vertically in a clean triangular rhythm with one tiny flash; perfectly blank edge-to-edge black front screen; no logo. Preserve dimensions, lens count and positions, buttons, rail color, and finish.
+Panel 1 — AMAZON MAIN IMAGE: the phone alone in a front-and-back three-quarter arrangement on pure #FFFFFF, product occupies about 82% of frame, realistic soft grounding shadow, immaculate catalog cutout, honest proportions, no props, no text.
+Panel 2 — AMAZON A+ ENGINEERING STORY: premium exploded macro composition of the camera system, one intact phone angled behind and three glass lens elements floating in exact alignment above a brushed graphite technical surface; clean cool-gray blueprint-like lighting created only with shapes and shadows, no labels or text; precision and credibility rather than sci-fi.
+Panel 3 — JD/TMALL NIGHT FEATURE HERO: phone hovering horizontally above rain-dark basalt, rear camera nearest lens, a narrow sheet of water bends around but never crosses the device, deep ink-blue environment with one controlled electric-cyan edge reflection and warm micro highlights, cinematic low camera, dramatic but premium.
+Style/medium: ultra-photorealistic high-end electronics advertising, physically plausible metal, glass and water, microscopic machining detail, sharp geometry, controlled reflections, no cheap 3D render feel.
+Composition/framing: each panel uses a different commercial grammar—compliant clean listing, explanatory technical detail, cinematic launch hero.
+Constraints: no readable text, no logo, no watermark, no hands, no cables, no cases, no extra camera lenses, no duplicate phones except the intentional front-and-back pair in panel 1 and one intact phone plus lens elements in panel 2, no panel labels or numbers.
 ```
 
 #### Generierte Vorschauen
 
 <p align="center">
-<img src="assets/prompts/electronics-phone/preview-1.png" width="31%" alt="Graphite smartphone with lime rim light">
-<img src="assets/prompts/electronics-phone/preview-2.png" width="31%" alt="Macro view of a cobalt-lit smartphone camera cluster">
-<img src="assets/prompts/electronics-phone/preview-3.png" width="31%" alt="Front and side views of a graphite smartphone">
+<img src="assets/prompts/electronics-phone/preview-1.png" width="31%" alt="Amazon-ready front-and-back smartphone hero on white">
+<img src="assets/prompts/electronics-phone/preview-2.png" width="31%" alt="Exploded camera-system detail for Amazon A+">
+<img src="assets/prompts/electronics-phone/preview-3.png" width="31%" alt="Cinematic water-resistant smartphone feature hero">
 </p>
 
 #### Details
@@ -213,7 +257,7 @@ Create one seamless 3-panel horizontal contact sheet showing three clearly diffe
 |---|---|---|---|
 | CommercePrompt Atlas Studio | Originalinhalt dieses Repositorys | `consumer-electronics` | `feature-visual` |
 
-- **Plattformen:** Amazon, JD, Walmart, AliExpress
+- **Plattformen:** Amazon, Amazon A+, JD, Tmall
 - **Prompt-Sprache:** `en`
 - **Lizenz:** CC-BY-4.0
 - **Veröffentlicht:** 2026-07-20
@@ -222,26 +266,34 @@ Create one seamless 3-panel horizontal contact sheet showing three clearly diffe
 
 ## fashion
 
-### 1. Technical Jacket Launch Triptych
+### 1. Social-Native Technical Jacket Triptych
 
 ⭐ **Featured**
 
 #### Beschreibung
 
-Produces three cinematic launch scenes for one consistent black technical streetwear jacket.
+Combines TikTok street energy, brutalist fashion detail, and a clean Shopify ghost-mannequin hero for the same jacket.
 
 #### Prompt
 
 ```text
-Create one seamless 3-panel horizontal contact sheet showing three clearly different premium launch campaign outputs for the same unbranded black technical streetwear jacket. Each panel must be a complete standalone vertical product composition, separated by clean narrow gutters. Panel 1: jacket suspended in a cobalt studio with hard diagonal light. Panel 2: urban concrete night scene with electric-lime rim lighting and subtle mist. Panel 3: minimalist silver cyclorama with a cobalt floor and crisp shadow. Use the identical black oversized technical jacket in all three panels, with matte ripstop fabric, a high collar, two symmetrical utility pockets, and a black zipper, with no model. Photorealistic premium streetwear campaign photography, full garment visible, vertical catalog framing, tactile fabric detail. Preserve the jacket silhouette, pockets, zipper, and fabric across all panels. No readable text, logo, watermark, human, extra garments, labels, or panel numbers.
+Use case: ads-marketing
+Asset type: three high-impact vertical e-commerce fashion previews in one seamless horizontal contact sheet
+Primary request: Create an editorial 3-panel horizontal contact sheet for the same unbranded oversized technical shell jacket, designed for TikTok Shop, Instagram Shop, and a premium Shopify collection page. Each panel is a complete standalone 9:16-style fashion image, separated by narrow clean black gutters.
+Product invariant: identical charcoal-black oversized technical shell in every panel, cropped hip length, sculptural storm hood, two diagonal waterproof chest zips, two oversized bellows pockets, matte crinkled ripstop, concealed center zipper, elastic drawcord hem. Preserve silhouette, seam map, pocket placement, hood, and material in all panels.
+Panel 1 — TIKTOK STREET ENERGY: young adult model wearing the jacket, full body, mid-stride at night on wet concrete, dramatic 18mm fisheye perspective, direct on-camera flash, blurred scooter lights and subtle motion streaks, raw social-native immediacy, jacket remains sharp and fully readable.
+Panel 2 — DROP CULTURE CLOSE-UP: low-angle waist-up crop on a different gender-neutral model, face partly outside frame, hand adjusting the storm hood, hard noon sunlight against weathered brutalist concrete, deep graphic shadow, tactile ripstop and hardware, bold asymmetry suited to an Instagram Shop carousel.
+Panel 3 — SHOPIFY EDITORIAL: jacket alone on an invisible ghost mannequin, sculptural silhouette in a warm gray seamless studio, soft top light plus razor-thin silver edge light, quiet gallery-like luxury, generous negative space, premium collection hero.
+Style/medium: photorealistic contemporary streetwear campaign photography, high-fashion casting, authentic fabric texture, subtle grain, restrained charcoal/sodium-orange palette, no cyberpunk neon cliché.
+Constraints: no readable text, no logos, no watermark, no extra jacket, no unrelated accessories, no distorted hands, no duplicated limbs, no panel numbers. Keep the exact jacket design consistent even when worn.
 ```
 
 #### Generierte Vorschauen
 
 <p align="center">
-<img src="assets/prompts/fashion-jacket/preview-1.png" width="31%" alt="Black technical jacket in a cobalt studio">
-<img src="assets/prompts/fashion-jacket/preview-2.png" width="31%" alt="Black technical jacket in a lime-lit night scene">
-<img src="assets/prompts/fashion-jacket/preview-3.png" width="31%" alt="Black technical jacket in a silver catalog studio">
+<img src="assets/prompts/fashion-jacket/preview-1.png" width="31%" alt="Technical jacket in a flash-lit fisheye streetwear scene">
+<img src="assets/prompts/fashion-jacket/preview-2.png" width="31%" alt="Technical jacket detail against brutalist concrete">
+<img src="assets/prompts/fashion-jacket/preview-3.png" width="31%" alt="Technical jacket on an invisible mannequin for Shopify">
 </p>
 
 #### Details
@@ -250,7 +302,7 @@ Create one seamless 3-panel horizontal contact sheet showing three clearly diffe
 |---|---|---|---|
 | CommercePrompt Atlas Studio | Originalinhalt dieses Repositorys | `fashion` | `campaign-launch` |
 
-- **Plattformen:** TikTok Shop, Shopify, Taobao, Instagram Shop
+- **Plattformen:** TikTok Shop, Instagram Shop, Shopify
 - **Prompt-Sprache:** `en`
 - **Lizenz:** CC-BY-4.0
 - **Veröffentlicht:** 2026-07-20
@@ -259,24 +311,32 @@ Create one seamless 3-panel horizontal contact sheet showing three clearly diffe
 
 ## food-and-beverage
 
-### 1. Spicy Pasta Delivery Triptych
+### 1. Appetite-Led Rigatoni Delivery Triptych
 
 #### Beschreibung
 
-Creates three appetizing marketplace photographs of the same spicy tomato pasta dish.
+Creates a thumb-stopping delivery close-up, a natural editorial table, and a high-energy app promo for the same rigatoni.
 
 #### Prompt
 
 ```text
-Create one seamless 3-panel horizontal contact sheet showing three clearly different craveable commercial photographs of the same bowl of spicy tomato pasta. Each panel must be a complete standalone 4:5-style food delivery composition, separated by clean narrow gutters. Panel 1: warm editorial overhead on rustic cream linen. Panel 2: dramatic three-quarter close shot on an amber restaurant table with visible steam. Panel 3: bright modern delivery-app hero on saturated orange with restrained basil garnish. Use the same ceramic bowl, generous portion of tomato pasta, parmesan, and basil across all panels. Photorealistic premium food advertising and delivery marketplace photography, appetizing hero ingredients, realistic sauce texture, and controlled garnish. Keep the bowl and meal identity consistent. No readable text, logo, watermark, hands, utensils covering the food, duplicated ingredients, plastic-looking food, labels, or panel numbers.
+Use case: ads-marketing
+Asset type: three appetite-led food-commerce previews in one seamless horizontal contact sheet
+Primary request: Create a mouthwatering 3-panel horizontal contact sheet for the same signature spicy tomato rigatoni, with distinct DoorDash/Uber Eats, Deliveroo editorial, and Meituan social-commerce treatments. Each panel is a complete standalone vertical 4:5 image, divided by narrow warm-white gutters.
+Dish invariant: identical shallow handmade cream ceramic bowl, generous rigatoni coated in glossy brick-red Calabrian tomato sauce, torn basil, fine snowfall of aged parmesan, a few crisp chili crumbs. Preserve bowl shape, pasta type, sauce color, portion and garnish identity.
+Panel 1 — DELIVERY APP THUMB-STOPPER: extreme three-quarter close-up, bowl fills the frame, one natural fork entering from above lifts exactly five sauce-coated rigatoni pieces, elastic cheese thread and visible steam, saturated but believable red, bright side light, shallow depth of field; instantly legible at phone-thumbnail size.
+Panel 2 — DELIVEROO EDITORIAL TABLE: intimate overhead on rumpled sage linen and worn honey oak, bowl off-center with a small torn piece of crusty bread and one used linen napkin at the edge, soft late-afternoon window light, natural crumbs and imperfect human warmth, contemporary food-magazine realism.
+Panel 3 — MEITUAN SOCIAL PROMO: dynamic top-down bowl on a bold saffron-yellow paper field with one sweeping crescent of sauce painted beside it and scattered chili flakes frozen mid-fall, hard graphic shadow, high energy, clean negative space for app overlay but absolutely no text.
+Style/medium: ultra-photorealistic commercial food photography by a top food stylist, real sauce viscosity, porous parmesan, moist pasta texture, authentic steam, subtle plate imperfections; appetizing rather than over-retouched.
+Constraints: no readable text, no logos, no watermark, no extra bowls, no duplicated fork, no impossible floating food except the intentionally falling chili flakes in panel 3, no plastic-looking pasta, no excessive garnish, no panel labels or numbers.
 ```
 
 #### Generierte Vorschauen
 
 <p align="center">
-<img src="assets/prompts/food-pasta/preview-1.png" width="31%" alt="Overhead spicy pasta on rustic cream linen">
-<img src="assets/prompts/food-pasta/preview-2.png" width="31%" alt="Steaming spicy pasta in a warm restaurant scene">
-<img src="assets/prompts/food-pasta/preview-3.png" width="31%" alt="Spicy pasta on a saturated orange backdrop">
+<img src="assets/prompts/food-pasta/preview-1.png" width="31%" alt="Fork-lift rigatoni close-up for a delivery app">
+<img src="assets/prompts/food-pasta/preview-2.png" width="31%" alt="Natural overhead rigatoni editorial on sage linen">
+<img src="assets/prompts/food-pasta/preview-3.png" width="31%" alt="Graphic saffron-yellow rigatoni social-commerce hero">
 </p>
 
 #### Details
@@ -285,7 +345,7 @@ Create one seamless 3-panel horizontal contact sheet showing three clearly diffe
 |---|---|---|---|
 | CommercePrompt Atlas Studio | Originalinhalt dieses Repositorys | `food-and-beverage` | `menu-hero` |
 
-- **Plattformen:** DoorDash, Uber Eats, Meituan, Deliveroo
+- **Plattformen:** DoorDash, Uber Eats, Deliveroo, Meituan
 - **Prompt-Sprache:** `en`
 - **Lizenz:** CC-BY-4.0
 - **Veröffentlicht:** 2026-07-20
@@ -294,24 +354,32 @@ Create one seamless 3-panel horizontal contact sheet showing three clearly diffe
 
 ## home-and-furniture
 
-### 1. Sage Sofa Lifestyle Triptych
+### 1. Architectural Modular Sofa Triptych
 
 #### Beschreibung
 
-Places the same sage-green sofa into three distinct premium catalog interiors.
+Presents one modular sofa through a conversion-focused room, a Pinterest architectural editorial, and an intimate material story.
 
 #### Prompt
 
 ```text
-Create one seamless 3-panel horizontal contact sheet showing the same premium sage-green three-seat sofa placed in three clearly different e-commerce lifestyle scenes. Each panel must be a complete standalone wide product composition, separated by clean narrow gutters. Panel 1: sunlit Scandinavian apartment with pale oak and limestone. Panel 2: warm modern loft with textured plaster and low evening light. Panel 3: minimalist bright catalog studio with ivory architectural arches and a cobalt accent book. Use the identical sage-green three-seat sofa in all panels, with rounded arms, three back cushions, two seat cushions, slim dark walnut legs, and subtle woven upholstery. Photorealistic premium furniture catalog and lifestyle photography, sofa fully visible, correct floor contact and perspective, and clean negative space. Preserve the sofa silhouette, cushion count, upholstery color, seams, and legs. No readable text, logo, watermark, people, duplicate sofa, clutter, labels, or panel numbers.
+Use case: product-mockup
+Asset type: three premium furniture-commerce previews in one seamless horizontal contact sheet
+Primary request: Create an architecturally sophisticated 3-panel horizontal contact sheet for the exact same sculptural modular sofa, with distinct Wayfair listing, Pinterest editorial, and high-end Shopify lookbook treatments. Each panel is a complete standalone wide 4:3 interior photograph, separated by narrow warm-gray gutters.
+Product invariant: identical low four-seat modular sofa in every panel, warm oatmeal bouclé upholstery, softly curved continuous back, three visible seat modules, one rounded chaise on the right, recessed smoked-oak plinth, subtle piping. Preserve silhouette, module count, chaise side, upholstery tone, seams, proportions, and base.
+Panel 1 — WAYFAIR CONVERSION ROOM: bright realistic urban living room, straight-on eye-level 35mm camera, pale oak floor, limewashed warm-white walls, one wool rug and one compact stone coffee table, product fully visible with clear scale and clean edges, balanced daylight, inviting but uncluttered catalog realism.
+Panel 2 — PINTEREST ARCHITECTURAL EDITORIAL: sunken conversation space inside a quiet brutalist coastal house, raked late-afternoon sunlight passes through vertical concrete fins, sculptural shadow bands across floor but not obscuring sofa, distant sea horizon, 24mm wide lens, restrained collectible-design mood.
+Panel 3 — SHOPIFY MATERIAL STORY: intimate oblique close view from sofa-arm height, bouclé fibers and curved seam in tactile focus, background falls into a warm walnut-and-travertine interior with a softly glowing paper lantern, 50mm lens, shallow depth, amber evening calm, premium craftsmanship storytelling.
+Style/medium: ultra-photorealistic interior and furniture photography, believable architecture, accurate perspective and floor contact, real woven fibers, nuanced neutral color grade, natural shadow detail; no sterile CGI showroom.
+Constraints: no readable text, no logos, no watermark, no people, no extra sofa, no oversized plants, no clutter, no implausible floating furniture, no panel labels or numbers. Keep the identical sofa design in every panel.
 ```
 
 #### Generierte Vorschauen
 
 <p align="center">
-<img src="assets/prompts/furniture-sofa/preview-1.png" width="31%" alt="Sage sofa in a sunlit Scandinavian apartment">
-<img src="assets/prompts/furniture-sofa/preview-2.png" width="31%" alt="Sage sofa in a warm modern loft">
-<img src="assets/prompts/furniture-sofa/preview-3.png" width="31%" alt="Sage sofa in a minimalist ivory studio">
+<img src="assets/prompts/furniture-sofa/preview-1.png" width="31%" alt="Modular bouclé sofa in a conversion-focused urban room">
+<img src="assets/prompts/furniture-sofa/preview-2.png" width="31%" alt="Modular sofa in a brutalist coastal editorial interior">
+<img src="assets/prompts/furniture-sofa/preview-3.png" width="31%" alt="Intimate bouclé material story in an amber interior">
 </p>
 
 #### Details
@@ -320,7 +388,7 @@ Create one seamless 3-panel horizontal contact sheet showing the same premium sa
 |---|---|---|---|
 | CommercePrompt Atlas Studio | Originalinhalt dieses Repositorys | `home-and-furniture` | `lifestyle-scene` |
 
-- **Plattformen:** Wayfair, Amazon, IKEA Marketplace, Taobao
+- **Plattformen:** Wayfair, Pinterest, Shopify
 - **Prompt-Sprache:** `en`
 - **Lizenz:** CC-BY-4.0
 - **Veröffentlicht:** 2026-07-20
@@ -329,24 +397,32 @@ Create one seamless 3-panel horizontal contact sheet showing the same premium sa
 
 ## jewelry
 
-### 1. Emerald Ring Macro Triptych
+### 1. Museum-Grade Emerald Ring Triptych
 
 #### Beschreibung
 
-Produces three luxury macro scenes for one consistent emerald-cut gemstone ring.
+Creates a ceremonial luxury launch, an atelier craftsmanship macro, and a water-caustic editorial for one emerald ring.
 
 #### Prompt
 
 ```text
-Create one seamless 3-panel horizontal contact sheet showing three clearly different luxury macro campaign outputs for the same unbranded emerald-cut green gemstone ring. Each panel must be a complete standalone square-style jewelry composition, separated by clean narrow gutters. Panel 1: ring on deep emerald velvet with a warm spotlight. Panel 2: ring reflected on midnight-blue obsidian with a narrow cobalt beam. Panel 3: ring on sculpted ivory stone with soft golden morning light. Use the identical yellow-gold ring in every panel, with one large emerald-cut green center stone, a slim band, four clean prongs, no halo, and no side stones. Ultra-photorealistic high-jewelry macro advertising photography, precise faceting, elegant negative space, controlled sparkle, and premium marketplace composition. Keep the center stone cut, four-prong setting, band profile, and gold color consistent. No readable text, logo, watermark, hands, extra jewelry, added stones, labels, or panel numbers.
+Use case: ads-marketing
+Asset type: three high-jewelry e-commerce campaign previews in one seamless horizontal contact sheet
+Primary request: Create a museum-grade 3-panel horizontal contact sheet for the exact same unbranded sculptural emerald ring, with distinct Tmall Luxury launch, Shopify atelier story, and editorial social-commerce art directions. Each panel is a complete standalone square macro image, separated by hairline black gutters.
+Jewelry invariant: identical 18k yellow-gold ring in every panel; one elongated octagonal emerald-cut deep green center stone; four minimal talon prongs; knife-edge gold band; no halo and no side stones. Preserve stone cut, deep forest-green color, prong count and placement, band profile, and scale.
+Panel 1 — TMALL LUXURY LAUNCH: ring stands upright inside a narrow beam of warm museum light on black lacquer, a thin circular reflection frames the stone, deep black negative space, centered ceremonial composition, emerald facets glowing from within, precise high-contrast elegance.
+Panel 2 — SHOPIFY ATELIER DETAIL: extreme 100mm macro side view resting on a folded piece of raw ivory silk, focus across prong craftsmanship and knife-edge band, soft overcast window light, one subtle fingerprint-like artisan imperfection in the gold polish, quiet heirloom authenticity, shallow depth of field.
+Panel 3 — EDITORIAL WATER CAUSTIC: ring lying on pale translucent green onyx beneath a 2mm sheet of clear water, sunlight creates fine moving caustic lines and spectral fire across the emerald and gold, airy crop with asymmetric negative space, fresh contemporary summer campaign, no splash cliché.
+Style/medium: ultra-photorealistic high-jewelry macro photography, physically accurate gemstone refraction, sharp facet junctions, controlled sparkle, rich black point, realistic gold micro-scratches, sophisticated retouching without CGI smoothness.
+Constraints: no readable text, no logo, no watermark, no hands, no ring box, no extra jewelry, no pearls, no flowers, no added stones, no floating impossible setting, no panel labels or numbers. The exact ring design must remain consistent.
 ```
 
 #### Generierte Vorschauen
 
 <p align="center">
-<img src="assets/prompts/jewelry-ring/preview-1.png" width="31%" alt="Emerald-cut ring on deep green velvet">
-<img src="assets/prompts/jewelry-ring/preview-2.png" width="31%" alt="Emerald-cut ring reflected on cobalt-lit obsidian">
-<img src="assets/prompts/jewelry-ring/preview-3.png" width="31%" alt="Emerald-cut ring on sculpted ivory stone">
+<img src="assets/prompts/jewelry-ring/preview-1.png" width="31%" alt="Emerald ring in ceremonial museum light on black lacquer">
+<img src="assets/prompts/jewelry-ring/preview-2.png" width="31%" alt="Atelier macro of emerald prongs and gold band on silk">
+<img src="assets/prompts/jewelry-ring/preview-3.png" width="31%" alt="Emerald ring under water caustics on green onyx">
 </p>
 
 #### Details
@@ -355,7 +431,7 @@ Create one seamless 3-panel horizontal contact sheet showing three clearly diffe
 |---|---|---|---|
 | CommercePrompt Atlas Studio | Originalinhalt dieses Repositorys | `jewelry` | `macro-product-hero` |
 
-- **Plattformen:** Etsy, Shopify, Amazon Luxury, Tmall Luxury
+- **Plattformen:** Tmall Luxury, Shopify, Instagram Shop
 - **Prompt-Sprache:** `en`
 - **Lizenz:** CC-BY-4.0
 - **Veröffentlicht:** 2026-07-20
@@ -368,6 +444,8 @@ Submit a prompt through the GitHub Issue form. Maintainers review attribution, r
 
 - [Contribution guide](docs/CONTRIBUTING.md)
 - [Copyright and takedown policy](docs/COPYRIGHT.md)
+- [Visual research and prompt provenance](docs/VISUAL_RESEARCH.md)
+- [Editorial policy](docs/EDITORIAL_POLICY.md)
 - [Data schema](docs/DATA_SCHEMA.md)
 - [Local development](docs/LOCAL_DEVELOPMENT.md)
 

@@ -140,6 +140,8 @@ function render(locale) {
     "",
     "- [Contribution guide](docs/CONTRIBUTING.md)",
     "- [Copyright and takedown policy](docs/COPYRIGHT.md)",
+    "- [Visual research and prompt provenance](docs/VISUAL_RESEARCH.md)",
+    "- [Editorial policy](docs/EDITORIAL_POLICY.md)",
     "- [Data schema](docs/DATA_SCHEMA.md)",
     "- [Local development](docs/LOCAL_DEVELOPMENT.md)",
     "",
@@ -154,4 +156,3 @@ for (const locale of locales) {
   fs.writeFileSync(path.join(root, locale.file), render(locale), "utf8");
   console.log(`Generated ${locale.file}`);
 }
-
