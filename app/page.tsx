@@ -229,6 +229,17 @@ const prompts: PromptItem[] = [
 const categories = ["All", "Beauty", "Fashion", "Electronics", "Food", "Home", "Jewelry", "Pet", "Outdoor"];
 const platforms = ["All platforms", "Amazon", "Shopify", "TikTok Shop", "Shopee", "Lazada", "Etsy", "Taobao"];
 
+const generatedImages: Record<string, string> = {
+  beauty: "/previews/beauty-serum-triptych.png",
+  fashion: "/previews/fashion-jacket-triptych.png",
+  electronics: "/previews/electronics-phone-triptych.png",
+  food: "/previews/food-pasta-triptych.png",
+  furniture: "/previews/furniture-sofa-triptych.png",
+  jewelry: "/previews/jewelry-ring-triptych.png",
+};
+
+const livePrompts = prompts.slice(0, 6);
+
 export default function Home() {
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState("All");
@@ -250,7 +261,7 @@ export default function Home() {
   const copy = localeCopy[language] ?? localeCopy.en;
   const filtered = useMemo(() => {
     const needle = query.trim().toLowerCase();
-    return prompts.filter((item) => {
+    return livePrompts.filter((item) => {
       const matchesQuery = !needle || `${item.title} ${item.description} ${item.category} ${item.platform}`.toLowerCase().includes(needle);
       const matchesCategory = category === "All" || item.category === category;
       const matchesPlatform = platform === "All platforms" || item.platform === platform;
@@ -269,7 +280,7 @@ export default function Home() {
   };
 
   const surprise = () => {
-    const item = prompts[Math.floor(Math.random() * prompts.length)];
+    const item = livePrompts[Math.floor(Math.random() * livePrompts.length)];
     setSelected(item);
   };
 
@@ -277,7 +288,7 @@ export default function Home() {
     <main>
       <div className="ticker" aria-label="Library update status">
         <div className="ticker-track">
-          <span><b>Fresh today</b> 12 verified launch templates</span>
+          <span><b>Fresh today</b> 6 verified prompt sets · 18 real outputs</span>
           <span>Built for GPT Image 2</span>
           <span><b>16 languages</b> ready</span>
           <span>Daily publishing pipeline</span>
@@ -364,11 +375,11 @@ export default function Home() {
           <div className="prompt-grid">
             {filtered.map((item) => (
               <article className="prompt-card" key={item.id}>
-                <button className={`visual ${item.visual}`} type="button" onClick={() => setSelected(item)} aria-label={`Open ${item.title}`}>
-                  <span className="visual-top"><span>{item.category} · {item.ratio}</span><span>{item.featured ? "Featured" : "3 previews"}</span></span>
-                  <span className="product-shape" aria-hidden="true" />
-                  <span className="visual-count">01 / 03</span>
-                </button>
+                  <button className="generated-visual" type="button" onClick={() => setSelected(item)} aria-label={`Open ${item.title}`}>
+                    <img src={generatedImages[item.visual]} alt={`GPT Image 2 example output for ${item.title}`} />
+                    <span className="visual-top"><span>{item.category} · {item.ratio}</span><span>{item.featured ? "Featured" : "3 previews"}</span></span>
+                    <span className="visual-count">01 / 03</span>
+                  </button>
                 <div className="card-body">
                   <div className="card-meta"><span>{item.platform}</span><span>{item.locale}</span></div>
                   <h3><button type="button" onClick={() => setSelected(item)}>{item.title}</button></h3>
@@ -418,14 +429,14 @@ export default function Home() {
             <button className="modal-close" type="button" onClick={() => setSelected(null)} aria-label="Close prompt">×</button>
             <div className="modal-previews">
               {[0, 1, 2].map((variant) => (
-                <div key={variant} className={`visual ${selected.visual} variant-${variant + 1}`}>
+                <div key={variant} className={`generated-crop crop-${variant + 1}`}>
+                  <img src={generatedImages[selected.visual]} alt={`Generated preview ${variant + 1} for ${selected.title}`} />
                   <span className="visual-top"><span>{selected.category} · {selected.ratio}</span><span>0{variant + 1}</span></span>
-                  <span className="product-shape" aria-hidden="true" />
                 </div>
               ))}
             </div>
             <div className="modal-content">
-              <p className="section-kicker">{selected.platform} · {selected.locale} · {selected.copies.toLocaleString()} copies</p>
+              <p className="section-kicker">{selected.platform} · {selected.locale} · 3 real outputs · Generated July 20, 2026</p>
               <h2 id="prompt-title">{selected.title}</h2>
               <p>{selected.description}</p>
               <div className="prompt-text"><code>{selected.prompt}</code></div>
