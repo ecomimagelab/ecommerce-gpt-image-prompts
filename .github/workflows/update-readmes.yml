@@ -1,0 +1,51 @@
+name: Update multilingual READMEs
+
+on:
+  schedule:
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "data/**"
+      - "scripts/**"
+      - ".github/workflows/update-readmes.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: content-writer
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Validate prompt data
+        run: npm run validate
+      - name: Generate 16 language editions
+        run: npm run generate
+      - name: Commit generated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README*.md
+          if git diff --cached --quiet; then
+            echo "No README changes."
+            exit 0
+          fi
+          git commit -m "docs: update multilingual prompt library [skip ci]"
+          for attempt in 1 2 3 4 5; do
+            if git push; then exit 0; fi
+            git pull --rebase origin main
+            sleep $((attempt * 2))
+          done
+          exit 1

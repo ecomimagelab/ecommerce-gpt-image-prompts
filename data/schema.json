@@ -1,0 +1,150 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/ecommerce-prompt.schema.json",
+  "title": "E-commerce GPT Image 2 Prompt",
+  "type": "object",
+  "required": [
+    "id",
+    "slug",
+    "model",
+    "title",
+    "description",
+    "prompt",
+    "language",
+    "industry",
+    "useCase",
+    "platforms",
+    "aspectRatios",
+    "needReferenceImages",
+    "previews",
+    "author",
+    "source",
+    "license",
+    "status",
+    "publishedAt"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^ec-[0-9]{4,}$"
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "model": {
+      "const": "gpt-image-2"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 100
+    },
+    "description": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 500
+    },
+    "prompt": {
+      "type": "string",
+      "minLength": 50
+    },
+    "language": {
+      "type": "string"
+    },
+    "industry": {
+      "type": "string"
+    },
+    "useCase": {
+      "type": "string"
+    },
+    "platforms": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "aspectRatios": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "needReferenceImages": {
+      "type": "boolean"
+    },
+    "previews": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": ["url", "alt"],
+        "properties": {
+          "url": {
+            "type": "string"
+          },
+          "alt": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "author": {
+      "type": "object",
+      "required": ["name"],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "url": {
+          "type": ["string", "null"]
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "required": ["type", "url"],
+      "properties": {
+        "type": {
+          "enum": ["original", "community", "licensed", "public-domain"]
+        },
+        "url": {
+          "type": ["string", "null"]
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "license": {
+      "type": "string"
+    },
+    "status": {
+      "enum": ["approved", "draft", "rejected", "removed"]
+    },
+    "featured": {
+      "type": "boolean"
+    },
+    "publishedAt": {
+      "type": "string",
+      "format": "date"
+    },
+    "translations": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,27 @@
+name: Set up repository labels
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/setup-labels.yml"
+
+permissions:
+  issues: write
+
+jobs:
+  labels:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create or update workflow labels
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          gh label create "prompt-submission" --color "2458FF" --description "Community prompt awaiting review" --force
+          gh label create "approved" --color "0E8A16" --description "Reviewed and approved for automatic sync" --force
+          gh label create "needs-changes" --color "FBCA04" --description "Submission requires changes before approval" --force
+          gh label create "rights-review" --color "B60205" --description "Copyright, attribution, trademark, privacy, or publicity review" --force
+

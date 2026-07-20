@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "prompts": [
+    {
+      "id": "ec-0001",
+      "slug": "luxury-serum-campaign-triptych",
+      "model": "gpt-image-2",
+      "title": "Luxury Serum Campaign Triptych",
+      "description": "Creates three consistent premium skincare campaign scenes for the same unbranded serum bottle.",
+      "prompt": "Create one seamless 3-panel horizontal contact sheet showing three clearly different premium studio campaign outputs for the same unbranded luxury facial serum bottle. Each panel must be a complete standalone 4:5-style product composition, separated by clean narrow gutters. Panel 1: warm travertine with translucent botanical shadows. Panel 2: blush-pink reflective acrylic with soft haze. Panel 3: ivory paper sculpture with golden morning light. Use the identical clear glass serum bottle in all three panels, with ivory liquid, a brushed champagne-gold dropper, and a minimal blank cream label with no writing. Photorealistic luxury skincare advertising photography, centered product hero, crisp bottle edges, elegant negative space, soft directional studio light, and controlled specular highlights. Preserve the bottle shape, cap, blank label, and liquid level across all panels. No readable text, logo, watermark, hands, extra bottles, labels, or panel numbers.",
+      "language": "en",
+      "industry": "beauty",
+      "useCase": "product-hero",
+      "platforms": ["Amazon", "Shopify", "Tmall", "Shopee"],
+      "aspectRatios": ["4:5", "1:1"],
+      "needReferenceImages": false,
+      "previews": [
+        {"url": "assets/prompts/beauty-serum/preview-1.png", "alt": "Serum bottle on warm travertine with botanical shadows"},
+        {"url": "assets/prompts/beauty-serum/preview-2.png", "alt": "Serum bottle in a blush reflective acrylic studio"},
+        {"url": "assets/prompts/beauty-serum/preview-3.png", "alt": "Serum bottle with ivory paper sculptures"}
+      ],
+      "author": {"name": "CommercePrompt Atlas Studio", "url": null},
+      "source": {"type": "original", "url": null, "notes": "Original prompt and generated previews created for this repository."},
+      "license": "CC-BY-4.0",
+      "status": "approved",
+      "featured": true,
+      "publishedAt": "2026-07-20",
+      "translations": {
+        "zh": {"title": "奢华精华液三场景广告", "description": "为同一款无品牌精华液生成三张保持产品一致性的高端护肤广告图。"}
+      }
+    },
+    {
+      "id": "ec-0002",
+      "slug": "technical-jacket-launch-triptych",
+      "model": "gpt-image-2",
+      "title": "Technical Jacket Launch Triptych",
+      "description": "Produces three cinematic launch scenes for one consistent black technical streetwear jacket.",
+      "prompt": "Create one seamless 3-panel horizontal contact sheet showing three clearly different premium launch campaign outputs for the same unbranded black technical streetwear jacket. Each panel must be a complete standalone vertical product composition, separated by clean narrow gutters. Panel 1: jacket suspended in a cobalt studio with hard diagonal light. Panel 2: urban concrete night scene with electric-lime rim lighting and subtle mist. Panel 3: minimalist silver cyclorama with a cobalt floor and crisp shadow. Use the identical black oversized technical jacket in all three panels, with matte ripstop fabric, a high collar, two symmetrical utility pockets, and a black zipper, with no model. Photorealistic premium streetwear campaign photography, full garment visible, vertical catalog framing, tactile fabric detail. Preserve the jacket silhouette, pockets, zipper, and fabric across all panels. No readable text, logo, watermark, human, extra garments, labels, or panel numbers.",
+      "language": "en",
+      "industry": "fashion",
+      "useCase": "campaign-launch",
+      "platforms": ["TikTok Shop", "Shopify", "Taobao", "Instagram Shop"],
+      "aspectRatios": ["9:16", "3:4"],
+      "needReferenceImages": false,
+      "previews": [
+        {"url": "assets/prompts/fashion-jacket/preview-1.png", "alt": "Black technical jacket in a cobalt studio"},
+        {"url": "assets/prompts/fashion-jacket/preview-2.png", "alt": "Black technical jacket in a lime-lit night scene"},
+        {"url": "assets/prompts/fashion-jacket/preview-3.png", "alt": "Black technical jacket in a silver catalog studio"}
+      ],
+      "author": {"name": "CommercePrompt Atlas Studio", "url": null},
+      "source": {"type": "original", "url": null, "notes": "Original prompt and generated previews created for this repository."},
+      "license": "CC-BY-4.0",
+      "status": "approved",
+      "featured": true,
+      "publishedAt": "2026-07-20",
+      "translations": {
+        "zh": {"title": "机能夹克三场景发布广告", "description": "为同一件黑色机能夹克生成三张具有电影感的新品发布图。"}
+      }
+    },
+    {
+      "id": "ec-0003",
+      "slug": "graphite-smartphone-feature-triptych",
+      "model": "gpt-image-2",
+      "title": "Graphite Smartphone Feature Triptych",
+      "description": "Generates three precision-oriented product feature images for a consistent unbranded smartphone.",
+      "prompt": "Create one seamless 3-panel horizontal contact sheet showing three clearly different commercial feature visuals for the same unbranded graphite smartphone. Each panel must be a complete standalone square-style product composition, separated by clean narrow gutters. Panel 1: floating three-quarter phone on dark graphite with electric-lime rim light. Panel 2: precision macro of the rear camera cluster on cobalt glass. Panel 3: side-profile and front-screen product arrangement on a clean charcoal studio platform. Use the identical premium graphite smartphone in all panels, with flat sides, three circular rear camera lenses in a triangular cluster, a blank dark screen, and no logo. Photorealistic high-end consumer electronics advertising and Amazon A+ imagery, crisp geometry, clean negative space, controlled highlights, and technical precision. Keep device dimensions, camera positions, buttons, and finish consistent. No readable text, logo, watermark, hands, brand symbols, extra camera lenses, labels, or panel numbers.",
+      "language": "en",
+      "industry": "consumer-electronics",
+      "useCase": "feature-visual",
+      "platforms": ["Amazon", "JD", "Walmart", "AliExpress"],
+      "aspectRatios": ["1:1", "16:9"],
+      "needReferenceImages": false,
+      "previews": [
+        {"url": "assets/prompts/electronics-phone/preview-1.png", "alt": "Graphite smartphone with lime rim light"},
+        {"url": "assets/prompts/electronics-phone/preview-2.png", "alt": "Macro view of a cobalt-lit smartphone camera cluster"},
+        {"url": "assets/prompts/electronics-phone/preview-3.png", "alt": "Front and side views of a graphite smartphone"}
+      ],
+      "author": {"name": "CommercePrompt Atlas Studio", "url": null},
+      "source": {"type": "original", "url": null, "notes": "Original prompt and generated previews created for this repository."},
+      "license": "CC-BY-4.0",
+      "status": "approved",
+      "featured": true,
+      "publishedAt": "2026-07-20",
+      "translations": {
+        "zh": {"title": "石墨色手机三视角卖点图", "description": "为同一款无品牌石墨色手机生成三张精密的商品卖点图。"}
+      }
+    },
+    {
+      "id": "ec-0004",
+      "slug": "spicy-pasta-delivery-triptych",
+      "model": "gpt-image-2",
+      "title": "Spicy Pasta Delivery Triptych",
+      "description": "Creates three appetizing marketplace photographs of the same spicy tomato pasta dish.",
+      "prompt": "Create one seamless 3-panel horizontal contact sheet showing three clearly different craveable commercial photographs of the same bowl of spicy tomato pasta. Each panel must be a complete standalone 4:5-style food delivery composition, separated by clean narrow gutters. Panel 1: warm editorial overhead on rustic cream linen. Panel 2: dramatic three-quarter close shot on an amber restaurant table with visible steam. Panel 3: bright modern delivery-app hero on saturated orange with restrained basil garnish. Use the same ceramic bowl, generous portion of tomato pasta, parmesan, and basil across all panels. Photorealistic premium food advertising and delivery marketplace photography, appetizing hero ingredients, realistic sauce texture, and controlled garnish. Keep the bowl and meal identity consistent. No readable text, logo, watermark, hands, utensils covering the food, duplicated ingredients, plastic-looking food, labels, or panel numbers.",
+      "language": "en",
+      "industry": "food-and-beverage",
+      "useCase": "menu-hero",
+      "platforms": ["DoorDash", "Uber Eats", "Meituan", "Deliveroo"],
+      "aspectRatios": ["4:5", "1:1"],
+      "needReferenceImages": false,
+      "previews": [
+        {"url": "assets/prompts/food-pasta/preview-1.png", "alt": "Overhead spicy pasta on rustic cream linen"},
+        {"url": "assets/prompts/food-pasta/preview-2.png", "alt": "Steaming spicy pasta in a warm restaurant scene"},
+        {"url": "assets/prompts/food-pasta/preview-3.png", "alt": "Spicy pasta on a saturated orange backdrop"}
+      ],
+      "author": {"name": "CommercePrompt Atlas Studio", "url": null},
+      "source": {"type": "original", "url": null, "notes": "Original prompt and generated previews created for this repository."},
+      "license": "CC-BY-4.0",
+      "status": "approved",
+      "featured": false,
+      "publishedAt": "2026-07-20",
+      "translations": {
+        "zh": {"title": "香辣意面三场景外卖主图", "description": "为同一份香辣番茄意面生成三张具有食欲感的商业餐饮图片。"}
+      }
+    },
+    {
+      "id": "ec-0005",
+      "slug": "sage-sofa-lifestyle-triptych",
+      "model": "gpt-image-2",
+      "title": "Sage Sofa Lifestyle Triptych",
+      "description": "Places the same sage-green sofa into three distinct premium catalog interiors.",
+      "prompt": "Create one seamless 3-panel horizontal contact sheet showing the same premium sage-green three-seat sofa placed in three clearly different e-commerce lifestyle scenes. Each panel must be a complete standalone wide product composition, separated by clean narrow gutters. Panel 1: sunlit Scandinavian apartment with pale oak and limestone. Panel 2: warm modern loft with textured plaster and low evening light. Panel 3: minimalist bright catalog studio with ivory architectural arches and a cobalt accent book. Use the identical sage-green three-seat sofa in all panels, with rounded arms, three back cushions, two seat cushions, slim dark walnut legs, and subtle woven upholstery. Photorealistic premium furniture catalog and lifestyle photography, sofa fully visible, correct floor contact and perspective, and clean negative space. Preserve the sofa silhouette, cushion count, upholstery color, seams, and legs. No readable text, logo, watermark, people, duplicate sofa, clutter, labels, or panel numbers.",
+      "language": "en",
+      "industry": "home-and-furniture",
+      "useCase": "lifestyle-scene",
+      "platforms": ["Wayfair", "Amazon", "IKEA Marketplace", "Taobao"],
+      "aspectRatios": ["16:9", "4:5"],
+      "needReferenceImages": false,
+      "previews": [
+        {"url": "assets/prompts/furniture-sofa/preview-1.png", "alt": "Sage sofa in a sunlit Scandinavian apartment"},
+        {"url": "assets/prompts/furniture-sofa/preview-2.png", "alt": "Sage sofa in a warm modern loft"},
+        {"url": "assets/prompts/furniture-sofa/preview-3.png", "alt": "Sage sofa in a minimalist ivory studio"}
+      ],
+      "author": {"name": "CommercePrompt Atlas Studio", "url": null},
+      "source": {"type": "original", "url": null, "notes": "Original prompt and generated previews created for this repository."},
+      "license": "CC-BY-4.0",
+      "status": "approved",
+      "featured": false,
+      "publishedAt": "2026-07-20",
+      "translations": {
+        "zh": {"title": "鼠尾草绿沙发三场景生活方式图", "description": "将同一张鼠尾草绿色沙发放入三种不同的高端家居目录场景。"}
+      }
+    },
+    {
+      "id": "ec-0006",
+      "slug": "emerald-ring-macro-triptych",
+      "model": "gpt-image-2",
+      "title": "Emerald Ring Macro Triptych",
+      "description": "Produces three luxury macro scenes for one consistent emerald-cut gemstone ring.",
+      "prompt": "Create one seamless 3-panel horizontal contact sheet showing three clearly different luxury macro campaign outputs for the same unbranded emerald-cut green gemstone ring. Each panel must be a complete standalone square-style jewelry composition, separated by clean narrow gutters. Panel 1: ring on deep emerald velvet with a warm spotlight. Panel 2: ring reflected on midnight-blue obsidian with a narrow cobalt beam. Panel 3: ring on sculpted ivory stone with soft golden morning light. Use the identical yellow-gold ring in every panel, with one large emerald-cut green center stone, a slim band, four clean prongs, no halo, and no side stones. Ultra-photorealistic high-jewelry macro advertising photography, precise faceting, elegant negative space, controlled sparkle, and premium marketplace composition. Keep the center stone cut, four-prong setting, band profile, and gold color consistent. No readable text, logo, watermark, hands, extra jewelry, added stones, labels, or panel numbers.",
+      "language": "en",
+      "industry": "jewelry",
+      "useCase": "macro-product-hero",
+      "platforms": ["Etsy", "Shopify", "Amazon Luxury", "Tmall Luxury"],
+      "aspectRatios": ["1:1", "4:5"],
+      "needReferenceImages": false,
+      "previews": [
+        {"url": "assets/prompts/jewelry-ring/preview-1.png", "alt": "Emerald-cut ring on deep green velvet"},
+        {"url": "assets/prompts/jewelry-ring/preview-2.png", "alt": "Emerald-cut ring reflected on cobalt-lit obsidian"},
+        {"url": "assets/prompts/jewelry-ring/preview-3.png", "alt": "Emerald-cut ring on sculpted ivory stone"}
+      ],
+      "author": {"name": "CommercePrompt Atlas Studio", "url": null},
+      "source": {"type": "original", "url": null, "notes": "Original prompt and generated previews created for this repository."},
+      "license": "CC-BY-4.0",
+      "status": "approved",
+      "featured": false,
+      "publishedAt": "2026-07-20",
+      "translations": {
+        "zh": {"title": "祖母绿戒指三场景微距广告", "description": "为同一枚祖母绿切割宝石戒指生成三张奢华微距广告图。"}
+      }
+    }
+  ]
+}

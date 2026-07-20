@@ -1,0 +1,183 @@
+name: Submit an e-commerce prompt
+description: Submit a GPT Image 2 prompt with multiple generated previews
+title: "[Prompt] "
+labels:
+  - prompt-submission
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Submit an e-commerce GPT Image 2 prompt
+
+        Submissions must be original, licensed, or correctly attributed. By submitting, you confirm that you have the right to share the prompt and preview images under CC BY 4.0.
+
+        Maintainers review every submission. Only issues carrying the `approved` label are added to the library.
+
+  - type: input
+    id: prompt_title
+    attributes:
+      label: Prompt Title
+      description: A clear, descriptive title of no more than 100 characters.
+      placeholder: Luxury skincare serum hero with botanical shadows
+    validations:
+      required: true
+
+  - type: textarea
+    id: prompt
+    attributes:
+      label: Prompt
+      description: The complete, reproducible GPT Image 2 prompt.
+      render: text
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Explain what the prompt creates and when an e-commerce team should use it.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: industry
+    attributes:
+      label: Industry
+      options:
+        - beauty
+        - fashion
+        - consumer-electronics
+        - food-and-beverage
+        - home-and-furniture
+        - jewelry
+        - automotive
+        - sports-and-outdoor
+        - pet
+        - baby-and-kids
+        - healthcare
+        - industrial-and-b2b
+        - digital-products
+        - other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: use_case
+    attributes:
+      label: Use Case
+      options:
+        - product-hero
+        - white-background-main-image
+        - lifestyle-scene
+        - feature-visual
+        - comparison-chart
+        - exploded-view
+        - packaging-concept
+        - detail-page
+        - a-plus-content
+        - campaign-launch
+        - social-ad
+        - virtual-try-on
+        - menu-hero
+        - other
+    validations:
+      required: true
+
+  - type: input
+    id: platforms
+    attributes:
+      label: Platforms
+      description: Comma-separated e-commerce platforms.
+      placeholder: Amazon, Shopify, TikTok Shop
+    validations:
+      required: true
+
+  - type: input
+    id: aspect_ratios
+    attributes:
+      label: Aspect Ratios
+      description: Comma-separated recommended aspect ratios.
+      placeholder: 1:1, 4:5
+    validations:
+      required: true
+
+  - type: dropdown
+    id: need_reference_images
+    attributes:
+      label: Need Reference Images
+      options:
+        - "false"
+        - "true"
+    validations:
+      required: true
+
+  - type: textarea
+    id: generated_image_urls
+    attributes:
+      label: Generated Image URLs
+      description: At least two public HTTPS image URLs, one per line. Recommended width is 1024–2048 px.
+      placeholder: |
+        https://example.com/preview-1.png
+        https://example.com/preview-2.png
+        https://example.com/preview-3.png
+    validations:
+      required: true
+
+  - type: input
+    id: original_author
+    attributes:
+      label: Original Author
+      description: The creator’s name or handle.
+    validations:
+      required: true
+
+  - type: input
+    id: author_profile_link
+    attributes:
+      label: Author Profile Link
+      description: A public author profile or portfolio URL.
+
+  - type: input
+    id: source_link
+    attributes:
+      label: Source Link
+      description: Link to the original publication. Leave blank only for your own unpublished work.
+
+  - type: dropdown
+    id: prompt_language
+    attributes:
+      label: Prompt Language
+      options:
+        - en
+        - zh
+        - zh-TW
+        - ja-JP
+        - ko-KR
+        - th-TH
+        - vi-VN
+        - hi-IN
+        - es-ES
+        - es-419
+        - de-DE
+        - fr-FR
+        - it-IT
+        - pt-BR
+        - pt-PT
+        - tr-TR
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: Rights and License
+      options:
+        - label: I have the right to submit the prompt and preview images.
+          required: true
+        - label: I agree to license my contribution under CC BY 4.0.
+          required: true
+        - label: I have disclosed the original author and source where applicable.
+          required: true
+        - label: The submission contains no unsafe, deceptive, or infringing content.
+          required: true
+

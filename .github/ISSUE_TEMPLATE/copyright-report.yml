@@ -1,0 +1,51 @@
+name: Copyright or rights report
+description: Request attribution correction or removal of disputed content
+title: "[Rights] "
+labels:
+  - rights-review
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We take authorship, copyright, trademark, privacy, and publicity rights seriously. Provide enough information for maintainers to identify and review the material.
+
+  - type: input
+    id: content
+    attributes:
+      label: Content URL or prompt ID
+      placeholder: https://github.com/owner/repository#... or ec-0001
+    validations:
+      required: true
+
+  - type: textarea
+    id: relationship
+    attributes:
+      label: Your relationship to the work
+      description: Explain whether you are the creator, rights holder, authorized representative, or another affected party.
+    validations:
+      required: true
+
+  - type: textarea
+    id: request
+    attributes:
+      label: Requested resolution
+      description: Describe the correction, attribution update, or removal requested.
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Supporting evidence
+      description: Provide original publication links or other non-sensitive evidence. Do not post private identity documents.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: declaration
+    attributes:
+      label: Declaration
+      options:
+        - label: I believe the information in this report is accurate and submitted in good faith.
+          required: true
+

@@ -1,0 +1,59 @@
+name: Sync approved prompt
+
+on:
+  issues:
+    types:
+      - labeled
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: content-writer
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    if: github.event.label.name == 'approved'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Parse approved issue into structured data
+        run: node scripts/sync-approved-issue.mjs
+      - name: Validate and regenerate READMEs
+        run: |
+          npm run validate
+          npm run generate
+      - name: Commit approved prompt
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/prompts.json README*.md
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git commit -m "content: approve prompt from issue #${{ github.event.issue.number }}"
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              echo "changed=true" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            git pull --rebase origin main
+            sleep $((attempt * 2))
+          done
+          exit 1
+      - name: Confirm sync on the issue
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue comment "${{ github.event.issue.number }}" --body "Approved and added to the structured prompt library. Multilingual READMEs have been regenerated."
+          gh issue close "${{ github.event.issue.number }}" --reason completed
