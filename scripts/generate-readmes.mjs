@@ -21,7 +21,9 @@ for (const prompt of prompts) {
 
 function languageNav(current) {
   return locales.map((locale) => {
-    const label = locale.code === current.code ? `**${locale.name}**` : `[${locale.name}](${locale.file})`;
+    const label = locale.code === current.code
+      ? `<strong>${locale.name}</strong>`
+      : `<a href="${locale.file}">${locale.name}</a>`;
     return label;
   }).join(" · ");
 }
@@ -100,21 +102,30 @@ function render(locale) {
     "",
     `<p align="center">${s.tagline}</p>`,
     "",
+    `<p align="center"><img src="assets/cover.png" width="100%" alt="${escapeTable(s.title)}"></p>`,
+    "",
     '<p align="center">',
     "  <img alt=\"GPT Image 2\" src=\"https://img.shields.io/badge/Model-GPT%20Image%202-2458ff\">",
     "  <img alt=\"Languages\" src=\"https://img.shields.io/badge/Languages-16-c7ff35\">",
     "  <img alt=\"License\" src=\"https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey\">",
     "  <img alt=\"PRs welcome\" src=\"https://img.shields.io/badge/PRs-welcome-brightgreen\">",
+    "  <a href=\"https://github.com/ecomimagelab/awesome-ecommerce-gpt-image-2/issues/new?template=submit-prompt.yml\"><img alt=\"Submit a prompt\" src=\"https://img.shields.io/badge/Submit-a%20prompt-c9ff3d\"></a>",
     "</p>",
     "",
     `<p align="center">${languageNav(locale)}</p>`,
     "",
+    `<p align="center"><a href="#browse">${s.categories}</a> · <a href="#featured">${s.featured}</a> · <a href="#all-prompts">${s.allPrompts}</a> · <a href="#contribute">${s.contribute}</a></p>`,
+    "",
     "> [!IMPORTANT]",
     `> ${s.notice}`,
+    "",
+    '<a id="about"></a>',
     "",
     `## ${s.about}`,
     "",
     s.aboutText,
+    "",
+    '<a id="statistics"></a>',
     "",
     `## ${s.statistics}`,
     "",
@@ -122,18 +133,26 @@ function render(locale) {
     "|---:|---:|---:|---|",
     `| **${prompts.length}** | **${industryGroups.size}** | **${platformCount}** | **${data.updatedAt.slice(0, 10)}** |`,
     "",
+    '<a id="browse"></a>',
+    "",
     `## ${s.categories}`,
     "",
     `| ${s.industry} | ${s.totalPrompts} |`,
     "|---|---:|",
     categoryRows,
     "",
+    '<a id="featured"></a>',
+    "",
     `## ${s.featured}`,
     "",
     featuredBlocks,
+    '<a id="all-prompts"></a>',
+    "",
     `## ${s.allPrompts}`,
     "",
     allBlocks,
+    '<a id="contribute"></a>',
+    "",
     `## ${s.contribute}`,
     "",
     s.contributeText,
