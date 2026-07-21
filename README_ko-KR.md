@@ -33,7 +33,7 @@ This repository collects reproducible e-commerce image prompts with structured m
 
 | Approved prompts | Industries | Platforms | Last updated |
 |---:|---:|---:|---|
-| **12** | **12** | **21** | **2026-07-21** |
+| **18** | **18** | **27** | **2026-07-21** |
 
 <a id="browse"></a>
 
@@ -42,17 +42,23 @@ This repository collects reproducible e-commerce image prompts with structured m
 | 산업 | Approved prompts |
 |---|---:|
 | [automotive-accessories](#automotive-accessories) | 1 |
+| [bags-and-accessories](#bags-and-accessories) | 1 |
 | [beauty](#beauty) | 1 |
+| [bedding-and-textiles](#bedding-and-textiles) | 1 |
 | [consumer-electronics](#consumer-electronics) | 1 |
+| [cycling](#cycling) | 1 |
 | [fashion](#fashion) | 1 |
 | [food-and-beverage](#food-and-beverage) | 1 |
 | [footwear](#footwear) | 1 |
+| [garden-and-planters](#garden-and-planters) | 1 |
 | [home-and-furniture](#home-and-furniture) | 1 |
 | [jewelry](#jewelry) | 1 |
 | [kitchen-appliances](#kitchen-appliances) | 1 |
 | [outdoor-gear](#outdoor-gear) | 1 |
 | [pet-supplies](#pet-supplies) | 1 |
+| [tea-and-grocery](#tea-and-grocery) | 1 |
 | [toys-and-kids](#toys-and-kids) | 1 |
+| [watches](#watches) | 1 |
 
 <a id="featured"></a>
 
@@ -144,7 +150,93 @@ Constraints: no readable text, no logos, no watermark, no extra tent, no people,
 
 ---
 
-### 3. Platform-Native Serum Art Direction Triptych
+### 3. Bronze Mechanical Watch Triptych
+
+⭐ **Featured**
+
+#### 설명
+
+Moves one bronze mechanical watch from collector-grade catalog precision to a ceremonial launch and a quiet wrist editorial.
+
+#### 프롬프트
+
+```text
+Use case: ads-marketing
+Asset type: three premium watch-commerce previews in one seamless horizontal contact sheet
+Primary request: Create a museum-level 3-panel horizontal contact sheet for the exact same unbranded mechanical wristwatch, with distinct Chrono24 catalog, Tmall Luxury launch, and Instagram editorial treatments. Each panel is a complete standalone vertical 4:5 image, separated by hairline black gutters.
+Product invariant: identical watch in every panel; 38 mm brushed bronze cushion case, deep moss-green sunray dial, twelve slim applied gold baton hour markers with no numerals, two gold dauphine hands fixed at 10:10, small seconds subdial at 6 o'clock, domed crystal, dark brown suede strap with tonal stitching, no logo and no date window. Preserve case shape, crown position, marker layout, hand style, dial color and strap.
+Panel 1 — CHRONO24 CATALOG: watch alone lying flat at a slight diagonal on pure warm white, buckle and most of the strap visible while the lower strap end may meet the frame edge, clean overhead precision, soft contact shadow, accurate proportions, crisp bezel and dial, no props.
+Panel 2 — TMALL LUXURY LAUNCH: watch upright on a narrow slab of smoked amber glass in deep black space, a controlled warm spotlight catches the bronze edge and green dial, one subtle circular reflection, ceremonial high contrast, exact face remains readable.
+Panel 3 — INSTAGRAM EDITORIAL: same watch worn on one adult wrist emerging from a charcoal wool sleeve, natural relaxed pose against weathered olive stone, low winter sunlight and a narrow shadow line, tactile skin, suede and metal, quiet collector mood.
+Style/medium: ultra-photorealistic high-watchmaking photography, physically accurate bronze patina, optical crystal, sunray dial and suede nap, disciplined retouching, rich but natural black point.
+Constraints: no readable text, no logo, no watermark, no extra watch, no jewelry, no distorted wrist or fingers, no duplicate crown, no incorrect numerals, no panel labels or numbers. Keep the exact watch design and 10:10 hand position consistent.
+```
+
+#### 생성 미리보기
+
+<p align="center">
+<img src="assets/prompts/watch-bronze/preview-1.png" width="31%" alt="Bronze mechanical watch collector catalog image">
+<img src="assets/prompts/watch-bronze/preview-2.png" width="31%" alt="Bronze watch luxury launch on smoked amber glass">
+<img src="assets/prompts/watch-bronze/preview-3.png" width="31%" alt="Bronze watch wrist editorial against olive stone">
+</p>
+
+#### 세부 정보
+
+| 작성자 | 출처 | 산업 | 사용 사례 |
+|---|---|---|---|
+| CommercePrompt Atlas Studio | 이 저장소의 오리지널 콘텐츠 | `watches` | `collector-campaign` |
+
+- **플랫폼:** Chrono24, Tmall Luxury, Instagram Shop
+- **프롬프트 언어:** `en`
+- **라이선스:** CC-BY-4.0
+- **게시일:** 2026-07-21
+
+---
+
+### 4. Oxblood Shoulder Bag Triptych
+
+⭐ **Featured**
+
+#### 설명
+
+Combines luxury catalog clarity, social-native street movement, and an architectural still life for one sculptural bag.
+
+#### 프롬프트
+
+```text
+Use case: ads-marketing
+Asset type: three premium handbag-commerce previews in one seamless horizontal contact sheet
+Primary request: Create a high-fashion 3-panel horizontal contact sheet for the exact same unbranded sculptural shoulder bag, with distinct Farfetch catalog, TikTok Shop street-style, and Pinterest architectural still-life treatments. Each panel is a complete standalone vertical 4:5 image, separated by narrow ivory gutters.
+Product invariant: identical compact crescent shoulder bag in every panel; deep oxblood pebbled calf leather, softly folded crescent body, one wide matching leather shoulder strap with two brushed silver rectangular buckles, concealed top zipper, three subtle vertical gusset seams, no logo and no charm. Preserve silhouette, strap width, two buckles, seam map, hardware finish and color.
+Panel 1 — FARFETCH CATALOG: bag alone, front three-quarter view on pure #FFFFFF, strap arranged in a clean natural arc, entire product visible, gentle grounding shadow, crisp leather grain and accurate proportions, no props.
+Panel 2 — TIKTOK SHOP STREET STYLE: same bag worn on the shoulder of one adult model in an oversized dove-gray wool coat, crop from neck to thigh while walking through a sunlit crosswalk, bag remains sharp, coat and background carry slight directional motion, direct winter sun, effortless social-native luxury, no face required.
+Panel 3 — PINTEREST ARCHITECTURAL STILL LIFE: bag resting on intersecting slabs of pale pink travertine and smoked mirror, one narrow shaft of burgundy-tinted light creates long geometric shadows, asymmetrical gallery composition, tactile leather and cool silver hardware, sophisticated collectible-design mood.
+Style/medium: ultra-photorealistic contemporary luxury fashion photography, authentic pebbled leather, refined hardware reflections, subtle film grain, oxblood/gray/travertine palette, no glossy CGI.
+Constraints: no readable text, no logos, no watermark, no extra bag, no duplicated strap, no gold hardware, no hands covering the product, no distorted body, no panel labels or numbers. Keep the exact bag design consistent across all panels.
+```
+
+#### 생성 미리보기
+
+<p align="center">
+<img src="assets/prompts/accessories-oxblood-bag/preview-1.png" width="31%" alt="Oxblood shoulder bag luxury catalog hero">
+<img src="assets/prompts/accessories-oxblood-bag/preview-2.png" width="31%" alt="Oxblood bag in a street-style motion campaign">
+<img src="assets/prompts/accessories-oxblood-bag/preview-3.png" width="31%" alt="Oxblood bag architectural still life on travertine">
+</p>
+
+#### 세부 정보
+
+| 작성자 | 출처 | 산업 | 사용 사례 |
+|---|---|---|---|
+| CommercePrompt Atlas Studio | 이 저장소의 오리지널 콘텐츠 | `bags-and-accessories` | `luxury-fashion-campaign` |
+
+- **플랫폼:** Farfetch, TikTok Shop, Pinterest
+- **프롬프트 언어:** `en`
+- **라이선스:** CC-BY-4.0
+- **게시일:** 2026-07-21
+
+---
+
+### 5. Platform-Native Serum Art Direction Triptych
 
 ⭐ **Featured**
 
@@ -188,7 +280,7 @@ Constraints: no readable text, no logo, no watermark, no hands, no flowers, no s
 
 ---
 
-### 4. Social-Native Technical Jacket Triptych
+### 6. Social-Native Technical Jacket Triptych
 
 ⭐ **Featured**
 
@@ -231,7 +323,7 @@ Constraints: no readable text, no logos, no watermark, no extra jacket, no unrel
 
 ---
 
-### 5. Marketplace Smartphone Conversion Triptych
+### 7. Marketplace Smartphone Conversion Triptych
 
 ⭐ **Featured**
 
@@ -321,6 +413,51 @@ Constraints: no readable text, no logos, no watermark, no extra vacuum, no dupli
 
 ---
 
+## bags-and-accessories
+
+### 1. Oxblood Shoulder Bag Triptych
+
+⭐ **Featured**
+
+#### 설명
+
+Combines luxury catalog clarity, social-native street movement, and an architectural still life for one sculptural bag.
+
+#### 프롬프트
+
+```text
+Use case: ads-marketing
+Asset type: three premium handbag-commerce previews in one seamless horizontal contact sheet
+Primary request: Create a high-fashion 3-panel horizontal contact sheet for the exact same unbranded sculptural shoulder bag, with distinct Farfetch catalog, TikTok Shop street-style, and Pinterest architectural still-life treatments. Each panel is a complete standalone vertical 4:5 image, separated by narrow ivory gutters.
+Product invariant: identical compact crescent shoulder bag in every panel; deep oxblood pebbled calf leather, softly folded crescent body, one wide matching leather shoulder strap with two brushed silver rectangular buckles, concealed top zipper, three subtle vertical gusset seams, no logo and no charm. Preserve silhouette, strap width, two buckles, seam map, hardware finish and color.
+Panel 1 — FARFETCH CATALOG: bag alone, front three-quarter view on pure #FFFFFF, strap arranged in a clean natural arc, entire product visible, gentle grounding shadow, crisp leather grain and accurate proportions, no props.
+Panel 2 — TIKTOK SHOP STREET STYLE: same bag worn on the shoulder of one adult model in an oversized dove-gray wool coat, crop from neck to thigh while walking through a sunlit crosswalk, bag remains sharp, coat and background carry slight directional motion, direct winter sun, effortless social-native luxury, no face required.
+Panel 3 — PINTEREST ARCHITECTURAL STILL LIFE: bag resting on intersecting slabs of pale pink travertine and smoked mirror, one narrow shaft of burgundy-tinted light creates long geometric shadows, asymmetrical gallery composition, tactile leather and cool silver hardware, sophisticated collectible-design mood.
+Style/medium: ultra-photorealistic contemporary luxury fashion photography, authentic pebbled leather, refined hardware reflections, subtle film grain, oxblood/gray/travertine palette, no glossy CGI.
+Constraints: no readable text, no logos, no watermark, no extra bag, no duplicated strap, no gold hardware, no hands covering the product, no distorted body, no panel labels or numbers. Keep the exact bag design consistent across all panels.
+```
+
+#### 생성 미리보기
+
+<p align="center">
+<img src="assets/prompts/accessories-oxblood-bag/preview-1.png" width="31%" alt="Oxblood shoulder bag luxury catalog hero">
+<img src="assets/prompts/accessories-oxblood-bag/preview-2.png" width="31%" alt="Oxblood bag in a street-style motion campaign">
+<img src="assets/prompts/accessories-oxblood-bag/preview-3.png" width="31%" alt="Oxblood bag architectural still life on travertine">
+</p>
+
+#### 세부 정보
+
+| 작성자 | 출처 | 산업 | 사용 사례 |
+|---|---|---|---|
+| CommercePrompt Atlas Studio | 이 저장소의 오리지널 콘텐츠 | `bags-and-accessories` | `luxury-fashion-campaign` |
+
+- **플랫폼:** Farfetch, TikTok Shop, Pinterest
+- **프롬프트 언어:** `en`
+- **라이선스:** CC-BY-4.0
+- **게시일:** 2026-07-21
+
+---
+
 ## beauty
 
 ### 1. Platform-Native Serum Art Direction Triptych
@@ -367,6 +504,49 @@ Constraints: no readable text, no logo, no watermark, no hands, no flowers, no s
 
 ---
 
+## bedding-and-textiles
+
+### 1. Sage Linen Bedding Triptych
+
+#### 설명
+
+Shows one washed-linen bedding set as a clean folded catalog, a restful bedroom, and a textile-first editorial.
+
+#### 프롬프트
+
+```text
+Use case: ads-marketing
+Asset type: three premium bedding-commerce previews in one seamless horizontal contact sheet
+Primary request: Create a tactile 3-panel horizontal contact sheet for the exact same queen-size washed-linen bedding set, with distinct Amazon Home catalog, Shopify bedroom lifestyle, and Pinterest slow-living editorial treatments. Each panel is a complete standalone vertical 4:5 image, separated by narrow warm-white gutters.
+Product invariant: identical bedding fabric and color in every panel; mineral sage-green European flax linen with a very fine double clay-red pinstripe near every hem, visible relaxed crinkle, one duvet cover, one fitted sheet and two standard pillowcases, no logo. Preserve sage tone, red double-stripe hem detail, weave and soft washed finish.
+Panel 1 — AMAZON HOME CATALOG: complete set folded into one precise but softly textured stack on pure #FFFFFF, duvet at base, fitted sheet in middle, two pillowcases on top, stripe hems visible, centered with subtle natural shadow, no bed and no props.
+Panel 2 — SHOPIFY BEDROOM LIFESTYLE: same set dressed on a low oak platform queen bed in a limewashed warm-white room, duvet loosely turned back, two pillows only, pinstripe edges readable, early morning side light, one small travertine bedside ledge and no decorative clutter, restful lived-in luxury.
+Panel 3 — PINTEREST SLOW-LIVING EDITORIAL: intimate overhead crop of the same sage duvet and one pillow in rumpled folds, a broad rectangle of late-afternoon light, the clay-red double stripe crosses the composition diagonally, one open unprinted cream book at the edge, textile-first art direction and generous negative space.
+Style/medium: ultra-photorealistic premium textile and interior photography, visible linen fibers, accurate weave and wrinkles, soft natural color science, quiet editorial restraint, never synthetic or over-smoothed.
+Constraints: no readable text, no logos, no watermark, no people, no extra pillows, no patterned blanket, no flowers, no unrelated decor, no color drift, no panel labels or numbers. Keep the exact sage fabric and double clay-red stripe consistent.
+```
+
+#### 생성 미리보기
+
+<p align="center">
+<img src="assets/prompts/bedding-sage-linen/preview-1.png" width="31%" alt="Folded sage linen bedding catalog stack">
+<img src="assets/prompts/bedding-sage-linen/preview-2.png" width="31%" alt="Sage linen bedding in a quiet oak bedroom">
+<img src="assets/prompts/bedding-sage-linen/preview-3.png" width="31%" alt="Sage linen textile editorial with red pinstripe hems">
+</p>
+
+#### 세부 정보
+
+| 작성자 | 출처 | 산업 | 사용 사례 |
+|---|---|---|---|
+| CommercePrompt Atlas Studio | 이 저장소의 오리지널 콘텐츠 | `bedding-and-textiles` | `textile-lifestyle` |
+
+- **플랫폼:** Amazon Home, Shopify, Pinterest
+- **프롬프트 언어:** `en`
+- **라이선스:** CC-BY-4.0
+- **게시일:** 2026-07-21
+
+---
+
 ## consumer-electronics
 
 ### 1. Marketplace Smartphone Conversion Triptych
@@ -409,6 +589,49 @@ Constraints: no readable text, no logo, no watermark, no hands, no cable, no cas
 - **프롬프트 언어:** `en`
 - **라이선스:** CC-BY-4.0
 - **게시일:** 2026-07-20
+
+---
+
+## cycling
+
+### 1. Aero Road Helmet Triptych
+
+#### 설명
+
+Combines a clean sports catalog, an airflow feature visual, and a sunrise action campaign for one road helmet.
+
+#### 프롬프트
+
+```text
+Use case: ads-marketing
+Asset type: three premium cycling-commerce previews in one seamless horizontal contact sheet
+Primary request: Create a performance-led 3-panel horizontal contact sheet for the exact same unbranded aerodynamic road-cycling helmet, with distinct Amazon Sports catalog, Decathlon-style feature visualization, and Instagram action-campaign treatments. Each panel is a complete standalone vertical 4:5 image, separated by narrow electric-blue gutters.
+Product invariant: identical helmet in every panel; matte pearl-white aerodynamic shell, elongated tapered rear, three long central top vents with shorter side vents, thin black lower edge, electric-blue interior padding glimpsed through vents, black Y-straps and small magnetic buckle, no visor and no logo. Preserve shell silhouette, vent layout, rear taper, edge and strap colors.
+Panel 1 — AMAZON SPORTS CATALOG: helmet alone in clean side three-quarter view on pure #FFFFFF, entire shell and straps visible, realistic soft grounding shadow, crisp ventilation geometry and honest proportions, no props.
+Panel 2 — FEATURE AIRFLOW VISUAL: same helmet floating above a dark navy plinth, front three-quarter angle, restrained translucent electric-blue airflow ribbons enter the front vents and exit the tapered rear, physically coherent flow with the helmet unobstructed, cool rim light and engineering precision, no labels or exploded parts.
+Panel 3 — INSTAGRAM ACTION CAMPAIGN: same helmet worn correctly by one adult road cyclist, close side profile from shoulders up while riding at sunrise on a clean mountain road, helmet tack-sharp, background and jersey show controlled speed blur, warm horizon light meets cool blue edge reflection, authentic fit and straps.
+Style/medium: ultra-photorealistic premium sports-product photography, physically plausible polycarbonate shell, foam edge, fabric straps and skin, clean pearl/black/electric-blue palette, dynamic but credible.
+Constraints: no readable text, no logos, no watermark, no extra helmet, no bicycle brand, no distorted face or straps, no missing buckle, no impossible airflow, no crash scene, no panel labels or numbers. Keep the exact helmet design consistent across all panels.
+```
+
+#### 생성 미리보기
+
+<p align="center">
+<img src="assets/prompts/cycling-road-helmet/preview-1.png" width="31%" alt="Pearl-white road helmet catalog image">
+<img src="assets/prompts/cycling-road-helmet/preview-2.png" width="31%" alt="Road helmet airflow feature visualization">
+<img src="assets/prompts/cycling-road-helmet/preview-3.png" width="31%" alt="Road cyclist wearing the helmet at sunrise">
+</p>
+
+#### 세부 정보
+
+| 작성자 | 출처 | 산업 | 사용 사례 |
+|---|---|---|---|
+| CommercePrompt Atlas Studio | 이 저장소의 오리지널 콘텐츠 | `cycling` | `performance-feature` |
+
+- **플랫폼:** Amazon Sports, Decathlon, Instagram Shop
+- **프롬프트 언어:** `en`
+- **라이선스:** CC-BY-4.0
+- **게시일:** 2026-07-21
 
 ---
 
@@ -539,6 +762,49 @@ Constraints: no readable text, no logos, no watermark, no extra shoe or pair, no
 | CommercePrompt Atlas Studio | 이 저장소의 오리지널 콘텐츠 | `footwear` | `multi-platform-campaign` |
 
 - **플랫폼:** Amazon Fashion, TikTok Shop, Pinterest
+- **프롬프트 언어:** `en`
+- **라이선스:** CC-BY-4.0
+- **게시일:** 2026-07-21
+
+---
+
+## garden-and-planters
+
+### 1. Cobalt Ceramic Planter Triptych
+
+#### 설명
+
+Balances handmade provenance, marketplace clarity, and a Mediterranean interior story for one ceramic planter.
+
+#### 프롬프트
+
+```text
+Use case: product-mockup
+Asset type: three premium planter-commerce previews in one seamless horizontal contact sheet
+Primary request: Create an artful 3-panel horizontal contact sheet for the exact same unbranded hand-finished ceramic planter, with distinct Etsy maker story, Wayfair catalog, and Pinterest interior-editorial treatments. Each panel is a complete standalone vertical 4:5 image, separated by narrow cobalt gutters.
+Product invariant: identical medium cylindrical planter in every panel; warm chalk-white stoneware, slightly irregular hand-thrown rim, broad evenly spaced vertical flutes, one hand-painted cobalt-blue crescent brushstroke wrapping across the front flutes, matching low saucer, one drainage hole, no logo. Preserve proportions, fluting, cobalt crescent position, rim and saucer.
+Panel 1 — ETSY MAKER STORY: empty planter and saucer on a worn pale-wood workbench, front three-quarter view, a small natural sea sponge and one cobalt-stained brush softly out of focus at the edge, north-window light, visible clay speckle and brush texture, authentic handmade calm.
+Panel 2 — WAYFAIR CATALOG: empty planter centered alone with its saucer on pure #FFFFFF, fully visible, straight-on three-quarter view, accurate scale and clean silhouette, subtle grounding shadow, no tools and no plant.
+Panel 3 — PINTEREST INTERIOR EDITORIAL: same planter holding one sculptural young olive tree in a sunken limestone living room, planter is the clear foreground subject, raked Mediterranean afternoon sun creates leaf shadows across a limewashed wall, quiet collectible-design atmosphere, no other pots.
+Style/medium: ultra-photorealistic premium ceramics and interior photography, authentic stoneware grain, imperfect hand-painted cobalt, realistic soil and olive leaves, refined chalk/cobalt/limestone palette.
+Constraints: no readable text, no logos, no watermark, no extra planter, no flowers, no decorative pattern beyond the single cobalt crescent, no cracked ceramic, no floating saucer, no people, no panel labels or numbers. Keep the exact planter design consistent across all panels.
+```
+
+#### 생성 미리보기
+
+<p align="center">
+<img src="assets/prompts/garden-ceramic-planter/preview-1.png" width="31%" alt="Cobalt ceramic planter in an Etsy maker story">
+<img src="assets/prompts/garden-ceramic-planter/preview-2.png" width="31%" alt="Cobalt ceramic planter catalog image on white">
+<img src="assets/prompts/garden-ceramic-planter/preview-3.png" width="31%" alt="Cobalt planter with an olive tree in limestone interior">
+</p>
+
+#### 세부 정보
+
+| 작성자 | 출처 | 산업 | 사용 사례 |
+|---|---|---|---|
+| CommercePrompt Atlas Studio | 이 저장소의 오리지널 콘텐츠 | `garden-and-planters` | `maker-to-interior` |
+
+- **플랫폼:** Etsy, Wayfair, Pinterest
 - **프롬프트 언어:** `en`
 - **라이선스:** CC-BY-4.0
 - **게시일:** 2026-07-21
@@ -762,6 +1028,49 @@ Constraints: no readable text, no logos, no watermark, no extra carrier, no dupl
 
 ---
 
+## tea-and-grocery
+
+### 1. Ceremonial Matcha Tin Triptych
+
+#### 설명
+
+Takes one celadon matcha tin from grocery clarity to a contemporary tea ritual and a bright iced-latte social image.
+
+#### 프롬프트
+
+```text
+Use case: ads-marketing
+Asset type: three premium tea-commerce previews in one seamless horizontal contact sheet
+Primary request: Create a fresh, culturally respectful 3-panel horizontal contact sheet for the exact same unbranded ceremonial matcha tin, with distinct Amazon Grocery catalog, Shopify tea-ritual, and Xiaohongshu iced-latte treatments. Each panel is a complete standalone vertical 4:5 image, separated by narrow deep-green gutters.
+Product invariant: identical small cylindrical tin in every panel; matte pale celadon body, flush deep-green lid, one narrow vertical cream paper seal crossing the lid edge with no writing, subtle brushed metal rim, no logo and no text. Preserve proportions, lid color, blank seal, rim and finish.
+Panel 1 — AMAZON GROCERY CATALOG: one sealed tin centered on pure #FFFFFF with the lid closed, a small bamboo teaspoon beside it holding a neat mound of vivid fine matcha powder, soft natural grounding shadows, accurate scale, clean product clarity.
+Panel 2 — SHOPIFY TEA RITUAL: same tin open on a dark charcoal stone tea table, lid placed behind it, bright green powder visible inside, one unbranded black-glazed tea bowl and bamboo whisk nearby, soft directional morning light through paper screen, quiet contemporary Japanese-inspired restraint without ceremonial costume or decorative cliché.
+Panel 3 — XIAOHONGSHU ICED MATCHA: same closed tin on a translucent mint acrylic block beside one tall clear glass of layered iced matcha oat latte, condensation and realistic ice, hard summer sunlight creates graphic green caustics across a cream surface, energetic creator-style framing with negative space and no text.
+Style/medium: ultra-photorealistic premium food-and-packaging photography, physically accurate powder fineness, matte metal, glass, ice and condensation, crisp celadon/green/cream palette, sophisticated commercial styling.
+Constraints: no readable text, no logos, no watermark, no extra tin, no health claims, no people or hands, no floating powder, no impossible liquid layers, no panel labels or numbers. Keep the exact tin design consistent across all panels.
+```
+
+#### 생성 미리보기
+
+<p align="center">
+<img src="assets/prompts/grocery-matcha-tin/preview-1.png" width="31%" alt="Celadon matcha tin grocery catalog image">
+<img src="assets/prompts/grocery-matcha-tin/preview-2.png" width="31%" alt="Open matcha tin in a contemporary tea ritual">
+<img src="assets/prompts/grocery-matcha-tin/preview-3.png" width="31%" alt="Matcha tin with an iced oat latte in summer light">
+</p>
+
+#### 세부 정보
+
+| 작성자 | 출처 | 산업 | 사용 사례 |
+|---|---|---|---|
+| CommercePrompt Atlas Studio | 이 저장소의 오리지널 콘텐츠 | `tea-and-grocery` | `packaging-and-ritual` |
+
+- **플랫폼:** Amazon Grocery, Shopify, Xiaohongshu
+- **프롬프트 언어:** `en`
+- **라이선스:** CC-BY-4.0
+- **게시일:** 2026-07-21
+
+---
+
 ## toys-and-kids
 
 ### 1. Wooden Stacking Arch Triptych
@@ -799,6 +1108,51 @@ Constraints: exactly seven arch pieces, no readable text, no logos, no watermark
 | CommercePrompt Atlas Studio | 이 저장소의 오리지널 콘텐츠 | `toys-and-kids` | `handmade-product-story` |
 
 - **플랫폼:** Etsy, Amazon, Pinterest
+- **프롬프트 언어:** `en`
+- **라이선스:** CC-BY-4.0
+- **게시일:** 2026-07-21
+
+---
+
+## watches
+
+### 1. Bronze Mechanical Watch Triptych
+
+⭐ **Featured**
+
+#### 설명
+
+Moves one bronze mechanical watch from collector-grade catalog precision to a ceremonial launch and a quiet wrist editorial.
+
+#### 프롬프트
+
+```text
+Use case: ads-marketing
+Asset type: three premium watch-commerce previews in one seamless horizontal contact sheet
+Primary request: Create a museum-level 3-panel horizontal contact sheet for the exact same unbranded mechanical wristwatch, with distinct Chrono24 catalog, Tmall Luxury launch, and Instagram editorial treatments. Each panel is a complete standalone vertical 4:5 image, separated by hairline black gutters.
+Product invariant: identical watch in every panel; 38 mm brushed bronze cushion case, deep moss-green sunray dial, twelve slim applied gold baton hour markers with no numerals, two gold dauphine hands fixed at 10:10, small seconds subdial at 6 o'clock, domed crystal, dark brown suede strap with tonal stitching, no logo and no date window. Preserve case shape, crown position, marker layout, hand style, dial color and strap.
+Panel 1 — CHRONO24 CATALOG: watch alone lying flat at a slight diagonal on pure warm white, buckle and most of the strap visible while the lower strap end may meet the frame edge, clean overhead precision, soft contact shadow, accurate proportions, crisp bezel and dial, no props.
+Panel 2 — TMALL LUXURY LAUNCH: watch upright on a narrow slab of smoked amber glass in deep black space, a controlled warm spotlight catches the bronze edge and green dial, one subtle circular reflection, ceremonial high contrast, exact face remains readable.
+Panel 3 — INSTAGRAM EDITORIAL: same watch worn on one adult wrist emerging from a charcoal wool sleeve, natural relaxed pose against weathered olive stone, low winter sunlight and a narrow shadow line, tactile skin, suede and metal, quiet collector mood.
+Style/medium: ultra-photorealistic high-watchmaking photography, physically accurate bronze patina, optical crystal, sunray dial and suede nap, disciplined retouching, rich but natural black point.
+Constraints: no readable text, no logo, no watermark, no extra watch, no jewelry, no distorted wrist or fingers, no duplicate crown, no incorrect numerals, no panel labels or numbers. Keep the exact watch design and 10:10 hand position consistent.
+```
+
+#### 생성 미리보기
+
+<p align="center">
+<img src="assets/prompts/watch-bronze/preview-1.png" width="31%" alt="Bronze mechanical watch collector catalog image">
+<img src="assets/prompts/watch-bronze/preview-2.png" width="31%" alt="Bronze watch luxury launch on smoked amber glass">
+<img src="assets/prompts/watch-bronze/preview-3.png" width="31%" alt="Bronze watch wrist editorial against olive stone">
+</p>
+
+#### 세부 정보
+
+| 작성자 | 출처 | 산업 | 사용 사례 |
+|---|---|---|---|
+| CommercePrompt Atlas Studio | 이 저장소의 오리지널 콘텐츠 | `watches` | `collector-campaign` |
+
+- **플랫폼:** Chrono24, Tmall Luxury, Instagram Shop
 - **프롬프트 언어:** `en`
 - **라이선스:** CC-BY-4.0
 - **게시일:** 2026-07-21

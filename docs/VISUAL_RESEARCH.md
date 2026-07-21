@@ -35,6 +35,17 @@ Pinterest does not expose a dependable public like count for every Pin. We there
 | Cordless car vacuum | [Pinterest 2026 Marketing Moments Guide](https://business.pinterest.com/pdf/2026-marketing-moments-guide/) | Functional close-up, clean industrial materials, limited accent color, airflow visualization without dense labels | Amazon catalog, eBay practical-use frame, Tmall technology hero |
 | Wooden stacking toy | [Wooden toys photography](https://www.pinterest.com/ideas/wooden-toys-photography/931856382498/), [toy product photography](https://www.pinterest.com/ideas/toys-product-photography/937525949689/) | Visible wood grain, muted child-safe paint, handmade table story, separated-parts clarity, calm playroom light | Etsy provenance story, Amazon catalog layout, Pinterest playroom editorial |
 
+## Research directions used for prompts 13–18
+
+| Category | Research references | Extracted visual direction | Platform treatment in the prompt |
+|---|---|---|---|
+| Mechanical watch | [Watch product photography](https://www.pinterest.com/jorellferraren/watch-product-photography/), [watch photography collection](https://www.pinterest.com/alex147j/watch-product-photography/) | Clean face readability, controlled crystal reflections, 10:10 hand position, rich dark launch sets, tactile wrist context | Chrono24 catalog, Tmall Luxury launch, Instagram wrist editorial |
+| Shoulder bag | [Handbag product photography](https://za.pinterest.com/aadilae/handbag-product-photography/), [handbag shoot ideas](https://www.pinterest.com/allilaki/%D8%A7%D9%81%D9%83%D8%A7%D8%B1-%D8%AA%D8%B5%D9%88%D9%8A%D8%B1-%D8%B4%D9%86%D8%B7/) | Full silhouette and strap clarity, social-native walking motion, architectural stone, hard shadow and restrained luxury color | Farfetch catalog, TikTok Shop street style, Pinterest architectural still life |
+| Linen bedding | [Linen photography](https://www.pinterest.com/ideas/linen-photography/937877678244/), [bed-sheet product photography](https://www.pinterest.com/ideas/bed-sheets-product-photography/912134302791/) | Honest wrinkles, visible weave, folded-set clarity, quiet bedrooms, broad natural-light shapes | Amazon Home catalog, Shopify bedroom lifestyle, Pinterest textile editorial |
+| Matcha packaging | [Matcha product photography](https://de.pinterest.com/diedrichdominik/matcha-product-photography/) | Celadon and deep green, fine powder texture, restrained tea tools, condensation, clear summer caustics | Amazon Grocery catalog, Shopify tea ritual, Xiaohongshu iced-latte creative |
+| Ceramic planter | [Planter photography](https://www.pinterest.com/ideas/planter-photography/953379673600/), [plant-pot photography](https://www.pinterest.com/ideas/plant-pot-photography/942851904318/) | Hand-finished clay texture, simple white-background merchandising, strong single brush gesture, Mediterranean leaf shadows | Etsy maker story, Wayfair catalog, Pinterest interior editorial |
+| Road helmet | [Stylish cycling helmets](https://www.pinterest.com/discerningcyclist/stylish-cycling-helmets/) | Clean aerodynamic side profile, readable ventilation, restrained airflow graphics, close sunrise action framing | Amazon Sports catalog, Decathlon-style feature visualization, Instagram action campaign |
+
 ## Rights and quality policy
 
 1. Do not download or commit Pinterest images unless the contributor owns them or supplies a compatible license.

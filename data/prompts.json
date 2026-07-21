@@ -325,6 +325,120 @@
       "featured": false,
       "publishedAt": "2026-07-21",
       "translations": {"zh": {"title": "木质叠叠拱门玩具三场景", "description": "用手作溯源、商城清晰度和安静游戏室叙事呈现同一套七片木质拱门。"}}
+    },
+    {
+      "id": "ec-0013",
+      "slug": "bronze-mechanical-watch-triptych",
+      "model": "gpt-image-2",
+      "title": "Bronze Mechanical Watch Triptych",
+      "description": "Moves one bronze mechanical watch from collector-grade catalog precision to a ceremonial launch and a quiet wrist editorial.",
+      "prompt": "Use case: ads-marketing\nAsset type: three premium watch-commerce previews in one seamless horizontal contact sheet\nPrimary request: Create a museum-level 3-panel horizontal contact sheet for the exact same unbranded mechanical wristwatch, with distinct Chrono24 catalog, Tmall Luxury launch, and Instagram editorial treatments. Each panel is a complete standalone vertical 4:5 image, separated by hairline black gutters.\nProduct invariant: identical watch in every panel; 38 mm brushed bronze cushion case, deep moss-green sunray dial, twelve slim applied gold baton hour markers with no numerals, two gold dauphine hands fixed at 10:10, small seconds subdial at 6 o'clock, domed crystal, dark brown suede strap with tonal stitching, no logo and no date window. Preserve case shape, crown position, marker layout, hand style, dial color and strap.\nPanel 1 — CHRONO24 CATALOG: watch alone lying flat at a slight diagonal on pure warm white, buckle and most of the strap visible while the lower strap end may meet the frame edge, clean overhead precision, soft contact shadow, accurate proportions, crisp bezel and dial, no props.\nPanel 2 — TMALL LUXURY LAUNCH: watch upright on a narrow slab of smoked amber glass in deep black space, a controlled warm spotlight catches the bronze edge and green dial, one subtle circular reflection, ceremonial high contrast, exact face remains readable.\nPanel 3 — INSTAGRAM EDITORIAL: same watch worn on one adult wrist emerging from a charcoal wool sleeve, natural relaxed pose against weathered olive stone, low winter sunlight and a narrow shadow line, tactile skin, suede and metal, quiet collector mood.\nStyle/medium: ultra-photorealistic high-watchmaking photography, physically accurate bronze patina, optical crystal, sunray dial and suede nap, disciplined retouching, rich but natural black point.\nConstraints: no readable text, no logo, no watermark, no extra watch, no jewelry, no distorted wrist or fingers, no duplicate crown, no incorrect numerals, no panel labels or numbers. Keep the exact watch design and 10:10 hand position consistent.",
+      "language": "en", "industry": "watches", "useCase": "collector-campaign",
+      "platforms": ["Chrono24", "Tmall Luxury", "Instagram Shop"], "aspectRatios": ["4:5"], "needReferenceImages": false,
+      "previews": [
+        {"url": "assets/prompts/watch-bronze/preview-1.png", "alt": "Bronze mechanical watch collector catalog image"},
+        {"url": "assets/prompts/watch-bronze/preview-2.png", "alt": "Bronze watch luxury launch on smoked amber glass"},
+        {"url": "assets/prompts/watch-bronze/preview-3.png", "alt": "Bronze watch wrist editorial against olive stone"}
+      ],
+      "author": {"name": "CommercePrompt Atlas Studio", "url": null},
+      "source": {"type": "original", "url": null, "notes": "Original synthesis informed by broad visual research; prompt and generated previews created for this repository. See docs/VISUAL_RESEARCH.md."},
+      "license": "CC-BY-4.0", "status": "approved", "featured": true, "publishedAt": "2026-07-21",
+      "translations": {"zh": {"title": "青铜机械腕表三场景", "description": "将同一枚青铜机械腕表呈现为收藏级商品图、典礼式发布图和安静的上腕编辑图。"}}
+    },
+    {
+      "id": "ec-0014",
+      "slug": "oxblood-shoulder-bag-triptych",
+      "model": "gpt-image-2",
+      "title": "Oxblood Shoulder Bag Triptych",
+      "description": "Combines luxury catalog clarity, social-native street movement, and an architectural still life for one sculptural bag.",
+      "prompt": "Use case: ads-marketing\nAsset type: three premium handbag-commerce previews in one seamless horizontal contact sheet\nPrimary request: Create a high-fashion 3-panel horizontal contact sheet for the exact same unbranded sculptural shoulder bag, with distinct Farfetch catalog, TikTok Shop street-style, and Pinterest architectural still-life treatments. Each panel is a complete standalone vertical 4:5 image, separated by narrow ivory gutters.\nProduct invariant: identical compact crescent shoulder bag in every panel; deep oxblood pebbled calf leather, softly folded crescent body, one wide matching leather shoulder strap with two brushed silver rectangular buckles, concealed top zipper, three subtle vertical gusset seams, no logo and no charm. Preserve silhouette, strap width, two buckles, seam map, hardware finish and color.\nPanel 1 — FARFETCH CATALOG: bag alone, front three-quarter view on pure #FFFFFF, strap arranged in a clean natural arc, entire product visible, gentle grounding shadow, crisp leather grain and accurate proportions, no props.\nPanel 2 — TIKTOK SHOP STREET STYLE: same bag worn on the shoulder of one adult model in an oversized dove-gray wool coat, crop from neck to thigh while walking through a sunlit crosswalk, bag remains sharp, coat and background carry slight directional motion, direct winter sun, effortless social-native luxury, no face required.\nPanel 3 — PINTEREST ARCHITECTURAL STILL LIFE: bag resting on intersecting slabs of pale pink travertine and smoked mirror, one narrow shaft of burgundy-tinted light creates long geometric shadows, asymmetrical gallery composition, tactile leather and cool silver hardware, sophisticated collectible-design mood.\nStyle/medium: ultra-photorealistic contemporary luxury fashion photography, authentic pebbled leather, refined hardware reflections, subtle film grain, oxblood/gray/travertine palette, no glossy CGI.\nConstraints: no readable text, no logos, no watermark, no extra bag, no duplicated strap, no gold hardware, no hands covering the product, no distorted body, no panel labels or numbers. Keep the exact bag design consistent across all panels.",
+      "language": "en", "industry": "bags-and-accessories", "useCase": "luxury-fashion-campaign",
+      "platforms": ["Farfetch", "TikTok Shop", "Pinterest"], "aspectRatios": ["4:5"], "needReferenceImages": false,
+      "previews": [
+        {"url": "assets/prompts/accessories-oxblood-bag/preview-1.png", "alt": "Oxblood shoulder bag luxury catalog hero"},
+        {"url": "assets/prompts/accessories-oxblood-bag/preview-2.png", "alt": "Oxblood bag in a street-style motion campaign"},
+        {"url": "assets/prompts/accessories-oxblood-bag/preview-3.png", "alt": "Oxblood bag architectural still life on travertine"}
+      ],
+      "author": {"name": "CommercePrompt Atlas Studio", "url": null},
+      "source": {"type": "original", "url": null, "notes": "Original synthesis informed by broad visual research; prompt and generated previews created for this repository. See docs/VISUAL_RESEARCH.md."},
+      "license": "CC-BY-4.0", "status": "approved", "featured": true, "publishedAt": "2026-07-21",
+      "translations": {"zh": {"title": "牛血红肩背包三场景", "description": "为同一款雕塑感手袋组合奢品商品图、社交街拍动势和建筑静物摄影。"}}
+    },
+    {
+      "id": "ec-0015",
+      "slug": "sage-linen-bedding-triptych",
+      "model": "gpt-image-2",
+      "title": "Sage Linen Bedding Triptych",
+      "description": "Shows one washed-linen bedding set as a clean folded catalog, a restful bedroom, and a textile-first editorial.",
+      "prompt": "Use case: ads-marketing\nAsset type: three premium bedding-commerce previews in one seamless horizontal contact sheet\nPrimary request: Create a tactile 3-panel horizontal contact sheet for the exact same queen-size washed-linen bedding set, with distinct Amazon Home catalog, Shopify bedroom lifestyle, and Pinterest slow-living editorial treatments. Each panel is a complete standalone vertical 4:5 image, separated by narrow warm-white gutters.\nProduct invariant: identical bedding fabric and color in every panel; mineral sage-green European flax linen with a very fine double clay-red pinstripe near every hem, visible relaxed crinkle, one duvet cover, one fitted sheet and two standard pillowcases, no logo. Preserve sage tone, red double-stripe hem detail, weave and soft washed finish.\nPanel 1 — AMAZON HOME CATALOG: complete set folded into one precise but softly textured stack on pure #FFFFFF, duvet at base, fitted sheet in middle, two pillowcases on top, stripe hems visible, centered with subtle natural shadow, no bed and no props.\nPanel 2 — SHOPIFY BEDROOM LIFESTYLE: same set dressed on a low oak platform queen bed in a limewashed warm-white room, duvet loosely turned back, two pillows only, pinstripe edges readable, early morning side light, one small travertine bedside ledge and no decorative clutter, restful lived-in luxury.\nPanel 3 — PINTEREST SLOW-LIVING EDITORIAL: intimate overhead crop of the same sage duvet and one pillow in rumpled folds, a broad rectangle of late-afternoon light, the clay-red double stripe crosses the composition diagonally, one open unprinted cream book at the edge, textile-first art direction and generous negative space.\nStyle/medium: ultra-photorealistic premium textile and interior photography, visible linen fibers, accurate weave and wrinkles, soft natural color science, quiet editorial restraint, never synthetic or over-smoothed.\nConstraints: no readable text, no logos, no watermark, no people, no extra pillows, no patterned blanket, no flowers, no unrelated decor, no color drift, no panel labels or numbers. Keep the exact sage fabric and double clay-red stripe consistent.",
+      "language": "en", "industry": "bedding-and-textiles", "useCase": "textile-lifestyle",
+      "platforms": ["Amazon Home", "Shopify", "Pinterest"], "aspectRatios": ["4:5"], "needReferenceImages": false,
+      "previews": [
+        {"url": "assets/prompts/bedding-sage-linen/preview-1.png", "alt": "Folded sage linen bedding catalog stack"},
+        {"url": "assets/prompts/bedding-sage-linen/preview-2.png", "alt": "Sage linen bedding in a quiet oak bedroom"},
+        {"url": "assets/prompts/bedding-sage-linen/preview-3.png", "alt": "Sage linen textile editorial with red pinstripe hems"}
+      ],
+      "author": {"name": "CommercePrompt Atlas Studio", "url": null},
+      "source": {"type": "original", "url": null, "notes": "Original synthesis informed by broad visual research; prompt and generated previews created for this repository. See docs/VISUAL_RESEARCH.md."},
+      "license": "CC-BY-4.0", "status": "approved", "featured": false, "publishedAt": "2026-07-21",
+      "translations": {"zh": {"title": "鼠尾草亚麻床品三场景", "description": "以折叠商品图、安静卧室和材质优先的编辑图呈现同一套水洗亚麻床品。"}}
+    },
+    {
+      "id": "ec-0016",
+      "slug": "ceremonial-matcha-tin-triptych",
+      "model": "gpt-image-2",
+      "title": "Ceremonial Matcha Tin Triptych",
+      "description": "Takes one celadon matcha tin from grocery clarity to a contemporary tea ritual and a bright iced-latte social image.",
+      "prompt": "Use case: ads-marketing\nAsset type: three premium tea-commerce previews in one seamless horizontal contact sheet\nPrimary request: Create a fresh, culturally respectful 3-panel horizontal contact sheet for the exact same unbranded ceremonial matcha tin, with distinct Amazon Grocery catalog, Shopify tea-ritual, and Xiaohongshu iced-latte treatments. Each panel is a complete standalone vertical 4:5 image, separated by narrow deep-green gutters.\nProduct invariant: identical small cylindrical tin in every panel; matte pale celadon body, flush deep-green lid, one narrow vertical cream paper seal crossing the lid edge with no writing, subtle brushed metal rim, no logo and no text. Preserve proportions, lid color, blank seal, rim and finish.\nPanel 1 — AMAZON GROCERY CATALOG: one sealed tin centered on pure #FFFFFF with the lid closed, a small bamboo teaspoon beside it holding a neat mound of vivid fine matcha powder, soft natural grounding shadows, accurate scale, clean product clarity.\nPanel 2 — SHOPIFY TEA RITUAL: same tin open on a dark charcoal stone tea table, lid placed behind it, bright green powder visible inside, one unbranded black-glazed tea bowl and bamboo whisk nearby, soft directional morning light through paper screen, quiet contemporary Japanese-inspired restraint without ceremonial costume or decorative cliché.\nPanel 3 — XIAOHONGSHU ICED MATCHA: same closed tin on a translucent mint acrylic block beside one tall clear glass of layered iced matcha oat latte, condensation and realistic ice, hard summer sunlight creates graphic green caustics across a cream surface, energetic creator-style framing with negative space and no text.\nStyle/medium: ultra-photorealistic premium food-and-packaging photography, physically accurate powder fineness, matte metal, glass, ice and condensation, crisp celadon/green/cream palette, sophisticated commercial styling.\nConstraints: no readable text, no logos, no watermark, no extra tin, no health claims, no people or hands, no floating powder, no impossible liquid layers, no panel labels or numbers. Keep the exact tin design consistent across all panels.",
+      "language": "en", "industry": "tea-and-grocery", "useCase": "packaging-and-ritual",
+      "platforms": ["Amazon Grocery", "Shopify", "Xiaohongshu"], "aspectRatios": ["4:5"], "needReferenceImages": false,
+      "previews": [
+        {"url": "assets/prompts/grocery-matcha-tin/preview-1.png", "alt": "Celadon matcha tin grocery catalog image"},
+        {"url": "assets/prompts/grocery-matcha-tin/preview-2.png", "alt": "Open matcha tin in a contemporary tea ritual"},
+        {"url": "assets/prompts/grocery-matcha-tin/preview-3.png", "alt": "Matcha tin with an iced oat latte in summer light"}
+      ],
+      "author": {"name": "CommercePrompt Atlas Studio", "url": null},
+      "source": {"type": "original", "url": null, "notes": "Original synthesis informed by broad visual research; prompt and generated previews created for this repository. See docs/VISUAL_RESEARCH.md."},
+      "license": "CC-BY-4.0", "status": "approved", "featured": false, "publishedAt": "2026-07-21",
+      "translations": {"zh": {"title": "典礼级抹茶罐三场景", "description": "让同一只青瓷色抹茶罐从清晰食品商品图延伸到当代茶席和夏日冰饮社交图。"}}
+    },
+    {
+      "id": "ec-0017",
+      "slug": "cobalt-ceramic-planter-triptych",
+      "model": "gpt-image-2",
+      "title": "Cobalt Ceramic Planter Triptych",
+      "description": "Balances handmade provenance, marketplace clarity, and a Mediterranean interior story for one ceramic planter.",
+      "prompt": "Use case: product-mockup\nAsset type: three premium planter-commerce previews in one seamless horizontal contact sheet\nPrimary request: Create an artful 3-panel horizontal contact sheet for the exact same unbranded hand-finished ceramic planter, with distinct Etsy maker story, Wayfair catalog, and Pinterest interior-editorial treatments. Each panel is a complete standalone vertical 4:5 image, separated by narrow cobalt gutters.\nProduct invariant: identical medium cylindrical planter in every panel; warm chalk-white stoneware, slightly irregular hand-thrown rim, broad evenly spaced vertical flutes, one hand-painted cobalt-blue crescent brushstroke wrapping across the front flutes, matching low saucer, one drainage hole, no logo. Preserve proportions, fluting, cobalt crescent position, rim and saucer.\nPanel 1 — ETSY MAKER STORY: empty planter and saucer on a worn pale-wood workbench, front three-quarter view, a small natural sea sponge and one cobalt-stained brush softly out of focus at the edge, north-window light, visible clay speckle and brush texture, authentic handmade calm.\nPanel 2 — WAYFAIR CATALOG: empty planter centered alone with its saucer on pure #FFFFFF, fully visible, straight-on three-quarter view, accurate scale and clean silhouette, subtle grounding shadow, no tools and no plant.\nPanel 3 — PINTEREST INTERIOR EDITORIAL: same planter holding one sculptural young olive tree in a sunken limestone living room, planter is the clear foreground subject, raked Mediterranean afternoon sun creates leaf shadows across a limewashed wall, quiet collectible-design atmosphere, no other pots.\nStyle/medium: ultra-photorealistic premium ceramics and interior photography, authentic stoneware grain, imperfect hand-painted cobalt, realistic soil and olive leaves, refined chalk/cobalt/limestone palette.\nConstraints: no readable text, no logos, no watermark, no extra planter, no flowers, no decorative pattern beyond the single cobalt crescent, no cracked ceramic, no floating saucer, no people, no panel labels or numbers. Keep the exact planter design consistent across all panels.",
+      "language": "en", "industry": "garden-and-planters", "useCase": "maker-to-interior",
+      "platforms": ["Etsy", "Wayfair", "Pinterest"], "aspectRatios": ["4:5"], "needReferenceImages": false,
+      "previews": [
+        {"url": "assets/prompts/garden-ceramic-planter/preview-1.png", "alt": "Cobalt ceramic planter in an Etsy maker story"},
+        {"url": "assets/prompts/garden-ceramic-planter/preview-2.png", "alt": "Cobalt ceramic planter catalog image on white"},
+        {"url": "assets/prompts/garden-ceramic-planter/preview-3.png", "alt": "Cobalt planter with an olive tree in limestone interior"}
+      ],
+      "author": {"name": "CommercePrompt Atlas Studio", "url": null},
+      "source": {"type": "original", "url": null, "notes": "Original synthesis informed by broad visual research; prompt and generated previews created for this repository. See docs/VISUAL_RESEARCH.md."},
+      "license": "CC-BY-4.0", "status": "approved", "featured": false, "publishedAt": "2026-07-21",
+      "translations": {"zh": {"title": "钴蓝陶瓷花盆三场景", "description": "为同一只陶瓷花盆平衡手作溯源、商城清晰度和地中海室内叙事。"}}
+    },
+    {
+      "id": "ec-0018",
+      "slug": "aero-road-helmet-triptych",
+      "model": "gpt-image-2",
+      "title": "Aero Road Helmet Triptych",
+      "description": "Combines a clean sports catalog, an airflow feature visual, and a sunrise action campaign for one road helmet.",
+      "prompt": "Use case: ads-marketing\nAsset type: three premium cycling-commerce previews in one seamless horizontal contact sheet\nPrimary request: Create a performance-led 3-panel horizontal contact sheet for the exact same unbranded aerodynamic road-cycling helmet, with distinct Amazon Sports catalog, Decathlon-style feature visualization, and Instagram action-campaign treatments. Each panel is a complete standalone vertical 4:5 image, separated by narrow electric-blue gutters.\nProduct invariant: identical helmet in every panel; matte pearl-white aerodynamic shell, elongated tapered rear, three long central top vents with shorter side vents, thin black lower edge, electric-blue interior padding glimpsed through vents, black Y-straps and small magnetic buckle, no visor and no logo. Preserve shell silhouette, vent layout, rear taper, edge and strap colors.\nPanel 1 — AMAZON SPORTS CATALOG: helmet alone in clean side three-quarter view on pure #FFFFFF, entire shell and straps visible, realistic soft grounding shadow, crisp ventilation geometry and honest proportions, no props.\nPanel 2 — FEATURE AIRFLOW VISUAL: same helmet floating above a dark navy plinth, front three-quarter angle, restrained translucent electric-blue airflow ribbons enter the front vents and exit the tapered rear, physically coherent flow with the helmet unobstructed, cool rim light and engineering precision, no labels or exploded parts.\nPanel 3 — INSTAGRAM ACTION CAMPAIGN: same helmet worn correctly by one adult road cyclist, close side profile from shoulders up while riding at sunrise on a clean mountain road, helmet tack-sharp, background and jersey show controlled speed blur, warm horizon light meets cool blue edge reflection, authentic fit and straps.\nStyle/medium: ultra-photorealistic premium sports-product photography, physically plausible polycarbonate shell, foam edge, fabric straps and skin, clean pearl/black/electric-blue palette, dynamic but credible.\nConstraints: no readable text, no logos, no watermark, no extra helmet, no bicycle brand, no distorted face or straps, no missing buckle, no impossible airflow, no crash scene, no panel labels or numbers. Keep the exact helmet design consistent across all panels.",
+      "language": "en", "industry": "cycling", "useCase": "performance-feature",
+      "platforms": ["Amazon Sports", "Decathlon", "Instagram Shop"], "aspectRatios": ["4:5"], "needReferenceImages": false,
+      "previews": [
+        {"url": "assets/prompts/cycling-road-helmet/preview-1.png", "alt": "Pearl-white road helmet catalog image"},
+        {"url": "assets/prompts/cycling-road-helmet/preview-2.png", "alt": "Road helmet airflow feature visualization"},
+        {"url": "assets/prompts/cycling-road-helmet/preview-3.png", "alt": "Road cyclist wearing the helmet at sunrise"}
+      ],
+      "author": {"name": "CommercePrompt Atlas Studio", "url": null},
+      "source": {"type": "original", "url": null, "notes": "Original synthesis informed by broad visual research; prompt and generated previews created for this repository. See docs/VISUAL_RESEARCH.md."},
+      "license": "CC-BY-4.0", "status": "approved", "featured": false, "publishedAt": "2026-07-21",
+      "translations": {"zh": {"title": "空气动力公路头盔三场景", "description": "将清晰运动商品图、气流功能图和日出动态广告组合为同一款公路头盔方案。"}}
     }
   ]
 }
