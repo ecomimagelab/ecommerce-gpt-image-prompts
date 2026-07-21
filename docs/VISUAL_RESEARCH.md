@@ -24,6 +24,17 @@ Pinterest does not expose a dependable public like count for every Pin. We there
 - Food-delivery images prioritize instant mobile recognition, appetite cues, and believable texture over ornamental still-life styling.
 - Luxury-commerce images use restraint, optical precision, and material authenticity instead of generic neon gradients or crowded props.
 
+## Research directions used for prompts 7–12
+
+| Category | Research references | Extracted visual direction | Platform treatment in the prompt |
+|---|---|---|---|
+| Trail shoe | [Pinterest Path to Performance](https://business.pinterest.com/pdf/pinterest-presents/path-to-performance/) | Clean lateral silhouette, low-angle motion, wet terrain, hard material light, restrained outdoor palette | Amazon Fashion catalog hero, TikTok Shop action frame, Pinterest material editorial |
+| Espresso machine | [Espresso machine photography](https://www.pinterest.com/ideas/espresso-machine-photography/916159057514/), [coffee product photography](https://www.pinterest.com/peoplecangrow2/coffee-product-photography/) | Brushed-steel highlight control, warm domestic context, espresso ritual, hard window-shadow geometry | Amazon white-background listing, Shopify morning lifestyle, Xiaohongshu creator ritual |
+| Cat carrier | [Pet product photography](https://www.pinterest.com/buyboxexperts/pet-product-photography/), [stylish pet carriers](https://www.pinterest.com/leslierosen/stylish-discreet-pet-carriers/) | Soft color fields, honest canvas and leather texture, gentle pet interaction, close functional detail | Chewy catalog, Instagram Shop travel story, Amazon feature detail |
+| Trekking tent | [Camping photography](https://www.pinterest.com/lovethecampfire/camping-photography/), [tent photography](https://ph.pinterest.com/ritzyryan/tent-photography/) | Readable pitch geometry, water beading, warm shelter light, blue-hour landscape and restrained astrophotography | Outdoor-retail technical catalog, Amazon weather feature, Pinterest adventure editorial |
+| Cordless car vacuum | [Pinterest 2026 Marketing Moments Guide](https://business.pinterest.com/pdf/2026-marketing-moments-guide/) | Functional close-up, clean industrial materials, limited accent color, airflow visualization without dense labels | Amazon catalog, eBay practical-use frame, Tmall technology hero |
+| Wooden stacking toy | [Wooden toys photography](https://www.pinterest.com/ideas/wooden-toys-photography/931856382498/), [toy product photography](https://www.pinterest.com/ideas/toys-product-photography/937525949689/) | Visible wood grain, muted child-safe paint, handmade table story, separated-parts clarity, calm playroom light | Etsy provenance story, Amazon catalog layout, Pinterest playroom editorial |
+
 ## Rights and quality policy
 
 1. Do not download or commit Pinterest images unless the contributor owns them or supplies a compatible license.
