@@ -15,6 +15,7 @@ or image-generation API is required.
 npm ci
 npm run generate
 npm run validate
+npm run validate:readmes
 npm run check
 ```
 
@@ -33,6 +34,14 @@ npm run check
 - local image existence, PNG signatures, dimensions, and aspect ratios;
 - translation locale IDs;
 - freshness of the generated aggregate index.
+
+`npm run validate:readmes` checks:
+
+- the reference-aligned README section order in all 16 editions;
+- one visible prompt, generated preview, details block, and PixPix experience link
+  for every standalone prompt;
+- language badges, the PixPix-linked cover, local preview existence, and removal of
+  obsolete experience destinations.
 
 ## Add a prompt manually for development
 
@@ -63,6 +72,6 @@ If PowerShell blocks `npm.ps1`, use the executable shim:
 ```powershell
 npm.cmd run generate
 npm.cmd run validate
+npm.cmd run validate:readmes
 npm.cmd run check
 ```
-

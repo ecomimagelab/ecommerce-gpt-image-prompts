@@ -10,7 +10,8 @@
   "scripts": {
     "build:data": "node scripts/build-index.mjs",
     "validate": "node scripts/validate-data.mjs",
+    "validate:readmes": "node scripts/validate-readme-layout.mjs",
     "generate": "npm run build:data && node scripts/generate-readmes.mjs",
-    "check": "npm run generate && npm run validate && git diff --exit-code -- data/prompts.json README*.md"
+    "check": "npm run generate && npm run validate && npm run validate:readmes && git diff --exit-code -- data/prompts.json README*.md"
   }
 }

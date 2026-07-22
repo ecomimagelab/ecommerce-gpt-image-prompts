@@ -3,7 +3,8 @@
 ## Pull requests and pushes
 
 `validate.yml` builds the aggregate index and all 16 README files, validates the
-repository, and fails when generated files are stale.
+repository, verifies the reference-aligned presentation and PixPix links, and
+fails when generated files are stale.
 
 ## Community submissions
 

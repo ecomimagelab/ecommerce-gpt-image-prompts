@@ -33,6 +33,8 @@ jobs:
         run: npm run generate
       - name: Validate prompt files, taxonomy, rights metadata, and image ratios
         run: npm run validate
+      - name: Validate README presentation and PixPix experience links
+        run: npm run validate:readmes
       - name: Commit generated files
         run: |
           git config user.name "github-actions[bot]"

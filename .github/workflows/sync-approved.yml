@@ -32,6 +32,7 @@ jobs:
         run: |
           npm run generate
           npm run validate
+          npm run validate:readmes
       - name: Create review branch and pull request
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
