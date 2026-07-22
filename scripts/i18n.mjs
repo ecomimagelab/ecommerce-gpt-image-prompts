@@ -1,5 +1,7 @@
+const PROJECT_NAME = "ecommerce-gpt-image-prompts";
+
 const base = {
-  title: "Awesome E-commerce GPT Image 2 Prompts",
+  title: PROJECT_NAME,
   tagline: "A curated, multilingual library of production-ready GPT Image 2 prompts for global e-commerce.",
   about: "About",
   aboutText: "This repository collects reproducible e-commerce image prompts with structured metadata, clear attribution, licensing records, and multiple preview outputs.",
@@ -147,4 +149,3 @@ export const locales = definitions.map(([code, name, file, overrides]) => ({
   file,
   strings: {...base, ...overrides},
 }));
-

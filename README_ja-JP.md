@@ -1,18 +1,18 @@
 <!-- AUTO-GENERATED FILE. EDIT data/prompts/*.json, data/taxonomy.json, OR scripts/i18n.mjs INSTEAD. -->
 
-<h1 align="center">EC向け GPT Image 2 プロンプト集</h1>
+<h1 align="center">ecommerce-gpt-image-prompts</h1>
 
 <p align="center">世界のEC向けに厳選した多言語のGPT Image 2プロンプトライブラリ。</p>
 
-<p align="center"><img src="assets/cover.png" width="100%" alt="EC向け GPT Image 2 プロンプト集"></p>
+<p align="center"><img src="assets/cover.png" width="100%" alt="ecommerce-gpt-image-prompts"></p>
 
 <p align="center">
   <img alt="GPT Image 2" src="https://img.shields.io/badge/Model-GPT%20Image%202-2458ff">
-  <img alt="Prompt records" src="https://img.shields.io/badge/Prompt%20records-19-c7ff35">
-  <img alt="Single image prompts" src="https://img.shields.io/badge/Single--image%20prompts-56-18a999">
+  <img alt="Prompt records" src="https://img.shields.io/badge/Prompt%20records-25-c7ff35">
+  <img alt="Single image prompts" src="https://img.shields.io/badge/Single--image%20prompts-74-18a999">
   <img alt="README locales" src="https://img.shields.io/badge/README%20locales-16-f4b942">
   <img alt="License" src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey">
-  <a href="https://github.com/ecomimagelab/awesome-ecommerce-gpt-image-2/issues/new?template=submit-prompt.yml"><img alt="Submit a prompt" src="https://img.shields.io/badge/Submit-a%20prompt-c9ff3d"></a>
+  <a href="https://github.com/ecomimagelab/ecommerce-gpt-image-prompts/issues/new?template=submit-prompt.yml"><img alt="Submit a prompt" src="https://img.shields.io/badge/Submit-a%20prompt-c9ff3d"></a>
 </p>
 
 <p align="center"><a href="README.md">English</a> · <a href="README_zh.md">简体中文</a> · <a href="README_zh-TW.md">繁體中文</a> · <strong>日本語</strong> · <a href="README_ko-KR.md">한국어</a> · <a href="README_th-TH.md">ไทย</a> · <a href="README_vi-VN.md">Tiếng Việt</a> · <a href="README_hi-IN.md">हिन्दी</a> · <a href="README_es-ES.md">Español</a> · <a href="README_es-419.md">Español LATAM</a> · <a href="README_de-DE.md">Deutsch</a> · <a href="README_fr-FR.md">Français</a> · <a href="README_it-IT.md">Italiano</a> · <a href="README_pt-BR.md">Português do Brasil</a> · <a href="README_pt-PT.md">Português</a> · <a href="README_tr-TR.md">Türkçe</a></p>
@@ -36,7 +36,7 @@ Each record keeps a campaign-set prompt for visual exploration and provides stan
 
 | Approved prompts | Single-image prompts | Generated examples | Categories | Platforms | Last updated |
 |---:|---:|---:|---:|---:|---|
-| **19** | **56** | **56** | **18** | **27** | **2026-07-22** |
+| **25** | **74** | **74** | **22** | **29** | **2026-07-22** |
 
 <a id="browse"></a>
 
@@ -46,11 +46,13 @@ Each record keeps a campaign-set prompt for visual exploration and provides stan
 |---|---:|
 | [Automotive accessories](#category-automotive-accessories) | 1 |
 | [Bags and accessories](#category-bags-and-accessories) | 1 |
-| [Beauty and skincare](#category-beauty) | 2 |
+| [Beauty and skincare](#category-beauty) | 3 |
 | [Bedding and textiles](#category-bedding-and-textiles) | 1 |
-| [Consumer electronics](#category-consumer-electronics) | 1 |
+| [Consumer electronics](#category-consumer-electronics) | 2 |
+| [Cookware](#category-cookware) | 1 |
 | [Cycling](#category-cycling) | 1 |
 | [Fashion](#category-fashion) | 1 |
+| [Fitness and wellness](#category-fitness-and-wellness) | 1 |
 | [Food and beverage](#category-food-and-beverage) | 1 |
 | [Footwear](#category-footwear) | 1 |
 | [Garden and planters](#category-garden-and-planters) | 1 |
@@ -59,21 +61,24 @@ Each record keeps a campaign-set prompt for visual exploration and provides stan
 | [Kitchen appliances](#category-kitchen-appliances) | 1 |
 | [Outdoor gear](#category-outdoor-gear) | 1 |
 | [Pet supplies](#category-pet-supplies) | 1 |
+| [Stationery and office](#category-stationery-and-office) | 1 |
 | [Tea and grocery](#category-tea-and-grocery) | 1 |
 | [Toys and kids](#category-toys-and-kids) | 1 |
+| [Travel and luggage](#category-travel-and-luggage) | 1 |
 | [Watches](#category-watches) | 1 |
 
 <details><summary><strong>Browse by use case</strong></summary>
 
 | Use cases | Approved prompts |
 |---|---:|
-| Branded hero | 13 |
-| Lifestyle scene | 12 |
-| Catalog image | 7 |
-| Marketplace main image | 7 |
-| Social commerce ad | 6 |
-| Feature visual | 5 |
-| Detail and macro | 3 |
+| Branded hero | 16 |
+| Lifestyle scene | 16 |
+| Marketplace main image | 11 |
+| Catalog image | 9 |
+| Social commerce ad | 9 |
+| Feature visual | 7 |
+| Detail and macro | 4 |
+| On-model | 1 |
 
 </details>
 
@@ -81,21 +86,22 @@ Each record keeps a campaign-set prompt for visual exploration and provides stan
 
 | プラットフォーム | Approved prompts |
 |---|---:|
-| Shopify | 8 |
-| Instagram Shop | 7 |
-| Pinterest | 7 |
-| Amazon | 6 |
-| TikTok Shop | 3 |
-| Tmall | 3 |
-| Etsy | 2 |
-| Tmall Luxury | 2 |
+| Amazon | 9 |
+| Pinterest | 9 |
+| Shopify | 9 |
+| Instagram Shop | 8 |
+| TikTok Shop | 5 |
+| Xiaohongshu | 5 |
+| Tmall | 4 |
+| Etsy | 3 |
+| Tmall Luxury | 3 |
+| Amazon Home | 2 |
 | Wayfair | 2 |
-| Xiaohongshu | 2 |
 | Amazon A+ | 1 |
 | Amazon Fashion | 1 |
 | Amazon Grocery | 1 |
-| Amazon Home | 1 |
 | Amazon Sports | 1 |
+| Best Buy | 1 |
 | Chewy | 1 |
 | Chrono24 | 1 |
 | Decathlon | 1 |
@@ -106,6 +112,7 @@ Each record keeps a campaign-set prompt for visual exploration and provides stan
 | JD | 1 |
 | Meituan | 1 |
 | Outdoor retail | 1 |
+| Sephora | 1 |
 | Shopee | 1 |
 | Uber Eats | 1 |
 
@@ -122,6 +129,36 @@ Uses one repository-owned serum image as the identity reference, then changes on
 <p align="center">
 <img src="assets/prompts/serum-product-edit/after-shopify-travertine.png" width="31%" alt="Celadon serum bottle edited from a water set to a warm travertine Shopify hero">
 <img src="assets/prompts/serum-product-edit/after-instagram-night.png" width="31%" alt="Celadon serum bottle edited from a water set to a dark amber-halo Instagram launch">
+</p>
+
+### [Sculptural Garnet Lipstick Commerce Set](#ec-0020)
+
+Builds three distinct beauty-commerce treatments around one fictional garnet lipstick: clean catalog clarity, lacquered luxury launch art, and a flash-lit social editorial.
+
+<p align="center">
+<img src="assets/prompts/beauty-garnet-lipstick/preview-1.png" width="31%" alt="Garnet lipstick on a warm ivory catalog set">
+<img src="assets/prompts/beauty-garnet-lipstick/preview-2.png" width="31%" alt="Garnet lipstick in an oxblood lacquer luxury set">
+<img src="assets/prompts/beauty-garnet-lipstick/preview-3.png" width="31%" alt="Adult model holding the garnet lipstick beside matching lips">
+</p>
+
+### [Midnight Headphones Platform Set](#ec-0021)
+
+Keeps one midnight-blue headphone design consistent across a pure-white marketplace listing, an acoustic feature visual, and a creator-led TikTok Shop frame.
+
+<p align="center">
+<img src="assets/prompts/audio-midnight-headphones/preview-1.png" width="31%" alt="Midnight-blue wireless headphones on pure white">
+<img src="assets/prompts/audio-midnight-headphones/preview-2.png" width="31%" alt="Midnight headphones with restrained acoustic waves">
+<img src="assets/prompts/audio-midnight-headphones/preview-3.png" width="31%" alt="Adult music creator wearing midnight-blue headphones">
+</p>
+
+### [Forest Cocotte Cookware Set](#ec-0022)
+
+Moves one forest-green Dutch oven from white-background retail clarity to a save-worthy Mediterranean still life and a believable home-cooking ritual.
+
+<p align="center">
+<img src="assets/prompts/cookware-forest-cocotte/preview-1.png" width="31%" alt="Forest-green Dutch oven and lid on pure white">
+<img src="assets/prompts/cookware-forest-cocotte/preview-2.png" width="31%" alt="Forest-green cocotte in a Mediterranean kitchen still life">
+<img src="assets/prompts/cookware-forest-cocotte/preview-3.png" width="31%" alt="Forest-green Dutch oven with a steaming bean braise">
 </p>
 
 ### [Platform-Native Trail Shoe Triptych](#ec-0007)
@@ -308,7 +345,7 @@ Constraints: no readable text, no logos, no watermark, no extra vacuum, no dupli
 
 | 作者 | 出典 | ライセンス | 公開日 |
 |---|---|---|---|
-| CommercePrompt Atlas Studio | このリポジトリのオリジナル作品 | CC-BY-4.0 | 2026-07-21 |
+| Ecommerce GPT Image Prompts Studio | このリポジトリのオリジナル作品 | CC-BY-4.0 | 2026-07-21 |
 
 Original synthesis informed by broad visual research; prompt and generated previews created for this repository. See docs/VISUAL_RESEARCH.md.
 
@@ -429,7 +466,7 @@ Constraints: no readable text, no logos, no watermark, no extra bag, no duplicat
 
 | 作者 | 出典 | ライセンス | 公開日 |
 |---|---|---|---|
-| CommercePrompt Atlas Studio | このリポジトリのオリジナル作品 | CC-BY-4.0 | 2026-07-21 |
+| Ecommerce GPT Image Prompts Studio | このリポジトリのオリジナル作品 | CC-BY-4.0 | 2026-07-21 |
 
 Original synthesis informed by broad visual research; prompt and generated previews created for this repository. See docs/VISUAL_RESEARCH.md.
 
@@ -528,7 +565,7 @@ Use the supplied serum product image as the identity reference and edit target. 
 
 | 作者 | 出典 | ライセンス | 公開日 |
 |---|---|---|---|
-| CommercePrompt Atlas Studio | このリポジトリのオリジナル作品 | CC-BY-4.0 | 2026-07-22 |
+| Ecommerce GPT Image Prompts Studio | このリポジトリのオリジナル作品 | CC-BY-4.0 | 2026-07-22 |
 
 Original product-edit workflow and generated examples created specifically for this repository from a repository-owned source image.
 
@@ -538,9 +575,108 @@ Original product-edit workflow and generated examples created specifically for t
 
 ---
 
+<a id="ec-0020"></a>
+
+### 2. Sculptural Garnet Lipstick Commerce Set
+
+⭐ **Featured**
+> This title and description use the English fallback.
+
+Builds three distinct beauty-commerce treatments around one fictional garnet lipstick: clean catalog clarity, lacquered luxury launch art, and a flash-lit social editorial.
+
+<p align="center">
+<img src="assets/prompts/beauty-garnet-lipstick/preview-1.png" width="31%" alt="Garnet lipstick on a warm ivory catalog set">
+<img src="assets/prompts/beauty-garnet-lipstick/preview-2.png" width="31%" alt="Garnet lipstick in an oxblood lacquer luxury set">
+<img src="assets/prompts/beauty-garnet-lipstick/preview-3.png" width="31%" alt="Adult model holding the garnet lipstick beside matching lips">
+</p>
+
+| Mode | Category | Use cases | プラットフォーム |
+|---|---|---|---|
+| `text-to-image` | Beauty and skincare | Catalog image, Branded hero, Social commerce ad, On-model | Sephora, Tmall Luxury, Instagram Shop |
+
+- **Styles:** Luxury premium, Editorial, Dark moody
+- **Backgrounds:** Soft studio, Color studio, Dark studio
+- **Asset purpose:** Campaign set
+- **Input requirements:** No reference image is required because the product is fictional; use product-edit mode with owned source photography for real inventory.
+
+#### Ready-to-use single-image prompts
+
+<details>
+<summary><strong>1. SEPHORA CLEAN CATALOG · Catalog image · Sephora · 4:5</strong></summary>
+
+- **Asset purpose:** Catalog image
+- **Backgrounds:** Soft studio
+
+```text
+Create a single ultra-photorealistic portrait 4:5 product photograph of one fictional, unbranded refillable lipstick. The lipstick is open and standing upright at a subtle three-quarter angle. It has a slim rectangular brushed champagne-gold metal case, one narrow deep-burgundy enamel side panel, a fine horizontal seam near the base, and a deep garnet satin lipstick bullet with a pristine sharp slanted tip. Use a seamless warm-ivory cyclorama and low cream lacquer plinth. Center the product lower-middle, fill about 72% of frame height, preserve the complete silhouette, and leave breathing room. Light with a large upper-left softbox, a controlled metal specular strip, delicate burgundy bounce, and soft grounding shadow. Render believable brushed metal, flawless enamel and dense satin wax microtexture. No words, letters, logos, watermark, second lipstick, cap, cosmetic smear, flowers, fruit, hands, floating objects, distorted case, damaged bullet, CGI-plastic look, collage, or border.
+```
+
+_Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed. License: CC-BY-4.0._
+
+</details>
+
+<details>
+<summary><strong>2. TMALL OXBLOOD LAUNCH · Branded hero · Tmall Luxury · 4:5</strong></summary>
+
+- **Asset purpose:** Branded hero
+- **Backgrounds:** Color studio
+
+```text
+Create a single ultra-photorealistic portrait 4:5 campaign still of the same fictional unbranded refillable lipstick: slim rectangular brushed champagne-gold metal case, one narrow deep-burgundy enamel side panel, fine horizontal seam near the base, open with a deep garnet satin lipstick bullet and pristine sharp slanted tip. Use a monumental set made from deep oxblood high-gloss lacquer and one warm-cream curved arch. Add one restrained thick garnet cosmetic swipe across the lower foreground without touching the product. Stand the lipstick upright on a circular oxblood lacquer pedestal at a heroic low three-quarter view with strong graphic negative space. Use hard warm spotlight through the arch, controlled gold rim light, rich black-red shadows and jewel-like reflections. No words, letters, logos, watermark, people, hands, lips, extra lipstick, cap, flowers, drips on product, malformed case, damaged tip, cheap CGI, collage, frame, or border.
+```
+
+_Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed. License: CC-BY-4.0._
+
+</details>
+
+<details>
+<summary><strong>3. INSTAGRAM FLASH EDITORIAL · On-model · Instagram Shop · 5:8</strong></summary>
+
+- **Asset purpose:** Social creative
+- **Backgrounds:** Dark studio
+
+```text
+Create a single photorealistic portrait 5:8 social-commerce beauty photograph featuring the same fictional unbranded refillable lipstick held near the face by one elegant adult model. Keep the product clearly visible: slim rectangular brushed champagne-gold metal case, one narrow deep-burgundy enamel side panel, fine seam near the base, open with a deep garnet satin bullet and pristine slanted tip. Use an intimate dark-cherry studio and one soft out-of-focus burgundy silk plane. Crop from nose to collarbone with natural skin texture; lips wear matching deep-garnet satin color. One hand holds the complete lipstick upright beside the cheek without covering the case or bullet. Use an 85mm editorial close-up, softened direct flash and narrow warm side fill. Product and lips must both be tack sharp. Adult model only; no words, logo, watermark, extra lipstick, cap, jewelry clutter, excessive smoothing, distorted hand, extra fingers, damaged bullet, duplicate product, collage, frame, or border.
+```
+
+_Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed. License: CC-BY-4.0._
+
+</details>
+
+<details><summary><strong>Original campaign-set prompt</strong></summary>
+
+```text
+Create a coherent three-image beauty-commerce set for one fictional unbranded refillable lipstick. Preserve a slim rectangular brushed champagne-gold case, one narrow deep-burgundy enamel side panel, a fine seam near the base, and a deep garnet satin bullet with a pristine slanted tip. Produce a clean marketplace catalog image, a sculptural oxblood luxury launch, and an adult-model social editorial. Keep the product recognizable while changing only art direction, composition, set, lighting, and context. No text, logos, watermark, duplicate product, damaged bullet, malformed case, collage, or border.
+```
+
+</details>
+
+<details><summary><strong>Product invariants</strong></summary>
+
+- Preserve the slim rectangular brushed champagne-gold metal case, narrow deep-burgundy enamel side panel, and fine horizontal seam near the base.
+- Preserve the open deep-garnet satin lipstick bullet with a clean, pristine slanted tip and believable dense wax texture.
+- **Negative constraints:** No words, letters, logos, watermark, extra lipstick, cap, damaged bullet, malformed case, floating product, cheap CGI, collage, frame, or border.
+
+</details>
+
+#### Provenance and rights
+
+| 作者 | 出典 | ライセンス | 公開日 |
+|---|---|---|---|
+| [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab) | このリポジトリのオリジナル作品 | CC-BY-4.0 | 2026-07-22 |
+
+Original prompt and generated previews created for this repository after open-source prompt-pattern research; no external preview asset is included.
+
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/wuyoscar/GPT-Image2-Skill)
+
+> **Platform-policy status:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+
+---
+
 <a id="ec-0001"></a>
 
-### 2. Platform-Native Serum Art Direction Triptych
+### 3. Platform-Native Serum Art Direction Triptych
 
 ⭐ **Featured**
 > This title and description use the English fallback.
@@ -646,7 +782,7 @@ Constraints: no readable text, no logo, no watermark, no hands, no flowers, no s
 
 | 作者 | 出典 | ライセンス | 公開日 |
 |---|---|---|---|
-| CommercePrompt Atlas Studio | このリポジトリのオリジナル作品 | CC-BY-4.0 | 2026-07-20 |
+| Ecommerce GPT Image Prompts Studio | このリポジトリのオリジナル作品 | CC-BY-4.0 | 2026-07-20 |
 
 Original synthesis informed by broad visual research; prompt and generated previews created for this repository. See docs/VISUAL_RESEARCH.md.
 
@@ -766,7 +902,7 @@ Constraints: no readable text, no logos, no watermark, no people, no extra pillo
 
 | 作者 | 出典 | ライセンス | 公開日 |
 |---|---|---|---|
-| CommercePrompt Atlas Studio | このリポジトリのオリジナル作品 | CC-BY-4.0 | 2026-07-21 |
+| Ecommerce GPT Image Prompts Studio | このリポジトリのオリジナル作品 | CC-BY-4.0 | 2026-07-21 |
 
 Original synthesis informed by broad visual research; prompt and generated previews created for this repository. See docs/VISUAL_RESEARCH.md.
 
@@ -780,9 +916,108 @@ Original synthesis informed by broad visual research; prompt and generated previ
 
 ## Consumer electronics
 
+<a id="ec-0021"></a>
+
+### 1. Midnight Headphones Platform Set
+
+⭐ **Featured**
+> This title and description use the English fallback.
+
+Keeps one midnight-blue headphone design consistent across a pure-white marketplace listing, an acoustic feature visual, and a creator-led TikTok Shop frame.
+
+<p align="center">
+<img src="assets/prompts/audio-midnight-headphones/preview-1.png" width="31%" alt="Midnight-blue wireless headphones on pure white">
+<img src="assets/prompts/audio-midnight-headphones/preview-2.png" width="31%" alt="Midnight headphones with restrained acoustic waves">
+<img src="assets/prompts/audio-midnight-headphones/preview-3.png" width="31%" alt="Adult music creator wearing midnight-blue headphones">
+</p>
+
+| Mode | Category | Use cases | プラットフォーム |
+|---|---|---|---|
+| `text-to-image` | Consumer electronics | Marketplace main image, Feature visual, Lifestyle scene, Social commerce ad | Amazon, Best Buy, TikTok Shop |
+
+- **Styles:** Minimalist clean, Technical, Social native
+- **Backgrounds:** Pure white, Dark studio, Lifestyle location
+- **Asset purpose:** Campaign set
+- **Input requirements:** No reference image is required for this fictional product; edit owned product photography when exact inventory fidelity is required.
+
+#### Ready-to-use single-image prompts
+
+<details>
+<summary><strong>1. AMAZON CLEAN MAIN IMAGE · Marketplace main image · Amazon · 4:5</strong></summary>
+
+- **Asset purpose:** Marketplace main image
+- **Backgrounds:** Pure white
+
+```text
+Create one ultra-photorealistic portrait 4:5 catalog photograph of a fictional unbranded pair of premium over-ear wireless headphones. Product design: two large rounded-oval matte midnight-navy earcups with shallow concentric bevels, slim bead-blasted natural-aluminum Y-yokes, a broad navy woven-fabric headband with a narrow aluminum center rail, thick charcoal textile memory-foam cushions, and one tiny burnt-orange fabric pull tab beneath the right earcup. Use pure #FFFFFF. Fold the headphones into a graceful three-quarter standing pose with the entire headband and both cushions visible; fill 78% of frame. Use an overhead softbox, precise silver edge highlights and a realistic grounding shadow. No text, logo, watermark, cable, stand, phone, case, extra headphones, separated parts, distorted headband, asymmetric earcups, CGI plastic, collage, or border.
+```
+
+_Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed. License: CC-BY-4.0._
+
+</details>
+
+<details>
+<summary><strong>2. BEST BUY ACOUSTIC FEATURE · Feature visual · Best Buy · 4:5</strong></summary>
+
+- **Asset purpose:** Secondary listing image
+- **Backgrounds:** Dark studio
+
+```text
+Create one dramatic ultra-photorealistic portrait 4:5 feature image of the same fictional unbranded over-ear wireless headphones. Preserve rounded-oval matte midnight-navy earcups, slim natural-aluminum Y-yokes, broad navy woven headband with narrow aluminum rail, thick charcoal textile cushions and one tiny burnt-orange tab. Use a deep ink-blue acoustic chamber and one low black-glass plinth. Place restrained translucent amber-to-cobalt sound-wave ribbons behind the headphones in smooth concentric arcs without obscuring the product. Show the full upright product at a front three-quarter angle. Use cool rim lights, one warm pinpoint accent and rich controlled blacks. No text, logos, labels, arrows, numbers, cable, person, extra headphones, exploded parts, impossible waves, neon clutter, distorted headband, CGI look, collage, or border.
+```
+
+_Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed. License: CC-BY-4.0._
+
+</details>
+
+<details>
+<summary><strong>3. TIKTOK CREATOR SESSION · Social commerce ad · TikTok Shop · 4:5</strong></summary>
+
+- **Asset purpose:** Social creative
+- **Backgrounds:** Lifestyle location
+
+```text
+Create one portrait 4:5 social-native photorealistic campaign frame of one adult music creator wearing the same fictional unbranded headphones. Preserve the rounded-oval midnight-navy earcups with shallow bevels, natural-aluminum Y-yokes, broad navy woven headband with narrow aluminum rail, charcoal textile cushions and tiny burnt-orange tab. Set the scene in a compact independent music studio at blue hour with muted acoustic panels, one amber lamp and blurred MIDI shapes without readable markings. Capture the creator chest-up, leaning toward an off-frame mixer mid-head-nod; keep the headphones tack sharp and correctly fitted. Use bounced direct flash, ambient cobalt room tone and warm practical light. No text, logos, visible brand interface, extra headphones, cable, microphone covering product, RGB gaming clutter, distorted face, extra fingers, deformed headband, collage, or border.
+```
+
+_Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed. License: CC-BY-4.0._
+
+</details>
+
+<details><summary><strong>Original campaign-set prompt</strong></summary>
+
+```text
+Create three platform-native commerce images for one fictional unbranded premium over-ear headphone design. Preserve rounded-oval matte midnight-navy earcups, natural-aluminum Y-yokes, a navy woven headband with narrow aluminum rail, charcoal textile cushions, and one tiny burnt-orange pull tab. Produce a clean white catalog image, a restrained acoustic feature visual, and a real adult creator scene. No logos, text, cable, extra headphones, broken geometry, or generic RGB clutter.
+```
+
+</details>
+
+<details><summary><strong>Product invariants</strong></summary>
+
+- Preserve two large rounded-oval matte midnight-navy earcups with shallow concentric bevels and thick charcoal textile cushions.
+- Preserve slim natural-aluminum Y-yokes, the broad navy woven headband with narrow aluminum center rail, and tiny burnt-orange tab beneath the right earcup.
+- **Negative constraints:** No words, letters, logos, watermark, cable, stand, extra headphones, separated parts, malformed headband, asymmetric earcups, exaggerated RGB clutter, CGI plastic, collage, or border.
+
+</details>
+
+#### Provenance and rights
+
+| 作者 | 出典 | ライセンス | 公開日 |
+|---|---|---|---|
+| [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab) | このリポジトリのオリジナル作品 | CC-BY-4.0 | 2026-07-22 |
+
+Original prompt and generated previews created for this repository after open-source prompt-pattern research; no external preview asset is included.
+
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/wuyoscar/GPT-Image2-Skill)
+
+> **Platform-policy status:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+
+---
+
 <a id="ec-0003"></a>
 
-### 1. Marketplace Smartphone Conversion Triptych
+### 2. Marketplace Smartphone Conversion Triptych
 
 ⭐ **Featured**
 > This title and description use the English fallback.
@@ -887,13 +1122,116 @@ Constraints: no readable text, no logo, no watermark, no hands, no cable, no cas
 
 | 作者 | 出典 | ライセンス | 公開日 |
 |---|---|---|---|
-| CommercePrompt Atlas Studio | このリポジトリのオリジナル作品 | CC-BY-4.0 | 2026-07-20 |
+| Ecommerce GPT Image Prompts Studio | このリポジトリのオリジナル作品 | CC-BY-4.0 | 2026-07-20 |
 
 Original synthesis informed by broad visual research and marketplace conventions; prompt and generated previews created for this repository. See docs/VISUAL_RESEARCH.md.
 
 - [visual-research](docs/VISUAL_RESEARCH.md)
 
 > **Platform-policy status:** Platform names describe intended art direction only. Verify the current official rules for the product category before publishing.
+
+---
+
+<a id="category-cookware"></a>
+
+## Cookware
+
+<a id="ec-0022"></a>
+
+### 1. Forest Cocotte Cookware Set
+
+⭐ **Featured**
+> This title and description use the English fallback.
+
+Moves one forest-green Dutch oven from white-background retail clarity to a save-worthy Mediterranean still life and a believable home-cooking ritual.
+
+<p align="center">
+<img src="assets/prompts/cookware-forest-cocotte/preview-1.png" width="31%" alt="Forest-green Dutch oven and lid on pure white">
+<img src="assets/prompts/cookware-forest-cocotte/preview-2.png" width="31%" alt="Forest-green cocotte in a Mediterranean kitchen still life">
+<img src="assets/prompts/cookware-forest-cocotte/preview-3.png" width="31%" alt="Forest-green Dutch oven with a steaming bean braise">
+</p>
+
+| Mode | Category | Use cases | プラットフォーム |
+|---|---|---|---|
+| `text-to-image` | Cookware | Marketplace main image, Branded hero, Lifestyle scene | Amazon Home, Pinterest, Xiaohongshu |
+
+- **Styles:** Minimalist clean, Natural organic, Food editorial
+- **Backgrounds:** Pure white, Natural material, Home interior
+- **Asset purpose:** Campaign set
+- **Input requirements:** No reference image is required for this fictional cookware design; use product-edit mode for a real SKU.
+
+#### Ready-to-use single-image prompts
+
+<details>
+<summary><strong>1. AMAZON HOME MAIN IMAGE · Marketplace main image · Amazon Home · 4:5</strong></summary>
+
+- **Asset purpose:** Marketplace main image
+- **Backgrounds:** Pure white
+
+```text
+Create one ultra-photorealistic portrait 4:5 catalog photograph of a fictional unbranded 5-quart round enameled cast-iron Dutch oven. Use a low wide cylindrical body in deep forest-green gloss enamel, warm-cream enamel interior, two short horizontal loop handles, matching heavy lid with three subtle concentric rings and a small domed brushed-brass knob. Lean the lid upright directly behind the open empty pot so the interior and lid are visible; exactly one pot and one matching lid. Use pure #FFFFFF, centered three-quarter view, complete handles and lid, 76% frame fill, broad softbox and controlled enamel highlight. No food, steam, utensils, packaging, text, logo, watermark, extra cookware, detached knob, distorted handles, chips, plastic CGI, collage, or border.
+```
+
+_Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed. License: CC-BY-4.0._
+
+</details>
+
+<details>
+<summary><strong>2. PINTEREST MEDITERRANEAN STILL LIFE · Branded hero · Pinterest · 5:8</strong></summary>
+
+- **Asset purpose:** Branded hero
+- **Backgrounds:** Natural material
+
+```text
+Create one portrait 5:8 photorealistic editorial image of the same fictional forest-green Dutch oven. Preserve the low wide body, cream interior, two short loop handles, ringed green lid and domed brushed-brass knob. Set the closed pot on a limestone worktop in a quiet old-world chalk-plaster kitchen with one wrinkled natural flax cloth, a few sage leaves and two whole pears. Show the full pot in lower center at a three-quarter view with the lid properly seated. Use one hard late-afternoon window beam, sculptural leaf shadow, cool room shadows and warm brass highlight. Render pitted stone, imperfect plaster, woven linen and heavy vitreous enamel. No text, logos, watermark, extra pot or lid, food on pot, flames, person, modern appliance, clutter, flowers, distorted handles, CGI, collage, or border.
+```
+
+_Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed. License: CC-BY-4.0._
+
+</details>
+
+<details>
+<summary><strong>3. XIAOHONGSHU COOKING RITUAL · Lifestyle scene · Xiaohongshu · 4:5</strong></summary>
+
+- **Asset purpose:** Social creative
+- **Backgrounds:** Home interior
+
+```text
+Create one portrait 4:5 appetizing social-commerce lifestyle photograph of the same forest-green enameled Dutch oven in use. Preserve the low wide body, cream interior, short loop handles, matching ringed lid and brass knob. In a compact sunlit kitchen with pale oak and warm-white tile, fill the open pot with a rustic tomato-and-white-bean braise and gentle natural steam. One adult hand stirs with a simple wooden spoon from the side. Put the matching lid safely on a small wooden trivet behind the pot. Use a close 45-degree tabletop view; the pot dominates while the front body and both handles remain visible. Use warm morning light with a small direct-flash lift. No text, logo, watermark, extra cookware, duplicated lid, fire, unsafe contact, overflowing food, malformed fingers, CGI food, collage, or border.
+```
+
+_Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed. License: CC-BY-4.0._
+
+</details>
+
+<details><summary><strong>Original campaign-set prompt</strong></summary>
+
+```text
+Create a three-image cookware commerce set for one fictional unbranded 5-quart enameled cast-iron Dutch oven. Preserve the deep forest-green gloss body, cream interior, short loop handles, matching lid with three concentric rings, and a small brushed-brass knob. Produce an Amazon Home main image, a Pinterest old-world still life, and a Xiaohongshu home-cooking frame. Maintain believable weight, enamel and scale. No branding, extra cookware, broken handles, unsafe action, or CGI food.
+```
+
+</details>
+
+<details><summary><strong>Product invariants</strong></summary>
+
+- Preserve the low wide cylindrical cast-iron body, deep forest-green gloss exterior, warm-cream enamel interior, and two short horizontal loop handles.
+- Preserve the matching heavy green lid with three subtle concentric rings and one small domed brushed-brass knob.
+- **Negative constraints:** No words, logos, watermark, extra pot, extra lid, detached knob, distorted handles, impossible geometry, unsafe hand contact, plastic CGI, collage, or border.
+
+</details>
+
+#### Provenance and rights
+
+| 作者 | 出典 | ライセンス | 公開日 |
+|---|---|---|---|
+| [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab) | このリポジトリのオリジナル作品 | CC-BY-4.0 | 2026-07-22 |
+
+Original prompt and generated previews created for this repository after open-source prompt-pattern research; no external preview asset is included.
+
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/wuyoscar/GPT-Image2-Skill)
+
+> **Platform-policy status:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
 
 ---
 
@@ -1007,7 +1345,7 @@ Constraints: no readable text, no logos, no watermark, no extra helmet, no bicyc
 
 | 作者 | 出典 | ライセンス | 公開日 |
 |---|---|---|---|
-| CommercePrompt Atlas Studio | このリポジトリのオリジナル作品 | CC-BY-4.0 | 2026-07-21 |
+| Ecommerce GPT Image Prompts Studio | このリポジトリのオリジナル作品 | CC-BY-4.0 | 2026-07-21 |
 
 Original synthesis informed by broad visual research; prompt and generated previews created for this repository. See docs/VISUAL_RESEARCH.md.
 
@@ -1128,13 +1466,115 @@ Constraints: no readable text, no logos, no watermark, no extra jacket, no unrel
 
 | 作者 | 出典 | ライセンス | 公開日 |
 |---|---|---|---|
-| CommercePrompt Atlas Studio | このリポジトリのオリジナル作品 | CC-BY-4.0 | 2026-07-20 |
+| Ecommerce GPT Image Prompts Studio | このリポジトリのオリジナル作品 | CC-BY-4.0 | 2026-07-20 |
 
 Original synthesis informed by broad visual research; prompt and generated previews created for this repository. See docs/VISUAL_RESEARCH.md.
 
 - [visual-research](docs/VISUAL_RESEARCH.md)
 
 > **Platform-policy status:** Platform names describe intended art direction only. Verify the current official rules for the product category before publishing.
+
+---
+
+<a id="category-fitness-and-wellness"></a>
+
+## Fitness and wellness
+
+<a id="ec-0023"></a>
+
+### 1. Cobalt Plant Protein Commerce Set
+
+> This title and description use the English fallback.
+
+Creates a claim-free wellness package system for marketplace clarity, kinetic training content, and a bright social breakfast recipe.
+
+<p align="center">
+<img src="assets/prompts/wellness-cobalt-protein/preview-1.png" width="31%" alt="Claim-free cobalt and ivory protein tub on white">
+<img src="assets/prompts/wellness-cobalt-protein/preview-2.png" width="31%" alt="Cobalt protein tub in a kinetic training studio">
+<img src="assets/prompts/wellness-cobalt-protein/preview-3.png" width="31%" alt="Cobalt protein package in a bright breakfast flat lay">
+</p>
+
+| Mode | Category | Use cases | プラットフォーム |
+|---|---|---|---|
+| `text-to-image` | Fitness and wellness | Marketplace main image, Social commerce ad, Lifestyle scene | Amazon, TikTok Shop, Xiaohongshu |
+
+- **Styles:** Minimalist clean, Social native, Bright playful
+- **Backgrounds:** Pure white, Lifestyle location, Natural material
+- **Asset purpose:** Campaign set
+- **Input requirements:** No reference image is required for this fictional package; all legal label copy must be added and reviewed outside image generation.
+
+#### Ready-to-use single-image prompts
+
+<details>
+<summary><strong>1. AMAZON CLAIM-FREE MAIN IMAGE · Marketplace main image · Amazon · 4:5</strong></summary>
+
+- **Asset purpose:** Marketplace main image
+- **Backgrounds:** Pure white
+
+```text
+Create one ultra-photorealistic portrait 4:5 catalog photograph of a fictional unbranded plant-protein package. Show one squat cylindrical warm-white fiberboard tub with a slightly domed matte cobalt-blue screw lid, broad blank warm-white label, one diagonal cobalt-blue band around the lower third, one thin acid-lime stripe above it, and a small embossed leaf seal with no lettering. Place one matching cobalt scoop beside the sealed tub, bowl upward with a modest mound of pale vanilla powder. Use pure #FFFFFF, slight three-quarter front view, full package and scoop, 72% frame fill, broad bright softbox and soft grounding shadow. Absolutely no text, numbers, letters, logo, nutrition panel, claims, certification marks, watermark, fruit, glass, duplicate tub, open lid, scattered mess, distorted packaging, CGI plastic, collage, or border.
+```
+
+_Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed. License: CC-BY-4.0._
+
+</details>
+
+<details>
+<summary><strong>2. TIKTOK TRAINING ENERGY · Social commerce ad · TikTok Shop · 5:8</strong></summary>
+
+- **Asset purpose:** Social creative
+- **Backgrounds:** Lifestyle location
+
+```text
+Create one kinetic portrait 5:8 social-native photograph featuring the same fictional plant-protein tub. Preserve the squat warm-white cylinder, domed matte cobalt lid, blank label, diagonal cobalt lower band, thin acid-lime stripe, and tiny embossed leaf seal without lettering. Place the sealed package safely on a stainless-steel bench in sharp foreground in a raw pale-concrete training studio with one cobalt crash mat. Behind it, an athletic adult performs battle-rope movement with controlled motion blur. A restrained arc of pale powder hangs in side light well behind the tub and never touches it. Use a low 28mm angle, direct flash, cool high-window daylight and acid-lime rim accent. Adult only; no text, claims, logos, watermark, extra tub, open lid, shaker, unsafe powder inhalation, dust obscuring product, distorted body, extra limbs, CGI packaging, collage, or border.
+```
+
+_Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed. License: CC-BY-4.0._
+
+</details>
+
+<details>
+<summary><strong>3. XIAOHONGSHU BREAKFAST FLAT LAY · Lifestyle scene · Xiaohongshu · 4:5</strong></summary>
+
+- **Asset purpose:** Social creative
+- **Backgrounds:** Natural material
+
+```text
+Create one refined portrait 4:5 social-commerce breakfast flat lay centered on the same fictional plant-protein tub. Preserve the squat warm-white fiberboard cylinder, domed matte cobalt lid, blank label, diagonal cobalt lower band, thin acid-lime stripe and small embossed leaf seal without lettering. Use a pale terrazzo table with cobalt mineral chips and morning sunlight. Add one ceramic bowl of thick banana-oat smoothie topped with blueberries, pumpkin seeds and a restrained lime spiral, one matching cobalt scoop with pale vanilla powder, and an oatmeal linen napkin. Arrange tub upper right and bowl lower left in a geometric top-down composition with clean negative space and crisp botanical shadow. No text, claims, logos, watermark, extra tub, open container, powder spill, hands, pills, fitness equipment, clutter, CGI look, collage, or border.
+```
+
+_Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed. License: CC-BY-4.0._
+
+</details>
+
+<details><summary><strong>Original campaign-set prompt</strong></summary>
+
+```text
+Create three claim-free commerce images for one fictional unbranded plant-protein tub. Preserve the squat warm-white fiberboard cylinder, matte cobalt-blue lid, blank label, diagonal cobalt lower band, thin acid-lime stripe, and small embossed leaf seal without letters. Produce a pure-white listing, a dynamic adult training frame, and a breakfast flat lay. Never invent product claims, nutrition facts, certification marks, logos, or readable text.
+```
+
+</details>
+
+<details><summary><strong>Product invariants</strong></summary>
+
+- Preserve one squat warm-white fiberboard tub, a slightly domed matte cobalt-blue screw lid, and a broad blank warm-white paper label.
+- Preserve the diagonal cobalt-blue lower band, thin acid-lime accent stripe, and small embossed leaf seal without letters or claims.
+- **Negative constraints:** No readable text, letters, numbers, nutrition panel, health claims, certification marks, logos, watermark, duplicate tub, distorted packaging, unsafe powder action, CGI plastic, collage, or border.
+
+</details>
+
+#### Provenance and rights
+
+| 作者 | 出典 | ライセンス | 公開日 |
+|---|---|---|---|
+| [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab) | このリポジトリのオリジナル作品 | CC-BY-4.0 | 2026-07-22 |
+
+Original prompt and generated previews created for this repository after open-source prompt-pattern research; no external preview asset is included.
+
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/wuyoscar/GPT-Image2-Skill)
+
+> **Platform-policy status:** Platform names identify intended visual treatment only; legal supplement labels and current advertising rules require separate human review.
 
 ---
 
@@ -1248,7 +1688,7 @@ Constraints: no readable text, no logos, no watermark, no extra bowls, no duplic
 
 | 作者 | 出典 | ライセンス | 公開日 |
 |---|---|---|---|
-| CommercePrompt Atlas Studio | このリポジトリのオリジナル作品 | CC-BY-4.0 | 2026-07-20 |
+| Ecommerce GPT Image Prompts Studio | このリポジトリのオリジナル作品 | CC-BY-4.0 | 2026-07-20 |
 
 Original synthesis informed by broad visual research; prompt and generated previews created for this repository. See docs/VISUAL_RESEARCH.md.
 
@@ -1369,7 +1809,7 @@ Constraints: no readable text, no logos, no watermark, no extra shoe or pair, no
 
 | 作者 | 出典 | ライセンス | 公開日 |
 |---|---|---|---|
-| CommercePrompt Atlas Studio | このリポジトリのオリジナル作品 | CC-BY-4.0 | 2026-07-21 |
+| Ecommerce GPT Image Prompts Studio | このリポジトリのオリジナル作品 | CC-BY-4.0 | 2026-07-21 |
 
 Original synthesis informed by broad visual research; prompt and generated previews created for this repository. See docs/VISUAL_RESEARCH.md.
 
@@ -1489,7 +1929,7 @@ Constraints: no readable text, no logos, no watermark, no extra planter, no flow
 
 | 作者 | 出典 | ライセンス | 公開日 |
 |---|---|---|---|
-| CommercePrompt Atlas Studio | このリポジトリのオリジナル作品 | CC-BY-4.0 | 2026-07-21 |
+| Ecommerce GPT Image Prompts Studio | このリポジトリのオリジナル作品 | CC-BY-4.0 | 2026-07-21 |
 
 Original synthesis informed by broad visual research; prompt and generated previews created for this repository. See docs/VISUAL_RESEARCH.md.
 
@@ -1609,7 +2049,7 @@ Constraints: no readable text, no logos, no watermark, no people, no extra sofa,
 
 | 作者 | 出典 | ライセンス | 公開日 |
 |---|---|---|---|
-| CommercePrompt Atlas Studio | このリポジトリのオリジナル作品 | CC-BY-4.0 | 2026-07-20 |
+| Ecommerce GPT Image Prompts Studio | このリポジトリのオリジナル作品 | CC-BY-4.0 | 2026-07-20 |
 
 Original synthesis informed by broad visual research; prompt and generated previews created for this repository. See docs/VISUAL_RESEARCH.md.
 
@@ -1729,7 +2169,7 @@ Constraints: pristine clean jewelry surfaces; no smudges or fingerprints; no rea
 
 | 作者 | 出典 | ライセンス | 公開日 |
 |---|---|---|---|
-| CommercePrompt Atlas Studio | このリポジトリのオリジナル作品 | CC-BY-4.0 | 2026-07-20 |
+| Ecommerce GPT Image Prompts Studio | このリポジトリのオリジナル作品 | CC-BY-4.0 | 2026-07-20 |
 
 Original synthesis informed by broad visual research; prompt and generated previews created for this repository. See docs/VISUAL_RESEARCH.md.
 
@@ -1849,7 +2289,7 @@ Constraints: no readable text, no logos, no watermark, no extra machine, no impo
 
 | 作者 | 出典 | ライセンス | 公開日 |
 |---|---|---|---|
-| CommercePrompt Atlas Studio | このリポジトリのオリジナル作品 | CC-BY-4.0 | 2026-07-21 |
+| Ecommerce GPT Image Prompts Studio | このリポジトリのオリジナル作品 | CC-BY-4.0 | 2026-07-21 |
 
 Original synthesis informed by broad visual research; prompt and generated previews created for this repository. See docs/VISUAL_RESEARCH.md.
 
@@ -1970,7 +2410,7 @@ Constraints: no readable text, no logos, no watermark, no extra tent, no people,
 
 | 作者 | 出典 | ライセンス | 公開日 |
 |---|---|---|---|
-| CommercePrompt Atlas Studio | このリポジトリのオリジナル作品 | CC-BY-4.0 | 2026-07-21 |
+| Ecommerce GPT Image Prompts Studio | このリポジトリのオリジナル作品 | CC-BY-4.0 | 2026-07-21 |
 
 Original synthesis informed by broad visual research; prompt and generated previews created for this repository. See docs/VISUAL_RESEARCH.md.
 
@@ -2090,13 +2530,115 @@ Constraints: no readable text, no logos, no watermark, no extra carrier, no dupl
 
 | 作者 | 出典 | ライセンス | 公開日 |
 |---|---|---|---|
-| CommercePrompt Atlas Studio | このリポジトリのオリジナル作品 | CC-BY-4.0 | 2026-07-21 |
+| Ecommerce GPT Image Prompts Studio | このリポジトリのオリジナル作品 | CC-BY-4.0 | 2026-07-21 |
 
 Original synthesis informed by broad visual research; prompt and generated previews created for this repository. See docs/VISUAL_RESEARCH.md.
 
 - [visual-research](docs/VISUAL_RESEARCH.md)
 
 > **Platform-policy status:** Platform names describe intended art direction only. Verify the current official rules for the product category before publishing.
+
+---
+
+<a id="category-stationery-and-office"></a>
+
+## Stationery and office
+
+<a id="ec-0025"></a>
+
+### 1. Faceted Jade Fountain Pen Set
+
+> This title and description use the English fallback.
+
+Uses translucent resin and machined brass to distinguish a clean retail macro, an Etsy maker story, and an intimate rain-day writing ritual.
+
+<p align="center">
+<img src="assets/prompts/stationery-jade-fountain-pen/preview-1.png" width="31%" alt="Faceted jade fountain pen and cap in a clean studio">
+<img src="assets/prompts/stationery-jade-fountain-pen/preview-2.png" width="31%" alt="Jade fountain pen on a tactile artisan workbench">
+<img src="assets/prompts/stationery-jade-fountain-pen/preview-3.png" width="31%" alt="Adult hand writing abstract lines with a jade fountain pen">
+</p>
+
+| Mode | Category | Use cases | プラットフォーム |
+|---|---|---|---|
+| `text-to-image` | Stationery and office | Catalog image, Detail and macro, Lifestyle scene | Tmall, Etsy, Xiaohongshu |
+
+- **Styles:** Luxury premium, Handmade tactile, Quiet living
+- **Backgrounds:** Soft studio, Natural material, Home interior
+- **Asset purpose:** Campaign set
+- **Input requirements:** No reference image is required for this fictional pen; use a sharp licensed product reference for real nib and clip fidelity.
+
+#### Ready-to-use single-image prompts
+
+<details>
+<summary><strong>1. TMALL LUXURY CATALOG · Catalog image · Tmall · 4:5</strong></summary>
+
+- **Asset purpose:** Catalog image
+- **Backgrounds:** Soft studio
+
+```text
+Create one ultra-photorealistic portrait 4:5 product photograph of a fictional unbranded fountain pen. Product design: gently faceted twelve-sided deep-jade translucent resin barrel and matching cap, brushed warm-brass straight clip, two thin brass cap bands, brushed brass grip and one dark ruthenium steel nib with fine geometric engraved lines but no symbol or lettering. Exactly one pen and one cap. Use a warm off-white seamless studio and one thin horizontal brushed-brass display rail. Lay the uncapped pen diagonally across the rail with nib pointing lower left; place the cap parallel behind it. Keep the full barrel, nib, clip and cap visible. Use a large softbox and narrow edge light revealing translucent jade depth. No text, logos, watermark, ink bottle, paper, extra pen, duplicate cap, floating pieces, malformed nib, bent clip, ink stains, CGI look, collage, or border.
+```
+
+_Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed. License: CC-BY-4.0._
+
+</details>
+
+<details>
+<summary><strong>2. ETSY MAKER PROVENANCE · Detail and macro · Etsy · 5:8</strong></summary>
+
+- **Asset purpose:** Branded hero
+- **Backgrounds:** Natural material
+
+```text
+Create one tactile portrait 5:8 editorial photograph of the same fictional fountain pen. Preserve the twelve-sided deep-jade translucent resin barrel and cap, straight brushed-brass clip, two thin brass cap bands, brushed-brass grip and dark ruthenium nib with nonverbal geometric engraving. Set it on a small craftsperson's walnut workbench with one worn linen pad, one restrained curled brass shaving and a single faceted jade-resin blank in soft background. Rest the complete uncapped pen diagonally on the linen; put the matching cap beside it with clip facing camera. Use warm north-window light and one cool workshop rim. Render walnut pores, frayed linen, resin facets, micro-scratched brass and crisp steel. No text, logos, watermark, human, extra finished pen, extra cap, scattered tools, gemstones, malformed nib, fake antique filter, CGI look, collage, or border.
+```
+
+_Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed. License: CC-BY-4.0._
+
+</details>
+
+<details>
+<summary><strong>3. XIAOHONGSHU RAIN-DAY WRITING · Lifestyle scene · Xiaohongshu · 5:8</strong></summary>
+
+- **Asset purpose:** Social creative
+- **Backgrounds:** Home interior
+
+```text
+Create one intimate portrait 5:8 photorealistic desk scene showing the same fictional fountain pen in use. Preserve the twelve-sided deep-jade translucent barrel, matching cap, straight brass clip, two thin bands, brass grip and dark ruthenium nib. Use a smoked-oak desk near a rain-softened window with one cream cotton notebook, celadon tea cup and small brass paperweight softly out of focus. One adult hand holds the uncapped pen correctly over the notebook. The page contains only a few abstract sweeping ink lines and geometric marks—absolutely no readable writing. Place the matching cap beside the notebook with clip visible. Use a close 50mm over-shoulder view, cool rainy daylight, warm desk-lamp pool and subtle flash lift. No readable text, logos, extra pen, extra cap, ink spill, distorted fingers, malformed nib, hidden pen, clutter, CGI look, collage, or border.
+```
+
+_Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed. License: CC-BY-4.0._
+
+</details>
+
+<details><summary><strong>Original campaign-set prompt</strong></summary>
+
+```text
+Create three premium commerce images for one fictional unbranded fountain pen. Preserve the twelve-sided deep-jade translucent resin barrel and cap, straight brushed-brass clip, two thin brass cap bands, brushed-brass grip, and dark ruthenium nib with nonverbal geometric engraving. Produce a clean catalog macro, an Etsy artisan provenance still life, and a Xiaohongshu writing ritual. No readable writing, duplicate pen, broken nib, invented logo, or gemstone substitution.
+```
+
+</details>
+
+<details><summary><strong>Product invariants</strong></summary>
+
+- Preserve the gently faceted twelve-sided deep-jade translucent resin barrel and matching cap.
+- Preserve the straight brushed-brass clip, two thin brass cap bands, brass grip, and dark ruthenium nib with nonverbal geometric lines.
+- **Negative constraints:** No readable text, letters, logos, watermark, extra pen, duplicate cap, malformed nib, bent clip, gemstone look, ink spill, CGI plastic, collage, or border.
+
+</details>
+
+#### Provenance and rights
+
+| 作者 | 出典 | ライセンス | 公開日 |
+|---|---|---|---|
+| [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab) | このリポジトリのオリジナル作品 | CC-BY-4.0 | 2026-07-22 |
+
+Original prompt and generated previews created for this repository after open-source prompt-pattern research; no external preview asset is included.
+
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/wuyoscar/GPT-Image2-Skill)
+
+> **Platform-policy status:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
 
 ---
 
@@ -2210,7 +2752,7 @@ Constraints: no readable text, no logos, no watermark, no extra tin, no health c
 
 | 作者 | 出典 | ライセンス | 公開日 |
 |---|---|---|---|
-| CommercePrompt Atlas Studio | このリポジトリのオリジナル作品 | CC-BY-4.0 | 2026-07-21 |
+| Ecommerce GPT Image Prompts Studio | このリポジトリのオリジナル作品 | CC-BY-4.0 | 2026-07-21 |
 
 Original synthesis informed by broad visual research; prompt and generated previews created for this repository. See docs/VISUAL_RESEARCH.md.
 
@@ -2330,13 +2872,115 @@ Constraints: exactly seven arch pieces, no readable text, no logos, no watermark
 
 | 作者 | 出典 | ライセンス | 公開日 |
 |---|---|---|---|
-| CommercePrompt Atlas Studio | このリポジトリのオリジナル作品 | CC-BY-4.0 | 2026-07-21 |
+| Ecommerce GPT Image Prompts Studio | このリポジトリのオリジナル作品 | CC-BY-4.0 | 2026-07-21 |
 
 Original synthesis informed by broad visual research; prompt and generated previews created for this repository. See docs/VISUAL_RESEARCH.md.
 
 - [visual-research](docs/VISUAL_RESEARCH.md)
 
 > **Platform-policy status:** Platform names describe intended art direction only. Verify the current official rules for the product category before publishing.
+
+---
+
+<a id="category-travel-and-luggage"></a>
+
+## Travel and luggage
+
+<a id="ec-0024"></a>
+
+### 1. Sand Carry-On Travel Set
+
+> This title and description use the English fallback.
+
+Preserves one sand-and-orange carry-on across a white marketplace view, a quiet architectural airport hero, and an overhead packing guide.
+
+<p align="center">
+<img src="assets/prompts/travel-sand-carryon/preview-1.png" width="31%" alt="Sand carry-on with orange frame on pure white">
+<img src="assets/prompts/travel-sand-carryon/preview-2.png" width="31%" alt="Sand carry-on in a sunrise airport concourse">
+<img src="assets/prompts/travel-sand-carryon/preview-3.png" width="31%" alt="Open sand carry-on with an organized capsule wardrobe">
+</p>
+
+| Mode | Category | Use cases | プラットフォーム |
+|---|---|---|---|
+| `text-to-image` | Travel and luggage | Marketplace main image, Branded hero, Feature visual | Amazon, Shopify, Pinterest |
+
+- **Styles:** Minimalist clean, Architectural, Quiet living
+- **Backgrounds:** Pure white, Lifestyle location, Home interior
+- **Asset purpose:** Campaign set
+- **Input requirements:** No reference image is required for this fictional carry-on; use product-edit mode for real luggage dimensions and hardware.
+
+#### Ready-to-use single-image prompts
+
+<details>
+<summary><strong>1. AMAZON CARRY-ON MAIN IMAGE · Marketplace main image · Amazon · 5:8</strong></summary>
+
+- **Asset purpose:** Marketplace main image
+- **Backgrounds:** Pure white
+
+```text
+Create one ultra-photorealistic portrait 5:8 catalog photograph of a fictional unbranded compact cabin suitcase. Use a softly rounded rectangular matte warm-sand polycarbonate shell, five wide vertical front flutes, a slim burnt-orange zipperless aluminum perimeter frame, matching burnt-orange flush top handle and telescoping grip, black two-stage telescoping rails, and four compact black double-spinner wheel groups. No exterior pockets or logos. Stand the suitcase upright at a front three-quarter angle on pure #FFFFFF with the handle extended to first stop; show all wheels and the entire handle, filling 76% of frame. Use a high-key broad softbox and restrained grounding shadow. No text, logos, watermark, stickers, tags, extra suitcase, person, zipper, missing wheel, bent handle, floating case, CGI plastic, collage, or border.
+```
+
+_Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed. License: CC-BY-4.0._
+
+</details>
+
+<details>
+<summary><strong>2. SHOPIFY AIRPORT HERO · Branded hero · Shopify · 4:5</strong></summary>
+
+- **Asset purpose:** Branded hero
+- **Backgrounds:** Lifestyle location
+
+```text
+Create one cinematic portrait 4:5 architectural campaign photograph of the same fictional unbranded carry-on. Preserve the rounded warm-sand hard shell, five broad vertical flutes, slim burnt-orange zipperless frame, orange flush top handle and grip, black rails, and four black double-spinner wheels. Place it in a quiet modern airport concourse at first light with pale travertine walls, one immense curved window and honey sunlight. Set the suitcase upright in foreground at a low three-quarter angle with telescoping handle lowered and flush; show all wheels and cast a long clean shadow toward the window. Use warm sunrise against cool stone and controlled orange edge light. No text, logos, watermark, signage, people, extra luggage, travel tags, zipper, missing wheel, crooked body, CGI look, collage, or border.
+```
+
+_Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed. License: CC-BY-4.0._
+
+</details>
+
+<details>
+<summary><strong>3. PINTEREST PACKING ORGANIZATION · Feature visual · Pinterest · 4:5</strong></summary>
+
+- **Asset purpose:** Secondary listing image
+- **Backgrounds:** Home interior
+
+```text
+Create one photorealistic portrait 4:5 overhead packing story featuring the same fictional cabin suitcase opened flat. Preserve the warm-sand shell with five exterior flutes visible at the edges, slim burnt-orange zipperless frame, orange top handle, black rails and four black double-spinner wheels. Interior is warm-stone recycled fabric: left side has one full mesh divider without text; right side has crossed orange compression straps. On a pale-oak floor, neatly pack an ivory, navy and terracotta capsule wardrobe, one rolled linen shirt, clean neutral sneakers and a blank amber toiletry pouch. Use an exact overhead view with the complete open suitcase and every wheel in frame, soft diagonal daylight and clean negative space. No text, logos, passports, boarding passes, money, branded clothing, extra suitcase, human, overfilled case, impossible compartments, distorted case, CGI look, collage, or border.
+```
+
+_Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed. License: CC-BY-4.0._
+
+</details>
+
+<details><summary><strong>Original campaign-set prompt</strong></summary>
+
+```text
+Create three travel-commerce images for one fictional unbranded compact cabin suitcase. Preserve the warm-sand matte hard shell, five wide vertical front flutes, burnt-orange zipperless perimeter frame and handles, black telescoping rails, and four black double-spinner wheels. Produce a clean white listing, a sunrise airport brand hero, and a complete overhead packing scene. Keep product geometry honest and never add logos, stickers, missing wheels, or implausible compartments.
+```
+
+</details>
+
+<details><summary><strong>Product invariants</strong></summary>
+
+- Preserve the softly rounded rectangular warm-sand polycarbonate shell and five broad vertical front flutes.
+- Preserve the slim burnt-orange zipperless frame, burnt-orange handles, black two-stage rails, and four compact black double-spinner wheel groups.
+- **Negative constraints:** No text, logos, watermark, stickers, tags, zipper, exterior pocket, extra suitcase, missing wheel, bent handle, distorted shell, CGI plastic, collage, or border.
+
+</details>
+
+#### Provenance and rights
+
+| 作者 | 出典 | ライセンス | 公開日 |
+|---|---|---|---|
+| [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab) | このリポジトリのオリジナル作品 | CC-BY-4.0 | 2026-07-22 |
+
+Original prompt and generated previews created for this repository after open-source prompt-pattern research; no external preview asset is included.
+
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/wuyoscar/GPT-Image2-Skill)
+
+> **Platform-policy status:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
 
 ---
 
@@ -2451,7 +3095,7 @@ Constraints: no readable text, no logo, no watermark, no extra watch, no jewelry
 
 | 作者 | 出典 | ライセンス | 公開日 |
 |---|---|---|---|
-| CommercePrompt Atlas Studio | このリポジトリのオリジナル作品 | CC-BY-4.0 | 2026-07-21 |
+| Ecommerce GPT Image Prompts Studio | このリポジトリのオリジナル作品 | CC-BY-4.0 | 2026-07-21 |
 
 Original synthesis informed by broad visual research; prompt and generated previews created for this repository. See docs/VISUAL_RESEARCH.md.
 

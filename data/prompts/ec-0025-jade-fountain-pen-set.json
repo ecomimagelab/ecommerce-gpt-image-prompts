@@ -1,0 +1,68 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0025",
+  "slug": "jade-fountain-pen-set",
+  "model": "gpt-image-2",
+  "title": "Faceted Jade Fountain Pen Set",
+  "description": "Uses translucent resin and machined brass to distinguish a clean retail macro, an Etsy maker story, and an intimate rain-day writing ritual.",
+  "prompt": "Create three premium commerce images for one fictional unbranded fountain pen. Preserve the twelve-sided deep-jade translucent resin barrel and cap, straight brushed-brass clip, two thin brass cap bands, brushed-brass grip, and dark ruthenium nib with nonverbal geometric engraving. Produce a clean catalog macro, an Etsy artisan provenance still life, and a Xiaohongshu writing ritual. No readable writing, duplicate pen, broken nib, invented logo, or gemstone substitution.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "stationery-and-office",
+  "useCases": ["catalog-image", "detail-macro", "lifestyle-scene"],
+  "styles": ["luxury-premium", "handmade-tactile", "quiet-living"],
+  "backgrounds": ["soft-studio", "natural-material", "home-interior"],
+  "platforms": ["tmall", "etsy", "xiaohongshu"],
+  "aspectRatios": ["4:5", "5:8"],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {"referenceImages": 0, "instructions": "No reference image is required for this fictional pen; use a sharp licensed product reference for real nib and clip fidelity."},
+  "productInvariants": [
+    "Preserve the gently faceted twelve-sided deep-jade translucent resin barrel and matching cap.",
+    "Preserve the straight brushed-brass clip, two thin brass cap bands, brass grip, and dark ruthenium nib with nonverbal geometric lines."
+  ],
+  "negativePrompt": "No readable text, letters, logos, watermark, extra pen, duplicate cap, malformed nib, bent clip, gemstone look, ink spill, CGI plastic, collage, or border.",
+  "variants": [
+    {
+      "id": "tmall-luxury-catalog",
+      "title": "TMALL LUXURY CATALOG",
+      "useCase": "catalog-image",
+      "assetPurpose": "catalog-image",
+      "platforms": ["tmall"],
+      "background": "soft-studio",
+      "aspectRatio": "4:5",
+      "prompt": "Create one ultra-photorealistic portrait 4:5 product photograph of a fictional unbranded fountain pen. Product design: gently faceted twelve-sided deep-jade translucent resin barrel and matching cap, brushed warm-brass straight clip, two thin brass cap bands, brushed brass grip and one dark ruthenium steel nib with fine geometric engraved lines but no symbol or lettering. Exactly one pen and one cap. Use a warm off-white seamless studio and one thin horizontal brushed-brass display rail. Lay the uncapped pen diagonally across the rail with nib pointing lower left; place the cap parallel behind it. Keep the full barrel, nib, clip and cap visible. Use a large softbox and narrow edge light revealing translucent jade depth. No text, logos, watermark, ink bottle, paper, extra pen, duplicate cap, floating pieces, malformed nib, bent clip, ink stains, CGI look, collage, or border.",
+      "sample": {"before": null, "after": "assets/prompts/stationery-jade-fountain-pen/preview-1.png", "alt": "Faceted jade fountain pen and cap in a clean studio", "license": "CC-BY-4.0", "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."}
+    },
+    {
+      "id": "etsy-maker-provenance",
+      "title": "ETSY MAKER PROVENANCE",
+      "useCase": "detail-macro",
+      "assetPurpose": "branded-hero",
+      "platforms": ["etsy"],
+      "background": "natural-material",
+      "aspectRatio": "5:8",
+      "prompt": "Create one tactile portrait 5:8 editorial photograph of the same fictional fountain pen. Preserve the twelve-sided deep-jade translucent resin barrel and cap, straight brushed-brass clip, two thin brass cap bands, brushed-brass grip and dark ruthenium nib with nonverbal geometric engraving. Set it on a small craftsperson's walnut workbench with one worn linen pad, one restrained curled brass shaving and a single faceted jade-resin blank in soft background. Rest the complete uncapped pen diagonally on the linen; put the matching cap beside it with clip facing camera. Use warm north-window light and one cool workshop rim. Render walnut pores, frayed linen, resin facets, micro-scratched brass and crisp steel. No text, logos, watermark, human, extra finished pen, extra cap, scattered tools, gemstones, malformed nib, fake antique filter, CGI look, collage, or border.",
+      "sample": {"before": null, "after": "assets/prompts/stationery-jade-fountain-pen/preview-2.png", "alt": "Jade fountain pen on a tactile artisan workbench", "license": "CC-BY-4.0", "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."}
+    },
+    {
+      "id": "xiaohongshu-rain-day-writing",
+      "title": "XIAOHONGSHU RAIN-DAY WRITING",
+      "useCase": "lifestyle-scene",
+      "assetPurpose": "social-creative",
+      "platforms": ["xiaohongshu"],
+      "background": "home-interior",
+      "aspectRatio": "5:8",
+      "prompt": "Create one intimate portrait 5:8 photorealistic desk scene showing the same fictional fountain pen in use. Preserve the twelve-sided deep-jade translucent barrel, matching cap, straight brass clip, two thin bands, brass grip and dark ruthenium nib. Use a smoked-oak desk near a rain-softened window with one cream cotton notebook, celadon tea cup and small brass paperweight softly out of focus. One adult hand holds the uncapped pen correctly over the notebook. The page contains only a few abstract sweeping ink lines and geometric marks—absolutely no readable writing. Place the matching cap beside the notebook with clip visible. Use a close 50mm over-shoulder view, cool rainy daylight, warm desk-lamp pool and subtle flash lift. No readable text, logos, extra pen, extra cap, ink spill, distorted fingers, malformed nib, hidden pen, clutter, CGI look, collage, or border.",
+      "sample": {"before": null, "after": "assets/prompts/stationery-jade-fountain-pen/preview-3.png", "alt": "Adult hand writing abstract lines with a jade fountain pen", "license": "CC-BY-4.0", "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."}
+    }
+  ],
+  "author": {"name": "Ecommerce GPT Image Prompts Studio", "url": "https://github.com/ecomimagelab"},
+  "source": {"type": "original", "url": null, "permission": "repository-authored", "notes": "Original prompt and generated previews created for this repository after open-source prompt-pattern research; no external preview asset is included.", "references": [{"type": "visual-research", "url": "docs/VISUAL_RESEARCH.md"}, {"type": "visual-research", "url": "https://github.com/wuyoscar/GPT-Image2-Skill"}]},
+  "license": "CC-BY-4.0",
+  "platformPolicy": {"status": "design-guidance-only", "note": "Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.", "reviewedAt": null, "sources": []},
+  "review": {"status": "approved", "rights": "reviewed", "promptQuality": "reviewed", "previewQuality": "reviewed", "reviewedAt": "2026-07-22"},
+  "featured": false,
+  "publishedAt": "2026-07-22",
+  "translations": {"zh": {"title": "切面玉绿色钢笔电商套图", "description": "以半透明树脂和精密黄铜区分干净商品微距、Etsy 手作溯源和雨天书写仪式。"}}
+}

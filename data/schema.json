@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/ecomimagelab/awesome-ecommerce-gpt-image-2/blob/main/data/schema.json",
-  "title": "E-commerce GPT Image 2 prompt record v2",
+  "$id": "https://github.com/ecomimagelab/ecommerce-gpt-image-prompts/blob/main/data/schema.json",
+  "title": "ecommerce-gpt-image-prompts record v2",
   "type": "object",
   "additionalProperties": false,
   "required": [

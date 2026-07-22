@@ -1,0 +1,68 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0023",
+  "slug": "cobalt-plant-protein-set",
+  "model": "gpt-image-2",
+  "title": "Cobalt Plant Protein Commerce Set",
+  "description": "Creates a claim-free wellness package system for marketplace clarity, kinetic training content, and a bright social breakfast recipe.",
+  "prompt": "Create three claim-free commerce images for one fictional unbranded plant-protein tub. Preserve the squat warm-white fiberboard cylinder, matte cobalt-blue lid, blank label, diagonal cobalt lower band, thin acid-lime stripe, and small embossed leaf seal without letters. Produce a pure-white listing, a dynamic adult training frame, and a breakfast flat lay. Never invent product claims, nutrition facts, certification marks, logos, or readable text.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "fitness-and-wellness",
+  "useCases": ["main-image", "social-ad", "lifestyle-scene"],
+  "styles": ["minimalist-clean", "social-native", "bright-playful"],
+  "backgrounds": ["pure-white", "lifestyle-location", "natural-material"],
+  "platforms": ["amazon", "tiktok-shop", "xiaohongshu"],
+  "aspectRatios": ["4:5", "5:8"],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {"referenceImages": 0, "instructions": "No reference image is required for this fictional package; all legal label copy must be added and reviewed outside image generation."},
+  "productInvariants": [
+    "Preserve one squat warm-white fiberboard tub, a slightly domed matte cobalt-blue screw lid, and a broad blank warm-white paper label.",
+    "Preserve the diagonal cobalt-blue lower band, thin acid-lime accent stripe, and small embossed leaf seal without letters or claims."
+  ],
+  "negativePrompt": "No readable text, letters, numbers, nutrition panel, health claims, certification marks, logos, watermark, duplicate tub, distorted packaging, unsafe powder action, CGI plastic, collage, or border.",
+  "variants": [
+    {
+      "id": "amazon-claim-free-main-image",
+      "title": "AMAZON CLAIM-FREE MAIN IMAGE",
+      "useCase": "main-image",
+      "assetPurpose": "main-image",
+      "platforms": ["amazon"],
+      "background": "pure-white",
+      "aspectRatio": "4:5",
+      "prompt": "Create one ultra-photorealistic portrait 4:5 catalog photograph of a fictional unbranded plant-protein package. Show one squat cylindrical warm-white fiberboard tub with a slightly domed matte cobalt-blue screw lid, broad blank warm-white label, one diagonal cobalt-blue band around the lower third, one thin acid-lime stripe above it, and a small embossed leaf seal with no lettering. Place one matching cobalt scoop beside the sealed tub, bowl upward with a modest mound of pale vanilla powder. Use pure #FFFFFF, slight three-quarter front view, full package and scoop, 72% frame fill, broad bright softbox and soft grounding shadow. Absolutely no text, numbers, letters, logo, nutrition panel, claims, certification marks, watermark, fruit, glass, duplicate tub, open lid, scattered mess, distorted packaging, CGI plastic, collage, or border.",
+      "sample": {"before": null, "after": "assets/prompts/wellness-cobalt-protein/preview-1.png", "alt": "Claim-free cobalt and ivory protein tub on white", "license": "CC-BY-4.0", "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."}
+    },
+    {
+      "id": "tiktok-training-energy",
+      "title": "TIKTOK TRAINING ENERGY",
+      "useCase": "social-ad",
+      "assetPurpose": "social-creative",
+      "platforms": ["tiktok-shop"],
+      "background": "lifestyle-location",
+      "aspectRatio": "5:8",
+      "prompt": "Create one kinetic portrait 5:8 social-native photograph featuring the same fictional plant-protein tub. Preserve the squat warm-white cylinder, domed matte cobalt lid, blank label, diagonal cobalt lower band, thin acid-lime stripe, and tiny embossed leaf seal without lettering. Place the sealed package safely on a stainless-steel bench in sharp foreground in a raw pale-concrete training studio with one cobalt crash mat. Behind it, an athletic adult performs battle-rope movement with controlled motion blur. A restrained arc of pale powder hangs in side light well behind the tub and never touches it. Use a low 28mm angle, direct flash, cool high-window daylight and acid-lime rim accent. Adult only; no text, claims, logos, watermark, extra tub, open lid, shaker, unsafe powder inhalation, dust obscuring product, distorted body, extra limbs, CGI packaging, collage, or border.",
+      "sample": {"before": null, "after": "assets/prompts/wellness-cobalt-protein/preview-2.png", "alt": "Cobalt protein tub in a kinetic training studio", "license": "CC-BY-4.0", "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."}
+    },
+    {
+      "id": "xiaohongshu-breakfast-flatlay",
+      "title": "XIAOHONGSHU BREAKFAST FLAT LAY",
+      "useCase": "lifestyle-scene",
+      "assetPurpose": "social-creative",
+      "platforms": ["xiaohongshu"],
+      "background": "natural-material",
+      "aspectRatio": "4:5",
+      "prompt": "Create one refined portrait 4:5 social-commerce breakfast flat lay centered on the same fictional plant-protein tub. Preserve the squat warm-white fiberboard cylinder, domed matte cobalt lid, blank label, diagonal cobalt lower band, thin acid-lime stripe and small embossed leaf seal without lettering. Use a pale terrazzo table with cobalt mineral chips and morning sunlight. Add one ceramic bowl of thick banana-oat smoothie topped with blueberries, pumpkin seeds and a restrained lime spiral, one matching cobalt scoop with pale vanilla powder, and an oatmeal linen napkin. Arrange tub upper right and bowl lower left in a geometric top-down composition with clean negative space and crisp botanical shadow. No text, claims, logos, watermark, extra tub, open container, powder spill, hands, pills, fitness equipment, clutter, CGI look, collage, or border.",
+      "sample": {"before": null, "after": "assets/prompts/wellness-cobalt-protein/preview-3.png", "alt": "Cobalt protein package in a bright breakfast flat lay", "license": "CC-BY-4.0", "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."}
+    }
+  ],
+  "author": {"name": "Ecommerce GPT Image Prompts Studio", "url": "https://github.com/ecomimagelab"},
+  "source": {"type": "original", "url": null, "permission": "repository-authored", "notes": "Original prompt and generated previews created for this repository after open-source prompt-pattern research; no external preview asset is included.", "references": [{"type": "visual-research", "url": "docs/VISUAL_RESEARCH.md"}, {"type": "visual-research", "url": "https://github.com/wuyoscar/GPT-Image2-Skill"}]},
+  "license": "CC-BY-4.0",
+  "platformPolicy": {"status": "design-guidance-only", "note": "Platform names identify intended visual treatment only; legal supplement labels and current advertising rules require separate human review.", "reviewedAt": null, "sources": []},
+  "review": {"status": "approved", "rights": "reviewed", "promptQuality": "reviewed", "previewQuality": "reviewed", "reviewedAt": "2026-07-22"},
+  "featured": false,
+  "publishedAt": "2026-07-22",
+  "translations": {"zh": {"title": "钴蓝植物蛋白粉电商套图", "description": "为无功效声明的虚构健康包装制作白底主图、动态训练内容和明亮早餐配方图。"}}
+}

@@ -1,0 +1,68 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0024",
+  "slug": "sand-carryon-travel-set",
+  "model": "gpt-image-2",
+  "title": "Sand Carry-On Travel Set",
+  "description": "Preserves one sand-and-orange carry-on across a white marketplace view, a quiet architectural airport hero, and an overhead packing guide.",
+  "prompt": "Create three travel-commerce images for one fictional unbranded compact cabin suitcase. Preserve the warm-sand matte hard shell, five wide vertical front flutes, burnt-orange zipperless perimeter frame and handles, black telescoping rails, and four black double-spinner wheels. Produce a clean white listing, a sunrise airport brand hero, and a complete overhead packing scene. Keep product geometry honest and never add logos, stickers, missing wheels, or implausible compartments.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "travel-and-luggage",
+  "useCases": ["main-image", "branded-hero", "feature-callout"],
+  "styles": ["minimalist-clean", "architectural", "quiet-living"],
+  "backgrounds": ["pure-white", "lifestyle-location", "home-interior"],
+  "platforms": ["amazon", "shopify", "pinterest"],
+  "aspectRatios": ["4:5", "5:8"],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {"referenceImages": 0, "instructions": "No reference image is required for this fictional carry-on; use product-edit mode for real luggage dimensions and hardware."},
+  "productInvariants": [
+    "Preserve the softly rounded rectangular warm-sand polycarbonate shell and five broad vertical front flutes.",
+    "Preserve the slim burnt-orange zipperless frame, burnt-orange handles, black two-stage rails, and four compact black double-spinner wheel groups."
+  ],
+  "negativePrompt": "No text, logos, watermark, stickers, tags, zipper, exterior pocket, extra suitcase, missing wheel, bent handle, distorted shell, CGI plastic, collage, or border.",
+  "variants": [
+    {
+      "id": "amazon-carryon-main-image",
+      "title": "AMAZON CARRY-ON MAIN IMAGE",
+      "useCase": "main-image",
+      "assetPurpose": "main-image",
+      "platforms": ["amazon"],
+      "background": "pure-white",
+      "aspectRatio": "5:8",
+      "prompt": "Create one ultra-photorealistic portrait 5:8 catalog photograph of a fictional unbranded compact cabin suitcase. Use a softly rounded rectangular matte warm-sand polycarbonate shell, five wide vertical front flutes, a slim burnt-orange zipperless aluminum perimeter frame, matching burnt-orange flush top handle and telescoping grip, black two-stage telescoping rails, and four compact black double-spinner wheel groups. No exterior pockets or logos. Stand the suitcase upright at a front three-quarter angle on pure #FFFFFF with the handle extended to first stop; show all wheels and the entire handle, filling 76% of frame. Use a high-key broad softbox and restrained grounding shadow. No text, logos, watermark, stickers, tags, extra suitcase, person, zipper, missing wheel, bent handle, floating case, CGI plastic, collage, or border.",
+      "sample": {"before": null, "after": "assets/prompts/travel-sand-carryon/preview-1.png", "alt": "Sand carry-on with orange frame on pure white", "license": "CC-BY-4.0", "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."}
+    },
+    {
+      "id": "shopify-airport-hero",
+      "title": "SHOPIFY AIRPORT HERO",
+      "useCase": "branded-hero",
+      "assetPurpose": "branded-hero",
+      "platforms": ["shopify"],
+      "background": "lifestyle-location",
+      "aspectRatio": "4:5",
+      "prompt": "Create one cinematic portrait 4:5 architectural campaign photograph of the same fictional unbranded carry-on. Preserve the rounded warm-sand hard shell, five broad vertical flutes, slim burnt-orange zipperless frame, orange flush top handle and grip, black rails, and four black double-spinner wheels. Place it in a quiet modern airport concourse at first light with pale travertine walls, one immense curved window and honey sunlight. Set the suitcase upright in foreground at a low three-quarter angle with telescoping handle lowered and flush; show all wheels and cast a long clean shadow toward the window. Use warm sunrise against cool stone and controlled orange edge light. No text, logos, watermark, signage, people, extra luggage, travel tags, zipper, missing wheel, crooked body, CGI look, collage, or border.",
+      "sample": {"before": null, "after": "assets/prompts/travel-sand-carryon/preview-2.png", "alt": "Sand carry-on in a sunrise airport concourse", "license": "CC-BY-4.0", "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."}
+    },
+    {
+      "id": "pinterest-packing-organization",
+      "title": "PINTEREST PACKING ORGANIZATION",
+      "useCase": "feature-callout",
+      "assetPurpose": "secondary-image",
+      "platforms": ["pinterest"],
+      "background": "home-interior",
+      "aspectRatio": "4:5",
+      "prompt": "Create one photorealistic portrait 4:5 overhead packing story featuring the same fictional cabin suitcase opened flat. Preserve the warm-sand shell with five exterior flutes visible at the edges, slim burnt-orange zipperless frame, orange top handle, black rails and four black double-spinner wheels. Interior is warm-stone recycled fabric: left side has one full mesh divider without text; right side has crossed orange compression straps. On a pale-oak floor, neatly pack an ivory, navy and terracotta capsule wardrobe, one rolled linen shirt, clean neutral sneakers and a blank amber toiletry pouch. Use an exact overhead view with the complete open suitcase and every wheel in frame, soft diagonal daylight and clean negative space. No text, logos, passports, boarding passes, money, branded clothing, extra suitcase, human, overfilled case, impossible compartments, distorted case, CGI look, collage, or border.",
+      "sample": {"before": null, "after": "assets/prompts/travel-sand-carryon/preview-3.png", "alt": "Open sand carry-on with an organized capsule wardrobe", "license": "CC-BY-4.0", "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."}
+    }
+  ],
+  "author": {"name": "Ecommerce GPT Image Prompts Studio", "url": "https://github.com/ecomimagelab"},
+  "source": {"type": "original", "url": null, "permission": "repository-authored", "notes": "Original prompt and generated previews created for this repository after open-source prompt-pattern research; no external preview asset is included.", "references": [{"type": "visual-research", "url": "docs/VISUAL_RESEARCH.md"}, {"type": "visual-research", "url": "https://github.com/wuyoscar/GPT-Image2-Skill"}]},
+  "license": "CC-BY-4.0",
+  "platformPolicy": {"status": "design-guidance-only", "note": "Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.", "reviewedAt": null, "sources": []},
+  "review": {"status": "approved", "rights": "reviewed", "promptQuality": "reviewed", "previewQuality": "reviewed", "reviewedAt": "2026-07-22"},
+  "featured": false,
+  "publishedAt": "2026-07-22",
+  "translations": {"zh": {"title": "沙色登机箱旅行电商套图", "description": "让同一只沙色橙框登机箱在白底商品图、机场建筑品牌图和俯拍收纳指南中保持一致。"}}
+}

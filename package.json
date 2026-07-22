@@ -1,9 +1,9 @@
 {
-  "name": "awesome-ecommerce-gpt-image-2",
+  "name": "ecommerce-gpt-image-prompts",
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "A multilingual, GitHub-first library of e-commerce GPT Image 2 prompts.",
+  "description": "A multilingual, GitHub-first library of production-ready e-commerce GPT Image prompts.",
   "engines": {
     "node": ">=20"
   },

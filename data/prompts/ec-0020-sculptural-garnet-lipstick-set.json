@@ -1,0 +1,105 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0020",
+  "slug": "sculptural-garnet-lipstick-set",
+  "model": "gpt-image-2",
+  "title": "Sculptural Garnet Lipstick Commerce Set",
+  "description": "Builds three distinct beauty-commerce treatments around one fictional garnet lipstick: clean catalog clarity, lacquered luxury launch art, and a flash-lit social editorial.",
+  "prompt": "Create a coherent three-image beauty-commerce set for one fictional unbranded refillable lipstick. Preserve a slim rectangular brushed champagne-gold case, one narrow deep-burgundy enamel side panel, a fine seam near the base, and a deep garnet satin bullet with a pristine slanted tip. Produce a clean marketplace catalog image, a sculptural oxblood luxury launch, and an adult-model social editorial. Keep the product recognizable while changing only art direction, composition, set, lighting, and context. No text, logos, watermark, duplicate product, damaged bullet, malformed case, collage, or border.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "beauty",
+  "useCases": ["catalog-image", "branded-hero", "social-ad", "on-model"],
+  "styles": ["luxury-premium", "editorial", "dark-moody"],
+  "backgrounds": ["soft-studio", "color-studio", "dark-studio"],
+  "platforms": ["sephora", "tmall-luxury", "instagram-shop"],
+  "aspectRatios": ["4:5", "5:8"],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {
+    "referenceImages": 0,
+    "instructions": "No reference image is required because the product is fictional; use product-edit mode with owned source photography for real inventory."
+  },
+  "productInvariants": [
+    "Preserve the slim rectangular brushed champagne-gold metal case, narrow deep-burgundy enamel side panel, and fine horizontal seam near the base.",
+    "Preserve the open deep-garnet satin lipstick bullet with a clean, pristine slanted tip and believable dense wax texture."
+  ],
+  "negativePrompt": "No words, letters, logos, watermark, extra lipstick, cap, damaged bullet, malformed case, floating product, cheap CGI, collage, frame, or border.",
+  "variants": [
+    {
+      "id": "sephora-clean-catalog",
+      "title": "SEPHORA CLEAN CATALOG",
+      "useCase": "catalog-image",
+      "assetPurpose": "catalog-image",
+      "platforms": ["sephora"],
+      "background": "soft-studio",
+      "aspectRatio": "4:5",
+      "prompt": "Create a single ultra-photorealistic portrait 4:5 product photograph of one fictional, unbranded refillable lipstick. The lipstick is open and standing upright at a subtle three-quarter angle. It has a slim rectangular brushed champagne-gold metal case, one narrow deep-burgundy enamel side panel, a fine horizontal seam near the base, and a deep garnet satin lipstick bullet with a pristine sharp slanted tip. Use a seamless warm-ivory cyclorama and low cream lacquer plinth. Center the product lower-middle, fill about 72% of frame height, preserve the complete silhouette, and leave breathing room. Light with a large upper-left softbox, a controlled metal specular strip, delicate burgundy bounce, and soft grounding shadow. Render believable brushed metal, flawless enamel and dense satin wax microtexture. No words, letters, logos, watermark, second lipstick, cap, cosmetic smear, flowers, fruit, hands, floating objects, distorted case, damaged bullet, CGI-plastic look, collage, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/beauty-garnet-lipstick/preview-1.png",
+        "alt": "Garnet lipstick on a warm ivory catalog set",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "tmall-oxblood-launch",
+      "title": "TMALL OXBLOOD LAUNCH",
+      "useCase": "branded-hero",
+      "assetPurpose": "branded-hero",
+      "platforms": ["tmall-luxury"],
+      "background": "color-studio",
+      "aspectRatio": "4:5",
+      "prompt": "Create a single ultra-photorealistic portrait 4:5 campaign still of the same fictional unbranded refillable lipstick: slim rectangular brushed champagne-gold metal case, one narrow deep-burgundy enamel side panel, fine horizontal seam near the base, open with a deep garnet satin lipstick bullet and pristine sharp slanted tip. Use a monumental set made from deep oxblood high-gloss lacquer and one warm-cream curved arch. Add one restrained thick garnet cosmetic swipe across the lower foreground without touching the product. Stand the lipstick upright on a circular oxblood lacquer pedestal at a heroic low three-quarter view with strong graphic negative space. Use hard warm spotlight through the arch, controlled gold rim light, rich black-red shadows and jewel-like reflections. No words, letters, logos, watermark, people, hands, lips, extra lipstick, cap, flowers, drips on product, malformed case, damaged tip, cheap CGI, collage, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/beauty-garnet-lipstick/preview-2.png",
+        "alt": "Garnet lipstick in an oxblood lacquer luxury set",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "instagram-flash-editorial",
+      "title": "INSTAGRAM FLASH EDITORIAL",
+      "useCase": "on-model",
+      "assetPurpose": "social-creative",
+      "platforms": ["instagram-shop"],
+      "background": "dark-studio",
+      "aspectRatio": "5:8",
+      "prompt": "Create a single photorealistic portrait 5:8 social-commerce beauty photograph featuring the same fictional unbranded refillable lipstick held near the face by one elegant adult model. Keep the product clearly visible: slim rectangular brushed champagne-gold metal case, one narrow deep-burgundy enamel side panel, fine seam near the base, open with a deep garnet satin bullet and pristine slanted tip. Use an intimate dark-cherry studio and one soft out-of-focus burgundy silk plane. Crop from nose to collarbone with natural skin texture; lips wear matching deep-garnet satin color. One hand holds the complete lipstick upright beside the cheek without covering the case or bullet. Use an 85mm editorial close-up, softened direct flash and narrow warm side fill. Product and lips must both be tack sharp. Adult model only; no words, logo, watermark, extra lipstick, cap, jewelry clutter, excessive smoothing, distorted hand, extra fingers, damaged bullet, duplicate product, collage, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/beauty-garnet-lipstick/preview-3.png",
+        "alt": "Adult model holding the garnet lipstick beside matching lips",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    }
+  ],
+  "author": {"name": "Ecommerce GPT Image Prompts Studio", "url": "https://github.com/ecomimagelab"},
+  "source": {
+    "type": "original",
+    "url": null,
+    "permission": "repository-authored",
+    "notes": "Original prompt and generated previews created for this repository after open-source prompt-pattern research; no external preview asset is included.",
+    "references": [
+      {"type": "visual-research", "url": "docs/VISUAL_RESEARCH.md"},
+      {"type": "visual-research", "url": "https://github.com/wuyoscar/GPT-Image2-Skill"}
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "platformPolicy": {
+    "status": "design-guidance-only",
+    "note": "Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.",
+    "reviewedAt": null,
+    "sources": []
+  },
+  "review": {"status": "approved", "rights": "reviewed", "promptQuality": "reviewed", "previewQuality": "reviewed", "reviewedAt": "2026-07-22"},
+  "featured": true,
+  "publishedAt": "2026-07-22",
+  "translations": {
+    "zh": {"title": "雕塑感石榴红唇膏电商套图", "description": "围绕同一支虚构石榴红唇膏，构建干净目录图、漆面奢华发布图和闪光灯社交大片三种差异化方案。"}
+  }
+}

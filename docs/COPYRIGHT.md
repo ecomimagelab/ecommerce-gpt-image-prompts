@@ -28,7 +28,7 @@ CC BY 4.0.
 
 When reusing them:
 
-1. credit the named author or “CommercePrompt Atlas contributors”;
+1. credit the named author or “ecommerce-gpt-image-prompts contributors”;
 2. link to this repository or record;
 3. identify CC BY 4.0;
 4. state whether the material was modified.
@@ -89,4 +89,3 @@ cannot be supported. Corrections and substantiated removal requests should be
 handled promptly.
 
 This operational policy is not legal advice.
-

@@ -1,0 +1,68 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0022",
+  "slug": "forest-cocotte-cookware-set",
+  "model": "gpt-image-2",
+  "title": "Forest Cocotte Cookware Set",
+  "description": "Moves one forest-green Dutch oven from white-background retail clarity to a save-worthy Mediterranean still life and a believable home-cooking ritual.",
+  "prompt": "Create a three-image cookware commerce set for one fictional unbranded 5-quart enameled cast-iron Dutch oven. Preserve the deep forest-green gloss body, cream interior, short loop handles, matching lid with three concentric rings, and a small brushed-brass knob. Produce an Amazon Home main image, a Pinterest old-world still life, and a Xiaohongshu home-cooking frame. Maintain believable weight, enamel and scale. No branding, extra cookware, broken handles, unsafe action, or CGI food.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "cookware",
+  "useCases": ["main-image", "branded-hero", "lifestyle-scene"],
+  "styles": ["minimalist-clean", "natural-organic", "food-editorial"],
+  "backgrounds": ["pure-white", "natural-material", "home-interior"],
+  "platforms": ["amazon-home", "pinterest", "xiaohongshu"],
+  "aspectRatios": ["4:5", "5:8"],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {"referenceImages": 0, "instructions": "No reference image is required for this fictional cookware design; use product-edit mode for a real SKU."},
+  "productInvariants": [
+    "Preserve the low wide cylindrical cast-iron body, deep forest-green gloss exterior, warm-cream enamel interior, and two short horizontal loop handles.",
+    "Preserve the matching heavy green lid with three subtle concentric rings and one small domed brushed-brass knob."
+  ],
+  "negativePrompt": "No words, logos, watermark, extra pot, extra lid, detached knob, distorted handles, impossible geometry, unsafe hand contact, plastic CGI, collage, or border.",
+  "variants": [
+    {
+      "id": "amazon-home-main-image",
+      "title": "AMAZON HOME MAIN IMAGE",
+      "useCase": "main-image",
+      "assetPurpose": "main-image",
+      "platforms": ["amazon-home"],
+      "background": "pure-white",
+      "aspectRatio": "4:5",
+      "prompt": "Create one ultra-photorealistic portrait 4:5 catalog photograph of a fictional unbranded 5-quart round enameled cast-iron Dutch oven. Use a low wide cylindrical body in deep forest-green gloss enamel, warm-cream enamel interior, two short horizontal loop handles, matching heavy lid with three subtle concentric rings and a small domed brushed-brass knob. Lean the lid upright directly behind the open empty pot so the interior and lid are visible; exactly one pot and one matching lid. Use pure #FFFFFF, centered three-quarter view, complete handles and lid, 76% frame fill, broad softbox and controlled enamel highlight. No food, steam, utensils, packaging, text, logo, watermark, extra cookware, detached knob, distorted handles, chips, plastic CGI, collage, or border.",
+      "sample": {"before": null, "after": "assets/prompts/cookware-forest-cocotte/preview-1.png", "alt": "Forest-green Dutch oven and lid on pure white", "license": "CC-BY-4.0", "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."}
+    },
+    {
+      "id": "pinterest-mediterranean-still-life",
+      "title": "PINTEREST MEDITERRANEAN STILL LIFE",
+      "useCase": "branded-hero",
+      "assetPurpose": "branded-hero",
+      "platforms": ["pinterest"],
+      "background": "natural-material",
+      "aspectRatio": "5:8",
+      "prompt": "Create one portrait 5:8 photorealistic editorial image of the same fictional forest-green Dutch oven. Preserve the low wide body, cream interior, two short loop handles, ringed green lid and domed brushed-brass knob. Set the closed pot on a limestone worktop in a quiet old-world chalk-plaster kitchen with one wrinkled natural flax cloth, a few sage leaves and two whole pears. Show the full pot in lower center at a three-quarter view with the lid properly seated. Use one hard late-afternoon window beam, sculptural leaf shadow, cool room shadows and warm brass highlight. Render pitted stone, imperfect plaster, woven linen and heavy vitreous enamel. No text, logos, watermark, extra pot or lid, food on pot, flames, person, modern appliance, clutter, flowers, distorted handles, CGI, collage, or border.",
+      "sample": {"before": null, "after": "assets/prompts/cookware-forest-cocotte/preview-2.png", "alt": "Forest-green cocotte in a Mediterranean kitchen still life", "license": "CC-BY-4.0", "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."}
+    },
+    {
+      "id": "xiaohongshu-cooking-ritual",
+      "title": "XIAOHONGSHU COOKING RITUAL",
+      "useCase": "lifestyle-scene",
+      "assetPurpose": "social-creative",
+      "platforms": ["xiaohongshu"],
+      "background": "home-interior",
+      "aspectRatio": "4:5",
+      "prompt": "Create one portrait 4:5 appetizing social-commerce lifestyle photograph of the same forest-green enameled Dutch oven in use. Preserve the low wide body, cream interior, short loop handles, matching ringed lid and brass knob. In a compact sunlit kitchen with pale oak and warm-white tile, fill the open pot with a rustic tomato-and-white-bean braise and gentle natural steam. One adult hand stirs with a simple wooden spoon from the side. Put the matching lid safely on a small wooden trivet behind the pot. Use a close 45-degree tabletop view; the pot dominates while the front body and both handles remain visible. Use warm morning light with a small direct-flash lift. No text, logo, watermark, extra cookware, duplicated lid, fire, unsafe contact, overflowing food, malformed fingers, CGI food, collage, or border.",
+      "sample": {"before": null, "after": "assets/prompts/cookware-forest-cocotte/preview-3.png", "alt": "Forest-green Dutch oven with a steaming bean braise", "license": "CC-BY-4.0", "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."}
+    }
+  ],
+  "author": {"name": "Ecommerce GPT Image Prompts Studio", "url": "https://github.com/ecomimagelab"},
+  "source": {"type": "original", "url": null, "permission": "repository-authored", "notes": "Original prompt and generated previews created for this repository after open-source prompt-pattern research; no external preview asset is included.", "references": [{"type": "visual-research", "url": "docs/VISUAL_RESEARCH.md"}, {"type": "visual-research", "url": "https://github.com/wuyoscar/GPT-Image2-Skill"}]},
+  "license": "CC-BY-4.0",
+  "platformPolicy": {"status": "design-guidance-only", "note": "Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.", "reviewedAt": null, "sources": []},
+  "review": {"status": "approved", "rights": "reviewed", "promptQuality": "reviewed", "previewQuality": "reviewed", "reviewedAt": "2026-07-22"},
+  "featured": true,
+  "publishedAt": "2026-07-22",
+  "translations": {"zh": {"title": "森林绿珐琅铸铁锅电商套图", "description": "让同一口森林绿铸铁锅从白底商品图进入地中海静物和真实家庭烹饪场景。"}}
+}

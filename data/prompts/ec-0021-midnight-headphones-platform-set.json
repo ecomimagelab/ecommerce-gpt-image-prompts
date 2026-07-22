@@ -1,0 +1,68 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0021",
+  "slug": "midnight-headphones-platform-set",
+  "model": "gpt-image-2",
+  "title": "Midnight Headphones Platform Set",
+  "description": "Keeps one midnight-blue headphone design consistent across a pure-white marketplace listing, an acoustic feature visual, and a creator-led TikTok Shop frame.",
+  "prompt": "Create three platform-native commerce images for one fictional unbranded premium over-ear headphone design. Preserve rounded-oval matte midnight-navy earcups, natural-aluminum Y-yokes, a navy woven headband with narrow aluminum rail, charcoal textile cushions, and one tiny burnt-orange pull tab. Produce a clean white catalog image, a restrained acoustic feature visual, and a real adult creator scene. No logos, text, cable, extra headphones, broken geometry, or generic RGB clutter.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "consumer-electronics",
+  "useCases": ["main-image", "feature-callout", "lifestyle-scene", "social-ad"],
+  "styles": ["minimalist-clean", "technical", "social-native"],
+  "backgrounds": ["pure-white", "dark-studio", "lifestyle-location"],
+  "platforms": ["amazon", "best-buy", "tiktok-shop"],
+  "aspectRatios": ["4:5"],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {"referenceImages": 0, "instructions": "No reference image is required for this fictional product; edit owned product photography when exact inventory fidelity is required."},
+  "productInvariants": [
+    "Preserve two large rounded-oval matte midnight-navy earcups with shallow concentric bevels and thick charcoal textile cushions.",
+    "Preserve slim natural-aluminum Y-yokes, the broad navy woven headband with narrow aluminum center rail, and tiny burnt-orange tab beneath the right earcup."
+  ],
+  "negativePrompt": "No words, letters, logos, watermark, cable, stand, extra headphones, separated parts, malformed headband, asymmetric earcups, exaggerated RGB clutter, CGI plastic, collage, or border.",
+  "variants": [
+    {
+      "id": "amazon-clean-main-image",
+      "title": "AMAZON CLEAN MAIN IMAGE",
+      "useCase": "main-image",
+      "assetPurpose": "main-image",
+      "platforms": ["amazon"],
+      "background": "pure-white",
+      "aspectRatio": "4:5",
+      "prompt": "Create one ultra-photorealistic portrait 4:5 catalog photograph of a fictional unbranded pair of premium over-ear wireless headphones. Product design: two large rounded-oval matte midnight-navy earcups with shallow concentric bevels, slim bead-blasted natural-aluminum Y-yokes, a broad navy woven-fabric headband with a narrow aluminum center rail, thick charcoal textile memory-foam cushions, and one tiny burnt-orange fabric pull tab beneath the right earcup. Use pure #FFFFFF. Fold the headphones into a graceful three-quarter standing pose with the entire headband and both cushions visible; fill 78% of frame. Use an overhead softbox, precise silver edge highlights and a realistic grounding shadow. No text, logo, watermark, cable, stand, phone, case, extra headphones, separated parts, distorted headband, asymmetric earcups, CGI plastic, collage, or border.",
+      "sample": {"before": null, "after": "assets/prompts/audio-midnight-headphones/preview-1.png", "alt": "Midnight-blue wireless headphones on pure white", "license": "CC-BY-4.0", "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."}
+    },
+    {
+      "id": "best-buy-acoustic-feature",
+      "title": "BEST BUY ACOUSTIC FEATURE",
+      "useCase": "feature-callout",
+      "assetPurpose": "secondary-image",
+      "platforms": ["best-buy"],
+      "background": "dark-studio",
+      "aspectRatio": "4:5",
+      "prompt": "Create one dramatic ultra-photorealistic portrait 4:5 feature image of the same fictional unbranded over-ear wireless headphones. Preserve rounded-oval matte midnight-navy earcups, slim natural-aluminum Y-yokes, broad navy woven headband with narrow aluminum rail, thick charcoal textile cushions and one tiny burnt-orange tab. Use a deep ink-blue acoustic chamber and one low black-glass plinth. Place restrained translucent amber-to-cobalt sound-wave ribbons behind the headphones in smooth concentric arcs without obscuring the product. Show the full upright product at a front three-quarter angle. Use cool rim lights, one warm pinpoint accent and rich controlled blacks. No text, logos, labels, arrows, numbers, cable, person, extra headphones, exploded parts, impossible waves, neon clutter, distorted headband, CGI look, collage, or border.",
+      "sample": {"before": null, "after": "assets/prompts/audio-midnight-headphones/preview-2.png", "alt": "Midnight headphones with restrained acoustic waves", "license": "CC-BY-4.0", "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."}
+    },
+    {
+      "id": "tiktok-creator-session",
+      "title": "TIKTOK CREATOR SESSION",
+      "useCase": "social-ad",
+      "assetPurpose": "social-creative",
+      "platforms": ["tiktok-shop"],
+      "background": "lifestyle-location",
+      "aspectRatio": "4:5",
+      "prompt": "Create one portrait 4:5 social-native photorealistic campaign frame of one adult music creator wearing the same fictional unbranded headphones. Preserve the rounded-oval midnight-navy earcups with shallow bevels, natural-aluminum Y-yokes, broad navy woven headband with narrow aluminum rail, charcoal textile cushions and tiny burnt-orange tab. Set the scene in a compact independent music studio at blue hour with muted acoustic panels, one amber lamp and blurred MIDI shapes without readable markings. Capture the creator chest-up, leaning toward an off-frame mixer mid-head-nod; keep the headphones tack sharp and correctly fitted. Use bounced direct flash, ambient cobalt room tone and warm practical light. No text, logos, visible brand interface, extra headphones, cable, microphone covering product, RGB gaming clutter, distorted face, extra fingers, deformed headband, collage, or border.",
+      "sample": {"before": null, "after": "assets/prompts/audio-midnight-headphones/preview-3.png", "alt": "Adult music creator wearing midnight-blue headphones", "license": "CC-BY-4.0", "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."}
+    }
+  ],
+  "author": {"name": "Ecommerce GPT Image Prompts Studio", "url": "https://github.com/ecomimagelab"},
+  "source": {"type": "original", "url": null, "permission": "repository-authored", "notes": "Original prompt and generated previews created for this repository after open-source prompt-pattern research; no external preview asset is included.", "references": [{"type": "visual-research", "url": "docs/VISUAL_RESEARCH.md"}, {"type": "visual-research", "url": "https://github.com/wuyoscar/GPT-Image2-Skill"}]},
+  "license": "CC-BY-4.0",
+  "platformPolicy": {"status": "design-guidance-only", "note": "Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.", "reviewedAt": null, "sources": []},
+  "review": {"status": "approved", "rights": "reviewed", "promptQuality": "reviewed", "previewQuality": "reviewed", "reviewedAt": "2026-07-22"},
+  "featured": true,
+  "publishedAt": "2026-07-22",
+  "translations": {"zh": {"title": "午夜蓝无线耳机平台套图", "description": "让同一副午夜蓝耳机在纯白主图、声学功能图和 TikTok Shop 创作者场景中保持清晰一致。"}}
+}

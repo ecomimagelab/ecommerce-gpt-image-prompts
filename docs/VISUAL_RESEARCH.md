@@ -4,6 +4,33 @@ This repository does not copy, redistribute, or train on third-party Pinterest i
 
 Pinterest does not expose a dependable public like count for every Pin. We therefore do not describe any individual reference as the "most liked." Research favors Pinterest topic pages and boards that show broad interest or substantial collections, plus official platform guidance where available.
 
+## Open-source prompt research policy
+
+GitHub is used as a traceable research pool, not as an assumption that every
+visible asset is free to redistribute. A public repository without a license
+retains default copyright, and a repository-level license may not cover images
+or prompts credited to outside social posts. Before any direct reuse, reviewers
+must check the repository license, the entry-level author/source, redistribution
+rights, required attribution, and whether the license covers both prompt and
+image. See [GitHub's licensing guidance](https://docs.github.com/en/enterprise-cloud@latest/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository).
+
+The current research shortlist is:
+
+| Repository | License signal | Approved use here |
+|---|---|---|
+| [wuyoscar/GPT-Image2-Skill](https://github.com/wuyoscar/GPT-Image2-Skill) | MIT repository; individual outside-source entries retain source metadata | Study the structure of entries marked Curated/Original and general prompt anatomy; independently author our prompts and generate our own previews |
+| [poloclub/diffusiondb](https://github.com/poloclub/diffusiondb) | Dataset documented as CC0; code under MIT | Mine broad composition and lighting vocabulary after e-commerce filtering; do not present its images as GPT Image 2 proof |
+| [YouMind-OpenLab/awesome-gpt-image-2](https://github.com/YouMind-OpenLab/awesome-gpt-image-2) | Repository attribution license with many community/X sources | Benchmark README presentation, taxonomy, and source discovery; do not blindly redistribute third-party images |
+| [jau123/nanobanana-trending-prompts](https://github.com/jau123/nanobanana-trending-prompts) | CC BY repository with engagement-ranked outside sources | Use popularity as a research signal only until each source right is verified |
+| [krea-ai/open-prompts](https://github.com/krea-ai/open-prompts) | No active reusable license found during review | Research only; exclude from direct reuse |
+
+For records `ec-0020` through `ec-0025`, the open-source repositories above
+were used only to study useful prompt scaffolding: explicit asset purpose,
+physical materials, camera/composition, lighting, invariants, and negative
+constraints. The final prompts were independently written for this repository,
+and all 18 previews were generated specifically from their corresponding
+standalone prompt directions.
+
 ## Product-edit proof of workflow
 
 Record `ec-0019` uses the repository-generated image
@@ -55,6 +82,17 @@ generative edit cannot guarantee exact product identity.
 | Matcha packaging | [Matcha product photography](https://de.pinterest.com/diedrichdominik/matcha-product-photography/) | Celadon and deep green, fine powder texture, restrained tea tools, condensation, clear summer caustics | Amazon Grocery catalog, Shopify tea ritual, Xiaohongshu iced-latte creative |
 | Ceramic planter | [Planter photography](https://www.pinterest.com/ideas/planter-photography/953379673600/), [plant-pot photography](https://www.pinterest.com/ideas/plant-pot-photography/942851904318/) | Hand-finished clay texture, simple white-background merchandising, strong single brush gesture, Mediterranean leaf shadows | Etsy maker story, Wayfair catalog, Pinterest interior editorial |
 | Road helmet | [Stylish cycling helmets](https://www.pinterest.com/discerningcyclist/stylish-cycling-helmets/) | Clean aerodynamic side profile, readable ventilation, restrained airflow graphics, close sunrise action framing | Amazon Sports catalog, Decathlon-style feature visualization, Instagram action campaign |
+
+## Research directions used for prompts 20–25
+
+| Category | Research basis | Extracted visual direction | Platform treatment in the prompt |
+|---|---|---|---|
+| Color cosmetics | Open-source product-prompt anatomy plus broad luxury beauty research | Satin wax microtexture, brushed metal, vitreous oxblood lacquer, flash-lit natural skin | Sephora-style clean catalog, Tmall Luxury sculptural launch, Instagram Shop adult-model editorial |
+| Premium audio | Open-source photography scaffolding and electronics merchandising patterns | Woven fabric, anodized aluminum, restrained acoustic visualization, creator authenticity | Amazon main image, Best Buy feature visual, TikTok Shop studio session |
+| Cast-iron cookware | Open-source product/food prompt structure plus editorial still-life patterns | Heavy enamel, brushed brass, old-world plaster, believable steam and food texture | Amazon Home main image, Pinterest Mediterranean still life, Xiaohongshu cooking ritual |
+| Sports nutrition | Open-source commercial composition patterns with claim-safe packaging rules | Claim-free packaging, cobalt/acid-lime system, direct-flash training energy, bright recipe flat lay | Amazon main image, TikTok Shop training creative, Xiaohongshu breakfast content |
+| Travel luggage | Open-source product-photo structure plus architectural travel art direction | Shell geometry, wheel and handle fidelity, sunrise stone architecture, complete packing organization | Amazon main image, Shopify airport hero, Pinterest packing guide |
+| Premium stationery | Open-source macro-photo structure plus tactile maker-story research | Translucent faceted resin, machined brass, crisp nib detail, rainy writing atmosphere | Tmall catalog, Etsy provenance still life, Xiaohongshu writing ritual |
 
 ## Rights and quality policy
 
