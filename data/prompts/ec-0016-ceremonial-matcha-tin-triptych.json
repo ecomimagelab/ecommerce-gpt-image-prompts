@@ -1,0 +1,142 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0016",
+  "slug": "ceremonial-matcha-tin-triptych",
+  "model": "gpt-image-2",
+  "title": "Ceremonial Matcha Tin Triptych",
+  "description": "Takes one celadon matcha tin from grocery clarity to a contemporary tea ritual and a bright iced-latte social image.",
+  "prompt": "Use case: ads-marketing\nAsset type: three premium tea-commerce previews in one seamless horizontal contact sheet\nPrimary request: Create a fresh, culturally respectful 3-panel horizontal contact sheet for the exact same unbranded ceremonial matcha tin, with distinct Amazon Grocery catalog, Shopify tea-ritual, and Xiaohongshu iced-latte treatments. Each panel is a complete standalone vertical 4:5 image, separated by narrow deep-green gutters.\nProduct invariant: identical small cylindrical tin in every panel; matte pale celadon body, flush deep-green lid, one narrow vertical cream paper seal crossing the lid edge with no writing, subtle brushed metal rim, no logo and no text. Preserve proportions, lid color, blank seal, rim and finish.\nPanel 1 — AMAZON GROCERY CATALOG: one sealed tin centered on pure #FFFFFF with the lid closed, a small bamboo teaspoon beside it holding a neat mound of vivid fine matcha powder, soft natural grounding shadows, accurate scale, clean product clarity.\nPanel 2 — SHOPIFY TEA RITUAL: same tin open on a dark charcoal stone tea table, lid placed behind it, bright green powder visible inside, one unbranded black-glazed tea bowl and bamboo whisk nearby, soft directional morning light through paper screen, quiet contemporary Japanese-inspired restraint without ceremonial costume or decorative cliché.\nPanel 3 — XIAOHONGSHU ICED MATCHA: same closed tin on a translucent mint acrylic block beside one tall clear glass of layered iced matcha oat latte, condensation and realistic ice, hard summer sunlight creates graphic green caustics across a cream surface, energetic creator-style framing with negative space and no text.\nStyle/medium: ultra-photorealistic premium food-and-packaging photography, physically accurate powder fineness, matte metal, glass, ice and condensation, crisp celadon/green/cream palette, sophisticated commercial styling.\nConstraints: no readable text, no logos, no watermark, no extra tin, no health claims, no people or hands, no floating powder, no impossible liquid layers, no panel labels or numbers. Keep the exact tin design consistent across all panels.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "tea-and-grocery",
+  "useCases": [
+    "main-image",
+    "branded-hero",
+    "social-ad"
+  ],
+  "styles": [
+    "natural-organic",
+    "food-editorial",
+    "social-native"
+  ],
+  "backgrounds": [
+    "pure-white",
+    "dark-studio",
+    "color-studio"
+  ],
+  "platforms": [
+    "amazon-grocery",
+    "shopify",
+    "xiaohongshu"
+  ],
+  "aspectRatios": [
+    "4:5"
+  ],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {
+    "referenceImages": 0,
+    "instructions": "No reference image is required. This record defines a fictional, unbranded product; use product-edit mode for real inventory."
+  },
+  "productInvariants": [
+    "identical small cylindrical tin in this output; matte pale celadon body, flush deep-green lid, one narrow vertical cream paper seal crossing the lid edge with no writing, subtle brushed metal rim, no logo and no text. Preserve proportions, lid color, blank seal, rim and finish."
+  ],
+  "negativePrompt": "no readable text, no logos, no watermark, no extra tin, no health claims, no people or hands, no floating powder, no impossible liquid layers, no added layout labels or numbers. Keep the exact tin design consistent in this output.",
+  "variants": [
+    {
+      "id": "variant-1",
+      "title": "AMAZON GROCERY CATALOG",
+      "useCase": "main-image",
+      "assetPurpose": "main-image",
+      "platforms": [
+        "amazon-grocery"
+      ],
+      "background": "pure-white",
+      "aspectRatio": "4:5",
+      "prompt": "Create one standalone 4:5 e-commerce image, not a collage, contact sheet, split screen, or multi-panel layout.\nProduct specification and invariants: identical small cylindrical tin in this output; matte pale celadon body, flush deep-green lid, one narrow vertical cream paper seal crossing the lid edge with no writing, subtle brushed metal rim, no logo and no text. Preserve proportions, lid color, blank seal, rim and finish.\nArt direction: one sealed tin centered on pure #FFFFFF with the lid closed, a small bamboo teaspoon beside it holding a neat mound of vivid fine matcha powder, soft natural grounding shadows, accurate scale, clean product clarity.\nPhotography and rendering: ultra-photorealistic premium food-and-packaging photography, physically accurate powder fineness, matte metal, glass, ice and condensation, crisp celadon/green/cream palette, sophisticated commercial styling.\nQuality and safety constraints: no readable text, no logos, no watermark, no extra tin, no health claims, no people or hands, no floating powder, no impossible liquid layers, no added layout labels or numbers. Keep the exact tin design consistent in this output.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/grocery-matcha-tin/preview-1.png",
+        "alt": "Celadon matcha tin grocery catalog image",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the corresponding prompt direction; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "variant-2",
+      "title": "SHOPIFY TEA RITUAL",
+      "useCase": "branded-hero",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "shopify"
+      ],
+      "background": "dark-studio",
+      "aspectRatio": "4:5",
+      "prompt": "Create one standalone 4:5 e-commerce image, not a collage, contact sheet, split screen, or multi-panel layout.\nProduct specification and invariants: identical small cylindrical tin in this output; matte pale celadon body, flush deep-green lid, one narrow vertical cream paper seal crossing the lid edge with no writing, subtle brushed metal rim, no logo and no text. Preserve proportions, lid color, blank seal, rim and finish.\nArt direction: same tin open on a dark charcoal stone tea table, lid placed behind it, bright green powder visible inside, one unbranded black-glazed tea bowl and bamboo whisk nearby, soft directional morning light through paper screen, quiet contemporary Japanese-inspired restraint without ceremonial costume or decorative cliché.\nPhotography and rendering: ultra-photorealistic premium food-and-packaging photography, physically accurate powder fineness, matte metal, glass, ice and condensation, crisp celadon/green/cream palette, sophisticated commercial styling.\nQuality and safety constraints: no readable text, no logos, no watermark, no extra tin, no health claims, no people or hands, no floating powder, no impossible liquid layers, no added layout labels or numbers. Keep the exact tin design consistent in this output.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/grocery-matcha-tin/preview-2.png",
+        "alt": "Open matcha tin in a contemporary tea ritual",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the corresponding prompt direction; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "variant-3",
+      "title": "XIAOHONGSHU ICED MATCHA",
+      "useCase": "social-ad",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "xiaohongshu"
+      ],
+      "background": "color-studio",
+      "aspectRatio": "4:5",
+      "prompt": "Create one standalone 4:5 e-commerce image, not a collage, contact sheet, split screen, or multi-panel layout.\nProduct specification and invariants: identical small cylindrical tin in this output; matte pale celadon body, flush deep-green lid, one narrow vertical cream paper seal crossing the lid edge with no writing, subtle brushed metal rim, no logo and no text. Preserve proportions, lid color, blank seal, rim and finish.\nArt direction: same closed tin on a translucent mint acrylic block beside one tall clear glass of layered iced matcha oat latte, condensation and realistic ice, hard summer sunlight creates graphic green caustics across a cream surface, energetic creator-style framing with negative space and no text.\nPhotography and rendering: ultra-photorealistic premium food-and-packaging photography, physically accurate powder fineness, matte metal, glass, ice and condensation, crisp celadon/green/cream palette, sophisticated commercial styling.\nQuality and safety constraints: no readable text, no logos, no watermark, no extra tin, no health claims, no people or hands, no floating powder, no impossible liquid layers, no added layout labels or numbers. Keep the exact tin design consistent in this output.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/grocery-matcha-tin/preview-3.png",
+        "alt": "Matcha tin with an iced oat latte in summer light",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the corresponding prompt direction; no third-party preview image is redistributed."
+      }
+    }
+  ],
+  "author": {
+    "name": "CommercePrompt Atlas Studio",
+    "url": null
+  },
+  "source": {
+    "type": "original",
+    "url": null,
+    "permission": "repository-authored",
+    "notes": "Original synthesis informed by broad visual research; prompt and generated previews created for this repository. See docs/VISUAL_RESEARCH.md.",
+    "references": [
+      {
+        "type": "visual-research",
+        "url": "docs/VISUAL_RESEARCH.md"
+      }
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "platformPolicy": {
+    "status": "design-guidance-only",
+    "note": "Platform names describe intended art direction only. Verify the current official rules for the product category before publishing.",
+    "reviewedAt": null,
+    "sources": []
+  },
+  "review": {
+    "status": "approved",
+    "rights": "reviewed",
+    "promptQuality": "reviewed",
+    "previewQuality": "reviewed",
+    "reviewedAt": "2026-07-21"
+  },
+  "featured": false,
+  "publishedAt": "2026-07-21",
+  "translations": {
+    "zh": {
+      "title": "典礼级抹茶罐三场景",
+      "description": "让同一只青瓷色抹茶罐从清晰食品商品图延伸到当代茶席和夏日冰饮社交图。"
+    }
+  }
+}

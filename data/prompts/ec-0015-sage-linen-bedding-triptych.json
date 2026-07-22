@@ -1,0 +1,142 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0015",
+  "slug": "sage-linen-bedding-triptych",
+  "model": "gpt-image-2",
+  "title": "Sage Linen Bedding Triptych",
+  "description": "Shows one washed-linen bedding set as a clean folded catalog, a restful bedroom, and a textile-first editorial.",
+  "prompt": "Use case: ads-marketing\nAsset type: three premium bedding-commerce previews in one seamless horizontal contact sheet\nPrimary request: Create a tactile 3-panel horizontal contact sheet for the exact same queen-size washed-linen bedding set, with distinct Amazon Home catalog, Shopify bedroom lifestyle, and Pinterest slow-living editorial treatments. Each panel is a complete standalone vertical 4:5 image, separated by narrow warm-white gutters.\nProduct invariant: identical bedding fabric and color in every panel; mineral sage-green European flax linen with a very fine double clay-red pinstripe near every hem, visible relaxed crinkle, one duvet cover, one fitted sheet and two standard pillowcases, no logo. Preserve sage tone, red double-stripe hem detail, weave and soft washed finish.\nPanel 1 — AMAZON HOME CATALOG: complete set folded into one precise but softly textured stack on pure #FFFFFF, duvet at base, fitted sheet in middle, two pillowcases on top, stripe hems visible, centered with subtle natural shadow, no bed and no props.\nPanel 2 — SHOPIFY BEDROOM LIFESTYLE: same set dressed on a low oak platform queen bed in a limewashed warm-white room, duvet loosely turned back, two pillows only, pinstripe edges readable, early morning side light, one small travertine bedside ledge and no decorative clutter, restful lived-in luxury.\nPanel 3 — PINTEREST SLOW-LIVING EDITORIAL: intimate overhead crop of the same sage duvet and one pillow in rumpled folds, a broad rectangle of late-afternoon light, the clay-red double stripe crosses the composition diagonally, one open unprinted cream book at the edge, textile-first art direction and generous negative space.\nStyle/medium: ultra-photorealistic premium textile and interior photography, visible linen fibers, accurate weave and wrinkles, soft natural color science, quiet editorial restraint, never synthetic or over-smoothed.\nConstraints: no readable text, no logos, no watermark, no people, no extra pillows, no patterned blanket, no flowers, no unrelated decor, no color drift, no panel labels or numbers. Keep the exact sage fabric and double clay-red stripe consistent.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "bedding-and-textiles",
+  "useCases": [
+    "main-image",
+    "lifestyle-scene",
+    "branded-hero"
+  ],
+  "styles": [
+    "quiet-living",
+    "natural-organic",
+    "editorial"
+  ],
+  "backgrounds": [
+    "pure-white",
+    "home-interior",
+    "soft-studio"
+  ],
+  "platforms": [
+    "amazon-home",
+    "shopify",
+    "pinterest"
+  ],
+  "aspectRatios": [
+    "4:5"
+  ],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {
+    "referenceImages": 0,
+    "instructions": "No reference image is required. This record defines a fictional, unbranded product; use product-edit mode for real inventory."
+  },
+  "productInvariants": [
+    "identical bedding fabric and color in this output; mineral sage-green European flax linen with a very fine double clay-red pinstripe near every hem, visible relaxed crinkle, one duvet cover, one fitted sheet and two standard pillowcases, no logo. Preserve sage tone, red double-stripe hem detail, weave and soft washed finish."
+  ],
+  "negativePrompt": "no readable text, no logos, no watermark, no people, no extra pillows, no patterned blanket, no flowers, no unrelated decor, no color drift, no added layout labels or numbers. Keep the exact sage fabric and double clay-red stripe consistent.",
+  "variants": [
+    {
+      "id": "variant-1",
+      "title": "AMAZON HOME CATALOG",
+      "useCase": "main-image",
+      "assetPurpose": "main-image",
+      "platforms": [
+        "amazon-home"
+      ],
+      "background": "pure-white",
+      "aspectRatio": "4:5",
+      "prompt": "Create one standalone 4:5 e-commerce image, not a collage, contact sheet, split screen, or multi-panel layout.\nProduct specification and invariants: identical bedding fabric and color in this output; mineral sage-green European flax linen with a very fine double clay-red pinstripe near every hem, visible relaxed crinkle, one duvet cover, one fitted sheet and two standard pillowcases, no logo. Preserve sage tone, red double-stripe hem detail, weave and soft washed finish.\nArt direction: complete set folded into one precise but softly textured stack on pure #FFFFFF, duvet at base, fitted sheet in middle, two pillowcases on top, stripe hems visible, centered with subtle natural shadow, no bed and no props.\nPhotography and rendering: ultra-photorealistic premium textile and interior photography, visible linen fibers, accurate weave and wrinkles, soft natural color science, quiet editorial restraint, never synthetic or over-smoothed.\nQuality and safety constraints: no readable text, no logos, no watermark, no people, no extra pillows, no patterned blanket, no flowers, no unrelated decor, no color drift, no added layout labels or numbers. Keep the exact sage fabric and double clay-red stripe consistent.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/bedding-sage-linen/preview-1.png",
+        "alt": "Folded sage linen bedding catalog stack",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the corresponding prompt direction; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "variant-2",
+      "title": "SHOPIFY BEDROOM LIFESTYLE",
+      "useCase": "lifestyle-scene",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "shopify"
+      ],
+      "background": "home-interior",
+      "aspectRatio": "4:5",
+      "prompt": "Create one standalone 4:5 e-commerce image, not a collage, contact sheet, split screen, or multi-panel layout.\nProduct specification and invariants: identical bedding fabric and color in this output; mineral sage-green European flax linen with a very fine double clay-red pinstripe near every hem, visible relaxed crinkle, one duvet cover, one fitted sheet and two standard pillowcases, no logo. Preserve sage tone, red double-stripe hem detail, weave and soft washed finish.\nArt direction: same set dressed on a low oak platform queen bed in a limewashed warm-white room, duvet loosely turned back, two pillows only, pinstripe edges readable, early morning side light, one small travertine bedside ledge and no decorative clutter, restful lived-in luxury.\nPhotography and rendering: ultra-photorealistic premium textile and interior photography, visible linen fibers, accurate weave and wrinkles, soft natural color science, quiet editorial restraint, never synthetic or over-smoothed.\nQuality and safety constraints: no readable text, no logos, no watermark, no people, no extra pillows, no patterned blanket, no flowers, no unrelated decor, no color drift, no added layout labels or numbers. Keep the exact sage fabric and double clay-red stripe consistent.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/bedding-sage-linen/preview-2.png",
+        "alt": "Sage linen bedding in a quiet oak bedroom",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the corresponding prompt direction; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "variant-3",
+      "title": "PINTEREST SLOW-LIVING EDITORIAL",
+      "useCase": "branded-hero",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "pinterest"
+      ],
+      "background": "soft-studio",
+      "aspectRatio": "4:5",
+      "prompt": "Create one standalone 4:5 e-commerce image, not a collage, contact sheet, split screen, or multi-panel layout.\nProduct specification and invariants: identical bedding fabric and color in this output; mineral sage-green European flax linen with a very fine double clay-red pinstripe near every hem, visible relaxed crinkle, one duvet cover, one fitted sheet and two standard pillowcases, no logo. Preserve sage tone, red double-stripe hem detail, weave and soft washed finish.\nArt direction: intimate overhead crop of the same sage duvet and one pillow in rumpled folds, a broad rectangle of late-afternoon light, the clay-red double stripe crosses the composition diagonally, one open unprinted cream book at the edge, textile-first art direction and generous negative space.\nPhotography and rendering: ultra-photorealistic premium textile and interior photography, visible linen fibers, accurate weave and wrinkles, soft natural color science, quiet editorial restraint, never synthetic or over-smoothed.\nQuality and safety constraints: no readable text, no logos, no watermark, no people, no extra pillows, no patterned blanket, no flowers, no unrelated decor, no color drift, no added layout labels or numbers. Keep the exact sage fabric and double clay-red stripe consistent.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/bedding-sage-linen/preview-3.png",
+        "alt": "Sage linen textile editorial with red pinstripe hems",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the corresponding prompt direction; no third-party preview image is redistributed."
+      }
+    }
+  ],
+  "author": {
+    "name": "CommercePrompt Atlas Studio",
+    "url": null
+  },
+  "source": {
+    "type": "original",
+    "url": null,
+    "permission": "repository-authored",
+    "notes": "Original synthesis informed by broad visual research; prompt and generated previews created for this repository. See docs/VISUAL_RESEARCH.md.",
+    "references": [
+      {
+        "type": "visual-research",
+        "url": "docs/VISUAL_RESEARCH.md"
+      }
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "platformPolicy": {
+    "status": "design-guidance-only",
+    "note": "Platform names describe intended art direction only. Verify the current official rules for the product category before publishing.",
+    "reviewedAt": null,
+    "sources": []
+  },
+  "review": {
+    "status": "approved",
+    "rights": "reviewed",
+    "promptQuality": "reviewed",
+    "previewQuality": "reviewed",
+    "reviewedAt": "2026-07-21"
+  },
+  "featured": false,
+  "publishedAt": "2026-07-21",
+  "translations": {
+    "zh": {
+      "title": "鼠尾草亚麻床品三场景",
+      "description": "以折叠商品图、安静卧室和材质优先的编辑图呈现同一套水洗亚麻床品。"
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0001",
+  "slug": "platform-native-serum-campaign-triptych",
+  "model": "gpt-image-2",
+  "title": "Platform-Native Serum Art Direction Triptych",
+  "description": "Creates water-sculpture, botanical-lab, and night-repair art directions for one consistent serum bottle across premium DTC commerce.",
+  "prompt": "Use case: ads-marketing\nAsset type: three premium e-commerce campaign previews in one seamless horizontal contact sheet\nPrimary request: Create an exceptionally refined 3-panel horizontal contact sheet for the same unbranded luxury facial serum, with three clearly different Shopify/DTC beauty art directions. Each panel must be a complete standalone vertical 5:8-style composition, separated by perfectly clean narrow off-white gutters.\nSubject invariant: the identical hero product in every panel — a squat rounded-square optical-glass serum bottle, pale celadon liquid, heavy clear glass base, satin ivory pipette cap, and a blank ivory label with absolutely no writing. Preserve bottle proportions, liquid level, cap, label size, and glass thickness across all panels.\nPanel 1 — WATER SCULPTURE: the bottle rises from a shallow mirror-still pool; one sculptural translucent water arc wraps behind it without covering the product; cool mineral-white palette; pin-sharp caustics; luminous clinical freshness; luxury Shopify homepage hero.\nPanel 2 — BOTANICAL LAB: intimate editorial still life on hand-cast pale celadon ceramic; a single fresh ginkgo leaf creates a precise translucent shadow; soft northern window light; tactile condensation beads; quiet Japanese apothecary restraint; premium product-detail page.\nPanel 3 — NIGHT REPAIR: bottle on smoked obsidian with a floating halo of warm amber light behind it; black-to-olive gradient; one controlled highlight along the glass edge; cinematic after-dark skincare launch; sophisticated social ad, not a generic neon studio.\nStyle/medium: ultra-photorealistic contemporary luxury beauty photography, world-class art direction, realistic optical glass, subtle imperfections, editorial color grading, highly controlled reflections, no plastic CGI look.\nComposition/framing: product large and commanding, elegant asymmetric negative space, with a distinct commercial mood in every panel.\nConstraints: no readable text, no logo, no watermark, no hands, no flowers, no stones, no extra bottles, no duplicated products, no panel labels or numbers. The three panels must look intentionally different while preserving the exact same product.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "beauty",
+  "useCases": [
+    "branded-hero",
+    "detail-macro",
+    "social-ad"
+  ],
+  "styles": [
+    "luxury-premium",
+    "minimalist-clean",
+    "editorial"
+  ],
+  "backgrounds": [
+    "soft-studio",
+    "natural-material",
+    "dark-studio"
+  ],
+  "platforms": [
+    "shopify",
+    "tmall",
+    "instagram-shop",
+    "shopee"
+  ],
+  "aspectRatios": [
+    "5:8"
+  ],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {
+    "referenceImages": 0,
+    "instructions": "No reference image is required. This record defines a fictional, unbranded product; use product-edit mode for real inventory."
+  },
+  "productInvariants": [
+    "the identical hero product in this output — a squat rounded-square optical-glass serum bottle, pale celadon liquid, heavy clear glass base, satin ivory pipette cap, and a blank ivory label with absolutely no writing. Preserve bottle proportions, liquid level, cap, label size, and glass thickness in this output."
+  ],
+  "negativePrompt": "no readable text, no logo, no watermark, no hands, no flowers, no stones, no extra bottles, no duplicated products, no added layout labels or numbers. preserve the exact specified product.",
+  "variants": [
+    {
+      "id": "variant-1",
+      "title": "WATER SCULPTURE",
+      "useCase": "branded-hero",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "shopify"
+      ],
+      "background": "soft-studio",
+      "aspectRatio": "5:8",
+      "prompt": "Create one standalone 5:8 e-commerce image, not a collage, contact sheet, split screen, or multi-panel layout.\nProduct specification and invariants: the identical hero product in this output — a squat rounded-square optical-glass serum bottle, pale celadon liquid, heavy clear glass base, satin ivory pipette cap, and a blank ivory label with absolutely no writing. Preserve bottle proportions, liquid level, cap, label size, and glass thickness in this output.\nArt direction: the bottle rises from a shallow mirror-still pool; one sculptural translucent water arc wraps behind it without covering the product; cool mineral-white palette; pin-sharp caustics; luminous clinical freshness; luxury Shopify homepage hero.\nPhotography and rendering: ultra-photorealistic contemporary luxury beauty photography, world-class art direction, realistic optical glass, subtle imperfections, editorial color grading, highly controlled reflections, no plastic CGI look.\nQuality and safety constraints: no readable text, no logo, no watermark, no hands, no flowers, no stones, no extra bottles, no duplicated products, no added layout labels or numbers. preserve the exact specified product.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/beauty-serum/preview-1.png",
+        "alt": "Celadon serum framed by a sculptural arc of water",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the corresponding prompt direction; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "variant-2",
+      "title": "BOTANICAL LAB",
+      "useCase": "detail-macro",
+      "assetPurpose": "secondary-image",
+      "platforms": [
+        "tmall"
+      ],
+      "background": "natural-material",
+      "aspectRatio": "5:8",
+      "prompt": "Create one standalone 5:8 e-commerce image, not a collage, contact sheet, split screen, or multi-panel layout.\nProduct specification and invariants: the identical hero product in this output — a squat rounded-square optical-glass serum bottle, pale celadon liquid, heavy clear glass base, satin ivory pipette cap, and a blank ivory label with absolutely no writing. Preserve bottle proportions, liquid level, cap, label size, and glass thickness in this output.\nArt direction: intimate editorial still life on hand-cast pale celadon ceramic; a single fresh ginkgo leaf creates a precise translucent shadow; soft northern window light; tactile condensation beads; quiet Japanese apothecary restraint; premium product-detail page.\nPhotography and rendering: ultra-photorealistic contemporary luxury beauty photography, world-class art direction, realistic optical glass, subtle imperfections, editorial color grading, highly controlled reflections, no plastic CGI look.\nQuality and safety constraints: no readable text, no logo, no watermark, no hands, no flowers, no stones, no extra bottles, no duplicated products, no added layout labels or numbers. preserve the exact specified product.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/beauty-serum/preview-2.png",
+        "alt": "Condensed celadon serum in a quiet botanical laboratory",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the corresponding prompt direction; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "variant-3",
+      "title": "NIGHT REPAIR",
+      "useCase": "social-ad",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "instagram-shop"
+      ],
+      "background": "dark-studio",
+      "aspectRatio": "5:8",
+      "prompt": "Create one standalone 5:8 e-commerce image, not a collage, contact sheet, split screen, or multi-panel layout.\nProduct specification and invariants: the identical hero product in this output — a squat rounded-square optical-glass serum bottle, pale celadon liquid, heavy clear glass base, satin ivory pipette cap, and a blank ivory label with absolutely no writing. Preserve bottle proportions, liquid level, cap, label size, and glass thickness in this output.\nArt direction: bottle on smoked obsidian with a floating halo of warm amber light behind it; black-to-olive gradient; one controlled highlight along the glass edge; cinematic after-dark skincare launch; sophisticated social ad, not a generic neon studio.\nPhotography and rendering: ultra-photorealistic contemporary luxury beauty photography, world-class art direction, realistic optical glass, subtle imperfections, editorial color grading, highly controlled reflections, no plastic CGI look.\nQuality and safety constraints: no readable text, no logo, no watermark, no hands, no flowers, no stones, no extra bottles, no duplicated products, no added layout labels or numbers. preserve the exact specified product.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/beauty-serum/preview-3.png",
+        "alt": "Celadon serum against an amber night-repair halo",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the corresponding prompt direction; no third-party preview image is redistributed."
+      }
+    }
+  ],
+  "author": {
+    "name": "CommercePrompt Atlas Studio",
+    "url": null
+  },
+  "source": {
+    "type": "original",
+    "url": null,
+    "permission": "repository-authored",
+    "notes": "Original synthesis informed by broad visual research; prompt and generated previews created for this repository. See docs/VISUAL_RESEARCH.md.",
+    "references": [
+      {
+        "type": "visual-research",
+        "url": "docs/VISUAL_RESEARCH.md"
+      }
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "platformPolicy": {
+    "status": "design-guidance-only",
+    "note": "Platform names describe intended art direction only. Verify the current official rules for the product category before publishing.",
+    "reviewedAt": null,
+    "sources": []
+  },
+  "review": {
+    "status": "approved",
+    "rights": "reviewed",
+    "promptQuality": "reviewed",
+    "previewQuality": "reviewed",
+    "reviewedAt": "2026-07-20"
+  },
+  "featured": true,
+  "publishedAt": "2026-07-20",
+  "translations": {
+    "zh": {
+      "title": "平台原生精华液三场景艺术指导",
+      "description": "为同一款精华液生成水雕塑、植物实验室和夜间修护三种高级 DTC 电商视觉。"
+    }
+  }
+}

@@ -1,4 +1,4 @@
-name: Sync approved prompt
+name: Prepare approved prompt pull request
 
 on:
   issues:
@@ -8,52 +8,59 @@ on:
 permissions:
   contents: write
   issues: write
+  pull-requests: write
 
 concurrency:
-  group: content-writer
+  group: approved-prompt-${{ github.event.issue.number }}
   cancel-in-progress: false
 
 jobs:
-  sync:
+  prepare:
     if: github.event.label.name == 'approved'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
-      - name: Parse approved issue into structured data
+      - name: Convert the approved Issue into one v2 prompt file
         run: node scripts/sync-approved-issue.mjs
-      - name: Validate and regenerate READMEs
+      - name: Build, validate, and regenerate all README editions
         run: |
-          npm run validate
           npm run generate
-      - name: Commit approved prompt
-        id: commit
+          npm run validate
+      - name: Create review branch and pull request
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
         run: |
+          branch="automation/prompt-issue-${ISSUE_NUMBER}"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/prompts.json README*.md
+          git checkout -B "$branch"
+          git add data/prompts data/prompts.json README*.md
           if git diff --cached --quiet; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No new prompt data was produced."
             exit 0
           fi
-          git commit -m "content: approve prompt from issue #${{ github.event.issue.number }}"
-          for attempt in 1 2 3 4 5; do
-            if git push; then
-              echo "changed=true" >> "$GITHUB_OUTPUT"
-              exit 0
-            fi
-            git pull --rebase origin main
-            sleep $((attempt * 2))
-          done
-          exit 1
-      - name: Confirm sync on the issue
-        if: steps.commit.outputs.changed == 'true'
+          git commit -m "content: prepare prompt from issue #${ISSUE_NUMBER}"
+          git push --force-with-lease --set-upstream origin "$branch"
+          existing="$(gh pr list --head "$branch" --state open --json url --jq '.[0].url // empty')"
+          if [ -n "$existing" ]; then
+            echo "Review pull request already exists: $existing"
+            exit 0
+          fi
+          gh pr create \
+            --base main \
+            --head "$branch" \
+            --title "Content review: ${ISSUE_TITLE}" \
+            --body "Prepared from approved Issue #${ISSUE_NUMBER}.\n\nMaintainers must verify prompt quality, preview provenance, redistribution rights, product claims, and current platform guidance before merging.\n\nCloses #${ISSUE_NUMBER}"
+      - name: Confirm the second review stage
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh issue comment "${{ github.event.issue.number }}" --body "Approved and added to the structured prompt library. Multilingual READMEs have been regenerated."
-          gh issue close "${{ github.event.issue.number }}" --reason completed
+          gh issue comment "${{ github.event.issue.number }}" --body "The approved submission has been converted into structured data and opened as a pull request for final rights, prompt, preview, and platform review. It will be published only after that pull request is merged."

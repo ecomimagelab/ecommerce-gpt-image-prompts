@@ -1,0 +1,142 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0018",
+  "slug": "aero-road-helmet-triptych",
+  "model": "gpt-image-2",
+  "title": "Aero Road Helmet Triptych",
+  "description": "Combines a clean sports catalog, an airflow feature visual, and a sunrise action campaign for one road helmet.",
+  "prompt": "Use case: ads-marketing\nAsset type: three premium cycling-commerce previews in one seamless horizontal contact sheet\nPrimary request: Create a performance-led 3-panel horizontal contact sheet for the exact same unbranded aerodynamic road-cycling helmet, with distinct Amazon Sports catalog, Decathlon-style feature visualization, and Instagram action-campaign treatments. Each panel is a complete standalone vertical 4:5 image, separated by narrow electric-blue gutters.\nProduct invariant: identical helmet in every panel; matte pearl-white aerodynamic shell, elongated tapered rear, three long central top vents with shorter side vents, thin black lower edge, electric-blue interior padding glimpsed through vents, black Y-straps and small magnetic buckle, no visor and no logo. Preserve shell silhouette, vent layout, rear taper, edge and strap colors.\nPanel 1 — AMAZON SPORTS CATALOG: helmet alone in clean side three-quarter view on pure #FFFFFF, entire shell and straps visible, realistic soft grounding shadow, crisp ventilation geometry and honest proportions, no props.\nPanel 2 — FEATURE AIRFLOW VISUAL: same helmet floating above a dark navy plinth, front three-quarter angle, restrained translucent electric-blue airflow ribbons enter the front vents and exit the tapered rear, physically coherent flow with the helmet unobstructed, cool rim light and engineering precision, no labels or exploded parts.\nPanel 3 — INSTAGRAM ACTION CAMPAIGN: same helmet worn correctly by one adult road cyclist, close side profile from shoulders up while riding at sunrise on a clean mountain road, helmet tack-sharp, background and jersey show controlled speed blur, warm horizon light meets cool blue edge reflection, authentic fit and straps.\nStyle/medium: ultra-photorealistic premium sports-product photography, physically plausible polycarbonate shell, foam edge, fabric straps and skin, clean pearl/black/electric-blue palette, dynamic but credible.\nConstraints: no readable text, no logos, no watermark, no extra helmet, no bicycle brand, no distorted face or straps, no missing buckle, no impossible airflow, no crash scene, no panel labels or numbers. Keep the exact helmet design consistent across all panels.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "cycling",
+  "useCases": [
+    "main-image",
+    "feature-callout",
+    "lifestyle-scene"
+  ],
+  "styles": [
+    "outdoor-performance",
+    "technical",
+    "social-native"
+  ],
+  "backgrounds": [
+    "pure-white",
+    "dark-studio",
+    "outdoor-location"
+  ],
+  "platforms": [
+    "amazon-sports",
+    "decathlon",
+    "instagram-shop"
+  ],
+  "aspectRatios": [
+    "4:5"
+  ],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {
+    "referenceImages": 0,
+    "instructions": "No reference image is required. This record defines a fictional, unbranded product; use product-edit mode for real inventory."
+  },
+  "productInvariants": [
+    "identical helmet in this output; matte pearl-white aerodynamic shell, elongated tapered rear, three long central top vents with shorter side vents, thin black lower edge, electric-blue interior padding glimpsed through vents, black Y-straps and small magnetic buckle, no visor and no logo. Preserve shell silhouette, vent layout, rear taper, edge and strap colors."
+  ],
+  "negativePrompt": "no readable text, no logos, no watermark, no extra helmet, no bicycle brand, no distorted face or straps, no missing buckle, no impossible airflow, no crash scene, no added layout labels or numbers. Keep the exact helmet design consistent in this output.",
+  "variants": [
+    {
+      "id": "variant-1",
+      "title": "AMAZON SPORTS CATALOG",
+      "useCase": "main-image",
+      "assetPurpose": "main-image",
+      "platforms": [
+        "amazon-sports"
+      ],
+      "background": "pure-white",
+      "aspectRatio": "4:5",
+      "prompt": "Create one standalone 4:5 e-commerce image, not a collage, contact sheet, split screen, or multi-panel layout.\nProduct specification and invariants: identical helmet in this output; matte pearl-white aerodynamic shell, elongated tapered rear, three long central top vents with shorter side vents, thin black lower edge, electric-blue interior padding glimpsed through vents, black Y-straps and small magnetic buckle, no visor and no logo. Preserve shell silhouette, vent layout, rear taper, edge and strap colors.\nArt direction: helmet alone in clean side three-quarter view on pure #FFFFFF, entire shell and straps visible, realistic soft grounding shadow, crisp ventilation geometry and honest proportions, no props.\nPhotography and rendering: ultra-photorealistic premium sports-product photography, physically plausible polycarbonate shell, foam edge, fabric straps and skin, clean pearl/black/electric-blue palette, dynamic but credible.\nQuality and safety constraints: no readable text, no logos, no watermark, no extra helmet, no bicycle brand, no distorted face or straps, no missing buckle, no impossible airflow, no crash scene, no added layout labels or numbers. Keep the exact helmet design consistent in this output.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/cycling-road-helmet/preview-1.png",
+        "alt": "Pearl-white road helmet catalog image",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the corresponding prompt direction; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "variant-2",
+      "title": "FEATURE AIRFLOW VISUAL",
+      "useCase": "feature-callout",
+      "assetPurpose": "secondary-image",
+      "platforms": [
+        "decathlon"
+      ],
+      "background": "dark-studio",
+      "aspectRatio": "4:5",
+      "prompt": "Create one standalone 4:5 e-commerce image, not a collage, contact sheet, split screen, or multi-panel layout.\nProduct specification and invariants: identical helmet in this output; matte pearl-white aerodynamic shell, elongated tapered rear, three long central top vents with shorter side vents, thin black lower edge, electric-blue interior padding glimpsed through vents, black Y-straps and small magnetic buckle, no visor and no logo. Preserve shell silhouette, vent layout, rear taper, edge and strap colors.\nArt direction: same helmet floating above a dark navy plinth, front three-quarter angle, restrained translucent electric-blue airflow ribbons enter the front vents and exit the tapered rear, physically coherent flow with the helmet unobstructed, cool rim light and engineering precision, no labels or exploded parts.\nPhotography and rendering: ultra-photorealistic premium sports-product photography, physically plausible polycarbonate shell, foam edge, fabric straps and skin, clean pearl/black/electric-blue palette, dynamic but credible.\nQuality and safety constraints: no readable text, no logos, no watermark, no extra helmet, no bicycle brand, no distorted face or straps, no missing buckle, no impossible airflow, no crash scene, no added layout labels or numbers. Keep the exact helmet design consistent in this output.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/cycling-road-helmet/preview-2.png",
+        "alt": "Road helmet airflow feature visualization",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the corresponding prompt direction; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "variant-3",
+      "title": "INSTAGRAM ACTION CAMPAIGN",
+      "useCase": "lifestyle-scene",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "instagram-shop"
+      ],
+      "background": "outdoor-location",
+      "aspectRatio": "4:5",
+      "prompt": "Create one standalone 4:5 e-commerce image, not a collage, contact sheet, split screen, or multi-panel layout.\nProduct specification and invariants: identical helmet in this output; matte pearl-white aerodynamic shell, elongated tapered rear, three long central top vents with shorter side vents, thin black lower edge, electric-blue interior padding glimpsed through vents, black Y-straps and small magnetic buckle, no visor and no logo. Preserve shell silhouette, vent layout, rear taper, edge and strap colors.\nArt direction: same helmet worn correctly by one adult road cyclist, close side profile from shoulders up while riding at sunrise on a clean mountain road, helmet tack-sharp, background and jersey show controlled speed blur, warm horizon light meets cool blue edge reflection, authentic fit and straps.\nPhotography and rendering: ultra-photorealistic premium sports-product photography, physically plausible polycarbonate shell, foam edge, fabric straps and skin, clean pearl/black/electric-blue palette, dynamic but credible.\nQuality and safety constraints: no readable text, no logos, no watermark, no extra helmet, no bicycle brand, no distorted face or straps, no missing buckle, no impossible airflow, no crash scene, no added layout labels or numbers. Keep the exact helmet design consistent in this output.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/cycling-road-helmet/preview-3.png",
+        "alt": "Road cyclist wearing the helmet at sunrise",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the corresponding prompt direction; no third-party preview image is redistributed."
+      }
+    }
+  ],
+  "author": {
+    "name": "CommercePrompt Atlas Studio",
+    "url": null
+  },
+  "source": {
+    "type": "original",
+    "url": null,
+    "permission": "repository-authored",
+    "notes": "Original synthesis informed by broad visual research; prompt and generated previews created for this repository. See docs/VISUAL_RESEARCH.md.",
+    "references": [
+      {
+        "type": "visual-research",
+        "url": "docs/VISUAL_RESEARCH.md"
+      }
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "platformPolicy": {
+    "status": "design-guidance-only",
+    "note": "Platform names describe intended art direction only. Verify the current official rules for the product category before publishing.",
+    "reviewedAt": null,
+    "sources": []
+  },
+  "review": {
+    "status": "approved",
+    "rights": "reviewed",
+    "promptQuality": "reviewed",
+    "previewQuality": "reviewed",
+    "reviewedAt": "2026-07-21"
+  },
+  "featured": false,
+  "publishedAt": "2026-07-21",
+  "translations": {
+    "zh": {
+      "title": "空气动力公路头盔三场景",
+      "description": "将清晰运动商品图、气流功能图和日出动态广告组合为同一款公路头盔方案。"
+    }
+  }
+}

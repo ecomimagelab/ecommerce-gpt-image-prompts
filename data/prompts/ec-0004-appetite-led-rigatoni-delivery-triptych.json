@@ -1,0 +1,143 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0004",
+  "slug": "appetite-led-rigatoni-delivery-triptych",
+  "model": "gpt-image-2",
+  "title": "Appetite-Led Rigatoni Delivery Triptych",
+  "description": "Creates a thumb-stopping delivery close-up, a natural editorial table, and a high-energy app promo for the same rigatoni.",
+  "prompt": "Use case: ads-marketing\nAsset type: three appetite-led food-commerce previews in one seamless horizontal contact sheet\nPrimary request: Create a mouthwatering 3-panel horizontal contact sheet for the same signature spicy tomato rigatoni, with distinct DoorDash/Uber Eats, Deliveroo editorial, and Meituan social-commerce treatments. Each panel is a complete standalone vertical 2:3 image, divided by narrow warm-white gutters.\nDish invariant: identical shallow handmade cream ceramic bowl, generous rigatoni coated in glossy brick-red Calabrian tomato sauce, torn basil, fine snowfall of aged parmesan, and crisp chili crumbs. Preserve bowl shape, pasta type, sauce color, portion, and garnish identity.\nPanel 1 — DELIVERY APP THUMB-STOPPER: extreme three-quarter close-up, bowl fills the frame, one natural fork entering from above lifts a small forkful of sauce-coated rigatoni, elastic cheese threads and visible steam, saturated but believable red, bright side light, shallow depth of field; instantly legible at phone-thumbnail size.\nPanel 2 — DELIVEROO EDITORIAL TABLE: intimate overhead on rumpled sage linen and worn honey oak, bowl off-center with a small torn piece of crusty bread and one used linen napkin at the edge, soft late-afternoon window light, natural crumbs and imperfect human warmth, contemporary food-magazine realism.\nPanel 3 — MEITUAN SOCIAL PROMO: dynamic top-down bowl on a bold saffron-yellow paper field with one sweeping crescent of sauce painted beside it and scattered chili flakes frozen mid-fall, hard graphic shadow, high energy, clean negative space for app overlay but absolutely no text.\nStyle/medium: ultra-photorealistic commercial food photography by a top food stylist, real sauce viscosity, porous parmesan, moist pasta texture, authentic steam, subtle plate imperfections; appetizing rather than over-retouched.\nConstraints: no readable text, no logos, no watermark, no extra bowls, no duplicated fork, no impossible floating food except the intentionally falling chili flakes in panel 3, no plastic-looking pasta, no excessive garnish, no panel labels or numbers.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "food-and-beverage",
+  "useCases": [
+    "branded-hero",
+    "lifestyle-scene",
+    "social-ad"
+  ],
+  "styles": [
+    "food-editorial",
+    "social-native",
+    "natural-organic"
+  ],
+  "backgrounds": [
+    "soft-studio",
+    "lifestyle-location",
+    "color-studio"
+  ],
+  "platforms": [
+    "doordash",
+    "uber-eats",
+    "deliveroo",
+    "meituan"
+  ],
+  "aspectRatios": [
+    "2:3"
+  ],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {
+    "referenceImages": 0,
+    "instructions": "No reference image is required. This record defines a fictional, unbranded product; use product-edit mode for real inventory."
+  },
+  "productInvariants": [
+    "Keep the product design, proportions, materials, colors, and identity consistent."
+  ],
+  "negativePrompt": "no readable text, no logos, no watermark, no extra bowls, no duplicated fork, no impossible floating food unless falling chili flakes are explicitly requested in the art direction, no plastic-looking pasta, no excessive garnish, no added layout labels or numbers.",
+  "variants": [
+    {
+      "id": "variant-1",
+      "title": "DELIVERY APP THUMB-STOPPER",
+      "useCase": "branded-hero",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "doordash"
+      ],
+      "background": "soft-studio",
+      "aspectRatio": "2:3",
+      "prompt": "Create one standalone 2:3 e-commerce image, not a collage, contact sheet, split screen, or multi-panel layout.\nProduct specification and invariants: Keep the product design, proportions, materials, colors, and identity consistent.\nArt direction: extreme three-quarter close-up, bowl fills the frame, one natural fork entering from above lifts a small forkful of sauce-coated rigatoni, elastic cheese threads and visible steam, saturated but believable red, bright side light, shallow depth of field; instantly legible at phone-thumbnail size.\nPhotography and rendering: ultra-photorealistic commercial food photography by a top food stylist, real sauce viscosity, porous parmesan, moist pasta texture, authentic steam, subtle plate imperfections; appetizing rather than over-retouched.\nQuality and safety constraints: no readable text, no logos, no watermark, no extra bowls, no duplicated fork, no impossible floating food unless falling chili flakes are explicitly requested in the art direction, no plastic-looking pasta, no excessive garnish, no added layout labels or numbers.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/food-pasta/preview-1.png",
+        "alt": "Fork-lift rigatoni close-up for a delivery app",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the corresponding prompt direction; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "variant-2",
+      "title": "DELIVEROO EDITORIAL TABLE",
+      "useCase": "lifestyle-scene",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "deliveroo"
+      ],
+      "background": "lifestyle-location",
+      "aspectRatio": "2:3",
+      "prompt": "Create one standalone 2:3 e-commerce image, not a collage, contact sheet, split screen, or multi-panel layout.\nProduct specification and invariants: Keep the product design, proportions, materials, colors, and identity consistent.\nArt direction: intimate overhead on rumpled sage linen and worn honey oak, bowl off-center with a small torn piece of crusty bread and one used linen napkin at the edge, soft late-afternoon window light, natural crumbs and imperfect human warmth, contemporary food-magazine realism.\nPhotography and rendering: ultra-photorealistic commercial food photography by a top food stylist, real sauce viscosity, porous parmesan, moist pasta texture, authentic steam, subtle plate imperfections; appetizing rather than over-retouched.\nQuality and safety constraints: no readable text, no logos, no watermark, no extra bowls, no duplicated fork, no impossible floating food unless falling chili flakes are explicitly requested in the art direction, no plastic-looking pasta, no excessive garnish, no added layout labels or numbers.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/food-pasta/preview-2.png",
+        "alt": "Natural overhead rigatoni editorial on sage linen",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the corresponding prompt direction; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "variant-3",
+      "title": "MEITUAN SOCIAL PROMO",
+      "useCase": "social-ad",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "meituan"
+      ],
+      "background": "color-studio",
+      "aspectRatio": "2:3",
+      "prompt": "Create one standalone 2:3 e-commerce image, not a collage, contact sheet, split screen, or multi-panel layout.\nProduct specification and invariants: Keep the product design, proportions, materials, colors, and identity consistent.\nArt direction: dynamic top-down bowl on a bold saffron-yellow paper field with one sweeping crescent of sauce painted beside it and scattered chili flakes frozen mid-fall, hard graphic shadow, high energy, clean negative space for app overlay but absolutely no text.\nPhotography and rendering: ultra-photorealistic commercial food photography by a top food stylist, real sauce viscosity, porous parmesan, moist pasta texture, authentic steam, subtle plate imperfections; appetizing rather than over-retouched.\nQuality and safety constraints: no readable text, no logos, no watermark, no extra bowls, no duplicated fork, no impossible floating food unless falling chili flakes are explicitly requested in the art direction, no plastic-looking pasta, no excessive garnish, no added layout labels or numbers.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/food-pasta/preview-3.png",
+        "alt": "Graphic saffron-yellow rigatoni social-commerce hero",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the corresponding prompt direction; no third-party preview image is redistributed."
+      }
+    }
+  ],
+  "author": {
+    "name": "CommercePrompt Atlas Studio",
+    "url": null
+  },
+  "source": {
+    "type": "original",
+    "url": null,
+    "permission": "repository-authored",
+    "notes": "Original synthesis informed by broad visual research; prompt and generated previews created for this repository. See docs/VISUAL_RESEARCH.md.",
+    "references": [
+      {
+        "type": "visual-research",
+        "url": "docs/VISUAL_RESEARCH.md"
+      }
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "platformPolicy": {
+    "status": "design-guidance-only",
+    "note": "Platform names describe intended art direction only. Verify the current official rules for the product category before publishing.",
+    "reviewedAt": null,
+    "sources": []
+  },
+  "review": {
+    "status": "approved",
+    "rights": "reviewed",
+    "promptQuality": "reviewed",
+    "previewQuality": "reviewed",
+    "reviewedAt": "2026-07-20"
+  },
+  "featured": false,
+  "publishedAt": "2026-07-20",
+  "translations": {
+    "zh": {
+      "title": "高食欲感通心粉外卖三场景",
+      "description": "为同一份通心粉生成外卖近景、自然餐桌编辑图和高能量平台推广图。"
+    }
+  }
+}

@@ -1,5 +1,5 @@
 name: Submit an e-commerce prompt
-description: Submit a GPT Image 2 prompt with multiple generated previews
+description: Submit a GPT Image 2 prompt with licensed generated examples
 title: "[Prompt] "
 labels:
   - prompt-submission
@@ -9,16 +9,27 @@ body:
       value: |
         ## Submit an e-commerce GPT Image 2 prompt
 
-        Submissions must be original, licensed, or correctly attributed. By submitting, you confirm that you have the right to share the prompt and preview images under CC BY 4.0.
+        Submit original, public-domain, or explicitly licensed material only. A Pinterest link may be supplied as visual research, but attribution alone does not authorize copying or redistributing the image.
 
-        Maintainers review every submission. Only issues carrying the `approved` label are added to the library.
+        A maintainer first reviews the Issue. The `approved` label creates a review pull request; it does not publish directly to `main`.
 
   - type: input
     id: prompt_title
     attributes:
       label: Prompt Title
-      description: A clear, descriptive title of no more than 100 characters.
-      placeholder: Luxury skincare serum hero with botanical shadows
+      description: A clear title of no more than 120 characters.
+      placeholder: Product-faithful serum hero on carved travertine
+    validations:
+      required: true
+
+  - type: dropdown
+    id: generation_mode
+    attributes:
+      label: Generation Mode
+      description: Product-edit requires a real product reference and a Before image.
+      options:
+        - product-edit
+        - text-to-image
     validations:
       required: true
 
@@ -26,7 +37,7 @@ body:
     id: prompt
     attributes:
       label: Prompt
-      description: The complete, reproducible GPT Image 2 prompt.
+      description: A complete prompt for one standalone image, not a contact sheet.
       render: text
     validations:
       required: true
@@ -35,29 +46,33 @@ body:
     id: description
     attributes:
       label: Description
-      description: Explain what the prompt creates and when an e-commerce team should use it.
+      description: Explain the commerce task and intended result.
     validations:
       required: true
 
   - type: dropdown
-    id: industry
+    id: category
     attributes:
-      label: Industry
+      label: Category
       options:
+        - automotive-accessories
+        - bags-and-accessories
         - beauty
-        - fashion
+        - bedding-and-textiles
         - consumer-electronics
+        - cycling
+        - fashion
         - food-and-beverage
+        - footwear
+        - garden-and-planters
         - home-and-furniture
         - jewelry
-        - automotive
-        - sports-and-outdoor
-        - pet
-        - baby-and-kids
-        - healthcare
-        - industrial-and-b2b
-        - digital-products
-        - other
+        - kitchen-appliances
+        - outdoor-gear
+        - pet-supplies
+        - tea-and-grocery
+        - toys-and-kids
+        - watches
     validations:
       required: true
 
@@ -66,20 +81,57 @@ body:
     attributes:
       label: Use Case
       options:
-        - product-hero
-        - white-background-main-image
+        - main-image
+        - catalog-image
+        - branded-hero
         - lifestyle-scene
-        - feature-visual
-        - comparison-chart
-        - exploded-view
-        - packaging-concept
-        - detail-page
-        - a-plus-content
-        - campaign-launch
+        - feature-callout
+        - detail-macro
         - social-ad
-        - virtual-try-on
-        - menu-hero
-        - other
+        - a-plus-content
+        - on-model
+        - packaging-concept
+    validations:
+      required: true
+
+  - type: dropdown
+    id: asset_purpose
+    attributes:
+      label: Asset Purpose
+      options:
+        - main-image
+        - catalog-image
+        - branded-hero
+        - secondary-image
+        - social-creative
+        - campaign-set
+    validations:
+      required: true
+
+  - type: input
+    id: styles
+    attributes:
+      label: Styles
+      description: One to three comma-separated taxonomy IDs from data/taxonomy.json.
+      placeholder: luxury-premium, minimalist-clean
+    validations:
+      required: true
+
+  - type: dropdown
+    id: background
+    attributes:
+      label: Background
+      options:
+        - pure-white
+        - soft-studio
+        - color-studio
+        - dark-studio
+        - natural-material
+        - home-interior
+        - outdoor-location
+        - lifestyle-location
+        - graphic-set
+        - mixed
     validations:
       required: true
 
@@ -87,39 +139,67 @@ body:
     id: platforms
     attributes:
       label: Platforms
-      description: Comma-separated e-commerce platforms.
-      placeholder: Amazon, Shopify, TikTok Shop
+      description: Comma-separated platform IDs from data/taxonomy.json.
+      placeholder: amazon, shopify, instagram-shop
     validations:
       required: true
 
   - type: input
-    id: aspect_ratios
+    id: aspect_ratio
     attributes:
-      label: Aspect Ratios
-      description: Comma-separated recommended aspect ratios.
-      placeholder: 1:1, 4:5
+      label: Aspect Ratio
+      placeholder: "4:5"
     validations:
       required: true
 
-  - type: dropdown
-    id: need_reference_images
+  - type: input
+    id: reference_image_count
     attributes:
-      label: Need Reference Images
-      options:
-        - "false"
-        - "true"
+      label: Reference Image Count
+      description: Use 0 for text-to-image. Product-edit requires at least 1.
+      placeholder: "1"
     validations:
       required: true
+
+  - type: textarea
+    id: input_requirements
+    attributes:
+      label: Input Requirements
+      description: Explain the required angles, lighting, resolution, and rights status of input images.
+    validations:
+      required: true
+
+  - type: textarea
+    id: product_invariants
+    attributes:
+      label: Product Invariants
+      description: One invariant per line, such as shape, color, label, proportions, and material finish.
+    validations:
+      required: true
+
+  - type: textarea
+    id: negative_prompt
+    attributes:
+      label: Negative Prompt
+      description: List prohibited changes, artifacts, unsupported claims, and quality failures.
+    validations:
+      required: true
+
+  - type: input
+    id: before_image_url
+    attributes:
+      label: Before Image URL
+      description: Required for product-edit. Use a public HTTPS URL for an image you may legally share.
 
   - type: textarea
     id: generated_image_urls
     attributes:
       label: Generated Image URLs
-      description: At least two public HTTPS image URLs, one per line. Recommended width is 1024–2048 px.
+      description: At least two public HTTPS generated outputs, one per line. Do not use Pinterest-hosted images.
       placeholder: |
-        https://example.com/preview-1.png
-        https://example.com/preview-2.png
-        https://example.com/preview-3.png
+        https://example.com/generated-1.png
+        https://example.com/generated-2.png
+        https://example.com/generated-3.png
     validations:
       required: true
 
@@ -127,7 +207,7 @@ body:
     id: original_author
     attributes:
       label: Original Author
-      description: The creator’s name or handle.
+      description: The creator's name or public handle.
     validations:
       required: true
 
@@ -137,11 +217,56 @@ body:
       label: Author Profile Link
       description: A public author profile or portfolio URL.
 
+  - type: dropdown
+    id: source_type
+    attributes:
+      label: Source Type
+      options:
+        - original
+        - community
+        - licensed
+        - public-domain
+    validations:
+      required: true
+
   - type: input
     id: source_link
     attributes:
       label: Source Link
-      description: Link to the original publication. Leave blank only for your own unpublished work.
+      description: Original publication or license page. Required for third-party material.
+
+  - type: dropdown
+    id: permission_basis
+    attributes:
+      label: Permission Basis
+      options:
+        - creator-granted
+        - compatible-license
+        - public-domain
+        - repository-authored
+    validations:
+      required: true
+
+  - type: input
+    id: license
+    attributes:
+      label: License
+      description: SPDX-style identifier or a concise permission statement.
+      placeholder: CC-BY-4.0
+    validations:
+      required: true
+
+  - type: textarea
+    id: visual_research_links
+    attributes:
+      label: Visual Research Links
+      description: Optional inspiration links, including Pinterest. These links are research references, not permission to copy an image.
+
+  - type: textarea
+    id: official_platform_policy_sources
+    attributes:
+      label: Official Platform Policy Sources
+      description: Optional official HTTPS policy URLs supporting any platform-compliance statement.
 
   - type: dropdown
     id: prompt_language
@@ -170,14 +295,16 @@ body:
   - type: checkboxes
     id: rights
     attributes:
-      label: Rights and License
+      label: Rights and Safety
       options:
-        - label: I have the right to submit the prompt and preview images.
+        - label: I own the submitted material or have documented permission compatible with public redistribution.
           required: true
-        - label: I agree to license my contribution under CC BY 4.0.
+        - label: I understand that attribution or a Pinterest source link alone is not redistribution permission.
           required: true
-        - label: I have disclosed the original author and source where applicable.
+        - label: The generated examples actually result from this prompt and any disclosed reference inputs.
           required: true
-        - label: The submission contains no unsafe, deceptive, or infringing content.
+        - label: The submission contains no unsupported product, medical, environmental, safety, durability, or performance claims.
+          required: true
+        - label: The submission contains no unsafe, deceptive, private, or clearly infringing content.
           required: true
 

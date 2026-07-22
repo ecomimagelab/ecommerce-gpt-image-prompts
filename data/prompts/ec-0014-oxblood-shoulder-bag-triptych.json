@@ -1,0 +1,142 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0014",
+  "slug": "oxblood-shoulder-bag-triptych",
+  "model": "gpt-image-2",
+  "title": "Oxblood Shoulder Bag Triptych",
+  "description": "Combines luxury catalog clarity, social-native street movement, and an architectural still life for one sculptural bag.",
+  "prompt": "Use case: ads-marketing\nAsset type: three premium handbag-commerce previews in one seamless horizontal contact sheet\nPrimary request: Create a high-fashion 3-panel horizontal contact sheet for the exact same unbranded sculptural shoulder bag, with distinct Farfetch catalog, TikTok Shop street-style, and Pinterest architectural still-life treatments. Each panel is a complete standalone vertical 4:5 image, separated by narrow ivory gutters.\nProduct invariant: identical compact crescent shoulder bag in every panel; deep oxblood pebbled calf leather, softly folded crescent body, one wide matching leather shoulder strap with two brushed silver rectangular buckles, concealed top zipper, three subtle vertical gusset seams, no logo and no charm. Preserve silhouette, strap width, two buckles, seam map, hardware finish and color.\nPanel 1 — FARFETCH CATALOG: bag alone, front three-quarter view on pure #FFFFFF, strap arranged in a clean natural arc, entire product visible, gentle grounding shadow, crisp leather grain and accurate proportions, no props.\nPanel 2 — TIKTOK SHOP STREET STYLE: same bag worn on the shoulder of one adult model in an oversized dove-gray wool coat, crop from neck to thigh while walking through a sunlit crosswalk, bag remains sharp, coat and background carry slight directional motion, direct winter sun, effortless social-native luxury, no face required.\nPanel 3 — PINTEREST ARCHITECTURAL STILL LIFE: bag resting on intersecting slabs of pale pink travertine and smoked mirror, one narrow shaft of burgundy-tinted light creates long geometric shadows, asymmetrical gallery composition, tactile leather and cool silver hardware, sophisticated collectible-design mood.\nStyle/medium: ultra-photorealistic contemporary luxury fashion photography, authentic pebbled leather, refined hardware reflections, subtle film grain, oxblood/gray/travertine palette, no glossy CGI.\nConstraints: no readable text, no logos, no watermark, no extra bag, no duplicated strap, no gold hardware, no hands covering the product, no distorted body, no panel labels or numbers. Keep the exact bag design consistent across all panels.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "bags-and-accessories",
+  "useCases": [
+    "catalog-image",
+    "lifestyle-scene",
+    "branded-hero"
+  ],
+  "styles": [
+    "luxury-premium",
+    "editorial",
+    "architectural"
+  ],
+  "backgrounds": [
+    "pure-white",
+    "lifestyle-location",
+    "natural-material"
+  ],
+  "platforms": [
+    "farfetch",
+    "tiktok-shop",
+    "pinterest"
+  ],
+  "aspectRatios": [
+    "4:5"
+  ],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {
+    "referenceImages": 0,
+    "instructions": "No reference image is required. This record defines a fictional, unbranded product; use product-edit mode for real inventory."
+  },
+  "productInvariants": [
+    "identical compact crescent shoulder bag in this output; deep oxblood pebbled calf leather, softly folded crescent body, one wide matching leather shoulder strap with two brushed silver rectangular buckles, concealed top zipper, three subtle vertical gusset seams, no logo and no charm. Preserve silhouette, strap width, two buckles, seam map, hardware finish and color."
+  ],
+  "negativePrompt": "no readable text, no logos, no watermark, no extra bag, no duplicated strap, no gold hardware, no hands covering the product, no distorted body, no added layout labels or numbers. Keep the exact bag design consistent in this output.",
+  "variants": [
+    {
+      "id": "variant-1",
+      "title": "FARFETCH CATALOG",
+      "useCase": "catalog-image",
+      "assetPurpose": "catalog-image",
+      "platforms": [
+        "farfetch"
+      ],
+      "background": "pure-white",
+      "aspectRatio": "4:5",
+      "prompt": "Create one standalone 4:5 e-commerce image, not a collage, contact sheet, split screen, or multi-panel layout.\nProduct specification and invariants: identical compact crescent shoulder bag in this output; deep oxblood pebbled calf leather, softly folded crescent body, one wide matching leather shoulder strap with two brushed silver rectangular buckles, concealed top zipper, three subtle vertical gusset seams, no logo and no charm. Preserve silhouette, strap width, two buckles, seam map, hardware finish and color.\nArt direction: bag alone, front three-quarter view on pure #FFFFFF, strap arranged in a clean natural arc, entire product visible, gentle grounding shadow, crisp leather grain and accurate proportions, no props.\nPhotography and rendering: ultra-photorealistic contemporary luxury fashion photography, authentic pebbled leather, refined hardware reflections, subtle film grain, oxblood/gray/travertine palette, no glossy CGI.\nQuality and safety constraints: no readable text, no logos, no watermark, no extra bag, no duplicated strap, no gold hardware, no hands covering the product, no distorted body, no added layout labels or numbers. Keep the exact bag design consistent in this output.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/accessories-oxblood-bag/preview-1.png",
+        "alt": "Oxblood shoulder bag luxury catalog hero",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the corresponding prompt direction; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "variant-2",
+      "title": "TIKTOK SHOP STREET STYLE",
+      "useCase": "lifestyle-scene",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "tiktok-shop"
+      ],
+      "background": "lifestyle-location",
+      "aspectRatio": "4:5",
+      "prompt": "Create one standalone 4:5 e-commerce image, not a collage, contact sheet, split screen, or multi-panel layout.\nProduct specification and invariants: identical compact crescent shoulder bag in this output; deep oxblood pebbled calf leather, softly folded crescent body, one wide matching leather shoulder strap with two brushed silver rectangular buckles, concealed top zipper, three subtle vertical gusset seams, no logo and no charm. Preserve silhouette, strap width, two buckles, seam map, hardware finish and color.\nArt direction: same bag worn on the shoulder of one adult model in an oversized dove-gray wool coat, crop from neck to thigh while walking through a sunlit crosswalk, bag remains sharp, coat and background carry slight directional motion, direct winter sun, effortless social-native luxury, no face required.\nPhotography and rendering: ultra-photorealistic contemporary luxury fashion photography, authentic pebbled leather, refined hardware reflections, subtle film grain, oxblood/gray/travertine palette, no glossy CGI.\nQuality and safety constraints: no readable text, no logos, no watermark, no extra bag, no duplicated strap, no gold hardware, no hands covering the product, no distorted body, no added layout labels or numbers. Keep the exact bag design consistent in this output.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/accessories-oxblood-bag/preview-2.png",
+        "alt": "Oxblood bag in a street-style motion campaign",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the corresponding prompt direction; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "variant-3",
+      "title": "PINTEREST ARCHITECTURAL STILL LIFE",
+      "useCase": "branded-hero",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "pinterest"
+      ],
+      "background": "natural-material",
+      "aspectRatio": "4:5",
+      "prompt": "Create one standalone 4:5 e-commerce image, not a collage, contact sheet, split screen, or multi-panel layout.\nProduct specification and invariants: identical compact crescent shoulder bag in this output; deep oxblood pebbled calf leather, softly folded crescent body, one wide matching leather shoulder strap with two brushed silver rectangular buckles, concealed top zipper, three subtle vertical gusset seams, no logo and no charm. Preserve silhouette, strap width, two buckles, seam map, hardware finish and color.\nArt direction: bag resting on intersecting slabs of pale pink travertine and smoked mirror, one narrow shaft of burgundy-tinted light creates long geometric shadows, asymmetrical gallery composition, tactile leather and cool silver hardware, sophisticated collectible-design mood.\nPhotography and rendering: ultra-photorealistic contemporary luxury fashion photography, authentic pebbled leather, refined hardware reflections, subtle film grain, oxblood/gray/travertine palette, no glossy CGI.\nQuality and safety constraints: no readable text, no logos, no watermark, no extra bag, no duplicated strap, no gold hardware, no hands covering the product, no distorted body, no added layout labels or numbers. Keep the exact bag design consistent in this output.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/accessories-oxblood-bag/preview-3.png",
+        "alt": "Oxblood bag architectural still life on travertine",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the corresponding prompt direction; no third-party preview image is redistributed."
+      }
+    }
+  ],
+  "author": {
+    "name": "CommercePrompt Atlas Studio",
+    "url": null
+  },
+  "source": {
+    "type": "original",
+    "url": null,
+    "permission": "repository-authored",
+    "notes": "Original synthesis informed by broad visual research; prompt and generated previews created for this repository. See docs/VISUAL_RESEARCH.md.",
+    "references": [
+      {
+        "type": "visual-research",
+        "url": "docs/VISUAL_RESEARCH.md"
+      }
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "platformPolicy": {
+    "status": "design-guidance-only",
+    "note": "Platform names describe intended art direction only. Verify the current official rules for the product category before publishing.",
+    "reviewedAt": null,
+    "sources": []
+  },
+  "review": {
+    "status": "approved",
+    "rights": "reviewed",
+    "promptQuality": "reviewed",
+    "previewQuality": "reviewed",
+    "reviewedAt": "2026-07-21"
+  },
+  "featured": true,
+  "publishedAt": "2026-07-21",
+  "translations": {
+    "zh": {
+      "title": "牛血红肩背包三场景",
+      "description": "为同一款雕塑感手袋组合奢品商品图、社交街拍动势和建筑静物摄影。"
+    }
+  }
+}

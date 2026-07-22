@@ -17,10 +17,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
-      - name: Validate structured prompt data
+      - name: Build generated views
+        run: npm run generate
+      - name: Validate prompt files, taxonomy, rights metadata, and image ratios
         run: npm run validate
-      - name: Verify generated READMEs
+      - name: Verify generated data and READMEs are committed
         run: |
-          npm run generate
-          git diff --exit-code -- README*.md
-
+          git diff --exit-code -- data/prompts.json README*.md

@@ -8,9 +8,9 @@
     "node": ">=20"
   },
   "scripts": {
+    "build:data": "node scripts/build-index.mjs",
     "validate": "node scripts/validate-data.mjs",
-    "generate": "node scripts/generate-readmes.mjs",
-    "check": "npm run validate && npm run generate && git diff --exit-code -- README*.md"
+    "generate": "npm run build:data && node scripts/generate-readmes.mjs",
+    "check": "npm run generate && npm run validate && git diff --exit-code -- data/prompts.json README*.md"
   }
 }
-

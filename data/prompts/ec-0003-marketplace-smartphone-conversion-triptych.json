@@ -1,0 +1,145 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0003",
+  "slug": "marketplace-smartphone-conversion-triptych",
+  "model": "gpt-image-2",
+  "title": "Marketplace Smartphone Conversion Triptych",
+  "description": "Builds an Amazon-style product-only hero, an A+ engineering detail, and a cinematic JD/Tmall feature visual for one consistent phone.",
+  "prompt": "Use case: product-mockup\nAsset type: three platform-specific consumer-electronics e-commerce previews in one seamless horizontal contact sheet\nPrimary request: Create a precision-designed 3-panel horizontal contact sheet for the exact same unbranded flagship smartphone, with visually distinct Amazon-style listing, Amazon A+ engineering, and JD/Tmall campaign treatments. Each panel is a complete standalone square product image, separated by narrow neutral-gray gutters.\nDevice invariant: identical satin titanium-gray smartphone in every panel; flat polished rails; gently rounded corners; three separate circular rear camera lenses in one straight vertical column; one tiny round flash beside the upper lenses; no camera island; no logo. Preserve device proportions, lens count and positions, button placement, rail color, and finish.\nPanel 1 — AMAZON-STYLE PRODUCT-ONLY HERO: exactly one physical smartphone, rear three-quarter view, centered on pure #FFFFFF, the whole device visible and filling most of the panel, honest proportions, realistic soft grounding shadow, immaculate catalog edges. Absolutely no second phone, no front-and-back pair, no props, no text, no badges.\nPanel 2 — AMAZON A+ CAMERA ENGINEERING: one intact phone angled in the background and exactly three lens assemblies aligned in an exploded technical sequence in front of it, on brushed graphite; physically plausible optical glass, restrained cool-gray blueprint-like lighting created only by geometry and shadow; no labels and no text.\nPanel 3 — JD/TMALL WATER-RESISTANCE HERO: the same phone in rear three-quarter view hovering just above rain-dark basalt; a narrow sheet of water bends around its lower edge without covering the cameras; deep ink-blue environment, one controlled cyan edge reflection, warm micro-highlights, cinematic low camera.\nStyle/medium: ultra-photorealistic premium electronics advertising; physically plausible titanium, optical glass and water; microscopic machining detail; sharp geometry; controlled reflections; no cheap CGI look.\nConstraints: no readable text, no logo, no watermark, no hands, no cable, no case, no brand symbols, no extra camera lenses, no panel labels or numbers. Panel 1 must show one phone only. Keep the exact device design consistent across all three panels.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "consumer-electronics",
+  "useCases": [
+    "main-image",
+    "feature-callout",
+    "branded-hero"
+  ],
+  "styles": [
+    "minimalist-clean",
+    "technical",
+    "cinematic"
+  ],
+  "backgrounds": [
+    "pure-white",
+    "graphic-set",
+    "dark-studio"
+  ],
+  "platforms": [
+    "amazon",
+    "amazon-a-plus",
+    "jd",
+    "tmall"
+  ],
+  "aspectRatios": [
+    "1:1"
+  ],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {
+    "referenceImages": 0,
+    "instructions": "No reference image is required. This record defines a fictional, unbranded product; use product-edit mode for real inventory."
+  },
+  "productInvariants": [
+    "Keep the product design, proportions, materials, colors, and identity consistent."
+  ],
+  "negativePrompt": "no readable text, no logo, no watermark, no hands, no cable, no case, no brand symbols, no extra camera lenses, no added layout labels or numbers. show only the explicitly requested phone view. Keep the exact device design consistent in this output.",
+  "variants": [
+    {
+      "id": "variant-1",
+      "title": "AMAZON-STYLE PRODUCT-ONLY HERO",
+      "useCase": "main-image",
+      "assetPurpose": "main-image",
+      "platforms": [
+        "amazon"
+      ],
+      "background": "pure-white",
+      "aspectRatio": "1:1",
+      "prompt": "Create one standalone 1:1 e-commerce image, not a collage, contact sheet, split screen, or multi-panel layout.\nProduct specification and invariants: Keep the product design, proportions, materials, colors, and identity consistent.\nArt direction: exactly one physical smartphone, rear three-quarter view, centered on pure #FFFFFF, the whole device visible and filling most of the frame, honest proportions, realistic soft grounding shadow, immaculate catalog edges. Absolutely no second phone, no front-and-back pair, no props, no text, no badges.\nPhotography and rendering: ultra-photorealistic premium electronics advertising; physically plausible titanium, optical glass and water; microscopic machining detail; sharp geometry; controlled reflections; no cheap CGI look.\nQuality and safety constraints: no readable text, no logo, no watermark, no hands, no cable, no case, no brand symbols, no extra camera lenses, no added layout labels or numbers. show only the explicitly requested phone view. Keep the exact device design consistent in this output.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/electronics-phone/preview-1.png",
+        "alt": "Amazon-style single-smartphone product hero on pure white",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the corresponding prompt direction; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "variant-2",
+      "title": "AMAZON A+ CAMERA ENGINEERING",
+      "useCase": "feature-callout",
+      "assetPurpose": "secondary-image",
+      "platforms": [
+        "amazon",
+        "amazon-a-plus"
+      ],
+      "background": "graphic-set",
+      "aspectRatio": "1:1",
+      "prompt": "Create one standalone 1:1 e-commerce image, not a collage, contact sheet, split screen, or multi-panel layout.\nProduct specification and invariants: Keep the product design, proportions, materials, colors, and identity consistent.\nArt direction: one intact phone angled in the background and exactly three lens assemblies aligned in an exploded technical sequence in front of it, on brushed graphite; physically plausible optical glass, restrained cool-gray blueprint-like lighting created only by geometry and shadow; no labels and no text.\nPhotography and rendering: ultra-photorealistic premium electronics advertising; physically plausible titanium, optical glass and water; microscopic machining detail; sharp geometry; controlled reflections; no cheap CGI look.\nQuality and safety constraints: no readable text, no logo, no watermark, no hands, no cable, no case, no brand symbols, no extra camera lenses, no added layout labels or numbers. show only the explicitly requested phone view. Keep the exact device design consistent in this output.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/electronics-phone/preview-2.png",
+        "alt": "Exploded camera-system detail for Amazon A+",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the corresponding prompt direction; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "variant-3",
+      "title": "JD/TMALL WATER-RESISTANCE HERO",
+      "useCase": "branded-hero",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "jd",
+        "tmall"
+      ],
+      "background": "dark-studio",
+      "aspectRatio": "1:1",
+      "prompt": "Create one standalone 1:1 e-commerce image, not a collage, contact sheet, split screen, or multi-panel layout.\nProduct specification and invariants: Keep the product design, proportions, materials, colors, and identity consistent.\nArt direction: the same phone in rear three-quarter view hovering just above rain-dark basalt; a narrow sheet of water bends around its lower edge without covering the cameras; deep ink-blue environment, one controlled cyan edge reflection, warm micro-highlights, cinematic low camera.\nPhotography and rendering: ultra-photorealistic premium electronics advertising; physically plausible titanium, optical glass and water; microscopic machining detail; sharp geometry; controlled reflections; no cheap CGI look.\nQuality and safety constraints: no readable text, no logo, no watermark, no hands, no cable, no case, no brand symbols, no extra camera lenses, no added layout labels or numbers. show only the explicitly requested phone view. Keep the exact device design consistent in this output.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/electronics-phone/preview-3.png",
+        "alt": "Cinematic water-resistant smartphone feature hero",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the corresponding prompt direction; no third-party preview image is redistributed."
+      }
+    }
+  ],
+  "author": {
+    "name": "CommercePrompt Atlas Studio",
+    "url": null
+  },
+  "source": {
+    "type": "original",
+    "url": null,
+    "permission": "repository-authored",
+    "notes": "Original synthesis informed by broad visual research and marketplace conventions; prompt and generated previews created for this repository. See docs/VISUAL_RESEARCH.md.",
+    "references": [
+      {
+        "type": "visual-research",
+        "url": "docs/VISUAL_RESEARCH.md"
+      }
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "platformPolicy": {
+    "status": "design-guidance-only",
+    "note": "Platform names describe intended art direction only. Verify the current official rules for the product category before publishing.",
+    "reviewedAt": null,
+    "sources": []
+  },
+  "review": {
+    "status": "approved",
+    "rights": "reviewed",
+    "promptQuality": "reviewed",
+    "previewQuality": "reviewed",
+    "reviewedAt": "2026-07-20"
+  },
+  "featured": true,
+  "publishedAt": "2026-07-20",
+  "translations": {
+    "zh": {
+      "title": "多平台手机转化三场景",
+      "description": "为同一款手机生成 Amazon 白底主图、A+ 镜头结构图和京东/天猫夜景功能图。"
+    }
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0019",
+  "slug": "product-faithful-serum-edit-workflow",
+  "model": "gpt-image-2",
+  "title": "Product-Faithful Serum Background Edit Workflow",
+  "description": "Uses one repository-owned serum image as the identity reference, then changes only the set, lighting, and campaign treatment for Shopify and Instagram Shop.",
+  "prompt": "Use the supplied serum product image as the identity reference and edit target. Preserve the bottle shape, proportions, pale celadon liquid, heavy clear base, warm-ivory pipette cap, blank ivory label, glass thickness, and color as closely as the model permits. Change only the requested background, surface, lighting, composition, and non-contact set elements. Do not redesign, relabel, recolor, or invent product features. Produce one standalone portrait 5:8 image. Human comparison with the source product is required before commercial use.",
+  "language": "en",
+  "mode": "product-edit",
+  "category": "beauty",
+  "useCases": [
+    "branded-hero",
+    "social-ad"
+  ],
+  "styles": [
+    "luxury-premium",
+    "minimalist-clean",
+    "dark-moody"
+  ],
+  "backgrounds": [
+    "natural-material",
+    "dark-studio"
+  ],
+  "platforms": [
+    "shopify",
+    "instagram-shop"
+  ],
+  "aspectRatios": [
+    "5:8"
+  ],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {
+    "referenceImages": 1,
+    "instructions": "Provide one front-facing, sufficiently sharp product image that you own or may license publicly; compare the generated bottle, label, color, and proportions with the source before use."
+  },
+  "productInvariants": [
+    "Preserve the squat rounded-square clear optical-glass bottle, pale celadon liquid level, heavy clear base, and overall front-facing proportions.",
+    "Preserve the satin warm-ivory pipette cap, its rounded top, width, height, and centered alignment.",
+    "Preserve the blank rectangular ivory label, its size and placement; do not add, distort, or fabricate label text.",
+    "Preserve the glass thickness and celadon color; do not add product claims, ingredients, certifications, or performance statements."
+  ],
+  "negativePrompt": "No readable text, logo, watermark, extra bottle, replacement packaging, recoloring, invented feature, malformed label, plastic CGI look, collage, split screen, or panel border.",
+  "variants": [
+    {
+      "id": "shopify-travertine-hero",
+      "title": "SHOPIFY TRAVERTINE HERO",
+      "useCase": "branded-hero",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "shopify"
+      ],
+      "background": "natural-material",
+      "aspectRatio": "5:8",
+      "prompt": "Edit the supplied serum product image into one standalone premium Shopify product hero, portrait 5:8. Use the supplied image as the product identity reference and edit target. Preserve the serum bottle as closely as possible: the same squat rounded-square clear optical-glass bottle, pale celadon liquid level, heavy clear base, satin warm-ivory pipette cap, blank rectangular ivory label, overall proportions, label size and placement, glass thickness, cap geometry, and celadon color. Remove the water splash and reflective pool completely. Place the bottle upright on a single carved warm-ivory travertine pedestal with subtle natural pores, against a quiet warm limestone-to-cream studio gradient. Add one restrained curved architectural shadow behind the bottle, soft diffused key light from upper left, a controlled glass-edge highlight, a realistic small contact shadow, generous negative space, editorial luxury-skincare art direction, refined natural color, and ultra-photorealistic materials. Human comparison with the reference is required. No text, logo, watermark, flowers, leaves, water, extra bottle, added product features, label distortion, plastic CGI look, collage, split screen, or panel border.",
+      "sample": {
+        "before": "assets/prompts/beauty-serum/preview-1.png",
+        "after": "assets/prompts/serum-product-edit/after-shopify-travertine.png",
+        "alt": "Celadon serum bottle edited from a water set to a warm travertine Shopify hero",
+        "license": "CC-BY-4.0",
+        "provenance": "The Before image was generated for this repository; the After image was produced by editing that local source with the recorded GPT Image 2 prompt."
+      }
+    },
+    {
+      "id": "instagram-night-launch",
+      "title": "INSTAGRAM NIGHT LAUNCH",
+      "useCase": "social-ad",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "instagram-shop"
+      ],
+      "background": "dark-studio",
+      "aspectRatio": "5:8",
+      "prompt": "Edit the supplied serum product image into one standalone premium Instagram Shop launch image, portrait 5:8. Use the supplied image as the product identity reference and edit target. Preserve the serum bottle as closely as possible: the same squat rounded-square clear optical-glass bottle, pale celadon liquid level, heavy clear base, satin warm-ivory pipette cap, blank rectangular ivory label, overall proportions, label size and placement, glass thickness, cap geometry, and celadon color. Remove the water splash and reflective pool completely. Place the bottle upright on a narrow slab of smoked olive glass in a deep moss-to-black studio. Create one controlled warm amber circular halo behind the upper bottle, a cool narrow rim light on the glass edge, subtle condensation limited to the exterior glass, precise realistic reflections, strong product separation, a luxurious night-repair campaign mood, refined editorial color, generous clean negative space, and ultra-photorealistic materials. Human comparison with the reference is required. No readable text, logo, watermark, water splash, flowers, leaves, extra bottle, added product features, label distortion, plastic CGI look, neon clutter, collage, split screen, or panel border.",
+      "sample": {
+        "before": "assets/prompts/beauty-serum/preview-1.png",
+        "after": "assets/prompts/serum-product-edit/after-instagram-night.png",
+        "alt": "Celadon serum bottle edited from a water set to a dark amber-halo Instagram launch",
+        "license": "CC-BY-4.0",
+        "provenance": "The Before image was generated for this repository; the After image was produced by editing that local source with the recorded GPT Image 2 prompt."
+      }
+    }
+  ],
+  "author": {
+    "name": "CommercePrompt Atlas Studio",
+    "url": null
+  },
+  "source": {
+    "type": "original",
+    "url": null,
+    "permission": "repository-authored",
+    "notes": "Original product-edit workflow and generated examples created specifically for this repository from a repository-owned source image.",
+    "references": [
+      {
+        "type": "visual-research",
+        "url": "docs/VISUAL_RESEARCH.md"
+      }
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "platformPolicy": {
+    "status": "design-guidance-only",
+    "note": "Shopify and Instagram Shop identify the intended creative treatment only; the images do not claim guaranteed platform or advertising approval.",
+    "reviewedAt": null,
+    "sources": []
+  },
+  "review": {
+    "status": "approved",
+    "rights": "reviewed",
+    "promptQuality": "reviewed",
+    "previewQuality": "reviewed",
+    "reviewedAt": "2026-07-22"
+  },
+  "featured": true,
+  "publishedAt": "2026-07-22",
+  "translations": {
+    "zh": {
+      "title": "商品保真精华液背景改图工作流",
+      "description": "使用仓库自有的精华液图片作为商品身份参考，仅改变布景、灯光和营销方向，生成 Shopify 与 Instagram Shop 两种成品。"
+    },
+    "zh-TW": {
+      "title": "商品保真精華液背景改圖工作流程",
+      "description": "使用倉庫自有的精華液圖片作為商品身分參考，只改變佈景、燈光與行銷方向，生成 Shopify 與 Instagram Shop 兩種成品。"
+    }
+  }
+}

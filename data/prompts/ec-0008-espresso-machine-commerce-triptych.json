@@ -1,0 +1,142 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0008",
+  "slug": "espresso-machine-commerce-triptych",
+  "model": "gpt-image-2",
+  "title": "Espresso Machine Commerce Triptych",
+  "description": "Moves one compact espresso machine from catalog precision to warm domestic ritual and creator-led editorial styling.",
+  "prompt": "Use case: product-mockup\nAsset type: three premium kitchen-appliance e-commerce previews in one seamless horizontal contact sheet\nPrimary request: Create a sophisticated 3-panel horizontal contact sheet for the exact same unbranded compact espresso machine, with distinct Amazon listing, Shopify lifestyle, and Xiaohongshu ritual treatments. Each panel is a complete standalone vertical 4:5 image, separated by narrow warm-gray gutters.\nProduct invariant: identical compact espresso machine in every panel; brushed satin stainless-steel body, softly rounded rectangular profile, one circular pressure gauge centered high on the face, two small black rotary knobs, walnut portafilter handle pointing right, low polished drip tray, no logo. Preserve all controls, proportions, metal finish and handle direction.\nPanel 1 — AMAZON LISTING HERO: one machine alone, front three-quarter view on pure #FFFFFF, fully visible with power cable concealed, realistic soft grounding shadow, crisp catalog edges, honest scale, no cup and no accessories.\nPanel 2 — SHOPIFY MORNING LIFESTYLE: same machine on honed cream travertine in a restrained warm-oak kitchen, one handmade ivory demitasse under the spout, a thin stream of espresso with fresh crema, early side light and soft linen shadow, calm premium domestic realism.\nPanel 3 — XIAOHONGSHU COFFEE RITUAL: close low-angle editorial crop, same machine accompanied only by a small walnut tray, folded deep-red linen and a glass of sparkling water, dramatic hard sunlight through blinds, precise reflective highlights and cinematic shadow geometry, aspirational creator aesthetic.\nStyle/medium: ultra-photorealistic premium appliance and interior photography, physically accurate brushed steel, walnut and crema, refined neutral grade with restrained warm red accent, no sterile CGI.\nConstraints: no readable text, no logos, no watermark, no extra machine, no impossible steam, no detached controls, no duplicated cups, no hands, no panel labels or numbers. Keep the exact machine design consistent across all panels.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "kitchen-appliances",
+  "useCases": [
+    "main-image",
+    "lifestyle-scene",
+    "social-ad"
+  ],
+  "styles": [
+    "minimalist-clean",
+    "quiet-living",
+    "editorial"
+  ],
+  "backgrounds": [
+    "pure-white",
+    "home-interior",
+    "natural-material"
+  ],
+  "platforms": [
+    "amazon",
+    "shopify",
+    "xiaohongshu"
+  ],
+  "aspectRatios": [
+    "4:5"
+  ],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {
+    "referenceImages": 0,
+    "instructions": "No reference image is required. This record defines a fictional, unbranded product; use product-edit mode for real inventory."
+  },
+  "productInvariants": [
+    "identical compact espresso machine in this output; brushed satin stainless-steel body, softly rounded rectangular profile, one circular pressure gauge centered high on the face, two small black rotary knobs, walnut portafilter handle pointing right, low polished drip tray, no logo. Preserve all controls, proportions, metal finish and handle direction."
+  ],
+  "negativePrompt": "no readable text, no logos, no watermark, no extra machine, no impossible steam, no detached controls, no duplicated cups, no hands, no added layout labels or numbers. Keep the exact machine design consistent in this output.",
+  "variants": [
+    {
+      "id": "variant-1",
+      "title": "AMAZON LISTING HERO",
+      "useCase": "main-image",
+      "assetPurpose": "main-image",
+      "platforms": [
+        "amazon"
+      ],
+      "background": "pure-white",
+      "aspectRatio": "4:5",
+      "prompt": "Create one standalone 4:5 e-commerce image, not a collage, contact sheet, split screen, or multi-panel layout.\nProduct specification and invariants: identical compact espresso machine in this output; brushed satin stainless-steel body, softly rounded rectangular profile, one circular pressure gauge centered high on the face, two small black rotary knobs, walnut portafilter handle pointing right, low polished drip tray, no logo. Preserve all controls, proportions, metal finish and handle direction.\nArt direction: one machine alone, front three-quarter view on pure #FFFFFF, fully visible with power cable concealed, realistic soft grounding shadow, crisp catalog edges, honest scale, no cup and no accessories.\nPhotography and rendering: ultra-photorealistic premium appliance and interior photography, physically accurate brushed steel, walnut and crema, refined neutral grade with restrained warm red accent, no sterile CGI.\nQuality and safety constraints: no readable text, no logos, no watermark, no extra machine, no impossible steam, no detached controls, no duplicated cups, no hands, no added layout labels or numbers. Keep the exact machine design consistent in this output.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/appliance-espresso/preview-1.png",
+        "alt": "Compact espresso machine catalog hero on white",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the corresponding prompt direction; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "variant-2",
+      "title": "SHOPIFY MORNING LIFESTYLE",
+      "useCase": "lifestyle-scene",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "shopify"
+      ],
+      "background": "home-interior",
+      "aspectRatio": "4:5",
+      "prompt": "Create one standalone 4:5 e-commerce image, not a collage, contact sheet, split screen, or multi-panel layout.\nProduct specification and invariants: identical compact espresso machine in this output; brushed satin stainless-steel body, softly rounded rectangular profile, one circular pressure gauge centered high on the face, two small black rotary knobs, walnut portafilter handle pointing right, low polished drip tray, no logo. Preserve all controls, proportions, metal finish and handle direction.\nArt direction: same machine on honed cream travertine in a restrained warm-oak kitchen, one handmade ivory demitasse under the spout, a thin stream of espresso with fresh crema, early side light and soft linen shadow, calm premium domestic realism.\nPhotography and rendering: ultra-photorealistic premium appliance and interior photography, physically accurate brushed steel, walnut and crema, refined neutral grade with restrained warm red accent, no sterile CGI.\nQuality and safety constraints: no readable text, no logos, no watermark, no extra machine, no impossible steam, no detached controls, no duplicated cups, no hands, no added layout labels or numbers. Keep the exact machine design consistent in this output.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/appliance-espresso/preview-2.png",
+        "alt": "Espresso machine in a warm morning kitchen",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the corresponding prompt direction; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "variant-3",
+      "title": "XIAOHONGSHU COFFEE RITUAL",
+      "useCase": "social-ad",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "xiaohongshu"
+      ],
+      "background": "natural-material",
+      "aspectRatio": "4:5",
+      "prompt": "Create one standalone 4:5 e-commerce image, not a collage, contact sheet, split screen, or multi-panel layout.\nProduct specification and invariants: identical compact espresso machine in this output; brushed satin stainless-steel body, softly rounded rectangular profile, one circular pressure gauge centered high on the face, two small black rotary knobs, walnut portafilter handle pointing right, low polished drip tray, no logo. Preserve all controls, proportions, metal finish and handle direction.\nArt direction: close low-angle editorial crop, same machine accompanied only by a small walnut tray, folded deep-red linen and a glass of sparkling water, dramatic hard sunlight through blinds, precise reflective highlights and cinematic shadow geometry, aspirational creator aesthetic.\nPhotography and rendering: ultra-photorealistic premium appliance and interior photography, physically accurate brushed steel, walnut and crema, refined neutral grade with restrained warm red accent, no sterile CGI.\nQuality and safety constraints: no readable text, no logos, no watermark, no extra machine, no impossible steam, no detached controls, no duplicated cups, no hands, no added layout labels or numbers. Keep the exact machine design consistent in this output.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/appliance-espresso/preview-3.png",
+        "alt": "Creator-style espresso ritual with hard sunlight",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the corresponding prompt direction; no third-party preview image is redistributed."
+      }
+    }
+  ],
+  "author": {
+    "name": "CommercePrompt Atlas Studio",
+    "url": null
+  },
+  "source": {
+    "type": "original",
+    "url": null,
+    "permission": "repository-authored",
+    "notes": "Original synthesis informed by broad visual research; prompt and generated previews created for this repository. See docs/VISUAL_RESEARCH.md.",
+    "references": [
+      {
+        "type": "visual-research",
+        "url": "docs/VISUAL_RESEARCH.md"
+      }
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "platformPolicy": {
+    "status": "design-guidance-only",
+    "note": "Platform names describe intended art direction only. Verify the current official rules for the product category before publishing.",
+    "reviewedAt": null,
+    "sources": []
+  },
+  "review": {
+    "status": "approved",
+    "rights": "reviewed",
+    "promptQuality": "reviewed",
+    "previewQuality": "reviewed",
+    "reviewedAt": "2026-07-21"
+  },
+  "featured": false,
+  "publishedAt": "2026-07-21",
+  "translations": {
+    "zh": {
+      "title": "精品咖啡机电商三场景",
+      "description": "让同一台咖啡机从精准白底图过渡到晨间生活方式与创作者仪式感画面。"
+    }
+  }
+}

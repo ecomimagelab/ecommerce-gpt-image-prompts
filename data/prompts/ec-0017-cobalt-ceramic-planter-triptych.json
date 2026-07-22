@@ -1,0 +1,141 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0017",
+  "slug": "cobalt-ceramic-planter-triptych",
+  "model": "gpt-image-2",
+  "title": "Cobalt Ceramic Planter Triptych",
+  "description": "Balances handmade provenance, marketplace clarity, and a Mediterranean interior story for one ceramic planter.",
+  "prompt": "Use case: product-mockup\nAsset type: three premium planter-commerce previews in one seamless horizontal contact sheet\nPrimary request: Create an artful 3-panel horizontal contact sheet for the exact same unbranded hand-finished ceramic planter, with distinct Etsy maker story, Wayfair catalog, and Pinterest interior-editorial treatments. Each panel is a complete standalone vertical 4:5 image, separated by narrow cobalt gutters.\nProduct invariant: identical medium cylindrical planter in every panel; warm chalk-white stoneware, slightly irregular hand-thrown rim, broad evenly spaced vertical flutes, one hand-painted cobalt-blue crescent brushstroke wrapping across the front flutes, matching low saucer, one drainage hole, no logo. Preserve proportions, fluting, cobalt crescent position, rim and saucer.\nPanel 1 — ETSY MAKER STORY: empty planter and saucer on a worn pale-wood workbench, front three-quarter view, a small natural sea sponge and one cobalt-stained brush softly out of focus at the edge, north-window light, visible clay speckle and brush texture, authentic handmade calm.\nPanel 2 — WAYFAIR CATALOG: empty planter centered alone with its saucer on pure #FFFFFF, fully visible, straight-on three-quarter view, accurate scale and clean silhouette, subtle grounding shadow, no tools and no plant.\nPanel 3 — PINTEREST INTERIOR EDITORIAL: same planter holding one sculptural young olive tree in a sunken limestone living room, planter is the clear foreground subject, raked Mediterranean afternoon sun creates leaf shadows across a limewashed wall, quiet collectible-design atmosphere, no other pots.\nStyle/medium: ultra-photorealistic premium ceramics and interior photography, authentic stoneware grain, imperfect hand-painted cobalt, realistic soil and olive leaves, refined chalk/cobalt/limestone palette.\nConstraints: no readable text, no logos, no watermark, no extra planter, no flowers, no decorative pattern beyond the single cobalt crescent, no cracked ceramic, no floating saucer, no people, no panel labels or numbers. Keep the exact planter design consistent across all panels.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "garden-and-planters",
+  "useCases": [
+    "lifestyle-scene",
+    "catalog-image"
+  ],
+  "styles": [
+    "handmade-tactile",
+    "architectural",
+    "natural-organic"
+  ],
+  "backgrounds": [
+    "natural-material",
+    "pure-white",
+    "home-interior"
+  ],
+  "platforms": [
+    "etsy",
+    "wayfair",
+    "pinterest"
+  ],
+  "aspectRatios": [
+    "4:5"
+  ],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {
+    "referenceImages": 0,
+    "instructions": "No reference image is required. This record defines a fictional, unbranded product; use product-edit mode for real inventory."
+  },
+  "productInvariants": [
+    "identical medium cylindrical planter in this output; warm chalk-white stoneware, slightly irregular hand-thrown rim, broad evenly spaced vertical flutes, one hand-painted cobalt-blue crescent brushstroke wrapping across the front flutes, matching low saucer, one drainage hole, no logo. Preserve proportions, fluting, cobalt crescent position, rim and saucer."
+  ],
+  "negativePrompt": "no readable text, no logos, no watermark, no extra planter, no flowers, no decorative pattern beyond the single cobalt crescent, no cracked ceramic, no floating saucer, no people, no added layout labels or numbers. Keep the exact planter design consistent in this output.",
+  "variants": [
+    {
+      "id": "variant-1",
+      "title": "ETSY MAKER STORY",
+      "useCase": "lifestyle-scene",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "etsy"
+      ],
+      "background": "natural-material",
+      "aspectRatio": "4:5",
+      "prompt": "Create one standalone 4:5 e-commerce image, not a collage, contact sheet, split screen, or multi-panel layout.\nProduct specification and invariants: identical medium cylindrical planter in this output; warm chalk-white stoneware, slightly irregular hand-thrown rim, broad evenly spaced vertical flutes, one hand-painted cobalt-blue crescent brushstroke wrapping across the front flutes, matching low saucer, one drainage hole, no logo. Preserve proportions, fluting, cobalt crescent position, rim and saucer.\nArt direction: empty planter and saucer on a worn pale-wood workbench, front three-quarter view, a small natural sea sponge and one cobalt-stained brush softly out of focus at the edge, north-window light, visible clay speckle and brush texture, authentic handmade calm.\nPhotography and rendering: ultra-photorealistic premium ceramics and interior photography, authentic stoneware grain, imperfect hand-painted cobalt, realistic soil and olive leaves, refined chalk/cobalt/limestone palette.\nQuality and safety constraints: no readable text, no logos, no watermark, no extra planter, no flowers, no decorative pattern beyond the single cobalt crescent, no cracked ceramic, no floating saucer, no people, no added layout labels or numbers. Keep the exact planter design consistent in this output.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/garden-ceramic-planter/preview-1.png",
+        "alt": "Cobalt ceramic planter in an Etsy maker story",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the corresponding prompt direction; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "variant-2",
+      "title": "WAYFAIR CATALOG",
+      "useCase": "catalog-image",
+      "assetPurpose": "catalog-image",
+      "platforms": [
+        "wayfair"
+      ],
+      "background": "pure-white",
+      "aspectRatio": "4:5",
+      "prompt": "Create one standalone 4:5 e-commerce image, not a collage, contact sheet, split screen, or multi-panel layout.\nProduct specification and invariants: identical medium cylindrical planter in this output; warm chalk-white stoneware, slightly irregular hand-thrown rim, broad evenly spaced vertical flutes, one hand-painted cobalt-blue crescent brushstroke wrapping across the front flutes, matching low saucer, one drainage hole, no logo. Preserve proportions, fluting, cobalt crescent position, rim and saucer.\nArt direction: empty planter centered alone with its saucer on pure #FFFFFF, fully visible, straight-on three-quarter view, accurate scale and clean silhouette, subtle grounding shadow, no tools and no plant.\nPhotography and rendering: ultra-photorealistic premium ceramics and interior photography, authentic stoneware grain, imperfect hand-painted cobalt, realistic soil and olive leaves, refined chalk/cobalt/limestone palette.\nQuality and safety constraints: no readable text, no logos, no watermark, no extra planter, no flowers, no decorative pattern beyond the single cobalt crescent, no cracked ceramic, no floating saucer, no people, no added layout labels or numbers. Keep the exact planter design consistent in this output.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/garden-ceramic-planter/preview-2.png",
+        "alt": "Cobalt ceramic planter catalog image on white",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the corresponding prompt direction; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "variant-3",
+      "title": "PINTEREST INTERIOR EDITORIAL",
+      "useCase": "lifestyle-scene",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "pinterest"
+      ],
+      "background": "home-interior",
+      "aspectRatio": "4:5",
+      "prompt": "Create one standalone 4:5 e-commerce image, not a collage, contact sheet, split screen, or multi-panel layout.\nProduct specification and invariants: identical medium cylindrical planter in this output; warm chalk-white stoneware, slightly irregular hand-thrown rim, broad evenly spaced vertical flutes, one hand-painted cobalt-blue crescent brushstroke wrapping across the front flutes, matching low saucer, one drainage hole, no logo. Preserve proportions, fluting, cobalt crescent position, rim and saucer.\nArt direction: same planter holding one sculptural young olive tree in a sunken limestone living room, planter is the clear foreground subject, raked Mediterranean afternoon sun creates leaf shadows across a limewashed wall, quiet collectible-design atmosphere, no other pots.\nPhotography and rendering: ultra-photorealistic premium ceramics and interior photography, authentic stoneware grain, imperfect hand-painted cobalt, realistic soil and olive leaves, refined chalk/cobalt/limestone palette.\nQuality and safety constraints: no readable text, no logos, no watermark, no extra planter, no flowers, no decorative pattern beyond the single cobalt crescent, no cracked ceramic, no floating saucer, no people, no added layout labels or numbers. Keep the exact planter design consistent in this output.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/garden-ceramic-planter/preview-3.png",
+        "alt": "Cobalt planter with an olive tree in limestone interior",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the corresponding prompt direction; no third-party preview image is redistributed."
+      }
+    }
+  ],
+  "author": {
+    "name": "CommercePrompt Atlas Studio",
+    "url": null
+  },
+  "source": {
+    "type": "original",
+    "url": null,
+    "permission": "repository-authored",
+    "notes": "Original synthesis informed by broad visual research; prompt and generated previews created for this repository. See docs/VISUAL_RESEARCH.md.",
+    "references": [
+      {
+        "type": "visual-research",
+        "url": "docs/VISUAL_RESEARCH.md"
+      }
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "platformPolicy": {
+    "status": "design-guidance-only",
+    "note": "Platform names describe intended art direction only. Verify the current official rules for the product category before publishing.",
+    "reviewedAt": null,
+    "sources": []
+  },
+  "review": {
+    "status": "approved",
+    "rights": "reviewed",
+    "promptQuality": "reviewed",
+    "previewQuality": "reviewed",
+    "reviewedAt": "2026-07-21"
+  },
+  "featured": false,
+  "publishedAt": "2026-07-21",
+  "translations": {
+    "zh": {
+      "title": "钴蓝陶瓷花盆三场景",
+      "description": "为同一只陶瓷花盆平衡手作溯源、商城清晰度和地中海室内叙事。"
+    }
+  }
+}

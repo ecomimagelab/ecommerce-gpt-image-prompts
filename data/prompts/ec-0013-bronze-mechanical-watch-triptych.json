@@ -1,0 +1,142 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0013",
+  "slug": "bronze-mechanical-watch-triptych",
+  "model": "gpt-image-2",
+  "title": "Bronze Mechanical Watch Triptych",
+  "description": "Moves one bronze mechanical watch from collector-grade catalog precision to a ceremonial launch and a quiet wrist editorial.",
+  "prompt": "Use case: ads-marketing\nAsset type: three premium watch-commerce previews in one seamless horizontal contact sheet\nPrimary request: Create a museum-level 3-panel horizontal contact sheet for the exact same unbranded mechanical wristwatch, with distinct Chrono24 catalog, Tmall Luxury launch, and Instagram editorial treatments. Each panel is a complete standalone vertical 4:5 image, separated by hairline black gutters.\nProduct invariant: identical watch in every panel; 38 mm brushed bronze cushion case, deep moss-green sunray dial, twelve slim applied gold baton hour markers with no numerals, two gold dauphine hands fixed at 10:10, small seconds subdial at 6 o'clock, domed crystal, dark brown suede strap with tonal stitching, no logo and no date window. Preserve case shape, crown position, marker layout, hand style, dial color and strap.\nPanel 1 — CHRONO24 CATALOG: watch alone lying flat at a slight diagonal on pure warm white, buckle and most of the strap visible while the lower strap end may meet the frame edge, clean overhead precision, soft contact shadow, accurate proportions, crisp bezel and dial, no props.\nPanel 2 — TMALL LUXURY LAUNCH: watch upright on a narrow slab of smoked amber glass in deep black space, a controlled warm spotlight catches the bronze edge and green dial, one subtle circular reflection, ceremonial high contrast, exact face remains readable.\nPanel 3 — INSTAGRAM EDITORIAL: same watch worn on one adult wrist emerging from a charcoal wool sleeve, natural relaxed pose against weathered olive stone, low winter sunlight and a narrow shadow line, tactile skin, suede and metal, quiet collector mood.\nStyle/medium: ultra-photorealistic high-watchmaking photography, physically accurate bronze patina, optical crystal, sunray dial and suede nap, disciplined retouching, rich but natural black point.\nConstraints: no readable text, no logo, no watermark, no extra watch, no jewelry, no distorted wrist or fingers, no duplicate crown, no incorrect numerals, no panel labels or numbers. Keep the exact watch design and 10:10 hand position consistent.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "watches",
+  "useCases": [
+    "catalog-image",
+    "branded-hero",
+    "lifestyle-scene"
+  ],
+  "styles": [
+    "luxury-premium",
+    "dark-moody",
+    "editorial"
+  ],
+  "backgrounds": [
+    "soft-studio",
+    "dark-studio",
+    "lifestyle-location"
+  ],
+  "platforms": [
+    "chrono24",
+    "tmall-luxury",
+    "instagram-shop"
+  ],
+  "aspectRatios": [
+    "4:5"
+  ],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {
+    "referenceImages": 0,
+    "instructions": "No reference image is required. This record defines a fictional, unbranded product; use product-edit mode for real inventory."
+  },
+  "productInvariants": [
+    "identical watch in this output; 38 mm brushed bronze cushion case, deep moss-green sunray dial, twelve slim applied gold baton hour markers with no numerals, two gold dauphine hands fixed at 10:10, small seconds subdial at 6 o'clock, domed crystal, dark brown suede strap with tonal stitching, no logo and no date window. Preserve case shape, crown position, marker layout, hand style, dial color and strap."
+  ],
+  "negativePrompt": "no readable text, no logo, no watermark, no extra watch, no jewelry, no distorted wrist or fingers, no duplicate crown, no incorrect numerals, no added layout labels or numbers. Keep the exact watch design and 10:10 hand position consistent.",
+  "variants": [
+    {
+      "id": "variant-1",
+      "title": "CHRONO24 CATALOG",
+      "useCase": "catalog-image",
+      "assetPurpose": "catalog-image",
+      "platforms": [
+        "chrono24"
+      ],
+      "background": "soft-studio",
+      "aspectRatio": "4:5",
+      "prompt": "Create one standalone 4:5 e-commerce image, not a collage, contact sheet, split screen, or multi-panel layout.\nProduct specification and invariants: identical watch in this output; 38 mm brushed bronze cushion case, deep moss-green sunray dial, twelve slim applied gold baton hour markers with no numerals, two gold dauphine hands fixed at 10:10, small seconds subdial at 6 o'clock, domed crystal, dark brown suede strap with tonal stitching, no logo and no date window. Preserve case shape, crown position, marker layout, hand style, dial color and strap.\nArt direction: watch alone lying flat at a slight diagonal on pure warm white, buckle and most of the strap visible while the lower strap end may meet the frame edge, clean overhead precision, soft contact shadow, accurate proportions, crisp bezel and dial, no props.\nPhotography and rendering: ultra-photorealistic high-watchmaking photography, physically accurate bronze patina, optical crystal, sunray dial and suede nap, disciplined retouching, rich but natural black point.\nQuality and safety constraints: no readable text, no logo, no watermark, no extra watch, no jewelry, no distorted wrist or fingers, no duplicate crown, no incorrect numerals, no added layout labels or numbers. Keep the exact watch design and 10:10 hand position consistent.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/watch-bronze/preview-1.png",
+        "alt": "Bronze mechanical watch collector catalog image",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the corresponding prompt direction; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "variant-2",
+      "title": "TMALL LUXURY LAUNCH",
+      "useCase": "branded-hero",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "tmall-luxury"
+      ],
+      "background": "dark-studio",
+      "aspectRatio": "4:5",
+      "prompt": "Create one standalone 4:5 e-commerce image, not a collage, contact sheet, split screen, or multi-panel layout.\nProduct specification and invariants: identical watch in this output; 38 mm brushed bronze cushion case, deep moss-green sunray dial, twelve slim applied gold baton hour markers with no numerals, two gold dauphine hands fixed at 10:10, small seconds subdial at 6 o'clock, domed crystal, dark brown suede strap with tonal stitching, no logo and no date window. Preserve case shape, crown position, marker layout, hand style, dial color and strap.\nArt direction: watch upright on a narrow slab of smoked amber glass in deep black space, a controlled warm spotlight catches the bronze edge and green dial, one subtle circular reflection, ceremonial high contrast, exact face remains readable.\nPhotography and rendering: ultra-photorealistic high-watchmaking photography, physically accurate bronze patina, optical crystal, sunray dial and suede nap, disciplined retouching, rich but natural black point.\nQuality and safety constraints: no readable text, no logo, no watermark, no extra watch, no jewelry, no distorted wrist or fingers, no duplicate crown, no incorrect numerals, no added layout labels or numbers. Keep the exact watch design and 10:10 hand position consistent.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/watch-bronze/preview-2.png",
+        "alt": "Bronze watch luxury launch on smoked amber glass",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the corresponding prompt direction; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "variant-3",
+      "title": "INSTAGRAM EDITORIAL",
+      "useCase": "lifestyle-scene",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "instagram-shop"
+      ],
+      "background": "lifestyle-location",
+      "aspectRatio": "4:5",
+      "prompt": "Create one standalone 4:5 e-commerce image, not a collage, contact sheet, split screen, or multi-panel layout.\nProduct specification and invariants: identical watch in this output; 38 mm brushed bronze cushion case, deep moss-green sunray dial, twelve slim applied gold baton hour markers with no numerals, two gold dauphine hands fixed at 10:10, small seconds subdial at 6 o'clock, domed crystal, dark brown suede strap with tonal stitching, no logo and no date window. Preserve case shape, crown position, marker layout, hand style, dial color and strap.\nArt direction: same watch worn on one adult wrist emerging from a charcoal wool sleeve, natural relaxed pose against weathered olive stone, low winter sunlight and a narrow shadow line, tactile skin, suede and metal, quiet collector mood.\nPhotography and rendering: ultra-photorealistic high-watchmaking photography, physically accurate bronze patina, optical crystal, sunray dial and suede nap, disciplined retouching, rich but natural black point.\nQuality and safety constraints: no readable text, no logo, no watermark, no extra watch, no jewelry, no distorted wrist or fingers, no duplicate crown, no incorrect numerals, no added layout labels or numbers. Keep the exact watch design and 10:10 hand position consistent.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/watch-bronze/preview-3.png",
+        "alt": "Bronze watch wrist editorial against olive stone",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the corresponding prompt direction; no third-party preview image is redistributed."
+      }
+    }
+  ],
+  "author": {
+    "name": "CommercePrompt Atlas Studio",
+    "url": null
+  },
+  "source": {
+    "type": "original",
+    "url": null,
+    "permission": "repository-authored",
+    "notes": "Original synthesis informed by broad visual research; prompt and generated previews created for this repository. See docs/VISUAL_RESEARCH.md.",
+    "references": [
+      {
+        "type": "visual-research",
+        "url": "docs/VISUAL_RESEARCH.md"
+      }
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "platformPolicy": {
+    "status": "design-guidance-only",
+    "note": "Platform names describe intended art direction only. Verify the current official rules for the product category before publishing.",
+    "reviewedAt": null,
+    "sources": []
+  },
+  "review": {
+    "status": "approved",
+    "rights": "reviewed",
+    "promptQuality": "reviewed",
+    "previewQuality": "reviewed",
+    "reviewedAt": "2026-07-21"
+  },
+  "featured": true,
+  "publishedAt": "2026-07-21",
+  "translations": {
+    "zh": {
+      "title": "青铜机械腕表三场景",
+      "description": "将同一枚青铜机械腕表呈现为收藏级商品图、典礼式发布图和安静的上腕编辑图。"
+    }
+  }
+}

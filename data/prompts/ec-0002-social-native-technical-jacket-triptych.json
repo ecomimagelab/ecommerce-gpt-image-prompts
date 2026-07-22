@@ -1,0 +1,141 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0002",
+  "slug": "social-native-technical-jacket-triptych",
+  "model": "gpt-image-2",
+  "title": "Social-Native Technical Jacket Triptych",
+  "description": "Combines TikTok street energy, brutalist fashion detail, and a clean Shopify ghost-mannequin hero for the same jacket.",
+  "prompt": "Use case: ads-marketing\nAsset type: three high-impact vertical e-commerce fashion previews in one seamless horizontal contact sheet\nPrimary request: Create an editorial 3-panel horizontal contact sheet for the same unbranded oversized technical shell jacket, designed for TikTok Shop, Instagram Shop, and a premium Shopify collection page. Each panel is a complete standalone 3:5-style fashion image, separated by narrow clean black gutters.\nProduct invariant: identical charcoal-black oversized technical shell in every panel, cropped hip length, sculptural storm hood, two diagonal waterproof chest zips, two oversized bellows pockets, matte crinkled ripstop, concealed center zipper, elastic drawcord hem. Preserve silhouette, seam map, pocket placement, hood, and material in all panels.\nPanel 1 — TIKTOK STREET ENERGY: young adult model wearing the jacket, full body, mid-stride at night on wet concrete, dramatic 18mm fisheye perspective, direct on-camera flash, blurred scooter lights and subtle motion streaks, raw social-native immediacy, jacket remains sharp and fully readable.\nPanel 2 — DROP CULTURE CLOSE-UP: low-angle waist-up crop on a different gender-neutral model, face partly outside frame, hand adjusting the storm hood, hard noon sunlight against weathered brutalist concrete, deep graphic shadow, tactile ripstop and hardware, bold asymmetry suited to an Instagram Shop carousel.\nPanel 3 — SHOPIFY EDITORIAL: jacket alone on an invisible ghost mannequin, sculptural silhouette in a warm gray seamless studio, soft top light plus razor-thin silver edge light, quiet gallery-like luxury, generous negative space, premium collection hero.\nStyle/medium: photorealistic contemporary streetwear campaign photography, high-fashion casting, authentic fabric texture, subtle grain, restrained charcoal/sodium-orange palette, no cyberpunk neon cliché.\nConstraints: no readable text, no logos, no watermark, no extra jacket, no unrelated accessories, no distorted hands, no duplicated limbs, no panel numbers. Keep the exact jacket design consistent even when worn.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "fashion",
+  "useCases": [
+    "social-ad",
+    "branded-hero"
+  ],
+  "styles": [
+    "editorial",
+    "social-native",
+    "outdoor-performance"
+  ],
+  "backgrounds": [
+    "dark-studio",
+    "color-studio",
+    "soft-studio"
+  ],
+  "platforms": [
+    "tiktok-shop",
+    "instagram-shop",
+    "shopify"
+  ],
+  "aspectRatios": [
+    "3:5"
+  ],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {
+    "referenceImages": 0,
+    "instructions": "No reference image is required. This record defines a fictional, unbranded product; use product-edit mode for real inventory."
+  },
+  "productInvariants": [
+    "identical charcoal-black oversized technical shell in this output, cropped hip length, sculptural storm hood, two diagonal waterproof chest zips, two oversized bellows pockets, matte crinkled ripstop, concealed center zipper, elastic drawcord hem. Preserve silhouette, seam map, pocket placement, hood, and material in this output."
+  ],
+  "negativePrompt": "no readable text, no logos, no watermark, no extra jacket, no unrelated accessories, no distorted hands, no duplicated limbs, no added layout labels or numbers. Keep the exact jacket design consistent even when worn.",
+  "variants": [
+    {
+      "id": "variant-1",
+      "title": "TIKTOK STREET ENERGY",
+      "useCase": "social-ad",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "tiktok-shop"
+      ],
+      "background": "dark-studio",
+      "aspectRatio": "3:5",
+      "prompt": "Create one standalone 3:5 e-commerce image, not a collage, contact sheet, split screen, or multi-panel layout.\nProduct specification and invariants: identical charcoal-black oversized technical shell in this output, cropped hip length, sculptural storm hood, two diagonal waterproof chest zips, two oversized bellows pockets, matte crinkled ripstop, concealed center zipper, elastic drawcord hem. Preserve silhouette, seam map, pocket placement, hood, and material in this output.\nArt direction: young adult model wearing the jacket, full body, mid-stride at night on wet concrete, dramatic 18mm fisheye perspective, direct on-camera flash, blurred scooter lights and subtle motion streaks, raw social-native immediacy, jacket remains sharp and fully readable.\nPhotography and rendering: photorealistic contemporary streetwear campaign photography, high-fashion casting, authentic fabric texture, subtle grain, restrained charcoal/sodium-orange palette, no cyberpunk neon cliché.\nQuality and safety constraints: no readable text, no logos, no watermark, no extra jacket, no unrelated accessories, no distorted hands, no duplicated limbs, no added layout labels or numbers. Keep the exact jacket design consistent even when worn.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/fashion-jacket/preview-1.png",
+        "alt": "Technical jacket in a flash-lit fisheye streetwear scene",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the corresponding prompt direction; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "variant-2",
+      "title": "DROP CULTURE CLOSE-UP",
+      "useCase": "social-ad",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "instagram-shop"
+      ],
+      "background": "color-studio",
+      "aspectRatio": "3:5",
+      "prompt": "Create one standalone 3:5 e-commerce image, not a collage, contact sheet, split screen, or multi-panel layout.\nProduct specification and invariants: identical charcoal-black oversized technical shell in this output, cropped hip length, sculptural storm hood, two diagonal waterproof chest zips, two oversized bellows pockets, matte crinkled ripstop, concealed center zipper, elastic drawcord hem. Preserve silhouette, seam map, pocket placement, hood, and material in this output.\nArt direction: low-angle waist-up crop on a different gender-neutral model, face partly outside frame, hand adjusting the storm hood, hard noon sunlight against weathered brutalist concrete, deep graphic shadow, tactile ripstop and hardware, bold asymmetry suited to an Instagram Shop carousel.\nPhotography and rendering: photorealistic contemporary streetwear campaign photography, high-fashion casting, authentic fabric texture, subtle grain, restrained charcoal/sodium-orange palette, no cyberpunk neon cliché.\nQuality and safety constraints: no readable text, no logos, no watermark, no extra jacket, no unrelated accessories, no distorted hands, no duplicated limbs, no added layout labels or numbers. Keep the exact jacket design consistent even when worn.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/fashion-jacket/preview-2.png",
+        "alt": "Technical jacket detail against brutalist concrete",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the corresponding prompt direction; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "variant-3",
+      "title": "SHOPIFY EDITORIAL",
+      "useCase": "branded-hero",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "shopify"
+      ],
+      "background": "soft-studio",
+      "aspectRatio": "3:5",
+      "prompt": "Create one standalone 3:5 e-commerce image, not a collage, contact sheet, split screen, or multi-panel layout.\nProduct specification and invariants: identical charcoal-black oversized technical shell in this output, cropped hip length, sculptural storm hood, two diagonal waterproof chest zips, two oversized bellows pockets, matte crinkled ripstop, concealed center zipper, elastic drawcord hem. Preserve silhouette, seam map, pocket placement, hood, and material in this output.\nArt direction: jacket alone on an invisible ghost mannequin, sculptural silhouette in a warm gray seamless studio, soft top light plus razor-thin silver edge light, quiet gallery-like luxury, generous negative space, premium collection hero.\nPhotography and rendering: photorealistic contemporary streetwear campaign photography, high-fashion casting, authentic fabric texture, subtle grain, restrained charcoal/sodium-orange palette, no cyberpunk neon cliché.\nQuality and safety constraints: no readable text, no logos, no watermark, no extra jacket, no unrelated accessories, no distorted hands, no duplicated limbs, no added layout labels or numbers. Keep the exact jacket design consistent even when worn.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/fashion-jacket/preview-3.png",
+        "alt": "Technical jacket on an invisible mannequin for Shopify",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the corresponding prompt direction; no third-party preview image is redistributed."
+      }
+    }
+  ],
+  "author": {
+    "name": "CommercePrompt Atlas Studio",
+    "url": null
+  },
+  "source": {
+    "type": "original",
+    "url": null,
+    "permission": "repository-authored",
+    "notes": "Original synthesis informed by broad visual research; prompt and generated previews created for this repository. See docs/VISUAL_RESEARCH.md.",
+    "references": [
+      {
+        "type": "visual-research",
+        "url": "docs/VISUAL_RESEARCH.md"
+      }
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "platformPolicy": {
+    "status": "design-guidance-only",
+    "note": "Platform names describe intended art direction only. Verify the current official rules for the product category before publishing.",
+    "reviewedAt": null,
+    "sources": []
+  },
+  "review": {
+    "status": "approved",
+    "rights": "reviewed",
+    "promptQuality": "reviewed",
+    "previewQuality": "reviewed",
+    "reviewedAt": "2026-07-20"
+  },
+  "featured": true,
+  "publishedAt": "2026-07-20",
+  "translations": {
+    "zh": {
+      "title": "社交平台原生机能夹克三场景",
+      "description": "为同一件机能夹克生成 TikTok 街拍、建筑硬光细节和 Shopify 幽灵模特主图。"
+    }
+  }
+}

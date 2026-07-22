@@ -1,13 +1,16 @@
-## Summary
+## What changed
 
-Describe the prompt records, translations, scripts, or documentation changed.
+<!-- Describe the prompt, taxonomy, generator, workflow, translation, or documentation change. -->
 
-## Checklist
+## Content review
 
-- [ ] `npm run validate` passes.
-- [ ] `npm run generate` has been run.
-- [ ] Generated `README*.md` files are included.
-- [ ] Every prompt has at least two preview images.
-- [ ] Author, source, and license metadata are complete.
-- [ ] I have the right to contribute the included material under CC BY 4.0.
+- [ ] Every prompt variant generates one standalone image.
+- [ ] Product identity and product-edit invariants are explicit.
+- [ ] Generated examples match the recorded prompt and reference inputs.
+- [ ] Before/After assets, when present, are lawful and honestly presented.
+- [ ] Author, source, permission basis, provenance, and license are documented.
+- [ ] Pinterest links are research references, not copied preview assets.
+- [ ] No unsupported product, medical, safety, environmental, or performance claims appear.
+- [ ] Platform names are design guidance unless current official sources are recorded.
+- [ ] `npm run check` succeeds.
 

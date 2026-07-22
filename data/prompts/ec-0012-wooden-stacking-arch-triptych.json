@@ -1,0 +1,142 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0012",
+  "slug": "wooden-stacking-arch-triptych",
+  "model": "gpt-image-2",
+  "title": "Wooden Stacking Arch Triptych",
+  "description": "Frames one seven-piece wooden arch through handmade provenance, marketplace clarity, and a calm playroom story.",
+  "prompt": "Use case: ads-marketing\nAsset type: three premium children's-toy e-commerce previews in one seamless horizontal contact sheet\nPrimary request: Create a joyful but refined 3-panel horizontal contact sheet for the exact same unbranded wooden stacking-arch toy, with distinct Etsy handmade, Amazon catalog, and Pinterest playroom-editorial treatments. Each panel is a complete standalone vertical 4:5 image, separated by narrow off-white gutters.\nProduct invariant: identical seven-piece nested wooden rainbow arch in every panel; smooth solid beech wood; muted mineral colors ordered largest to smallest as terracotta, ochre, sage, dusty blue, warm gray, blush and natural wood; softly rounded edges; no logo. Preserve seven-piece count, color order, curvature, thickness and finish.\nPanel 1 — ETSY HANDMADE STORY: fully assembled arch centered on raw oatmeal linen over a pale oak table, a few fine wood shavings and one small craft brush placed softly out of focus at the edge, diffused north-window light, tactile handcrafted authenticity, product completely readable.\nPanel 2 — AMAZON CATALOG: the same seven pieces separated into a neat descending row on pure #FFFFFF, all pieces fully visible and correctly ordered, crisp color accuracy, soft contact shadows, generous padding, no props.\nPanel 3 — PINTEREST PLAYROOM EDITORIAL: same arch reassembled as a sculptural bridge in a serene child-safe playroom, one natural-wood toy car beneath it and two simple blocks nearby, limewashed warm wall, woven wool rug, long gentle morning shadows, sophisticated calm family lifestyle without showing a child.\nStyle/medium: ultra-photorealistic premium toy and interiors photography, safe rounded wood, visible beech grain, matte child-safe paint, gentle modern palette, editorial warmth without visual clutter.\nConstraints: exactly seven arch pieces, no readable text, no logos, no watermark, no extra rainbow toy, no child or hands, no sharp edges, no chipped paint, no impossible balancing, no panel labels or numbers. Keep the exact color order and toy geometry consistent across all panels.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "toys-and-kids",
+  "useCases": [
+    "branded-hero",
+    "main-image",
+    "lifestyle-scene"
+  ],
+  "styles": [
+    "bright-playful",
+    "handmade-tactile",
+    "quiet-living"
+  ],
+  "backgrounds": [
+    "natural-material",
+    "pure-white",
+    "home-interior"
+  ],
+  "platforms": [
+    "etsy",
+    "amazon",
+    "pinterest"
+  ],
+  "aspectRatios": [
+    "4:5"
+  ],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {
+    "referenceImages": 0,
+    "instructions": "No reference image is required. This record defines a fictional, unbranded product; use product-edit mode for real inventory."
+  },
+  "productInvariants": [
+    "identical seven-piece nested wooden rainbow arch in this output; smooth solid beech wood; muted mineral colors ordered largest to smallest as terracotta, ochre, sage, dusty blue, warm gray, blush and natural wood; softly rounded edges; no logo. Preserve seven-piece count, color order, curvature, thickness and finish."
+  ],
+  "negativePrompt": "exactly seven arch pieces, no readable text, no logos, no watermark, no extra rainbow toy, no child or hands, no sharp edges, no chipped paint, no impossible balancing, no added layout labels or numbers. Keep the exact color order and toy geometry consistent in this output.",
+  "variants": [
+    {
+      "id": "variant-1",
+      "title": "ETSY HANDMADE STORY",
+      "useCase": "branded-hero",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "etsy"
+      ],
+      "background": "natural-material",
+      "aspectRatio": "4:5",
+      "prompt": "Create one standalone 4:5 e-commerce image, not a collage, contact sheet, split screen, or multi-panel layout.\nProduct specification and invariants: identical seven-piece nested wooden rainbow arch in this output; smooth solid beech wood; muted mineral colors ordered largest to smallest as terracotta, ochre, sage, dusty blue, warm gray, blush and natural wood; softly rounded edges; no logo. Preserve seven-piece count, color order, curvature, thickness and finish.\nArt direction: fully assembled arch centered on raw oatmeal linen over a pale oak table, a few fine wood shavings and one small craft brush placed softly out of focus at the edge, diffused north-window light, tactile handcrafted authenticity, product completely readable.\nPhotography and rendering: ultra-photorealistic premium toy and interiors photography, safe rounded wood, visible beech grain, matte child-safe paint, gentle modern palette, editorial warmth without visual clutter.\nQuality and safety constraints: exactly seven arch pieces, no readable text, no logos, no watermark, no extra rainbow toy, no child or hands, no sharp edges, no chipped paint, no impossible balancing, no added layout labels or numbers. Keep the exact color order and toy geometry consistent in this output.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/toys-wooden-arch/preview-1.png",
+        "alt": "Seven-piece wooden stacking arch in a handmade studio story",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the corresponding prompt direction; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "variant-2",
+      "title": "AMAZON CATALOG",
+      "useCase": "main-image",
+      "assetPurpose": "main-image",
+      "platforms": [
+        "amazon"
+      ],
+      "background": "pure-white",
+      "aspectRatio": "4:5",
+      "prompt": "Create one standalone 4:5 e-commerce image, not a collage, contact sheet, split screen, or multi-panel layout.\nProduct specification and invariants: identical seven-piece nested wooden rainbow arch in this output; smooth solid beech wood; muted mineral colors ordered largest to smallest as terracotta, ochre, sage, dusty blue, warm gray, blush and natural wood; softly rounded edges; no logo. Preserve seven-piece count, color order, curvature, thickness and finish.\nArt direction: the same seven pieces separated into a neat descending row on pure #FFFFFF, all pieces fully visible and correctly ordered, crisp color accuracy, soft contact shadows, generous padding, no props.\nPhotography and rendering: ultra-photorealistic premium toy and interiors photography, safe rounded wood, visible beech grain, matte child-safe paint, gentle modern palette, editorial warmth without visual clutter.\nQuality and safety constraints: exactly seven arch pieces, no readable text, no logos, no watermark, no extra rainbow toy, no child or hands, no sharp edges, no chipped paint, no impossible balancing, no added layout labels or numbers. Keep the exact color order and toy geometry consistent in this output.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/toys-wooden-arch/preview-2.png",
+        "alt": "Seven wooden arch pieces separated on white",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the corresponding prompt direction; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "variant-3",
+      "title": "PINTEREST PLAYROOM EDITORIAL",
+      "useCase": "lifestyle-scene",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "pinterest"
+      ],
+      "background": "home-interior",
+      "aspectRatio": "4:5",
+      "prompt": "Create one standalone 4:5 e-commerce image, not a collage, contact sheet, split screen, or multi-panel layout.\nProduct specification and invariants: identical seven-piece nested wooden rainbow arch in this output; smooth solid beech wood; muted mineral colors ordered largest to smallest as terracotta, ochre, sage, dusty blue, warm gray, blush and natural wood; softly rounded edges; no logo. Preserve seven-piece count, color order, curvature, thickness and finish.\nArt direction: same arch reassembled as a sculptural bridge in a serene child-safe playroom, one natural-wood toy car beneath it and two simple blocks nearby, limewashed warm wall, woven wool rug, long gentle morning shadows, sophisticated calm family lifestyle without showing a child.\nPhotography and rendering: ultra-photorealistic premium toy and interiors photography, safe rounded wood, visible beech grain, matte child-safe paint, gentle modern palette, editorial warmth without visual clutter.\nQuality and safety constraints: exactly seven arch pieces, no readable text, no logos, no watermark, no extra rainbow toy, no child or hands, no sharp edges, no chipped paint, no impossible balancing, no added layout labels or numbers. Keep the exact color order and toy geometry consistent in this output.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/toys-wooden-arch/preview-3.png",
+        "alt": "Wooden stacking arch bridge in a calm playroom",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the corresponding prompt direction; no third-party preview image is redistributed."
+      }
+    }
+  ],
+  "author": {
+    "name": "CommercePrompt Atlas Studio",
+    "url": null
+  },
+  "source": {
+    "type": "original",
+    "url": null,
+    "permission": "repository-authored",
+    "notes": "Original synthesis informed by broad visual research; prompt and generated previews created for this repository. See docs/VISUAL_RESEARCH.md.",
+    "references": [
+      {
+        "type": "visual-research",
+        "url": "docs/VISUAL_RESEARCH.md"
+      }
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "platformPolicy": {
+    "status": "design-guidance-only",
+    "note": "Platform names describe intended art direction only. Verify the current official rules for the product category before publishing.",
+    "reviewedAt": null,
+    "sources": []
+  },
+  "review": {
+    "status": "approved",
+    "rights": "reviewed",
+    "promptQuality": "reviewed",
+    "previewQuality": "reviewed",
+    "reviewedAt": "2026-07-21"
+  },
+  "featured": false,
+  "publishedAt": "2026-07-21",
+  "translations": {
+    "zh": {
+      "title": "木质叠叠拱门玩具三场景",
+      "description": "用手作溯源、商城清晰度和安静游戏室叙事呈现同一套七片木质拱门。"
+    }
+  }
+}

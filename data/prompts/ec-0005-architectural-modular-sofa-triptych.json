@@ -1,0 +1,140 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0005",
+  "slug": "architectural-modular-sofa-triptych",
+  "model": "gpt-image-2",
+  "title": "Architectural Modular Sofa Triptych",
+  "description": "Presents one modular sofa through a conversion-focused room, a Pinterest architectural editorial, and an intimate material story.",
+  "prompt": "Use case: product-mockup\nAsset type: three premium furniture-commerce previews in one seamless horizontal contact sheet\nPrimary request: Create an architecturally sophisticated 3-panel horizontal contact sheet for the exact same sculptural modular sofa, with distinct Wayfair listing, Pinterest editorial, and high-end Shopify lookbook treatments. Each panel is a complete standalone vertical 5:6 interior photograph, separated by narrow warm-gray gutters.\nProduct invariant: identical low modular sofa in every panel, warm oatmeal bouclé upholstery, softly curved continuous back, three visible seating modules including one rounded chaise on the right, recessed smoked-oak plinth, and subtle piping. Preserve silhouette, module count, chaise side, upholstery tone, seams, proportions, and base.\nPanel 1 — WAYFAIR CONVERSION ROOM: bright realistic urban living room, straight-on eye-level 35mm camera, pale oak floor, limewashed warm-white walls, one wool rug and one compact stone coffee table, product fully visible with clear scale and clean edges, balanced daylight, inviting but uncluttered catalog realism.\nPanel 2 — PINTEREST ARCHITECTURAL EDITORIAL: sunken conversation space inside a quiet brutalist coastal house, raked late-afternoon sunlight passes through vertical concrete fins, sculptural shadow bands across floor but not obscuring sofa, distant sea horizon, 24mm wide lens, restrained collectible-design mood.\nPanel 3 — SHOPIFY MATERIAL STORY: intimate oblique close view from sofa-arm height, bouclé fibers and curved seam in tactile focus, background falls into a warm walnut-and-travertine interior with a softly glowing paper lantern, 50mm lens, shallow depth, amber evening calm, premium craftsmanship storytelling.\nStyle/medium: ultra-photorealistic interior and furniture photography, believable architecture, accurate perspective and floor contact, real woven fibers, nuanced neutral color grade, natural shadow detail; no sterile CGI showroom.\nConstraints: no readable text, no logos, no watermark, no people, no extra sofa, no oversized plants, no clutter, no implausible floating furniture, no panel labels or numbers. Keep the identical sofa design in every panel.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "home-and-furniture",
+  "useCases": [
+    "catalog-image",
+    "branded-hero",
+    "lifestyle-scene"
+  ],
+  "styles": [
+    "architectural",
+    "quiet-living",
+    "editorial"
+  ],
+  "backgrounds": [
+    "home-interior"
+  ],
+  "platforms": [
+    "wayfair",
+    "pinterest",
+    "shopify"
+  ],
+  "aspectRatios": [
+    "5:6"
+  ],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {
+    "referenceImages": 0,
+    "instructions": "No reference image is required. This record defines a fictional, unbranded product; use product-edit mode for real inventory."
+  },
+  "productInvariants": [
+    "identical low modular sofa in this output, warm oatmeal bouclé upholstery, softly curved continuous back, three visible seating modules including one rounded chaise on the right, recessed smoked-oak plinth, and subtle piping. Preserve silhouette, module count, chaise side, upholstery tone, seams, proportions, and base."
+  ],
+  "negativePrompt": "no readable text, no logos, no watermark, no people, no extra sofa, no oversized plants, no clutter, no implausible floating furniture, no added layout labels or numbers. Keep the identical sofa design in this output.",
+  "variants": [
+    {
+      "id": "variant-1",
+      "title": "WAYFAIR CONVERSION ROOM",
+      "useCase": "catalog-image",
+      "assetPurpose": "catalog-image",
+      "platforms": [
+        "wayfair"
+      ],
+      "background": "home-interior",
+      "aspectRatio": "5:6",
+      "prompt": "Create one standalone 5:6 e-commerce image, not a collage, contact sheet, split screen, or multi-panel layout.\nProduct specification and invariants: identical low modular sofa in this output, warm oatmeal bouclé upholstery, softly curved continuous back, three visible seating modules including one rounded chaise on the right, recessed smoked-oak plinth, and subtle piping. Preserve silhouette, module count, chaise side, upholstery tone, seams, proportions, and base.\nArt direction: bright realistic urban living room, straight-on eye-level 35mm camera, pale oak floor, limewashed warm-white walls, one wool rug and one compact stone coffee table, product fully visible with clear scale and clean edges, balanced daylight, inviting but uncluttered catalog realism.\nPhotography and rendering: ultra-photorealistic interior and furniture photography, believable architecture, accurate perspective and floor contact, real woven fibers, nuanced neutral color grade, natural shadow detail; no sterile CGI showroom.\nQuality and safety constraints: no readable text, no logos, no watermark, no people, no extra sofa, no oversized plants, no clutter, no implausible floating furniture, no added layout labels or numbers. Keep the identical sofa design in this output.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/furniture-sofa/preview-1.png",
+        "alt": "Modular bouclé sofa in a conversion-focused urban room",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the corresponding prompt direction; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "variant-2",
+      "title": "PINTEREST ARCHITECTURAL EDITORIAL",
+      "useCase": "branded-hero",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "pinterest"
+      ],
+      "background": "home-interior",
+      "aspectRatio": "5:6",
+      "prompt": "Create one standalone 5:6 e-commerce image, not a collage, contact sheet, split screen, or multi-panel layout.\nProduct specification and invariants: identical low modular sofa in this output, warm oatmeal bouclé upholstery, softly curved continuous back, three visible seating modules including one rounded chaise on the right, recessed smoked-oak plinth, and subtle piping. Preserve silhouette, module count, chaise side, upholstery tone, seams, proportions, and base.\nArt direction: sunken conversation space inside a quiet brutalist coastal house, raked late-afternoon sunlight passes through vertical concrete fins, sculptural shadow bands across floor but not obscuring sofa, distant sea horizon, 24mm wide lens, restrained collectible-design mood.\nPhotography and rendering: ultra-photorealistic interior and furniture photography, believable architecture, accurate perspective and floor contact, real woven fibers, nuanced neutral color grade, natural shadow detail; no sterile CGI showroom.\nQuality and safety constraints: no readable text, no logos, no watermark, no people, no extra sofa, no oversized plants, no clutter, no implausible floating furniture, no added layout labels or numbers. Keep the identical sofa design in this output.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/furniture-sofa/preview-2.png",
+        "alt": "Modular sofa in a brutalist coastal editorial interior",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the corresponding prompt direction; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "variant-3",
+      "title": "SHOPIFY MATERIAL STORY",
+      "useCase": "lifestyle-scene",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "shopify"
+      ],
+      "background": "home-interior",
+      "aspectRatio": "5:6",
+      "prompt": "Create one standalone 5:6 e-commerce image, not a collage, contact sheet, split screen, or multi-panel layout.\nProduct specification and invariants: identical low modular sofa in this output, warm oatmeal bouclé upholstery, softly curved continuous back, three visible seating modules including one rounded chaise on the right, recessed smoked-oak plinth, and subtle piping. Preserve silhouette, module count, chaise side, upholstery tone, seams, proportions, and base.\nArt direction: intimate oblique close view from sofa-arm height, bouclé fibers and curved seam in tactile focus, background falls into a warm walnut-and-travertine interior with a softly glowing paper lantern, 50mm lens, shallow depth, amber evening calm, premium craftsmanship storytelling.\nPhotography and rendering: ultra-photorealistic interior and furniture photography, believable architecture, accurate perspective and floor contact, real woven fibers, nuanced neutral color grade, natural shadow detail; no sterile CGI showroom.\nQuality and safety constraints: no readable text, no logos, no watermark, no people, no extra sofa, no oversized plants, no clutter, no implausible floating furniture, no added layout labels or numbers. Keep the identical sofa design in this output.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/furniture-sofa/preview-3.png",
+        "alt": "Intimate bouclé material story in an amber interior",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the corresponding prompt direction; no third-party preview image is redistributed."
+      }
+    }
+  ],
+  "author": {
+    "name": "CommercePrompt Atlas Studio",
+    "url": null
+  },
+  "source": {
+    "type": "original",
+    "url": null,
+    "permission": "repository-authored",
+    "notes": "Original synthesis informed by broad visual research; prompt and generated previews created for this repository. See docs/VISUAL_RESEARCH.md.",
+    "references": [
+      {
+        "type": "visual-research",
+        "url": "docs/VISUAL_RESEARCH.md"
+      }
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "platformPolicy": {
+    "status": "design-guidance-only",
+    "note": "Platform names describe intended art direction only. Verify the current official rules for the product category before publishing.",
+    "reviewedAt": null,
+    "sources": []
+  },
+  "review": {
+    "status": "approved",
+    "rights": "reviewed",
+    "promptQuality": "reviewed",
+    "previewQuality": "reviewed",
+    "reviewedAt": "2026-07-20"
+  },
+  "featured": false,
+  "publishedAt": "2026-07-20",
+  "translations": {
+    "zh": {
+      "title": "建筑感模块沙发三场景",
+      "description": "用转化型空间、Pinterest 建筑编辑图和材质特写呈现同一张模块沙发。"
+    }
+  }
+}

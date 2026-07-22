@@ -1,0 +1,140 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0006",
+  "slug": "museum-grade-emerald-ring-triptych",
+  "model": "gpt-image-2",
+  "title": "Museum-Grade Emerald Ring Triptych",
+  "description": "Creates a ceremonial luxury launch, an atelier craftsmanship macro, and a water-caustic editorial for one emerald ring.",
+  "prompt": "Use case: ads-marketing\nAsset type: three high-jewelry e-commerce campaign previews in one seamless horizontal contact sheet\nPrimary request: Create a museum-grade 3-panel horizontal contact sheet for the exact same unbranded sculptural emerald ring, with distinct Tmall Luxury launch, Shopify atelier story, and editorial social-commerce art directions. Each panel is a complete standalone square macro image, separated by hairline black gutters.\nJewelry invariant: identical 18k yellow-gold ring in every panel; one elongated octagonal emerald-cut deep green center stone; four minimal talon prongs; knife-edge gold band; no halo and no side stones. Preserve stone cut, deep forest-green color, prong count and placement, band profile, and scale.\nPanel 1 — TMALL LUXURY LAUNCH: ring stands upright inside a narrow beam of warm museum light on black lacquer, a thin circular reflection frames the stone, deep black negative space, centered ceremonial composition, emerald facets glowing from within, precise high-contrast elegance.\nPanel 2 — SHOPIFY ATELIER DETAIL: extreme 100mm macro side view resting on folded raw ivory silk, focus across prong craftsmanship and the flawless mirror-polished knife-edge band, soft overcast window light, quiet heirloom authenticity, shallow depth of field.\nPanel 3 — EDITORIAL WATER CAUSTIC: ring lying on pale translucent green onyx beneath a shallow layer of clear water, sunlight creates fine caustic lines and spectral fire across the emerald and gold, airy crop with asymmetric negative space, fresh contemporary summer campaign, no splash cliché.\nStyle/medium: ultra-photorealistic high-jewelry macro photography, physically accurate gemstone refraction, sharp facet junctions, controlled sparkle, rich black point, realistic gold reflections, sophisticated retouching without CGI smoothness.\nConstraints: pristine clean jewelry surfaces; no smudges or fingerprints; no readable text, logo, watermark, hands, ring box, extra jewelry, pearls, flowers, added stones, floating impossible setting, panel labels, or numbers. The exact ring design must remain consistent.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "jewelry",
+  "useCases": [
+    "branded-hero",
+    "detail-macro"
+  ],
+  "styles": [
+    "luxury-premium",
+    "dark-moody",
+    "editorial"
+  ],
+  "backgrounds": [
+    "dark-studio",
+    "natural-material"
+  ],
+  "platforms": [
+    "tmall-luxury",
+    "shopify",
+    "instagram-shop"
+  ],
+  "aspectRatios": [
+    "1:1"
+  ],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {
+    "referenceImages": 0,
+    "instructions": "No reference image is required. This record defines a fictional, unbranded product; use product-edit mode for real inventory."
+  },
+  "productInvariants": [
+    "Keep the product design, proportions, materials, colors, and identity consistent."
+  ],
+  "negativePrompt": "pristine clean jewelry surfaces; no smudges or fingerprints; no readable text, logo, watermark, hands, ring box, extra jewelry, pearls, flowers, added stones, floating impossible setting, added layout labels, or numbers. The exact ring design must remain consistent.",
+  "variants": [
+    {
+      "id": "variant-1",
+      "title": "TMALL LUXURY LAUNCH",
+      "useCase": "branded-hero",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "tmall-luxury"
+      ],
+      "background": "dark-studio",
+      "aspectRatio": "1:1",
+      "prompt": "Create one standalone 1:1 e-commerce image, not a collage, contact sheet, split screen, or multi-panel layout.\nProduct specification and invariants: Keep the product design, proportions, materials, colors, and identity consistent.\nArt direction: ring stands upright inside a narrow beam of warm museum light on black lacquer, a thin circular reflection frames the stone, deep black negative space, centered ceremonial composition, emerald facets glowing from within, precise high-contrast elegance.\nPhotography and rendering: ultra-photorealistic high-jewelry macro photography, physically accurate gemstone refraction, sharp facet junctions, controlled sparkle, rich black point, realistic gold reflections, sophisticated retouching without CGI smoothness.\nQuality and safety constraints: pristine clean jewelry surfaces; no smudges or fingerprints; no readable text, logo, watermark, hands, ring box, extra jewelry, pearls, flowers, added stones, floating impossible setting, added layout labels, or numbers. The exact ring design must remain consistent.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/jewelry-ring/preview-1.png",
+        "alt": "Emerald ring in ceremonial museum light on black lacquer",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the corresponding prompt direction; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "variant-2",
+      "title": "SHOPIFY ATELIER DETAIL",
+      "useCase": "detail-macro",
+      "assetPurpose": "secondary-image",
+      "platforms": [
+        "shopify"
+      ],
+      "background": "natural-material",
+      "aspectRatio": "1:1",
+      "prompt": "Create one standalone 1:1 e-commerce image, not a collage, contact sheet, split screen, or multi-panel layout.\nProduct specification and invariants: Keep the product design, proportions, materials, colors, and identity consistent.\nArt direction: extreme 100mm macro side view resting on folded raw ivory silk, focus across prong craftsmanship and the flawless mirror-polished knife-edge band, soft overcast window light, quiet heirloom authenticity, shallow depth of field.\nPhotography and rendering: ultra-photorealistic high-jewelry macro photography, physically accurate gemstone refraction, sharp facet junctions, controlled sparkle, rich black point, realistic gold reflections, sophisticated retouching without CGI smoothness.\nQuality and safety constraints: pristine clean jewelry surfaces; no smudges or fingerprints; no readable text, logo, watermark, hands, ring box, extra jewelry, pearls, flowers, added stones, floating impossible setting, added layout labels, or numbers. The exact ring design must remain consistent.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/jewelry-ring/preview-2.png",
+        "alt": "Atelier macro of emerald prongs and gold band on silk",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the corresponding prompt direction; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "variant-3",
+      "title": "EDITORIAL WATER CAUSTIC",
+      "useCase": "branded-hero",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "instagram-shop"
+      ],
+      "background": "natural-material",
+      "aspectRatio": "1:1",
+      "prompt": "Create one standalone 1:1 e-commerce image, not a collage, contact sheet, split screen, or multi-panel layout.\nProduct specification and invariants: Keep the product design, proportions, materials, colors, and identity consistent.\nArt direction: ring lying on pale translucent green onyx beneath a shallow layer of clear water, sunlight creates fine caustic lines and spectral fire across the emerald and gold, airy crop with asymmetric negative space, fresh contemporary summer campaign, no splash cliché.\nPhotography and rendering: ultra-photorealistic high-jewelry macro photography, physically accurate gemstone refraction, sharp facet junctions, controlled sparkle, rich black point, realistic gold reflections, sophisticated retouching without CGI smoothness.\nQuality and safety constraints: pristine clean jewelry surfaces; no smudges or fingerprints; no readable text, logo, watermark, hands, ring box, extra jewelry, pearls, flowers, added stones, floating impossible setting, added layout labels, or numbers. The exact ring design must remain consistent.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/jewelry-ring/preview-3.png",
+        "alt": "Emerald ring under water caustics on green onyx",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the corresponding prompt direction; no third-party preview image is redistributed."
+      }
+    }
+  ],
+  "author": {
+    "name": "CommercePrompt Atlas Studio",
+    "url": null
+  },
+  "source": {
+    "type": "original",
+    "url": null,
+    "permission": "repository-authored",
+    "notes": "Original synthesis informed by broad visual research; prompt and generated previews created for this repository. See docs/VISUAL_RESEARCH.md.",
+    "references": [
+      {
+        "type": "visual-research",
+        "url": "docs/VISUAL_RESEARCH.md"
+      }
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "platformPolicy": {
+    "status": "design-guidance-only",
+    "note": "Platform names describe intended art direction only. Verify the current official rules for the product category before publishing.",
+    "reviewedAt": null,
+    "sources": []
+  },
+  "review": {
+    "status": "approved",
+    "rights": "reviewed",
+    "promptQuality": "reviewed",
+    "previewQuality": "reviewed",
+    "reviewedAt": "2026-07-20"
+  },
+  "featured": false,
+  "publishedAt": "2026-07-20",
+  "translations": {
+    "zh": {
+      "title": "博物馆级祖母绿戒指三场景",
+      "description": "为同一枚祖母绿戒指生成典礼式奢品主图、工艺微距和水光编辑图。"
+    }
+  }
+}

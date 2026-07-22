@@ -1,0 +1,142 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0011",
+  "slug": "cordless-car-vacuum-triptych",
+  "model": "gpt-image-2",
+  "title": "Cordless Car Vacuum Triptych",
+  "description": "Combines catalog accuracy, practical in-car use, and a restrained technology hero for one handheld vacuum.",
+  "prompt": "Use case: product-mockup\nAsset type: three automotive-accessory e-commerce previews in one seamless horizontal contact sheet\nPrimary request: Create a precision 3-panel horizontal contact sheet for the exact same unbranded cordless handheld car vacuum, with distinct Amazon catalog, eBay practical-use, and Tmall technology-hero treatments. Each panel is a complete standalone vertical 4:5 image, separated by narrow graphite gutters.\nProduct invariant: identical slim cylindrical vacuum in every panel; matte gunmetal aluminum body, tapered black nozzle, one narrow transparent dust chamber near the front, single burnt-orange oval power button, fine perforated rear exhaust ring, no logo. Preserve proportions, chamber position, button and nozzle geometry.\nPanel 1 — AMAZON CATALOG: vacuum alone lying at a slight diagonal on pure #FFFFFF, fully visible with short brush attachment placed neatly beside it, soft grounding shadows, crisp honest product detail, no packaging and no extra accessories.\nPanel 2 — EBAY PRACTICAL USE: same vacuum held naturally by one adult hand cleaning crumbs from the seam of a charcoal fabric car seat, close documentary crop, believable suction path and debris amount, bright diffused garage daylight, product remains sharp and unobstructed.\nPanel 3 — TMALL TECHNOLOGY HERO: same vacuum floating horizontally above a dark graphite platform, controlled orange airflow ribbons curve into the nozzle and fade at the dust chamber, precise cool rim light, microscopic metal texture, dramatic black negative space, premium engineering mood without text.\nStyle/medium: ultra-photorealistic consumer-tech advertising, physically plausible metal, transparent plastic, fabric and hand anatomy, restrained gunmetal/orange palette, premium but functional.\nConstraints: no readable text, no logos, no watermark, no extra vacuum, no duplicated hand, no visible car brand, no impossible exploded parts, no excessive dirt, no panel labels or numbers. Keep the exact vacuum design consistent across all panels.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "automotive-accessories",
+  "useCases": [
+    "main-image",
+    "branded-hero",
+    "feature-callout"
+  ],
+  "styles": [
+    "technical",
+    "minimalist-clean",
+    "cinematic"
+  ],
+  "backgrounds": [
+    "pure-white",
+    "lifestyle-location",
+    "dark-studio"
+  ],
+  "platforms": [
+    "amazon",
+    "ebay",
+    "tmall"
+  ],
+  "aspectRatios": [
+    "4:5"
+  ],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {
+    "referenceImages": 0,
+    "instructions": "No reference image is required. This record defines a fictional, unbranded product; use product-edit mode for real inventory."
+  },
+  "productInvariants": [
+    "identical slim cylindrical vacuum in this output; matte gunmetal aluminum body, tapered black nozzle, one narrow transparent dust chamber near the front, single burnt-orange oval power button, fine perforated rear exhaust ring, no logo. Preserve proportions, chamber position, button and nozzle geometry."
+  ],
+  "negativePrompt": "no readable text, no logos, no watermark, no extra vacuum, no duplicated hand, no visible car brand, no impossible exploded parts, no excessive dirt, no added layout labels or numbers. Keep the exact vacuum design consistent in this output.",
+  "variants": [
+    {
+      "id": "variant-1",
+      "title": "AMAZON CATALOG",
+      "useCase": "main-image",
+      "assetPurpose": "main-image",
+      "platforms": [
+        "amazon"
+      ],
+      "background": "pure-white",
+      "aspectRatio": "4:5",
+      "prompt": "Create one standalone 4:5 e-commerce image, not a collage, contact sheet, split screen, or multi-panel layout.\nProduct specification and invariants: identical slim cylindrical vacuum in this output; matte gunmetal aluminum body, tapered black nozzle, one narrow transparent dust chamber near the front, single burnt-orange oval power button, fine perforated rear exhaust ring, no logo. Preserve proportions, chamber position, button and nozzle geometry.\nArt direction: vacuum alone lying at a slight diagonal on pure #FFFFFF, fully visible with short brush attachment placed neatly beside it, soft grounding shadows, crisp honest product detail, no packaging and no extra accessories.\nPhotography and rendering: ultra-photorealistic consumer-tech advertising, physically plausible metal, transparent plastic, fabric and hand anatomy, restrained gunmetal/orange palette, premium but functional.\nQuality and safety constraints: no readable text, no logos, no watermark, no extra vacuum, no duplicated hand, no visible car brand, no impossible exploded parts, no excessive dirt, no added layout labels or numbers. Keep the exact vacuum design consistent in this output.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/automotive-vacuum/preview-1.png",
+        "alt": "Cordless car vacuum and brush attachment on white",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the corresponding prompt direction; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "variant-2",
+      "title": "EBAY PRACTICAL USE",
+      "useCase": "branded-hero",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "ebay"
+      ],
+      "background": "lifestyle-location",
+      "aspectRatio": "4:5",
+      "prompt": "Create one standalone 4:5 e-commerce image, not a collage, contact sheet, split screen, or multi-panel layout.\nProduct specification and invariants: identical slim cylindrical vacuum in this output; matte gunmetal aluminum body, tapered black nozzle, one narrow transparent dust chamber near the front, single burnt-orange oval power button, fine perforated rear exhaust ring, no logo. Preserve proportions, chamber position, button and nozzle geometry.\nArt direction: same vacuum held naturally by one adult hand cleaning crumbs from the seam of a charcoal fabric car seat, close documentary crop, believable suction path and debris amount, bright diffused garage daylight, product remains sharp and unobstructed.\nPhotography and rendering: ultra-photorealistic consumer-tech advertising, physically plausible metal, transparent plastic, fabric and hand anatomy, restrained gunmetal/orange palette, premium but functional.\nQuality and safety constraints: no readable text, no logos, no watermark, no extra vacuum, no duplicated hand, no visible car brand, no impossible exploded parts, no excessive dirt, no added layout labels or numbers. Keep the exact vacuum design consistent in this output.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/automotive-vacuum/preview-2.png",
+        "alt": "Handheld vacuum cleaning a charcoal car seat",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the corresponding prompt direction; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "variant-3",
+      "title": "TMALL TECHNOLOGY HERO",
+      "useCase": "feature-callout",
+      "assetPurpose": "secondary-image",
+      "platforms": [
+        "tmall"
+      ],
+      "background": "dark-studio",
+      "aspectRatio": "4:5",
+      "prompt": "Create one standalone 4:5 e-commerce image, not a collage, contact sheet, split screen, or multi-panel layout.\nProduct specification and invariants: identical slim cylindrical vacuum in this output; matte gunmetal aluminum body, tapered black nozzle, one narrow transparent dust chamber near the front, single burnt-orange oval power button, fine perforated rear exhaust ring, no logo. Preserve proportions, chamber position, button and nozzle geometry.\nArt direction: same vacuum floating horizontally above a dark graphite platform, controlled orange airflow ribbons curve into the nozzle and fade at the dust chamber, precise cool rim light, microscopic metal texture, dramatic black negative space, premium engineering mood without text.\nPhotography and rendering: ultra-photorealistic consumer-tech advertising, physically plausible metal, transparent plastic, fabric and hand anatomy, restrained gunmetal/orange palette, premium but functional.\nQuality and safety constraints: no readable text, no logos, no watermark, no extra vacuum, no duplicated hand, no visible car brand, no impossible exploded parts, no excessive dirt, no added layout labels or numbers. Keep the exact vacuum design consistent in this output.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/automotive-vacuum/preview-3.png",
+        "alt": "Gunmetal car vacuum technology hero with orange airflow",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the corresponding prompt direction; no third-party preview image is redistributed."
+      }
+    }
+  ],
+  "author": {
+    "name": "CommercePrompt Atlas Studio",
+    "url": null
+  },
+  "source": {
+    "type": "original",
+    "url": null,
+    "permission": "repository-authored",
+    "notes": "Original synthesis informed by broad visual research; prompt and generated previews created for this repository. See docs/VISUAL_RESEARCH.md.",
+    "references": [
+      {
+        "type": "visual-research",
+        "url": "docs/VISUAL_RESEARCH.md"
+      }
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "platformPolicy": {
+    "status": "design-guidance-only",
+    "note": "Platform names describe intended art direction only. Verify the current official rules for the product category before publishing.",
+    "reviewedAt": null,
+    "sources": []
+  },
+  "review": {
+    "status": "approved",
+    "rights": "reviewed",
+    "promptQuality": "reviewed",
+    "previewQuality": "reviewed",
+    "reviewedAt": "2026-07-21"
+  },
+  "featured": false,
+  "publishedAt": "2026-07-21",
+  "translations": {
+    "zh": {
+      "title": "无线车载吸尘器三场景",
+      "description": "把精准白底商品图、真实车内使用和克制的科技主视觉组合为同一产品方案。"
+    }
+  }
+}

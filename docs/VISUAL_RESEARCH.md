@@ -4,6 +4,16 @@ This repository does not copy, redistribute, or train on third-party Pinterest i
 
 Pinterest does not expose a dependable public like count for every Pin. We therefore do not describe any individual reference as the "most liked." Research favors Pinterest topic pages and boards that show broad interest or substantial collections, plus official platform guidance where available.
 
+## Product-edit proof of workflow
+
+Record `ec-0019` uses the repository-generated image
+`assets/prompts/beauty-serum/preview-1.png` as its lawful Before reference. Its
+two After images were created by editing that exact local source with the two
+recorded standalone prompts. No Pinterest or third-party image was substituted
+for the generated output. Reviewers compared bottle shape, cap, label placement,
+glass, liquid color, and proportions and retained a human-QA warning because a
+generative edit cannot guarantee exact product identity.
+
 ## Research directions used for the first six prompts
 
 | Category | Research references | Extracted visual direction | Platform treatment in the prompt |

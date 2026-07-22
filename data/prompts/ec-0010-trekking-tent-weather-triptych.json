@@ -1,0 +1,140 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0010",
+  "slug": "trekking-tent-weather-triptych",
+  "model": "gpt-image-2",
+  "title": "Trekking Tent Weather Triptych",
+  "description": "Shows one two-person tent in a technical studio, believable rain performance, and a cinematic high-desert camp.",
+  "prompt": "Use case: ads-marketing\nAsset type: three premium outdoor-commerce previews in one seamless horizontal contact sheet\nPrimary request: Create an atmospheric 3-panel horizontal contact sheet for the exact same unbranded two-person trekking tent, with distinct outdoor-retail catalog, Amazon feature, and Pinterest adventure-editorial treatments. Each panel is a complete standalone vertical 4:5 image, separated by narrow dark-green gutters.\nProduct invariant: identical low-profile two-person dome tent in every panel; muted burnt-orange ripstop fly, dark forest-green bathtub floor, two crossed black aluminum poles, one arched side door, two small triangular vents, no logo. Preserve silhouette, pole geometry, door side, vent count, colors and scale.\nPanel 1 — OUTDOOR RETAIL CATALOG: fully pitched tent alone on a clean pale-stone studio sweep with a small realistic ground cloth, front three-quarter view, every edge visible, soft north light, technical clarity without text or callouts.\nPanel 2 — AMAZON WEATHER FEATURE: same tent pitched on a rain-dark alpine shelf during steady rain, close three-quarter view, visible water beading and taut fly, warm low interior glow demonstrating shelter, wet slate and restrained mist, no people and no dramatic storm danger.\nPanel 3 — PINTEREST ADVENTURE EDITORIAL: same tent on a quiet high-desert plateau at blue hour, distant layered sandstone mesas, one small camp lantern outside, Milky Way band beginning overhead, cinematic composition with the tent clearly readable, contemplative premium travel mood.\nStyle/medium: ultra-photorealistic outdoor product and adventure photography, physically plausible tent construction, ripstop texture, rain and ground contact, natural color science, sophisticated editorial restraint.\nConstraints: no readable text, no logos, no watermark, no extra tent, no people, no campfire, no impossible pole intersections, no floating guy lines, no severe weather, no panel labels or numbers. Keep the exact tent design consistent across all panels.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "outdoor-gear",
+  "useCases": [
+    "catalog-image",
+    "feature-callout",
+    "lifestyle-scene"
+  ],
+  "styles": [
+    "outdoor-performance",
+    "technical",
+    "cinematic"
+  ],
+  "backgrounds": [
+    "outdoor-location"
+  ],
+  "platforms": [
+    "outdoor-retail",
+    "amazon",
+    "pinterest"
+  ],
+  "aspectRatios": [
+    "4:5"
+  ],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {
+    "referenceImages": 0,
+    "instructions": "No reference image is required. This record defines a fictional, unbranded product; use product-edit mode for real inventory."
+  },
+  "productInvariants": [
+    "identical low-profile two-person dome tent in this output; muted burnt-orange ripstop fly, dark forest-green bathtub floor, two crossed black aluminum poles, one arched side door, two small triangular vents, no logo. Preserve silhouette, pole geometry, door side, vent count, colors and scale."
+  ],
+  "negativePrompt": "no readable text, no logos, no watermark, no extra tent, no people, no campfire, no impossible pole intersections, no floating guy lines, no severe weather, no added layout labels or numbers. Keep the exact tent design consistent in this output.",
+  "variants": [
+    {
+      "id": "variant-1",
+      "title": "OUTDOOR RETAIL CATALOG",
+      "useCase": "catalog-image",
+      "assetPurpose": "catalog-image",
+      "platforms": [
+        "outdoor-retail"
+      ],
+      "background": "outdoor-location",
+      "aspectRatio": "4:5",
+      "prompt": "Create one standalone 4:5 e-commerce image, not a collage, contact sheet, split screen, or multi-panel layout.\nProduct specification and invariants: identical low-profile two-person dome tent in this output; muted burnt-orange ripstop fly, dark forest-green bathtub floor, two crossed black aluminum poles, one arched side door, two small triangular vents, no logo. Preserve silhouette, pole geometry, door side, vent count, colors and scale.\nArt direction: fully pitched tent alone on a clean pale-stone studio sweep with a small realistic ground cloth, front three-quarter view, every edge visible, soft north light, technical clarity without text or callouts.\nPhotography and rendering: ultra-photorealistic outdoor product and adventure photography, physically plausible tent construction, ripstop texture, rain and ground contact, natural color science, sophisticated editorial restraint.\nQuality and safety constraints: no readable text, no logos, no watermark, no extra tent, no people, no campfire, no impossible pole intersections, no floating guy lines, no severe weather, no added layout labels or numbers. Keep the exact tent design consistent in this output.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/outdoor-tent/preview-1.png",
+        "alt": "Two-person trekking tent on a technical studio sweep",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the corresponding prompt direction; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "variant-2",
+      "title": "AMAZON WEATHER FEATURE",
+      "useCase": "feature-callout",
+      "assetPurpose": "secondary-image",
+      "platforms": [
+        "amazon"
+      ],
+      "background": "outdoor-location",
+      "aspectRatio": "4:5",
+      "prompt": "Create one standalone 4:5 e-commerce image, not a collage, contact sheet, split screen, or multi-panel layout.\nProduct specification and invariants: identical low-profile two-person dome tent in this output; muted burnt-orange ripstop fly, dark forest-green bathtub floor, two crossed black aluminum poles, one arched side door, two small triangular vents, no logo. Preserve silhouette, pole geometry, door side, vent count, colors and scale.\nArt direction: same tent pitched on a rain-dark alpine shelf during steady rain, close three-quarter view, visible water beading and taut fly, warm low interior glow demonstrating shelter, wet slate and restrained mist, no people and no dramatic storm danger.\nPhotography and rendering: ultra-photorealistic outdoor product and adventure photography, physically plausible tent construction, ripstop texture, rain and ground contact, natural color science, sophisticated editorial restraint.\nQuality and safety constraints: no readable text, no logos, no watermark, no extra tent, no people, no campfire, no impossible pole intersections, no floating guy lines, no severe weather, no added layout labels or numbers. Keep the exact tent design consistent in this output.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/outdoor-tent/preview-2.png",
+        "alt": "Trekking tent demonstrating rain performance",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the corresponding prompt direction; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "variant-3",
+      "title": "PINTEREST ADVENTURE EDITORIAL",
+      "useCase": "lifestyle-scene",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "pinterest"
+      ],
+      "background": "outdoor-location",
+      "aspectRatio": "4:5",
+      "prompt": "Create one standalone 4:5 e-commerce image, not a collage, contact sheet, split screen, or multi-panel layout.\nProduct specification and invariants: identical low-profile two-person dome tent in this output; muted burnt-orange ripstop fly, dark forest-green bathtub floor, two crossed black aluminum poles, one arched side door, two small triangular vents, no logo. Preserve silhouette, pole geometry, door side, vent count, colors and scale.\nArt direction: same tent on a quiet high-desert plateau at blue hour, distant layered sandstone mesas, one small camp lantern outside, Milky Way band beginning overhead, cinematic composition with the tent clearly readable, contemplative premium travel mood.\nPhotography and rendering: ultra-photorealistic outdoor product and adventure photography, physically plausible tent construction, ripstop texture, rain and ground contact, natural color science, sophisticated editorial restraint.\nQuality and safety constraints: no readable text, no logos, no watermark, no extra tent, no people, no campfire, no impossible pole intersections, no floating guy lines, no severe weather, no added layout labels or numbers. Keep the exact tent design consistent in this output.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/outdoor-tent/preview-3.png",
+        "alt": "Trekking tent beneath the Milky Way in high desert",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the corresponding prompt direction; no third-party preview image is redistributed."
+      }
+    }
+  ],
+  "author": {
+    "name": "CommercePrompt Atlas Studio",
+    "url": null
+  },
+  "source": {
+    "type": "original",
+    "url": null,
+    "permission": "repository-authored",
+    "notes": "Original synthesis informed by broad visual research; prompt and generated previews created for this repository. See docs/VISUAL_RESEARCH.md.",
+    "references": [
+      {
+        "type": "visual-research",
+        "url": "docs/VISUAL_RESEARCH.md"
+      }
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "platformPolicy": {
+    "status": "design-guidance-only",
+    "note": "Platform names describe intended art direction only. Verify the current official rules for the product category before publishing.",
+    "reviewedAt": null,
+    "sources": []
+  },
+  "review": {
+    "status": "approved",
+    "rights": "reviewed",
+    "promptQuality": "reviewed",
+    "previewQuality": "reviewed",
+    "reviewedAt": "2026-07-21"
+  },
+  "featured": true,
+  "publishedAt": "2026-07-21",
+  "translations": {
+    "zh": {
+      "title": "徒步帐篷天气表现三场景",
+      "description": "在技术棚拍、可信雨景和高地荒漠露营中呈现同一顶双人帐篷。"
+    }
+  }
+}

@@ -1,83 +1,68 @@
 # Local Development
 
-The repository uses Node.js standard-library scripts and has no runtime
-dependencies, database, CMS, or web application.
+This phase is GitHub-first. No website, database, login system, hosting account,
+or image-generation API is required.
 
 ## Requirements
 
-- Git
-- Node.js 20 or newer
-- npm, included with Node.js
+- Git;
+- Node.js 20 or newer;
+- npm bundled with Node.js.
 
-## Install
-
-No dependency installation is required for the current scripts. Running
-`npm install` is optional and only creates a lockfile.
-
-## Validate data
+## Install and verify
 
 ```bash
-npm run validate
-```
-
-Validation checks required fields, IDs, slugs, preview counts, local asset
-paths, source types, status values, and duplicate records.
-
-## Generate all README editions
-
-```bash
+npm ci
 npm run generate
-```
-
-This writes:
-
-- `README.md`
-- `README_zh.md`
-- `README_zh-TW.md`
-- 13 additional localized README files
-
-Do not edit generated README files directly.
-
-## Full consistency check
-
-```bash
+npm run validate
 npm run check
 ```
 
-This validates data, regenerates README files, and fails if generated output
-differs from committed output.
+`npm run generate` performs two deterministic operations:
 
-## Add a prompt manually
+1. combines `data/prompts/*.json` into `data/prompts.json`;
+2. generates all 16 `README*.md` editions.
 
-Maintainers may add a reviewed record directly to `data/prompts.json`:
+`npm run validate` checks:
 
-1. copy an existing record;
-2. assign the next stable `ec-XXXX` ID;
-3. choose a unique slug;
-4. add at least two preview images;
-5. record author, source, and license;
-6. set `status` to `approved` only after review;
-7. update top-level `updatedAt`;
-8. run validation and generation.
+- prompt IDs, slugs, filenames, and duplicates;
+- controlled taxonomy references;
+- product-edit reference and Before-image requirements;
+- source types, permissions, licenses, and research references;
+- platform-policy review metadata;
+- local image existence, PNG signatures, dimensions, and aspect ratios;
+- translation locale IDs;
+- freshness of the generated aggregate index.
 
-Normal community contributions should use the Issue form and `approved` label
-workflow instead.
+## Add a prompt manually for development
 
-## Test the approval parser locally
+1. Copy a v2 record in `data/prompts/`.
+2. Assign the next stable `ec-####` ID and a unique slug.
+3. Rename the file to `<id>-<slug>.json`.
+4. Use IDs from `data/taxonomy.json`.
+5. Add lawful preview assets to `assets/prompts/<family>/`.
+6. Run `npm run generate` and `npm run validate`.
 
-Save a GitHub `issues.labeled` webhook payload to a local JSON file, then run:
+Community content should still use the Issue workflow so its review history is
+preserved.
 
-```bash
-GITHUB_EVENT_PATH=./work/example-event.json node scripts/sync-approved-issue.mjs
-```
+## Generated-file rule
 
-On PowerShell:
+Never edit these files by hand:
+
+- `data/prompts.json`;
+- `README.md`;
+- `README_*.md`.
+
+CI regenerates them and fails when committed views are stale.
+
+## Windows PowerShell
+
+If PowerShell blocks `npm.ps1`, use the executable shim:
 
 ```powershell
-$env:GITHUB_EVENT_PATH = ".\work\example-event.json"
-node scripts\sync-approved-issue.mjs
+npm.cmd run generate
+npm.cmd run validate
+npm.cmd run check
 ```
-
-Use a disposable copy of `data/prompts.json` when testing because the script
-adds an approved record.
 

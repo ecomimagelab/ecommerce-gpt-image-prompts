@@ -21,7 +21,8 @@ jobs:
           GH_REPO: ${{ github.repository }}
         run: |
           gh label create "prompt-submission" --color "2458FF" --description "Community prompt awaiting review" --force
-          gh label create "approved" --color "0E8A16" --description "Reviewed and approved for automatic sync" --force
+          gh label create "approved" --color "0E8A16" --description "First review passed; automation prepares a final-review PR" --force
           gh label create "needs-changes" --color "FBCA04" --description "Submission requires changes before approval" --force
           gh label create "rights-review" --color "B60205" --description "Copyright, attribution, trademark, privacy, or publicity review" --force
-
+          gh label create "platform-review" --color "5319E7" --description "Current official platform guidance must be verified" --force
+          gh label create "visual-qa" --color "1D76DB" --description "Generated examples require visual quality review" --force

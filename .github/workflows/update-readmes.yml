@@ -1,4 +1,4 @@
-name: Update multilingual READMEs
+name: Daily data and multilingual README refresh
 
 on:
   schedule:
@@ -29,15 +29,15 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
-      - name: Validate prompt data
-        run: npm run validate
-      - name: Generate 16 language editions
+      - name: Build aggregate data and generate 16 README editions
         run: npm run generate
+      - name: Validate prompt files, taxonomy, rights metadata, and image ratios
+        run: npm run validate
       - name: Commit generated files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README*.md
+          git add data/prompts.json README*.md
           if git diff --cached --quiet; then
             echo "No README changes."
             exit 0
