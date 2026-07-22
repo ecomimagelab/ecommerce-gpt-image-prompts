@@ -105,6 +105,37 @@ generative edit cannot guarantee exact product identity.
 | Premium eyewear | [Sunglasses product photography](https://www.pinterest.com/ideas/sunglasses-product-photography/), [gpt-image2-ecommerce](https://github.com/buluslan/gpt-image2-ecommerce), [product-shots](https://github.com/motiful/product-shots) | Translucent acetate, controlled optical reflections, hard coral-wall fashion light, aqua pool caustics, unmistakable frame geometry | Amazon Fashion pure-white catalog, Xiaohongshu adult-model editorial, Pinterest poolside still life |
 | Portable lighting | [Table lamp product photography](https://www.pinterest.com/ideas/table-lamp-product-photography/), [gpt-image2-ecommerce](https://github.com/buluslan/gpt-image2-ecommerce), [product-shots](https://github.com/motiful/product-shots) | Matte oxblood metal, warm opal diffusion, brass edge control, blue-hour architecture, walnut and slatted-sun interiors | Amazon Home pure-white catalog, Shopify architectural dusk hero, Pinterest mid-century interior |
 
++## Research directions used for prompts 28–37
+
+The following references were used as visual-pattern research only. No Pinterest
+image or third-party repository preview is committed here. Every preview for
+records `ec-0028` through `ec-0037` was generated specifically from its recorded
+standalone prompt and then reviewed for product consistency, anatomy, accidental
+text, and platform fit.
+
+| Category | Research references | Extracted visual direction | Platform treatment in the prompt |
+|---|---|---|---|
+| Fine fragrance | [Perfume product photography](https://www.pinterest.com/ideas/perfume-product-photography/948458490893/) | Optical glass, controlled liquid color, wet basalt, obsidian launch sets, restrained chromatic still life | Sephora catalog, Tmall Luxury launch, Shopify material hero, Instagram adult-model editorial, Pinterest still life |
+| Penny loafer | [White and lifestyle shoe photography](https://www.pinterest.com/ideas/product-photography-white-and-lifestyle-shoes/916995449208/) | Burnished leather, readable construction, limestone tailoring, night movement, atelier macro, library color | Amazon Fashion catalog, Farfetch editorial, TikTok Shop street frame, Shopify craftsmanship, Pinterest wardrobe story |
+| Boucle lounge chair | [Chair product photography](https://www.pinterest.com/ideas/chair-product-photography/935347293508/) | Real furniture scale, loop-pile texture, curved architecture, color-block rooms, dark gallery restraint, human context | Wayfair catalog, Shopify architecture, Pinterest interior save, Tmall design launch, Instagram lifestyle |
+| Specialty coffee | [Coffee packaging photography](https://www.pinterest.com/ideas/coffee-packaging-photography/925595463911/) | Consistent claim-free pouch identity, pour-over ritual, graphic breakfast color, roastery authenticity, terracotta still life | Amazon Grocery catalog, Shopify brewing hero, Xiaohongshu flat lay, TikTok Shop maker frame, Pinterest pantry story |
+| Celadon dinnerware | [Ceramic plate photography](https://www.pinterest.com/dreamcolors/ceramic-plate-photography/) | Exact four-piece count, reactive glaze, honest maker surface, bright brunch, dark dining, playful breakfast color | Amazon Home catalog, Etsy maker story, Pinterest brunch, Shopify dining hero, Xiaohongshu breakfast |
+| Fitness smartwatch | [Smartwatch product photography](https://www.pinterest.com/ideas/smart-watch-product-photography/905125093022/) | Stable case/strap/crown identity, abstract claim-free activity arcs, technical angles, wet-track drama, believable wrist use | Amazon Electronics, Best Buy feature set, Tmall Sports launch, TikTok running creative, Instagram studio editorial |
+| Dog harness | [Dog harness ideas](https://www.pinterest.com/dogharnessguide/dog-harness-ideas/) | Readable Y-front construction, ripstop and mesh, reflective strip, black hardware, natural dog fit | Chewy catalog, Amazon detail, Etsy maker story, TikTok city walk, Pinterest coastal hike |
+| Chef knife | [Knife photography](https://ph.pinterest.com/carmela_doria/knife-photography/) | Hammered steel, smoked-oak grain, brass hardware, controlled dark stone, workshop provenance, safe food preparation | Amazon Home catalog, Shopify dark hero, Etsy workshop, Pinterest prep flat lay, TikTok cooking frame |
+| Three-wick candle | [Luxury candle product photography](https://www.pinterest.com/ideas/luxury-candle-product-photography/954716881274/) | Plum glass, exact wick count, brass lid, high-key catalog, maker bench, low-light flame, flash-lit lifestyle, geometric color | Amazon Home catalog, Etsy maker story, Shopify mood hero, Instagram lifestyle, Pinterest color still life |
+| Yoga mat | [Yoga-mat photo-shoot ideas](https://www.pinterest.com/torimorrison14/yoga-mat-photo-shoot/) | Grip microtexture, spruce/cork material contrast, architectural calm, safe adult movement, home ritual, desert retreat | Amazon Sports catalog, Shopify wellness hero, TikTok power flow, Xiaohongshu sunrise practice, Pinterest travel wellness |
+
+Across this batch, the general prompt structure also benefited from the
+MIT-licensed [gpt-image2-ecommerce](https://github.com/buluslan/gpt-image2-ecommerce)
+and [product-shots](https://github.com/motiful/product-shots) workflows: state a
+single asset purpose, lock physical product invariants, and review the output
+against those invariants. Pinterest's official [2026 marketing
+playbook](https://business.pinterest.com/en-gb/pdf/pinterest-predicts/2026-marketing-playbook)
+and [Path to Performance](https://business.pinterest.com/es/pdf/pinterest-presents/path-to-performance/)
+were used to keep Pinterest treatments save-worthy and performance-aware rather
+than treating the platform as a generic image style.
+
 ## Rights and quality policy
 
 1. Do not download or commit Pinterest images unless the contributor owns them or supplies a compatible license.

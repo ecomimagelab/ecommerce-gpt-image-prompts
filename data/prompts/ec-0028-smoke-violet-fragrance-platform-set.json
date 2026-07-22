@@ -1,0 +1,195 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0028",
+  "slug": "smoke-violet-fragrance-platform-set",
+  "model": "gpt-image-2",
+  "title": "Smoke-Violet Fragrance Platform Set",
+  "description": "Moves one smoke-violet fragrance bottle through clean beauty retail, dark luxury launch, wet-stone DTC storytelling, social beauty, and a collectible Pinterest still life.",
+  "prompt": "Create five premium beauty-commerce images for one fictional smoke-violet fragrance bottle while preserving its glass geometry, liquid, cap, and blank label across platform-native treatments.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "beauty",
+  "useCases": [
+    "catalog-image",
+    "branded-hero",
+    "lifestyle-scene",
+    "social-ad"
+  ],
+  "styles": [
+    "luxury-premium",
+    "dark-moody",
+    "editorial"
+  ],
+  "backgrounds": [
+    "soft-studio",
+    "dark-studio",
+    "natural-material",
+    "lifestyle-location",
+    "color-studio"
+  ],
+  "platforms": [
+    "sephora",
+    "tmall-luxury",
+    "shopify",
+    "instagram-shop",
+    "pinterest"
+  ],
+  "aspectRatios": [
+    "4:5",
+    "5:8"
+  ],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {
+    "referenceImages": 0,
+    "instructions": "No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU."
+  },
+  "productInvariants": [
+    "Preserve the flattened chamfered optical-glass bottle, thick clear base, and deep smoke-violet liquid level.",
+    "Preserve the short palladium cylinder cap with oxblood top disc and the blank vertical frosted-ivory label."
+  ],
+  "negativePrompt": "No flowers covering the bottle, invented label copy, atomizer outside the cap, loose cap, extra bottle, colored liquid change, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.",
+  "variants": [
+    {
+      "id": "sephora-clean-catalog",
+      "title": "SEPHORA CLEAN CATALOG",
+      "useCase": "catalog-image",
+      "assetPurpose": "catalog-image",
+      "platforms": [
+        "sephora"
+      ],
+      "background": "soft-studio",
+      "aspectRatio": "4:5",
+      "prompt": "Create one ultra-photorealistic portrait 4:5 Sephora-style clean catalog photograph of exactly one premium fragrance bottle. Product design: one fictional unbranded 75 ml flattened rectangular optical-glass perfume bottle with softly chamfered corners, deep smoke-violet liquid, a thick crystal-clear base, a short brushed-palladium cylindrical cap with one narrow oxblood enamel top disc, and a blank vertical frosted-ivory label with no writing. Stand the capped bottle upright on a low warm-ivory lacquer plinth against a seamless cream cyclorama; include no props. Use a centered front three-quarter view with the complete silhouette visible and the bottle filling about 72% of frame height. Use one large upper-left softbox, a narrow palladium edge strip, controlled violet refraction through the liquid, and a delicate grounding shadow. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same chamfered bottle proportions, smoke-violet fill, heavy clear base, palladium cap, oxblood top disc, and blank ivory label. No flowers covering the bottle, invented label copy, atomizer outside the cap, loose cap, extra bottle, colored liquid change, colored backdrop, loose cap, reflection obscuring the blank label, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/beauty-smoke-violet-fragrance/preview-1.png",
+        "alt": "Smoke-violet fragrance bottle on a warm ivory beauty set",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "tmall-luxury-obsidian-launch",
+      "title": "TMALL LUXURY OBSIDIAN LAUNCH",
+      "useCase": "branded-hero",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "tmall-luxury"
+      ],
+      "background": "dark-studio",
+      "aspectRatio": "4:5",
+      "prompt": "Create one cinematic ultra-photorealistic portrait 4:5 luxury fragrance launch photograph of exactly one premium bottle. Product design: one fictional unbranded 75 ml flattened rectangular optical-glass perfume bottle with softly chamfered corners, deep smoke-violet liquid, a thick crystal-clear base, a short brushed-palladium cylindrical cap with one narrow oxblood enamel top disc, and a blank vertical frosted-ivory label with no writing. Place the capped bottle on a low black-obsidian mirror slab in a charcoal-to-black studio, with one thin crescent of violet mist behind it and no other object. Frame from a slightly low three-quarter angle; keep the entire bottle and reflection controlled, leaving refined negative space above. Use a blade of cool violet light through the glass, a warm oxblood rim on the cap disc, deep blacks, and precise specular control without crushing the label. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same chamfered bottle proportions, smoke-violet fill, heavy clear base, palladium cap, oxblood top disc, and blank ivory label. No flowers covering the bottle, invented label copy, atomizer outside the cap, loose cap, extra bottle, colored liquid change, neon clutter, smoke hiding the bottle, glowing label, fantasy particles, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/beauty-smoke-violet-fragrance/preview-2.png",
+        "alt": "Smoke-violet fragrance bottle on an obsidian launch set",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "shopify-wet-basalt-hero",
+      "title": "SHOPIFY WET-BASALT HERO",
+      "useCase": "branded-hero",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "shopify"
+      ],
+      "background": "natural-material",
+      "aspectRatio": "5:8",
+      "prompt": "Create one ultra-photorealistic portrait 5:8 Shopify fragrance hero photograph of exactly one premium bottle. Product design: one fictional unbranded 75 ml flattened rectangular optical-glass perfume bottle with softly chamfered corners, deep smoke-violet liquid, a thick crystal-clear base, a short brushed-palladium cylindrical cap with one narrow oxblood enamel top disc, and a blank vertical frosted-ivory label with no writing. Set the capped bottle upright on a rain-darkened basalt shelf beside a shallow reflective water channel; add only two tiny natural droplets on the glass and a soft out-of-focus slate wall. Use a close eye-level three-quarter view with the bottle on the lower right third and generous clean negative space above left. Use cool overcast window light, one warm silver edge highlight, subtle violet water reflection, and a calm after-rain atmosphere. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same chamfered bottle proportions, smoke-violet fill, heavy clear base, palladium cap, oxblood top disc, and blank ivory label. No flowers covering the bottle, invented label copy, atomizer outside the cap, loose cap, extra bottle, colored liquid change, large splash, waterfall, flower, moss covering the base, floating bottle, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/beauty-smoke-violet-fragrance/preview-3.png",
+        "alt": "Smoke-violet fragrance bottle on rain-darkened basalt",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "instagram-evening-beauty",
+      "title": "INSTAGRAM EVENING BEAUTY",
+      "useCase": "social-ad",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "instagram-shop"
+      ],
+      "background": "lifestyle-location",
+      "aspectRatio": "4:5",
+      "prompt": "Create one polished portrait 4:5 Instagram Shop beauty editorial featuring exactly one premium fragrance bottle and one adult model. Product design: one fictional unbranded 75 ml flattened rectangular optical-glass perfume bottle with softly chamfered corners, deep smoke-violet liquid, a thick crystal-clear base, a short brushed-palladium cylindrical cap with one narrow oxblood enamel top disc, and a blank vertical frosted-ivory label with no writing. An adult woman in a black silk sleeveless top holds the capped bottle beside her collarbone against a deep aubergine plaster wall; show natural skin texture, one silver ear cuff, and no other product. Crop from lips to upper chest, keep the hand anatomically natural, and make the bottle, blank label, cap, and liquid sharply readable. Use controlled direct flash balanced with a soft violet side light for modern evening energy and truthful skin color. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same chamfered bottle proportions, smoke-violet fill, heavy clear base, palladium cap, oxblood top disc, and blank ivory label. No flowers covering the bottle, invented label copy, atomizer outside the cap, loose cap, extra bottle, colored liquid change, full face, spraying action, distorted fingers, excessive jewelry, beauty-filter skin, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/beauty-smoke-violet-fragrance/preview-4.png",
+        "alt": "Adult model holding a smoke-violet fragrance bottle",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "pinterest-scent-still-life",
+      "title": "PINTEREST SCENT STILL LIFE",
+      "useCase": "lifestyle-scene",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "pinterest"
+      ],
+      "background": "color-studio",
+      "aspectRatio": "5:8",
+      "prompt": "Create one save-worthy ultra-photorealistic portrait 5:8 Pinterest fragrance still life with exactly one premium bottle. Product design: one fictional unbranded 75 ml flattened rectangular optical-glass perfume bottle with softly chamfered corners, deep smoke-violet liquid, a thick crystal-clear base, a short brushed-palladium cylindrical cap with one narrow oxblood enamel top disc, and a blank vertical frosted-ivory label with no writing. Arrange the capped bottle on folded dusty-lilac silk beside one small smoked-glass pebble and a single dark plum half on a matte apricot background; props must remain secondary and separated. Use an elevated three-quarter composition with graphic diagonal folds, the full bottle unobscured, and generous visual breathing room. Use hard late-afternoon light, a soft lavender bounce, crisp glass refractions, and sophisticated plum–apricot color contrast. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same chamfered bottle proportions, smoke-violet fill, heavy clear base, palladium cap, oxblood top disc, and blank ivory label. No flowers covering the bottle, invented label copy, atomizer outside the cap, loose cap, extra bottle, colored liquid change, multiple fruits, flowers, clutter, liquid spill, fabric hiding the base, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/beauty-smoke-violet-fragrance/preview-5.png",
+        "alt": "Smoke-violet fragrance bottle in a plum and apricot still life",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    }
+  ],
+  "author": {
+    "name": "Ecommerce GPT Image Prompts Studio",
+    "url": "https://github.com/ecomimagelab"
+  },
+  "source": {
+    "type": "original",
+    "url": null,
+    "permission": "repository-authored",
+    "notes": "Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.",
+    "references": [
+      {
+        "type": "visual-research",
+        "url": "docs/VISUAL_RESEARCH.md"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/buluslan/gpt-image2-ecommerce"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/motiful/product-shots"
+      }
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "platformPolicy": {
+    "status": "design-guidance-only",
+    "note": "Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.",
+    "reviewedAt": null,
+    "sources": []
+  },
+  "review": {
+    "status": "approved",
+    "rights": "reviewed",
+    "promptQuality": "reviewed",
+    "previewQuality": "reviewed",
+    "reviewedAt": "2026-07-22"
+  },
+  "featured": false,
+  "publishedAt": "2026-07-22",
+  "translations": {
+    "zh": {
+      "title": "烟紫色香水多平台套图",
+      "description": "让同一只烟紫色香水瓶呈现为美妆白底、暗调奢华首发、湿石品牌图、社交美妆片和 Pinterest 收藏级静物。"
+    }
+  }
+}

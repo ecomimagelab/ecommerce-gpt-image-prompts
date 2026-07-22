@@ -1,0 +1,196 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0033",
+  "slug": "graphite-fitness-watch-platform-set",
+  "model": "gpt-image-2",
+  "title": "Graphite Fitness Watch Platform Set",
+  "description": "Carries one graphite fitness watch through marketplace catalog, technical retail, night performance, creator running, and studio-fashion commerce.",
+  "prompt": "Create five platform-native images for one fictional graphite fitness watch while preserving its case, crown, speaker slots, woven strap, tab, and nonverbal activity arcs.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "consumer-electronics",
+  "useCases": [
+    "main-image",
+    "feature-callout",
+    "branded-hero",
+    "on-model",
+    "social-ad"
+  ],
+  "styles": [
+    "technical",
+    "cinematic",
+    "social-native"
+  ],
+  "backgrounds": [
+    "pure-white",
+    "dark-studio",
+    "outdoor-location",
+    "lifestyle-location",
+    "color-studio"
+  ],
+  "platforms": [
+    "amazon-sports",
+    "best-buy",
+    "tmall",
+    "tiktok-shop",
+    "instagram-shop"
+  ],
+  "aspectRatios": [
+    "4:5",
+    "5:8"
+  ],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {
+    "referenceImages": 0,
+    "instructions": "No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU."
+  },
+  "productInvariants": [
+    "Preserve the rounded-square 42 mm graphite-titanium case, flat black glass, right orange crown, and two left speaker slots.",
+    "Preserve the moss woven loop strap, orange pull tab, and abstract three-color activity arcs without text."
+  ],
+  "negativePrompt": "No brand icon, readable numbers, letters, app name, extra crown, circular case, metal bracelet, extra watch, distorted strap, floating UI text, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.",
+  "variants": [
+    {
+      "id": "amazon-sports-main-image",
+      "title": "AMAZON SPORTS MAIN IMAGE",
+      "useCase": "main-image",
+      "assetPurpose": "main-image",
+      "platforms": [
+        "amazon-sports"
+      ],
+      "background": "pure-white",
+      "aspectRatio": "4:5",
+      "prompt": "Create one ultra-photorealistic portrait 4:5 Amazon Sports main image of exactly one premium fitness smartwatch. Product design: one fictional unbranded fitness smartwatch with a 42 mm rounded-square bead-blasted graphite-titanium case, flat black glass, one burnt-orange knurled crown on the right, two narrow speaker slots on the left, and a deep moss-green woven nylon loop strap with a single orange pull tab; the display shows only three abstract coral, teal, and ivory activity arcs with no numbers or letters. Form the moss woven strap into a clean standing loop on seamless pure #FFFFFF, with the watch face angled slightly toward camera and the orange crown visible. Center the entire watch and strap with about 76% frame fill; keep case edges, speaker slots, pull tab, and abstract arcs crisp. Use high-key softboxes, a controlled graphite edge strip, reflection-managed glass, and one realistic soft grounding shadow. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same rounded-square graphite case, orange right crown, left speaker slots, moss woven loop, orange tab, and abstract coral–teal–ivory arcs. No brand icon, readable numbers, letters, app name, extra crown, circular case, metal bracelet, extra watch, distorted strap, floating UI text, charging puck, phone, box, floating watch, closed black screen, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/wearable-graphite-fitness-watch/preview-1.png",
+        "alt": "Graphite fitness watch with moss strap on pure white",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "bestbuy-sensor-feature",
+      "title": "BEST BUY SENSOR FEATURE",
+      "useCase": "feature-callout",
+      "assetPurpose": "secondary-image",
+      "platforms": [
+        "best-buy"
+      ],
+      "background": "dark-studio",
+      "aspectRatio": "4:5",
+      "prompt": "Create one ultra-photorealistic portrait 4:5 Best Buy-style technical feature image of exactly one premium fitness smartwatch. Product design: one fictional unbranded fitness smartwatch with a 42 mm rounded-square bead-blasted graphite-titanium case, flat black glass, one burnt-orange knurled crown on the right, two narrow speaker slots on the left, and a deep moss-green woven nylon loop strap with a single orange pull tab; the display shows only three abstract coral, teal, and ivory activity arcs with no numbers or letters. Rest the open watch diagonally on a graphite rubber platform, face up, with one subtle teal circular light reflection beneath the sensor area; include no labels or exploded parts. Use a close elevated three-quarter view that shows the display arcs, orange crown, left slots, woven fibers, and a glimpse of the underside sensor glass. Use cool cyan edge light, restrained orange accent, crisp glass control, and precise technical contrast. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same rounded-square graphite case, orange right crown, left speaker slots, moss woven loop, orange tab, and abstract coral–teal–ivory arcs. No brand icon, readable numbers, letters, app name, extra crown, circular case, metal bracelet, extra watch, distorted strap, floating UI text, data text, diagrams, callout lines, x-ray view, detached strap, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/wearable-graphite-fitness-watch/preview-2.png",
+        "alt": "Graphite fitness watch in a technical sensor-focused set",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "tmall-night-performance",
+      "title": "TMALL NIGHT PERFORMANCE",
+      "useCase": "branded-hero",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "tmall"
+      ],
+      "background": "outdoor-location",
+      "aspectRatio": "5:8",
+      "prompt": "Create one cinematic ultra-photorealistic portrait 5:8 night-performance campaign image of exactly one premium fitness smartwatch. Product design: one fictional unbranded fitness smartwatch with a 42 mm rounded-square bead-blasted graphite-titanium case, flat black glass, one burnt-orange knurled crown on the right, two narrow speaker slots on the left, and a deep moss-green woven nylon loop strap with a single orange pull tab; the display shows only three abstract coral, teal, and ivory activity arcs with no numbers or letters. Place the watch fastened around a smooth black running baton standing on wet track material at night; add restrained rain droplets and blurred stadium lights far behind. Use a low macro angle with the case dominant, the complete face and crown visible, and the strap wrapping naturally around the baton. Use a teal stadium rim, burnt-orange backlight, crisp droplets, and deep athletic contrast without hiding the product. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same rounded-square graphite case, orange right crown, left speaker slots, moss woven loop, orange tab, and abstract coral–teal–ivory arcs. No brand icon, readable numbers, letters, app name, extra crown, circular case, metal bracelet, extra watch, distorted strap, floating UI text, athlete, hand, brand signage, lightning, excessive rain, floating watch, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/wearable-graphite-fitness-watch/preview-3.png",
+        "alt": "Graphite fitness watch on a wet night-running set",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "tiktok-runner-wrist",
+      "title": "TIKTOK SHOP RUNNER WRIST",
+      "useCase": "on-model",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "tiktok-shop"
+      ],
+      "background": "lifestyle-location",
+      "aspectRatio": "5:8",
+      "prompt": "Create one energetic ultra-photorealistic portrait 5:8 TikTok Shop running frame featuring exactly one premium fitness smartwatch on one adult runner. Product design: one fictional unbranded fitness smartwatch with a 42 mm rounded-square bead-blasted graphite-titanium case, flat black glass, one burnt-orange knurled crown on the right, two narrow speaker slots on the left, and a deep moss-green woven nylon loop strap with a single orange pull tab; the display shows only three abstract coral, teal, and ivory activity arcs with no numbers or letters. Show an adult runner from shoulder to hip mid-stride on a concrete riverside path at dawn, lifting the watch wrist naturally toward camera while wearing a plain cobalt technical top. Use a close wide-angle tracking view; keep the watch face and orange crown tack sharp while the background and free arm carry controlled motion blur. Use cool dawn light with direct-flash lift, truthful skin texture, and a small warm sunrise edge. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same rounded-square graphite case, orange right crown, left speaker slots, moss woven loop, orange tab, and abstract coral–teal–ivory arcs. No brand icon, readable numbers, letters, app name, extra crown, circular case, metal bracelet, extra watch, distorted strap, floating UI text, readable data, distorted fingers, extra wrist, headphones logo, staged pointing gesture, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/wearable-graphite-fitness-watch/preview-4.png",
+        "alt": "Adult runner wearing a graphite fitness watch at dawn",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "instagram-coral-fashion",
+      "title": "INSTAGRAM SHOP CORAL FASHION",
+      "useCase": "social-ad",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "instagram-shop"
+      ],
+      "background": "color-studio",
+      "aspectRatio": "4:5",
+      "prompt": "Create one polished ultra-photorealistic portrait 4:5 Instagram Shop studio-fashion image featuring exactly one premium fitness smartwatch on one adult model. Product design: one fictional unbranded fitness smartwatch with a 42 mm rounded-square bead-blasted graphite-titanium case, flat black glass, one burnt-orange knurled crown on the right, two narrow speaker slots on the left, and a deep moss-green woven nylon loop strap with a single orange pull tab; the display shows only three abstract coral, teal, and ivory activity arcs with no numbers or letters. Crop an adult model from jaw to waist against a matte coral backdrop, wearing a sleeveless charcoal top and crossing one arm so the watch sits clearly near the center. Keep the wrist anatomy natural, the face unobstructed, and the graphite, moss, and orange materials sharply defined with elegant negative space. Use a large beauty dish, a hard teal side shadow, subtle film grain, and contemporary sport-fashion color. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same rounded-square graphite case, orange right crown, left speaker slots, moss woven loop, orange tab, and abstract coral–teal–ivory arcs. No brand icon, readable numbers, letters, app name, extra crown, circular case, metal bracelet, extra watch, distorted strap, floating UI text, full face, jewelry, manicure art, extra watch, arm covering display, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/wearable-graphite-fitness-watch/preview-5.png",
+        "alt": "Adult model wearing a graphite fitness watch on coral",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    }
+  ],
+  "author": {
+    "name": "Ecommerce GPT Image Prompts Studio",
+    "url": "https://github.com/ecomimagelab"
+  },
+  "source": {
+    "type": "original",
+    "url": null,
+    "permission": "repository-authored",
+    "notes": "Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.",
+    "references": [
+      {
+        "type": "visual-research",
+        "url": "docs/VISUAL_RESEARCH.md"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/buluslan/gpt-image2-ecommerce"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/motiful/product-shots"
+      }
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "platformPolicy": {
+    "status": "design-guidance-only",
+    "note": "Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.",
+    "reviewedAt": null,
+    "sources": []
+  },
+  "review": {
+    "status": "approved",
+    "rights": "reviewed",
+    "promptQuality": "reviewed",
+    "previewQuality": "reviewed",
+    "reviewedAt": "2026-07-22"
+  },
+  "featured": false,
+  "publishedAt": "2026-07-22",
+  "translations": {
+    "zh": {
+      "title": "石墨色运动智能表多平台套图",
+      "description": "让同一只石墨色运动智能表呈现为白底目录、技术零售、夜间运动、创作者跑步和棚拍时尚电商。"
+    }
+  }
+}

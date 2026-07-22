@@ -1,0 +1,196 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0035",
+  "slug": "smoked-oak-chef-knife-platform-set",
+  "model": "gpt-image-2",
+  "title": "Smoked-Oak Chef Knife Platform Set",
+  "description": "Takes one distinctive chef knife from clean retail to black-stone campaign, bladesmith provenance, recipe editorial, and a safe social cooking moment.",
+  "prompt": "Create five cooking-commerce images for one fictional smoked-oak chef knife while preserving its blade profile, hammered finish, satin bevel, bolster, handle, and pin count.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "cookware",
+  "useCases": [
+    "main-image",
+    "branded-hero",
+    "detail-macro",
+    "lifestyle-scene",
+    "social-ad"
+  ],
+  "styles": [
+    "dark-moody",
+    "handmade-tactile",
+    "food-editorial"
+  ],
+  "backgrounds": [
+    "pure-white",
+    "dark-studio",
+    "natural-material",
+    "home-interior",
+    "lifestyle-location"
+  ],
+  "platforms": [
+    "amazon-home",
+    "shopify",
+    "etsy",
+    "pinterest",
+    "xiaohongshu"
+  ],
+  "aspectRatios": [
+    "4:5",
+    "5:8"
+  ],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {
+    "referenceImages": 0,
+    "instructions": "No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU."
+  },
+  "productInvariants": [
+    "Preserve the broad 8-inch gently curved blade, dark hand-hammered upper section, and clean satin lower bevel.",
+    "Preserve the narrow warm-brass bolster and octagonal smoked-oak handle with exactly three flush brass pins."
+  ],
+  "negativePrompt": "No brand engraving, letters, serration, cleaver shape, Damascus swirl, extra pin, plastic handle, extra knife, damaged edge, unsafe blade contact, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.",
+  "variants": [
+    {
+      "id": "amazon-home-knife-main",
+      "title": "AMAZON HOME KNIFE MAIN",
+      "useCase": "main-image",
+      "assetPurpose": "main-image",
+      "platforms": [
+        "amazon-home"
+      ],
+      "background": "pure-white",
+      "aspectRatio": "4:5",
+      "prompt": "Create one ultra-photorealistic portrait 4:5 Amazon Home main image of exactly one premium chef knife. Product design: one fictional unbranded 8-inch chef knife with a broad gently curved high-carbon steel blade, a dark hand-hammered upper blade fading into a clean satin lower bevel, a narrow warm-brass bolster, and an octagonal smoked-oak handle secured by exactly three small flush brass pins. Lay the clean dry knife diagonally on seamless pure #FFFFFF with blade pointing upper left and handle lower right; include no sheath, food, or props. Use an exact slightly elevated view with the complete tip, edge, bolster, handle, and all three pins visible, filling about 78% of frame. Use broad high-key light, a long controlled steel reflection, crisp hammered texture, and one soft contact shadow. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same broad curved blade, hammered dark upper, satin bevel, brass bolster, octagonal smoked-oak handle, and three brass pins. No brand engraving, letters, serration, cleaver shape, Damascus swirl, extra pin, plastic handle, extra knife, damaged edge, unsafe blade contact, upright floating knife, cutting board, fingerprints, blade glare hiding the bevel, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/cookware-smoked-oak-chef-knife/preview-1.png",
+        "alt": "Smoked-oak chef knife on pure white",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "shopify-black-stone-hero",
+      "title": "SHOPIFY BLACK-STONE HERO",
+      "useCase": "branded-hero",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "shopify"
+      ],
+      "background": "dark-studio",
+      "aspectRatio": "5:8",
+      "prompt": "Create one cinematic ultra-photorealistic portrait 5:8 Shopify kitchen hero featuring exactly one premium chef knife. Product design: one fictional unbranded 8-inch chef knife with a broad gently curved high-carbon steel blade, a dark hand-hammered upper blade fading into a clean satin lower bevel, a narrow warm-brass bolster, and an octagonal smoked-oak handle secured by exactly three small flush brass pins. Rest the knife across a split black-basalt block with one halved deep-purple shallot far behind on a charcoal plaster set; the dry blade never touches the food. Use a low close three-quarter angle with the full knife visible, blade profile dominant, and refined negative space above. Use a cool steel edge light, a warm brass accent, deep open shadows, and a restrained oxblood bounce from the shallot. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same broad curved blade, hammered dark upper, satin bevel, brass bolster, octagonal smoked-oak handle, and three brass pins. No brand engraving, letters, serration, cleaver shape, Damascus swirl, extra pin, plastic handle, extra knife, damaged edge, unsafe blade contact, flames, smoke, blood-like liquid, multiple ingredients, wet blade, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/cookware-smoked-oak-chef-knife/preview-2.png",
+        "alt": "Smoked-oak chef knife on a black basalt campaign set",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "etsy-bladesmith-provenance",
+      "title": "ETSY BLADESMITH PROVENANCE",
+      "useCase": "detail-macro",
+      "assetPurpose": "secondary-image",
+      "platforms": [
+        "etsy"
+      ],
+      "background": "natural-material",
+      "aspectRatio": "5:8",
+      "prompt": "Create one tactile ultra-photorealistic portrait 5:8 Etsy bladesmith story featuring exactly one finished premium chef knife. Product design: one fictional unbranded 8-inch chef knife with a broad gently curved high-carbon steel blade, a dark hand-hammered upper blade fading into a clean satin lower bevel, a narrow warm-brass bolster, and an octagonal smoked-oak handle secured by exactly three small flush brass pins. Place the knife on a worn leather pad over an old maple workbench with one curled brass shaving and one small smoked-oak offcut in soft background. Use an elevated close view showing the complete knife, hammered steel, satin bevel transition, brass bolster, oak facets, and exactly three pins. Use warm north-window light, a narrow cool steel rim, and honest micro-scratches without making the knife look used. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same broad curved blade, hammered dark upper, satin bevel, brass bolster, octagonal smoked-oak handle, and three brass pins. No brand engraving, letters, serration, cleaver shape, Damascus swirl, extra pin, plastic handle, extra knife, damaged edge, unsafe blade contact, hammer, forge, sparks, unfinished blade, human, multiple knives, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/cookware-smoked-oak-chef-knife/preview-3.png",
+        "alt": "Finished chef knife on a tactile bladesmith workbench",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "pinterest-herb-prep-overhead",
+      "title": "PINTEREST HERB-PREP OVERHEAD",
+      "useCase": "lifestyle-scene",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "pinterest"
+      ],
+      "background": "home-interior",
+      "aspectRatio": "4:5",
+      "prompt": "Create one save-worthy ultra-photorealistic portrait 4:5 Pinterest culinary overhead scene featuring exactly one premium chef knife. Product design: one fictional unbranded 8-inch chef knife with a broad gently curved high-carbon steel blade, a dark hand-hammered upper blade fading into a clean satin lower bevel, a narrow warm-brass bolster, and an octagonal smoked-oak handle secured by exactly three small flush brass pins. Lay the clean knife beside neatly sliced fennel, parsley, and one lemon half on a large pale-maple cutting board over a forest-green linen tablecloth; keep food away from the handle. Use exact overhead geometry with the full knife unobscured, intentional negative space, restrained ingredients, and elegant editorial rhythm. Use soft side-window daylight, crisp fresh food texture, subtle film grain, and balanced green–lemon–oak color. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same broad curved blade, hammered dark upper, satin bevel, brass bolster, octagonal smoked-oak handle, and three brass pins. No brand engraving, letters, serration, cleaver shape, Damascus swirl, extra pin, plastic handle, extra knife, damaged edge, unsafe blade contact, hand, meat, messy scraps, wet blade, extra utensil, recipe text, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/cookware-smoked-oak-chef-knife/preview-4.png",
+        "alt": "Smoked-oak chef knife in an overhead herb-prep scene",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "xiaohongshu-safe-cooking",
+      "title": "XIAOHONGSHU SAFE COOKING",
+      "useCase": "social-ad",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "xiaohongshu"
+      ],
+      "background": "lifestyle-location",
+      "aspectRatio": "5:8",
+      "prompt": "Create one natural ultra-photorealistic portrait 5:8 Xiaohongshu home-cooking image featuring exactly one premium chef knife in safe adult use. Product design: one fictional unbranded 8-inch chef knife with a broad gently curved high-carbon steel blade, a dark hand-hammered upper blade fading into a clean satin lower bevel, a narrow warm-brass bolster, and an octagonal smoked-oak handle secured by exactly three small flush brass pins. One adult hand grips the smoked-oak handle correctly while the other forms a safe claw grip on half a red cabbage on a thick end-grain board in a bright home kitchen. Use a close 50 mm side angle showing the complete handle, three pins, brass bolster, most of the blade profile, safe finger placement, and clean sliced cabbage ribbons. Use cool window light with gentle direct-flash lift, realistic skin and vegetables, and lively but refined creator energy. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same broad curved blade, hammered dark upper, satin bevel, brass bolster, octagonal smoked-oak handle, and three brass pins. No brand engraving, letters, serration, cleaver shape, Damascus swirl, extra pin, plastic handle, extra knife, damaged edge, unsafe blade contact, child, injury, blade toward camera, distorted fingers, rings, cluttered counter, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/cookware-smoked-oak-chef-knife/preview-5.png",
+        "alt": "Adult safely slicing red cabbage with a smoked-oak chef knife",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    }
+  ],
+  "author": {
+    "name": "Ecommerce GPT Image Prompts Studio",
+    "url": "https://github.com/ecomimagelab"
+  },
+  "source": {
+    "type": "original",
+    "url": null,
+    "permission": "repository-authored",
+    "notes": "Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.",
+    "references": [
+      {
+        "type": "visual-research",
+        "url": "docs/VISUAL_RESEARCH.md"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/buluslan/gpt-image2-ecommerce"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/motiful/product-shots"
+      }
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "platformPolicy": {
+    "status": "design-guidance-only",
+    "note": "Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.",
+    "reviewedAt": null,
+    "sources": []
+  },
+  "review": {
+    "status": "approved",
+    "rights": "reviewed",
+    "promptQuality": "reviewed",
+    "previewQuality": "reviewed",
+    "reviewedAt": "2026-07-22"
+  },
+  "featured": false,
+  "publishedAt": "2026-07-22",
+  "translations": {
+    "zh": {
+      "title": "烟熏橡木柄主厨刀多平台套图",
+      "description": "让同一把烟熏橡木柄主厨刀呈现为白底零售、黑石广告、刀匠溯源、食谱大片和安全的社交烹饪瞬间。"
+    }
+  }
+}

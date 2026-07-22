@@ -1,0 +1,196 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0029",
+  "slug": "espresso-penny-loafer-platform-set",
+  "model": "gpt-image-2",
+  "title": "Espresso Penny Loafer Platform Set",
+  "description": "Keeps one burnished espresso loafer consistent across marketplace precision, stone editorial, street motion, atelier detail, and a library-inspired Pinterest image.",
+  "prompt": "Create five platform-native footwear images for one fictional espresso penny loafer while preserving its leather, saddle, apron stitching, lining, heel, and outsole.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "footwear",
+  "useCases": [
+    "main-image",
+    "branded-hero",
+    "on-model",
+    "detail-macro",
+    "lifestyle-scene"
+  ],
+  "styles": [
+    "luxury-premium",
+    "social-native",
+    "handmade-tactile"
+  ],
+  "backgrounds": [
+    "pure-white",
+    "natural-material",
+    "lifestyle-location",
+    "soft-studio",
+    "home-interior"
+  ],
+  "platforms": [
+    "amazon-fashion",
+    "farfetch",
+    "tiktok-shop",
+    "shopify",
+    "pinterest"
+  ],
+  "aspectRatios": [
+    "4:5",
+    "5:8"
+  ],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {
+    "referenceImages": 0,
+    "instructions": "No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU."
+  },
+  "productInvariants": [
+    "Preserve the dark espresso burnished box-calf, almond toe, raised moccasin apron, and saddle strap with narrow oval cutout.",
+    "Preserve the oxblood lining, low stacked dark-brown heel, slim black outsole, and unbranded upper."
+  ],
+  "negativePrompt": "No laces, tassels, metal bit, logo, sneaker sole, square toe, extra shoe, mismatched pair, plastic leather, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.",
+  "variants": [
+    {
+      "id": "amazon-fashion-main-image",
+      "title": "AMAZON FASHION MAIN IMAGE",
+      "useCase": "main-image",
+      "assetPurpose": "main-image",
+      "platforms": [
+        "amazon-fashion"
+      ],
+      "background": "pure-white",
+      "aspectRatio": "4:5",
+      "prompt": "Create one ultra-photorealistic portrait 4:5 Amazon Fashion main image of exactly one matching pair of premium loafers. Product design: one fictional unbranded pair of men's penny loafers in dark espresso burnished box-calf leather, with an almond toe, raised hand-stitched moccasin apron, one clean saddle strap with a narrow oval cutout, oxblood leather lining, a low stacked dark-brown leather heel, and a slim black outsole. Arrange the left shoe in a front three-quarter view and the right shoe slightly behind at a complementary side angle on seamless pure #FFFFFF; show both complete shoes. Center the pair with about 78% frame fill, clear toe shape, saddle cutouts, apron seams, heels, and outsole edges. Use a broad high-key softbox, controlled leather highlights, realistic grounding shadows, and accurate espresso color. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same almond toe, apron seam, saddle cutout, espresso leather, oxblood lining, stacked heel, and black outsole. No laces, tassels, metal bit, logo, sneaker sole, square toe, extra shoe, mismatched pair, plastic leather, shoe box, tissue, feet, props, cropped heel, floating pair, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/footwear-espresso-penny-loafer/preview-1.png",
+        "alt": "Espresso penny loafers on pure white",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "farfetch-limestone-editorial",
+      "title": "FARFETCH LIMESTONE EDITORIAL",
+      "useCase": "branded-hero",
+      "assetPurpose": "catalog-image",
+      "platforms": [
+        "farfetch"
+      ],
+      "background": "natural-material",
+      "aspectRatio": "4:5",
+      "prompt": "Create one ultra-photorealistic portrait 4:5 Farfetch-style luxury footwear editorial with exactly one matching pair of loafers. Product design: one fictional unbranded pair of men's penny loafers in dark espresso burnished box-calf leather, with an almond toe, raised hand-stitched moccasin apron, one clean saddle strap with a narrow oval cutout, oxblood leather lining, a low stacked dark-brown leather heel, and a slim black outsole. Place one shoe upright and rest the second across a pale split-limestone block in a warm gray studio; add no other prop. Use an off-center sculptural arrangement, full shoe visibility, low camera height, and crisp negative space. Use hard raking daylight with a narrow warm bounce that reveals burnishing, calfskin grain, apron stitches, and stacked heel layers. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same almond toe, apron seam, saddle cutout, espresso leather, oxblood lining, stacked heel, and black outsole. No laces, tassels, metal bit, logo, sneaker sole, square toe, extra shoe, mismatched pair, plastic leather, marble veining, feet, clothing, floating shoe, crushed upper, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/footwear-espresso-penny-loafer/preview-2.png",
+        "alt": "Espresso penny loafers arranged on pale limestone",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "tiktok-city-step",
+      "title": "TIKTOK SHOP CITY STEP",
+      "useCase": "on-model",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "tiktok-shop"
+      ],
+      "background": "lifestyle-location",
+      "aspectRatio": "5:8",
+      "prompt": "Create one energetic ultra-photorealistic portrait 5:8 TikTok Shop street-fashion frame featuring the same premium loafers on one adult model. Product design: one fictional unbranded pair of men's penny loafers in dark espresso burnished box-calf leather, with an almond toe, raised hand-stitched moccasin apron, one clean saddle strap with a narrow oval cutout, oxblood leather lining, a low stacked dark-brown leather heel, and a slim black outsole. Show an adult man from mid-calf down stepping off a brushed-steel subway threshold onto wet charcoal pavement, wearing cream ribbed socks and cropped charcoal trousers. Use a low close tracking angle with both loafers visible, the lead shoe tack sharp and the rear shoe carrying restrained motion blur. Use direct on-camera flash, cool city reflections, and a warm tungsten streak for spontaneous night energy while preserving leather detail. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same almond toe, apron seam, saddle cutout, espresso leather, oxblood lining, stacked heel, and black outsole. No laces, tassels, metal bit, logo, sneaker sole, square toe, extra shoe, mismatched pair, plastic leather, brand signage, bare feet, distorted ankles, extra legs, shoe morphing, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/footwear-espresso-penny-loafer/preview-3.png",
+        "alt": "Adult model stepping through the city in espresso loafers",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "shopify-atelier-detail",
+      "title": "SHOPIFY ATELIER DETAIL",
+      "useCase": "detail-macro",
+      "assetPurpose": "secondary-image",
+      "platforms": [
+        "shopify"
+      ],
+      "background": "soft-studio",
+      "aspectRatio": "4:5",
+      "prompt": "Create one ultra-photorealistic portrait 4:5 Shopify craftsmanship detail photograph of exactly one premium loafer. Product design: one fictional unbranded pair of men's penny loafers in dark espresso burnished box-calf leather, with an almond toe, raised hand-stitched moccasin apron, one clean saddle strap with a narrow oval cutout, oxblood leather lining, a low stacked dark-brown leather heel, and a slim black outsole. Rest one shoe on a clean warm-gray leatherworker's block with the heel slightly raised; show only one restrained length of dark thread far behind. Frame a close three-quarter macro from toe to heel so the saddle cutout, hand-stitched apron, leather pores, welt edge, lining, and heel layers remain visible. Use soft north-window light plus a slim edge strip to reveal burnished tonal variation without oily glare. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same almond toe, apron seam, saddle cutout, espresso leather, oxblood lining, stacked heel, and black outsole. No laces, tassels, metal bit, logo, sneaker sole, square toe, extra shoe, mismatched pair, plastic leather, tools covering the shoe, second shoe, hands, loose sole, unfinished construction, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/footwear-espresso-penny-loafer/preview-4.png",
+        "alt": "Macro craftsmanship view of an espresso penny loafer",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "pinterest-library-still-life",
+      "title": "PINTEREST LIBRARY STILL LIFE",
+      "useCase": "lifestyle-scene",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "pinterest"
+      ],
+      "background": "home-interior",
+      "aspectRatio": "5:8",
+      "prompt": "Create one save-worthy ultra-photorealistic portrait 5:8 Pinterest menswear still life with exactly one matching pair of premium loafers. Product design: one fictional unbranded pair of men's penny loafers in dark espresso burnished box-calf leather, with an almond toe, raised hand-stitched moccasin apron, one clean saddle strap with a narrow oval cutout, oxblood leather lining, a low stacked dark-brown leather heel, and a slim black outsole. Place the pair beneath a low walnut library bench on an antique-red wool runner; include the lower edge of one closed blank-cover book and a pool of late-afternoon sun, with no person. Use a calm eye-level crop showing both full shoes, the oxblood lining of one shoe, rich floor texture, and layered negative space. Use warm window light, deep but open shadows, and quiet editorial film color. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same almond toe, apron seam, saddle cutout, espresso leather, oxblood lining, stacked heel, and black outsole. No laces, tassels, metal bit, logo, sneaker sole, square toe, extra shoe, mismatched pair, plastic leather, readable book title, socks, clothing pile, dust, vintage damage, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/footwear-espresso-penny-loafer/preview-5.png",
+        "alt": "Espresso loafers in a warm walnut library setting",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    }
+  ],
+  "author": {
+    "name": "Ecommerce GPT Image Prompts Studio",
+    "url": "https://github.com/ecomimagelab"
+  },
+  "source": {
+    "type": "original",
+    "url": null,
+    "permission": "repository-authored",
+    "notes": "Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.",
+    "references": [
+      {
+        "type": "visual-research",
+        "url": "docs/VISUAL_RESEARCH.md"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/buluslan/gpt-image2-ecommerce"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/motiful/product-shots"
+      }
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "platformPolicy": {
+    "status": "design-guidance-only",
+    "note": "Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.",
+    "reviewedAt": null,
+    "sources": []
+  },
+  "review": {
+    "status": "approved",
+    "rights": "reviewed",
+    "promptQuality": "reviewed",
+    "previewQuality": "reviewed",
+    "reviewedAt": "2026-07-22"
+  },
+  "featured": false,
+  "publishedAt": "2026-07-22",
+  "translations": {
+    "zh": {
+      "title": "浓缩咖啡色便士乐福鞋多平台套图",
+      "description": "让同一双浓缩咖啡色乐福鞋在白底商品图、石材大片、街头动态、工坊细节和图书馆风 Pinterest 图片中保持一致。"
+    }
+  }
+}

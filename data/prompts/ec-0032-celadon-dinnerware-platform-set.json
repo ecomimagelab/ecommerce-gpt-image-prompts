@@ -1,0 +1,196 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0032",
+  "slug": "celadon-dinnerware-platform-set",
+  "model": "gpt-image-2",
+  "title": "Celadon Dinnerware Platform Set",
+  "description": "Preserves one four-piece celadon place setting across clean retail, maker provenance, save-worthy brunch, dark DTC dining, and colorful breakfast content.",
+  "prompt": "Create five commerce images for one fictional four-piece celadon dinnerware set, maintaining exact piece count, glaze, cobalt rim line, and exposed clay feet.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "home-and-furniture",
+  "useCases": [
+    "catalog-image",
+    "detail-macro",
+    "lifestyle-scene",
+    "branded-hero",
+    "social-ad"
+  ],
+  "styles": [
+    "handmade-tactile",
+    "food-editorial",
+    "dark-moody"
+  ],
+  "backgrounds": [
+    "pure-white",
+    "natural-material",
+    "home-interior",
+    "dark-studio",
+    "color-studio"
+  ],
+  "platforms": [
+    "amazon-home",
+    "etsy",
+    "pinterest",
+    "shopify",
+    "xiaohongshu"
+  ],
+  "aspectRatios": [
+    "4:5",
+    "5:8"
+  ],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {
+    "referenceImages": 0,
+    "instructions": "No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU."
+  },
+  "productInvariants": [
+    "Preserve exactly four pieces: one dinner plate, one side plate, one low bowl, and one handleless cup.",
+    "Preserve the pale-celadon reactive glaze, thin cobalt inner-rim line, and exposed warm-sand clay feet."
+  ],
+  "negativePrompt": "No extra plate, handled mug, silver trim, floral pattern, logo, text, chipped rim, glossy plastic ceramic, mismatched glaze, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.",
+  "variants": [
+    {
+      "id": "amazon-home-set-catalog",
+      "title": "AMAZON HOME SET CATALOG",
+      "useCase": "catalog-image",
+      "assetPurpose": "main-image",
+      "platforms": [
+        "amazon-home"
+      ],
+      "background": "pure-white",
+      "aspectRatio": "4:5",
+      "prompt": "Create one ultra-photorealistic portrait 4:5 Amazon Home catalog image of exactly one complete four-piece dinnerware place setting. Product design: one fictional unbranded four-piece stoneware place setting consisting of one wide dinner plate, one smaller side plate, one low rounded bowl, and one handleless cup, all with translucent pale-celadon reactive glaze, a thin hand-painted cobalt line just inside each rim, and an exposed warm-sand clay foot. Arrange the dinner plate flat, lean the side plate slightly behind, place the bowl centered on the dinner plate, and set the handleless cup to the right on seamless pure #FFFFFF. Use a front three-quarter product view with all four pieces fully readable, complete rims visible, and about 76% frame fill. Use broad high-key softboxes, clean ceramic highlights, subtle celadon translucency, and restrained contact shadows. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same four-piece count, pale-celadon glaze, thin cobalt inner-rim line, rounded profiles, and warm-sand exposed feet. No extra plate, handled mug, silver trim, floral pattern, logo, text, chipped rim, glossy plastic ceramic, mismatched glaze, food, cutlery, napkin, packaging, fifth piece, floating plate, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/home-celadon-dinnerware/preview-1.png",
+        "alt": "Four-piece celadon dinnerware set on pure white",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "etsy-potter-provenance",
+      "title": "ETSY POTTER PROVENANCE",
+      "useCase": "detail-macro",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "etsy"
+      ],
+      "background": "natural-material",
+      "aspectRatio": "5:8",
+      "prompt": "Create one tactile ultra-photorealistic portrait 5:8 Etsy maker-story photograph of exactly one complete four-piece dinnerware set. Product design: one fictional unbranded four-piece stoneware place setting consisting of one wide dinner plate, one smaller side plate, one low rounded bowl, and one handleless cup, all with translucent pale-celadon reactive glaze, a thin hand-painted cobalt line just inside each rim, and an exposed warm-sand clay foot. Arrange the pieces on a worn oak potter's bench with one folded flax cloth and a small celadon glaze test tile far behind; no tools touch the tableware. Use an elevated three-quarter view showing all four pieces, cobalt rim lines, reactive glaze variation, and exposed feet on the lifted cup and bowl. Use warm north-window light, a cool workshop edge, and honest clay, linen, wood, and glaze microtexture. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same four-piece count, pale-celadon glaze, thin cobalt inner-rim line, rounded profiles, and warm-sand exposed feet. No extra plate, handled mug, silver trim, floral pattern, logo, text, chipped rim, glossy plastic ceramic, mismatched glaze, human, pottery wheel, wet clay, extra ceramics, rustic clutter, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/home-celadon-dinnerware/preview-2.png",
+        "alt": "Celadon dinnerware set on a potter's oak workbench",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "pinterest-spring-brunch",
+      "title": "PINTEREST SPRING BRUNCH",
+      "useCase": "lifestyle-scene",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "pinterest"
+      ],
+      "background": "home-interior",
+      "aspectRatio": "5:8",
+      "prompt": "Create one save-worthy ultra-photorealistic portrait 5:8 Pinterest brunch table featuring exactly one four-piece dinnerware setting. Product design: one fictional unbranded four-piece stoneware place setting consisting of one wide dinner plate, one smaller side plate, one low rounded bowl, and one handleless cup, all with translucent pale-celadon reactive glaze, a thin hand-painted cobalt line just inside each rim, and an exposed warm-sand clay foot. Set the dinner and side plates, bowl, and handleless cup on a pale sage linen tablecloth beside brushed-steel cutlery; serve one poached egg with asparagus in the bowl and place a small lemon tart on the side plate. Use a graceful 45-degree overhead view with all four pieces identifiable, styled but uncrowded, and layered negative space. Use soft spring window light, delicate leaf shadows, and fresh celadon–sage–lemon color harmony. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same four-piece count, pale-celadon glaze, thin cobalt inner-rim line, rounded profiles, and warm-sand exposed feet. No extra plate, handled mug, silver trim, floral pattern, logo, text, chipped rim, glossy plastic ceramic, mismatched glaze, flowers, extra crockery, readable menu, hands, excessive food, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/home-celadon-dinnerware/preview-3.png",
+        "alt": "Celadon dinnerware arranged for a spring brunch",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "shopify-olive-dining-hero",
+      "title": "SHOPIFY OLIVE DINING HERO",
+      "useCase": "branded-hero",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "shopify"
+      ],
+      "background": "dark-studio",
+      "aspectRatio": "4:5",
+      "prompt": "Create one cinematic ultra-photorealistic portrait 4:5 Shopify dining hero with exactly one complete four-piece dinnerware setting. Product design: one fictional unbranded four-piece stoneware place setting consisting of one wide dinner plate, one smaller side plate, one low rounded bowl, and one handleless cup, all with translucent pale-celadon reactive glaze, a thin hand-painted cobalt line just inside each rim, and an exposed warm-sand clay foot. Arrange the pieces on a dark smoked-oak table against a deep olive limewash wall; add one slim brushed-brass spoon and no food. Use a low intimate three-quarter angle with the dinner plate and bowl nested, side plate upright behind, cup at left, and every cobalt rim line visible. Use a warm pendant pool, cool shadow fill, and a narrow highlight that reveals celadon glaze depth without glare. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same four-piece count, pale-celadon glaze, thin cobalt inner-rim line, rounded profiles, and warm-sand exposed feet. No extra plate, handled mug, silver trim, floral pattern, logo, text, chipped rim, glossy plastic ceramic, mismatched glaze, candles, plant, extra setting, blacked-out ceramic, restaurant clutter, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/home-celadon-dinnerware/preview-4.png",
+        "alt": "Celadon dinnerware on a dark olive dining set",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "xiaohongshu-breakfast-flatlay",
+      "title": "XIAOHONGSHU BREAKFAST FLAT LAY",
+      "useCase": "social-ad",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "xiaohongshu"
+      ],
+      "background": "color-studio",
+      "aspectRatio": "4:5",
+      "prompt": "Create one bright ultra-photorealistic portrait 4:5 Xiaohongshu breakfast flat lay with exactly one complete four-piece dinnerware set. Product design: one fictional unbranded four-piece stoneware place setting consisting of one wide dinner plate, one smaller side plate, one low rounded bowl, and one handleless cup, all with translucent pale-celadon reactive glaze, a thin hand-painted cobalt line just inside each rim, and an exposed warm-sand clay foot. Use a matte peach table: avocado toast on the dinner plate, two apricot halves on the side plate, plain yogurt with blueberries in the bowl, and green tea in the handleless cup. Use exact overhead geometry with all four pieces separated, cobalt rim lines unobscured, playful spacing, and no cropped vessel. Use hard clean morning sun, soft cyan bounce, and vivid but edible natural color. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same four-piece count, pale-celadon glaze, thin cobalt inner-rim line, rounded profiles, and warm-sand exposed feet. No extra plate, handled mug, silver trim, floral pattern, logo, text, chipped rim, glossy plastic ceramic, mismatched glaze, text overlay, hands, extra plate, excessive crumbs, utensil crossing a rim, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/home-celadon-dinnerware/preview-5.png",
+        "alt": "Celadon dinnerware in a colorful breakfast flat lay",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    }
+  ],
+  "author": {
+    "name": "Ecommerce GPT Image Prompts Studio",
+    "url": "https://github.com/ecomimagelab"
+  },
+  "source": {
+    "type": "original",
+    "url": null,
+    "permission": "repository-authored",
+    "notes": "Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.",
+    "references": [
+      {
+        "type": "visual-research",
+        "url": "docs/VISUAL_RESEARCH.md"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/buluslan/gpt-image2-ecommerce"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/motiful/product-shots"
+      }
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "platformPolicy": {
+    "status": "design-guidance-only",
+    "note": "Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.",
+    "reviewedAt": null,
+    "sources": []
+  },
+  "review": {
+    "status": "approved",
+    "rights": "reviewed",
+    "promptQuality": "reviewed",
+    "previewQuality": "reviewed",
+    "reviewedAt": "2026-07-22"
+  },
+  "featured": false,
+  "publishedAt": "2026-07-22",
+  "translations": {
+    "zh": {
+      "title": "青瓷餐具多平台套图",
+      "description": "让同一套四件青瓷餐具在白底零售、手作溯源、Pinterest 早午餐、暗调品牌餐桌和彩色早餐内容中保持一致。"
+    }
+  }
+}

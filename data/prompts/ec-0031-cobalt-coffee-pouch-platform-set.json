@@ -1,0 +1,195 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0031",
+  "slug": "cobalt-coffee-pouch-platform-set",
+  "model": "gpt-image-2",
+  "title": "Cobalt Coffee Pouch Platform Set",
+  "description": "Builds five distinct commerce stories around one cobalt coffee pouch: marketplace clarity, slow-morning brewing, colorful creator breakfast, roastery flash, and graphic Pinterest still life.",
+  "prompt": "Create five platform-native coffee-commerce images for one fictional cobalt whole-bean pouch while preserving its package geometry, stripe, blank oval label, and seal.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "food-and-beverage",
+  "useCases": [
+    "main-image",
+    "lifestyle-scene",
+    "social-ad",
+    "branded-hero"
+  ],
+  "styles": [
+    "bright-playful",
+    "social-native",
+    "food-editorial"
+  ],
+  "backgrounds": [
+    "pure-white",
+    "home-interior",
+    "color-studio",
+    "lifestyle-location",
+    "natural-material"
+  ],
+  "platforms": [
+    "amazon-grocery",
+    "shopify",
+    "xiaohongshu",
+    "tiktok-shop",
+    "pinterest"
+  ],
+  "aspectRatios": [
+    "4:5",
+    "5:8"
+  ],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {
+    "referenceImages": 0,
+    "instructions": "No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU."
+  },
+  "productInvariants": [
+    "Preserve the matte cobalt block-bottom pouch, straight heat-sealed top, and acid-yellow stripe along the right front edge.",
+    "Preserve the large blank warm-cream oval label and the unprinted, unbranded packaging."
+  ],
+  "negativePrompt": "No readable packaging, logo, claim, coffee cup printed on pouch, altered stripe, extra bag, torn seal, transparent window, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.",
+  "variants": [
+    {
+      "id": "amazon-grocery-main-image",
+      "title": "AMAZON GROCERY MAIN IMAGE",
+      "useCase": "main-image",
+      "assetPurpose": "main-image",
+      "platforms": [
+        "amazon-grocery"
+      ],
+      "background": "pure-white",
+      "aspectRatio": "4:5",
+      "prompt": "Create one ultra-photorealistic portrait 4:5 Amazon Grocery main image of exactly one sealed premium coffee pouch. Product design: one fictional unbranded 340 g block-bottom whole-bean coffee pouch in matte cobalt-blue paper laminate, with a single acid-yellow vertical stripe along the right front edge, a large blank warm-cream oval label, a flat black one-way valve on the back, a straight heat-sealed top, and no printed words. Stand the pouch upright and front-facing on seamless pure #FFFFFF with a natural slight fill in the bag and no props or loose beans. Center the complete package with about 78% frame fill; keep the top seal, bottom gusset, stripe, and blank oval label fully visible. Use high-key softbox light, a narrow paper-edge highlight, controlled matte texture, and one restrained grounding shadow. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same cobalt block-bottom pouch, right-edge acid-yellow stripe, blank cream oval label, and sealed top. No readable packaging, logo, claim, coffee cup printed on pouch, altered stripe, extra bag, torn seal, transparent window, cup, beans, scoop, package dents, inflated balloon shape, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/grocery-cobalt-coffee-pouch/preview-1.png",
+        "alt": "Cobalt coffee pouch with yellow stripe on pure white",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "shopify-slow-morning-pourover",
+      "title": "SHOPIFY SLOW-MORNING POUR-OVER",
+      "useCase": "lifestyle-scene",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "shopify"
+      ],
+      "background": "home-interior",
+      "aspectRatio": "5:8",
+      "prompt": "Create one ultra-photorealistic portrait 5:8 Shopify lifestyle hero featuring exactly one sealed premium coffee pouch. Product design: one fictional unbranded 340 g block-bottom whole-bean coffee pouch in matte cobalt-blue paper laminate, with a single acid-yellow vertical stripe along the right front edge, a large blank warm-cream oval label, a flat black one-way valve on the back, a straight heat-sealed top, and no printed words. Place the upright pouch on a pale oak kitchen counter beside one glass pour-over dripper and a blank ivory cup while a thin stream of hot water enters the dripper from outside frame; keep steam subtle. Use an intimate eye-level view with the bag on the right third, its entire front visible, and soft negative space in the sunlit kitchen behind. Use gentle early-morning window light, warm wood bounce, cool cobalt shadow, and honest paper and glass texture. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same cobalt block-bottom pouch, right-edge acid-yellow stripe, blank cream oval label, and sealed top. No readable packaging, logo, claim, coffee cup printed on pouch, altered stripe, extra bag, torn seal, transparent window, readable labels, kettle body, extra bag, spilled grounds, excessive steam, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/grocery-cobalt-coffee-pouch/preview-2.png",
+        "alt": "Cobalt coffee pouch beside a morning pour-over",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "xiaohongshu-color-breakfast",
+      "title": "XIAOHONGSHU COLOR BREAKFAST",
+      "useCase": "social-ad",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "xiaohongshu"
+      ],
+      "background": "color-studio",
+      "aspectRatio": "4:5",
+      "prompt": "Create one bright ultra-photorealistic portrait 4:5 Xiaohongshu breakfast flat lay featuring exactly one premium coffee pouch. Product design: one fictional unbranded 340 g block-bottom whole-bean coffee pouch in matte cobalt-blue paper laminate, with a single acid-yellow vertical stripe along the right front edge, a large blank warm-cream oval label, a flat black one-way valve on the back, a straight heat-sealed top, and no printed words. Lay the sealed pouch diagonally on a matte coral table with one butter-yellow cup of black coffee, one small plate holding a single croissant, and a folded sky-blue napkin; keep every prop separated. Use an exact overhead view, bold graphic spacing, full package visibility, and mobile-first color balance. Use hard morning sun with crisp diagonal shadows, a soft white fill, and believable food texture without oversaturation. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same cobalt block-bottom pouch, right-edge acid-yellow stripe, blank cream oval label, and sealed top. No readable packaging, logo, claim, coffee cup printed on pouch, altered stripe, extra bag, torn seal, transparent window, hands, readable napkin, multiple pastries, latte art, crumbs over the label, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/grocery-cobalt-coffee-pouch/preview-3.png",
+        "alt": "Cobalt coffee pouch in a colorful breakfast flat lay",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "tiktok-roastery-flash",
+      "title": "TIKTOK SHOP ROASTERY FLASH",
+      "useCase": "social-ad",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "tiktok-shop"
+      ],
+      "background": "lifestyle-location",
+      "aspectRatio": "5:8",
+      "prompt": "Create one energetic ultra-photorealistic portrait 5:8 TikTok Shop roastery frame featuring exactly one premium coffee pouch and one adult barista. Product design: one fictional unbranded 340 g block-bottom whole-bean coffee pouch in matte cobalt-blue paper laminate, with a single acid-yellow vertical stripe along the right front edge, a large blank warm-cream oval label, a flat black one-way valve on the back, a straight heat-sealed top, and no printed words. An adult barista in a plain charcoal apron holds the sealed pouch toward camera inside a working micro-roastery; blurred copper roaster drums and warm practical lights remain behind. Use a close wide-angle perspective, natural hand grip below the blank label, slight background motion, and tack-sharp package details. Use direct flash mixed with warm industrial light for candid creator energy and truthful cobalt color. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same cobalt block-bottom pouch, right-edge acid-yellow stripe, blank cream oval label, and sealed top. No readable packaging, logo, claim, coffee cup printed on pouch, altered stripe, extra bag, torn seal, transparent window, readable signage, extra bag, gloves, distorted fingers, face obscured by pouch, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/grocery-cobalt-coffee-pouch/preview-4.png",
+        "alt": "Adult barista presenting a cobalt coffee pouch",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "pinterest-terracotta-still-life",
+      "title": "PINTEREST TERRACOTTA STILL LIFE",
+      "useCase": "branded-hero",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "pinterest"
+      ],
+      "background": "natural-material",
+      "aspectRatio": "5:8",
+      "prompt": "Create one save-worthy ultra-photorealistic portrait 5:8 Pinterest coffee still life featuring exactly one premium pouch. Product design: one fictional unbranded 340 g block-bottom whole-bean coffee pouch in matte cobalt-blue paper laminate, with a single acid-yellow vertical stripe along the right front edge, a large blank warm-cream oval label, a flat black one-way valve on the back, a straight heat-sealed top, and no printed words. Stand the sealed pouch on a rough terracotta slab with one small pile of glossy roasted beans and a low smoked-glass cup on a warm sand background; keep the label unobscured. Use a sculptural three-quarter arrangement, deep negative space, and strong cobalt–terracotta contrast with the bag dominant. Use raking late-afternoon sun, a narrow cool fill, crisp bean highlights, and tactile paper, clay, and glass surfaces. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same cobalt block-bottom pouch, right-edge acid-yellow stripe, blank cream oval label, and sealed top. No readable packaging, logo, claim, coffee cup printed on pouch, altered stripe, extra bag, torn seal, transparent window, coffee plant, burlap sack, multiple cups, large bean spill, vintage props, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/grocery-cobalt-coffee-pouch/preview-5.png",
+        "alt": "Cobalt coffee pouch on terracotta with roasted beans",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    }
+  ],
+  "author": {
+    "name": "Ecommerce GPT Image Prompts Studio",
+    "url": "https://github.com/ecomimagelab"
+  },
+  "source": {
+    "type": "original",
+    "url": null,
+    "permission": "repository-authored",
+    "notes": "Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.",
+    "references": [
+      {
+        "type": "visual-research",
+        "url": "docs/VISUAL_RESEARCH.md"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/buluslan/gpt-image2-ecommerce"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/motiful/product-shots"
+      }
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "platformPolicy": {
+    "status": "design-guidance-only",
+    "note": "Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.",
+    "reviewedAt": null,
+    "sources": []
+  },
+  "review": {
+    "status": "approved",
+    "rights": "reviewed",
+    "promptQuality": "reviewed",
+    "previewQuality": "reviewed",
+    "reviewedAt": "2026-07-22"
+  },
+  "featured": false,
+  "publishedAt": "2026-07-22",
+  "translations": {
+    "zh": {
+      "title": "钴蓝咖啡豆包装多平台套图",
+      "description": "围绕同一只钴蓝咖啡袋构建白底商品图、慢节奏手冲、彩色早餐创作、烘焙坊闪光和 Pinterest 图形静物。"
+    }
+  }
+}

@@ -38,9 +38,9 @@
 - **商品行业**
   - [汽车配件](#categories-automotive-accessories) · [箱包与配饰](#categories-bags-and-accessories) · [美妆与护肤](#categories-beauty) · [床品与家纺](#categories-bedding-and-textiles) · [消费电子](#categories-consumer-electronics) · [炊具](#categories-cookware) · [骑行](#categories-cycling) · [服装](#categories-fashion) · [健身与健康生活](#categories-fitness-and-wellness) · [食品与饮料](#categories-food-and-beverage) · [鞋履](#categories-footwear) · [园艺与花器](#categories-garden-and-planters) · [家居与家具](#categories-home-and-furniture) · [珠宝](#categories-jewelry) · [厨房电器](#categories-kitchen-appliances) · [户外装备](#categories-outdoor-gear) · [宠物用品](#categories-pet-supplies) · [文具与办公](#categories-stationery-and-office) · [茶饮与杂货](#categories-tea-and-grocery) · [玩具与儿童用品](#categories-toys-and-kids) · [旅行与箱包](#categories-travel-and-luggage) · [腕表](#categories-watches)
 - **使用场景**
-  - [品牌首图](#usecases-branded-hero) · [生活方式场景](#usecases-lifestyle-scene) · [平台主图](#usecases-main-image) · [目录商品图](#usecases-catalog-image) · [社交电商广告](#usecases-social-ad) · [功能卖点图](#usecases-feature-callout) · [细节与微距](#usecases-detail-macro) · [模特上身](#usecases-on-model)
+  - [品牌首图](#usecases-branded-hero) · [生活方式场景](#usecases-lifestyle-scene) · [平台主图](#usecases-main-image) · [社交电商广告](#usecases-social-ad) · [目录商品图](#usecases-catalog-image) · [细节与微距](#usecases-detail-macro) · [功能卖点图](#usecases-feature-callout) · [模特上身](#usecases-on-model)
 - **电商平台**
-  - [Pinterest](#platforms-pinterest) · [Shopify](#platforms-shopify) · [Amazon](#platforms-amazon) · [Instagram Shop](#platforms-instagram-shop) · [小红书](#platforms-xiaohongshu) · [TikTok Shop](#platforms-tiktok-shop) · [天猫](#platforms-tmall) · [Amazon Home](#platforms-amazon-home) · [Etsy](#platforms-etsy) · [天猫奢品](#platforms-tmall-luxury) · [Amazon Fashion](#platforms-amazon-fashion) · [Wayfair](#platforms-wayfair) · [Amazon A+](#platforms-amazon-a-plus) · [Amazon Grocery](#platforms-amazon-grocery) · [Amazon Sports](#platforms-amazon-sports) · [Best Buy](#platforms-best-buy) · [Chewy](#platforms-chewy) · [Chrono24](#platforms-chrono24) · [迪卡侬](#platforms-decathlon) · [Deliveroo](#platforms-deliveroo) · [DoorDash](#platforms-doordash) · [eBay](#platforms-ebay) · [Farfetch](#platforms-farfetch) · [京东](#platforms-jd) · [美团](#platforms-meituan) · [户外零售](#platforms-outdoor-retail) · [Sephora](#platforms-sephora) · [Shopee](#platforms-shopee) · [Uber Eats](#platforms-uber-eats)
+  - [Pinterest](#platforms-pinterest) · [Shopify](#platforms-shopify) · [Instagram Shop](#platforms-instagram-shop) · [Amazon](#platforms-amazon) · [小红书](#platforms-xiaohongshu) · [TikTok Shop](#platforms-tiktok-shop) · [Etsy](#platforms-etsy) · [Amazon Home](#platforms-amazon-home) · [天猫](#platforms-tmall) · [天猫奢品](#platforms-tmall-luxury) · [Amazon Fashion](#platforms-amazon-fashion) · [Amazon Sports](#platforms-amazon-sports) · [Wayfair](#platforms-wayfair) · [Amazon Grocery](#platforms-amazon-grocery) · [Best Buy](#platforms-best-buy) · [Chewy](#platforms-chewy) · [Farfetch](#platforms-farfetch) · [Sephora](#platforms-sephora) · [Amazon A+](#platforms-amazon-a-plus) · [Chrono24](#platforms-chrono24) · [迪卡侬](#platforms-decathlon) · [Deliveroo](#platforms-deliveroo) · [DoorDash](#platforms-doordash) · [eBay](#platforms-ebay) · [京东](#platforms-jd) · [美团](#platforms-meituan) · [户外零售](#platforms-outdoor-retail) · [Shopee](#platforms-shopee) · [Uber Eats](#platforms-uber-eats)
 
 ---
 
@@ -82,10 +82,10 @@
 
 | 指标 | 数量 |
 |---|---:|
-| 提示词总数 | **80** |
-| 商品系列 | **27** |
+| 提示词总数 | **130** |
+| 商品系列 | **37** |
 | ⭐ 精选提示词 | **6** |
-| 生成预览图 | **80** |
+| 生成预览图 | **130** |
 | 商品行业 | **22** |
 | 电商平台 | **29** |
 | 最后更新 | **2026-07-22** |
@@ -497,19 +497,3327 @@ Quality and safety constraints: no readable text, no logo, no watermark, no extr
 
 > 按发布日期从新到旧排列。
 
-<a id="categories-home-and-furniture"></a>
+<a id="categories-fitness-and-wellness"></a>
 
 <a id="usecases-main-image"></a>
 
-<a id="platforms-amazon-home"></a>
+<a id="platforms-amazon-sports"></a>
 
 <a id="platforms-shopify"></a>
 
+<a id="platforms-tiktok-shop"></a>
+
+<a id="platforms-xiaohongshu"></a>
+
 <a id="platforms-pinterest"></a>
+
+<a id="prompt-ec-0037-amazon-sports-mat-main"></a>
+
+### No. 1: 健身与健康生活 — 云杉绿软木瑜伽垫多平台套图: AMAZON SPORTS MAT MAIN
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon Sports](https://img.shields.io/badge/Platform-Amazon_Sports-6857ff)
+
+#### 描述
+
+让同一张云杉绿天然橡胶瑜伽垫在白底零售、建筑康养、动感训练、安静居家练习和沙漠 Pinterest 旅修中保持一致。
+
+**平台主图 · Amazon Sports · 4:5**
+
+#### 提示词
+
+```text
+Create one ultra-photorealistic portrait 4:5 Amazon Sports main image of exactly one premium yoga mat and its carry strap. Product design: one fictional unbranded premium yoga mat with a deep spruce-green natural-rubber top, fine diagonal anti-slip microtexture, a thin burnt-orange double-line geometry near each short end with no letters, a warm natural-cork underside, and one detachable charcoal woven carry strap with a single orange bar-tack stitch. Roll two-thirds of the mat into a clean cylinder while leaving one short section unfurled to reveal the spruce top, orange line geometry, and a narrow curl of cork underside; wrap the charcoal strap loosely around the roll. Center the complete product on seamless pure #FFFFFF with about 76% frame fill and every material clearly visible. Use broad high-key softboxes, restrained rubber and cork texture, and a natural soft grounding shadow. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same spruce rubber top, diagonal grip, orange end geometry, cork underside, and charcoal strap with one orange bar tack. No brand word, logo, alignment marks with letters, extra mat, foam texture, changed color, missing cork, extra strap, unsafe pose, person, blocks, bottle, towel, packaging, levitating roll, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Spruce yoga mat with cork underside and carry strap on white](assets/prompts/wellness-spruce-cork-yoga-mat/preview-1.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** Amazon Sports
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 健身与健康生活 | 平台主图 | 4:5 |
+
+- **视觉风格:** 建筑感, 静谧生活, 户外机能
+- **背景类型:** 纯白背景
+- **素材用途:** 平台主图
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve the deep spruce rubber top, diagonal grip microtexture, and thin burnt-orange double-line geometry near both short ends.
+  - Preserve the warm cork underside and detachable charcoal woven strap with one orange bar-tack stitch.
+- **负面约束:** No brand word, logo, alignment marks with letters, extra mat, foam texture, changed color, missing cork, extra strap, unsafe pose, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0037](data/prompts/ec-0037-spruce-cork-yoga-mat-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="usecases-branded-hero"></a>
+
+<a id="prompt-ec-0037-shopify-architectural-studio"></a>
+
+### No. 2: 健身与健康生活 — 云杉绿软木瑜伽垫多平台套图: SHOPIFY ARCHITECTURAL STUDIO
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Shopify](https://img.shields.io/badge/Platform-Shopify-6857ff)
+
+#### 描述
+
+让同一张云杉绿天然橡胶瑜伽垫在白底零售、建筑康养、动感训练、安静居家练习和沙漠 Pinterest 旅修中保持一致。
+
+**品牌首图 · Shopify · 5:8**
+
+#### 提示词
+
+```text
+Create one ultra-photorealistic portrait 5:8 Shopify wellness hero featuring exactly one premium yoga mat. Product design: one fictional unbranded premium yoga mat with a deep spruce-green natural-rubber top, fine diagonal anti-slip microtexture, a thin burnt-orange double-line geometry near each short end with no letters, a warm natural-cork underside, and one detachable charcoal woven carry strap with a single orange bar-tack stitch. Unroll the mat fully on pale limestone in a quiet vaulted studio with warm-ivory limewash walls and one tall arched window; place the folded charcoal strap beyond the top edge of the mat. Use a low diagonal wide view that shows both orange end geometries, spruce texture, a slim cork edge, realistic scale, and generous vertical architecture. Use soft morning sun, long curved shadows, calm warm bounce, and natural material contrast. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same spruce rubber top, diagonal grip, orange end geometry, cork underside, and charcoal strap with one orange bar tack. No brand word, logo, alignment marks with letters, extra mat, foam texture, changed color, missing cork, extra strap, unsafe pose, person, yoga props, plants, mirrors, impossible oversized mat, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Spruce yoga mat in a vaulted architectural wellness studio](assets/prompts/wellness-spruce-cork-yoga-mat/preview-2.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** Shopify
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 健身与健康生活 | 品牌首图 | 5:8 |
+
+- **视觉风格:** 建筑感, 静谧生活, 户外机能
+- **背景类型:** 家居空间
+- **素材用途:** 品牌首图
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve the deep spruce rubber top, diagonal grip microtexture, and thin burnt-orange double-line geometry near both short ends.
+  - Preserve the warm cork underside and detachable charcoal woven strap with one orange bar-tack stitch.
+- **负面约束:** No brand word, logo, alignment marks with letters, extra mat, foam texture, changed color, missing cork, extra strap, unsafe pose, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0037](data/prompts/ec-0037-spruce-cork-yoga-mat-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="usecases-on-model"></a>
+
+<a id="prompt-ec-0037-tiktok-power-flow"></a>
+
+### No. 3: 健身与健康生活 — 云杉绿软木瑜伽垫多平台套图: TIKTOK SHOP POWER FLOW
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-TikTok Shop](https://img.shields.io/badge/Platform-TikTok_Shop-6857ff)
+
+#### 描述
+
+让同一张云杉绿天然橡胶瑜伽垫在白底零售、建筑康养、动感训练、安静居家练习和沙漠 Pinterest 旅修中保持一致。
+
+**模特上身 · TikTok Shop · 5:8**
+
+#### 提示词
+
+```text
+Create one energetic ultra-photorealistic portrait 5:8 TikTok Shop fitness frame featuring exactly one premium yoga mat and one adult practitioner. Product design: one fictional unbranded premium yoga mat with a deep spruce-green natural-rubber top, fine diagonal anti-slip microtexture, a thin burnt-orange double-line geometry near each short end with no letters, a warm natural-cork underside, and one detachable charcoal woven carry strap with a single orange bar-tack stitch. An athletic adult woman performs a stable high lunge on the fully unrolled mat in a raw concrete studio, wearing a plain cobalt training set; the carry strap rests beyond the mat. Use a low wide-angle view showing her complete safe pose, the mat's full width, both orange end lines, spruce grip, and a cork edge without product obstruction. Use direct flash mixed with hard side sunlight, a clean moving shadow, natural skin texture, and strong creator energy. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same spruce rubber top, diagonal grip, orange end geometry, cork underside, and charcoal strap with one orange bar tack. No brand word, logo, alignment marks with letters, extra mat, foam texture, changed color, missing cork, extra strap, unsafe pose, extreme flexibility, unsafe balance, extra person, logo clothing, distorted limbs, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Adult practitioner performing a high lunge on a spruce yoga mat](assets/prompts/wellness-spruce-cork-yoga-mat/preview-3.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** TikTok Shop
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 健身与健康生活 | 模特上身 | 5:8 |
+
+- **视觉风格:** 建筑感, 静谧生活, 户外机能
+- **背景类型:** 生活方式实景
+- **素材用途:** 社交创意
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve the deep spruce rubber top, diagonal grip microtexture, and thin burnt-orange double-line geometry near both short ends.
+  - Preserve the warm cork underside and detachable charcoal woven strap with one orange bar-tack stitch.
+- **负面约束:** No brand word, logo, alignment marks with letters, extra mat, foam texture, changed color, missing cork, extra strap, unsafe pose, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0037](data/prompts/ec-0037-spruce-cork-yoga-mat-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="usecases-lifestyle-scene"></a>
+
+<a id="prompt-ec-0037-xiaohongshu-sunrise-stretch"></a>
+
+### No. 4: 健身与健康生活 — 云杉绿软木瑜伽垫多平台套图: XIAOHONGSHU SUNRISE STRETCH
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-小红书](https://img.shields.io/badge/Platform-%E5%B0%8F%E7%BA%A2%E4%B9%A6-6857ff)
+
+#### 描述
+
+让同一张云杉绿天然橡胶瑜伽垫在白底零售、建筑康养、动感训练、安静居家练习和沙漠 Pinterest 旅修中保持一致。
+
+**生活方式场景 · 小红书 · 4:5**
+
+#### 提示词
+
+```text
+Create one calm ultra-photorealistic portrait 4:5 Xiaohongshu home-wellness image featuring exactly one premium yoga mat and one adult practitioner. Product design: one fictional unbranded premium yoga mat with a deep spruce-green natural-rubber top, fine diagonal anti-slip microtexture, a thin burnt-orange double-line geometry near each short end with no letters, a warm natural-cork underside, and one detachable charcoal woven carry strap with a single orange bar-tack stitch. An adult East Asian woman in a loose ivory tee and clay-colored leggings sits in a simple side stretch on the fully unrolled mat beside a large apartment window; place one plain ceramic cup far behind. Use an intimate eye-level crop with her complete torso and arms, safe natural anatomy, both orange mat lines, spruce texture, and the cork edge visible. Use pale sunrise light, soft peach wall reflection, gentle direct-flash lift, and truthful quiet-morning texture. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same spruce rubber top, diagonal grip, orange end geometry, cork underside, and charcoal strap with one orange bar tack. No brand word, logo, alignment marks with letters, extra mat, foam texture, changed color, missing cork, extra strap, unsafe pose, bedroom clutter, incense smoke, extra mat, brand clothing, distorted hands, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Adult woman stretching on a spruce yoga mat at sunrise](assets/prompts/wellness-spruce-cork-yoga-mat/preview-4.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** 小红书
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 健身与健康生活 | 生活方式场景 | 4:5 |
+
+- **视觉风格:** 建筑感, 静谧生活, 户外机能
+- **背景类型:** 家居空间
+- **素材用途:** 社交创意
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve the deep spruce rubber top, diagonal grip microtexture, and thin burnt-orange double-line geometry near both short ends.
+  - Preserve the warm cork underside and detachable charcoal woven strap with one orange bar-tack stitch.
+- **负面约束:** No brand word, logo, alignment marks with letters, extra mat, foam texture, changed color, missing cork, extra strap, unsafe pose, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0037](data/prompts/ec-0037-spruce-cork-yoga-mat-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="usecases-social-ad"></a>
+
+<a id="prompt-ec-0037-pinterest-desert-retreat"></a>
+
+### No. 5: 健身与健康生活 — 云杉绿软木瑜伽垫多平台套图: PINTEREST DESERT RETREAT
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Pinterest](https://img.shields.io/badge/Platform-Pinterest-6857ff)
+
+#### 描述
+
+让同一张云杉绿天然橡胶瑜伽垫在白底零售、建筑康养、动感训练、安静居家练习和沙漠 Pinterest 旅修中保持一致。
+
+**社交电商广告 · Pinterest · 5:8**
+
+#### 提示词
+
+```text
+Create one save-worthy ultra-photorealistic portrait 5:8 Pinterest wellness-retreat image featuring exactly one premium yoga mat. Product design: one fictional unbranded premium yoga mat with a deep spruce-green natural-rubber top, fine diagonal anti-slip microtexture, a thin burnt-orange double-line geometry near each short end with no letters, a warm natural-cork underside, and one detachable charcoal woven carry strap with a single orange bar-tack stitch. Unroll the empty mat across a flat honed-travertine terrace overlooking soft ochre desert hills at first light; coil the charcoal strap near one corner and add no person or prop. Use a slightly elevated long-lens view showing the complete mat, both orange end lines, spruce surface, cork edge, and vast layered landscape. Use low golden sunrise, cool lavender shadows, crisp natural textures, and quiet aspirational travel color. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same spruce rubber top, diagonal grip, orange end geometry, cork underside, and charcoal strap with one orange bar tack. No brand word, logo, alignment marks with letters, extra mat, foam texture, changed color, missing cork, extra strap, unsafe pose, cactus touching mat, pool, person, bottle, dramatic sun flare, floating mat, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Spruce yoga mat on a quiet desert retreat terrace](assets/prompts/wellness-spruce-cork-yoga-mat/preview-5.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** Pinterest
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 健身与健康生活 | 社交电商广告 | 5:8 |
+
+- **视觉风格:** 建筑感, 静谧生活, 户外机能
+- **背景类型:** 户外实景
+- **素材用途:** 社交创意
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve the deep spruce rubber top, diagonal grip microtexture, and thin burnt-orange double-line geometry near both short ends.
+  - Preserve the warm cork underside and detachable charcoal woven strap with one orange bar-tack stitch.
+- **负面约束:** No brand word, logo, alignment marks with letters, extra mat, foam texture, changed color, missing cork, extra strap, unsafe pose, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0037](data/prompts/ec-0037-spruce-cork-yoga-mat-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="categories-home-and-furniture"></a>
+
+<a id="platforms-amazon-home"></a>
+
+<a id="platforms-etsy"></a>
+
+<a id="platforms-instagram-shop"></a>
+
+<a id="prompt-ec-0036-amazon-home-candle-main"></a>
+
+### No. 6: 家居与家具 — 烟梅色香薰蜡烛多平台套图: AMAZON HOME CANDLE MAIN
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon Home](https://img.shields.io/badge/Platform-Amazon_Home-6857ff)
+
+#### 描述
+
+围绕同一只烟梅色三芯蜡烛构建白底零售、手工灌蜡、暗调 SPA、闪光晚宴和 Pinterest 色块艺术。
+
+**平台主图 · Amazon Home · 4:5**
+
+#### 提示词
+
+```text
+Create one ultra-photorealistic portrait 4:5 Amazon Home main image of exactly one premium candle and its matching lid. Product design: one fictional unbranded wide cylindrical hand-blown candle vessel in translucent smoky-plum glass with a thick rounded clear-plum foot, smooth warm-ivory wax, exactly three evenly spaced cotton wicks, and one removable flat matte-champagne metal lid with a centered circular oxblood enamel inset; no label. Place the unlit candle upright on seamless pure #FFFFFF with all three clean wicks visible; lean the matching lid beside it with the oxblood inset facing camera. Use a centered front three-quarter view, show the complete vessel, foot, wax surface, and lid, and fill about 76% of frame. Use broad high-key softboxes, controlled plum-glass refraction, a clean metal highlight, and restrained grounding shadows. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same wide smoky-plum vessel, thick rounded foot, ivory wax, three-wick layout, and champagne lid with centered oxblood inset. No label, readable text, logo, single wick, four wicks, colored wax, extra candle, deformed glass, soot-black vessel, unsafe flame, flame, packaging, matches, flowers, duplicate lid, wax spill, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Smoky-plum three-wick candle and lid on pure white](assets/prompts/home-smoky-plum-candle/preview-1.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** Amazon Home
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 家居与家具 | 平台主图 | 4:5 |
+
+- **视觉风格:** 手作质感, 暗调氛围, 明亮活泼
+- **背景类型:** 纯白背景
+- **素材用途:** 平台主图
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve the wide smoky-plum hand-blown glass cylinder, thick rounded clear-plum foot, and smooth ivory wax with exactly three cotton wicks.
+  - Preserve the flat matte-champagne lid with one centered circular oxblood enamel inset and no label.
+- **负面约束:** No label, readable text, logo, single wick, four wicks, colored wax, extra candle, deformed glass, soot-black vessel, unsafe flame, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0036](data/prompts/ec-0036-smoky-plum-candle-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="usecases-detail-macro"></a>
+
+<a id="prompt-ec-0036-etsy-hand-poured-detail"></a>
+
+### No. 7: 家居与家具 — 烟梅色香薰蜡烛多平台套图: ETSY HAND-POURED DETAIL
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Etsy](https://img.shields.io/badge/Platform-Etsy-6857ff)
+
+#### 描述
+
+围绕同一只烟梅色三芯蜡烛构建白底零售、手工灌蜡、暗调 SPA、闪光晚宴和 Pinterest 色块艺术。
+
+**细节与微距 · Etsy · 5:8**
+
+#### 提示词
+
+```text
+Create one tactile ultra-photorealistic portrait 5:8 Etsy maker-story photograph of exactly one finished premium candle and its lid. Product design: one fictional unbranded wide cylindrical hand-blown candle vessel in translucent smoky-plum glass with a thick rounded clear-plum foot, smooth warm-ivory wax, exactly three evenly spaced cotton wicks, and one removable flat matte-champagne metal lid with a centered circular oxblood enamel inset; no label. Set the unlit candle on a worn maple pouring bench with the lid flat behind it, one folded flax cloth, and a tiny ivory wax shaving far to the side. Use a close elevated three-quarter view showing the three centered wicks, smooth wax, hand-blown glass variation, thick foot, lid inset, and honest craft details. Use warm north-window light, a cool glass rim, and nuanced wood, linen, wax, glass, and metal texture. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same wide smoky-plum vessel, thick rounded foot, ivory wax, three-wick layout, and champagne lid with centered oxblood inset. No label, readable text, logo, single wick, four wicks, colored wax, extra candle, deformed glass, soot-black vessel, unsafe flame, pouring pot, liquid wax, human, extra vessel, messy workshop, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Smoky-plum candle on a hand-poured maker bench](assets/prompts/home-smoky-plum-candle/preview-2.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** Etsy
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 家居与家具 | 细节与微距 | 5:8 |
+
+- **视觉风格:** 手作质感, 暗调氛围, 明亮活泼
+- **背景类型:** 天然材质
+- **素材用途:** 商品副图
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve the wide smoky-plum hand-blown glass cylinder, thick rounded clear-plum foot, and smooth ivory wax with exactly three cotton wicks.
+  - Preserve the flat matte-champagne lid with one centered circular oxblood enamel inset and no label.
+- **负面约束:** No label, readable text, logo, single wick, four wicks, colored wax, extra candle, deformed glass, soot-black vessel, unsafe flame, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0036](data/prompts/ec-0036-smoky-plum-candle-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="prompt-ec-0036-shopify-midnight-spa"></a>
+
+### No. 8: 家居与家具 — 烟梅色香薰蜡烛多平台套图: SHOPIFY MIDNIGHT SPA
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Shopify](https://img.shields.io/badge/Platform-Shopify-6857ff)
+
+#### 描述
+
+围绕同一只烟梅色三芯蜡烛构建白底零售、手工灌蜡、暗调 SPA、闪光晚宴和 Pinterest 色块艺术。
+
+**品牌首图 · Shopify · 5:8**
+
+#### 提示词
+
+```text
+Create one cinematic ultra-photorealistic portrait 5:8 Shopify home-fragrance hero featuring exactly one premium candle. Product design: one fictional unbranded wide cylindrical hand-blown candle vessel in translucent smoky-plum glass with a thick rounded clear-plum foot, smooth warm-ivory wax, exactly three evenly spaced cotton wicks, and one removable flat matte-champagne metal lid with a centered circular oxblood enamel inset; no label. Light all three wicks and place the candle on a honed charcoal-stone shelf against a midnight aubergine plaster wall; rest the closed lid behind the vessel and add no other product. Use a low intimate three-quarter angle with the complete candle and lid visible, a controlled reflection, and deep negative space. Balance the three warm flames with a cool violet edge and subtle reflected glow through smoky-plum glass, retaining detail without heavy haze. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same wide smoky-plum vessel, thick rounded foot, ivory wax, three-wick layout, and champagne lid with centered oxblood inset. No label, readable text, logo, single wick, four wicks, colored wax, extra candle, deformed glass, soot-black vessel, unsafe flame, bath tub, towel stack, flowers, smoke plume, overexposed flames, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Lit smoky-plum candle in a dark midnight spa setting](assets/prompts/home-smoky-plum-candle/preview-3.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** Shopify
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 家居与家具 | 品牌首图 | 5:8 |
+
+- **视觉风格:** 手作质感, 暗调氛围, 明亮活泼
+- **背景类型:** 暗调影棚
+- **素材用途:** 品牌首图
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve the wide smoky-plum hand-blown glass cylinder, thick rounded clear-plum foot, and smooth ivory wax with exactly three cotton wicks.
+  - Preserve the flat matte-champagne lid with one centered circular oxblood enamel inset and no label.
+- **负面约束:** No label, readable text, logo, single wick, four wicks, colored wax, extra candle, deformed glass, soot-black vessel, unsafe flame, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0036](data/prompts/ec-0036-smoky-plum-candle-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="prompt-ec-0036-instagram-evening-table"></a>
+
+### No. 9: 家居与家具 — 烟梅色香薰蜡烛多平台套图: INSTAGRAM SHOP EVENING TABLE
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Instagram Shop](https://img.shields.io/badge/Platform-Instagram_Shop-6857ff)
+
+#### 描述
+
+围绕同一只烟梅色三芯蜡烛构建白底零售、手工灌蜡、暗调 SPA、闪光晚宴和 Pinterest 色块艺术。
+
+**社交电商广告 · Instagram Shop · 4:5**
+
+#### 提示词
+
+```text
+Create one polished ultra-photorealistic portrait 4:5 Instagram Shop evening-table image featuring exactly one premium candle. Product design: one fictional unbranded wide cylindrical hand-blown candle vessel in translucent smoky-plum glass with a thick rounded clear-plum foot, smooth warm-ivory wax, exactly three evenly spaced cotton wicks, and one removable flat matte-champagne metal lid with a centered circular oxblood enamel inset; no label. Light all three wicks on a glossy oxblood side table beside one ribbed water glass and the matching lid; an adult hand enters only to set down the glass without touching the candle. Use a close direct-flash crop, keep the vessel, three flames, thick foot, and lid inset sharp, and leave the hand natural and secondary. Mix direct flash with warm candle glow and a cool blue evening background for spontaneous luxury-social energy. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same wide smoky-plum vessel, thick rounded foot, ivory wax, three-wick layout, and champagne lid with centered oxblood inset. No label, readable text, logo, single wick, four wicks, colored wax, extra candle, deformed glass, soot-black vessel, unsafe flame, face, alcohol, jewelry, distorted fingers, extra candle, unsafe hand near flame, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Lit smoky-plum candle on a flash-lit evening table](assets/prompts/home-smoky-plum-candle/preview-4.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** Instagram Shop
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 家居与家具 | 社交电商广告 | 4:5 |
+
+- **视觉风格:** 手作质感, 暗调氛围, 明亮活泼
+- **背景类型:** 生活方式实景
+- **素材用途:** 社交创意
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve the wide smoky-plum hand-blown glass cylinder, thick rounded clear-plum foot, and smooth ivory wax with exactly three cotton wicks.
+  - Preserve the flat matte-champagne lid with one centered circular oxblood enamel inset and no label.
+- **负面约束:** No label, readable text, logo, single wick, four wicks, colored wax, extra candle, deformed glass, soot-black vessel, unsafe flame, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0036](data/prompts/ec-0036-smoky-plum-candle-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="prompt-ec-0036-pinterest-plum-apricot-art"></a>
+
+### No. 10: 家居与家具 — 烟梅色香薰蜡烛多平台套图: PINTEREST PLUM-APRICOT ART
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Pinterest](https://img.shields.io/badge/Platform-Pinterest-6857ff)
+
+#### 描述
+
+围绕同一只烟梅色三芯蜡烛构建白底零售、手工灌蜡、暗调 SPA、闪光晚宴和 Pinterest 色块艺术。
+
+**生活方式场景 · Pinterest · 5:8**
+
+#### 提示词
+
+```text
+Create one save-worthy ultra-photorealistic portrait 5:8 Pinterest home-fragrance still life with exactly one premium candle and lid. Product design: one fictional unbranded wide cylindrical hand-blown candle vessel in translucent smoky-plum glass with a thick rounded clear-plum foot, smooth warm-ivory wax, exactly three evenly spaced cotton wicks, and one removable flat matte-champagne metal lid with a centered circular oxblood enamel inset; no label. Place the unlit candle on a low matte apricot cylinder, balance the lid flat on a lower dusty-lilac slab, and cast one large curved burgundy shadow across a pale peach wall. Use a sculptural vertical composition, full product visibility, graphic negative space, and crisp separation of vessel and lid. Use hard studio sun, soft lavender fill, rich plum–apricot color harmony, and precise glass and metal highlights. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same wide smoky-plum vessel, thick rounded foot, ivory wax, three-wick layout, and champagne lid with centered oxblood inset. No label, readable text, logo, single wick, four wicks, colored wax, extra candle, deformed glass, soot-black vessel, unsafe flame, fruit, flowers, text graphics, floating lid, extra pedestal clutter, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Smoky-plum candle on an apricot and lilac color-block set](assets/prompts/home-smoky-plum-candle/preview-5.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** Pinterest
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 家居与家具 | 生活方式场景 | 5:8 |
+
+- **视觉风格:** 手作质感, 暗调氛围, 明亮活泼
+- **背景类型:** 彩色影棚
+- **素材用途:** 社交创意
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve the wide smoky-plum hand-blown glass cylinder, thick rounded clear-plum foot, and smooth ivory wax with exactly three cotton wicks.
+  - Preserve the flat matte-champagne lid with one centered circular oxblood enamel inset and no label.
+- **负面约束:** No label, readable text, logo, single wick, four wicks, colored wax, extra candle, deformed glass, soot-black vessel, unsafe flame, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0036](data/prompts/ec-0036-smoky-plum-candle-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="categories-cookware"></a>
+
+<a id="prompt-ec-0035-amazon-home-knife-main"></a>
+
+### No. 11: 炊具 — 烟熏橡木柄主厨刀多平台套图: AMAZON HOME KNIFE MAIN
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon Home](https://img.shields.io/badge/Platform-Amazon_Home-6857ff)
+
+#### 描述
+
+让同一把烟熏橡木柄主厨刀呈现为白底零售、黑石广告、刀匠溯源、食谱大片和安全的社交烹饪瞬间。
+
+**平台主图 · Amazon Home · 4:5**
+
+#### 提示词
+
+```text
+Create one ultra-photorealistic portrait 4:5 Amazon Home main image of exactly one premium chef knife. Product design: one fictional unbranded 8-inch chef knife with a broad gently curved high-carbon steel blade, a dark hand-hammered upper blade fading into a clean satin lower bevel, a narrow warm-brass bolster, and an octagonal smoked-oak handle secured by exactly three small flush brass pins. Lay the clean dry knife diagonally on seamless pure #FFFFFF with blade pointing upper left and handle lower right; include no sheath, food, or props. Use an exact slightly elevated view with the complete tip, edge, bolster, handle, and all three pins visible, filling about 78% of frame. Use broad high-key light, a long controlled steel reflection, crisp hammered texture, and one soft contact shadow. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same broad curved blade, hammered dark upper, satin bevel, brass bolster, octagonal smoked-oak handle, and three brass pins. No brand engraving, letters, serration, cleaver shape, Damascus swirl, extra pin, plastic handle, extra knife, damaged edge, unsafe blade contact, upright floating knife, cutting board, fingerprints, blade glare hiding the bevel, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Smoked-oak chef knife on pure white](assets/prompts/cookware-smoked-oak-chef-knife/preview-1.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** Amazon Home
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 炊具 | 平台主图 | 4:5 |
+
+- **视觉风格:** 暗调氛围, 手作质感, 美食编辑
+- **背景类型:** 纯白背景
+- **素材用途:** 平台主图
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve the broad 8-inch gently curved blade, dark hand-hammered upper section, and clean satin lower bevel.
+  - Preserve the narrow warm-brass bolster and octagonal smoked-oak handle with exactly three flush brass pins.
+- **负面约束:** No brand engraving, letters, serration, cleaver shape, Damascus swirl, extra pin, plastic handle, extra knife, damaged edge, unsafe blade contact, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0035](data/prompts/ec-0035-smoked-oak-chef-knife-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="prompt-ec-0035-shopify-black-stone-hero"></a>
+
+### No. 12: 炊具 — 烟熏橡木柄主厨刀多平台套图: SHOPIFY BLACK-STONE HERO
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Shopify](https://img.shields.io/badge/Platform-Shopify-6857ff)
+
+#### 描述
+
+让同一把烟熏橡木柄主厨刀呈现为白底零售、黑石广告、刀匠溯源、食谱大片和安全的社交烹饪瞬间。
+
+**品牌首图 · Shopify · 5:8**
+
+#### 提示词
+
+```text
+Create one cinematic ultra-photorealistic portrait 5:8 Shopify kitchen hero featuring exactly one premium chef knife. Product design: one fictional unbranded 8-inch chef knife with a broad gently curved high-carbon steel blade, a dark hand-hammered upper blade fading into a clean satin lower bevel, a narrow warm-brass bolster, and an octagonal smoked-oak handle secured by exactly three small flush brass pins. Rest the knife across a split black-basalt block with one halved deep-purple shallot far behind on a charcoal plaster set; the dry blade never touches the food. Use a low close three-quarter angle with the full knife visible, blade profile dominant, and refined negative space above. Use a cool steel edge light, a warm brass accent, deep open shadows, and a restrained oxblood bounce from the shallot. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same broad curved blade, hammered dark upper, satin bevel, brass bolster, octagonal smoked-oak handle, and three brass pins. No brand engraving, letters, serration, cleaver shape, Damascus swirl, extra pin, plastic handle, extra knife, damaged edge, unsafe blade contact, flames, smoke, blood-like liquid, multiple ingredients, wet blade, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Smoked-oak chef knife on a black basalt campaign set](assets/prompts/cookware-smoked-oak-chef-knife/preview-2.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** Shopify
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 炊具 | 品牌首图 | 5:8 |
+
+- **视觉风格:** 暗调氛围, 手作质感, 美食编辑
+- **背景类型:** 暗调影棚
+- **素材用途:** 品牌首图
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve the broad 8-inch gently curved blade, dark hand-hammered upper section, and clean satin lower bevel.
+  - Preserve the narrow warm-brass bolster and octagonal smoked-oak handle with exactly three flush brass pins.
+- **负面约束:** No brand engraving, letters, serration, cleaver shape, Damascus swirl, extra pin, plastic handle, extra knife, damaged edge, unsafe blade contact, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0035](data/prompts/ec-0035-smoked-oak-chef-knife-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="prompt-ec-0035-etsy-bladesmith-provenance"></a>
+
+### No. 13: 炊具 — 烟熏橡木柄主厨刀多平台套图: ETSY BLADESMITH PROVENANCE
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Etsy](https://img.shields.io/badge/Platform-Etsy-6857ff)
+
+#### 描述
+
+让同一把烟熏橡木柄主厨刀呈现为白底零售、黑石广告、刀匠溯源、食谱大片和安全的社交烹饪瞬间。
+
+**细节与微距 · Etsy · 5:8**
+
+#### 提示词
+
+```text
+Create one tactile ultra-photorealistic portrait 5:8 Etsy bladesmith story featuring exactly one finished premium chef knife. Product design: one fictional unbranded 8-inch chef knife with a broad gently curved high-carbon steel blade, a dark hand-hammered upper blade fading into a clean satin lower bevel, a narrow warm-brass bolster, and an octagonal smoked-oak handle secured by exactly three small flush brass pins. Place the knife on a worn leather pad over an old maple workbench with one curled brass shaving and one small smoked-oak offcut in soft background. Use an elevated close view showing the complete knife, hammered steel, satin bevel transition, brass bolster, oak facets, and exactly three pins. Use warm north-window light, a narrow cool steel rim, and honest micro-scratches without making the knife look used. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same broad curved blade, hammered dark upper, satin bevel, brass bolster, octagonal smoked-oak handle, and three brass pins. No brand engraving, letters, serration, cleaver shape, Damascus swirl, extra pin, plastic handle, extra knife, damaged edge, unsafe blade contact, hammer, forge, sparks, unfinished blade, human, multiple knives, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Finished chef knife on a tactile bladesmith workbench](assets/prompts/cookware-smoked-oak-chef-knife/preview-3.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** Etsy
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 炊具 | 细节与微距 | 5:8 |
+
+- **视觉风格:** 暗调氛围, 手作质感, 美食编辑
+- **背景类型:** 天然材质
+- **素材用途:** 商品副图
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve the broad 8-inch gently curved blade, dark hand-hammered upper section, and clean satin lower bevel.
+  - Preserve the narrow warm-brass bolster and octagonal smoked-oak handle with exactly three flush brass pins.
+- **负面约束:** No brand engraving, letters, serration, cleaver shape, Damascus swirl, extra pin, plastic handle, extra knife, damaged edge, unsafe blade contact, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0035](data/prompts/ec-0035-smoked-oak-chef-knife-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="prompt-ec-0035-pinterest-herb-prep-overhead"></a>
+
+### No. 14: 炊具 — 烟熏橡木柄主厨刀多平台套图: PINTEREST HERB-PREP OVERHEAD
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Pinterest](https://img.shields.io/badge/Platform-Pinterest-6857ff)
+
+#### 描述
+
+让同一把烟熏橡木柄主厨刀呈现为白底零售、黑石广告、刀匠溯源、食谱大片和安全的社交烹饪瞬间。
+
+**生活方式场景 · Pinterest · 4:5**
+
+#### 提示词
+
+```text
+Create one save-worthy ultra-photorealistic portrait 4:5 Pinterest culinary overhead scene featuring exactly one premium chef knife. Product design: one fictional unbranded 8-inch chef knife with a broad gently curved high-carbon steel blade, a dark hand-hammered upper blade fading into a clean satin lower bevel, a narrow warm-brass bolster, and an octagonal smoked-oak handle secured by exactly three small flush brass pins. Lay the clean knife beside neatly sliced fennel, parsley, and one lemon half on a large pale-maple cutting board over a forest-green linen tablecloth; keep food away from the handle. Use exact overhead geometry with the full knife unobscured, intentional negative space, restrained ingredients, and elegant editorial rhythm. Use soft side-window daylight, crisp fresh food texture, subtle film grain, and balanced green–lemon–oak color. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same broad curved blade, hammered dark upper, satin bevel, brass bolster, octagonal smoked-oak handle, and three brass pins. No brand engraving, letters, serration, cleaver shape, Damascus swirl, extra pin, plastic handle, extra knife, damaged edge, unsafe blade contact, hand, meat, messy scraps, wet blade, extra utensil, recipe text, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Smoked-oak chef knife in an overhead herb-prep scene](assets/prompts/cookware-smoked-oak-chef-knife/preview-4.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** Pinterest
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 炊具 | 生活方式场景 | 4:5 |
+
+- **视觉风格:** 暗调氛围, 手作质感, 美食编辑
+- **背景类型:** 家居空间
+- **素材用途:** 社交创意
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve the broad 8-inch gently curved blade, dark hand-hammered upper section, and clean satin lower bevel.
+  - Preserve the narrow warm-brass bolster and octagonal smoked-oak handle with exactly three flush brass pins.
+- **负面约束:** No brand engraving, letters, serration, cleaver shape, Damascus swirl, extra pin, plastic handle, extra knife, damaged edge, unsafe blade contact, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0035](data/prompts/ec-0035-smoked-oak-chef-knife-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="prompt-ec-0035-xiaohongshu-safe-cooking"></a>
+
+### No. 15: 炊具 — 烟熏橡木柄主厨刀多平台套图: XIAOHONGSHU SAFE COOKING
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-小红书](https://img.shields.io/badge/Platform-%E5%B0%8F%E7%BA%A2%E4%B9%A6-6857ff)
+
+#### 描述
+
+让同一把烟熏橡木柄主厨刀呈现为白底零售、黑石广告、刀匠溯源、食谱大片和安全的社交烹饪瞬间。
+
+**社交电商广告 · 小红书 · 5:8**
+
+#### 提示词
+
+```text
+Create one natural ultra-photorealistic portrait 5:8 Xiaohongshu home-cooking image featuring exactly one premium chef knife in safe adult use. Product design: one fictional unbranded 8-inch chef knife with a broad gently curved high-carbon steel blade, a dark hand-hammered upper blade fading into a clean satin lower bevel, a narrow warm-brass bolster, and an octagonal smoked-oak handle secured by exactly three small flush brass pins. One adult hand grips the smoked-oak handle correctly while the other forms a safe claw grip on half a red cabbage on a thick end-grain board in a bright home kitchen. Use a close 50 mm side angle showing the complete handle, three pins, brass bolster, most of the blade profile, safe finger placement, and clean sliced cabbage ribbons. Use cool window light with gentle direct-flash lift, realistic skin and vegetables, and lively but refined creator energy. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same broad curved blade, hammered dark upper, satin bevel, brass bolster, octagonal smoked-oak handle, and three brass pins. No brand engraving, letters, serration, cleaver shape, Damascus swirl, extra pin, plastic handle, extra knife, damaged edge, unsafe blade contact, child, injury, blade toward camera, distorted fingers, rings, cluttered counter, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Adult safely slicing red cabbage with a smoked-oak chef knife](assets/prompts/cookware-smoked-oak-chef-knife/preview-5.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** 小红书
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 炊具 | 社交电商广告 | 5:8 |
+
+- **视觉风格:** 暗调氛围, 手作质感, 美食编辑
+- **背景类型:** 生活方式实景
+- **素材用途:** 社交创意
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve the broad 8-inch gently curved blade, dark hand-hammered upper section, and clean satin lower bevel.
+  - Preserve the narrow warm-brass bolster and octagonal smoked-oak handle with exactly three flush brass pins.
+- **负面约束:** No brand engraving, letters, serration, cleaver shape, Damascus swirl, extra pin, plastic handle, extra knife, damaged edge, unsafe blade contact, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0035](data/prompts/ec-0035-smoked-oak-chef-knife-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="categories-pet-supplies"></a>
+
+<a id="usecases-catalog-image"></a>
+
+<a id="platforms-chewy"></a>
+
+<a id="platforms-amazon"></a>
+
+<a id="prompt-ec-0034-chewy-sky-catalog"></a>
+
+### No. 16: 宠物用品 — 鼠尾草绿犬用胸背多平台套图: CHEWY SKY CATALOG
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Chewy](https://img.shields.io/badge/Platform-Chewy-6857ff)
+
+#### 描述
+
+让同一件鼠尾草绿犬用胸背呈现为宠物零售、Amazon 规格图、手作细节、城市遛狗社交内容和户外 Pinterest 灵感。
+
+**目录商品图 · Chewy · 4:5**
+
+#### 提示词
+
+```text
+Create one ultra-photorealistic portrait 4:5 Chewy-style catalog photograph of exactly one premium dog harness. Product design: one fictional unbranded adjustable Y-front dog harness in matte sage-green ripstop fabric, with burnt-orange edge binding, one horizontal silver reflective chest strip, black acetal side-release buckles, four black adjustment sliders, a charcoal padded inner mesh, and one black metal D-ring centered on the back. Shape the empty harness naturally as if worn and suspend it almost imperceptibly above a matte powder-blue floor and backdrop, with no mannequin visible. Use a centered front three-quarter view showing the Y-front, chest strip, orange binding, side buckles, sliders, mesh edge, and back D-ring. Use bright soft studio light, a cheerful sky-blue bounce, crisp ripstop texture, and a gentle grounding shadow. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same sage Y-front panels, orange binding, silver chest strip, charcoal mesh, black buckles, four sliders, and centered back D-ring. No brand patch, printed words, spikes, leather body, extra D-ring, extra buckle, leash attached unless specified, extra harness, malformed straps, dog, leash, toy, floating straps, hidden hardware, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Sage dog harness on a powder-blue catalog set](assets/prompts/pet-sage-dog-harness/preview-1.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** Chewy
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 宠物用品 | 目录商品图 | 4:5 |
+
+- **视觉风格:** 手作质感, 社交原生, 户外机能
+- **背景类型:** 彩色影棚
+- **素材用途:** 目录商品图
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve the sage ripstop Y-front body, burnt-orange binding, horizontal silver reflective chest strip, and charcoal padded inner mesh.
+  - Preserve the black side-release buckles, exactly four adjustment sliders, and one centered black metal back D-ring.
+- **负面约束:** No brand patch, printed words, spikes, leather body, extra D-ring, extra buckle, leash attached unless specified, extra harness, malformed straps, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0034](data/prompts/ec-0034-sage-dog-harness-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="prompt-ec-0034-amazon-harness-main-image"></a>
+
+### No. 17: 宠物用品 — 鼠尾草绿犬用胸背多平台套图: AMAZON HARNESS MAIN IMAGE
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon](https://img.shields.io/badge/Platform-Amazon-6857ff)
+
+#### 描述
+
+让同一件鼠尾草绿犬用胸背呈现为宠物零售、Amazon 规格图、手作细节、城市遛狗社交内容和户外 Pinterest 灵感。
+
+**平台主图 · Amazon · 4:5**
+
+#### 提示词
+
+```text
+Create one ultra-photorealistic portrait 4:5 Amazon main image of exactly one premium dog harness. Product design: one fictional unbranded adjustable Y-front dog harness in matte sage-green ripstop fabric, with burnt-orange edge binding, one horizontal silver reflective chest strip, black acetal side-release buckles, four black adjustment sliders, a charcoal padded inner mesh, and one black metal D-ring centered on the back. Lay the empty harness open and symmetrical on seamless pure #FFFFFF with straps neatly extended, buckles closed, and the back D-ring visible at the top. Use an exact overhead view with the entire harness inside frame, about 80% fill, and all four adjustment sliders individually readable. Use broad high-key light, restrained contact shadow, accurate sage color, and clean separation of mesh, binding, webbing, and hardware. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same sage Y-front panels, orange binding, silver chest strip, charcoal mesh, black buckles, four sliders, and centered back D-ring. No brand patch, printed words, spikes, leather body, extra D-ring, extra buckle, leash attached unless specified, extra harness, malformed straps, leash, dog, packaging, ruler, infographic arrows, curled strap ends, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Sage dog harness laid open on pure white](assets/prompts/pet-sage-dog-harness/preview-2.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** Amazon
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 宠物用品 | 平台主图 | 4:5 |
+
+- **视觉风格:** 手作质感, 社交原生, 户外机能
+- **背景类型:** 纯白背景
+- **素材用途:** 平台主图
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve the sage ripstop Y-front body, burnt-orange binding, horizontal silver reflective chest strip, and charcoal padded inner mesh.
+  - Preserve the black side-release buckles, exactly four adjustment sliders, and one centered black metal back D-ring.
+- **负面约束:** No brand patch, printed words, spikes, leather body, extra D-ring, extra buckle, leash attached unless specified, extra harness, malformed straps, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0034](data/prompts/ec-0034-sage-dog-harness-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="prompt-ec-0034-etsy-stitching-detail"></a>
+
+### No. 18: 宠物用品 — 鼠尾草绿犬用胸背多平台套图: ETSY STITCHING DETAIL
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Etsy](https://img.shields.io/badge/Platform-Etsy-6857ff)
+
+#### 描述
+
+让同一件鼠尾草绿犬用胸背呈现为宠物零售、Amazon 规格图、手作细节、城市遛狗社交内容和户外 Pinterest 灵感。
+
+**细节与微距 · Etsy · 5:8**
+
+#### 提示词
+
+```text
+Create one tactile ultra-photorealistic portrait 5:8 Etsy maker-detail photograph of exactly one premium dog harness. Product design: one fictional unbranded adjustable Y-front dog harness in matte sage-green ripstop fabric, with burnt-orange edge binding, one horizontal silver reflective chest strip, black acetal side-release buckles, four black adjustment sliders, a charcoal padded inner mesh, and one black metal D-ring centered on the back. Rest the harness on undyed canvas over a worn maple worktable; include one small spool of burnt-orange thread in the far background and no other tool. Use a close elevated view centered on the Y-junction, reflective strip, reinforced box stitching, binding, ripstop grid, one buckle, and the back D-ring while retaining recognizable harness form. Use soft north-window light with a cool metal rim and honest textile microtexture. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same sage Y-front panels, orange binding, silver chest strip, charcoal mesh, black buckles, four sliders, and centered back D-ring. No brand patch, printed words, spikes, leather body, extra D-ring, extra buckle, leash attached unless specified, extra harness, malformed straps, needle, scissors, human, unfinished seams, extra hardware, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Close handmade detail of a sage dog harness](assets/prompts/pet-sage-dog-harness/preview-3.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** Etsy
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 宠物用品 | 细节与微距 | 5:8 |
+
+- **视觉风格:** 手作质感, 社交原生, 户外机能
+- **背景类型:** 天然材质
+- **素材用途:** 商品副图
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve the sage ripstop Y-front body, burnt-orange binding, horizontal silver reflective chest strip, and charcoal padded inner mesh.
+  - Preserve the black side-release buckles, exactly four adjustment sliders, and one centered black metal back D-ring.
+- **负面约束:** No brand patch, printed words, spikes, leather body, extra D-ring, extra buckle, leash attached unless specified, extra harness, malformed straps, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0034](data/prompts/ec-0034-sage-dog-harness-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="prompt-ec-0034-instagram-city-dog-walk"></a>
+
+### No. 19: 宠物用品 — 鼠尾草绿犬用胸背多平台套图: INSTAGRAM SHOP CITY WALK
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Instagram Shop](https://img.shields.io/badge/Platform-Instagram_Shop-6857ff)
+
+#### 描述
+
+让同一件鼠尾草绿犬用胸背呈现为宠物零售、Amazon 规格图、手作细节、城市遛狗社交内容和户外 Pinterest 灵感。
+
+**模特上身 · Instagram Shop · 4:5**
+
+#### 提示词
+
+```text
+Create one natural ultra-photorealistic portrait 4:5 Instagram Shop city-walk image featuring exactly one medium adult dog wearing the premium harness. Product design: one fictional unbranded adjustable Y-front dog harness in matte sage-green ripstop fabric, with burnt-orange edge binding, one horizontal silver reflective chest strip, black acetal side-release buckles, four black adjustment sliders, a charcoal padded inner mesh, and one black metal D-ring centered on the back. A calm adult cream-colored mixed-breed dog walks beside an adult person's cropped charcoal trousers on a sunlit concrete sidewalk; attach one plain black leash to the centered back D-ring. Frame from the dog's head to paws at low eye level, show the Y-front fit, reflective strip, orange binding, side buckle, and natural leash angle. Use hard late-afternoon sun, subtle direct-flash lift, realistic fur, and candid street-editorial color. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same sage Y-front panels, orange binding, silver chest strip, charcoal mesh, black buckles, four sliders, and centered back D-ring. No brand patch, printed words, spikes, leather body, extra D-ring, extra buckle, leash attached unless specified, extra harness, malformed straps, child, collar covering harness, extra dog, tight leash, distorted legs, brand storefront, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Adult dog wearing a sage harness on a city walk](assets/prompts/pet-sage-dog-harness/preview-4.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** Instagram Shop
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 宠物用品 | 模特上身 | 4:5 |
+
+- **视觉风格:** 手作质感, 社交原生, 户外机能
+- **背景类型:** 生活方式实景
+- **素材用途:** 社交创意
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve the sage ripstop Y-front body, burnt-orange binding, horizontal silver reflective chest strip, and charcoal padded inner mesh.
+  - Preserve the black side-release buckles, exactly four adjustment sliders, and one centered black metal back D-ring.
+- **负面约束:** No brand patch, printed words, spikes, leather body, extra D-ring, extra buckle, leash attached unless specified, extra harness, malformed straps, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0034](data/prompts/ec-0034-sage-dog-harness-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="prompt-ec-0034-pinterest-coastal-hike"></a>
+
+### No. 20: 宠物用品 — 鼠尾草绿犬用胸背多平台套图: PINTEREST COASTAL HIKE
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Pinterest](https://img.shields.io/badge/Platform-Pinterest-6857ff)
+
+#### 描述
+
+让同一件鼠尾草绿犬用胸背呈现为宠物零售、Amazon 规格图、手作细节、城市遛狗社交内容和户外 Pinterest 灵感。
+
+**生活方式场景 · Pinterest · 5:8**
+
+#### 提示词
+
+```text
+Create one save-worthy ultra-photorealistic portrait 5:8 Pinterest outdoor lifestyle image featuring exactly one medium adult dog wearing the premium harness. Product design: one fictional unbranded adjustable Y-front dog harness in matte sage-green ripstop fabric, with burnt-orange edge binding, one horizontal silver reflective chest strip, black acetal side-release buckles, four black adjustment sliders, a charcoal padded inner mesh, and one black metal D-ring centered on the back. The cream-colored dog stands on a wind-shaped coastal grass trail above a misty blue sea, attached to one plain black leash extending toward an unseen adult outside frame. Use a slightly low three-quarter view with the dog and full harness clear, ample sky and trail context, and a calm aspirational travel mood. Use cool overcast coastal light, a narrow warm break in the clouds, visible ripstop and reflective texture, and natural wind in the fur. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same sage Y-front panels, orange binding, silver chest strip, charcoal mesh, black buckles, four sliders, and centered back D-ring. No brand patch, printed words, spikes, leather body, extra D-ring, extra buckle, leash attached unless specified, extra harness, malformed straps, cliff danger, extra animal, person, backpack, dramatic storm, hidden chest panel, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Adult dog in a sage harness on a coastal hiking trail](assets/prompts/pet-sage-dog-harness/preview-5.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** Pinterest
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 宠物用品 | 生活方式场景 | 5:8 |
+
+- **视觉风格:** 手作质感, 社交原生, 户外机能
+- **背景类型:** 户外实景
+- **素材用途:** 社交创意
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve the sage ripstop Y-front body, burnt-orange binding, horizontal silver reflective chest strip, and charcoal padded inner mesh.
+  - Preserve the black side-release buckles, exactly four adjustment sliders, and one centered black metal back D-ring.
+- **负面约束:** No brand patch, printed words, spikes, leather body, extra D-ring, extra buckle, leash attached unless specified, extra harness, malformed straps, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0034](data/prompts/ec-0034-sage-dog-harness-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="categories-consumer-electronics"></a>
+
+<a id="platforms-best-buy"></a>
+
+<a id="platforms-tmall"></a>
+
+<a id="prompt-ec-0033-amazon-sports-main-image"></a>
+
+### No. 21: 消费电子 — 石墨色运动智能表多平台套图: AMAZON SPORTS MAIN IMAGE
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon Sports](https://img.shields.io/badge/Platform-Amazon_Sports-6857ff)
+
+#### 描述
+
+让同一只石墨色运动智能表呈现为白底目录、技术零售、夜间运动、创作者跑步和棚拍时尚电商。
+
+**平台主图 · Amazon Sports · 4:5**
+
+#### 提示词
+
+```text
+Create one ultra-photorealistic portrait 4:5 Amazon Sports main image of exactly one premium fitness smartwatch. Product design: one fictional unbranded fitness smartwatch with a 42 mm rounded-square bead-blasted graphite-titanium case, flat black glass, one burnt-orange knurled crown on the right, two narrow speaker slots on the left, and a deep moss-green woven nylon loop strap with a single orange pull tab; the display shows only three abstract coral, teal, and ivory activity arcs with no numbers or letters. Form the moss woven strap into a clean standing loop on seamless pure #FFFFFF, with the watch face angled slightly toward camera and the orange crown visible. Center the entire watch and strap with about 76% frame fill; keep case edges, speaker slots, pull tab, and abstract arcs crisp. Use high-key softboxes, a controlled graphite edge strip, reflection-managed glass, and one realistic soft grounding shadow. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same rounded-square graphite case, orange right crown, left speaker slots, moss woven loop, orange tab, and abstract coral–teal–ivory arcs. No brand icon, readable numbers, letters, app name, extra crown, circular case, metal bracelet, extra watch, distorted strap, floating UI text, charging puck, phone, box, floating watch, closed black screen, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Graphite fitness watch with moss strap on pure white](assets/prompts/wearable-graphite-fitness-watch/preview-1.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** Amazon Sports
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 消费电子 | 平台主图 | 4:5 |
+
+- **视觉风格:** 技术表达, 电影感, 社交原生
+- **背景类型:** 纯白背景
+- **素材用途:** 平台主图
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve the rounded-square 42 mm graphite-titanium case, flat black glass, right orange crown, and two left speaker slots.
+  - Preserve the moss woven loop strap, orange pull tab, and abstract three-color activity arcs without text.
+- **负面约束:** No brand icon, readable numbers, letters, app name, extra crown, circular case, metal bracelet, extra watch, distorted strap, floating UI text, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0033](data/prompts/ec-0033-graphite-fitness-watch-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="usecases-feature-callout"></a>
+
+<a id="prompt-ec-0033-bestbuy-sensor-feature"></a>
+
+### No. 22: 消费电子 — 石墨色运动智能表多平台套图: BEST BUY SENSOR FEATURE
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Best Buy](https://img.shields.io/badge/Platform-Best_Buy-6857ff)
+
+#### 描述
+
+让同一只石墨色运动智能表呈现为白底目录、技术零售、夜间运动、创作者跑步和棚拍时尚电商。
+
+**功能卖点图 · Best Buy · 4:5**
+
+#### 提示词
+
+```text
+Create one ultra-photorealistic portrait 4:5 Best Buy-style technical feature image of exactly one premium fitness smartwatch. Product design: one fictional unbranded fitness smartwatch with a 42 mm rounded-square bead-blasted graphite-titanium case, flat black glass, one burnt-orange knurled crown on the right, two narrow speaker slots on the left, and a deep moss-green woven nylon loop strap with a single orange pull tab; the display shows only three abstract coral, teal, and ivory activity arcs with no numbers or letters. Rest the open watch diagonally on a graphite rubber platform, face up, with one subtle teal circular light reflection beneath the sensor area; include no labels or exploded parts. Use a close elevated three-quarter view that shows the display arcs, orange crown, left slots, woven fibers, and a glimpse of the underside sensor glass. Use cool cyan edge light, restrained orange accent, crisp glass control, and precise technical contrast. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same rounded-square graphite case, orange right crown, left speaker slots, moss woven loop, orange tab, and abstract coral–teal–ivory arcs. No brand icon, readable numbers, letters, app name, extra crown, circular case, metal bracelet, extra watch, distorted strap, floating UI text, data text, diagrams, callout lines, x-ray view, detached strap, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Graphite fitness watch in a technical sensor-focused set](assets/prompts/wearable-graphite-fitness-watch/preview-2.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** Best Buy
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 消费电子 | 功能卖点图 | 4:5 |
+
+- **视觉风格:** 技术表达, 电影感, 社交原生
+- **背景类型:** 暗调影棚
+- **素材用途:** 商品副图
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve the rounded-square 42 mm graphite-titanium case, flat black glass, right orange crown, and two left speaker slots.
+  - Preserve the moss woven loop strap, orange pull tab, and abstract three-color activity arcs without text.
+- **负面约束:** No brand icon, readable numbers, letters, app name, extra crown, circular case, metal bracelet, extra watch, distorted strap, floating UI text, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0033](data/prompts/ec-0033-graphite-fitness-watch-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="prompt-ec-0033-tmall-night-performance"></a>
+
+### No. 23: 消费电子 — 石墨色运动智能表多平台套图: TMALL NIGHT PERFORMANCE
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-天猫](https://img.shields.io/badge/Platform-%E5%A4%A9%E7%8C%AB-6857ff)
+
+#### 描述
+
+让同一只石墨色运动智能表呈现为白底目录、技术零售、夜间运动、创作者跑步和棚拍时尚电商。
+
+**品牌首图 · 天猫 · 5:8**
+
+#### 提示词
+
+```text
+Create one cinematic ultra-photorealistic portrait 5:8 night-performance campaign image of exactly one premium fitness smartwatch. Product design: one fictional unbranded fitness smartwatch with a 42 mm rounded-square bead-blasted graphite-titanium case, flat black glass, one burnt-orange knurled crown on the right, two narrow speaker slots on the left, and a deep moss-green woven nylon loop strap with a single orange pull tab; the display shows only three abstract coral, teal, and ivory activity arcs with no numbers or letters. Place the watch fastened around a smooth black running baton standing on wet track material at night; add restrained rain droplets and blurred stadium lights far behind. Use a low macro angle with the case dominant, the complete face and crown visible, and the strap wrapping naturally around the baton. Use a teal stadium rim, burnt-orange backlight, crisp droplets, and deep athletic contrast without hiding the product. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same rounded-square graphite case, orange right crown, left speaker slots, moss woven loop, orange tab, and abstract coral–teal–ivory arcs. No brand icon, readable numbers, letters, app name, extra crown, circular case, metal bracelet, extra watch, distorted strap, floating UI text, athlete, hand, brand signage, lightning, excessive rain, floating watch, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Graphite fitness watch on a wet night-running set](assets/prompts/wearable-graphite-fitness-watch/preview-3.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** 天猫
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 消费电子 | 品牌首图 | 5:8 |
+
+- **视觉风格:** 技术表达, 电影感, 社交原生
+- **背景类型:** 户外实景
+- **素材用途:** 品牌首图
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve the rounded-square 42 mm graphite-titanium case, flat black glass, right orange crown, and two left speaker slots.
+  - Preserve the moss woven loop strap, orange pull tab, and abstract three-color activity arcs without text.
+- **负面约束:** No brand icon, readable numbers, letters, app name, extra crown, circular case, metal bracelet, extra watch, distorted strap, floating UI text, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0033](data/prompts/ec-0033-graphite-fitness-watch-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="prompt-ec-0033-tiktok-runner-wrist"></a>
+
+### No. 24: 消费电子 — 石墨色运动智能表多平台套图: TIKTOK SHOP RUNNER WRIST
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-TikTok Shop](https://img.shields.io/badge/Platform-TikTok_Shop-6857ff)
+
+#### 描述
+
+让同一只石墨色运动智能表呈现为白底目录、技术零售、夜间运动、创作者跑步和棚拍时尚电商。
+
+**模特上身 · TikTok Shop · 5:8**
+
+#### 提示词
+
+```text
+Create one energetic ultra-photorealistic portrait 5:8 TikTok Shop running frame featuring exactly one premium fitness smartwatch on one adult runner. Product design: one fictional unbranded fitness smartwatch with a 42 mm rounded-square bead-blasted graphite-titanium case, flat black glass, one burnt-orange knurled crown on the right, two narrow speaker slots on the left, and a deep moss-green woven nylon loop strap with a single orange pull tab; the display shows only three abstract coral, teal, and ivory activity arcs with no numbers or letters. Show an adult runner from shoulder to hip mid-stride on a concrete riverside path at dawn, lifting the watch wrist naturally toward camera while wearing a plain cobalt technical top. Use a close wide-angle tracking view; keep the watch face and orange crown tack sharp while the background and free arm carry controlled motion blur. Use cool dawn light with direct-flash lift, truthful skin texture, and a small warm sunrise edge. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same rounded-square graphite case, orange right crown, left speaker slots, moss woven loop, orange tab, and abstract coral–teal–ivory arcs. No brand icon, readable numbers, letters, app name, extra crown, circular case, metal bracelet, extra watch, distorted strap, floating UI text, readable data, distorted fingers, extra wrist, headphones logo, staged pointing gesture, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Adult runner wearing a graphite fitness watch at dawn](assets/prompts/wearable-graphite-fitness-watch/preview-4.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** TikTok Shop
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 消费电子 | 模特上身 | 5:8 |
+
+- **视觉风格:** 技术表达, 电影感, 社交原生
+- **背景类型:** 生活方式实景
+- **素材用途:** 社交创意
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve the rounded-square 42 mm graphite-titanium case, flat black glass, right orange crown, and two left speaker slots.
+  - Preserve the moss woven loop strap, orange pull tab, and abstract three-color activity arcs without text.
+- **负面约束:** No brand icon, readable numbers, letters, app name, extra crown, circular case, metal bracelet, extra watch, distorted strap, floating UI text, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0033](data/prompts/ec-0033-graphite-fitness-watch-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="prompt-ec-0033-instagram-coral-fashion"></a>
+
+### No. 25: 消费电子 — 石墨色运动智能表多平台套图: INSTAGRAM SHOP CORAL FASHION
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Instagram Shop](https://img.shields.io/badge/Platform-Instagram_Shop-6857ff)
+
+#### 描述
+
+让同一只石墨色运动智能表呈现为白底目录、技术零售、夜间运动、创作者跑步和棚拍时尚电商。
+
+**社交电商广告 · Instagram Shop · 4:5**
+
+#### 提示词
+
+```text
+Create one polished ultra-photorealistic portrait 4:5 Instagram Shop studio-fashion image featuring exactly one premium fitness smartwatch on one adult model. Product design: one fictional unbranded fitness smartwatch with a 42 mm rounded-square bead-blasted graphite-titanium case, flat black glass, one burnt-orange knurled crown on the right, two narrow speaker slots on the left, and a deep moss-green woven nylon loop strap with a single orange pull tab; the display shows only three abstract coral, teal, and ivory activity arcs with no numbers or letters. Crop an adult model from jaw to waist against a matte coral backdrop, wearing a sleeveless charcoal top and crossing one arm so the watch sits clearly near the center. Keep the wrist anatomy natural, the face unobstructed, and the graphite, moss, and orange materials sharply defined with elegant negative space. Use a large beauty dish, a hard teal side shadow, subtle film grain, and contemporary sport-fashion color. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same rounded-square graphite case, orange right crown, left speaker slots, moss woven loop, orange tab, and abstract coral–teal–ivory arcs. No brand icon, readable numbers, letters, app name, extra crown, circular case, metal bracelet, extra watch, distorted strap, floating UI text, full face, jewelry, manicure art, extra watch, arm covering display, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Adult model wearing a graphite fitness watch on coral](assets/prompts/wearable-graphite-fitness-watch/preview-5.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** Instagram Shop
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 消费电子 | 社交电商广告 | 4:5 |
+
+- **视觉风格:** 技术表达, 电影感, 社交原生
+- **背景类型:** 彩色影棚
+- **素材用途:** 社交创意
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve the rounded-square 42 mm graphite-titanium case, flat black glass, right orange crown, and two left speaker slots.
+  - Preserve the moss woven loop strap, orange pull tab, and abstract three-color activity arcs without text.
+- **负面约束:** No brand icon, readable numbers, letters, app name, extra crown, circular case, metal bracelet, extra watch, distorted strap, floating UI text, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0033](data/prompts/ec-0033-graphite-fitness-watch-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="prompt-ec-0032-amazon-home-set-catalog"></a>
+
+### No. 26: 家居与家具 — 青瓷餐具多平台套图: AMAZON HOME SET CATALOG
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon Home](https://img.shields.io/badge/Platform-Amazon_Home-6857ff)
+
+#### 描述
+
+让同一套四件青瓷餐具在白底零售、手作溯源、Pinterest 早午餐、暗调品牌餐桌和彩色早餐内容中保持一致。
+
+**目录商品图 · Amazon Home · 4:5**
+
+#### 提示词
+
+```text
+Create one ultra-photorealistic portrait 4:5 Amazon Home catalog image of exactly one complete four-piece dinnerware place setting. Product design: one fictional unbranded four-piece stoneware place setting consisting of one wide dinner plate, one smaller side plate, one low rounded bowl, and one handleless cup, all with translucent pale-celadon reactive glaze, a thin hand-painted cobalt line just inside each rim, and an exposed warm-sand clay foot. Arrange the dinner plate flat, lean the side plate slightly behind, place the bowl centered on the dinner plate, and set the handleless cup to the right on seamless pure #FFFFFF. Use a front three-quarter product view with all four pieces fully readable, complete rims visible, and about 76% frame fill. Use broad high-key softboxes, clean ceramic highlights, subtle celadon translucency, and restrained contact shadows. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same four-piece count, pale-celadon glaze, thin cobalt inner-rim line, rounded profiles, and warm-sand exposed feet. No extra plate, handled mug, silver trim, floral pattern, logo, text, chipped rim, glossy plastic ceramic, mismatched glaze, food, cutlery, napkin, packaging, fifth piece, floating plate, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Four-piece celadon dinnerware set on pure white](assets/prompts/home-celadon-dinnerware/preview-1.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** Amazon Home
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 家居与家具 | 目录商品图 | 4:5 |
+
+- **视觉风格:** 手作质感, 美食编辑, 暗调氛围
+- **背景类型:** 纯白背景
+- **素材用途:** 平台主图
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve exactly four pieces: one dinner plate, one side plate, one low bowl, and one handleless cup.
+  - Preserve the pale-celadon reactive glaze, thin cobalt inner-rim line, and exposed warm-sand clay feet.
+- **负面约束:** No extra plate, handled mug, silver trim, floral pattern, logo, text, chipped rim, glossy plastic ceramic, mismatched glaze, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0032](data/prompts/ec-0032-celadon-dinnerware-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="prompt-ec-0032-etsy-potter-provenance"></a>
+
+### No. 27: 家居与家具 — 青瓷餐具多平台套图: ETSY POTTER PROVENANCE
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Etsy](https://img.shields.io/badge/Platform-Etsy-6857ff)
+
+#### 描述
+
+让同一套四件青瓷餐具在白底零售、手作溯源、Pinterest 早午餐、暗调品牌餐桌和彩色早餐内容中保持一致。
+
+**细节与微距 · Etsy · 5:8**
+
+#### 提示词
+
+```text
+Create one tactile ultra-photorealistic portrait 5:8 Etsy maker-story photograph of exactly one complete four-piece dinnerware set. Product design: one fictional unbranded four-piece stoneware place setting consisting of one wide dinner plate, one smaller side plate, one low rounded bowl, and one handleless cup, all with translucent pale-celadon reactive glaze, a thin hand-painted cobalt line just inside each rim, and an exposed warm-sand clay foot. Arrange the pieces on a worn oak potter's bench with one folded flax cloth and a small celadon glaze test tile far behind; no tools touch the tableware. Use an elevated three-quarter view showing all four pieces, cobalt rim lines, reactive glaze variation, and exposed feet on the lifted cup and bowl. Use warm north-window light, a cool workshop edge, and honest clay, linen, wood, and glaze microtexture. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same four-piece count, pale-celadon glaze, thin cobalt inner-rim line, rounded profiles, and warm-sand exposed feet. No extra plate, handled mug, silver trim, floral pattern, logo, text, chipped rim, glossy plastic ceramic, mismatched glaze, human, pottery wheel, wet clay, extra ceramics, rustic clutter, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Celadon dinnerware set on a potter's oak workbench](assets/prompts/home-celadon-dinnerware/preview-2.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** Etsy
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 家居与家具 | 细节与微距 | 5:8 |
+
+- **视觉风格:** 手作质感, 美食编辑, 暗调氛围
+- **背景类型:** 天然材质
+- **素材用途:** 品牌首图
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve exactly four pieces: one dinner plate, one side plate, one low bowl, and one handleless cup.
+  - Preserve the pale-celadon reactive glaze, thin cobalt inner-rim line, and exposed warm-sand clay feet.
+- **负面约束:** No extra plate, handled mug, silver trim, floral pattern, logo, text, chipped rim, glossy plastic ceramic, mismatched glaze, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0032](data/prompts/ec-0032-celadon-dinnerware-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="prompt-ec-0032-pinterest-spring-brunch"></a>
+
+### No. 28: 家居与家具 — 青瓷餐具多平台套图: PINTEREST SPRING BRUNCH
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Pinterest](https://img.shields.io/badge/Platform-Pinterest-6857ff)
+
+#### 描述
+
+让同一套四件青瓷餐具在白底零售、手作溯源、Pinterest 早午餐、暗调品牌餐桌和彩色早餐内容中保持一致。
+
+**生活方式场景 · Pinterest · 5:8**
+
+#### 提示词
+
+```text
+Create one save-worthy ultra-photorealistic portrait 5:8 Pinterest brunch table featuring exactly one four-piece dinnerware setting. Product design: one fictional unbranded four-piece stoneware place setting consisting of one wide dinner plate, one smaller side plate, one low rounded bowl, and one handleless cup, all with translucent pale-celadon reactive glaze, a thin hand-painted cobalt line just inside each rim, and an exposed warm-sand clay foot. Set the dinner and side plates, bowl, and handleless cup on a pale sage linen tablecloth beside brushed-steel cutlery; serve one poached egg with asparagus in the bowl and place a small lemon tart on the side plate. Use a graceful 45-degree overhead view with all four pieces identifiable, styled but uncrowded, and layered negative space. Use soft spring window light, delicate leaf shadows, and fresh celadon–sage–lemon color harmony. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same four-piece count, pale-celadon glaze, thin cobalt inner-rim line, rounded profiles, and warm-sand exposed feet. No extra plate, handled mug, silver trim, floral pattern, logo, text, chipped rim, glossy plastic ceramic, mismatched glaze, flowers, extra crockery, readable menu, hands, excessive food, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Celadon dinnerware arranged for a spring brunch](assets/prompts/home-celadon-dinnerware/preview-3.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** Pinterest
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 家居与家具 | 生活方式场景 | 5:8 |
+
+- **视觉风格:** 手作质感, 美食编辑, 暗调氛围
+- **背景类型:** 家居空间
+- **素材用途:** 社交创意
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve exactly four pieces: one dinner plate, one side plate, one low bowl, and one handleless cup.
+  - Preserve the pale-celadon reactive glaze, thin cobalt inner-rim line, and exposed warm-sand clay feet.
+- **负面约束:** No extra plate, handled mug, silver trim, floral pattern, logo, text, chipped rim, glossy plastic ceramic, mismatched glaze, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0032](data/prompts/ec-0032-celadon-dinnerware-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="prompt-ec-0032-shopify-olive-dining-hero"></a>
+
+### No. 29: 家居与家具 — 青瓷餐具多平台套图: SHOPIFY OLIVE DINING HERO
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Shopify](https://img.shields.io/badge/Platform-Shopify-6857ff)
+
+#### 描述
+
+让同一套四件青瓷餐具在白底零售、手作溯源、Pinterest 早午餐、暗调品牌餐桌和彩色早餐内容中保持一致。
+
+**品牌首图 · Shopify · 4:5**
+
+#### 提示词
+
+```text
+Create one cinematic ultra-photorealistic portrait 4:5 Shopify dining hero with exactly one complete four-piece dinnerware setting. Product design: one fictional unbranded four-piece stoneware place setting consisting of one wide dinner plate, one smaller side plate, one low rounded bowl, and one handleless cup, all with translucent pale-celadon reactive glaze, a thin hand-painted cobalt line just inside each rim, and an exposed warm-sand clay foot. Arrange the pieces on a dark smoked-oak table against a deep olive limewash wall; add one slim brushed-brass spoon and no food. Use a low intimate three-quarter angle with the dinner plate and bowl nested, side plate upright behind, cup at left, and every cobalt rim line visible. Use a warm pendant pool, cool shadow fill, and a narrow highlight that reveals celadon glaze depth without glare. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same four-piece count, pale-celadon glaze, thin cobalt inner-rim line, rounded profiles, and warm-sand exposed feet. No extra plate, handled mug, silver trim, floral pattern, logo, text, chipped rim, glossy plastic ceramic, mismatched glaze, candles, plant, extra setting, blacked-out ceramic, restaurant clutter, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Celadon dinnerware on a dark olive dining set](assets/prompts/home-celadon-dinnerware/preview-4.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** Shopify
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 家居与家具 | 品牌首图 | 4:5 |
+
+- **视觉风格:** 手作质感, 美食编辑, 暗调氛围
+- **背景类型:** 暗调影棚
+- **素材用途:** 品牌首图
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve exactly four pieces: one dinner plate, one side plate, one low bowl, and one handleless cup.
+  - Preserve the pale-celadon reactive glaze, thin cobalt inner-rim line, and exposed warm-sand clay feet.
+- **负面约束:** No extra plate, handled mug, silver trim, floral pattern, logo, text, chipped rim, glossy plastic ceramic, mismatched glaze, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0032](data/prompts/ec-0032-celadon-dinnerware-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="prompt-ec-0032-xiaohongshu-breakfast-flatlay"></a>
+
+### No. 30: 家居与家具 — 青瓷餐具多平台套图: XIAOHONGSHU BREAKFAST FLAT LAY
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-小红书](https://img.shields.io/badge/Platform-%E5%B0%8F%E7%BA%A2%E4%B9%A6-6857ff)
+
+#### 描述
+
+让同一套四件青瓷餐具在白底零售、手作溯源、Pinterest 早午餐、暗调品牌餐桌和彩色早餐内容中保持一致。
+
+**社交电商广告 · 小红书 · 4:5**
+
+#### 提示词
+
+```text
+Create one bright ultra-photorealistic portrait 4:5 Xiaohongshu breakfast flat lay with exactly one complete four-piece dinnerware set. Product design: one fictional unbranded four-piece stoneware place setting consisting of one wide dinner plate, one smaller side plate, one low rounded bowl, and one handleless cup, all with translucent pale-celadon reactive glaze, a thin hand-painted cobalt line just inside each rim, and an exposed warm-sand clay foot. Use a matte peach table: avocado toast on the dinner plate, two apricot halves on the side plate, plain yogurt with blueberries in the bowl, and green tea in the handleless cup. Use exact overhead geometry with all four pieces separated, cobalt rim lines unobscured, playful spacing, and no cropped vessel. Use hard clean morning sun, soft cyan bounce, and vivid but edible natural color. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same four-piece count, pale-celadon glaze, thin cobalt inner-rim line, rounded profiles, and warm-sand exposed feet. No extra plate, handled mug, silver trim, floral pattern, logo, text, chipped rim, glossy plastic ceramic, mismatched glaze, text overlay, hands, extra plate, excessive crumbs, utensil crossing a rim, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Celadon dinnerware in a colorful breakfast flat lay](assets/prompts/home-celadon-dinnerware/preview-5.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** 小红书
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 家居与家具 | 社交电商广告 | 4:5 |
+
+- **视觉风格:** 手作质感, 美食编辑, 暗调氛围
+- **背景类型:** 彩色影棚
+- **素材用途:** 社交创意
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve exactly four pieces: one dinner plate, one side plate, one low bowl, and one handleless cup.
+  - Preserve the pale-celadon reactive glaze, thin cobalt inner-rim line, and exposed warm-sand clay feet.
+- **负面约束:** No extra plate, handled mug, silver trim, floral pattern, logo, text, chipped rim, glossy plastic ceramic, mismatched glaze, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0032](data/prompts/ec-0032-celadon-dinnerware-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="categories-food-and-beverage"></a>
+
+<a id="platforms-amazon-grocery"></a>
+
+<a id="prompt-ec-0031-amazon-grocery-main-image"></a>
+
+### No. 31: 食品与饮料 — 钴蓝咖啡豆包装多平台套图: AMAZON GROCERY MAIN IMAGE
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon Grocery](https://img.shields.io/badge/Platform-Amazon_Grocery-6857ff)
+
+#### 描述
+
+围绕同一只钴蓝咖啡袋构建白底商品图、慢节奏手冲、彩色早餐创作、烘焙坊闪光和 Pinterest 图形静物。
+
+**平台主图 · Amazon Grocery · 4:5**
+
+#### 提示词
+
+```text
+Create one ultra-photorealistic portrait 4:5 Amazon Grocery main image of exactly one sealed premium coffee pouch. Product design: one fictional unbranded 340 g block-bottom whole-bean coffee pouch in matte cobalt-blue paper laminate, with a single acid-yellow vertical stripe along the right front edge, a large blank warm-cream oval label, a flat black one-way valve on the back, a straight heat-sealed top, and no printed words. Stand the pouch upright and front-facing on seamless pure #FFFFFF with a natural slight fill in the bag and no props or loose beans. Center the complete package with about 78% frame fill; keep the top seal, bottom gusset, stripe, and blank oval label fully visible. Use high-key softbox light, a narrow paper-edge highlight, controlled matte texture, and one restrained grounding shadow. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same cobalt block-bottom pouch, right-edge acid-yellow stripe, blank cream oval label, and sealed top. No readable packaging, logo, claim, coffee cup printed on pouch, altered stripe, extra bag, torn seal, transparent window, cup, beans, scoop, package dents, inflated balloon shape, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Cobalt coffee pouch with yellow stripe on pure white](assets/prompts/grocery-cobalt-coffee-pouch/preview-1.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** Amazon Grocery
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 食品与饮料 | 平台主图 | 4:5 |
+
+- **视觉风格:** 明亮活泼, 社交原生, 美食编辑
+- **背景类型:** 纯白背景
+- **素材用途:** 平台主图
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve the matte cobalt block-bottom pouch, straight heat-sealed top, and acid-yellow stripe along the right front edge.
+  - Preserve the large blank warm-cream oval label and the unprinted, unbranded packaging.
+- **负面约束:** No readable packaging, logo, claim, coffee cup printed on pouch, altered stripe, extra bag, torn seal, transparent window, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0031](data/prompts/ec-0031-cobalt-coffee-pouch-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="prompt-ec-0031-shopify-slow-morning-pourover"></a>
+
+### No. 32: 食品与饮料 — 钴蓝咖啡豆包装多平台套图: SHOPIFY SLOW-MORNING POUR-OVER
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Shopify](https://img.shields.io/badge/Platform-Shopify-6857ff)
+
+#### 描述
+
+围绕同一只钴蓝咖啡袋构建白底商品图、慢节奏手冲、彩色早餐创作、烘焙坊闪光和 Pinterest 图形静物。
+
+**生活方式场景 · Shopify · 5:8**
+
+#### 提示词
+
+```text
+Create one ultra-photorealistic portrait 5:8 Shopify lifestyle hero featuring exactly one sealed premium coffee pouch. Product design: one fictional unbranded 340 g block-bottom whole-bean coffee pouch in matte cobalt-blue paper laminate, with a single acid-yellow vertical stripe along the right front edge, a large blank warm-cream oval label, a flat black one-way valve on the back, a straight heat-sealed top, and no printed words. Place the upright pouch on a pale oak kitchen counter beside one glass pour-over dripper and a blank ivory cup while a thin stream of hot water enters the dripper from outside frame; keep steam subtle. Use an intimate eye-level view with the bag on the right third, its entire front visible, and soft negative space in the sunlit kitchen behind. Use gentle early-morning window light, warm wood bounce, cool cobalt shadow, and honest paper and glass texture. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same cobalt block-bottom pouch, right-edge acid-yellow stripe, blank cream oval label, and sealed top. No readable packaging, logo, claim, coffee cup printed on pouch, altered stripe, extra bag, torn seal, transparent window, readable labels, kettle body, extra bag, spilled grounds, excessive steam, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Cobalt coffee pouch beside a morning pour-over](assets/prompts/grocery-cobalt-coffee-pouch/preview-2.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** Shopify
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 食品与饮料 | 生活方式场景 | 5:8 |
+
+- **视觉风格:** 明亮活泼, 社交原生, 美食编辑
+- **背景类型:** 家居空间
+- **素材用途:** 品牌首图
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve the matte cobalt block-bottom pouch, straight heat-sealed top, and acid-yellow stripe along the right front edge.
+  - Preserve the large blank warm-cream oval label and the unprinted, unbranded packaging.
+- **负面约束:** No readable packaging, logo, claim, coffee cup printed on pouch, altered stripe, extra bag, torn seal, transparent window, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0031](data/prompts/ec-0031-cobalt-coffee-pouch-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="prompt-ec-0031-xiaohongshu-color-breakfast"></a>
+
+### No. 33: 食品与饮料 — 钴蓝咖啡豆包装多平台套图: XIAOHONGSHU COLOR BREAKFAST
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-小红书](https://img.shields.io/badge/Platform-%E5%B0%8F%E7%BA%A2%E4%B9%A6-6857ff)
+
+#### 描述
+
+围绕同一只钴蓝咖啡袋构建白底商品图、慢节奏手冲、彩色早餐创作、烘焙坊闪光和 Pinterest 图形静物。
+
+**社交电商广告 · 小红书 · 4:5**
+
+#### 提示词
+
+```text
+Create one bright ultra-photorealistic portrait 4:5 Xiaohongshu breakfast flat lay featuring exactly one premium coffee pouch. Product design: one fictional unbranded 340 g block-bottom whole-bean coffee pouch in matte cobalt-blue paper laminate, with a single acid-yellow vertical stripe along the right front edge, a large blank warm-cream oval label, a flat black one-way valve on the back, a straight heat-sealed top, and no printed words. Lay the sealed pouch diagonally on a matte coral table with one butter-yellow cup of black coffee, one small plate holding a single croissant, and a folded sky-blue napkin; keep every prop separated. Use an exact overhead view, bold graphic spacing, full package visibility, and mobile-first color balance. Use hard morning sun with crisp diagonal shadows, a soft white fill, and believable food texture without oversaturation. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same cobalt block-bottom pouch, right-edge acid-yellow stripe, blank cream oval label, and sealed top. No readable packaging, logo, claim, coffee cup printed on pouch, altered stripe, extra bag, torn seal, transparent window, hands, readable napkin, multiple pastries, latte art, crumbs over the label, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Cobalt coffee pouch in a colorful breakfast flat lay](assets/prompts/grocery-cobalt-coffee-pouch/preview-3.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** 小红书
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 食品与饮料 | 社交电商广告 | 4:5 |
+
+- **视觉风格:** 明亮活泼, 社交原生, 美食编辑
+- **背景类型:** 彩色影棚
+- **素材用途:** 社交创意
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve the matte cobalt block-bottom pouch, straight heat-sealed top, and acid-yellow stripe along the right front edge.
+  - Preserve the large blank warm-cream oval label and the unprinted, unbranded packaging.
+- **负面约束:** No readable packaging, logo, claim, coffee cup printed on pouch, altered stripe, extra bag, torn seal, transparent window, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0031](data/prompts/ec-0031-cobalt-coffee-pouch-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="prompt-ec-0031-tiktok-roastery-flash"></a>
+
+### No. 34: 食品与饮料 — 钴蓝咖啡豆包装多平台套图: TIKTOK SHOP ROASTERY FLASH
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-TikTok Shop](https://img.shields.io/badge/Platform-TikTok_Shop-6857ff)
+
+#### 描述
+
+围绕同一只钴蓝咖啡袋构建白底商品图、慢节奏手冲、彩色早餐创作、烘焙坊闪光和 Pinterest 图形静物。
+
+**社交电商广告 · TikTok Shop · 5:8**
+
+#### 提示词
+
+```text
+Create one energetic ultra-photorealistic portrait 5:8 TikTok Shop roastery frame featuring exactly one premium coffee pouch and one adult barista. Product design: one fictional unbranded 340 g block-bottom whole-bean coffee pouch in matte cobalt-blue paper laminate, with a single acid-yellow vertical stripe along the right front edge, a large blank warm-cream oval label, a flat black one-way valve on the back, a straight heat-sealed top, and no printed words. An adult barista in a plain charcoal apron holds the sealed pouch toward camera inside a working micro-roastery; blurred copper roaster drums and warm practical lights remain behind. Use a close wide-angle perspective, natural hand grip below the blank label, slight background motion, and tack-sharp package details. Use direct flash mixed with warm industrial light for candid creator energy and truthful cobalt color. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same cobalt block-bottom pouch, right-edge acid-yellow stripe, blank cream oval label, and sealed top. No readable packaging, logo, claim, coffee cup printed on pouch, altered stripe, extra bag, torn seal, transparent window, readable signage, extra bag, gloves, distorted fingers, face obscured by pouch, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Adult barista presenting a cobalt coffee pouch](assets/prompts/grocery-cobalt-coffee-pouch/preview-4.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** TikTok Shop
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 食品与饮料 | 社交电商广告 | 5:8 |
+
+- **视觉风格:** 明亮活泼, 社交原生, 美食编辑
+- **背景类型:** 生活方式实景
+- **素材用途:** 社交创意
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve the matte cobalt block-bottom pouch, straight heat-sealed top, and acid-yellow stripe along the right front edge.
+  - Preserve the large blank warm-cream oval label and the unprinted, unbranded packaging.
+- **负面约束:** No readable packaging, logo, claim, coffee cup printed on pouch, altered stripe, extra bag, torn seal, transparent window, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0031](data/prompts/ec-0031-cobalt-coffee-pouch-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="prompt-ec-0031-pinterest-terracotta-still-life"></a>
+
+### No. 35: 食品与饮料 — 钴蓝咖啡豆包装多平台套图: PINTEREST TERRACOTTA STILL LIFE
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Pinterest](https://img.shields.io/badge/Platform-Pinterest-6857ff)
+
+#### 描述
+
+围绕同一只钴蓝咖啡袋构建白底商品图、慢节奏手冲、彩色早餐创作、烘焙坊闪光和 Pinterest 图形静物。
+
+**品牌首图 · Pinterest · 5:8**
+
+#### 提示词
+
+```text
+Create one save-worthy ultra-photorealistic portrait 5:8 Pinterest coffee still life featuring exactly one premium pouch. Product design: one fictional unbranded 340 g block-bottom whole-bean coffee pouch in matte cobalt-blue paper laminate, with a single acid-yellow vertical stripe along the right front edge, a large blank warm-cream oval label, a flat black one-way valve on the back, a straight heat-sealed top, and no printed words. Stand the sealed pouch on a rough terracotta slab with one small pile of glossy roasted beans and a low smoked-glass cup on a warm sand background; keep the label unobscured. Use a sculptural three-quarter arrangement, deep negative space, and strong cobalt–terracotta contrast with the bag dominant. Use raking late-afternoon sun, a narrow cool fill, crisp bean highlights, and tactile paper, clay, and glass surfaces. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same cobalt block-bottom pouch, right-edge acid-yellow stripe, blank cream oval label, and sealed top. No readable packaging, logo, claim, coffee cup printed on pouch, altered stripe, extra bag, torn seal, transparent window, coffee plant, burlap sack, multiple cups, large bean spill, vintage props, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Cobalt coffee pouch on terracotta with roasted beans](assets/prompts/grocery-cobalt-coffee-pouch/preview-5.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** Pinterest
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 食品与饮料 | 品牌首图 | 5:8 |
+
+- **视觉风格:** 明亮活泼, 社交原生, 美食编辑
+- **背景类型:** 天然材质
+- **素材用途:** 社交创意
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve the matte cobalt block-bottom pouch, straight heat-sealed top, and acid-yellow stripe along the right front edge.
+  - Preserve the large blank warm-cream oval label and the unprinted, unbranded packaging.
+- **负面约束:** No readable packaging, logo, claim, coffee cup printed on pouch, altered stripe, extra bag, torn seal, transparent window, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0031](data/prompts/ec-0031-cobalt-coffee-pouch-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="platforms-wayfair"></a>
+
+<a id="platforms-tmall-luxury"></a>
+
+<a id="prompt-ec-0030-wayfair-clean-room-catalog"></a>
+
+### No. 36: 家居与家具 — 象牙白圈圈绒休闲椅多平台套图: WAYFAIR CLEAN ROOM CATALOG
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Wayfair](https://img.shields.io/badge/Platform-Wayfair-6857ff)
+
+#### 描述
+
+让同一把象牙白圈圈绒休闲椅呈现为转化型目录图、建筑品牌图、彩色 Pinterest 大片、画廊奢华图和具有人体尺度的社交场景。
+
+**目录商品图 · Wayfair · 4:5**
+
+#### 提示词
+
+```text
+Create one ultra-photorealistic portrait 4:5 Wayfair-ready catalog photograph of exactly one sculptural lounge chair. Product design: one fictional unbranded low armless lounge chair with a thick ivory nubby bouclé seat, a continuous horseshoe-shaped back that wraps into rounded side wings, a subtle seam following the inner curve, and three short splayed cylindrical legs in smoked walnut. Place the chair alone on a seamless warm-white studio floor against a very pale greige wall with a barely visible floor line. Use a centered front three-quarter view at seated eye height, show the full chair and all three legs, and fill about 76% of frame. Use a broad window-like key, soft bounce, clean grounding shadow, and enough side light to resolve the nubby bouclé and walnut grain. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same low armless horseshoe silhouette, rounded wings, inner seam, ivory bouclé, and three smoked-walnut legs. No arms, separate cushion, four visible legs, metal base, button tufting, logo, extra chair, warped seat, glossy fabric, rug, pillow, plant, table, room clutter, clipped leg, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Ivory bouclé lounge chair in a clean catalog room](assets/prompts/furniture-ivory-boucle-chair/preview-1.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** Wayfair
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 家居与家具 | 目录商品图 | 4:5 |
+
+- **视觉风格:** 建筑感, 明亮活泼, 静谧生活
+- **背景类型:** 柔光影棚
+- **素材用途:** 目录商品图
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve the low armless silhouette, continuous horseshoe back with rounded side wings, and inner curved seam.
+  - Preserve the thick ivory nubby bouclé upholstery and exactly three short splayed smoked-walnut cylindrical legs.
+- **负面约束:** No arms, separate cushion, four visible legs, metal base, button tufting, logo, extra chair, warped seat, glossy fabric, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0030](data/prompts/ec-0030-ivory-boucle-lounge-chair-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="prompt-ec-0030-shopify-limewash-architecture"></a>
+
+### No. 37: 家居与家具 — 象牙白圈圈绒休闲椅多平台套图: SHOPIFY LIMEWASH ARCHITECTURE
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Shopify](https://img.shields.io/badge/Platform-Shopify-6857ff)
+
+#### 描述
+
+让同一把象牙白圈圈绒休闲椅呈现为转化型目录图、建筑品牌图、彩色 Pinterest 大片、画廊奢华图和具有人体尺度的社交场景。
+
+**品牌首图 · Shopify · 5:8**
+
+#### 提示词
+
+```text
+Create one ultra-photorealistic portrait 5:8 Shopify architectural hero photograph of exactly one sculptural lounge chair. Product design: one fictional unbranded low armless lounge chair with a thick ivory nubby bouclé seat, a continuous horseshoe-shaped back that wraps into rounded side wings, a subtle seam following the inner curve, and three short splayed cylindrical legs in smoked walnut. Place the chair on pale limestone in a quiet double-height interior with curved sand-limewash walls, one tall slit window, and no other furniture. Use a low wide-lens perspective that preserves realistic chair scale, position the chair on the lower third, and leave calm vertical negative space. Use raking morning daylight, soft architectural shadows, and a warm reflected edge that separates ivory bouclé from the wall. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same low armless horseshoe silhouette, rounded wings, inner seam, ivory bouclé, and three smoked-walnut legs. No arms, separate cushion, four visible legs, metal base, button tufting, logo, extra chair, warped seat, glossy fabric, oversized room, tiny chair, plant, side table, curtain, impossible architecture, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Ivory bouclé chair in a curved limewash interior](assets/prompts/furniture-ivory-boucle-chair/preview-2.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** Shopify
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 家居与家具 | 品牌首图 | 5:8 |
+
+- **视觉风格:** 建筑感, 明亮活泼, 静谧生活
+- **背景类型:** 家居空间
+- **素材用途:** 品牌首图
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve the low armless silhouette, continuous horseshoe back with rounded side wings, and inner curved seam.
+  - Preserve the thick ivory nubby bouclé upholstery and exactly three short splayed smoked-walnut cylindrical legs.
+- **负面约束:** No arms, separate cushion, four visible legs, metal base, button tufting, logo, extra chair, warped seat, glossy fabric, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0030](data/prompts/ec-0030-ivory-boucle-lounge-chair-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="prompt-ec-0030-pinterest-saffron-cobalt-set"></a>
+
+### No. 38: 家居与家具 — 象牙白圈圈绒休闲椅多平台套图: PINTEREST SAFFRON-COBALT SET
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Pinterest](https://img.shields.io/badge/Platform-Pinterest-6857ff)
+
+#### 描述
+
+让同一把象牙白圈圈绒休闲椅呈现为转化型目录图、建筑品牌图、彩色 Pinterest 大片、画廊奢华图和具有人体尺度的社交场景。
+
+**品牌首图 · Pinterest · 5:8**
+
+#### 提示词
+
+```text
+Create one save-worthy ultra-photorealistic portrait 5:8 Pinterest furniture editorial of exactly one sculptural lounge chair. Product design: one fictional unbranded low armless lounge chair with a thick ivory nubby bouclé seat, a continuous horseshoe-shaped back that wraps into rounded side wings, a subtle seam following the inner curve, and three short splayed cylindrical legs in smoked walnut. Set the chair on a matte saffron floor against a deep cobalt wall with one oversized circular shadow and a narrow dusty-pink vertical plane; add no props. Use a bold front three-quarter composition with the chair fully visible, strong color blocking, and generous poster-like space. Use hard graphic studio sun, a controlled fill on the ivory upholstery, crisp leg shadows, and rich but natural color. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same low armless horseshoe silhouette, rounded wings, inner seam, ivory bouclé, and three smoked-walnut legs. No arms, separate cushion, four visible legs, metal base, button tufting, logo, extra chair, warped seat, glossy fabric, text, poster graphics, second chair, checkerboard, floating geometry, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Ivory bouclé chair on a saffron and cobalt editorial set](assets/prompts/furniture-ivory-boucle-chair/preview-3.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** Pinterest
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 家居与家具 | 品牌首图 | 5:8 |
+
+- **视觉风格:** 建筑感, 明亮活泼, 静谧生活
+- **背景类型:** 彩色影棚
+- **素材用途:** 社交创意
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve the low armless silhouette, continuous horseshoe back with rounded side wings, and inner curved seam.
+  - Preserve the thick ivory nubby bouclé upholstery and exactly three short splayed smoked-walnut cylindrical legs.
+- **负面约束:** No arms, separate cushion, four visible legs, metal base, button tufting, logo, extra chair, warped seat, glossy fabric, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0030](data/prompts/ec-0030-ivory-boucle-lounge-chair-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="prompt-ec-0030-tmall-luxury-stone-gallery"></a>
+
+### No. 39: 家居与家具 — 象牙白圈圈绒休闲椅多平台套图: TMALL LUXURY STONE GALLERY
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-天猫奢品](https://img.shields.io/badge/Platform-%E5%A4%A9%E7%8C%AB%E5%A5%A2%E5%93%81-6857ff)
+
+#### 描述
+
+让同一把象牙白圈圈绒休闲椅呈现为转化型目录图、建筑品牌图、彩色 Pinterest 大片、画廊奢华图和具有人体尺度的社交场景。
+
+**品牌首图 · 天猫奢品 · 4:5**
+
+#### 提示词
+
+```text
+Create one cinematic ultra-photorealistic portrait 4:5 luxury furniture launch image of exactly one sculptural lounge chair. Product design: one fictional unbranded low armless lounge chair with a thick ivory nubby bouclé seat, a continuous horseshoe-shaped back that wraps into rounded side wings, a subtle seam following the inner curve, and three short splayed cylindrical legs in smoked walnut. Place the chair on a single dark green-veined stone platform inside a shadowed gallery with charcoal plaster walls and one bronze-toned light slot. Frame symmetrically from a slightly low angle with the full chair isolated like collectible design and no surrounding objects. Use a focused warm pool on the bouclé, restrained cool ambient fill, and precise walnut highlights without theatrical haze. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same low armless horseshoe silhouette, rounded wings, inner seam, ivory bouclé, and three smoked-walnut legs. No arms, separate cushion, four visible legs, metal base, button tufting, logo, extra chair, warped seat, glossy fabric, museum rope, sculpture, spotlight cone, glossy marble reflection, blacked-out fabric, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Ivory bouclé chair displayed in a dark stone gallery](assets/prompts/furniture-ivory-boucle-chair/preview-4.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** 天猫奢品
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 家居与家具 | 品牌首图 | 4:5 |
+
+- **视觉风格:** 建筑感, 明亮活泼, 静谧生活
+- **背景类型:** 天然材质
+- **素材用途:** 品牌首图
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve the low armless silhouette, continuous horseshoe back with rounded side wings, and inner curved seam.
+  - Preserve the thick ivory nubby bouclé upholstery and exactly three short splayed smoked-walnut cylindrical legs.
+- **负面约束:** No arms, separate cushion, four visible legs, metal base, button tufting, logo, extra chair, warped seat, glossy fabric, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0030](data/prompts/ec-0030-ivory-boucle-lounge-chair-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="prompt-ec-0030-instagram-reading-moment"></a>
+
+### No. 40: 家居与家具 — 象牙白圈圈绒休闲椅多平台套图: INSTAGRAM SHOP READING MOMENT
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Instagram Shop](https://img.shields.io/badge/Platform-Instagram_Shop-6857ff)
+
+#### 描述
+
+让同一把象牙白圈圈绒休闲椅呈现为转化型目录图、建筑品牌图、彩色 Pinterest 大片、画廊奢华图和具有人体尺度的社交场景。
+
+**模特上身 · Instagram Shop · 4:5**
+
+#### 提示词
+
+```text
+Create one natural ultra-photorealistic portrait 4:5 Instagram Shop lifestyle photograph featuring exactly one sculptural lounge chair and one adult person. Product design: one fictional unbranded low armless lounge chair with a thick ivory nubby bouclé seat, a continuous horseshoe-shaped back that wraps into rounded side wings, a subtle seam following the inner curve, and three short splayed cylindrical legs in smoked walnut. An adult woman in a loose terracotta knit and cream trousers sits naturally sideways in the chair reading a blank-cover magazine in a sunlit apartment with pale oak floor and warm-white wall. Show her from head to bare ankles, keep the chair silhouette, side wings, seam, upholstery, and all visible legs readable, and avoid covering the product. Use soft afternoon window light, gentle direct-flash lift, natural skin texture, and relaxed editorial color. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same low armless horseshoe silhouette, rounded wings, inner seam, ivory bouclé, and three smoked-walnut legs. No arms, separate cushion, four visible legs, metal base, button tufting, logo, extra chair, warped seat, glossy fabric, readable magazine text, extra furniture, distorted hands, hidden chair, staged smile, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Adult reader seated naturally in an ivory bouclé chair](assets/prompts/furniture-ivory-boucle-chair/preview-5.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** Instagram Shop
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 家居与家具 | 模特上身 | 4:5 |
+
+- **视觉风格:** 建筑感, 明亮活泼, 静谧生活
+- **背景类型:** 家居空间
+- **素材用途:** 社交创意
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve the low armless silhouette, continuous horseshoe back with rounded side wings, and inner curved seam.
+  - Preserve the thick ivory nubby bouclé upholstery and exactly three short splayed smoked-walnut cylindrical legs.
+- **负面约束:** No arms, separate cushion, four visible legs, metal base, button tufting, logo, extra chair, warped seat, glossy fabric, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0030](data/prompts/ec-0030-ivory-boucle-lounge-chair-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="categories-footwear"></a>
+
+<a id="platforms-amazon-fashion"></a>
+
+<a id="platforms-farfetch"></a>
+
+<a id="prompt-ec-0029-amazon-fashion-main-image"></a>
+
+### No. 41: 鞋履 — 浓缩咖啡色便士乐福鞋多平台套图: AMAZON FASHION MAIN IMAGE
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon Fashion](https://img.shields.io/badge/Platform-Amazon_Fashion-6857ff)
+
+#### 描述
+
+让同一双浓缩咖啡色乐福鞋在白底商品图、石材大片、街头动态、工坊细节和图书馆风 Pinterest 图片中保持一致。
+
+**平台主图 · Amazon Fashion · 4:5**
+
+#### 提示词
+
+```text
+Create one ultra-photorealistic portrait 4:5 Amazon Fashion main image of exactly one matching pair of premium loafers. Product design: one fictional unbranded pair of men's penny loafers in dark espresso burnished box-calf leather, with an almond toe, raised hand-stitched moccasin apron, one clean saddle strap with a narrow oval cutout, oxblood leather lining, a low stacked dark-brown leather heel, and a slim black outsole. Arrange the left shoe in a front three-quarter view and the right shoe slightly behind at a complementary side angle on seamless pure #FFFFFF; show both complete shoes. Center the pair with about 78% frame fill, clear toe shape, saddle cutouts, apron seams, heels, and outsole edges. Use a broad high-key softbox, controlled leather highlights, realistic grounding shadows, and accurate espresso color. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same almond toe, apron seam, saddle cutout, espresso leather, oxblood lining, stacked heel, and black outsole. No laces, tassels, metal bit, logo, sneaker sole, square toe, extra shoe, mismatched pair, plastic leather, shoe box, tissue, feet, props, cropped heel, floating pair, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Espresso penny loafers on pure white](assets/prompts/footwear-espresso-penny-loafer/preview-1.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** Amazon Fashion
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 鞋履 | 平台主图 | 4:5 |
+
+- **视觉风格:** 高端奢华, 社交原生, 手作质感
+- **背景类型:** 纯白背景
+- **素材用途:** 平台主图
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve the dark espresso burnished box-calf, almond toe, raised moccasin apron, and saddle strap with narrow oval cutout.
+  - Preserve the oxblood lining, low stacked dark-brown heel, slim black outsole, and unbranded upper.
+- **负面约束:** No laces, tassels, metal bit, logo, sneaker sole, square toe, extra shoe, mismatched pair, plastic leather, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0029](data/prompts/ec-0029-espresso-penny-loafer-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="prompt-ec-0029-farfetch-limestone-editorial"></a>
+
+### No. 42: 鞋履 — 浓缩咖啡色便士乐福鞋多平台套图: FARFETCH LIMESTONE EDITORIAL
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Farfetch](https://img.shields.io/badge/Platform-Farfetch-6857ff)
+
+#### 描述
+
+让同一双浓缩咖啡色乐福鞋在白底商品图、石材大片、街头动态、工坊细节和图书馆风 Pinterest 图片中保持一致。
+
+**品牌首图 · Farfetch · 4:5**
+
+#### 提示词
+
+```text
+Create one ultra-photorealistic portrait 4:5 Farfetch-style luxury footwear editorial with exactly one matching pair of loafers. Product design: one fictional unbranded pair of men's penny loafers in dark espresso burnished box-calf leather, with an almond toe, raised hand-stitched moccasin apron, one clean saddle strap with a narrow oval cutout, oxblood leather lining, a low stacked dark-brown leather heel, and a slim black outsole. Place one shoe upright and rest the second across a pale split-limestone block in a warm gray studio; add no other prop. Use an off-center sculptural arrangement, full shoe visibility, low camera height, and crisp negative space. Use hard raking daylight with a narrow warm bounce that reveals burnishing, calfskin grain, apron stitches, and stacked heel layers. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same almond toe, apron seam, saddle cutout, espresso leather, oxblood lining, stacked heel, and black outsole. No laces, tassels, metal bit, logo, sneaker sole, square toe, extra shoe, mismatched pair, plastic leather, marble veining, feet, clothing, floating shoe, crushed upper, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Espresso penny loafers arranged on pale limestone](assets/prompts/footwear-espresso-penny-loafer/preview-2.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** Farfetch
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 鞋履 | 品牌首图 | 4:5 |
+
+- **视觉风格:** 高端奢华, 社交原生, 手作质感
+- **背景类型:** 天然材质
+- **素材用途:** 目录商品图
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve the dark espresso burnished box-calf, almond toe, raised moccasin apron, and saddle strap with narrow oval cutout.
+  - Preserve the oxblood lining, low stacked dark-brown heel, slim black outsole, and unbranded upper.
+- **负面约束:** No laces, tassels, metal bit, logo, sneaker sole, square toe, extra shoe, mismatched pair, plastic leather, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0029](data/prompts/ec-0029-espresso-penny-loafer-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="prompt-ec-0029-tiktok-city-step"></a>
+
+### No. 43: 鞋履 — 浓缩咖啡色便士乐福鞋多平台套图: TIKTOK SHOP CITY STEP
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-TikTok Shop](https://img.shields.io/badge/Platform-TikTok_Shop-6857ff)
+
+#### 描述
+
+让同一双浓缩咖啡色乐福鞋在白底商品图、石材大片、街头动态、工坊细节和图书馆风 Pinterest 图片中保持一致。
+
+**模特上身 · TikTok Shop · 5:8**
+
+#### 提示词
+
+```text
+Create one energetic ultra-photorealistic portrait 5:8 TikTok Shop street-fashion frame featuring the same premium loafers on one adult model. Product design: one fictional unbranded pair of men's penny loafers in dark espresso burnished box-calf leather, with an almond toe, raised hand-stitched moccasin apron, one clean saddle strap with a narrow oval cutout, oxblood leather lining, a low stacked dark-brown leather heel, and a slim black outsole. Show an adult man from mid-calf down stepping off a brushed-steel subway threshold onto wet charcoal pavement, wearing cream ribbed socks and cropped charcoal trousers. Use a low close tracking angle with both loafers visible, the lead shoe tack sharp and the rear shoe carrying restrained motion blur. Use direct on-camera flash, cool city reflections, and a warm tungsten streak for spontaneous night energy while preserving leather detail. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same almond toe, apron seam, saddle cutout, espresso leather, oxblood lining, stacked heel, and black outsole. No laces, tassels, metal bit, logo, sneaker sole, square toe, extra shoe, mismatched pair, plastic leather, brand signage, bare feet, distorted ankles, extra legs, shoe morphing, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Adult model stepping through the city in espresso loafers](assets/prompts/footwear-espresso-penny-loafer/preview-3.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** TikTok Shop
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 鞋履 | 模特上身 | 5:8 |
+
+- **视觉风格:** 高端奢华, 社交原生, 手作质感
+- **背景类型:** 生活方式实景
+- **素材用途:** 社交创意
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve the dark espresso burnished box-calf, almond toe, raised moccasin apron, and saddle strap with narrow oval cutout.
+  - Preserve the oxblood lining, low stacked dark-brown heel, slim black outsole, and unbranded upper.
+- **负面约束:** No laces, tassels, metal bit, logo, sneaker sole, square toe, extra shoe, mismatched pair, plastic leather, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0029](data/prompts/ec-0029-espresso-penny-loafer-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="prompt-ec-0029-shopify-atelier-detail"></a>
+
+### No. 44: 鞋履 — 浓缩咖啡色便士乐福鞋多平台套图: SHOPIFY ATELIER DETAIL
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Shopify](https://img.shields.io/badge/Platform-Shopify-6857ff)
+
+#### 描述
+
+让同一双浓缩咖啡色乐福鞋在白底商品图、石材大片、街头动态、工坊细节和图书馆风 Pinterest 图片中保持一致。
+
+**细节与微距 · Shopify · 4:5**
+
+#### 提示词
+
+```text
+Create one ultra-photorealistic portrait 4:5 Shopify craftsmanship detail photograph of exactly one premium loafer. Product design: one fictional unbranded pair of men's penny loafers in dark espresso burnished box-calf leather, with an almond toe, raised hand-stitched moccasin apron, one clean saddle strap with a narrow oval cutout, oxblood leather lining, a low stacked dark-brown leather heel, and a slim black outsole. Rest one shoe on a clean warm-gray leatherworker's block with the heel slightly raised; show only one restrained length of dark thread far behind. Frame a close three-quarter macro from toe to heel so the saddle cutout, hand-stitched apron, leather pores, welt edge, lining, and heel layers remain visible. Use soft north-window light plus a slim edge strip to reveal burnished tonal variation without oily glare. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same almond toe, apron seam, saddle cutout, espresso leather, oxblood lining, stacked heel, and black outsole. No laces, tassels, metal bit, logo, sneaker sole, square toe, extra shoe, mismatched pair, plastic leather, tools covering the shoe, second shoe, hands, loose sole, unfinished construction, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Macro craftsmanship view of an espresso penny loafer](assets/prompts/footwear-espresso-penny-loafer/preview-4.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** Shopify
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 鞋履 | 细节与微距 | 4:5 |
+
+- **视觉风格:** 高端奢华, 社交原生, 手作质感
+- **背景类型:** 柔光影棚
+- **素材用途:** 商品副图
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve the dark espresso burnished box-calf, almond toe, raised moccasin apron, and saddle strap with narrow oval cutout.
+  - Preserve the oxblood lining, low stacked dark-brown heel, slim black outsole, and unbranded upper.
+- **负面约束:** No laces, tassels, metal bit, logo, sneaker sole, square toe, extra shoe, mismatched pair, plastic leather, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0029](data/prompts/ec-0029-espresso-penny-loafer-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="prompt-ec-0029-pinterest-library-still-life"></a>
+
+### No. 45: 鞋履 — 浓缩咖啡色便士乐福鞋多平台套图: PINTEREST LIBRARY STILL LIFE
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Pinterest](https://img.shields.io/badge/Platform-Pinterest-6857ff)
+
+#### 描述
+
+让同一双浓缩咖啡色乐福鞋在白底商品图、石材大片、街头动态、工坊细节和图书馆风 Pinterest 图片中保持一致。
+
+**生活方式场景 · Pinterest · 5:8**
+
+#### 提示词
+
+```text
+Create one save-worthy ultra-photorealistic portrait 5:8 Pinterest menswear still life with exactly one matching pair of premium loafers. Product design: one fictional unbranded pair of men's penny loafers in dark espresso burnished box-calf leather, with an almond toe, raised hand-stitched moccasin apron, one clean saddle strap with a narrow oval cutout, oxblood leather lining, a low stacked dark-brown leather heel, and a slim black outsole. Place the pair beneath a low walnut library bench on an antique-red wool runner; include the lower edge of one closed blank-cover book and a pool of late-afternoon sun, with no person. Use a calm eye-level crop showing both full shoes, the oxblood lining of one shoe, rich floor texture, and layered negative space. Use warm window light, deep but open shadows, and quiet editorial film color. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same almond toe, apron seam, saddle cutout, espresso leather, oxblood lining, stacked heel, and black outsole. No laces, tassels, metal bit, logo, sneaker sole, square toe, extra shoe, mismatched pair, plastic leather, readable book title, socks, clothing pile, dust, vintage damage, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Espresso loafers in a warm walnut library setting](assets/prompts/footwear-espresso-penny-loafer/preview-5.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** Pinterest
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 鞋履 | 生活方式场景 | 5:8 |
+
+- **视觉风格:** 高端奢华, 社交原生, 手作质感
+- **背景类型:** 家居空间
+- **素材用途:** 社交创意
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve the dark espresso burnished box-calf, almond toe, raised moccasin apron, and saddle strap with narrow oval cutout.
+  - Preserve the oxblood lining, low stacked dark-brown heel, slim black outsole, and unbranded upper.
+- **负面约束:** No laces, tassels, metal bit, logo, sneaker sole, square toe, extra shoe, mismatched pair, plastic leather, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0029](data/prompts/ec-0029-espresso-penny-loafer-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="categories-beauty"></a>
+
+<a id="platforms-sephora"></a>
+
+<a id="prompt-ec-0028-sephora-clean-catalog"></a>
+
+### No. 46: 美妆与护肤 — 烟紫色香水多平台套图: SEPHORA CLEAN CATALOG
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Sephora](https://img.shields.io/badge/Platform-Sephora-6857ff)
+
+#### 描述
+
+让同一只烟紫色香水瓶呈现为美妆白底、暗调奢华首发、湿石品牌图、社交美妆片和 Pinterest 收藏级静物。
+
+**目录商品图 · Sephora · 4:5**
+
+#### 提示词
+
+```text
+Create one ultra-photorealistic portrait 4:5 Sephora-style clean catalog photograph of exactly one premium fragrance bottle. Product design: one fictional unbranded 75 ml flattened rectangular optical-glass perfume bottle with softly chamfered corners, deep smoke-violet liquid, a thick crystal-clear base, a short brushed-palladium cylindrical cap with one narrow oxblood enamel top disc, and a blank vertical frosted-ivory label with no writing. Stand the capped bottle upright on a low warm-ivory lacquer plinth against a seamless cream cyclorama; include no props. Use a centered front three-quarter view with the complete silhouette visible and the bottle filling about 72% of frame height. Use one large upper-left softbox, a narrow palladium edge strip, controlled violet refraction through the liquid, and a delicate grounding shadow. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same chamfered bottle proportions, smoke-violet fill, heavy clear base, palladium cap, oxblood top disc, and blank ivory label. No flowers covering the bottle, invented label copy, atomizer outside the cap, loose cap, extra bottle, colored liquid change, colored backdrop, loose cap, reflection obscuring the blank label, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Smoke-violet fragrance bottle on a warm ivory beauty set](assets/prompts/beauty-smoke-violet-fragrance/preview-1.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** Sephora
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 美妆与护肤 | 目录商品图 | 4:5 |
+
+- **视觉风格:** 高端奢华, 暗调氛围, 编辑大片
+- **背景类型:** 柔光影棚
+- **素材用途:** 目录商品图
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve the flattened chamfered optical-glass bottle, thick clear base, and deep smoke-violet liquid level.
+  - Preserve the short palladium cylinder cap with oxblood top disc and the blank vertical frosted-ivory label.
+- **负面约束:** No flowers covering the bottle, invented label copy, atomizer outside the cap, loose cap, extra bottle, colored liquid change, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0028](data/prompts/ec-0028-smoke-violet-fragrance-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="prompt-ec-0028-tmall-luxury-obsidian-launch"></a>
+
+### No. 47: 美妆与护肤 — 烟紫色香水多平台套图: TMALL LUXURY OBSIDIAN LAUNCH
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-天猫奢品](https://img.shields.io/badge/Platform-%E5%A4%A9%E7%8C%AB%E5%A5%A2%E5%93%81-6857ff)
+
+#### 描述
+
+让同一只烟紫色香水瓶呈现为美妆白底、暗调奢华首发、湿石品牌图、社交美妆片和 Pinterest 收藏级静物。
+
+**品牌首图 · 天猫奢品 · 4:5**
+
+#### 提示词
+
+```text
+Create one cinematic ultra-photorealistic portrait 4:5 luxury fragrance launch photograph of exactly one premium bottle. Product design: one fictional unbranded 75 ml flattened rectangular optical-glass perfume bottle with softly chamfered corners, deep smoke-violet liquid, a thick crystal-clear base, a short brushed-palladium cylindrical cap with one narrow oxblood enamel top disc, and a blank vertical frosted-ivory label with no writing. Place the capped bottle on a low black-obsidian mirror slab in a charcoal-to-black studio, with one thin crescent of violet mist behind it and no other object. Frame from a slightly low three-quarter angle; keep the entire bottle and reflection controlled, leaving refined negative space above. Use a blade of cool violet light through the glass, a warm oxblood rim on the cap disc, deep blacks, and precise specular control without crushing the label. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same chamfered bottle proportions, smoke-violet fill, heavy clear base, palladium cap, oxblood top disc, and blank ivory label. No flowers covering the bottle, invented label copy, atomizer outside the cap, loose cap, extra bottle, colored liquid change, neon clutter, smoke hiding the bottle, glowing label, fantasy particles, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Smoke-violet fragrance bottle on an obsidian launch set](assets/prompts/beauty-smoke-violet-fragrance/preview-2.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** 天猫奢品
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 美妆与护肤 | 品牌首图 | 4:5 |
+
+- **视觉风格:** 高端奢华, 暗调氛围, 编辑大片
+- **背景类型:** 暗调影棚
+- **素材用途:** 品牌首图
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve the flattened chamfered optical-glass bottle, thick clear base, and deep smoke-violet liquid level.
+  - Preserve the short palladium cylinder cap with oxblood top disc and the blank vertical frosted-ivory label.
+- **负面约束:** No flowers covering the bottle, invented label copy, atomizer outside the cap, loose cap, extra bottle, colored liquid change, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0028](data/prompts/ec-0028-smoke-violet-fragrance-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="prompt-ec-0028-shopify-wet-basalt-hero"></a>
+
+### No. 48: 美妆与护肤 — 烟紫色香水多平台套图: SHOPIFY WET-BASALT HERO
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Shopify](https://img.shields.io/badge/Platform-Shopify-6857ff)
+
+#### 描述
+
+让同一只烟紫色香水瓶呈现为美妆白底、暗调奢华首发、湿石品牌图、社交美妆片和 Pinterest 收藏级静物。
+
+**品牌首图 · Shopify · 5:8**
+
+#### 提示词
+
+```text
+Create one ultra-photorealistic portrait 5:8 Shopify fragrance hero photograph of exactly one premium bottle. Product design: one fictional unbranded 75 ml flattened rectangular optical-glass perfume bottle with softly chamfered corners, deep smoke-violet liquid, a thick crystal-clear base, a short brushed-palladium cylindrical cap with one narrow oxblood enamel top disc, and a blank vertical frosted-ivory label with no writing. Set the capped bottle upright on a rain-darkened basalt shelf beside a shallow reflective water channel; add only two tiny natural droplets on the glass and a soft out-of-focus slate wall. Use a close eye-level three-quarter view with the bottle on the lower right third and generous clean negative space above left. Use cool overcast window light, one warm silver edge highlight, subtle violet water reflection, and a calm after-rain atmosphere. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same chamfered bottle proportions, smoke-violet fill, heavy clear base, palladium cap, oxblood top disc, and blank ivory label. No flowers covering the bottle, invented label copy, atomizer outside the cap, loose cap, extra bottle, colored liquid change, large splash, waterfall, flower, moss covering the base, floating bottle, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Smoke-violet fragrance bottle on rain-darkened basalt](assets/prompts/beauty-smoke-violet-fragrance/preview-3.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** Shopify
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 美妆与护肤 | 品牌首图 | 5:8 |
+
+- **视觉风格:** 高端奢华, 暗调氛围, 编辑大片
+- **背景类型:** 天然材质
+- **素材用途:** 品牌首图
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve the flattened chamfered optical-glass bottle, thick clear base, and deep smoke-violet liquid level.
+  - Preserve the short palladium cylinder cap with oxblood top disc and the blank vertical frosted-ivory label.
+- **负面约束:** No flowers covering the bottle, invented label copy, atomizer outside the cap, loose cap, extra bottle, colored liquid change, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0028](data/prompts/ec-0028-smoke-violet-fragrance-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="prompt-ec-0028-instagram-evening-beauty"></a>
+
+### No. 49: 美妆与护肤 — 烟紫色香水多平台套图: INSTAGRAM EVENING BEAUTY
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Instagram Shop](https://img.shields.io/badge/Platform-Instagram_Shop-6857ff)
+
+#### 描述
+
+让同一只烟紫色香水瓶呈现为美妆白底、暗调奢华首发、湿石品牌图、社交美妆片和 Pinterest 收藏级静物。
+
+**社交电商广告 · Instagram Shop · 4:5**
+
+#### 提示词
+
+```text
+Create one polished portrait 4:5 Instagram Shop beauty editorial featuring exactly one premium fragrance bottle and one adult model. Product design: one fictional unbranded 75 ml flattened rectangular optical-glass perfume bottle with softly chamfered corners, deep smoke-violet liquid, a thick crystal-clear base, a short brushed-palladium cylindrical cap with one narrow oxblood enamel top disc, and a blank vertical frosted-ivory label with no writing. An adult woman in a black silk sleeveless top holds the capped bottle beside her collarbone against a deep aubergine plaster wall; show natural skin texture, one silver ear cuff, and no other product. Crop from lips to upper chest, keep the hand anatomically natural, and make the bottle, blank label, cap, and liquid sharply readable. Use controlled direct flash balanced with a soft violet side light for modern evening energy and truthful skin color. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same chamfered bottle proportions, smoke-violet fill, heavy clear base, palladium cap, oxblood top disc, and blank ivory label. No flowers covering the bottle, invented label copy, atomizer outside the cap, loose cap, extra bottle, colored liquid change, full face, spraying action, distorted fingers, excessive jewelry, beauty-filter skin, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Adult model holding a smoke-violet fragrance bottle](assets/prompts/beauty-smoke-violet-fragrance/preview-4.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** Instagram Shop
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 美妆与护肤 | 社交电商广告 | 4:5 |
+
+- **视觉风格:** 高端奢华, 暗调氛围, 编辑大片
+- **背景类型:** 生活方式实景
+- **素材用途:** 社交创意
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve the flattened chamfered optical-glass bottle, thick clear base, and deep smoke-violet liquid level.
+  - Preserve the short palladium cylinder cap with oxblood top disc and the blank vertical frosted-ivory label.
+- **负面约束:** No flowers covering the bottle, invented label copy, atomizer outside the cap, loose cap, extra bottle, colored liquid change, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0028](data/prompts/ec-0028-smoke-violet-fragrance-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
+
+<a id="prompt-ec-0028-pinterest-scent-still-life"></a>
+
+### No. 50: 美妆与护肤 — 烟紫色香水多平台套图: PINTEREST SCENT STILL LIFE
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Pinterest](https://img.shields.io/badge/Platform-Pinterest-6857ff)
+
+#### 描述
+
+让同一只烟紫色香水瓶呈现为美妆白底、暗调奢华首发、湿石品牌图、社交美妆片和 Pinterest 收藏级静物。
+
+**生活方式场景 · Pinterest · 5:8**
+
+#### 提示词
+
+```text
+Create one save-worthy ultra-photorealistic portrait 5:8 Pinterest fragrance still life with exactly one premium bottle. Product design: one fictional unbranded 75 ml flattened rectangular optical-glass perfume bottle with softly chamfered corners, deep smoke-violet liquid, a thick crystal-clear base, a short brushed-palladium cylindrical cap with one narrow oxblood enamel top disc, and a blank vertical frosted-ivory label with no writing. Arrange the capped bottle on folded dusty-lilac silk beside one small smoked-glass pebble and a single dark plum half on a matte apricot background; props must remain secondary and separated. Use an elevated three-quarter composition with graphic diagonal folds, the full bottle unobscured, and generous visual breathing room. Use hard late-afternoon light, a soft lavender bounce, crisp glass refractions, and sophisticated plum–apricot color contrast. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same chamfered bottle proportions, smoke-violet fill, heavy clear base, palladium cap, oxblood top disc, and blank ivory label. No flowers covering the bottle, invented label copy, atomizer outside the cap, loose cap, extra bottle, colored liquid change, multiple fruits, flowers, clutter, liquid spill, fabric hiding the base, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.
+```
+
+#### 生成预览图
+
+##### 图片 1
+
+![Smoke-violet fragrance bottle in a plum and apricot still life](assets/prompts/beauty-smoke-violet-fragrance/preview-5.png)
+
+#### 详细信息
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **来源:** 本仓库原创内容
+- **发布日期:** 2026-07-22
+- **语言:** en
+- **适用平台:** Pinterest
+- **许可证:** CC-BY-4.0
+
+<details>
+<summary><strong>生产参数、商品保真项与溯源信息</strong></summary>
+
+| 生成模式 | 商品行业 | 使用场景 | 宽高比 |
+|---|---|---|---|
+| `text-to-image` | 美妆与护肤 | 生活方式场景 | 5:8 |
+
+- **视觉风格:** 高端奢华, 暗调氛围, 编辑大片
+- **背景类型:** 彩色影棚
+- **素材用途:** 社交创意
+- **输入要求:** No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU.
+- **商品保真项:**
+  - Preserve the flattened chamfered optical-glass bottle, thick clear base, and deep smoke-violet liquid level.
+  - Preserve the short palladium cylinder cap with oxblood top disc and the blank vertical frosted-ivory label.
+- **负面约束:** No flowers covering the bottle, invented label copy, atomizer outside the cap, loose cap, extra bottle, colored liquid change, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.
+
+**来源与版权**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台规则状态:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0028](data/prompts/ec-0028-smoke-violet-fragrance-platform-set.json)
+
+</details>
+
+**[🚀 立即体验 →](https://www.pixpix.com/)**
+
+---
 
 <a id="prompt-ec-0027-amazon-home-clean-catalog"></a>
 
-### No. 1: 家居与家具 — 牛血红便携台灯多平台套图: AMAZON HOME CLEAN CATALOG
+### No. 51: 家居与家具 — 牛血红便携台灯多平台套图: AMAZON HOME CLEAN CATALOG
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon Home](https://img.shields.io/badge/Platform-Amazon_Home-6857ff)
 
@@ -572,11 +3880,9 @@ Create one ultra-photorealistic portrait 4:5 catalog photograph of one fictional
 
 ---
 
-<a id="usecases-branded-hero"></a>
-
 <a id="prompt-ec-0027-shopify-blue-hour-hero"></a>
 
-### No. 2: 家居与家具 — 牛血红便携台灯多平台套图: SHOPIFY BLUE-HOUR HERO
+### No. 52: 家居与家具 — 牛血红便携台灯多平台套图: SHOPIFY BLUE-HOUR HERO
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Shopify](https://img.shields.io/badge/Platform-Shopify-6857ff)
 
@@ -639,11 +3945,9 @@ Create one cinematic ultra-photorealistic portrait 4:5 Shopify hero photograph o
 
 ---
 
-<a id="usecases-lifestyle-scene"></a>
-
 <a id="prompt-ec-0027-pinterest-midcentury-still-life"></a>
 
-### No. 3: 家居与家具 — 牛血红便携台灯多平台套图: PINTEREST MID-CENTURY STILL LIFE
+### No. 53: 家居与家具 — 牛血红便携台灯多平台套图: PINTEREST MID-CENTURY STILL LIFE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Pinterest](https://img.shields.io/badge/Platform-Pinterest-6857ff)
 
@@ -708,13 +4012,9 @@ Create one ultra-photorealistic portrait 5:8 Pinterest interior-editorial still 
 
 <a id="categories-bags-and-accessories"></a>
 
-<a id="platforms-amazon-fashion"></a>
-
-<a id="platforms-xiaohongshu"></a>
-
 <a id="prompt-ec-0026-amazon-fashion-clean-catalog"></a>
 
-### No. 4: 箱包与配饰 — 玳瑁太阳镜多平台套图: AMAZON FASHION CLEAN CATALOG
+### No. 54: 箱包与配饰 — 玳瑁太阳镜多平台套图: AMAZON FASHION CLEAN CATALOG
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon Fashion](https://img.shields.io/badge/Platform-Amazon_Fashion-6857ff)
 
@@ -777,11 +4077,9 @@ Create one ultra-photorealistic portrait 4:5 catalog photograph of one fictional
 
 ---
 
-<a id="usecases-on-model"></a>
-
 <a id="prompt-ec-0026-xiaohongshu-sunlit-fashion"></a>
 
-### No. 5: 箱包与配饰 — 玳瑁太阳镜多平台套图: XIAOHONGSHU SUNLIT FASHION
+### No. 55: 箱包与配饰 — 玳瑁太阳镜多平台套图: XIAOHONGSHU SUNLIT FASHION
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-小红书](https://img.shields.io/badge/Platform-%E5%B0%8F%E7%BA%A2%E4%B9%A6-6857ff)
 
@@ -846,7 +4144,7 @@ Create one ultra-photorealistic portrait 4:5 social-commerce fashion photograph 
 
 <a id="prompt-ec-0026-pinterest-poolside-editorial"></a>
 
-### No. 6: 箱包与配饰 — 玳瑁太阳镜多平台套图: PINTEREST POOLSIDE EDITORIAL
+### No. 56: 箱包与配饰 — 玳瑁太阳镜多平台套图: PINTEREST POOLSIDE EDITORIAL
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Pinterest](https://img.shields.io/badge/Platform-Pinterest-6857ff)
 
@@ -911,15 +4209,9 @@ Create one ultra-photorealistic portrait 5:8 Pinterest editorial still life of o
 
 <a id="categories-stationery-and-office"></a>
 
-<a id="usecases-catalog-image"></a>
-
-<a id="platforms-tmall"></a>
-
-<a id="platforms-etsy"></a>
-
 <a id="prompt-ec-0025-tmall-luxury-catalog"></a>
 
-### No. 7: 文具与办公 — 切面玉绿色钢笔电商套图: TMALL LUXURY CATALOG
+### No. 57: 文具与办公 — 切面玉绿色钢笔电商套图: TMALL LUXURY CATALOG
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-天猫](https://img.shields.io/badge/Platform-%E5%A4%A9%E7%8C%AB-6857ff)
 
@@ -981,11 +4273,9 @@ Create one ultra-photorealistic portrait 4:5 product photograph of a fictional u
 
 ---
 
-<a id="usecases-detail-macro"></a>
-
 <a id="prompt-ec-0025-etsy-maker-provenance"></a>
 
-### No. 8: 文具与办公 — 切面玉绿色钢笔电商套图: ETSY MAKER PROVENANCE
+### No. 58: 文具与办公 — 切面玉绿色钢笔电商套图: ETSY MAKER PROVENANCE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Etsy](https://img.shields.io/badge/Platform-Etsy-6857ff)
 
@@ -1049,7 +4339,7 @@ Create one tactile portrait 5:8 editorial photograph of the same fictional fount
 
 <a id="prompt-ec-0025-xiaohongshu-rain-day-writing"></a>
 
-### No. 9: 文具与办公 — 切面玉绿色钢笔电商套图: XIAOHONGSHU RAIN-DAY WRITING
+### No. 59: 文具与办公 — 切面玉绿色钢笔电商套图: XIAOHONGSHU RAIN-DAY WRITING
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-小红书](https://img.shields.io/badge/Platform-%E5%B0%8F%E7%BA%A2%E4%B9%A6-6857ff)
 
@@ -1113,11 +4403,9 @@ Create one intimate portrait 5:8 photorealistic desk scene showing the same fict
 
 <a id="categories-travel-and-luggage"></a>
 
-<a id="platforms-amazon"></a>
-
 <a id="prompt-ec-0024-amazon-carryon-main-image"></a>
 
-### No. 10: 旅行与箱包 — 沙色登机箱旅行电商套图: AMAZON CARRY-ON MAIN IMAGE
+### No. 60: 旅行与箱包 — 沙色登机箱旅行电商套图: AMAZON CARRY-ON MAIN IMAGE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon](https://img.shields.io/badge/Platform-Amazon-6857ff)
 
@@ -1181,7 +4469,7 @@ Create one ultra-photorealistic portrait 5:8 catalog photograph of a fictional u
 
 <a id="prompt-ec-0024-shopify-airport-hero"></a>
 
-### No. 11: 旅行与箱包 — 沙色登机箱旅行电商套图: SHOPIFY AIRPORT HERO
+### No. 61: 旅行与箱包 — 沙色登机箱旅行电商套图: SHOPIFY AIRPORT HERO
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Shopify](https://img.shields.io/badge/Platform-Shopify-6857ff)
 
@@ -1243,11 +4531,9 @@ Create one cinematic portrait 4:5 architectural campaign photograph of the same 
 
 ---
 
-<a id="usecases-feature-callout"></a>
-
 <a id="prompt-ec-0024-pinterest-packing-organization"></a>
 
-### No. 12: 旅行与箱包 — 沙色登机箱旅行电商套图: PINTEREST PACKING ORGANIZATION
+### No. 62: 旅行与箱包 — 沙色登机箱旅行电商套图: PINTEREST PACKING ORGANIZATION
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Pinterest](https://img.shields.io/badge/Platform-Pinterest-6857ff)
 
@@ -1309,13 +4595,9 @@ Create one photorealistic portrait 4:5 overhead packing story featuring the same
 
 ---
 
-<a id="categories-fitness-and-wellness"></a>
-
-<a id="platforms-tiktok-shop"></a>
-
 <a id="prompt-ec-0023-amazon-claim-free-main-image"></a>
 
-### No. 13: 健身与健康生活 — 钴蓝植物蛋白粉电商套图: AMAZON CLAIM-FREE MAIN IMAGE
+### No. 63: 健身与健康生活 — 钴蓝植物蛋白粉电商套图: AMAZON CLAIM-FREE MAIN IMAGE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon](https://img.shields.io/badge/Platform-Amazon-6857ff)
 
@@ -1377,11 +4659,9 @@ Create one ultra-photorealistic portrait 4:5 catalog photograph of a fictional u
 
 ---
 
-<a id="usecases-social-ad"></a>
-
 <a id="prompt-ec-0023-tiktok-training-energy"></a>
 
-### No. 14: 健身与健康生活 — 钴蓝植物蛋白粉电商套图: TIKTOK TRAINING ENERGY
+### No. 64: 健身与健康生活 — 钴蓝植物蛋白粉电商套图: TIKTOK TRAINING ENERGY
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-TikTok Shop](https://img.shields.io/badge/Platform-TikTok_Shop-6857ff)
 
@@ -1445,7 +4725,7 @@ Create one kinetic portrait 5:8 social-native photograph featuring the same fict
 
 <a id="prompt-ec-0023-xiaohongshu-breakfast-flatlay"></a>
 
-### No. 15: 健身与健康生活 — 钴蓝植物蛋白粉电商套图: XIAOHONGSHU BREAKFAST FLAT LAY
+### No. 65: 健身与健康生活 — 钴蓝植物蛋白粉电商套图: XIAOHONGSHU BREAKFAST FLAT LAY
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-小红书](https://img.shields.io/badge/Platform-%E5%B0%8F%E7%BA%A2%E4%B9%A6-6857ff)
 
@@ -1507,11 +4787,9 @@ Create one refined portrait 4:5 social-commerce breakfast flat lay centered on t
 
 ---
 
-<a id="categories-cookware"></a>
-
 <a id="prompt-ec-0022-amazon-home-main-image"></a>
 
-### No. 16: 炊具 — 森林绿珐琅铸铁锅电商套图: AMAZON HOME MAIN IMAGE
+### No. 66: 炊具 — 森林绿珐琅铸铁锅电商套图: AMAZON HOME MAIN IMAGE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![⭐-精选](https://img.shields.io/badge/%E2%AD%90-%E7%B2%BE%E9%80%89-gold) ![Platform-Amazon Home](https://img.shields.io/badge/Platform-Amazon_Home-6857ff)
 
@@ -1575,7 +4853,7 @@ Create one ultra-photorealistic portrait 4:5 catalog photograph of a fictional u
 
 <a id="prompt-ec-0022-pinterest-mediterranean-still-life"></a>
 
-### No. 17: 炊具 — 森林绿珐琅铸铁锅电商套图: PINTEREST MEDITERRANEAN STILL LIFE
+### No. 67: 炊具 — 森林绿珐琅铸铁锅电商套图: PINTEREST MEDITERRANEAN STILL LIFE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Pinterest](https://img.shields.io/badge/Platform-Pinterest-6857ff)
 
@@ -1639,7 +4917,7 @@ Create one portrait 5:8 photorealistic editorial image of the same fictional for
 
 <a id="prompt-ec-0022-xiaohongshu-cooking-ritual"></a>
 
-### No. 18: 炊具 — 森林绿珐琅铸铁锅电商套图: XIAOHONGSHU COOKING RITUAL
+### No. 68: 炊具 — 森林绿珐琅铸铁锅电商套图: XIAOHONGSHU COOKING RITUAL
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-小红书](https://img.shields.io/badge/Platform-%E5%B0%8F%E7%BA%A2%E4%B9%A6-6857ff)
 
@@ -1701,13 +4979,9 @@ Create one portrait 4:5 appetizing social-commerce lifestyle photograph of the s
 
 ---
 
-<a id="categories-consumer-electronics"></a>
-
-<a id="platforms-best-buy"></a>
-
 <a id="prompt-ec-0021-amazon-clean-main-image"></a>
 
-### No. 19: 消费电子 — 午夜蓝无线耳机平台套图: AMAZON CLEAN MAIN IMAGE
+### No. 69: 消费电子 — 午夜蓝无线耳机平台套图: AMAZON CLEAN MAIN IMAGE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![⭐-精选](https://img.shields.io/badge/%E2%AD%90-%E7%B2%BE%E9%80%89-gold) ![Platform-Amazon](https://img.shields.io/badge/Platform-Amazon-6857ff)
 
@@ -1771,7 +5045,7 @@ Create one ultra-photorealistic portrait 4:5 catalog photograph of a fictional u
 
 <a id="prompt-ec-0021-best-buy-acoustic-feature"></a>
 
-### No. 20: 消费电子 — 午夜蓝无线耳机平台套图: BEST BUY ACOUSTIC FEATURE
+### No. 70: 消费电子 — 午夜蓝无线耳机平台套图: BEST BUY ACOUSTIC FEATURE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Best Buy](https://img.shields.io/badge/Platform-Best_Buy-6857ff)
 
@@ -1835,7 +5109,7 @@ Create one dramatic ultra-photorealistic portrait 4:5 feature image of the same 
 
 <a id="prompt-ec-0021-tiktok-creator-session"></a>
 
-### No. 21: 消费电子 — 午夜蓝无线耳机平台套图: TIKTOK CREATOR SESSION
+### No. 71: 消费电子 — 午夜蓝无线耳机平台套图: TIKTOK CREATOR SESSION
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-TikTok Shop](https://img.shields.io/badge/Platform-TikTok_Shop-6857ff)
 
@@ -1897,17 +5171,9 @@ Create one portrait 4:5 social-native photorealistic campaign frame of one adult
 
 ---
 
-<a id="categories-beauty"></a>
-
-<a id="platforms-sephora"></a>
-
-<a id="platforms-tmall-luxury"></a>
-
-<a id="platforms-instagram-shop"></a>
-
 <a id="prompt-ec-0020-sephora-clean-catalog"></a>
 
-### No. 22: 美妆与护肤 — 雕塑感石榴红唇膏电商套图: SEPHORA CLEAN CATALOG
+### No. 72: 美妆与护肤 — 雕塑感石榴红唇膏电商套图: SEPHORA CLEAN CATALOG
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![⭐-精选](https://img.shields.io/badge/%E2%AD%90-%E7%B2%BE%E9%80%89-gold) ![Platform-Sephora](https://img.shields.io/badge/Platform-Sephora-6857ff)
 
@@ -1971,7 +5237,7 @@ Create a single ultra-photorealistic portrait 4:5 product photograph of one fict
 
 <a id="prompt-ec-0020-tmall-oxblood-launch"></a>
 
-### No. 23: 美妆与护肤 — 雕塑感石榴红唇膏电商套图: TMALL OXBLOOD LAUNCH
+### No. 73: 美妆与护肤 — 雕塑感石榴红唇膏电商套图: TMALL OXBLOOD LAUNCH
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-天猫奢品](https://img.shields.io/badge/Platform-%E5%A4%A9%E7%8C%AB%E5%A5%A2%E5%93%81-6857ff)
 
@@ -2035,7 +5301,7 @@ Create a single ultra-photorealistic portrait 4:5 campaign still of the same fic
 
 <a id="prompt-ec-0020-instagram-flash-editorial"></a>
 
-### No. 24: 美妆与护肤 — 雕塑感石榴红唇膏电商套图: INSTAGRAM FLASH EDITORIAL
+### No. 74: 美妆与护肤 — 雕塑感石榴红唇膏电商套图: INSTAGRAM FLASH EDITORIAL
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Instagram Shop](https://img.shields.io/badge/Platform-Instagram_Shop-6857ff)
 
@@ -2099,7 +5365,7 @@ Create a single photorealistic portrait 5:8 social-commerce beauty photograph fe
 
 <a id="prompt-ec-0019-shopify-travertine-hero"></a>
 
-### No. 25: 美妆与护肤 — 商品保真精华液背景改图工作流: SHOPIFY TRAVERTINE HERO
+### No. 75: 美妆与护肤 — 商品保真精华液背景改图工作流: SHOPIFY TRAVERTINE HERO
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![⭐-精选](https://img.shields.io/badge/%E2%AD%90-%E7%B2%BE%E9%80%89-gold) ![Platform-Shopify](https://img.shields.io/badge/Platform-Shopify-6857ff)
 
@@ -2168,7 +5434,7 @@ Edit the supplied serum product image into one standalone premium Shopify produc
 
 <a id="prompt-ec-0019-instagram-night-launch"></a>
 
-### No. 26: 美妆与护肤 — 商品保真精华液背景改图工作流: INSTAGRAM NIGHT LAUNCH
+### No. 76: 美妆与护肤 — 商品保真精华液背景改图工作流: INSTAGRAM NIGHT LAUNCH
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Instagram Shop](https://img.shields.io/badge/Platform-Instagram_Shop-6857ff)
 
@@ -2237,13 +5503,11 @@ Edit the supplied serum product image into one standalone premium Instagram Shop
 
 <a id="categories-cycling"></a>
 
-<a id="platforms-amazon-sports"></a>
-
 <a id="platforms-decathlon"></a>
 
 <a id="prompt-ec-0018-variant-1"></a>
 
-### No. 27: 骑行 — 空气动力公路头盔三场景: AMAZON SPORTS CATALOG
+### No. 77: 骑行 — 空气动力公路头盔三场景: AMAZON SPORTS CATALOG
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon Sports](https://img.shields.io/badge/Platform-Amazon_Sports-6857ff)
 
@@ -2309,7 +5573,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0018-variant-2"></a>
 
-### No. 28: 骑行 — 空气动力公路头盔三场景: FEATURE AIRFLOW VISUAL
+### No. 78: 骑行 — 空气动力公路头盔三场景: FEATURE AIRFLOW VISUAL
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-迪卡侬](https://img.shields.io/badge/Platform-%E8%BF%AA%E5%8D%A1%E4%BE%AC-6857ff)
 
@@ -2375,7 +5639,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0018-variant-3"></a>
 
-### No. 29: 骑行 — 空气动力公路头盔三场景: INSTAGRAM ACTION CAMPAIGN
+### No. 79: 骑行 — 空气动力公路头盔三场景: INSTAGRAM ACTION CAMPAIGN
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Instagram Shop](https://img.shields.io/badge/Platform-Instagram_Shop-6857ff)
 
@@ -2441,11 +5705,9 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="categories-garden-and-planters"></a>
 
-<a id="platforms-wayfair"></a>
-
 <a id="prompt-ec-0017-variant-1"></a>
 
-### No. 30: 园艺与花器 — 钴蓝陶瓷花盆三场景: ETSY MAKER STORY
+### No. 80: 园艺与花器 — 钴蓝陶瓷花盆三场景: ETSY MAKER STORY
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Etsy](https://img.shields.io/badge/Platform-Etsy-6857ff)
 
@@ -2511,7 +5773,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0017-variant-2"></a>
 
-### No. 31: 园艺与花器 — 钴蓝陶瓷花盆三场景: WAYFAIR CATALOG
+### No. 81: 园艺与花器 — 钴蓝陶瓷花盆三场景: WAYFAIR CATALOG
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Wayfair](https://img.shields.io/badge/Platform-Wayfair-6857ff)
 
@@ -2577,7 +5839,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0017-variant-3"></a>
 
-### No. 32: 园艺与花器 — 钴蓝陶瓷花盆三场景: PINTEREST INTERIOR EDITORIAL
+### No. 82: 园艺与花器 — 钴蓝陶瓷花盆三场景: PINTEREST INTERIOR EDITORIAL
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Pinterest](https://img.shields.io/badge/Platform-Pinterest-6857ff)
 
@@ -2643,11 +5905,9 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="categories-tea-and-grocery"></a>
 
-<a id="platforms-amazon-grocery"></a>
-
 <a id="prompt-ec-0016-variant-1"></a>
 
-### No. 33: 茶饮与杂货 — 典礼级抹茶罐三场景: AMAZON GROCERY CATALOG
+### No. 83: 茶饮与杂货 — 典礼级抹茶罐三场景: AMAZON GROCERY CATALOG
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon Grocery](https://img.shields.io/badge/Platform-Amazon_Grocery-6857ff)
 
@@ -2713,7 +5973,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0016-variant-2"></a>
 
-### No. 34: 茶饮与杂货 — 典礼级抹茶罐三场景: SHOPIFY TEA RITUAL
+### No. 84: 茶饮与杂货 — 典礼级抹茶罐三场景: SHOPIFY TEA RITUAL
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Shopify](https://img.shields.io/badge/Platform-Shopify-6857ff)
 
@@ -2779,7 +6039,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0016-variant-3"></a>
 
-### No. 35: 茶饮与杂货 — 典礼级抹茶罐三场景: XIAOHONGSHU ICED MATCHA
+### No. 85: 茶饮与杂货 — 典礼级抹茶罐三场景: XIAOHONGSHU ICED MATCHA
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-小红书](https://img.shields.io/badge/Platform-%E5%B0%8F%E7%BA%A2%E4%B9%A6-6857ff)
 
@@ -2847,7 +6107,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0015-variant-1"></a>
 
-### No. 36: 床品与家纺 — 鼠尾草亚麻床品三场景: AMAZON HOME CATALOG
+### No. 86: 床品与家纺 — 鼠尾草亚麻床品三场景: AMAZON HOME CATALOG
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon Home](https://img.shields.io/badge/Platform-Amazon_Home-6857ff)
 
@@ -2913,7 +6173,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no peo
 
 <a id="prompt-ec-0015-variant-2"></a>
 
-### No. 37: 床品与家纺 — 鼠尾草亚麻床品三场景: SHOPIFY BEDROOM LIFESTYLE
+### No. 87: 床品与家纺 — 鼠尾草亚麻床品三场景: SHOPIFY BEDROOM LIFESTYLE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Shopify](https://img.shields.io/badge/Platform-Shopify-6857ff)
 
@@ -2979,7 +6239,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no peo
 
 <a id="prompt-ec-0015-variant-3"></a>
 
-### No. 38: 床品与家纺 — 鼠尾草亚麻床品三场景: PINTEREST SLOW-LIVING EDITORIAL
+### No. 88: 床品与家纺 — 鼠尾草亚麻床品三场景: PINTEREST SLOW-LIVING EDITORIAL
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Pinterest](https://img.shields.io/badge/Platform-Pinterest-6857ff)
 
@@ -3043,11 +6303,9 @@ Quality and safety constraints: no readable text, no logos, no watermark, no peo
 
 ---
 
-<a id="platforms-farfetch"></a>
-
 <a id="prompt-ec-0014-variant-1"></a>
 
-### No. 39: 箱包与配饰 — 牛血红肩背包三场景: FARFETCH CATALOG
+### No. 89: 箱包与配饰 — 牛血红肩背包三场景: FARFETCH CATALOG
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![⭐-精选](https://img.shields.io/badge/%E2%AD%90-%E7%B2%BE%E9%80%89-gold) ![Platform-Farfetch](https://img.shields.io/badge/Platform-Farfetch-6857ff)
 
@@ -3113,7 +6371,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0014-variant-2"></a>
 
-### No. 40: 箱包与配饰 — 牛血红肩背包三场景: TIKTOK SHOP STREET STYLE
+### No. 90: 箱包与配饰 — 牛血红肩背包三场景: TIKTOK SHOP STREET STYLE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-TikTok Shop](https://img.shields.io/badge/Platform-TikTok_Shop-6857ff)
 
@@ -3179,7 +6437,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0014-variant-3"></a>
 
-### No. 41: 箱包与配饰 — 牛血红肩背包三场景: PINTEREST ARCHITECTURAL STILL LIFE
+### No. 91: 箱包与配饰 — 牛血红肩背包三场景: PINTEREST ARCHITECTURAL STILL LIFE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Pinterest](https://img.shields.io/badge/Platform-Pinterest-6857ff)
 
@@ -3249,7 +6507,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0013-variant-1"></a>
 
-### No. 42: 腕表 — 青铜机械腕表三场景: CHRONO24 CATALOG
+### No. 92: 腕表 — 青铜机械腕表三场景: CHRONO24 CATALOG
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![⭐-精选](https://img.shields.io/badge/%E2%AD%90-%E7%B2%BE%E9%80%89-gold) ![Platform-Chrono24](https://img.shields.io/badge/Platform-Chrono24-6857ff)
 
@@ -3315,7 +6573,7 @@ Quality and safety constraints: no readable text, no logo, no watermark, no extr
 
 <a id="prompt-ec-0013-variant-2"></a>
 
-### No. 43: 腕表 — 青铜机械腕表三场景: TMALL LUXURY LAUNCH
+### No. 93: 腕表 — 青铜机械腕表三场景: TMALL LUXURY LAUNCH
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-天猫奢品](https://img.shields.io/badge/Platform-%E5%A4%A9%E7%8C%AB%E5%A5%A2%E5%93%81-6857ff)
 
@@ -3381,7 +6639,7 @@ Quality and safety constraints: no readable text, no logo, no watermark, no extr
 
 <a id="prompt-ec-0013-variant-3"></a>
 
-### No. 44: 腕表 — 青铜机械腕表三场景: INSTAGRAM EDITORIAL
+### No. 94: 腕表 — 青铜机械腕表三场景: INSTAGRAM EDITORIAL
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Instagram Shop](https://img.shields.io/badge/Platform-Instagram_Shop-6857ff)
 
@@ -3449,7 +6707,7 @@ Quality and safety constraints: no readable text, no logo, no watermark, no extr
 
 <a id="prompt-ec-0012-variant-1"></a>
 
-### No. 45: 玩具与儿童用品 — 木质叠叠拱门玩具三场景: ETSY HANDMADE STORY
+### No. 95: 玩具与儿童用品 — 木质叠叠拱门玩具三场景: ETSY HANDMADE STORY
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Etsy](https://img.shields.io/badge/Platform-Etsy-6857ff)
 
@@ -3515,7 +6773,7 @@ Quality and safety constraints: exactly seven arch pieces, no readable text, no 
 
 <a id="prompt-ec-0012-variant-2"></a>
 
-### No. 46: 玩具与儿童用品 — 木质叠叠拱门玩具三场景: AMAZON CATALOG
+### No. 96: 玩具与儿童用品 — 木质叠叠拱门玩具三场景: AMAZON CATALOG
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon](https://img.shields.io/badge/Platform-Amazon-6857ff)
 
@@ -3581,7 +6839,7 @@ Quality and safety constraints: exactly seven arch pieces, no readable text, no 
 
 <a id="prompt-ec-0012-variant-3"></a>
 
-### No. 47: 玩具与儿童用品 — 木质叠叠拱门玩具三场景: PINTEREST PLAYROOM EDITORIAL
+### No. 97: 玩具与儿童用品 — 木质叠叠拱门玩具三场景: PINTEREST PLAYROOM EDITORIAL
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Pinterest](https://img.shields.io/badge/Platform-Pinterest-6857ff)
 
@@ -3651,7 +6909,7 @@ Quality and safety constraints: exactly seven arch pieces, no readable text, no 
 
 <a id="prompt-ec-0011-variant-1"></a>
 
-### No. 48: 汽车配件 — 无线车载吸尘器三场景: AMAZON CATALOG
+### No. 98: 汽车配件 — 无线车载吸尘器三场景: AMAZON CATALOG
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon](https://img.shields.io/badge/Platform-Amazon-6857ff)
 
@@ -3717,7 +6975,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0011-variant-2"></a>
 
-### No. 49: 汽车配件 — 无线车载吸尘器三场景: EBAY PRACTICAL USE
+### No. 99: 汽车配件 — 无线车载吸尘器三场景: EBAY PRACTICAL USE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-eBay](https://img.shields.io/badge/Platform-eBay-6857ff)
 
@@ -3783,7 +7041,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0011-variant-3"></a>
 
-### No. 50: 汽车配件 — 无线车载吸尘器三场景: TMALL TECHNOLOGY HERO
+### No. 100: 汽车配件 — 无线车载吸尘器三场景: TMALL TECHNOLOGY HERO
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-天猫](https://img.shields.io/badge/Platform-%E5%A4%A9%E7%8C%AB-6857ff)
 
@@ -3853,7 +7111,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0010-variant-1"></a>
 
-### No. 51: 户外装备 — 徒步帐篷天气表现三场景: OUTDOOR RETAIL CATALOG
+### No. 101: 户外装备 — 徒步帐篷天气表现三场景: OUTDOOR RETAIL CATALOG
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-户外零售](https://img.shields.io/badge/Platform-%E6%88%B7%E5%A4%96%E9%9B%B6%E5%94%AE-6857ff)
 
@@ -3919,7 +7177,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0010-variant-2"></a>
 
-### No. 52: 户外装备 — 徒步帐篷天气表现三场景: AMAZON WEATHER FEATURE
+### No. 102: 户外装备 — 徒步帐篷天气表现三场景: AMAZON WEATHER FEATURE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon](https://img.shields.io/badge/Platform-Amazon-6857ff)
 
@@ -3985,7 +7243,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0010-variant-3"></a>
 
-### No. 53: 户外装备 — 徒步帐篷天气表现三场景: PINTEREST ADVENTURE EDITORIAL
+### No. 103: 户外装备 — 徒步帐篷天气表现三场景: PINTEREST ADVENTURE EDITORIAL
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Pinterest](https://img.shields.io/badge/Platform-Pinterest-6857ff)
 
@@ -4049,13 +7307,9 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 ---
 
-<a id="categories-pet-supplies"></a>
-
-<a id="platforms-chewy"></a>
-
 <a id="prompt-ec-0009-variant-1"></a>
 
-### No. 54: 宠物用品 — 设计感猫咪旅行包三场景: CHEWY CATALOG
+### No. 104: 宠物用品 — 设计感猫咪旅行包三场景: CHEWY CATALOG
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Chewy](https://img.shields.io/badge/Platform-Chewy-6857ff)
 
@@ -4121,7 +7375,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0009-variant-2"></a>
 
-### No. 55: 宠物用品 — 设计感猫咪旅行包三场景: INSTAGRAM SHOP LIFESTYLE
+### No. 105: 宠物用品 — 设计感猫咪旅行包三场景: INSTAGRAM SHOP LIFESTYLE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Instagram Shop](https://img.shields.io/badge/Platform-Instagram_Shop-6857ff)
 
@@ -4187,7 +7441,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0009-variant-3"></a>
 
-### No. 56: 宠物用品 — 设计感猫咪旅行包三场景: AMAZON FEATURE DETAIL
+### No. 106: 宠物用品 — 设计感猫咪旅行包三场景: AMAZON FEATURE DETAIL
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon](https://img.shields.io/badge/Platform-Amazon-6857ff)
 
@@ -4255,7 +7509,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0008-variant-1"></a>
 
-### No. 57: 厨房电器 — 精品咖啡机电商三场景: AMAZON LISTING HERO
+### No. 107: 厨房电器 — 精品咖啡机电商三场景: AMAZON LISTING HERO
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon](https://img.shields.io/badge/Platform-Amazon-6857ff)
 
@@ -4321,7 +7575,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0008-variant-2"></a>
 
-### No. 58: 厨房电器 — 精品咖啡机电商三场景: SHOPIFY MORNING LIFESTYLE
+### No. 108: 厨房电器 — 精品咖啡机电商三场景: SHOPIFY MORNING LIFESTYLE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Shopify](https://img.shields.io/badge/Platform-Shopify-6857ff)
 
@@ -4387,7 +7641,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0008-variant-3"></a>
 
-### No. 59: 厨房电器 — 精品咖啡机电商三场景: XIAOHONGSHU COFFEE RITUAL
+### No. 109: 厨房电器 — 精品咖啡机电商三场景: XIAOHONGSHU COFFEE RITUAL
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-小红书](https://img.shields.io/badge/Platform-%E5%B0%8F%E7%BA%A2%E4%B9%A6-6857ff)
 
@@ -4451,11 +7705,9 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 ---
 
-<a id="categories-footwear"></a>
-
 <a id="prompt-ec-0007-variant-1"></a>
 
-### No. 60: 鞋履 — 平台原生越野跑鞋三场景: AMAZON FASHION CATALOG
+### No. 110: 鞋履 — 平台原生越野跑鞋三场景: AMAZON FASHION CATALOG
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon Fashion](https://img.shields.io/badge/Platform-Amazon_Fashion-6857ff)
 
@@ -4521,7 +7773,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0007-variant-2"></a>
 
-### No. 61: 鞋履 — 平台原生越野跑鞋三场景: TIKTOK SHOP ACTION
+### No. 111: 鞋履 — 平台原生越野跑鞋三场景: TIKTOK SHOP ACTION
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-TikTok Shop](https://img.shields.io/badge/Platform-TikTok_Shop-6857ff)
 
@@ -4587,7 +7839,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0007-variant-3"></a>
 
-### No. 62: 鞋履 — 平台原生越野跑鞋三场景: PINTEREST MATERIAL EDITORIAL
+### No. 112: 鞋履 — 平台原生越野跑鞋三场景: PINTEREST MATERIAL EDITORIAL
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Pinterest](https://img.shields.io/badge/Platform-Pinterest-6857ff)
 
@@ -4655,7 +7907,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0006-variant-1"></a>
 
-### No. 63: 珠宝 — 博物馆级祖母绿戒指三场景: TMALL LUXURY LAUNCH
+### No. 113: 珠宝 — 博物馆级祖母绿戒指三场景: TMALL LUXURY LAUNCH
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-天猫奢品](https://img.shields.io/badge/Platform-%E5%A4%A9%E7%8C%AB%E5%A5%A2%E5%93%81-6857ff)
 
@@ -4721,7 +7973,7 @@ Quality and safety constraints: pristine clean jewelry surfaces; no smudges or f
 
 <a id="prompt-ec-0006-variant-2"></a>
 
-### No. 64: 珠宝 — 博物馆级祖母绿戒指三场景: SHOPIFY ATELIER DETAIL
+### No. 114: 珠宝 — 博物馆级祖母绿戒指三场景: SHOPIFY ATELIER DETAIL
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Shopify](https://img.shields.io/badge/Platform-Shopify-6857ff)
 
@@ -4787,7 +8039,7 @@ Quality and safety constraints: pristine clean jewelry surfaces; no smudges or f
 
 <a id="prompt-ec-0006-variant-3"></a>
 
-### No. 65: 珠宝 — 博物馆级祖母绿戒指三场景: EDITORIAL WATER CAUSTIC
+### No. 115: 珠宝 — 博物馆级祖母绿戒指三场景: EDITORIAL WATER CAUSTIC
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Instagram Shop](https://img.shields.io/badge/Platform-Instagram_Shop-6857ff)
 
@@ -4853,7 +8105,7 @@ Quality and safety constraints: pristine clean jewelry surfaces; no smudges or f
 
 <a id="prompt-ec-0005-variant-1"></a>
 
-### No. 66: 家居与家具 — 建筑感模块沙发三场景: WAYFAIR CONVERSION ROOM
+### No. 116: 家居与家具 — 建筑感模块沙发三场景: WAYFAIR CONVERSION ROOM
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Wayfair](https://img.shields.io/badge/Platform-Wayfair-6857ff)
 
@@ -4919,7 +8171,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no peo
 
 <a id="prompt-ec-0005-variant-2"></a>
 
-### No. 67: 家居与家具 — 建筑感模块沙发三场景: PINTEREST ARCHITECTURAL EDITORIAL
+### No. 117: 家居与家具 — 建筑感模块沙发三场景: PINTEREST ARCHITECTURAL EDITORIAL
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Pinterest](https://img.shields.io/badge/Platform-Pinterest-6857ff)
 
@@ -4985,7 +8237,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no peo
 
 <a id="prompt-ec-0005-variant-3"></a>
 
-### No. 68: 家居与家具 — 建筑感模块沙发三场景: SHOPIFY MATERIAL STORY
+### No. 118: 家居与家具 — 建筑感模块沙发三场景: SHOPIFY MATERIAL STORY
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Shopify](https://img.shields.io/badge/Platform-Shopify-6857ff)
 
@@ -5049,8 +8301,6 @@ Quality and safety constraints: no readable text, no logos, no watermark, no peo
 
 ---
 
-<a id="categories-food-and-beverage"></a>
-
 <a id="platforms-doordash"></a>
 
 <a id="platforms-uber-eats"></a>
@@ -5061,7 +8311,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no peo
 
 <a id="prompt-ec-0004-variant-1"></a>
 
-### No. 69: 食品与饮料 — 高食欲感通心粉外卖三场景: DELIVERY APP THUMB-STOPPER
+### No. 119: 食品与饮料 — 高食欲感通心粉外卖三场景: DELIVERY APP THUMB-STOPPER
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-DoorDash](https://img.shields.io/badge/Platform-DoorDash-6857ff)
 
@@ -5127,7 +8377,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0004-variant-2"></a>
 
-### No. 70: 食品与饮料 — 高食欲感通心粉外卖三场景: DELIVEROO EDITORIAL TABLE
+### No. 120: 食品与饮料 — 高食欲感通心粉外卖三场景: DELIVEROO EDITORIAL TABLE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Deliveroo](https://img.shields.io/badge/Platform-Deliveroo-6857ff)
 
@@ -5193,7 +8443,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0004-variant-3"></a>
 
-### No. 71: 食品与饮料 — 高食欲感通心粉外卖三场景: MEITUAN SOCIAL PROMO
+### No. 121: 食品与饮料 — 高食欲感通心粉外卖三场景: MEITUAN SOCIAL PROMO
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-美团](https://img.shields.io/badge/Platform-%E7%BE%8E%E5%9B%A2-6857ff)
 
@@ -5263,7 +8513,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0003-variant-1"></a>
 
-### No. 72: 消费电子 — 多平台手机转化三场景: AMAZON-STYLE PRODUCT-ONLY HERO
+### No. 122: 消费电子 — 多平台手机转化三场景: AMAZON-STYLE PRODUCT-ONLY HERO
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon](https://img.shields.io/badge/Platform-Amazon-6857ff)
 
@@ -5329,7 +8579,7 @@ Quality and safety constraints: no readable text, no logo, no watermark, no hand
 
 <a id="prompt-ec-0003-variant-2"></a>
 
-### No. 73: 消费电子 — 多平台手机转化三场景: AMAZON A+ CAMERA ENGINEERING
+### No. 123: 消费电子 — 多平台手机转化三场景: AMAZON A+ CAMERA ENGINEERING
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon +1](https://img.shields.io/badge/Platform-Amazon_%2B1-6857ff)
 
@@ -5395,7 +8645,7 @@ Quality and safety constraints: no readable text, no logo, no watermark, no hand
 
 <a id="prompt-ec-0003-variant-3"></a>
 
-### No. 74: 消费电子 — 多平台手机转化三场景: JD/TMALL WATER-RESISTANCE HERO
+### No. 124: 消费电子 — 多平台手机转化三场景: JD/TMALL WATER-RESISTANCE HERO
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-京东 +1](https://img.shields.io/badge/Platform-%E4%BA%AC%E4%B8%9C_%2B1-6857ff)
 
@@ -5463,7 +8713,7 @@ Quality and safety constraints: no readable text, no logo, no watermark, no hand
 
 <a id="prompt-ec-0002-variant-1"></a>
 
-### No. 75: 服装 — 社交平台原生机能夹克三场景: TIKTOK STREET ENERGY
+### No. 125: 服装 — 社交平台原生机能夹克三场景: TIKTOK STREET ENERGY
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-TikTok Shop](https://img.shields.io/badge/Platform-TikTok_Shop-6857ff)
 
@@ -5529,7 +8779,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0002-variant-2"></a>
 
-### No. 76: 服装 — 社交平台原生机能夹克三场景: DROP CULTURE CLOSE-UP
+### No. 126: 服装 — 社交平台原生机能夹克三场景: DROP CULTURE CLOSE-UP
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Instagram Shop](https://img.shields.io/badge/Platform-Instagram_Shop-6857ff)
 
@@ -5595,7 +8845,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0002-variant-3"></a>
 
-### No. 77: 服装 — 社交平台原生机能夹克三场景: SHOPIFY EDITORIAL
+### No. 127: 服装 — 社交平台原生机能夹克三场景: SHOPIFY EDITORIAL
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Shopify](https://img.shields.io/badge/Platform-Shopify-6857ff)
 
@@ -5663,7 +8913,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0001-variant-1"></a>
 
-### No. 78: 美妆与护肤 — 平台原生精华液三场景艺术指导: WATER SCULPTURE
+### No. 128: 美妆与护肤 — 平台原生精华液三场景艺术指导: WATER SCULPTURE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Shopify](https://img.shields.io/badge/Platform-Shopify-6857ff)
 
@@ -5729,7 +8979,7 @@ Quality and safety constraints: no readable text, no logo, no watermark, no hand
 
 <a id="prompt-ec-0001-variant-2"></a>
 
-### No. 79: 美妆与护肤 — 平台原生精华液三场景艺术指导: BOTANICAL LAB
+### No. 129: 美妆与护肤 — 平台原生精华液三场景艺术指导: BOTANICAL LAB
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-天猫](https://img.shields.io/badge/Platform-%E5%A4%A9%E7%8C%AB-6857ff)
 
@@ -5795,7 +9045,7 @@ Quality and safety constraints: no readable text, no logo, no watermark, no hand
 
 <a id="prompt-ec-0001-variant-3"></a>
 
-### No. 80: 美妆与护肤 — 平台原生精华液三场景艺术指导: NIGHT REPAIR
+### No. 130: 美妆与护肤 — 平台原生精华液三场景艺术指导: NIGHT REPAIR
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Instagram Shop](https://img.shields.io/badge/Platform-Instagram_Shop-6857ff)
 

@@ -1,0 +1,196 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0036",
+  "slug": "smoky-plum-candle-platform-set",
+  "model": "gpt-image-2",
+  "title": "Smoky-Plum Candle Platform Set",
+  "description": "Builds a five-image home-fragrance story around one smoky-plum three-wick candle: white retail, hand-poured provenance, dark spa, flash-lit evening, and color-block Pinterest art.",
+  "prompt": "Create five home-fragrance commerce images for one fictional smoky-plum three-wick candle while preserving its vessel, foot, wax, wick count, and distinctive lid.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "home-and-furniture",
+  "useCases": [
+    "main-image",
+    "detail-macro",
+    "branded-hero",
+    "social-ad",
+    "lifestyle-scene"
+  ],
+  "styles": [
+    "handmade-tactile",
+    "dark-moody",
+    "bright-playful"
+  ],
+  "backgrounds": [
+    "pure-white",
+    "natural-material",
+    "dark-studio",
+    "lifestyle-location",
+    "color-studio"
+  ],
+  "platforms": [
+    "amazon-home",
+    "etsy",
+    "shopify",
+    "instagram-shop",
+    "pinterest"
+  ],
+  "aspectRatios": [
+    "4:5",
+    "5:8"
+  ],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {
+    "referenceImages": 0,
+    "instructions": "No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU."
+  },
+  "productInvariants": [
+    "Preserve the wide smoky-plum hand-blown glass cylinder, thick rounded clear-plum foot, and smooth ivory wax with exactly three cotton wicks.",
+    "Preserve the flat matte-champagne lid with one centered circular oxblood enamel inset and no label."
+  ],
+  "negativePrompt": "No label, readable text, logo, single wick, four wicks, colored wax, extra candle, deformed glass, soot-black vessel, unsafe flame, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.",
+  "variants": [
+    {
+      "id": "amazon-home-candle-main",
+      "title": "AMAZON HOME CANDLE MAIN",
+      "useCase": "main-image",
+      "assetPurpose": "main-image",
+      "platforms": [
+        "amazon-home"
+      ],
+      "background": "pure-white",
+      "aspectRatio": "4:5",
+      "prompt": "Create one ultra-photorealistic portrait 4:5 Amazon Home main image of exactly one premium candle and its matching lid. Product design: one fictional unbranded wide cylindrical hand-blown candle vessel in translucent smoky-plum glass with a thick rounded clear-plum foot, smooth warm-ivory wax, exactly three evenly spaced cotton wicks, and one removable flat matte-champagne metal lid with a centered circular oxblood enamel inset; no label. Place the unlit candle upright on seamless pure #FFFFFF with all three clean wicks visible; lean the matching lid beside it with the oxblood inset facing camera. Use a centered front three-quarter view, show the complete vessel, foot, wax surface, and lid, and fill about 76% of frame. Use broad high-key softboxes, controlled plum-glass refraction, a clean metal highlight, and restrained grounding shadows. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same wide smoky-plum vessel, thick rounded foot, ivory wax, three-wick layout, and champagne lid with centered oxblood inset. No label, readable text, logo, single wick, four wicks, colored wax, extra candle, deformed glass, soot-black vessel, unsafe flame, flame, packaging, matches, flowers, duplicate lid, wax spill, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/home-smoky-plum-candle/preview-1.png",
+        "alt": "Smoky-plum three-wick candle and lid on pure white",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "etsy-hand-poured-detail",
+      "title": "ETSY HAND-POURED DETAIL",
+      "useCase": "detail-macro",
+      "assetPurpose": "secondary-image",
+      "platforms": [
+        "etsy"
+      ],
+      "background": "natural-material",
+      "aspectRatio": "5:8",
+      "prompt": "Create one tactile ultra-photorealistic portrait 5:8 Etsy maker-story photograph of exactly one finished premium candle and its lid. Product design: one fictional unbranded wide cylindrical hand-blown candle vessel in translucent smoky-plum glass with a thick rounded clear-plum foot, smooth warm-ivory wax, exactly three evenly spaced cotton wicks, and one removable flat matte-champagne metal lid with a centered circular oxblood enamel inset; no label. Set the unlit candle on a worn maple pouring bench with the lid flat behind it, one folded flax cloth, and a tiny ivory wax shaving far to the side. Use a close elevated three-quarter view showing the three centered wicks, smooth wax, hand-blown glass variation, thick foot, lid inset, and honest craft details. Use warm north-window light, a cool glass rim, and nuanced wood, linen, wax, glass, and metal texture. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same wide smoky-plum vessel, thick rounded foot, ivory wax, three-wick layout, and champagne lid with centered oxblood inset. No label, readable text, logo, single wick, four wicks, colored wax, extra candle, deformed glass, soot-black vessel, unsafe flame, pouring pot, liquid wax, human, extra vessel, messy workshop, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/home-smoky-plum-candle/preview-2.png",
+        "alt": "Smoky-plum candle on a hand-poured maker bench",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "shopify-midnight-spa",
+      "title": "SHOPIFY MIDNIGHT SPA",
+      "useCase": "branded-hero",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "shopify"
+      ],
+      "background": "dark-studio",
+      "aspectRatio": "5:8",
+      "prompt": "Create one cinematic ultra-photorealistic portrait 5:8 Shopify home-fragrance hero featuring exactly one premium candle. Product design: one fictional unbranded wide cylindrical hand-blown candle vessel in translucent smoky-plum glass with a thick rounded clear-plum foot, smooth warm-ivory wax, exactly three evenly spaced cotton wicks, and one removable flat matte-champagne metal lid with a centered circular oxblood enamel inset; no label. Light all three wicks and place the candle on a honed charcoal-stone shelf against a midnight aubergine plaster wall; rest the closed lid behind the vessel and add no other product. Use a low intimate three-quarter angle with the complete candle and lid visible, a controlled reflection, and deep negative space. Balance the three warm flames with a cool violet edge and subtle reflected glow through smoky-plum glass, retaining detail without heavy haze. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same wide smoky-plum vessel, thick rounded foot, ivory wax, three-wick layout, and champagne lid with centered oxblood inset. No label, readable text, logo, single wick, four wicks, colored wax, extra candle, deformed glass, soot-black vessel, unsafe flame, bath tub, towel stack, flowers, smoke plume, overexposed flames, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/home-smoky-plum-candle/preview-3.png",
+        "alt": "Lit smoky-plum candle in a dark midnight spa setting",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "instagram-evening-table",
+      "title": "INSTAGRAM SHOP EVENING TABLE",
+      "useCase": "social-ad",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "instagram-shop"
+      ],
+      "background": "lifestyle-location",
+      "aspectRatio": "4:5",
+      "prompt": "Create one polished ultra-photorealistic portrait 4:5 Instagram Shop evening-table image featuring exactly one premium candle. Product design: one fictional unbranded wide cylindrical hand-blown candle vessel in translucent smoky-plum glass with a thick rounded clear-plum foot, smooth warm-ivory wax, exactly three evenly spaced cotton wicks, and one removable flat matte-champagne metal lid with a centered circular oxblood enamel inset; no label. Light all three wicks on a glossy oxblood side table beside one ribbed water glass and the matching lid; an adult hand enters only to set down the glass without touching the candle. Use a close direct-flash crop, keep the vessel, three flames, thick foot, and lid inset sharp, and leave the hand natural and secondary. Mix direct flash with warm candle glow and a cool blue evening background for spontaneous luxury-social energy. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same wide smoky-plum vessel, thick rounded foot, ivory wax, three-wick layout, and champagne lid with centered oxblood inset. No label, readable text, logo, single wick, four wicks, colored wax, extra candle, deformed glass, soot-black vessel, unsafe flame, face, alcohol, jewelry, distorted fingers, extra candle, unsafe hand near flame, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/home-smoky-plum-candle/preview-4.png",
+        "alt": "Lit smoky-plum candle on a flash-lit evening table",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "pinterest-plum-apricot-art",
+      "title": "PINTEREST PLUM-APRICOT ART",
+      "useCase": "lifestyle-scene",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "pinterest"
+      ],
+      "background": "color-studio",
+      "aspectRatio": "5:8",
+      "prompt": "Create one save-worthy ultra-photorealistic portrait 5:8 Pinterest home-fragrance still life with exactly one premium candle and lid. Product design: one fictional unbranded wide cylindrical hand-blown candle vessel in translucent smoky-plum glass with a thick rounded clear-plum foot, smooth warm-ivory wax, exactly three evenly spaced cotton wicks, and one removable flat matte-champagne metal lid with a centered circular oxblood enamel inset; no label. Place the unlit candle on a low matte apricot cylinder, balance the lid flat on a lower dusty-lilac slab, and cast one large curved burgundy shadow across a pale peach wall. Use a sculptural vertical composition, full product visibility, graphic negative space, and crisp separation of vessel and lid. Use hard studio sun, soft lavender fill, rich plum–apricot color harmony, and precise glass and metal highlights. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same wide smoky-plum vessel, thick rounded foot, ivory wax, three-wick layout, and champagne lid with centered oxblood inset. No label, readable text, logo, single wick, four wicks, colored wax, extra candle, deformed glass, soot-black vessel, unsafe flame, fruit, flowers, text graphics, floating lid, extra pedestal clutter, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/home-smoky-plum-candle/preview-5.png",
+        "alt": "Smoky-plum candle on an apricot and lilac color-block set",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    }
+  ],
+  "author": {
+    "name": "Ecommerce GPT Image Prompts Studio",
+    "url": "https://github.com/ecomimagelab"
+  },
+  "source": {
+    "type": "original",
+    "url": null,
+    "permission": "repository-authored",
+    "notes": "Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.",
+    "references": [
+      {
+        "type": "visual-research",
+        "url": "docs/VISUAL_RESEARCH.md"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/buluslan/gpt-image2-ecommerce"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/motiful/product-shots"
+      }
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "platformPolicy": {
+    "status": "design-guidance-only",
+    "note": "Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.",
+    "reviewedAt": null,
+    "sources": []
+  },
+  "review": {
+    "status": "approved",
+    "rights": "reviewed",
+    "promptQuality": "reviewed",
+    "previewQuality": "reviewed",
+    "reviewedAt": "2026-07-22"
+  },
+  "featured": false,
+  "publishedAt": "2026-07-22",
+  "translations": {
+    "zh": {
+      "title": "烟梅色香薰蜡烛多平台套图",
+      "description": "围绕同一只烟梅色三芯蜡烛构建白底零售、手工灌蜡、暗调 SPA、闪光晚宴和 Pinterest 色块艺术。"
+    }
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0030",
+  "slug": "ivory-boucle-lounge-chair-platform-set",
+  "model": "gpt-image-2",
+  "title": "Ivory Bouclé Lounge Chair Platform Set",
+  "description": "Places one sculptural ivory bouclé chair in conversion-ready catalog, architectural DTC, colorful Pinterest, gallery luxury, and human-scale social scenes.",
+  "prompt": "Create five high-end furniture-commerce images for one fictional ivory bouclé lounge chair with a fixed horseshoe silhouette and three smoked-walnut legs.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "home-and-furniture",
+  "useCases": [
+    "catalog-image",
+    "branded-hero",
+    "lifestyle-scene",
+    "on-model"
+  ],
+  "styles": [
+    "architectural",
+    "bright-playful",
+    "quiet-living"
+  ],
+  "backgrounds": [
+    "soft-studio",
+    "home-interior",
+    "color-studio",
+    "natural-material"
+  ],
+  "platforms": [
+    "wayfair",
+    "shopify",
+    "pinterest",
+    "tmall-luxury",
+    "instagram-shop"
+  ],
+  "aspectRatios": [
+    "4:5",
+    "5:8"
+  ],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {
+    "referenceImages": 0,
+    "instructions": "No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU."
+  },
+  "productInvariants": [
+    "Preserve the low armless silhouette, continuous horseshoe back with rounded side wings, and inner curved seam.",
+    "Preserve the thick ivory nubby bouclé upholstery and exactly three short splayed smoked-walnut cylindrical legs."
+  ],
+  "negativePrompt": "No arms, separate cushion, four visible legs, metal base, button tufting, logo, extra chair, warped seat, glossy fabric, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.",
+  "variants": [
+    {
+      "id": "wayfair-clean-room-catalog",
+      "title": "WAYFAIR CLEAN ROOM CATALOG",
+      "useCase": "catalog-image",
+      "assetPurpose": "catalog-image",
+      "platforms": [
+        "wayfair"
+      ],
+      "background": "soft-studio",
+      "aspectRatio": "4:5",
+      "prompt": "Create one ultra-photorealistic portrait 4:5 Wayfair-ready catalog photograph of exactly one sculptural lounge chair. Product design: one fictional unbranded low armless lounge chair with a thick ivory nubby bouclé seat, a continuous horseshoe-shaped back that wraps into rounded side wings, a subtle seam following the inner curve, and three short splayed cylindrical legs in smoked walnut. Place the chair alone on a seamless warm-white studio floor against a very pale greige wall with a barely visible floor line. Use a centered front three-quarter view at seated eye height, show the full chair and all three legs, and fill about 76% of frame. Use a broad window-like key, soft bounce, clean grounding shadow, and enough side light to resolve the nubby bouclé and walnut grain. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same low armless horseshoe silhouette, rounded wings, inner seam, ivory bouclé, and three smoked-walnut legs. No arms, separate cushion, four visible legs, metal base, button tufting, logo, extra chair, warped seat, glossy fabric, rug, pillow, plant, table, room clutter, clipped leg, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/furniture-ivory-boucle-chair/preview-1.png",
+        "alt": "Ivory bouclé lounge chair in a clean catalog room",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "shopify-limewash-architecture",
+      "title": "SHOPIFY LIMEWASH ARCHITECTURE",
+      "useCase": "branded-hero",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "shopify"
+      ],
+      "background": "home-interior",
+      "aspectRatio": "5:8",
+      "prompt": "Create one ultra-photorealistic portrait 5:8 Shopify architectural hero photograph of exactly one sculptural lounge chair. Product design: one fictional unbranded low armless lounge chair with a thick ivory nubby bouclé seat, a continuous horseshoe-shaped back that wraps into rounded side wings, a subtle seam following the inner curve, and three short splayed cylindrical legs in smoked walnut. Place the chair on pale limestone in a quiet double-height interior with curved sand-limewash walls, one tall slit window, and no other furniture. Use a low wide-lens perspective that preserves realistic chair scale, position the chair on the lower third, and leave calm vertical negative space. Use raking morning daylight, soft architectural shadows, and a warm reflected edge that separates ivory bouclé from the wall. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same low armless horseshoe silhouette, rounded wings, inner seam, ivory bouclé, and three smoked-walnut legs. No arms, separate cushion, four visible legs, metal base, button tufting, logo, extra chair, warped seat, glossy fabric, oversized room, tiny chair, plant, side table, curtain, impossible architecture, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/furniture-ivory-boucle-chair/preview-2.png",
+        "alt": "Ivory bouclé chair in a curved limewash interior",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "pinterest-saffron-cobalt-set",
+      "title": "PINTEREST SAFFRON-COBALT SET",
+      "useCase": "branded-hero",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "pinterest"
+      ],
+      "background": "color-studio",
+      "aspectRatio": "5:8",
+      "prompt": "Create one save-worthy ultra-photorealistic portrait 5:8 Pinterest furniture editorial of exactly one sculptural lounge chair. Product design: one fictional unbranded low armless lounge chair with a thick ivory nubby bouclé seat, a continuous horseshoe-shaped back that wraps into rounded side wings, a subtle seam following the inner curve, and three short splayed cylindrical legs in smoked walnut. Set the chair on a matte saffron floor against a deep cobalt wall with one oversized circular shadow and a narrow dusty-pink vertical plane; add no props. Use a bold front three-quarter composition with the chair fully visible, strong color blocking, and generous poster-like space. Use hard graphic studio sun, a controlled fill on the ivory upholstery, crisp leg shadows, and rich but natural color. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same low armless horseshoe silhouette, rounded wings, inner seam, ivory bouclé, and three smoked-walnut legs. No arms, separate cushion, four visible legs, metal base, button tufting, logo, extra chair, warped seat, glossy fabric, text, poster graphics, second chair, checkerboard, floating geometry, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/furniture-ivory-boucle-chair/preview-3.png",
+        "alt": "Ivory bouclé chair on a saffron and cobalt editorial set",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "tmall-luxury-stone-gallery",
+      "title": "TMALL LUXURY STONE GALLERY",
+      "useCase": "branded-hero",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "tmall-luxury"
+      ],
+      "background": "natural-material",
+      "aspectRatio": "4:5",
+      "prompt": "Create one cinematic ultra-photorealistic portrait 4:5 luxury furniture launch image of exactly one sculptural lounge chair. Product design: one fictional unbranded low armless lounge chair with a thick ivory nubby bouclé seat, a continuous horseshoe-shaped back that wraps into rounded side wings, a subtle seam following the inner curve, and three short splayed cylindrical legs in smoked walnut. Place the chair on a single dark green-veined stone platform inside a shadowed gallery with charcoal plaster walls and one bronze-toned light slot. Frame symmetrically from a slightly low angle with the full chair isolated like collectible design and no surrounding objects. Use a focused warm pool on the bouclé, restrained cool ambient fill, and precise walnut highlights without theatrical haze. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same low armless horseshoe silhouette, rounded wings, inner seam, ivory bouclé, and three smoked-walnut legs. No arms, separate cushion, four visible legs, metal base, button tufting, logo, extra chair, warped seat, glossy fabric, museum rope, sculpture, spotlight cone, glossy marble reflection, blacked-out fabric, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/furniture-ivory-boucle-chair/preview-4.png",
+        "alt": "Ivory bouclé chair displayed in a dark stone gallery",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "instagram-reading-moment",
+      "title": "INSTAGRAM SHOP READING MOMENT",
+      "useCase": "on-model",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "instagram-shop"
+      ],
+      "background": "home-interior",
+      "aspectRatio": "4:5",
+      "prompt": "Create one natural ultra-photorealistic portrait 4:5 Instagram Shop lifestyle photograph featuring exactly one sculptural lounge chair and one adult person. Product design: one fictional unbranded low armless lounge chair with a thick ivory nubby bouclé seat, a continuous horseshoe-shaped back that wraps into rounded side wings, a subtle seam following the inner curve, and three short splayed cylindrical legs in smoked walnut. An adult woman in a loose terracotta knit and cream trousers sits naturally sideways in the chair reading a blank-cover magazine in a sunlit apartment with pale oak floor and warm-white wall. Show her from head to bare ankles, keep the chair silhouette, side wings, seam, upholstery, and all visible legs readable, and avoid covering the product. Use soft afternoon window light, gentle direct-flash lift, natural skin texture, and relaxed editorial color. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same low armless horseshoe silhouette, rounded wings, inner seam, ivory bouclé, and three smoked-walnut legs. No arms, separate cushion, four visible legs, metal base, button tufting, logo, extra chair, warped seat, glossy fabric, readable magazine text, extra furniture, distorted hands, hidden chair, staged smile, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/furniture-ivory-boucle-chair/preview-5.png",
+        "alt": "Adult reader seated naturally in an ivory bouclé chair",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    }
+  ],
+  "author": {
+    "name": "Ecommerce GPT Image Prompts Studio",
+    "url": "https://github.com/ecomimagelab"
+  },
+  "source": {
+    "type": "original",
+    "url": null,
+    "permission": "repository-authored",
+    "notes": "Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.",
+    "references": [
+      {
+        "type": "visual-research",
+        "url": "docs/VISUAL_RESEARCH.md"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/buluslan/gpt-image2-ecommerce"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/motiful/product-shots"
+      }
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "platformPolicy": {
+    "status": "design-guidance-only",
+    "note": "Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.",
+    "reviewedAt": null,
+    "sources": []
+  },
+  "review": {
+    "status": "approved",
+    "rights": "reviewed",
+    "promptQuality": "reviewed",
+    "previewQuality": "reviewed",
+    "reviewedAt": "2026-07-22"
+  },
+  "featured": false,
+  "publishedAt": "2026-07-22",
+  "translations": {
+    "zh": {
+      "title": "象牙白圈圈绒休闲椅多平台套图",
+      "description": "让同一把象牙白圈圈绒休闲椅呈现为转化型目录图、建筑品牌图、彩色 Pinterest 大片、画廊奢华图和具有人体尺度的社交场景。"
+    }
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0037",
+  "slug": "spruce-cork-yoga-mat-platform-set",
+  "model": "gpt-image-2",
+  "title": "Spruce-and-Cork Yoga Mat Platform Set",
+  "description": "Keeps one spruce natural-rubber yoga mat recognizable across white retail, architectural wellness, energetic studio movement, quiet home practice, and a desert Pinterest retreat.",
+  "prompt": "Create five wellness-commerce images for one fictional spruce-and-cork yoga mat while preserving its grip texture, orange end geometry, cork underside, and carry strap.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "fitness-and-wellness",
+  "useCases": [
+    "main-image",
+    "branded-hero",
+    "on-model",
+    "lifestyle-scene",
+    "social-ad"
+  ],
+  "styles": [
+    "architectural",
+    "quiet-living",
+    "outdoor-performance"
+  ],
+  "backgrounds": [
+    "pure-white",
+    "home-interior",
+    "lifestyle-location",
+    "outdoor-location"
+  ],
+  "platforms": [
+    "amazon-sports",
+    "shopify",
+    "tiktok-shop",
+    "xiaohongshu",
+    "pinterest"
+  ],
+  "aspectRatios": [
+    "4:5",
+    "5:8"
+  ],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {
+    "referenceImages": 0,
+    "instructions": "No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU."
+  },
+  "productInvariants": [
+    "Preserve the deep spruce rubber top, diagonal grip microtexture, and thin burnt-orange double-line geometry near both short ends.",
+    "Preserve the warm cork underside and detachable charcoal woven strap with one orange bar-tack stitch."
+  ],
+  "negativePrompt": "No brand word, logo, alignment marks with letters, extra mat, foam texture, changed color, missing cork, extra strap, unsafe pose, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.",
+  "variants": [
+    {
+      "id": "amazon-sports-mat-main",
+      "title": "AMAZON SPORTS MAT MAIN",
+      "useCase": "main-image",
+      "assetPurpose": "main-image",
+      "platforms": [
+        "amazon-sports"
+      ],
+      "background": "pure-white",
+      "aspectRatio": "4:5",
+      "prompt": "Create one ultra-photorealistic portrait 4:5 Amazon Sports main image of exactly one premium yoga mat and its carry strap. Product design: one fictional unbranded premium yoga mat with a deep spruce-green natural-rubber top, fine diagonal anti-slip microtexture, a thin burnt-orange double-line geometry near each short end with no letters, a warm natural-cork underside, and one detachable charcoal woven carry strap with a single orange bar-tack stitch. Roll two-thirds of the mat into a clean cylinder while leaving one short section unfurled to reveal the spruce top, orange line geometry, and a narrow curl of cork underside; wrap the charcoal strap loosely around the roll. Center the complete product on seamless pure #FFFFFF with about 76% frame fill and every material clearly visible. Use broad high-key softboxes, restrained rubber and cork texture, and a natural soft grounding shadow. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same spruce rubber top, diagonal grip, orange end geometry, cork underside, and charcoal strap with one orange bar tack. No brand word, logo, alignment marks with letters, extra mat, foam texture, changed color, missing cork, extra strap, unsafe pose, person, blocks, bottle, towel, packaging, levitating roll, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/wellness-spruce-cork-yoga-mat/preview-1.png",
+        "alt": "Spruce yoga mat with cork underside and carry strap on white",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "shopify-architectural-studio",
+      "title": "SHOPIFY ARCHITECTURAL STUDIO",
+      "useCase": "branded-hero",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "shopify"
+      ],
+      "background": "home-interior",
+      "aspectRatio": "5:8",
+      "prompt": "Create one ultra-photorealistic portrait 5:8 Shopify wellness hero featuring exactly one premium yoga mat. Product design: one fictional unbranded premium yoga mat with a deep spruce-green natural-rubber top, fine diagonal anti-slip microtexture, a thin burnt-orange double-line geometry near each short end with no letters, a warm natural-cork underside, and one detachable charcoal woven carry strap with a single orange bar-tack stitch. Unroll the mat fully on pale limestone in a quiet vaulted studio with warm-ivory limewash walls and one tall arched window; place the folded charcoal strap beyond the top edge of the mat. Use a low diagonal wide view that shows both orange end geometries, spruce texture, a slim cork edge, realistic scale, and generous vertical architecture. Use soft morning sun, long curved shadows, calm warm bounce, and natural material contrast. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same spruce rubber top, diagonal grip, orange end geometry, cork underside, and charcoal strap with one orange bar tack. No brand word, logo, alignment marks with letters, extra mat, foam texture, changed color, missing cork, extra strap, unsafe pose, person, yoga props, plants, mirrors, impossible oversized mat, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/wellness-spruce-cork-yoga-mat/preview-2.png",
+        "alt": "Spruce yoga mat in a vaulted architectural wellness studio",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "tiktok-power-flow",
+      "title": "TIKTOK SHOP POWER FLOW",
+      "useCase": "on-model",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "tiktok-shop"
+      ],
+      "background": "lifestyle-location",
+      "aspectRatio": "5:8",
+      "prompt": "Create one energetic ultra-photorealistic portrait 5:8 TikTok Shop fitness frame featuring exactly one premium yoga mat and one adult practitioner. Product design: one fictional unbranded premium yoga mat with a deep spruce-green natural-rubber top, fine diagonal anti-slip microtexture, a thin burnt-orange double-line geometry near each short end with no letters, a warm natural-cork underside, and one detachable charcoal woven carry strap with a single orange bar-tack stitch. An athletic adult woman performs a stable high lunge on the fully unrolled mat in a raw concrete studio, wearing a plain cobalt training set; the carry strap rests beyond the mat. Use a low wide-angle view showing her complete safe pose, the mat's full width, both orange end lines, spruce grip, and a cork edge without product obstruction. Use direct flash mixed with hard side sunlight, a clean moving shadow, natural skin texture, and strong creator energy. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same spruce rubber top, diagonal grip, orange end geometry, cork underside, and charcoal strap with one orange bar tack. No brand word, logo, alignment marks with letters, extra mat, foam texture, changed color, missing cork, extra strap, unsafe pose, extreme flexibility, unsafe balance, extra person, logo clothing, distorted limbs, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/wellness-spruce-cork-yoga-mat/preview-3.png",
+        "alt": "Adult practitioner performing a high lunge on a spruce yoga mat",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "xiaohongshu-sunrise-stretch",
+      "title": "XIAOHONGSHU SUNRISE STRETCH",
+      "useCase": "lifestyle-scene",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "xiaohongshu"
+      ],
+      "background": "home-interior",
+      "aspectRatio": "4:5",
+      "prompt": "Create one calm ultra-photorealistic portrait 4:5 Xiaohongshu home-wellness image featuring exactly one premium yoga mat and one adult practitioner. Product design: one fictional unbranded premium yoga mat with a deep spruce-green natural-rubber top, fine diagonal anti-slip microtexture, a thin burnt-orange double-line geometry near each short end with no letters, a warm natural-cork underside, and one detachable charcoal woven carry strap with a single orange bar-tack stitch. An adult East Asian woman in a loose ivory tee and clay-colored leggings sits in a simple side stretch on the fully unrolled mat beside a large apartment window; place one plain ceramic cup far behind. Use an intimate eye-level crop with her complete torso and arms, safe natural anatomy, both orange mat lines, spruce texture, and the cork edge visible. Use pale sunrise light, soft peach wall reflection, gentle direct-flash lift, and truthful quiet-morning texture. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same spruce rubber top, diagonal grip, orange end geometry, cork underside, and charcoal strap with one orange bar tack. No brand word, logo, alignment marks with letters, extra mat, foam texture, changed color, missing cork, extra strap, unsafe pose, bedroom clutter, incense smoke, extra mat, brand clothing, distorted hands, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/wellness-spruce-cork-yoga-mat/preview-4.png",
+        "alt": "Adult woman stretching on a spruce yoga mat at sunrise",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "pinterest-desert-retreat",
+      "title": "PINTEREST DESERT RETREAT",
+      "useCase": "social-ad",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "pinterest"
+      ],
+      "background": "outdoor-location",
+      "aspectRatio": "5:8",
+      "prompt": "Create one save-worthy ultra-photorealistic portrait 5:8 Pinterest wellness-retreat image featuring exactly one premium yoga mat. Product design: one fictional unbranded premium yoga mat with a deep spruce-green natural-rubber top, fine diagonal anti-slip microtexture, a thin burnt-orange double-line geometry near each short end with no letters, a warm natural-cork underside, and one detachable charcoal woven carry strap with a single orange bar-tack stitch. Unroll the empty mat across a flat honed-travertine terrace overlooking soft ochre desert hills at first light; coil the charcoal strap near one corner and add no person or prop. Use a slightly elevated long-lens view showing the complete mat, both orange end lines, spruce surface, cork edge, and vast layered landscape. Use low golden sunrise, cool lavender shadows, crisp natural textures, and quiet aspirational travel color. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same spruce rubber top, diagonal grip, orange end geometry, cork underside, and charcoal strap with one orange bar tack. No brand word, logo, alignment marks with letters, extra mat, foam texture, changed color, missing cork, extra strap, unsafe pose, cactus touching mat, pool, person, bottle, dramatic sun flare, floating mat, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/wellness-spruce-cork-yoga-mat/preview-5.png",
+        "alt": "Spruce yoga mat on a quiet desert retreat terrace",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    }
+  ],
+  "author": {
+    "name": "Ecommerce GPT Image Prompts Studio",
+    "url": "https://github.com/ecomimagelab"
+  },
+  "source": {
+    "type": "original",
+    "url": null,
+    "permission": "repository-authored",
+    "notes": "Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.",
+    "references": [
+      {
+        "type": "visual-research",
+        "url": "docs/VISUAL_RESEARCH.md"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/buluslan/gpt-image2-ecommerce"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/motiful/product-shots"
+      }
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "platformPolicy": {
+    "status": "design-guidance-only",
+    "note": "Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.",
+    "reviewedAt": null,
+    "sources": []
+  },
+  "review": {
+    "status": "approved",
+    "rights": "reviewed",
+    "promptQuality": "reviewed",
+    "previewQuality": "reviewed",
+    "reviewedAt": "2026-07-22"
+  },
+  "featured": false,
+  "publishedAt": "2026-07-22",
+  "translations": {
+    "zh": {
+      "title": "云杉绿软木瑜伽垫多平台套图",
+      "description": "让同一张云杉绿天然橡胶瑜伽垫在白底零售、建筑康养、动感训练、安静居家练习和沙漠 Pinterest 旅修中保持一致。"
+    }
+  }
+}

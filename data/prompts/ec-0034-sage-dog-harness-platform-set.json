@@ -1,0 +1,196 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0034",
+  "slug": "sage-dog-harness-platform-set",
+  "model": "gpt-image-2",
+  "title": "Sage Dog Harness Platform Set",
+  "description": "Shows one functional sage harness as clean pet retail, Amazon specification clarity, maker detail, city-walk social content, and outdoor Pinterest inspiration.",
+  "prompt": "Create five pet-commerce images for one fictional sage performance harness while preserving its Y-front construction, orange binding, reflective strip, hardware, and mesh.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "pet-supplies",
+  "useCases": [
+    "catalog-image",
+    "main-image",
+    "detail-macro",
+    "on-model",
+    "lifestyle-scene"
+  ],
+  "styles": [
+    "handmade-tactile",
+    "social-native",
+    "outdoor-performance"
+  ],
+  "backgrounds": [
+    "color-studio",
+    "pure-white",
+    "natural-material",
+    "lifestyle-location",
+    "outdoor-location"
+  ],
+  "platforms": [
+    "chewy",
+    "amazon",
+    "etsy",
+    "instagram-shop",
+    "pinterest"
+  ],
+  "aspectRatios": [
+    "4:5",
+    "5:8"
+  ],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {
+    "referenceImages": 0,
+    "instructions": "No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU."
+  },
+  "productInvariants": [
+    "Preserve the sage ripstop Y-front body, burnt-orange binding, horizontal silver reflective chest strip, and charcoal padded inner mesh.",
+    "Preserve the black side-release buckles, exactly four adjustment sliders, and one centered black metal back D-ring."
+  ],
+  "negativePrompt": "No brand patch, printed words, spikes, leather body, extra D-ring, extra buckle, leash attached unless specified, extra harness, malformed straps, readable text, logos, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.",
+  "variants": [
+    {
+      "id": "chewy-sky-catalog",
+      "title": "CHEWY SKY CATALOG",
+      "useCase": "catalog-image",
+      "assetPurpose": "catalog-image",
+      "platforms": [
+        "chewy"
+      ],
+      "background": "color-studio",
+      "aspectRatio": "4:5",
+      "prompt": "Create one ultra-photorealistic portrait 4:5 Chewy-style catalog photograph of exactly one premium dog harness. Product design: one fictional unbranded adjustable Y-front dog harness in matte sage-green ripstop fabric, with burnt-orange edge binding, one horizontal silver reflective chest strip, black acetal side-release buckles, four black adjustment sliders, a charcoal padded inner mesh, and one black metal D-ring centered on the back. Shape the empty harness naturally as if worn and suspend it almost imperceptibly above a matte powder-blue floor and backdrop, with no mannequin visible. Use a centered front three-quarter view showing the Y-front, chest strip, orange binding, side buckles, sliders, mesh edge, and back D-ring. Use bright soft studio light, a cheerful sky-blue bounce, crisp ripstop texture, and a gentle grounding shadow. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same sage Y-front panels, orange binding, silver chest strip, charcoal mesh, black buckles, four sliders, and centered back D-ring. No brand patch, printed words, spikes, leather body, extra D-ring, extra buckle, leash attached unless specified, extra harness, malformed straps, dog, leash, toy, floating straps, hidden hardware, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/pet-sage-dog-harness/preview-1.png",
+        "alt": "Sage dog harness on a powder-blue catalog set",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "amazon-harness-main-image",
+      "title": "AMAZON HARNESS MAIN IMAGE",
+      "useCase": "main-image",
+      "assetPurpose": "main-image",
+      "platforms": [
+        "amazon"
+      ],
+      "background": "pure-white",
+      "aspectRatio": "4:5",
+      "prompt": "Create one ultra-photorealistic portrait 4:5 Amazon main image of exactly one premium dog harness. Product design: one fictional unbranded adjustable Y-front dog harness in matte sage-green ripstop fabric, with burnt-orange edge binding, one horizontal silver reflective chest strip, black acetal side-release buckles, four black adjustment sliders, a charcoal padded inner mesh, and one black metal D-ring centered on the back. Lay the empty harness open and symmetrical on seamless pure #FFFFFF with straps neatly extended, buckles closed, and the back D-ring visible at the top. Use an exact overhead view with the entire harness inside frame, about 80% fill, and all four adjustment sliders individually readable. Use broad high-key light, restrained contact shadow, accurate sage color, and clean separation of mesh, binding, webbing, and hardware. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same sage Y-front panels, orange binding, silver chest strip, charcoal mesh, black buckles, four sliders, and centered back D-ring. No brand patch, printed words, spikes, leather body, extra D-ring, extra buckle, leash attached unless specified, extra harness, malformed straps, leash, dog, packaging, ruler, infographic arrows, curled strap ends, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/pet-sage-dog-harness/preview-2.png",
+        "alt": "Sage dog harness laid open on pure white",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "etsy-stitching-detail",
+      "title": "ETSY STITCHING DETAIL",
+      "useCase": "detail-macro",
+      "assetPurpose": "secondary-image",
+      "platforms": [
+        "etsy"
+      ],
+      "background": "natural-material",
+      "aspectRatio": "5:8",
+      "prompt": "Create one tactile ultra-photorealistic portrait 5:8 Etsy maker-detail photograph of exactly one premium dog harness. Product design: one fictional unbranded adjustable Y-front dog harness in matte sage-green ripstop fabric, with burnt-orange edge binding, one horizontal silver reflective chest strip, black acetal side-release buckles, four black adjustment sliders, a charcoal padded inner mesh, and one black metal D-ring centered on the back. Rest the harness on undyed canvas over a worn maple worktable; include one small spool of burnt-orange thread in the far background and no other tool. Use a close elevated view centered on the Y-junction, reflective strip, reinforced box stitching, binding, ripstop grid, one buckle, and the back D-ring while retaining recognizable harness form. Use soft north-window light with a cool metal rim and honest textile microtexture. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same sage Y-front panels, orange binding, silver chest strip, charcoal mesh, black buckles, four sliders, and centered back D-ring. No brand patch, printed words, spikes, leather body, extra D-ring, extra buckle, leash attached unless specified, extra harness, malformed straps, needle, scissors, human, unfinished seams, extra hardware, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/pet-sage-dog-harness/preview-3.png",
+        "alt": "Close handmade detail of a sage dog harness",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "instagram-city-dog-walk",
+      "title": "INSTAGRAM SHOP CITY WALK",
+      "useCase": "on-model",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "instagram-shop"
+      ],
+      "background": "lifestyle-location",
+      "aspectRatio": "4:5",
+      "prompt": "Create one natural ultra-photorealistic portrait 4:5 Instagram Shop city-walk image featuring exactly one medium adult dog wearing the premium harness. Product design: one fictional unbranded adjustable Y-front dog harness in matte sage-green ripstop fabric, with burnt-orange edge binding, one horizontal silver reflective chest strip, black acetal side-release buckles, four black adjustment sliders, a charcoal padded inner mesh, and one black metal D-ring centered on the back. A calm adult cream-colored mixed-breed dog walks beside an adult person's cropped charcoal trousers on a sunlit concrete sidewalk; attach one plain black leash to the centered back D-ring. Frame from the dog's head to paws at low eye level, show the Y-front fit, reflective strip, orange binding, side buckle, and natural leash angle. Use hard late-afternoon sun, subtle direct-flash lift, realistic fur, and candid street-editorial color. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same sage Y-front panels, orange binding, silver chest strip, charcoal mesh, black buckles, four sliders, and centered back D-ring. No brand patch, printed words, spikes, leather body, extra D-ring, extra buckle, leash attached unless specified, extra harness, malformed straps, child, collar covering harness, extra dog, tight leash, distorted legs, brand storefront, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/pet-sage-dog-harness/preview-4.png",
+        "alt": "Adult dog wearing a sage harness on a city walk",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "pinterest-coastal-hike",
+      "title": "PINTEREST COASTAL HIKE",
+      "useCase": "lifestyle-scene",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "pinterest"
+      ],
+      "background": "outdoor-location",
+      "aspectRatio": "5:8",
+      "prompt": "Create one save-worthy ultra-photorealistic portrait 5:8 Pinterest outdoor lifestyle image featuring exactly one medium adult dog wearing the premium harness. Product design: one fictional unbranded adjustable Y-front dog harness in matte sage-green ripstop fabric, with burnt-orange edge binding, one horizontal silver reflective chest strip, black acetal side-release buckles, four black adjustment sliders, a charcoal padded inner mesh, and one black metal D-ring centered on the back. The cream-colored dog stands on a wind-shaped coastal grass trail above a misty blue sea, attached to one plain black leash extending toward an unseen adult outside frame. Use a slightly low three-quarter view with the dog and full harness clear, ample sky and trail context, and a calm aspirational travel mood. Use cool overcast coastal light, a narrow warm break in the clouds, visible ripstop and reflective texture, and natural wind in the fur. Render physically believable materials, disciplined commercial retouching, natural microtexture, and a premium photographic finish. Keep the product identity exact: the same sage Y-front panels, orange binding, silver chest strip, charcoal mesh, black buckles, four sliders, and centered back D-ring. No brand patch, printed words, spikes, leather body, extra D-ring, extra buckle, leash attached unless specified, extra harness, malformed straps, cliff danger, extra animal, person, backpack, dramatic storm, hidden chest panel, readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/pet-sage-dog-harness/preview-5.png",
+        "alt": "Adult dog in a sage harness on a coastal hiking trail",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    }
+  ],
+  "author": {
+    "name": "Ecommerce GPT Image Prompts Studio",
+    "url": "https://github.com/ecomimagelab"
+  },
+  "source": {
+    "type": "original",
+    "url": null,
+    "permission": "repository-authored",
+    "notes": "Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.",
+    "references": [
+      {
+        "type": "visual-research",
+        "url": "docs/VISUAL_RESEARCH.md"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/buluslan/gpt-image2-ecommerce"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/motiful/product-shots"
+      }
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "platformPolicy": {
+    "status": "design-guidance-only",
+    "note": "Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.",
+    "reviewedAt": null,
+    "sources": []
+  },
+  "review": {
+    "status": "approved",
+    "rights": "reviewed",
+    "promptQuality": "reviewed",
+    "previewQuality": "reviewed",
+    "reviewedAt": "2026-07-22"
+  },
+  "featured": false,
+  "publishedAt": "2026-07-22",
+  "translations": {
+    "zh": {
+      "title": "鼠尾草绿犬用胸背多平台套图",
+      "description": "让同一件鼠尾草绿犬用胸背呈现为宠物零售、Amazon 规格图、手作细节、城市遛狗社交内容和户外 Pinterest 灵感。"
+    }
+  }
+}
