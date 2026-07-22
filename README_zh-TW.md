@@ -40,7 +40,7 @@
 - **使用情境**
   - [品牌首图](#usecases-branded-hero) · [生活方式场景](#usecases-lifestyle-scene) · [平台主图](#usecases-main-image) · [目录商品图](#usecases-catalog-image) · [社交电商广告](#usecases-social-ad) · [功能卖点图](#usecases-feature-callout) · [细节与微距](#usecases-detail-macro) · [模特上身](#usecases-on-model)
 - **電商平台**
-  - [Amazon](#platforms-amazon) · [Pinterest](#platforms-pinterest) · [Shopify](#platforms-shopify) · [Instagram Shop](#platforms-instagram-shop) · [TikTok Shop](#platforms-tiktok-shop) · [小红书](#platforms-xiaohongshu) · [天猫](#platforms-tmall) · [Etsy](#platforms-etsy) · [天猫奢品](#platforms-tmall-luxury) · [Amazon Home](#platforms-amazon-home) · [Wayfair](#platforms-wayfair) · [Amazon A+](#platforms-amazon-a-plus) · [Amazon Fashion](#platforms-amazon-fashion) · [Amazon Grocery](#platforms-amazon-grocery) · [Amazon Sports](#platforms-amazon-sports) · [Best Buy](#platforms-best-buy) · [Chewy](#platforms-chewy) · [Chrono24](#platforms-chrono24) · [迪卡侬](#platforms-decathlon) · [Deliveroo](#platforms-deliveroo) · [DoorDash](#platforms-doordash) · [eBay](#platforms-ebay) · [Farfetch](#platforms-farfetch) · [京东](#platforms-jd) · [美团](#platforms-meituan) · [户外零售](#platforms-outdoor-retail) · [Sephora](#platforms-sephora) · [Shopee](#platforms-shopee) · [Uber Eats](#platforms-uber-eats)
+  - [Pinterest](#platforms-pinterest) · [Shopify](#platforms-shopify) · [Amazon](#platforms-amazon) · [Instagram Shop](#platforms-instagram-shop) · [小红书](#platforms-xiaohongshu) · [TikTok Shop](#platforms-tiktok-shop) · [天猫](#platforms-tmall) · [Amazon Home](#platforms-amazon-home) · [Etsy](#platforms-etsy) · [天猫奢品](#platforms-tmall-luxury) · [Amazon Fashion](#platforms-amazon-fashion) · [Wayfair](#platforms-wayfair) · [Amazon A+](#platforms-amazon-a-plus) · [Amazon Grocery](#platforms-amazon-grocery) · [Amazon Sports](#platforms-amazon-sports) · [Best Buy](#platforms-best-buy) · [Chewy](#platforms-chewy) · [Chrono24](#platforms-chrono24) · [迪卡侬](#platforms-decathlon) · [Deliveroo](#platforms-deliveroo) · [DoorDash](#platforms-doordash) · [eBay](#platforms-ebay) · [Farfetch](#platforms-farfetch) · [京东](#platforms-jd) · [美团](#platforms-meituan) · [户外零售](#platforms-outdoor-retail) · [Sephora](#platforms-sephora) · [Shopee](#platforms-shopee) · [Uber Eats](#platforms-uber-eats)
 
 ---
 
@@ -82,10 +82,10 @@ This repository collects reproducible e-commerce image prompts with structured m
 
 | 指標 | 數量 |
 |---|---:|
-| 提示詞總數 | **74** |
-| 商品系列 | **25** |
+| 提示詞總數 | **80** |
+| 商品系列 | **27** |
 | ⭐ 精選提示詞 | **6** |
-| 生成預覽圖 | **74** |
+| 生成預覽圖 | **80** |
 | 商品產業 | **22** |
 | Platforms | **29** |
 | Last updated | **2026-07-22** |
@@ -497,6 +497,418 @@ Quality and safety constraints: no readable text, no logo, no watermark, no extr
 
 > 按發布日期由新到舊排列。
 
+<a id="categories-home-and-furniture"></a>
+
+<a id="usecases-main-image"></a>
+
+<a id="platforms-amazon-home"></a>
+
+<a id="platforms-shopify"></a>
+
+<a id="platforms-pinterest"></a>
+
+<a id="prompt-ec-0027-amazon-home-clean-catalog"></a>
+
+### No. 1: 家居与家具 — 牛血红便携台灯多平台套图: AMAZON HOME CLEAN CATALOG
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon Home](https://img.shields.io/badge/Platform-Amazon_Home-6857ff)
+
+#### 說明
+
+让同一盏牛血红与黄铜便携台灯分别呈现为 Amazon Home 白底图、Shopify 蓝调英雄图和 Pinterest 阳光家居静物。
+
+**平台主图 · Amazon Home · 4:5**
+
+#### 提示詞
+
+```text
+Create one ultra-photorealistic portrait 4:5 catalog photograph of one fictional unbranded rechargeable table lamp. Product design: a low flattened dome shade in matte oxblood-red powder-coated aluminum, a warm opal-glass diffuser visible underneath, one slender satin-brass stem, and a compact straight-sided cylindrical oxblood base with one small circular satin-brass dimmer button centered on the front. The dome diameter is about 1.55 times the base diameter; the lamp has no visible cord, seam, logo, or vent. Show exactly one complete lamp, switched on at a gentle warm 2700K glow, standing centered in a subtle front three-quarter view on seamless pure #FFFFFF. Keep the entire shade, diffuser, stem, base and button visible, filling about 76% of frame. Use a broad high-key softbox, a precise champagne edge highlight, honest matte-metal texture, and one restrained soft grounding shadow. No furniture, props, text, logo, watermark, cable, plug, duplicate lamp, floating shade, crooked stem, extra button, distorted base, harsh bloom, CGI plastic, collage, or border.
+```
+
+#### 生成預覽圖
+
+##### 圖片 1
+
+![Oxblood and brass portable lamp on pure white](assets/prompts/home-oxblood-portable-lamp/preview-1.png)
+
+#### 詳細資料
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **來源:** 本倉庫原創內容
+- **發布日期:** 2026-07-22
+- **語言:** en
+- **適用平台:** Amazon Home
+- **授權:** CC-BY-4.0
+
+<details>
+<summary><strong>生產參數、商品保真項與溯源資訊</strong></summary>
+
+| 生成模式 | 商品產業 | 使用情境 | 寬高比 |
+|---|---|---|---|
+| `text-to-image` | 家居与家具 | 平台主图 | 4:5 |
+
+- **視覺風格:** 极简干净, 建筑感, 编辑大片
+- **背景類型:** 纯白背景
+- **素材用途:** 平台主图
+- **輸入要求:** No reference image is required for this fictional lamp; use product-edit mode with a sharp front product image when adapting a real SKU.
+- **商品保真項:**
+  - Preserve the low flattened dome shade in matte oxblood-red aluminum and warm opal-glass diffuser visible underneath.
+  - Preserve one slender satin-brass stem and the compact straight-sided oxblood cylindrical base with a single centered circular brass dimmer.
+- **負面約束:** No readable text, logos, watermark, visible cable, plug, duplicate lamp, floating shade, crooked stem, extra button, distorted base, harsh bloom, CGI plastic, collage, or border.
+
+**來源與版權**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台規則狀態:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0027](data/prompts/ec-0027-oxblood-portable-lamp-platform-set.json)
+
+</details>
+
+**[🚀 立即體驗 →](https://www.pixpix.com/)**
+
+---
+
+<a id="usecases-branded-hero"></a>
+
+<a id="prompt-ec-0027-shopify-blue-hour-hero"></a>
+
+### No. 2: 家居与家具 — 牛血红便携台灯多平台套图: SHOPIFY BLUE-HOUR HERO
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Shopify](https://img.shields.io/badge/Platform-Shopify-6857ff)
+
+#### 說明
+
+让同一盏牛血红与黄铜便携台灯分别呈现为 Amazon Home 白底图、Shopify 蓝调英雄图和 Pinterest 阳光家居静物。
+
+**品牌首图 · Shopify · 4:5**
+
+#### 提示詞
+
+```text
+Create one cinematic ultra-photorealistic portrait 4:5 Shopify hero photograph of one fictional unbranded rechargeable table lamp. Preserve this exact product design: a low flattened dome shade in matte oxblood-red powder-coated aluminum, a warm opal-glass diffuser visible underneath, one slender satin-brass stem, and a compact straight-sided cylindrical oxblood base with one small circular satin-brass dimmer button centered on the front. The dome diameter is about 1.55 times the base diameter; there is no visible cord, seam, logo, or vent. Place exactly one complete lamp, switched on at 2700K, on a monolithic pale limestone side table in a minimal blue-hour interior. Frame it from a low three-quarter angle against a deep mineral-blue plaster wall with one soft arched opening far behind. Let the warm pool of light reveal stone pores while cool dusk washes the wall; add a precise brass rim highlight and sophisticated oxblood–cobalt contrast. Leave controlled negative space above and to the left for optional layout, but include no actual copy. No text, logo, watermark, cable, plug, duplicate lamp, vase, books, flowers, person, floating shade, crooked stem, extra button, harsh bloom, CGI plastic, collage, or border.
+```
+
+#### 生成預覽圖
+
+##### 圖片 1
+
+![Oxblood portable lamp in a mineral-blue dusk interior](assets/prompts/home-oxblood-portable-lamp/preview-2.png)
+
+#### 詳細資料
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **來源:** 本倉庫原創內容
+- **發布日期:** 2026-07-22
+- **語言:** en
+- **適用平台:** Shopify
+- **授權:** CC-BY-4.0
+
+<details>
+<summary><strong>生產參數、商品保真項與溯源資訊</strong></summary>
+
+| 生成模式 | 商品產業 | 使用情境 | 寬高比 |
+|---|---|---|---|
+| `text-to-image` | 家居与家具 | 品牌首图 | 4:5 |
+
+- **視覺風格:** 极简干净, 建筑感, 编辑大片
+- **背景類型:** 家居空间
+- **素材用途:** 品牌首图
+- **輸入要求:** No reference image is required for this fictional lamp; use product-edit mode with a sharp front product image when adapting a real SKU.
+- **商品保真項:**
+  - Preserve the low flattened dome shade in matte oxblood-red aluminum and warm opal-glass diffuser visible underneath.
+  - Preserve one slender satin-brass stem and the compact straight-sided oxblood cylindrical base with a single centered circular brass dimmer.
+- **負面約束:** No readable text, logos, watermark, visible cable, plug, duplicate lamp, floating shade, crooked stem, extra button, distorted base, harsh bloom, CGI plastic, collage, or border.
+
+**來源與版權**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台規則狀態:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0027](data/prompts/ec-0027-oxblood-portable-lamp-platform-set.json)
+
+</details>
+
+**[🚀 立即體驗 →](https://www.pixpix.com/)**
+
+---
+
+<a id="usecases-lifestyle-scene"></a>
+
+<a id="prompt-ec-0027-pinterest-midcentury-still-life"></a>
+
+### No. 3: 家居与家具 — 牛血红便携台灯多平台套图: PINTEREST MID-CENTURY STILL LIFE
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Pinterest](https://img.shields.io/badge/Platform-Pinterest-6857ff)
+
+#### 說明
+
+让同一盏牛血红与黄铜便携台灯分别呈现为 Amazon Home 白底图、Shopify 蓝调英雄图和 Pinterest 阳光家居静物。
+
+**生活方式场景 · Pinterest · 5:8**
+
+#### 提示詞
+
+```text
+Create one ultra-photorealistic portrait 5:8 Pinterest interior-editorial still life featuring one fictional unbranded rechargeable table lamp. Preserve this exact product design: a low flattened dome shade in matte oxblood-red powder-coated aluminum, a warm opal-glass diffuser visible underneath, one slender satin-brass stem, and a compact straight-sided cylindrical oxblood base with one small circular satin-brass dimmer button centered on the front. The dome diameter is about 1.55 times the base diameter; there is no visible cord, seam, logo, or vent. Place exactly one complete lamp, switched on at a restrained 2700K glow, near the right third of a sculptural smoked-walnut console. Build a refined mid-century color story with a muted butter-yellow limewash wall, one low hand-thrown ivory ceramic bowl, and the edge of one forest-green lacquer tray; keep both props well separated from the lamp. Use late-afternoon side sun through slatted blinds to cast long graphic shadows, balanced by the warm lamp pool. Shoot slightly above table height with tactile walnut grain, honest matte metal, crisp brass, layered negative space, and save-worthy magazine art direction. No readable text, logo, watermark, cable, plug, duplicate lamp, books, flowers, people, extra buttons, floating shade, crooked stem, clutter, harsh bloom, CGI plastic, collage, or border.
+```
+
+#### 生成預覽圖
+
+##### 圖片 1
+
+![Oxblood portable lamp in a sun-striped mid-century interior](assets/prompts/home-oxblood-portable-lamp/preview-3.png)
+
+#### 詳細資料
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **來源:** 本倉庫原創內容
+- **發布日期:** 2026-07-22
+- **語言:** en
+- **適用平台:** Pinterest
+- **授權:** CC-BY-4.0
+
+<details>
+<summary><strong>生產參數、商品保真項與溯源資訊</strong></summary>
+
+| 生成模式 | 商品產業 | 使用情境 | 寬高比 |
+|---|---|---|---|
+| `text-to-image` | 家居与家具 | 生活方式场景 | 5:8 |
+
+- **視覺風格:** 极简干净, 建筑感, 编辑大片
+- **背景類型:** 家居空间
+- **素材用途:** 社交创意
+- **輸入要求:** No reference image is required for this fictional lamp; use product-edit mode with a sharp front product image when adapting a real SKU.
+- **商品保真項:**
+  - Preserve the low flattened dome shade in matte oxblood-red aluminum and warm opal-glass diffuser visible underneath.
+  - Preserve one slender satin-brass stem and the compact straight-sided oxblood cylindrical base with a single centered circular brass dimmer.
+- **負面約束:** No readable text, logos, watermark, visible cable, plug, duplicate lamp, floating shade, crooked stem, extra button, distorted base, harsh bloom, CGI plastic, collage, or border.
+
+**來源與版權**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台規則狀態:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0027](data/prompts/ec-0027-oxblood-portable-lamp-platform-set.json)
+
+</details>
+
+**[🚀 立即體驗 →](https://www.pixpix.com/)**
+
+---
+
+<a id="categories-bags-and-accessories"></a>
+
+<a id="platforms-amazon-fashion"></a>
+
+<a id="platforms-xiaohongshu"></a>
+
+<a id="prompt-ec-0026-amazon-fashion-clean-catalog"></a>
+
+### No. 4: 箱包与配饰 — 玳瑁太阳镜多平台套图: AMAZON FASHION CLEAN CATALOG
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon Fashion](https://img.shields.io/badge/Platform-Amazon_Fashion-6857ff)
+
+#### 說明
+
+让同一副高级玳瑁镜框分别呈现为 Amazon 白底商品图、小红书阳光时装片和 Pinterest 泳池静物。
+
+**平台主图 · Amazon Fashion · 4:5**
+
+#### 提示詞
+
+```text
+Create one ultra-photorealistic portrait 4:5 catalog photograph of one fictional unbranded pair of premium sunglasses. Product design: translucent warm tortoiseshell acetate with subtle amber and espresso marbling, a softly upswept geometric rectangular silhouette, thick 8 mm bevelled rims, smoke-brown gradient lenses, slim champagne-gold metal temples, and one small cylindrical champagne hinge on each side. Exactly one pair, opened at a natural 110-degree temple angle in a front three-quarter view, centered and completely visible. Use a seamless pure #FFFFFF background, broad high-key softbox light, a narrow edge highlight through the translucent acetate, crisp optical-grade reflections, and one restrained soft grounding shadow. The frame should fill about 72% of the image and read as premium real eyewear photography. No case, packaging, text, logo, watermark, duplicate glasses, extra lens, bent temple, malformed hinge, opaque plastic, face, hands, colored backdrop, CGI look, collage, or border.
+```
+
+#### 生成預覽圖
+
+##### 圖片 1
+
+![Tortoiseshell sunglasses photographed on pure white](assets/prompts/eyewear-tortoiseshell-sunglasses/preview-1.png)
+
+#### 詳細資料
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **來源:** 本倉庫原創內容
+- **發布日期:** 2026-07-22
+- **語言:** en
+- **適用平台:** Amazon Fashion
+- **授權:** CC-BY-4.0
+
+<details>
+<summary><strong>生產參數、商品保真項與溯源資訊</strong></summary>
+
+| 生成模式 | 商品產業 | 使用情境 | 寬高比 |
+|---|---|---|---|
+| `text-to-image` | 箱包与配饰 | 平台主图 | 4:5 |
+
+- **視覺風格:** 极简干净, 社交原生, 编辑大片
+- **背景類型:** 纯白背景
+- **素材用途:** 平台主图
+- **輸入要求:** No reference image is required for this fictional eyewear design; use product-edit mode with sharp front and temple references for a real SKU.
+- **商品保真項:**
+  - Preserve the translucent warm tortoiseshell acetate with subtle amber and espresso marbling, upswept geometric rectangular silhouette, and thick 8 mm bevelled rims.
+  - Preserve the smoke-brown gradient lenses, slim champagne-gold temples, and one small cylindrical champagne hinge on each side.
+- **負面約束:** No readable text, logos, watermark, extra glasses, duplicate lenses, malformed hinge, bent temple, warped frame, opaque plastic, CGI look, collage, or border.
+
+**來源與版權**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台規則狀態:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0026](data/prompts/ec-0026-tortoiseshell-sunglasses-platform-set.json)
+
+</details>
+
+**[🚀 立即體驗 →](https://www.pixpix.com/)**
+
+---
+
+<a id="usecases-on-model"></a>
+
+<a id="prompt-ec-0026-xiaohongshu-sunlit-fashion"></a>
+
+### No. 5: 箱包与配饰 — 玳瑁太阳镜多平台套图: XIAOHONGSHU SUNLIT FASHION
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-小红书](https://img.shields.io/badge/Platform-%E5%B0%8F%E7%BA%A2%E4%B9%A6-6857ff)
+
+#### 說明
+
+让同一副高级玳瑁镜框分别呈现为 Amazon 白底商品图、小红书阳光时装片和 Pinterest 泳池静物。
+
+**模特上身 · 小红书 · 4:5**
+
+#### 提示詞
+
+```text
+Create one ultra-photorealistic portrait 4:5 social-commerce fashion photograph featuring one fictional unbranded pair of premium sunglasses. Product design must remain clear: translucent warm tortoiseshell acetate with subtle amber and espresso marbling, a softly upswept geometric rectangular silhouette, thick 8 mm bevelled rims, smoke-brown gradient lenses, slim champagne-gold metal temples, and one small cylindrical champagne hinge on each side. One adult East Asian woman wears the sunglasses; crop from forehead to collarbone at a confident three-quarter angle, with no hands in frame. Style her in a simple ivory ribbed sleeveless top with natural skin texture and understated makeup. Place her against a matte burnt-coral stucco wall under hard late-afternoon summer sunlight, creating one elegant architectural shadow and a small warm lens flare. Keep the frame, lenses, visible hinge and temple tack sharp; use premium fashion-editorial color, controlled contrast, and spontaneous Xiaohongshu energy. No readable text, logos, watermark, extra glasses, hat, jewelry, hand, duplicate face, distorted ear, warped frame, opaque black lenses, beauty-filter skin, CGI look, collage, or border.
+```
+
+#### 生成預覽圖
+
+##### 圖片 1
+
+![Adult model wearing tortoiseshell sunglasses in hard summer sun](assets/prompts/eyewear-tortoiseshell-sunglasses/preview-2.png)
+
+#### 詳細資料
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **來源:** 本倉庫原創內容
+- **發布日期:** 2026-07-22
+- **語言:** en
+- **適用平台:** 小红书
+- **授權:** CC-BY-4.0
+
+<details>
+<summary><strong>生產參數、商品保真項與溯源資訊</strong></summary>
+
+| 生成模式 | 商品產業 | 使用情境 | 寬高比 |
+|---|---|---|---|
+| `text-to-image` | 箱包与配饰 | 模特上身 | 4:5 |
+
+- **視覺風格:** 极简干净, 社交原生, 编辑大片
+- **背景類型:** 生活方式实景
+- **素材用途:** 社交创意
+- **輸入要求:** No reference image is required for this fictional eyewear design; use product-edit mode with sharp front and temple references for a real SKU.
+- **商品保真項:**
+  - Preserve the translucent warm tortoiseshell acetate with subtle amber and espresso marbling, upswept geometric rectangular silhouette, and thick 8 mm bevelled rims.
+  - Preserve the smoke-brown gradient lenses, slim champagne-gold temples, and one small cylindrical champagne hinge on each side.
+- **負面約束:** No readable text, logos, watermark, extra glasses, duplicate lenses, malformed hinge, bent temple, warped frame, opaque plastic, CGI look, collage, or border.
+
+**來源與版權**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台規則狀態:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0026](data/prompts/ec-0026-tortoiseshell-sunglasses-platform-set.json)
+
+</details>
+
+**[🚀 立即體驗 →](https://www.pixpix.com/)**
+
+---
+
+<a id="prompt-ec-0026-pinterest-poolside-editorial"></a>
+
+### No. 6: 箱包与配饰 — 玳瑁太阳镜多平台套图: PINTEREST POOLSIDE EDITORIAL
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Pinterest](https://img.shields.io/badge/Platform-Pinterest-6857ff)
+
+#### 說明
+
+让同一副高级玳瑁镜框分别呈现为 Amazon 白底商品图、小红书阳光时装片和 Pinterest 泳池静物。
+
+**品牌首图 · Pinterest · 5:8**
+
+#### 提示詞
+
+```text
+Create one ultra-photorealistic portrait 5:8 Pinterest editorial still life of one fictional unbranded pair of premium sunglasses. Product design: translucent warm tortoiseshell acetate with subtle amber and espresso marbling, a softly upswept geometric rectangular silhouette, thick 8 mm bevelled rims, smoke-brown gradient lenses, slim champagne-gold metal temples, and one small cylindrical champagne hinge on each side. Place exactly one open pair diagonally across the meeting edge of pale aqua glazed pool tile and honed cream travertine; both lenses, the upswept frame, one hinge and both temples must read clearly. Add moving turquoise water caustics across the stone and one narrow folded edge of a burnt-orange linen towel entering from the upper corner, never touching or obscuring the glasses. Use direct Mediterranean noon sun, sharp graphic shadows, micro-drops on one lens edge, refined aqua–amber color harmony, abundant negative space, and save-worthy luxury travel-editorial art direction. No pool logo, readable text, watermark, case, packaging, duplicate glasses, shells, plants, cocktails, hand, face, warped frame, extra lens, opaque plastic, CGI look, collage, or border.
+```
+
+#### 生成預覽圖
+
+##### 圖片 1
+
+![Tortoiseshell sunglasses beside turquoise pool water](assets/prompts/eyewear-tortoiseshell-sunglasses/preview-3.png)
+
+#### 詳細資料
+
+- **作者:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **來源:** 本倉庫原創內容
+- **發布日期:** 2026-07-22
+- **語言:** en
+- **適用平台:** Pinterest
+- **授權:** CC-BY-4.0
+
+<details>
+<summary><strong>生產參數、商品保真項與溯源資訊</strong></summary>
+
+| 生成模式 | 商品產業 | 使用情境 | 寬高比 |
+|---|---|---|---|
+| `text-to-image` | 箱包与配饰 | 品牌首图 | 5:8 |
+
+- **視覺風格:** 极简干净, 社交原生, 编辑大片
+- **背景類型:** 天然材质
+- **素材用途:** 社交创意
+- **輸入要求:** No reference image is required for this fictional eyewear design; use product-edit mode with sharp front and temple references for a real SKU.
+- **商品保真項:**
+  - Preserve the translucent warm tortoiseshell acetate with subtle amber and espresso marbling, upswept geometric rectangular silhouette, and thick 8 mm bevelled rims.
+  - Preserve the smoke-brown gradient lenses, slim champagne-gold temples, and one small cylindrical champagne hinge on each side.
+- **負面約束:** No readable text, logos, watermark, extra glasses, duplicate lenses, malformed hinge, bent temple, warped frame, opaque plastic, CGI look, collage, or border.
+
+**來源與版權**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **平台規則狀態:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **商品系列:** [ec-0026](data/prompts/ec-0026-tortoiseshell-sunglasses-platform-set.json)
+
+</details>
+
+**[🚀 立即體驗 →](https://www.pixpix.com/)**
+
+---
+
 <a id="categories-stationery-and-office"></a>
 
 <a id="usecases-catalog-image"></a>
@@ -505,11 +917,9 @@ Quality and safety constraints: no readable text, no logo, no watermark, no extr
 
 <a id="platforms-etsy"></a>
 
-<a id="platforms-xiaohongshu"></a>
-
 <a id="prompt-ec-0025-tmall-luxury-catalog"></a>
 
-### No. 1: 文具与办公 — 切面玉绿色钢笔电商套图: TMALL LUXURY CATALOG
+### No. 7: 文具与办公 — 切面玉绿色钢笔电商套图: TMALL LUXURY CATALOG
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-天猫](https://img.shields.io/badge/Platform-%E5%A4%A9%E7%8C%AB-6857ff)
 
@@ -575,7 +985,7 @@ Create one ultra-photorealistic portrait 4:5 product photograph of a fictional u
 
 <a id="prompt-ec-0025-etsy-maker-provenance"></a>
 
-### No. 2: 文具与办公 — 切面玉绿色钢笔电商套图: ETSY MAKER PROVENANCE
+### No. 8: 文具与办公 — 切面玉绿色钢笔电商套图: ETSY MAKER PROVENANCE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Etsy](https://img.shields.io/badge/Platform-Etsy-6857ff)
 
@@ -637,11 +1047,9 @@ Create one tactile portrait 5:8 editorial photograph of the same fictional fount
 
 ---
 
-<a id="usecases-lifestyle-scene"></a>
-
 <a id="prompt-ec-0025-xiaohongshu-rain-day-writing"></a>
 
-### No. 3: 文具与办公 — 切面玉绿色钢笔电商套图: XIAOHONGSHU RAIN-DAY WRITING
+### No. 9: 文具与办公 — 切面玉绿色钢笔电商套图: XIAOHONGSHU RAIN-DAY WRITING
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-小红书](https://img.shields.io/badge/Platform-%E5%B0%8F%E7%BA%A2%E4%B9%A6-6857ff)
 
@@ -705,17 +1113,11 @@ Create one intimate portrait 5:8 photorealistic desk scene showing the same fict
 
 <a id="categories-travel-and-luggage"></a>
 
-<a id="usecases-main-image"></a>
-
 <a id="platforms-amazon"></a>
-
-<a id="platforms-shopify"></a>
-
-<a id="platforms-pinterest"></a>
 
 <a id="prompt-ec-0024-amazon-carryon-main-image"></a>
 
-### No. 4: 旅行与箱包 — 沙色登机箱旅行电商套图: AMAZON CARRY-ON MAIN IMAGE
+### No. 10: 旅行与箱包 — 沙色登机箱旅行电商套图: AMAZON CARRY-ON MAIN IMAGE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon](https://img.shields.io/badge/Platform-Amazon-6857ff)
 
@@ -777,11 +1179,9 @@ Create one ultra-photorealistic portrait 5:8 catalog photograph of a fictional u
 
 ---
 
-<a id="usecases-branded-hero"></a>
-
 <a id="prompt-ec-0024-shopify-airport-hero"></a>
 
-### No. 5: 旅行与箱包 — 沙色登机箱旅行电商套图: SHOPIFY AIRPORT HERO
+### No. 11: 旅行与箱包 — 沙色登机箱旅行电商套图: SHOPIFY AIRPORT HERO
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Shopify](https://img.shields.io/badge/Platform-Shopify-6857ff)
 
@@ -847,7 +1247,7 @@ Create one cinematic portrait 4:5 architectural campaign photograph of the same 
 
 <a id="prompt-ec-0024-pinterest-packing-organization"></a>
 
-### No. 6: 旅行与箱包 — 沙色登机箱旅行电商套图: PINTEREST PACKING ORGANIZATION
+### No. 12: 旅行与箱包 — 沙色登机箱旅行电商套图: PINTEREST PACKING ORGANIZATION
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Pinterest](https://img.shields.io/badge/Platform-Pinterest-6857ff)
 
@@ -915,7 +1315,7 @@ Create one photorealistic portrait 4:5 overhead packing story featuring the same
 
 <a id="prompt-ec-0023-amazon-claim-free-main-image"></a>
 
-### No. 7: 健身与健康生活 — 钴蓝植物蛋白粉电商套图: AMAZON CLAIM-FREE MAIN IMAGE
+### No. 13: 健身与健康生活 — 钴蓝植物蛋白粉电商套图: AMAZON CLAIM-FREE MAIN IMAGE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon](https://img.shields.io/badge/Platform-Amazon-6857ff)
 
@@ -981,7 +1381,7 @@ Create one ultra-photorealistic portrait 4:5 catalog photograph of a fictional u
 
 <a id="prompt-ec-0023-tiktok-training-energy"></a>
 
-### No. 8: 健身与健康生活 — 钴蓝植物蛋白粉电商套图: TIKTOK TRAINING ENERGY
+### No. 14: 健身与健康生活 — 钴蓝植物蛋白粉电商套图: TIKTOK TRAINING ENERGY
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-TikTok Shop](https://img.shields.io/badge/Platform-TikTok_Shop-6857ff)
 
@@ -1045,7 +1445,7 @@ Create one kinetic portrait 5:8 social-native photograph featuring the same fict
 
 <a id="prompt-ec-0023-xiaohongshu-breakfast-flatlay"></a>
 
-### No. 9: 健身与健康生活 — 钴蓝植物蛋白粉电商套图: XIAOHONGSHU BREAKFAST FLAT LAY
+### No. 15: 健身与健康生活 — 钴蓝植物蛋白粉电商套图: XIAOHONGSHU BREAKFAST FLAT LAY
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-小红书](https://img.shields.io/badge/Platform-%E5%B0%8F%E7%BA%A2%E4%B9%A6-6857ff)
 
@@ -1109,11 +1509,9 @@ Create one refined portrait 4:5 social-commerce breakfast flat lay centered on t
 
 <a id="categories-cookware"></a>
 
-<a id="platforms-amazon-home"></a>
-
 <a id="prompt-ec-0022-amazon-home-main-image"></a>
 
-### No. 10: 炊具 — 森林绿珐琅铸铁锅电商套图: AMAZON HOME MAIN IMAGE
+### No. 16: 炊具 — 森林绿珐琅铸铁锅电商套图: AMAZON HOME MAIN IMAGE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![⭐-精選](https://img.shields.io/badge/%E2%AD%90-%E7%B2%BE%E9%81%B8-gold) ![Platform-Amazon Home](https://img.shields.io/badge/Platform-Amazon_Home-6857ff)
 
@@ -1177,7 +1575,7 @@ Create one ultra-photorealistic portrait 4:5 catalog photograph of a fictional u
 
 <a id="prompt-ec-0022-pinterest-mediterranean-still-life"></a>
 
-### No. 11: 炊具 — 森林绿珐琅铸铁锅电商套图: PINTEREST MEDITERRANEAN STILL LIFE
+### No. 17: 炊具 — 森林绿珐琅铸铁锅电商套图: PINTEREST MEDITERRANEAN STILL LIFE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Pinterest](https://img.shields.io/badge/Platform-Pinterest-6857ff)
 
@@ -1241,7 +1639,7 @@ Create one portrait 5:8 photorealistic editorial image of the same fictional for
 
 <a id="prompt-ec-0022-xiaohongshu-cooking-ritual"></a>
 
-### No. 12: 炊具 — 森林绿珐琅铸铁锅电商套图: XIAOHONGSHU COOKING RITUAL
+### No. 18: 炊具 — 森林绿珐琅铸铁锅电商套图: XIAOHONGSHU COOKING RITUAL
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-小红书](https://img.shields.io/badge/Platform-%E5%B0%8F%E7%BA%A2%E4%B9%A6-6857ff)
 
@@ -1309,7 +1707,7 @@ Create one portrait 4:5 appetizing social-commerce lifestyle photograph of the s
 
 <a id="prompt-ec-0021-amazon-clean-main-image"></a>
 
-### No. 13: 消费电子 — 午夜蓝无线耳机平台套图: AMAZON CLEAN MAIN IMAGE
+### No. 19: 消费电子 — 午夜蓝无线耳机平台套图: AMAZON CLEAN MAIN IMAGE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![⭐-精選](https://img.shields.io/badge/%E2%AD%90-%E7%B2%BE%E9%81%B8-gold) ![Platform-Amazon](https://img.shields.io/badge/Platform-Amazon-6857ff)
 
@@ -1373,7 +1771,7 @@ Create one ultra-photorealistic portrait 4:5 catalog photograph of a fictional u
 
 <a id="prompt-ec-0021-best-buy-acoustic-feature"></a>
 
-### No. 14: 消费电子 — 午夜蓝无线耳机平台套图: BEST BUY ACOUSTIC FEATURE
+### No. 20: 消费电子 — 午夜蓝无线耳机平台套图: BEST BUY ACOUSTIC FEATURE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Best Buy](https://img.shields.io/badge/Platform-Best_Buy-6857ff)
 
@@ -1437,7 +1835,7 @@ Create one dramatic ultra-photorealistic portrait 4:5 feature image of the same 
 
 <a id="prompt-ec-0021-tiktok-creator-session"></a>
 
-### No. 15: 消费电子 — 午夜蓝无线耳机平台套图: TIKTOK CREATOR SESSION
+### No. 21: 消费电子 — 午夜蓝无线耳机平台套图: TIKTOK CREATOR SESSION
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-TikTok Shop](https://img.shields.io/badge/Platform-TikTok_Shop-6857ff)
 
@@ -1509,7 +1907,7 @@ Create one portrait 4:5 social-native photorealistic campaign frame of one adult
 
 <a id="prompt-ec-0020-sephora-clean-catalog"></a>
 
-### No. 16: 美妆与护肤 — 雕塑感石榴红唇膏电商套图: SEPHORA CLEAN CATALOG
+### No. 22: 美妆与护肤 — 雕塑感石榴红唇膏电商套图: SEPHORA CLEAN CATALOG
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![⭐-精選](https://img.shields.io/badge/%E2%AD%90-%E7%B2%BE%E9%81%B8-gold) ![Platform-Sephora](https://img.shields.io/badge/Platform-Sephora-6857ff)
 
@@ -1573,7 +1971,7 @@ Create a single ultra-photorealistic portrait 4:5 product photograph of one fict
 
 <a id="prompt-ec-0020-tmall-oxblood-launch"></a>
 
-### No. 17: 美妆与护肤 — 雕塑感石榴红唇膏电商套图: TMALL OXBLOOD LAUNCH
+### No. 23: 美妆与护肤 — 雕塑感石榴红唇膏电商套图: TMALL OXBLOOD LAUNCH
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-天猫奢品](https://img.shields.io/badge/Platform-%E5%A4%A9%E7%8C%AB%E5%A5%A2%E5%93%81-6857ff)
 
@@ -1635,11 +2033,9 @@ Create a single ultra-photorealistic portrait 4:5 campaign still of the same fic
 
 ---
 
-<a id="usecases-on-model"></a>
-
 <a id="prompt-ec-0020-instagram-flash-editorial"></a>
 
-### No. 18: 美妆与护肤 — 雕塑感石榴红唇膏电商套图: INSTAGRAM FLASH EDITORIAL
+### No. 24: 美妆与护肤 — 雕塑感石榴红唇膏电商套图: INSTAGRAM FLASH EDITORIAL
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Instagram Shop](https://img.shields.io/badge/Platform-Instagram_Shop-6857ff)
 
@@ -1703,7 +2099,7 @@ Create a single photorealistic portrait 5:8 social-commerce beauty photograph fe
 
 <a id="prompt-ec-0019-shopify-travertine-hero"></a>
 
-### No. 19: 美妆与护肤 — 商品保真精華液背景改圖工作流程: SHOPIFY TRAVERTINE HERO
+### No. 25: 美妆与护肤 — 商品保真精華液背景改圖工作流程: SHOPIFY TRAVERTINE HERO
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![⭐-精選](https://img.shields.io/badge/%E2%AD%90-%E7%B2%BE%E9%81%B8-gold) ![Platform-Shopify](https://img.shields.io/badge/Platform-Shopify-6857ff)
 
@@ -1772,7 +2168,7 @@ Edit the supplied serum product image into one standalone premium Shopify produc
 
 <a id="prompt-ec-0019-instagram-night-launch"></a>
 
-### No. 20: 美妆与护肤 — 商品保真精華液背景改圖工作流程: INSTAGRAM NIGHT LAUNCH
+### No. 26: 美妆与护肤 — 商品保真精華液背景改圖工作流程: INSTAGRAM NIGHT LAUNCH
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Instagram Shop](https://img.shields.io/badge/Platform-Instagram_Shop-6857ff)
 
@@ -1847,7 +2243,7 @@ Edit the supplied serum product image into one standalone premium Instagram Shop
 
 <a id="prompt-ec-0018-variant-1"></a>
 
-### No. 21: 骑行 — 空气动力公路头盔三场景: AMAZON SPORTS CATALOG
+### No. 27: 骑行 — 空气动力公路头盔三场景: AMAZON SPORTS CATALOG
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon Sports](https://img.shields.io/badge/Platform-Amazon_Sports-6857ff)
 
@@ -1913,7 +2309,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0018-variant-2"></a>
 
-### No. 22: 骑行 — 空气动力公路头盔三场景: FEATURE AIRFLOW VISUAL
+### No. 28: 骑行 — 空气动力公路头盔三场景: FEATURE AIRFLOW VISUAL
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-迪卡侬](https://img.shields.io/badge/Platform-%E8%BF%AA%E5%8D%A1%E4%BE%AC-6857ff)
 
@@ -1979,7 +2375,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0018-variant-3"></a>
 
-### No. 23: 骑行 — 空气动力公路头盔三场景: INSTAGRAM ACTION CAMPAIGN
+### No. 29: 骑行 — 空气动力公路头盔三场景: INSTAGRAM ACTION CAMPAIGN
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Instagram Shop](https://img.shields.io/badge/Platform-Instagram_Shop-6857ff)
 
@@ -2049,7 +2445,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0017-variant-1"></a>
 
-### No. 24: 园艺与花器 — 钴蓝陶瓷花盆三场景: ETSY MAKER STORY
+### No. 30: 园艺与花器 — 钴蓝陶瓷花盆三场景: ETSY MAKER STORY
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Etsy](https://img.shields.io/badge/Platform-Etsy-6857ff)
 
@@ -2115,7 +2511,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0017-variant-2"></a>
 
-### No. 25: 园艺与花器 — 钴蓝陶瓷花盆三场景: WAYFAIR CATALOG
+### No. 31: 园艺与花器 — 钴蓝陶瓷花盆三场景: WAYFAIR CATALOG
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Wayfair](https://img.shields.io/badge/Platform-Wayfair-6857ff)
 
@@ -2181,7 +2577,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0017-variant-3"></a>
 
-### No. 26: 园艺与花器 — 钴蓝陶瓷花盆三场景: PINTEREST INTERIOR EDITORIAL
+### No. 32: 园艺与花器 — 钴蓝陶瓷花盆三场景: PINTEREST INTERIOR EDITORIAL
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Pinterest](https://img.shields.io/badge/Platform-Pinterest-6857ff)
 
@@ -2251,7 +2647,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0016-variant-1"></a>
 
-### No. 27: 茶饮与杂货 — 典礼级抹茶罐三场景: AMAZON GROCERY CATALOG
+### No. 33: 茶饮与杂货 — 典礼级抹茶罐三场景: AMAZON GROCERY CATALOG
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon Grocery](https://img.shields.io/badge/Platform-Amazon_Grocery-6857ff)
 
@@ -2317,7 +2713,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0016-variant-2"></a>
 
-### No. 28: 茶饮与杂货 — 典礼级抹茶罐三场景: SHOPIFY TEA RITUAL
+### No. 34: 茶饮与杂货 — 典礼级抹茶罐三场景: SHOPIFY TEA RITUAL
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Shopify](https://img.shields.io/badge/Platform-Shopify-6857ff)
 
@@ -2383,7 +2779,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0016-variant-3"></a>
 
-### No. 29: 茶饮与杂货 — 典礼级抹茶罐三场景: XIAOHONGSHU ICED MATCHA
+### No. 35: 茶饮与杂货 — 典礼级抹茶罐三场景: XIAOHONGSHU ICED MATCHA
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-小红书](https://img.shields.io/badge/Platform-%E5%B0%8F%E7%BA%A2%E4%B9%A6-6857ff)
 
@@ -2451,7 +2847,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0015-variant-1"></a>
 
-### No. 30: 床品与家纺 — 鼠尾草亚麻床品三场景: AMAZON HOME CATALOG
+### No. 36: 床品与家纺 — 鼠尾草亚麻床品三场景: AMAZON HOME CATALOG
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon Home](https://img.shields.io/badge/Platform-Amazon_Home-6857ff)
 
@@ -2517,7 +2913,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no peo
 
 <a id="prompt-ec-0015-variant-2"></a>
 
-### No. 31: 床品与家纺 — 鼠尾草亚麻床品三场景: SHOPIFY BEDROOM LIFESTYLE
+### No. 37: 床品与家纺 — 鼠尾草亚麻床品三场景: SHOPIFY BEDROOM LIFESTYLE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Shopify](https://img.shields.io/badge/Platform-Shopify-6857ff)
 
@@ -2583,7 +2979,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no peo
 
 <a id="prompt-ec-0015-variant-3"></a>
 
-### No. 32: 床品与家纺 — 鼠尾草亚麻床品三场景: PINTEREST SLOW-LIVING EDITORIAL
+### No. 38: 床品与家纺 — 鼠尾草亚麻床品三场景: PINTEREST SLOW-LIVING EDITORIAL
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Pinterest](https://img.shields.io/badge/Platform-Pinterest-6857ff)
 
@@ -2647,13 +3043,11 @@ Quality and safety constraints: no readable text, no logos, no watermark, no peo
 
 ---
 
-<a id="categories-bags-and-accessories"></a>
-
 <a id="platforms-farfetch"></a>
 
 <a id="prompt-ec-0014-variant-1"></a>
 
-### No. 33: 箱包与配饰 — 牛血红肩背包三场景: FARFETCH CATALOG
+### No. 39: 箱包与配饰 — 牛血红肩背包三场景: FARFETCH CATALOG
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![⭐-精選](https://img.shields.io/badge/%E2%AD%90-%E7%B2%BE%E9%81%B8-gold) ![Platform-Farfetch](https://img.shields.io/badge/Platform-Farfetch-6857ff)
 
@@ -2719,7 +3113,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0014-variant-2"></a>
 
-### No. 34: 箱包与配饰 — 牛血红肩背包三场景: TIKTOK SHOP STREET STYLE
+### No. 40: 箱包与配饰 — 牛血红肩背包三场景: TIKTOK SHOP STREET STYLE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-TikTok Shop](https://img.shields.io/badge/Platform-TikTok_Shop-6857ff)
 
@@ -2785,7 +3179,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0014-variant-3"></a>
 
-### No. 35: 箱包与配饰 — 牛血红肩背包三场景: PINTEREST ARCHITECTURAL STILL LIFE
+### No. 41: 箱包与配饰 — 牛血红肩背包三场景: PINTEREST ARCHITECTURAL STILL LIFE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Pinterest](https://img.shields.io/badge/Platform-Pinterest-6857ff)
 
@@ -2855,7 +3249,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0013-variant-1"></a>
 
-### No. 36: 腕表 — 青铜机械腕表三场景: CHRONO24 CATALOG
+### No. 42: 腕表 — 青铜机械腕表三场景: CHRONO24 CATALOG
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![⭐-精選](https://img.shields.io/badge/%E2%AD%90-%E7%B2%BE%E9%81%B8-gold) ![Platform-Chrono24](https://img.shields.io/badge/Platform-Chrono24-6857ff)
 
@@ -2921,7 +3315,7 @@ Quality and safety constraints: no readable text, no logo, no watermark, no extr
 
 <a id="prompt-ec-0013-variant-2"></a>
 
-### No. 37: 腕表 — 青铜机械腕表三场景: TMALL LUXURY LAUNCH
+### No. 43: 腕表 — 青铜机械腕表三场景: TMALL LUXURY LAUNCH
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-天猫奢品](https://img.shields.io/badge/Platform-%E5%A4%A9%E7%8C%AB%E5%A5%A2%E5%93%81-6857ff)
 
@@ -2987,7 +3381,7 @@ Quality and safety constraints: no readable text, no logo, no watermark, no extr
 
 <a id="prompt-ec-0013-variant-3"></a>
 
-### No. 38: 腕表 — 青铜机械腕表三场景: INSTAGRAM EDITORIAL
+### No. 44: 腕表 — 青铜机械腕表三场景: INSTAGRAM EDITORIAL
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Instagram Shop](https://img.shields.io/badge/Platform-Instagram_Shop-6857ff)
 
@@ -3055,7 +3449,7 @@ Quality and safety constraints: no readable text, no logo, no watermark, no extr
 
 <a id="prompt-ec-0012-variant-1"></a>
 
-### No. 39: 玩具与儿童用品 — 木质叠叠拱门玩具三场景: ETSY HANDMADE STORY
+### No. 45: 玩具与儿童用品 — 木质叠叠拱门玩具三场景: ETSY HANDMADE STORY
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Etsy](https://img.shields.io/badge/Platform-Etsy-6857ff)
 
@@ -3121,7 +3515,7 @@ Quality and safety constraints: exactly seven arch pieces, no readable text, no 
 
 <a id="prompt-ec-0012-variant-2"></a>
 
-### No. 40: 玩具与儿童用品 — 木质叠叠拱门玩具三场景: AMAZON CATALOG
+### No. 46: 玩具与儿童用品 — 木质叠叠拱门玩具三场景: AMAZON CATALOG
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon](https://img.shields.io/badge/Platform-Amazon-6857ff)
 
@@ -3187,7 +3581,7 @@ Quality and safety constraints: exactly seven arch pieces, no readable text, no 
 
 <a id="prompt-ec-0012-variant-3"></a>
 
-### No. 41: 玩具与儿童用品 — 木质叠叠拱门玩具三场景: PINTEREST PLAYROOM EDITORIAL
+### No. 47: 玩具与儿童用品 — 木质叠叠拱门玩具三场景: PINTEREST PLAYROOM EDITORIAL
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Pinterest](https://img.shields.io/badge/Platform-Pinterest-6857ff)
 
@@ -3257,7 +3651,7 @@ Quality and safety constraints: exactly seven arch pieces, no readable text, no 
 
 <a id="prompt-ec-0011-variant-1"></a>
 
-### No. 42: 汽车配件 — 无线车载吸尘器三场景: AMAZON CATALOG
+### No. 48: 汽车配件 — 无线车载吸尘器三场景: AMAZON CATALOG
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon](https://img.shields.io/badge/Platform-Amazon-6857ff)
 
@@ -3323,7 +3717,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0011-variant-2"></a>
 
-### No. 43: 汽车配件 — 无线车载吸尘器三场景: EBAY PRACTICAL USE
+### No. 49: 汽车配件 — 无线车载吸尘器三场景: EBAY PRACTICAL USE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-eBay](https://img.shields.io/badge/Platform-eBay-6857ff)
 
@@ -3389,7 +3783,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0011-variant-3"></a>
 
-### No. 44: 汽车配件 — 无线车载吸尘器三场景: TMALL TECHNOLOGY HERO
+### No. 50: 汽车配件 — 无线车载吸尘器三场景: TMALL TECHNOLOGY HERO
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-天猫](https://img.shields.io/badge/Platform-%E5%A4%A9%E7%8C%AB-6857ff)
 
@@ -3459,7 +3853,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0010-variant-1"></a>
 
-### No. 45: 户外装备 — 徒步帐篷天气表现三场景: OUTDOOR RETAIL CATALOG
+### No. 51: 户外装备 — 徒步帐篷天气表现三场景: OUTDOOR RETAIL CATALOG
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-户外零售](https://img.shields.io/badge/Platform-%E6%88%B7%E5%A4%96%E9%9B%B6%E5%94%AE-6857ff)
 
@@ -3525,7 +3919,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0010-variant-2"></a>
 
-### No. 46: 户外装备 — 徒步帐篷天气表现三场景: AMAZON WEATHER FEATURE
+### No. 52: 户外装备 — 徒步帐篷天气表现三场景: AMAZON WEATHER FEATURE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon](https://img.shields.io/badge/Platform-Amazon-6857ff)
 
@@ -3591,7 +3985,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0010-variant-3"></a>
 
-### No. 47: 户外装备 — 徒步帐篷天气表现三场景: PINTEREST ADVENTURE EDITORIAL
+### No. 53: 户外装备 — 徒步帐篷天气表现三场景: PINTEREST ADVENTURE EDITORIAL
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Pinterest](https://img.shields.io/badge/Platform-Pinterest-6857ff)
 
@@ -3661,7 +4055,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0009-variant-1"></a>
 
-### No. 48: 宠物用品 — 设计感猫咪旅行包三场景: CHEWY CATALOG
+### No. 54: 宠物用品 — 设计感猫咪旅行包三场景: CHEWY CATALOG
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Chewy](https://img.shields.io/badge/Platform-Chewy-6857ff)
 
@@ -3727,7 +4121,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0009-variant-2"></a>
 
-### No. 49: 宠物用品 — 设计感猫咪旅行包三场景: INSTAGRAM SHOP LIFESTYLE
+### No. 55: 宠物用品 — 设计感猫咪旅行包三场景: INSTAGRAM SHOP LIFESTYLE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Instagram Shop](https://img.shields.io/badge/Platform-Instagram_Shop-6857ff)
 
@@ -3793,7 +4187,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0009-variant-3"></a>
 
-### No. 50: 宠物用品 — 设计感猫咪旅行包三场景: AMAZON FEATURE DETAIL
+### No. 56: 宠物用品 — 设计感猫咪旅行包三场景: AMAZON FEATURE DETAIL
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon](https://img.shields.io/badge/Platform-Amazon-6857ff)
 
@@ -3861,7 +4255,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0008-variant-1"></a>
 
-### No. 51: 厨房电器 — 精品咖啡机电商三场景: AMAZON LISTING HERO
+### No. 57: 厨房电器 — 精品咖啡机电商三场景: AMAZON LISTING HERO
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon](https://img.shields.io/badge/Platform-Amazon-6857ff)
 
@@ -3927,7 +4321,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0008-variant-2"></a>
 
-### No. 52: 厨房电器 — 精品咖啡机电商三场景: SHOPIFY MORNING LIFESTYLE
+### No. 58: 厨房电器 — 精品咖啡机电商三场景: SHOPIFY MORNING LIFESTYLE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Shopify](https://img.shields.io/badge/Platform-Shopify-6857ff)
 
@@ -3993,7 +4387,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0008-variant-3"></a>
 
-### No. 53: 厨房电器 — 精品咖啡机电商三场景: XIAOHONGSHU COFFEE RITUAL
+### No. 59: 厨房电器 — 精品咖啡机电商三场景: XIAOHONGSHU COFFEE RITUAL
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-小红书](https://img.shields.io/badge/Platform-%E5%B0%8F%E7%BA%A2%E4%B9%A6-6857ff)
 
@@ -4059,11 +4453,9 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="categories-footwear"></a>
 
-<a id="platforms-amazon-fashion"></a>
-
 <a id="prompt-ec-0007-variant-1"></a>
 
-### No. 54: 鞋履 — 平台原生越野跑鞋三场景: AMAZON FASHION CATALOG
+### No. 60: 鞋履 — 平台原生越野跑鞋三场景: AMAZON FASHION CATALOG
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon Fashion](https://img.shields.io/badge/Platform-Amazon_Fashion-6857ff)
 
@@ -4129,7 +4521,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0007-variant-2"></a>
 
-### No. 55: 鞋履 — 平台原生越野跑鞋三场景: TIKTOK SHOP ACTION
+### No. 61: 鞋履 — 平台原生越野跑鞋三场景: TIKTOK SHOP ACTION
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-TikTok Shop](https://img.shields.io/badge/Platform-TikTok_Shop-6857ff)
 
@@ -4195,7 +4587,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0007-variant-3"></a>
 
-### No. 56: 鞋履 — 平台原生越野跑鞋三场景: PINTEREST MATERIAL EDITORIAL
+### No. 62: 鞋履 — 平台原生越野跑鞋三场景: PINTEREST MATERIAL EDITORIAL
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Pinterest](https://img.shields.io/badge/Platform-Pinterest-6857ff)
 
@@ -4263,7 +4655,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0006-variant-1"></a>
 
-### No. 57: 珠宝 — 博物馆级祖母绿戒指三场景: TMALL LUXURY LAUNCH
+### No. 63: 珠宝 — 博物馆级祖母绿戒指三场景: TMALL LUXURY LAUNCH
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-天猫奢品](https://img.shields.io/badge/Platform-%E5%A4%A9%E7%8C%AB%E5%A5%A2%E5%93%81-6857ff)
 
@@ -4329,7 +4721,7 @@ Quality and safety constraints: pristine clean jewelry surfaces; no smudges or f
 
 <a id="prompt-ec-0006-variant-2"></a>
 
-### No. 58: 珠宝 — 博物馆级祖母绿戒指三场景: SHOPIFY ATELIER DETAIL
+### No. 64: 珠宝 — 博物馆级祖母绿戒指三场景: SHOPIFY ATELIER DETAIL
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Shopify](https://img.shields.io/badge/Platform-Shopify-6857ff)
 
@@ -4395,7 +4787,7 @@ Quality and safety constraints: pristine clean jewelry surfaces; no smudges or f
 
 <a id="prompt-ec-0006-variant-3"></a>
 
-### No. 59: 珠宝 — 博物馆级祖母绿戒指三场景: EDITORIAL WATER CAUSTIC
+### No. 65: 珠宝 — 博物馆级祖母绿戒指三场景: EDITORIAL WATER CAUSTIC
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Instagram Shop](https://img.shields.io/badge/Platform-Instagram_Shop-6857ff)
 
@@ -4459,11 +4851,9 @@ Quality and safety constraints: pristine clean jewelry surfaces; no smudges or f
 
 ---
 
-<a id="categories-home-and-furniture"></a>
-
 <a id="prompt-ec-0005-variant-1"></a>
 
-### No. 60: 家居与家具 — 建筑感模块沙发三场景: WAYFAIR CONVERSION ROOM
+### No. 66: 家居与家具 — 建筑感模块沙发三场景: WAYFAIR CONVERSION ROOM
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Wayfair](https://img.shields.io/badge/Platform-Wayfair-6857ff)
 
@@ -4529,7 +4919,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no peo
 
 <a id="prompt-ec-0005-variant-2"></a>
 
-### No. 61: 家居与家具 — 建筑感模块沙发三场景: PINTEREST ARCHITECTURAL EDITORIAL
+### No. 67: 家居与家具 — 建筑感模块沙发三场景: PINTEREST ARCHITECTURAL EDITORIAL
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Pinterest](https://img.shields.io/badge/Platform-Pinterest-6857ff)
 
@@ -4595,7 +4985,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no peo
 
 <a id="prompt-ec-0005-variant-3"></a>
 
-### No. 62: 家居与家具 — 建筑感模块沙发三场景: SHOPIFY MATERIAL STORY
+### No. 68: 家居与家具 — 建筑感模块沙发三场景: SHOPIFY MATERIAL STORY
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Shopify](https://img.shields.io/badge/Platform-Shopify-6857ff)
 
@@ -4671,7 +5061,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no peo
 
 <a id="prompt-ec-0004-variant-1"></a>
 
-### No. 63: 食品与饮料 — 高食欲感通心粉外卖三场景: DELIVERY APP THUMB-STOPPER
+### No. 69: 食品与饮料 — 高食欲感通心粉外卖三场景: DELIVERY APP THUMB-STOPPER
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-DoorDash](https://img.shields.io/badge/Platform-DoorDash-6857ff)
 
@@ -4737,7 +5127,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0004-variant-2"></a>
 
-### No. 64: 食品与饮料 — 高食欲感通心粉外卖三场景: DELIVEROO EDITORIAL TABLE
+### No. 70: 食品与饮料 — 高食欲感通心粉外卖三场景: DELIVEROO EDITORIAL TABLE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Deliveroo](https://img.shields.io/badge/Platform-Deliveroo-6857ff)
 
@@ -4803,7 +5193,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0004-variant-3"></a>
 
-### No. 65: 食品与饮料 — 高食欲感通心粉外卖三场景: MEITUAN SOCIAL PROMO
+### No. 71: 食品与饮料 — 高食欲感通心粉外卖三场景: MEITUAN SOCIAL PROMO
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-美团](https://img.shields.io/badge/Platform-%E7%BE%8E%E5%9B%A2-6857ff)
 
@@ -4873,7 +5263,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0003-variant-1"></a>
 
-### No. 66: 消费电子 — 多平台手机转化三场景: AMAZON-STYLE PRODUCT-ONLY HERO
+### No. 72: 消费电子 — 多平台手机转化三场景: AMAZON-STYLE PRODUCT-ONLY HERO
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon](https://img.shields.io/badge/Platform-Amazon-6857ff)
 
@@ -4939,7 +5329,7 @@ Quality and safety constraints: no readable text, no logo, no watermark, no hand
 
 <a id="prompt-ec-0003-variant-2"></a>
 
-### No. 67: 消费电子 — 多平台手机转化三场景: AMAZON A+ CAMERA ENGINEERING
+### No. 73: 消费电子 — 多平台手机转化三场景: AMAZON A+ CAMERA ENGINEERING
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon +1](https://img.shields.io/badge/Platform-Amazon_%2B1-6857ff)
 
@@ -5005,7 +5395,7 @@ Quality and safety constraints: no readable text, no logo, no watermark, no hand
 
 <a id="prompt-ec-0003-variant-3"></a>
 
-### No. 68: 消费电子 — 多平台手机转化三场景: JD/TMALL WATER-RESISTANCE HERO
+### No. 74: 消费电子 — 多平台手机转化三场景: JD/TMALL WATER-RESISTANCE HERO
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-京东 +1](https://img.shields.io/badge/Platform-%E4%BA%AC%E4%B8%9C_%2B1-6857ff)
 
@@ -5073,7 +5463,7 @@ Quality and safety constraints: no readable text, no logo, no watermark, no hand
 
 <a id="prompt-ec-0002-variant-1"></a>
 
-### No. 69: 服装 — 社交平台原生机能夹克三场景: TIKTOK STREET ENERGY
+### No. 75: 服装 — 社交平台原生机能夹克三场景: TIKTOK STREET ENERGY
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-TikTok Shop](https://img.shields.io/badge/Platform-TikTok_Shop-6857ff)
 
@@ -5139,7 +5529,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0002-variant-2"></a>
 
-### No. 70: 服装 — 社交平台原生机能夹克三场景: DROP CULTURE CLOSE-UP
+### No. 76: 服装 — 社交平台原生机能夹克三场景: DROP CULTURE CLOSE-UP
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Instagram Shop](https://img.shields.io/badge/Platform-Instagram_Shop-6857ff)
 
@@ -5205,7 +5595,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0002-variant-3"></a>
 
-### No. 71: 服装 — 社交平台原生机能夹克三场景: SHOPIFY EDITORIAL
+### No. 77: 服装 — 社交平台原生机能夹克三场景: SHOPIFY EDITORIAL
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Shopify](https://img.shields.io/badge/Platform-Shopify-6857ff)
 
@@ -5273,7 +5663,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0001-variant-1"></a>
 
-### No. 72: 美妆与护肤 — 平台原生精华液三场景艺术指导: WATER SCULPTURE
+### No. 78: 美妆与护肤 — 平台原生精华液三场景艺术指导: WATER SCULPTURE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Shopify](https://img.shields.io/badge/Platform-Shopify-6857ff)
 
@@ -5339,7 +5729,7 @@ Quality and safety constraints: no readable text, no logo, no watermark, no hand
 
 <a id="prompt-ec-0001-variant-2"></a>
 
-### No. 73: 美妆与护肤 — 平台原生精华液三场景艺术指导: BOTANICAL LAB
+### No. 79: 美妆与护肤 — 平台原生精华液三场景艺术指导: BOTANICAL LAB
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-天猫](https://img.shields.io/badge/Platform-%E5%A4%A9%E7%8C%AB-6857ff)
 
@@ -5405,7 +5795,7 @@ Quality and safety constraints: no readable text, no logo, no watermark, no hand
 
 <a id="prompt-ec-0001-variant-3"></a>
 
-### No. 74: 美妆与护肤 — 平台原生精华液三场景艺术指导: NIGHT REPAIR
+### No. 80: 美妆与护肤 — 平台原生精华液三场景艺术指导: NIGHT REPAIR
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Instagram Shop](https://img.shields.io/badge/Platform-Instagram_Shop-6857ff)
 

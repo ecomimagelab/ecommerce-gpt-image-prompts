@@ -31,6 +31,10 @@ constraints. The final prompts were independently written for this repository,
 and all 18 previews were generated specifically from their corresponding
 standalone prompt directions.
 
+For records `ec-0026` and `ec-0027`, research also reviewed the MIT-licensed
+[gpt-image2-ecommerce](https://github.com/buluslan/gpt-image2-ecommerce) scene-template system and
+[motiful/product-shots](https://github.com/motiful/product-shots) product-consistency workflow. We adopted only general workflow ideas—platform-native asset purposes, explicit physical invariants, and cross-image QA. The six prompts and six previews in this repository are newly authored outputs, not copied repository assets.
+
 ## Product-edit proof of workflow
 
 Record `ec-0019` uses the repository-generated image
@@ -93,6 +97,13 @@ generative edit cannot guarantee exact product identity.
 | Sports nutrition | Open-source commercial composition patterns with claim-safe packaging rules | Claim-free packaging, cobalt/acid-lime system, direct-flash training energy, bright recipe flat lay | Amazon main image, TikTok Shop training creative, Xiaohongshu breakfast content |
 | Travel luggage | Open-source product-photo structure plus architectural travel art direction | Shell geometry, wheel and handle fidelity, sunrise stone architecture, complete packing organization | Amazon main image, Shopify airport hero, Pinterest packing guide |
 | Premium stationery | Open-source macro-photo structure plus tactile maker-story research | Translucent faceted resin, machined brass, crisp nib detail, rainy writing atmosphere | Tmall catalog, Etsy provenance still life, Xiaohongshu writing ritual |
+
+## Research directions used for prompts 26–27
+
+| Category | Research references | Extracted visual direction | Platform treatment in the prompt |
+|---|---|---|---|
+| Premium eyewear | [Sunglasses product photography](https://www.pinterest.com/ideas/sunglasses-product-photography/), [gpt-image2-ecommerce](https://github.com/buluslan/gpt-image2-ecommerce), [product-shots](https://github.com/motiful/product-shots) | Translucent acetate, controlled optical reflections, hard coral-wall fashion light, aqua pool caustics, unmistakable frame geometry | Amazon Fashion pure-white catalog, Xiaohongshu adult-model editorial, Pinterest poolside still life |
+| Portable lighting | [Table lamp product photography](https://www.pinterest.com/ideas/table-lamp-product-photography/), [gpt-image2-ecommerce](https://github.com/buluslan/gpt-image2-ecommerce), [product-shots](https://github.com/motiful/product-shots) | Matte oxblood metal, warm opal diffusion, brass edge control, blue-hour architecture, walnut and slatted-sun interiors | Amazon Home pure-white catalog, Shopify architectural dusk hero, Pinterest mid-century interior |
 
 ## Rights and quality policy
 

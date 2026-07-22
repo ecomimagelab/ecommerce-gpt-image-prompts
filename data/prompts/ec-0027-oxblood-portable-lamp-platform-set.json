@@ -1,0 +1,68 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0027",
+  "slug": "oxblood-portable-lamp-platform-set",
+  "model": "gpt-image-2",
+  "title": "Oxblood Portable Lamp Platform Set",
+  "description": "Preserves one oxblood-and-brass portable lamp across an Amazon Home listing, a blue-hour Shopify hero, and a sun-striped Pinterest interior.",
+  "prompt": "Create three premium commerce images for one fictional unbranded rechargeable table lamp. Preserve the matte oxblood low dome, warm opal diffuser, slender satin-brass stem, cylindrical oxblood base, and single circular brass dimmer. Produce an Amazon Home white-background listing, a Shopify architectural blue-hour hero, and a Pinterest mid-century interior still life. No text, logo, cable, extra lamp, crooked stem, or harsh bloom.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "home-and-furniture",
+  "useCases": ["main-image", "branded-hero", "lifestyle-scene"],
+  "styles": ["minimalist-clean", "architectural", "editorial"],
+  "backgrounds": ["pure-white", "home-interior"],
+  "platforms": ["amazon-home", "shopify", "pinterest"],
+  "aspectRatios": ["4:5", "5:8"],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {"referenceImages": 0, "instructions": "No reference image is required for this fictional lamp; use product-edit mode with a sharp front product image when adapting a real SKU."},
+  "productInvariants": [
+    "Preserve the low flattened dome shade in matte oxblood-red aluminum and warm opal-glass diffuser visible underneath.",
+    "Preserve one slender satin-brass stem and the compact straight-sided oxblood cylindrical base with a single centered circular brass dimmer."
+  ],
+  "negativePrompt": "No readable text, logos, watermark, visible cable, plug, duplicate lamp, floating shade, crooked stem, extra button, distorted base, harsh bloom, CGI plastic, collage, or border.",
+  "variants": [
+    {
+      "id": "amazon-home-clean-catalog",
+      "title": "AMAZON HOME CLEAN CATALOG",
+      "useCase": "main-image",
+      "assetPurpose": "main-image",
+      "platforms": ["amazon-home"],
+      "background": "pure-white",
+      "aspectRatio": "4:5",
+      "prompt": "Create one ultra-photorealistic portrait 4:5 catalog photograph of one fictional unbranded rechargeable table lamp. Product design: a low flattened dome shade in matte oxblood-red powder-coated aluminum, a warm opal-glass diffuser visible underneath, one slender satin-brass stem, and a compact straight-sided cylindrical oxblood base with one small circular satin-brass dimmer button centered on the front. The dome diameter is about 1.55 times the base diameter; the lamp has no visible cord, seam, logo, or vent. Show exactly one complete lamp, switched on at a gentle warm 2700K glow, standing centered in a subtle front three-quarter view on seamless pure #FFFFFF. Keep the entire shade, diffuser, stem, base and button visible, filling about 76% of frame. Use a broad high-key softbox, a precise champagne edge highlight, honest matte-metal texture, and one restrained soft grounding shadow. No furniture, props, text, logo, watermark, cable, plug, duplicate lamp, floating shade, crooked stem, extra button, distorted base, harsh bloom, CGI plastic, collage, or border.",
+      "sample": {"before": null, "after": "assets/prompts/home-oxblood-portable-lamp/preview-1.png", "alt": "Oxblood and brass portable lamp on pure white", "license": "CC-BY-4.0", "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."}
+    },
+    {
+      "id": "shopify-blue-hour-hero",
+      "title": "SHOPIFY BLUE-HOUR HERO",
+      "useCase": "branded-hero",
+      "assetPurpose": "branded-hero",
+      "platforms": ["shopify"],
+      "background": "home-interior",
+      "aspectRatio": "4:5",
+      "prompt": "Create one cinematic ultra-photorealistic portrait 4:5 Shopify hero photograph of one fictional unbranded rechargeable table lamp. Preserve this exact product design: a low flattened dome shade in matte oxblood-red powder-coated aluminum, a warm opal-glass diffuser visible underneath, one slender satin-brass stem, and a compact straight-sided cylindrical oxblood base with one small circular satin-brass dimmer button centered on the front. The dome diameter is about 1.55 times the base diameter; there is no visible cord, seam, logo, or vent. Place exactly one complete lamp, switched on at 2700K, on a monolithic pale limestone side table in a minimal blue-hour interior. Frame it from a low three-quarter angle against a deep mineral-blue plaster wall with one soft arched opening far behind. Let the warm pool of light reveal stone pores while cool dusk washes the wall; add a precise brass rim highlight and sophisticated oxblood–cobalt contrast. Leave controlled negative space above and to the left for optional layout, but include no actual copy. No text, logo, watermark, cable, plug, duplicate lamp, vase, books, flowers, person, floating shade, crooked stem, extra button, harsh bloom, CGI plastic, collage, or border.",
+      "sample": {"before": null, "after": "assets/prompts/home-oxblood-portable-lamp/preview-2.png", "alt": "Oxblood portable lamp in a mineral-blue dusk interior", "license": "CC-BY-4.0", "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."}
+    },
+    {
+      "id": "pinterest-midcentury-still-life",
+      "title": "PINTEREST MID-CENTURY STILL LIFE",
+      "useCase": "lifestyle-scene",
+      "assetPurpose": "social-creative",
+      "platforms": ["pinterest"],
+      "background": "home-interior",
+      "aspectRatio": "5:8",
+      "prompt": "Create one ultra-photorealistic portrait 5:8 Pinterest interior-editorial still life featuring one fictional unbranded rechargeable table lamp. Preserve this exact product design: a low flattened dome shade in matte oxblood-red powder-coated aluminum, a warm opal-glass diffuser visible underneath, one slender satin-brass stem, and a compact straight-sided cylindrical oxblood base with one small circular satin-brass dimmer button centered on the front. The dome diameter is about 1.55 times the base diameter; there is no visible cord, seam, logo, or vent. Place exactly one complete lamp, switched on at a restrained 2700K glow, near the right third of a sculptural smoked-walnut console. Build a refined mid-century color story with a muted butter-yellow limewash wall, one low hand-thrown ivory ceramic bowl, and the edge of one forest-green lacquer tray; keep both props well separated from the lamp. Use late-afternoon side sun through slatted blinds to cast long graphic shadows, balanced by the warm lamp pool. Shoot slightly above table height with tactile walnut grain, honest matte metal, crisp brass, layered negative space, and save-worthy magazine art direction. No readable text, logo, watermark, cable, plug, duplicate lamp, books, flowers, people, extra buttons, floating shade, crooked stem, clutter, harsh bloom, CGI plastic, collage, or border.",
+      "sample": {"before": null, "after": "assets/prompts/home-oxblood-portable-lamp/preview-3.png", "alt": "Oxblood portable lamp in a sun-striped mid-century interior", "license": "CC-BY-4.0", "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."}
+    }
+  ],
+  "author": {"name": "Ecommerce GPT Image Prompts Studio", "url": "https://github.com/ecomimagelab"},
+  "source": {"type": "original", "url": null, "permission": "repository-authored", "notes": "Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.", "references": [{"type": "visual-research", "url": "docs/VISUAL_RESEARCH.md"}, {"type": "visual-research", "url": "https://github.com/buluslan/gpt-image2-ecommerce"}, {"type": "visual-research", "url": "https://github.com/motiful/product-shots"}]},
+  "license": "CC-BY-4.0",
+  "platformPolicy": {"status": "design-guidance-only", "note": "Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.", "reviewedAt": null, "sources": []},
+  "review": {"status": "approved", "rights": "reviewed", "promptQuality": "reviewed", "previewQuality": "reviewed", "reviewedAt": "2026-07-22"},
+  "featured": false,
+  "publishedAt": "2026-07-22",
+  "translations": {"zh": {"title": "牛血红便携台灯多平台套图", "description": "让同一盏牛血红与黄铜便携台灯分别呈现为 Amazon Home 白底图、Shopify 蓝调英雄图和 Pinterest 阳光家居静物。"}}
+}

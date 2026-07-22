@@ -1,0 +1,68 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0026",
+  "slug": "tortoiseshell-sunglasses-platform-set",
+  "model": "gpt-image-2",
+  "title": "Tortoiseshell Sunglasses Platform Set",
+  "description": "Carries one premium tortoiseshell frame from a precise Amazon catalog view to sun-struck Xiaohongshu fashion and a poolside Pinterest still life.",
+  "prompt": "Create three premium commerce images for one fictional unbranded pair of sunglasses. Preserve the translucent warm tortoiseshell acetate, softly upswept geometric rectangular silhouette, thick bevelled rims, smoke-brown gradient lenses, slim champagne-gold temples, and cylindrical hinges. Produce an Amazon Fashion white-background listing, a Xiaohongshu adult-model editorial, and a Pinterest poolside still life. No text, logo, extra glasses, warped frame, or opaque plastic.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "bags-and-accessories",
+  "useCases": ["main-image", "on-model", "branded-hero"],
+  "styles": ["minimalist-clean", "social-native", "editorial"],
+  "backgrounds": ["pure-white", "lifestyle-location", "natural-material"],
+  "platforms": ["amazon-fashion", "xiaohongshu", "pinterest"],
+  "aspectRatios": ["4:5", "5:8"],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {"referenceImages": 0, "instructions": "No reference image is required for this fictional eyewear design; use product-edit mode with sharp front and temple references for a real SKU."},
+  "productInvariants": [
+    "Preserve the translucent warm tortoiseshell acetate with subtle amber and espresso marbling, upswept geometric rectangular silhouette, and thick 8 mm bevelled rims.",
+    "Preserve the smoke-brown gradient lenses, slim champagne-gold temples, and one small cylindrical champagne hinge on each side."
+  ],
+  "negativePrompt": "No readable text, logos, watermark, extra glasses, duplicate lenses, malformed hinge, bent temple, warped frame, opaque plastic, CGI look, collage, or border.",
+  "variants": [
+    {
+      "id": "amazon-fashion-clean-catalog",
+      "title": "AMAZON FASHION CLEAN CATALOG",
+      "useCase": "main-image",
+      "assetPurpose": "main-image",
+      "platforms": ["amazon-fashion"],
+      "background": "pure-white",
+      "aspectRatio": "4:5",
+      "prompt": "Create one ultra-photorealistic portrait 4:5 catalog photograph of one fictional unbranded pair of premium sunglasses. Product design: translucent warm tortoiseshell acetate with subtle amber and espresso marbling, a softly upswept geometric rectangular silhouette, thick 8 mm bevelled rims, smoke-brown gradient lenses, slim champagne-gold metal temples, and one small cylindrical champagne hinge on each side. Exactly one pair, opened at a natural 110-degree temple angle in a front three-quarter view, centered and completely visible. Use a seamless pure #FFFFFF background, broad high-key softbox light, a narrow edge highlight through the translucent acetate, crisp optical-grade reflections, and one restrained soft grounding shadow. The frame should fill about 72% of the image and read as premium real eyewear photography. No case, packaging, text, logo, watermark, duplicate glasses, extra lens, bent temple, malformed hinge, opaque plastic, face, hands, colored backdrop, CGI look, collage, or border.",
+      "sample": {"before": null, "after": "assets/prompts/eyewear-tortoiseshell-sunglasses/preview-1.png", "alt": "Tortoiseshell sunglasses photographed on pure white", "license": "CC-BY-4.0", "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."}
+    },
+    {
+      "id": "xiaohongshu-sunlit-fashion",
+      "title": "XIAOHONGSHU SUNLIT FASHION",
+      "useCase": "on-model",
+      "assetPurpose": "social-creative",
+      "platforms": ["xiaohongshu"],
+      "background": "lifestyle-location",
+      "aspectRatio": "4:5",
+      "prompt": "Create one ultra-photorealistic portrait 4:5 social-commerce fashion photograph featuring one fictional unbranded pair of premium sunglasses. Product design must remain clear: translucent warm tortoiseshell acetate with subtle amber and espresso marbling, a softly upswept geometric rectangular silhouette, thick 8 mm bevelled rims, smoke-brown gradient lenses, slim champagne-gold metal temples, and one small cylindrical champagne hinge on each side. One adult East Asian woman wears the sunglasses; crop from forehead to collarbone at a confident three-quarter angle, with no hands in frame. Style her in a simple ivory ribbed sleeveless top with natural skin texture and understated makeup. Place her against a matte burnt-coral stucco wall under hard late-afternoon summer sunlight, creating one elegant architectural shadow and a small warm lens flare. Keep the frame, lenses, visible hinge and temple tack sharp; use premium fashion-editorial color, controlled contrast, and spontaneous Xiaohongshu energy. No readable text, logos, watermark, extra glasses, hat, jewelry, hand, duplicate face, distorted ear, warped frame, opaque black lenses, beauty-filter skin, CGI look, collage, or border.",
+      "sample": {"before": null, "after": "assets/prompts/eyewear-tortoiseshell-sunglasses/preview-2.png", "alt": "Adult model wearing tortoiseshell sunglasses in hard summer sun", "license": "CC-BY-4.0", "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."}
+    },
+    {
+      "id": "pinterest-poolside-editorial",
+      "title": "PINTEREST POOLSIDE EDITORIAL",
+      "useCase": "branded-hero",
+      "assetPurpose": "social-creative",
+      "platforms": ["pinterest"],
+      "background": "natural-material",
+      "aspectRatio": "5:8",
+      "prompt": "Create one ultra-photorealistic portrait 5:8 Pinterest editorial still life of one fictional unbranded pair of premium sunglasses. Product design: translucent warm tortoiseshell acetate with subtle amber and espresso marbling, a softly upswept geometric rectangular silhouette, thick 8 mm bevelled rims, smoke-brown gradient lenses, slim champagne-gold metal temples, and one small cylindrical champagne hinge on each side. Place exactly one open pair diagonally across the meeting edge of pale aqua glazed pool tile and honed cream travertine; both lenses, the upswept frame, one hinge and both temples must read clearly. Add moving turquoise water caustics across the stone and one narrow folded edge of a burnt-orange linen towel entering from the upper corner, never touching or obscuring the glasses. Use direct Mediterranean noon sun, sharp graphic shadows, micro-drops on one lens edge, refined aqua–amber color harmony, abundant negative space, and save-worthy luxury travel-editorial art direction. No pool logo, readable text, watermark, case, packaging, duplicate glasses, shells, plants, cocktails, hand, face, warped frame, extra lens, opaque plastic, CGI look, collage, or border.",
+      "sample": {"before": null, "after": "assets/prompts/eyewear-tortoiseshell-sunglasses/preview-3.png", "alt": "Tortoiseshell sunglasses beside turquoise pool water", "license": "CC-BY-4.0", "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."}
+    }
+  ],
+  "author": {"name": "Ecommerce GPT Image Prompts Studio", "url": "https://github.com/ecomimagelab"},
+  "source": {"type": "original", "url": null, "permission": "repository-authored", "notes": "Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.", "references": [{"type": "visual-research", "url": "docs/VISUAL_RESEARCH.md"}, {"type": "visual-research", "url": "https://github.com/buluslan/gpt-image2-ecommerce"}, {"type": "visual-research", "url": "https://github.com/motiful/product-shots"}]},
+  "license": "CC-BY-4.0",
+  "platformPolicy": {"status": "design-guidance-only", "note": "Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.", "reviewedAt": null, "sources": []},
+  "review": {"status": "approved", "rights": "reviewed", "promptQuality": "reviewed", "previewQuality": "reviewed", "reviewedAt": "2026-07-22"},
+  "featured": false,
+  "publishedAt": "2026-07-22",
+  "translations": {"zh": {"title": "玳瑁太阳镜多平台套图", "description": "让同一副高级玳瑁镜框分别呈现为 Amazon 白底商品图、小红书阳光时装片和 Pinterest 泳池静物。"}}
+}

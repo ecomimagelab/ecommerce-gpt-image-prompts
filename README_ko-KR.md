@@ -40,7 +40,7 @@ Copy any prompt from this library into PixPix to create or edit e-commerce image
 - **Use Cases**
   - [Branded hero](#usecases-branded-hero) · [Lifestyle scene](#usecases-lifestyle-scene) · [Marketplace main image](#usecases-main-image) · [Catalog image](#usecases-catalog-image) · [Social commerce ad](#usecases-social-ad) · [Feature visual](#usecases-feature-callout) · [Detail and macro](#usecases-detail-macro) · [On-model](#usecases-on-model)
 - **Platforms**
-  - [Amazon](#platforms-amazon) · [Pinterest](#platforms-pinterest) · [Shopify](#platforms-shopify) · [Instagram Shop](#platforms-instagram-shop) · [TikTok Shop](#platforms-tiktok-shop) · [Xiaohongshu](#platforms-xiaohongshu) · [Tmall](#platforms-tmall) · [Etsy](#platforms-etsy) · [Tmall Luxury](#platforms-tmall-luxury) · [Amazon Home](#platforms-amazon-home) · [Wayfair](#platforms-wayfair) · [Amazon A+](#platforms-amazon-a-plus) · [Amazon Fashion](#platforms-amazon-fashion) · [Amazon Grocery](#platforms-amazon-grocery) · [Amazon Sports](#platforms-amazon-sports) · [Best Buy](#platforms-best-buy) · [Chewy](#platforms-chewy) · [Chrono24](#platforms-chrono24) · [Decathlon](#platforms-decathlon) · [Deliveroo](#platforms-deliveroo) · [DoorDash](#platforms-doordash) · [eBay](#platforms-ebay) · [Farfetch](#platforms-farfetch) · [JD](#platforms-jd) · [Meituan](#platforms-meituan) · [Outdoor retail](#platforms-outdoor-retail) · [Sephora](#platforms-sephora) · [Shopee](#platforms-shopee) · [Uber Eats](#platforms-uber-eats)
+  - [Pinterest](#platforms-pinterest) · [Shopify](#platforms-shopify) · [Amazon](#platforms-amazon) · [Instagram Shop](#platforms-instagram-shop) · [Xiaohongshu](#platforms-xiaohongshu) · [TikTok Shop](#platforms-tiktok-shop) · [Tmall](#platforms-tmall) · [Amazon Home](#platforms-amazon-home) · [Etsy](#platforms-etsy) · [Tmall Luxury](#platforms-tmall-luxury) · [Amazon Fashion](#platforms-amazon-fashion) · [Wayfair](#platforms-wayfair) · [Amazon A+](#platforms-amazon-a-plus) · [Amazon Grocery](#platforms-amazon-grocery) · [Amazon Sports](#platforms-amazon-sports) · [Best Buy](#platforms-best-buy) · [Chewy](#platforms-chewy) · [Chrono24](#platforms-chrono24) · [Decathlon](#platforms-decathlon) · [Deliveroo](#platforms-deliveroo) · [DoorDash](#platforms-doordash) · [eBay](#platforms-ebay) · [Farfetch](#platforms-farfetch) · [JD](#platforms-jd) · [Meituan](#platforms-meituan) · [Outdoor retail](#platforms-outdoor-retail) · [Sephora](#platforms-sephora) · [Shopee](#platforms-shopee) · [Uber Eats](#platforms-uber-eats)
 
 ---
 
@@ -82,10 +82,10 @@ Each visible entry pairs one copy-ready prompt with the preview generated from t
 
 | Metric | Count |
 |---|---:|
-| Total prompts | **74** |
-| Product collections | **25** |
+| Total prompts | **80** |
+| Product collections | **27** |
 | ⭐ 추천 프롬프트 | **6** |
-| Generated preview images | **74** |
+| Generated preview images | **80** |
 | Industries | **22** |
 | Platforms | **29** |
 | Last updated | **2026-07-22** |
@@ -509,6 +509,430 @@ Quality and safety constraints: no readable text, no logo, no watermark, no extr
 
 > Sorted by publish date, newest first.
 
+<a id="categories-home-and-furniture"></a>
+
+<a id="usecases-main-image"></a>
+
+<a id="platforms-amazon-home"></a>
+
+<a id="platforms-shopify"></a>
+
+<a id="platforms-pinterest"></a>
+
+<a id="prompt-ec-0027-amazon-home-clean-catalog"></a>
+
+### No. 1: Home and furniture — Oxblood Portable Lamp Platform Set: AMAZON HOME CLEAN CATALOG
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon Home](https://img.shields.io/badge/Platform-Amazon_Home-6857ff)
+
+#### 설명
+
+Preserves one oxblood-and-brass portable lamp across an Amazon Home listing, a blue-hour Shopify hero, and a sun-striped Pinterest interior.
+
+> This title and description use the English fallback.
+
+**Marketplace main image · Amazon Home · 4:5**
+
+#### 프롬프트
+
+```text
+Create one ultra-photorealistic portrait 4:5 catalog photograph of one fictional unbranded rechargeable table lamp. Product design: a low flattened dome shade in matte oxblood-red powder-coated aluminum, a warm opal-glass diffuser visible underneath, one slender satin-brass stem, and a compact straight-sided cylindrical oxblood base with one small circular satin-brass dimmer button centered on the front. The dome diameter is about 1.55 times the base diameter; the lamp has no visible cord, seam, logo, or vent. Show exactly one complete lamp, switched on at a gentle warm 2700K glow, standing centered in a subtle front three-quarter view on seamless pure #FFFFFF. Keep the entire shade, diffuser, stem, base and button visible, filling about 76% of frame. Use a broad high-key softbox, a precise champagne edge highlight, honest matte-metal texture, and one restrained soft grounding shadow. No furniture, props, text, logo, watermark, cable, plug, duplicate lamp, floating shade, crooked stem, extra button, distorted base, harsh bloom, CGI plastic, collage, or border.
+```
+
+#### 생성 미리보기
+
+##### Image 1
+
+![Oxblood and brass portable lamp on pure white](assets/prompts/home-oxblood-portable-lamp/preview-1.png)
+
+#### 세부 정보
+
+- **작성자:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **출처:** 이 저장소의 오리지널 콘텐츠
+- **게시일:** 2026-07-22
+- **Languages:** en
+- **플랫폼:** Amazon Home
+- **라이선스:** CC-BY-4.0
+
+<details>
+<summary><strong>Production details, product invariants, and provenance</strong></summary>
+
+| Mode | Industry | Use cases | Aspect ratio |
+|---|---|---|---|
+| `text-to-image` | Home and furniture | Marketplace main image | 4:5 |
+
+- **Styles:** Minimalist clean, Architectural, Editorial
+- **Backgrounds:** Pure white
+- **Asset purpose:** Marketplace main image
+- **Input requirements:** No reference image is required for this fictional lamp; use product-edit mode with a sharp front product image when adapting a real SKU.
+- **Product invariants:**
+  - Preserve the low flattened dome shade in matte oxblood-red aluminum and warm opal-glass diffuser visible underneath.
+  - Preserve one slender satin-brass stem and the compact straight-sided oxblood cylindrical base with a single centered circular brass dimmer.
+- **Negative constraints:** No readable text, logos, watermark, visible cable, plug, duplicate lamp, floating shade, crooked stem, extra button, distorted base, harsh bloom, CGI plastic, collage, or border.
+
+**Provenance and rights**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **Platform-policy status:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **Product collection:** [ec-0027](data/prompts/ec-0027-oxblood-portable-lamp-platform-set.json)
+
+</details>
+
+**[🚀 지금 체험하기 →](https://www.pixpix.com/)**
+
+---
+
+<a id="usecases-branded-hero"></a>
+
+<a id="prompt-ec-0027-shopify-blue-hour-hero"></a>
+
+### No. 2: Home and furniture — Oxblood Portable Lamp Platform Set: SHOPIFY BLUE-HOUR HERO
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Shopify](https://img.shields.io/badge/Platform-Shopify-6857ff)
+
+#### 설명
+
+Preserves one oxblood-and-brass portable lamp across an Amazon Home listing, a blue-hour Shopify hero, and a sun-striped Pinterest interior.
+
+> This title and description use the English fallback.
+
+**Branded hero · Shopify · 4:5**
+
+#### 프롬프트
+
+```text
+Create one cinematic ultra-photorealistic portrait 4:5 Shopify hero photograph of one fictional unbranded rechargeable table lamp. Preserve this exact product design: a low flattened dome shade in matte oxblood-red powder-coated aluminum, a warm opal-glass diffuser visible underneath, one slender satin-brass stem, and a compact straight-sided cylindrical oxblood base with one small circular satin-brass dimmer button centered on the front. The dome diameter is about 1.55 times the base diameter; there is no visible cord, seam, logo, or vent. Place exactly one complete lamp, switched on at 2700K, on a monolithic pale limestone side table in a minimal blue-hour interior. Frame it from a low three-quarter angle against a deep mineral-blue plaster wall with one soft arched opening far behind. Let the warm pool of light reveal stone pores while cool dusk washes the wall; add a precise brass rim highlight and sophisticated oxblood–cobalt contrast. Leave controlled negative space above and to the left for optional layout, but include no actual copy. No text, logo, watermark, cable, plug, duplicate lamp, vase, books, flowers, person, floating shade, crooked stem, extra button, harsh bloom, CGI plastic, collage, or border.
+```
+
+#### 생성 미리보기
+
+##### Image 1
+
+![Oxblood portable lamp in a mineral-blue dusk interior](assets/prompts/home-oxblood-portable-lamp/preview-2.png)
+
+#### 세부 정보
+
+- **작성자:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **출처:** 이 저장소의 오리지널 콘텐츠
+- **게시일:** 2026-07-22
+- **Languages:** en
+- **플랫폼:** Shopify
+- **라이선스:** CC-BY-4.0
+
+<details>
+<summary><strong>Production details, product invariants, and provenance</strong></summary>
+
+| Mode | Industry | Use cases | Aspect ratio |
+|---|---|---|---|
+| `text-to-image` | Home and furniture | Branded hero | 4:5 |
+
+- **Styles:** Minimalist clean, Architectural, Editorial
+- **Backgrounds:** Home interior
+- **Asset purpose:** Branded hero
+- **Input requirements:** No reference image is required for this fictional lamp; use product-edit mode with a sharp front product image when adapting a real SKU.
+- **Product invariants:**
+  - Preserve the low flattened dome shade in matte oxblood-red aluminum and warm opal-glass diffuser visible underneath.
+  - Preserve one slender satin-brass stem and the compact straight-sided oxblood cylindrical base with a single centered circular brass dimmer.
+- **Negative constraints:** No readable text, logos, watermark, visible cable, plug, duplicate lamp, floating shade, crooked stem, extra button, distorted base, harsh bloom, CGI plastic, collage, or border.
+
+**Provenance and rights**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **Platform-policy status:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **Product collection:** [ec-0027](data/prompts/ec-0027-oxblood-portable-lamp-platform-set.json)
+
+</details>
+
+**[🚀 지금 체험하기 →](https://www.pixpix.com/)**
+
+---
+
+<a id="usecases-lifestyle-scene"></a>
+
+<a id="prompt-ec-0027-pinterest-midcentury-still-life"></a>
+
+### No. 3: Home and furniture — Oxblood Portable Lamp Platform Set: PINTEREST MID-CENTURY STILL LIFE
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Pinterest](https://img.shields.io/badge/Platform-Pinterest-6857ff)
+
+#### 설명
+
+Preserves one oxblood-and-brass portable lamp across an Amazon Home listing, a blue-hour Shopify hero, and a sun-striped Pinterest interior.
+
+> This title and description use the English fallback.
+
+**Lifestyle scene · Pinterest · 5:8**
+
+#### 프롬프트
+
+```text
+Create one ultra-photorealistic portrait 5:8 Pinterest interior-editorial still life featuring one fictional unbranded rechargeable table lamp. Preserve this exact product design: a low flattened dome shade in matte oxblood-red powder-coated aluminum, a warm opal-glass diffuser visible underneath, one slender satin-brass stem, and a compact straight-sided cylindrical oxblood base with one small circular satin-brass dimmer button centered on the front. The dome diameter is about 1.55 times the base diameter; there is no visible cord, seam, logo, or vent. Place exactly one complete lamp, switched on at a restrained 2700K glow, near the right third of a sculptural smoked-walnut console. Build a refined mid-century color story with a muted butter-yellow limewash wall, one low hand-thrown ivory ceramic bowl, and the edge of one forest-green lacquer tray; keep both props well separated from the lamp. Use late-afternoon side sun through slatted blinds to cast long graphic shadows, balanced by the warm lamp pool. Shoot slightly above table height with tactile walnut grain, honest matte metal, crisp brass, layered negative space, and save-worthy magazine art direction. No readable text, logo, watermark, cable, plug, duplicate lamp, books, flowers, people, extra buttons, floating shade, crooked stem, clutter, harsh bloom, CGI plastic, collage, or border.
+```
+
+#### 생성 미리보기
+
+##### Image 1
+
+![Oxblood portable lamp in a sun-striped mid-century interior](assets/prompts/home-oxblood-portable-lamp/preview-3.png)
+
+#### 세부 정보
+
+- **작성자:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **출처:** 이 저장소의 오리지널 콘텐츠
+- **게시일:** 2026-07-22
+- **Languages:** en
+- **플랫폼:** Pinterest
+- **라이선스:** CC-BY-4.0
+
+<details>
+<summary><strong>Production details, product invariants, and provenance</strong></summary>
+
+| Mode | Industry | Use cases | Aspect ratio |
+|---|---|---|---|
+| `text-to-image` | Home and furniture | Lifestyle scene | 5:8 |
+
+- **Styles:** Minimalist clean, Architectural, Editorial
+- **Backgrounds:** Home interior
+- **Asset purpose:** Social creative
+- **Input requirements:** No reference image is required for this fictional lamp; use product-edit mode with a sharp front product image when adapting a real SKU.
+- **Product invariants:**
+  - Preserve the low flattened dome shade in matte oxblood-red aluminum and warm opal-glass diffuser visible underneath.
+  - Preserve one slender satin-brass stem and the compact straight-sided oxblood cylindrical base with a single centered circular brass dimmer.
+- **Negative constraints:** No readable text, logos, watermark, visible cable, plug, duplicate lamp, floating shade, crooked stem, extra button, distorted base, harsh bloom, CGI plastic, collage, or border.
+
+**Provenance and rights**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **Platform-policy status:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **Product collection:** [ec-0027](data/prompts/ec-0027-oxblood-portable-lamp-platform-set.json)
+
+</details>
+
+**[🚀 지금 체험하기 →](https://www.pixpix.com/)**
+
+---
+
+<a id="categories-bags-and-accessories"></a>
+
+<a id="platforms-amazon-fashion"></a>
+
+<a id="platforms-xiaohongshu"></a>
+
+<a id="prompt-ec-0026-amazon-fashion-clean-catalog"></a>
+
+### No. 4: Bags and accessories — Tortoiseshell Sunglasses Platform Set: AMAZON FASHION CLEAN CATALOG
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon Fashion](https://img.shields.io/badge/Platform-Amazon_Fashion-6857ff)
+
+#### 설명
+
+Carries one premium tortoiseshell frame from a precise Amazon catalog view to sun-struck Xiaohongshu fashion and a poolside Pinterest still life.
+
+> This title and description use the English fallback.
+
+**Marketplace main image · Amazon Fashion · 4:5**
+
+#### 프롬프트
+
+```text
+Create one ultra-photorealistic portrait 4:5 catalog photograph of one fictional unbranded pair of premium sunglasses. Product design: translucent warm tortoiseshell acetate with subtle amber and espresso marbling, a softly upswept geometric rectangular silhouette, thick 8 mm bevelled rims, smoke-brown gradient lenses, slim champagne-gold metal temples, and one small cylindrical champagne hinge on each side. Exactly one pair, opened at a natural 110-degree temple angle in a front three-quarter view, centered and completely visible. Use a seamless pure #FFFFFF background, broad high-key softbox light, a narrow edge highlight through the translucent acetate, crisp optical-grade reflections, and one restrained soft grounding shadow. The frame should fill about 72% of the image and read as premium real eyewear photography. No case, packaging, text, logo, watermark, duplicate glasses, extra lens, bent temple, malformed hinge, opaque plastic, face, hands, colored backdrop, CGI look, collage, or border.
+```
+
+#### 생성 미리보기
+
+##### Image 1
+
+![Tortoiseshell sunglasses photographed on pure white](assets/prompts/eyewear-tortoiseshell-sunglasses/preview-1.png)
+
+#### 세부 정보
+
+- **작성자:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **출처:** 이 저장소의 오리지널 콘텐츠
+- **게시일:** 2026-07-22
+- **Languages:** en
+- **플랫폼:** Amazon Fashion
+- **라이선스:** CC-BY-4.0
+
+<details>
+<summary><strong>Production details, product invariants, and provenance</strong></summary>
+
+| Mode | Industry | Use cases | Aspect ratio |
+|---|---|---|---|
+| `text-to-image` | Bags and accessories | Marketplace main image | 4:5 |
+
+- **Styles:** Minimalist clean, Social native, Editorial
+- **Backgrounds:** Pure white
+- **Asset purpose:** Marketplace main image
+- **Input requirements:** No reference image is required for this fictional eyewear design; use product-edit mode with sharp front and temple references for a real SKU.
+- **Product invariants:**
+  - Preserve the translucent warm tortoiseshell acetate with subtle amber and espresso marbling, upswept geometric rectangular silhouette, and thick 8 mm bevelled rims.
+  - Preserve the smoke-brown gradient lenses, slim champagne-gold temples, and one small cylindrical champagne hinge on each side.
+- **Negative constraints:** No readable text, logos, watermark, extra glasses, duplicate lenses, malformed hinge, bent temple, warped frame, opaque plastic, CGI look, collage, or border.
+
+**Provenance and rights**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **Platform-policy status:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **Product collection:** [ec-0026](data/prompts/ec-0026-tortoiseshell-sunglasses-platform-set.json)
+
+</details>
+
+**[🚀 지금 체험하기 →](https://www.pixpix.com/)**
+
+---
+
+<a id="usecases-on-model"></a>
+
+<a id="prompt-ec-0026-xiaohongshu-sunlit-fashion"></a>
+
+### No. 5: Bags and accessories — Tortoiseshell Sunglasses Platform Set: XIAOHONGSHU SUNLIT FASHION
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Xiaohongshu](https://img.shields.io/badge/Platform-Xiaohongshu-6857ff)
+
+#### 설명
+
+Carries one premium tortoiseshell frame from a precise Amazon catalog view to sun-struck Xiaohongshu fashion and a poolside Pinterest still life.
+
+> This title and description use the English fallback.
+
+**On-model · Xiaohongshu · 4:5**
+
+#### 프롬프트
+
+```text
+Create one ultra-photorealistic portrait 4:5 social-commerce fashion photograph featuring one fictional unbranded pair of premium sunglasses. Product design must remain clear: translucent warm tortoiseshell acetate with subtle amber and espresso marbling, a softly upswept geometric rectangular silhouette, thick 8 mm bevelled rims, smoke-brown gradient lenses, slim champagne-gold metal temples, and one small cylindrical champagne hinge on each side. One adult East Asian woman wears the sunglasses; crop from forehead to collarbone at a confident three-quarter angle, with no hands in frame. Style her in a simple ivory ribbed sleeveless top with natural skin texture and understated makeup. Place her against a matte burnt-coral stucco wall under hard late-afternoon summer sunlight, creating one elegant architectural shadow and a small warm lens flare. Keep the frame, lenses, visible hinge and temple tack sharp; use premium fashion-editorial color, controlled contrast, and spontaneous Xiaohongshu energy. No readable text, logos, watermark, extra glasses, hat, jewelry, hand, duplicate face, distorted ear, warped frame, opaque black lenses, beauty-filter skin, CGI look, collage, or border.
+```
+
+#### 생성 미리보기
+
+##### Image 1
+
+![Adult model wearing tortoiseshell sunglasses in hard summer sun](assets/prompts/eyewear-tortoiseshell-sunglasses/preview-2.png)
+
+#### 세부 정보
+
+- **작성자:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **출처:** 이 저장소의 오리지널 콘텐츠
+- **게시일:** 2026-07-22
+- **Languages:** en
+- **플랫폼:** Xiaohongshu
+- **라이선스:** CC-BY-4.0
+
+<details>
+<summary><strong>Production details, product invariants, and provenance</strong></summary>
+
+| Mode | Industry | Use cases | Aspect ratio |
+|---|---|---|---|
+| `text-to-image` | Bags and accessories | On-model | 4:5 |
+
+- **Styles:** Minimalist clean, Social native, Editorial
+- **Backgrounds:** Lifestyle location
+- **Asset purpose:** Social creative
+- **Input requirements:** No reference image is required for this fictional eyewear design; use product-edit mode with sharp front and temple references for a real SKU.
+- **Product invariants:**
+  - Preserve the translucent warm tortoiseshell acetate with subtle amber and espresso marbling, upswept geometric rectangular silhouette, and thick 8 mm bevelled rims.
+  - Preserve the smoke-brown gradient lenses, slim champagne-gold temples, and one small cylindrical champagne hinge on each side.
+- **Negative constraints:** No readable text, logos, watermark, extra glasses, duplicate lenses, malformed hinge, bent temple, warped frame, opaque plastic, CGI look, collage, or border.
+
+**Provenance and rights**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **Platform-policy status:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **Product collection:** [ec-0026](data/prompts/ec-0026-tortoiseshell-sunglasses-platform-set.json)
+
+</details>
+
+**[🚀 지금 체험하기 →](https://www.pixpix.com/)**
+
+---
+
+<a id="prompt-ec-0026-pinterest-poolside-editorial"></a>
+
+### No. 6: Bags and accessories — Tortoiseshell Sunglasses Platform Set: PINTEREST POOLSIDE EDITORIAL
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Pinterest](https://img.shields.io/badge/Platform-Pinterest-6857ff)
+
+#### 설명
+
+Carries one premium tortoiseshell frame from a precise Amazon catalog view to sun-struck Xiaohongshu fashion and a poolside Pinterest still life.
+
+> This title and description use the English fallback.
+
+**Branded hero · Pinterest · 5:8**
+
+#### 프롬프트
+
+```text
+Create one ultra-photorealistic portrait 5:8 Pinterest editorial still life of one fictional unbranded pair of premium sunglasses. Product design: translucent warm tortoiseshell acetate with subtle amber and espresso marbling, a softly upswept geometric rectangular silhouette, thick 8 mm bevelled rims, smoke-brown gradient lenses, slim champagne-gold metal temples, and one small cylindrical champagne hinge on each side. Place exactly one open pair diagonally across the meeting edge of pale aqua glazed pool tile and honed cream travertine; both lenses, the upswept frame, one hinge and both temples must read clearly. Add moving turquoise water caustics across the stone and one narrow folded edge of a burnt-orange linen towel entering from the upper corner, never touching or obscuring the glasses. Use direct Mediterranean noon sun, sharp graphic shadows, micro-drops on one lens edge, refined aqua–amber color harmony, abundant negative space, and save-worthy luxury travel-editorial art direction. No pool logo, readable text, watermark, case, packaging, duplicate glasses, shells, plants, cocktails, hand, face, warped frame, extra lens, opaque plastic, CGI look, collage, or border.
+```
+
+#### 생성 미리보기
+
+##### Image 1
+
+![Tortoiseshell sunglasses beside turquoise pool water](assets/prompts/eyewear-tortoiseshell-sunglasses/preview-3.png)
+
+#### 세부 정보
+
+- **작성자:** [Ecommerce GPT Image Prompts Studio](https://github.com/ecomimagelab)
+- **출처:** 이 저장소의 오리지널 콘텐츠
+- **게시일:** 2026-07-22
+- **Languages:** en
+- **플랫폼:** Pinterest
+- **라이선스:** CC-BY-4.0
+
+<details>
+<summary><strong>Production details, product invariants, and provenance</strong></summary>
+
+| Mode | Industry | Use cases | Aspect ratio |
+|---|---|---|---|
+| `text-to-image` | Bags and accessories | Branded hero | 5:8 |
+
+- **Styles:** Minimalist clean, Social native, Editorial
+- **Backgrounds:** Natural material
+- **Asset purpose:** Social creative
+- **Input requirements:** No reference image is required for this fictional eyewear design; use product-edit mode with sharp front and temple references for a real SKU.
+- **Product invariants:**
+  - Preserve the translucent warm tortoiseshell acetate with subtle amber and espresso marbling, upswept geometric rectangular silhouette, and thick 8 mm bevelled rims.
+  - Preserve the smoke-brown gradient lenses, slim champagne-gold temples, and one small cylindrical champagne hinge on each side.
+- **Negative constraints:** No readable text, logos, watermark, extra glasses, duplicate lenses, malformed hinge, bent temple, warped frame, opaque plastic, CGI look, collage, or border.
+
+**Provenance and rights**
+
+- Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed.
+- Original prompt and generated previews created for this repository after Pinterest pattern and open-source workflow research; no external preview asset is included.
+- [visual-research](docs/VISUAL_RESEARCH.md)
+- [visual-research](https://github.com/buluslan/gpt-image2-ecommerce)
+- [visual-research](https://github.com/motiful/product-shots)
+- **Platform-policy status:** Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.
+- **Product collection:** [ec-0026](data/prompts/ec-0026-tortoiseshell-sunglasses-platform-set.json)
+
+</details>
+
+**[🚀 지금 체험하기 →](https://www.pixpix.com/)**
+
+---
+
 <a id="categories-stationery-and-office"></a>
 
 <a id="usecases-catalog-image"></a>
@@ -517,11 +941,9 @@ Quality and safety constraints: no readable text, no logo, no watermark, no extr
 
 <a id="platforms-etsy"></a>
 
-<a id="platforms-xiaohongshu"></a>
-
 <a id="prompt-ec-0025-tmall-luxury-catalog"></a>
 
-### No. 1: Stationery and office — Faceted Jade Fountain Pen Set: TMALL LUXURY CATALOG
+### No. 7: Stationery and office — Faceted Jade Fountain Pen Set: TMALL LUXURY CATALOG
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Tmall](https://img.shields.io/badge/Platform-Tmall-6857ff)
 
@@ -589,7 +1011,7 @@ Create one ultra-photorealistic portrait 4:5 product photograph of a fictional u
 
 <a id="prompt-ec-0025-etsy-maker-provenance"></a>
 
-### No. 2: Stationery and office — Faceted Jade Fountain Pen Set: ETSY MAKER PROVENANCE
+### No. 8: Stationery and office — Faceted Jade Fountain Pen Set: ETSY MAKER PROVENANCE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Etsy](https://img.shields.io/badge/Platform-Etsy-6857ff)
 
@@ -653,11 +1075,9 @@ Create one tactile portrait 5:8 editorial photograph of the same fictional fount
 
 ---
 
-<a id="usecases-lifestyle-scene"></a>
-
 <a id="prompt-ec-0025-xiaohongshu-rain-day-writing"></a>
 
-### No. 3: Stationery and office — Faceted Jade Fountain Pen Set: XIAOHONGSHU RAIN-DAY WRITING
+### No. 9: Stationery and office — Faceted Jade Fountain Pen Set: XIAOHONGSHU RAIN-DAY WRITING
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Xiaohongshu](https://img.shields.io/badge/Platform-Xiaohongshu-6857ff)
 
@@ -723,17 +1143,11 @@ Create one intimate portrait 5:8 photorealistic desk scene showing the same fict
 
 <a id="categories-travel-and-luggage"></a>
 
-<a id="usecases-main-image"></a>
-
 <a id="platforms-amazon"></a>
-
-<a id="platforms-shopify"></a>
-
-<a id="platforms-pinterest"></a>
 
 <a id="prompt-ec-0024-amazon-carryon-main-image"></a>
 
-### No. 4: Travel and luggage — Sand Carry-On Travel Set: AMAZON CARRY-ON MAIN IMAGE
+### No. 10: Travel and luggage — Sand Carry-On Travel Set: AMAZON CARRY-ON MAIN IMAGE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon](https://img.shields.io/badge/Platform-Amazon-6857ff)
 
@@ -797,11 +1211,9 @@ Create one ultra-photorealistic portrait 5:8 catalog photograph of a fictional u
 
 ---
 
-<a id="usecases-branded-hero"></a>
-
 <a id="prompt-ec-0024-shopify-airport-hero"></a>
 
-### No. 5: Travel and luggage — Sand Carry-On Travel Set: SHOPIFY AIRPORT HERO
+### No. 11: Travel and luggage — Sand Carry-On Travel Set: SHOPIFY AIRPORT HERO
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Shopify](https://img.shields.io/badge/Platform-Shopify-6857ff)
 
@@ -869,7 +1281,7 @@ Create one cinematic portrait 4:5 architectural campaign photograph of the same 
 
 <a id="prompt-ec-0024-pinterest-packing-organization"></a>
 
-### No. 6: Travel and luggage — Sand Carry-On Travel Set: PINTEREST PACKING ORGANIZATION
+### No. 12: Travel and luggage — Sand Carry-On Travel Set: PINTEREST PACKING ORGANIZATION
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Pinterest](https://img.shields.io/badge/Platform-Pinterest-6857ff)
 
@@ -939,7 +1351,7 @@ Create one photorealistic portrait 4:5 overhead packing story featuring the same
 
 <a id="prompt-ec-0023-amazon-claim-free-main-image"></a>
 
-### No. 7: Fitness and wellness — Cobalt Plant Protein Commerce Set: AMAZON CLAIM-FREE MAIN IMAGE
+### No. 13: Fitness and wellness — Cobalt Plant Protein Commerce Set: AMAZON CLAIM-FREE MAIN IMAGE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon](https://img.shields.io/badge/Platform-Amazon-6857ff)
 
@@ -1007,7 +1419,7 @@ Create one ultra-photorealistic portrait 4:5 catalog photograph of a fictional u
 
 <a id="prompt-ec-0023-tiktok-training-energy"></a>
 
-### No. 8: Fitness and wellness — Cobalt Plant Protein Commerce Set: TIKTOK TRAINING ENERGY
+### No. 14: Fitness and wellness — Cobalt Plant Protein Commerce Set: TIKTOK TRAINING ENERGY
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-TikTok Shop](https://img.shields.io/badge/Platform-TikTok_Shop-6857ff)
 
@@ -1073,7 +1485,7 @@ Create one kinetic portrait 5:8 social-native photograph featuring the same fict
 
 <a id="prompt-ec-0023-xiaohongshu-breakfast-flatlay"></a>
 
-### No. 9: Fitness and wellness — Cobalt Plant Protein Commerce Set: XIAOHONGSHU BREAKFAST FLAT LAY
+### No. 15: Fitness and wellness — Cobalt Plant Protein Commerce Set: XIAOHONGSHU BREAKFAST FLAT LAY
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Xiaohongshu](https://img.shields.io/badge/Platform-Xiaohongshu-6857ff)
 
@@ -1139,11 +1551,9 @@ Create one refined portrait 4:5 social-commerce breakfast flat lay centered on t
 
 <a id="categories-cookware"></a>
 
-<a id="platforms-amazon-home"></a>
-
 <a id="prompt-ec-0022-amazon-home-main-image"></a>
 
-### No. 10: Cookware — Forest Cocotte Cookware Set: AMAZON HOME MAIN IMAGE
+### No. 16: Cookware — Forest Cocotte Cookware Set: AMAZON HOME MAIN IMAGE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![⭐-Featured](https://img.shields.io/badge/%E2%AD%90-Featured-gold) ![Platform-Amazon Home](https://img.shields.io/badge/Platform-Amazon_Home-6857ff)
 
@@ -1209,7 +1619,7 @@ Create one ultra-photorealistic portrait 4:5 catalog photograph of a fictional u
 
 <a id="prompt-ec-0022-pinterest-mediterranean-still-life"></a>
 
-### No. 11: Cookware — Forest Cocotte Cookware Set: PINTEREST MEDITERRANEAN STILL LIFE
+### No. 17: Cookware — Forest Cocotte Cookware Set: PINTEREST MEDITERRANEAN STILL LIFE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Pinterest](https://img.shields.io/badge/Platform-Pinterest-6857ff)
 
@@ -1275,7 +1685,7 @@ Create one portrait 5:8 photorealistic editorial image of the same fictional for
 
 <a id="prompt-ec-0022-xiaohongshu-cooking-ritual"></a>
 
-### No. 12: Cookware — Forest Cocotte Cookware Set: XIAOHONGSHU COOKING RITUAL
+### No. 18: Cookware — Forest Cocotte Cookware Set: XIAOHONGSHU COOKING RITUAL
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Xiaohongshu](https://img.shields.io/badge/Platform-Xiaohongshu-6857ff)
 
@@ -1345,7 +1755,7 @@ Create one portrait 4:5 appetizing social-commerce lifestyle photograph of the s
 
 <a id="prompt-ec-0021-amazon-clean-main-image"></a>
 
-### No. 13: Consumer electronics — Midnight Headphones Platform Set: AMAZON CLEAN MAIN IMAGE
+### No. 19: Consumer electronics — Midnight Headphones Platform Set: AMAZON CLEAN MAIN IMAGE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![⭐-Featured](https://img.shields.io/badge/%E2%AD%90-Featured-gold) ![Platform-Amazon](https://img.shields.io/badge/Platform-Amazon-6857ff)
 
@@ -1411,7 +1821,7 @@ Create one ultra-photorealistic portrait 4:5 catalog photograph of a fictional u
 
 <a id="prompt-ec-0021-best-buy-acoustic-feature"></a>
 
-### No. 14: Consumer electronics — Midnight Headphones Platform Set: BEST BUY ACOUSTIC FEATURE
+### No. 20: Consumer electronics — Midnight Headphones Platform Set: BEST BUY ACOUSTIC FEATURE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Best Buy](https://img.shields.io/badge/Platform-Best_Buy-6857ff)
 
@@ -1477,7 +1887,7 @@ Create one dramatic ultra-photorealistic portrait 4:5 feature image of the same 
 
 <a id="prompt-ec-0021-tiktok-creator-session"></a>
 
-### No. 15: Consumer electronics — Midnight Headphones Platform Set: TIKTOK CREATOR SESSION
+### No. 21: Consumer electronics — Midnight Headphones Platform Set: TIKTOK CREATOR SESSION
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-TikTok Shop](https://img.shields.io/badge/Platform-TikTok_Shop-6857ff)
 
@@ -1551,7 +1961,7 @@ Create one portrait 4:5 social-native photorealistic campaign frame of one adult
 
 <a id="prompt-ec-0020-sephora-clean-catalog"></a>
 
-### No. 16: Beauty and skincare — Sculptural Garnet Lipstick Commerce Set: SEPHORA CLEAN CATALOG
+### No. 22: Beauty and skincare — Sculptural Garnet Lipstick Commerce Set: SEPHORA CLEAN CATALOG
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![⭐-Featured](https://img.shields.io/badge/%E2%AD%90-Featured-gold) ![Platform-Sephora](https://img.shields.io/badge/Platform-Sephora-6857ff)
 
@@ -1617,7 +2027,7 @@ Create a single ultra-photorealistic portrait 4:5 product photograph of one fict
 
 <a id="prompt-ec-0020-tmall-oxblood-launch"></a>
 
-### No. 17: Beauty and skincare — Sculptural Garnet Lipstick Commerce Set: TMALL OXBLOOD LAUNCH
+### No. 23: Beauty and skincare — Sculptural Garnet Lipstick Commerce Set: TMALL OXBLOOD LAUNCH
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Tmall Luxury](https://img.shields.io/badge/Platform-Tmall_Luxury-6857ff)
 
@@ -1681,11 +2091,9 @@ Create a single ultra-photorealistic portrait 4:5 campaign still of the same fic
 
 ---
 
-<a id="usecases-on-model"></a>
-
 <a id="prompt-ec-0020-instagram-flash-editorial"></a>
 
-### No. 18: Beauty and skincare — Sculptural Garnet Lipstick Commerce Set: INSTAGRAM FLASH EDITORIAL
+### No. 24: Beauty and skincare — Sculptural Garnet Lipstick Commerce Set: INSTAGRAM FLASH EDITORIAL
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Instagram Shop](https://img.shields.io/badge/Platform-Instagram_Shop-6857ff)
 
@@ -1751,7 +2159,7 @@ Create a single photorealistic portrait 5:8 social-commerce beauty photograph fe
 
 <a id="prompt-ec-0019-shopify-travertine-hero"></a>
 
-### No. 19: Beauty and skincare — Product-Faithful Serum Background Edit Workflow: SHOPIFY TRAVERTINE HERO
+### No. 25: Beauty and skincare — Product-Faithful Serum Background Edit Workflow: SHOPIFY TRAVERTINE HERO
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![⭐-Featured](https://img.shields.io/badge/%E2%AD%90-Featured-gold) ![Platform-Shopify](https://img.shields.io/badge/Platform-Shopify-6857ff)
 
@@ -1822,7 +2230,7 @@ Edit the supplied serum product image into one standalone premium Shopify produc
 
 <a id="prompt-ec-0019-instagram-night-launch"></a>
 
-### No. 20: Beauty and skincare — Product-Faithful Serum Background Edit Workflow: INSTAGRAM NIGHT LAUNCH
+### No. 26: Beauty and skincare — Product-Faithful Serum Background Edit Workflow: INSTAGRAM NIGHT LAUNCH
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Instagram Shop](https://img.shields.io/badge/Platform-Instagram_Shop-6857ff)
 
@@ -1899,7 +2307,7 @@ Edit the supplied serum product image into one standalone premium Instagram Shop
 
 <a id="prompt-ec-0018-variant-1"></a>
 
-### No. 21: Cycling — Aero Road Helmet Triptych: AMAZON SPORTS CATALOG
+### No. 27: Cycling — Aero Road Helmet Triptych: AMAZON SPORTS CATALOG
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon Sports](https://img.shields.io/badge/Platform-Amazon_Sports-6857ff)
 
@@ -1967,7 +2375,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0018-variant-2"></a>
 
-### No. 22: Cycling — Aero Road Helmet Triptych: FEATURE AIRFLOW VISUAL
+### No. 28: Cycling — Aero Road Helmet Triptych: FEATURE AIRFLOW VISUAL
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Decathlon](https://img.shields.io/badge/Platform-Decathlon-6857ff)
 
@@ -2035,7 +2443,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0018-variant-3"></a>
 
-### No. 23: Cycling — Aero Road Helmet Triptych: INSTAGRAM ACTION CAMPAIGN
+### No. 29: Cycling — Aero Road Helmet Triptych: INSTAGRAM ACTION CAMPAIGN
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Instagram Shop](https://img.shields.io/badge/Platform-Instagram_Shop-6857ff)
 
@@ -2107,7 +2515,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0017-variant-1"></a>
 
-### No. 24: Garden and planters — Cobalt Ceramic Planter Triptych: ETSY MAKER STORY
+### No. 30: Garden and planters — Cobalt Ceramic Planter Triptych: ETSY MAKER STORY
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Etsy](https://img.shields.io/badge/Platform-Etsy-6857ff)
 
@@ -2175,7 +2583,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0017-variant-2"></a>
 
-### No. 25: Garden and planters — Cobalt Ceramic Planter Triptych: WAYFAIR CATALOG
+### No. 31: Garden and planters — Cobalt Ceramic Planter Triptych: WAYFAIR CATALOG
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Wayfair](https://img.shields.io/badge/Platform-Wayfair-6857ff)
 
@@ -2243,7 +2651,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0017-variant-3"></a>
 
-### No. 26: Garden and planters — Cobalt Ceramic Planter Triptych: PINTEREST INTERIOR EDITORIAL
+### No. 32: Garden and planters — Cobalt Ceramic Planter Triptych: PINTEREST INTERIOR EDITORIAL
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Pinterest](https://img.shields.io/badge/Platform-Pinterest-6857ff)
 
@@ -2315,7 +2723,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0016-variant-1"></a>
 
-### No. 27: Tea and grocery — Ceremonial Matcha Tin Triptych: AMAZON GROCERY CATALOG
+### No. 33: Tea and grocery — Ceremonial Matcha Tin Triptych: AMAZON GROCERY CATALOG
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon Grocery](https://img.shields.io/badge/Platform-Amazon_Grocery-6857ff)
 
@@ -2383,7 +2791,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0016-variant-2"></a>
 
-### No. 28: Tea and grocery — Ceremonial Matcha Tin Triptych: SHOPIFY TEA RITUAL
+### No. 34: Tea and grocery — Ceremonial Matcha Tin Triptych: SHOPIFY TEA RITUAL
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Shopify](https://img.shields.io/badge/Platform-Shopify-6857ff)
 
@@ -2451,7 +2859,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0016-variant-3"></a>
 
-### No. 29: Tea and grocery — Ceremonial Matcha Tin Triptych: XIAOHONGSHU ICED MATCHA
+### No. 35: Tea and grocery — Ceremonial Matcha Tin Triptych: XIAOHONGSHU ICED MATCHA
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Xiaohongshu](https://img.shields.io/badge/Platform-Xiaohongshu-6857ff)
 
@@ -2521,7 +2929,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0015-variant-1"></a>
 
-### No. 30: Bedding and textiles — Sage Linen Bedding Triptych: AMAZON HOME CATALOG
+### No. 36: Bedding and textiles — Sage Linen Bedding Triptych: AMAZON HOME CATALOG
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon Home](https://img.shields.io/badge/Platform-Amazon_Home-6857ff)
 
@@ -2589,7 +2997,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no peo
 
 <a id="prompt-ec-0015-variant-2"></a>
 
-### No. 31: Bedding and textiles — Sage Linen Bedding Triptych: SHOPIFY BEDROOM LIFESTYLE
+### No. 37: Bedding and textiles — Sage Linen Bedding Triptych: SHOPIFY BEDROOM LIFESTYLE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Shopify](https://img.shields.io/badge/Platform-Shopify-6857ff)
 
@@ -2657,7 +3065,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no peo
 
 <a id="prompt-ec-0015-variant-3"></a>
 
-### No. 32: Bedding and textiles — Sage Linen Bedding Triptych: PINTEREST SLOW-LIVING EDITORIAL
+### No. 38: Bedding and textiles — Sage Linen Bedding Triptych: PINTEREST SLOW-LIVING EDITORIAL
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Pinterest](https://img.shields.io/badge/Platform-Pinterest-6857ff)
 
@@ -2723,13 +3131,11 @@ Quality and safety constraints: no readable text, no logos, no watermark, no peo
 
 ---
 
-<a id="categories-bags-and-accessories"></a>
-
 <a id="platforms-farfetch"></a>
 
 <a id="prompt-ec-0014-variant-1"></a>
 
-### No. 33: Bags and accessories — Oxblood Shoulder Bag Triptych: FARFETCH CATALOG
+### No. 39: Bags and accessories — Oxblood Shoulder Bag Triptych: FARFETCH CATALOG
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![⭐-Featured](https://img.shields.io/badge/%E2%AD%90-Featured-gold) ![Platform-Farfetch](https://img.shields.io/badge/Platform-Farfetch-6857ff)
 
@@ -2797,7 +3203,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0014-variant-2"></a>
 
-### No. 34: Bags and accessories — Oxblood Shoulder Bag Triptych: TIKTOK SHOP STREET STYLE
+### No. 40: Bags and accessories — Oxblood Shoulder Bag Triptych: TIKTOK SHOP STREET STYLE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-TikTok Shop](https://img.shields.io/badge/Platform-TikTok_Shop-6857ff)
 
@@ -2865,7 +3271,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0014-variant-3"></a>
 
-### No. 35: Bags and accessories — Oxblood Shoulder Bag Triptych: PINTEREST ARCHITECTURAL STILL LIFE
+### No. 41: Bags and accessories — Oxblood Shoulder Bag Triptych: PINTEREST ARCHITECTURAL STILL LIFE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Pinterest](https://img.shields.io/badge/Platform-Pinterest-6857ff)
 
@@ -2937,7 +3343,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0013-variant-1"></a>
 
-### No. 36: Watches — Bronze Mechanical Watch Triptych: CHRONO24 CATALOG
+### No. 42: Watches — Bronze Mechanical Watch Triptych: CHRONO24 CATALOG
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![⭐-Featured](https://img.shields.io/badge/%E2%AD%90-Featured-gold) ![Platform-Chrono24](https://img.shields.io/badge/Platform-Chrono24-6857ff)
 
@@ -3005,7 +3411,7 @@ Quality and safety constraints: no readable text, no logo, no watermark, no extr
 
 <a id="prompt-ec-0013-variant-2"></a>
 
-### No. 37: Watches — Bronze Mechanical Watch Triptych: TMALL LUXURY LAUNCH
+### No. 43: Watches — Bronze Mechanical Watch Triptych: TMALL LUXURY LAUNCH
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Tmall Luxury](https://img.shields.io/badge/Platform-Tmall_Luxury-6857ff)
 
@@ -3073,7 +3479,7 @@ Quality and safety constraints: no readable text, no logo, no watermark, no extr
 
 <a id="prompt-ec-0013-variant-3"></a>
 
-### No. 38: Watches — Bronze Mechanical Watch Triptych: INSTAGRAM EDITORIAL
+### No. 44: Watches — Bronze Mechanical Watch Triptych: INSTAGRAM EDITORIAL
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Instagram Shop](https://img.shields.io/badge/Platform-Instagram_Shop-6857ff)
 
@@ -3143,7 +3549,7 @@ Quality and safety constraints: no readable text, no logo, no watermark, no extr
 
 <a id="prompt-ec-0012-variant-1"></a>
 
-### No. 39: Toys and kids — Wooden Stacking Arch Triptych: ETSY HANDMADE STORY
+### No. 45: Toys and kids — Wooden Stacking Arch Triptych: ETSY HANDMADE STORY
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Etsy](https://img.shields.io/badge/Platform-Etsy-6857ff)
 
@@ -3211,7 +3617,7 @@ Quality and safety constraints: exactly seven arch pieces, no readable text, no 
 
 <a id="prompt-ec-0012-variant-2"></a>
 
-### No. 40: Toys and kids — Wooden Stacking Arch Triptych: AMAZON CATALOG
+### No. 46: Toys and kids — Wooden Stacking Arch Triptych: AMAZON CATALOG
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon](https://img.shields.io/badge/Platform-Amazon-6857ff)
 
@@ -3279,7 +3685,7 @@ Quality and safety constraints: exactly seven arch pieces, no readable text, no 
 
 <a id="prompt-ec-0012-variant-3"></a>
 
-### No. 41: Toys and kids — Wooden Stacking Arch Triptych: PINTEREST PLAYROOM EDITORIAL
+### No. 47: Toys and kids — Wooden Stacking Arch Triptych: PINTEREST PLAYROOM EDITORIAL
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Pinterest](https://img.shields.io/badge/Platform-Pinterest-6857ff)
 
@@ -3351,7 +3757,7 @@ Quality and safety constraints: exactly seven arch pieces, no readable text, no 
 
 <a id="prompt-ec-0011-variant-1"></a>
 
-### No. 42: Automotive accessories — Cordless Car Vacuum Triptych: AMAZON CATALOG
+### No. 48: Automotive accessories — Cordless Car Vacuum Triptych: AMAZON CATALOG
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon](https://img.shields.io/badge/Platform-Amazon-6857ff)
 
@@ -3419,7 +3825,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0011-variant-2"></a>
 
-### No. 43: Automotive accessories — Cordless Car Vacuum Triptych: EBAY PRACTICAL USE
+### No. 49: Automotive accessories — Cordless Car Vacuum Triptych: EBAY PRACTICAL USE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-eBay](https://img.shields.io/badge/Platform-eBay-6857ff)
 
@@ -3487,7 +3893,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0011-variant-3"></a>
 
-### No. 44: Automotive accessories — Cordless Car Vacuum Triptych: TMALL TECHNOLOGY HERO
+### No. 50: Automotive accessories — Cordless Car Vacuum Triptych: TMALL TECHNOLOGY HERO
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Tmall](https://img.shields.io/badge/Platform-Tmall-6857ff)
 
@@ -3559,7 +3965,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0010-variant-1"></a>
 
-### No. 45: Outdoor gear — Trekking Tent Weather Triptych: OUTDOOR RETAIL CATALOG
+### No. 51: Outdoor gear — Trekking Tent Weather Triptych: OUTDOOR RETAIL CATALOG
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Outdoor retail](https://img.shields.io/badge/Platform-Outdoor_retail-6857ff)
 
@@ -3627,7 +4033,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0010-variant-2"></a>
 
-### No. 46: Outdoor gear — Trekking Tent Weather Triptych: AMAZON WEATHER FEATURE
+### No. 52: Outdoor gear — Trekking Tent Weather Triptych: AMAZON WEATHER FEATURE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon](https://img.shields.io/badge/Platform-Amazon-6857ff)
 
@@ -3695,7 +4101,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0010-variant-3"></a>
 
-### No. 47: Outdoor gear — Trekking Tent Weather Triptych: PINTEREST ADVENTURE EDITORIAL
+### No. 53: Outdoor gear — Trekking Tent Weather Triptych: PINTEREST ADVENTURE EDITORIAL
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Pinterest](https://img.shields.io/badge/Platform-Pinterest-6857ff)
 
@@ -3767,7 +4173,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0009-variant-1"></a>
 
-### No. 48: Pet supplies — Design-Led Cat Carrier Triptych: CHEWY CATALOG
+### No. 54: Pet supplies — Design-Led Cat Carrier Triptych: CHEWY CATALOG
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Chewy](https://img.shields.io/badge/Platform-Chewy-6857ff)
 
@@ -3835,7 +4241,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0009-variant-2"></a>
 
-### No. 49: Pet supplies — Design-Led Cat Carrier Triptych: INSTAGRAM SHOP LIFESTYLE
+### No. 55: Pet supplies — Design-Led Cat Carrier Triptych: INSTAGRAM SHOP LIFESTYLE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Instagram Shop](https://img.shields.io/badge/Platform-Instagram_Shop-6857ff)
 
@@ -3903,7 +4309,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0009-variant-3"></a>
 
-### No. 50: Pet supplies — Design-Led Cat Carrier Triptych: AMAZON FEATURE DETAIL
+### No. 56: Pet supplies — Design-Led Cat Carrier Triptych: AMAZON FEATURE DETAIL
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon](https://img.shields.io/badge/Platform-Amazon-6857ff)
 
@@ -3973,7 +4379,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0008-variant-1"></a>
 
-### No. 51: Kitchen appliances — Espresso Machine Commerce Triptych: AMAZON LISTING HERO
+### No. 57: Kitchen appliances — Espresso Machine Commerce Triptych: AMAZON LISTING HERO
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon](https://img.shields.io/badge/Platform-Amazon-6857ff)
 
@@ -4041,7 +4447,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0008-variant-2"></a>
 
-### No. 52: Kitchen appliances — Espresso Machine Commerce Triptych: SHOPIFY MORNING LIFESTYLE
+### No. 58: Kitchen appliances — Espresso Machine Commerce Triptych: SHOPIFY MORNING LIFESTYLE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Shopify](https://img.shields.io/badge/Platform-Shopify-6857ff)
 
@@ -4109,7 +4515,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0008-variant-3"></a>
 
-### No. 53: Kitchen appliances — Espresso Machine Commerce Triptych: XIAOHONGSHU COFFEE RITUAL
+### No. 59: Kitchen appliances — Espresso Machine Commerce Triptych: XIAOHONGSHU COFFEE RITUAL
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Xiaohongshu](https://img.shields.io/badge/Platform-Xiaohongshu-6857ff)
 
@@ -4177,11 +4583,9 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="categories-footwear"></a>
 
-<a id="platforms-amazon-fashion"></a>
-
 <a id="prompt-ec-0007-variant-1"></a>
 
-### No. 54: Footwear — Platform-Native Trail Shoe Triptych: AMAZON FASHION CATALOG
+### No. 60: Footwear — Platform-Native Trail Shoe Triptych: AMAZON FASHION CATALOG
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon Fashion](https://img.shields.io/badge/Platform-Amazon_Fashion-6857ff)
 
@@ -4249,7 +4653,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0007-variant-2"></a>
 
-### No. 55: Footwear — Platform-Native Trail Shoe Triptych: TIKTOK SHOP ACTION
+### No. 61: Footwear — Platform-Native Trail Shoe Triptych: TIKTOK SHOP ACTION
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-TikTok Shop](https://img.shields.io/badge/Platform-TikTok_Shop-6857ff)
 
@@ -4317,7 +4721,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0007-variant-3"></a>
 
-### No. 56: Footwear — Platform-Native Trail Shoe Triptych: PINTEREST MATERIAL EDITORIAL
+### No. 62: Footwear — Platform-Native Trail Shoe Triptych: PINTEREST MATERIAL EDITORIAL
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Pinterest](https://img.shields.io/badge/Platform-Pinterest-6857ff)
 
@@ -4387,7 +4791,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0006-variant-1"></a>
 
-### No. 57: Jewelry — Museum-Grade Emerald Ring Triptych: TMALL LUXURY LAUNCH
+### No. 63: Jewelry — Museum-Grade Emerald Ring Triptych: TMALL LUXURY LAUNCH
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Tmall Luxury](https://img.shields.io/badge/Platform-Tmall_Luxury-6857ff)
 
@@ -4455,7 +4859,7 @@ Quality and safety constraints: pristine clean jewelry surfaces; no smudges or f
 
 <a id="prompt-ec-0006-variant-2"></a>
 
-### No. 58: Jewelry — Museum-Grade Emerald Ring Triptych: SHOPIFY ATELIER DETAIL
+### No. 64: Jewelry — Museum-Grade Emerald Ring Triptych: SHOPIFY ATELIER DETAIL
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Shopify](https://img.shields.io/badge/Platform-Shopify-6857ff)
 
@@ -4523,7 +4927,7 @@ Quality and safety constraints: pristine clean jewelry surfaces; no smudges or f
 
 <a id="prompt-ec-0006-variant-3"></a>
 
-### No. 59: Jewelry — Museum-Grade Emerald Ring Triptych: EDITORIAL WATER CAUSTIC
+### No. 65: Jewelry — Museum-Grade Emerald Ring Triptych: EDITORIAL WATER CAUSTIC
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Instagram Shop](https://img.shields.io/badge/Platform-Instagram_Shop-6857ff)
 
@@ -4589,11 +4993,9 @@ Quality and safety constraints: pristine clean jewelry surfaces; no smudges or f
 
 ---
 
-<a id="categories-home-and-furniture"></a>
-
 <a id="prompt-ec-0005-variant-1"></a>
 
-### No. 60: Home and furniture — Architectural Modular Sofa Triptych: WAYFAIR CONVERSION ROOM
+### No. 66: Home and furniture — Architectural Modular Sofa Triptych: WAYFAIR CONVERSION ROOM
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Wayfair](https://img.shields.io/badge/Platform-Wayfair-6857ff)
 
@@ -4661,7 +5063,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no peo
 
 <a id="prompt-ec-0005-variant-2"></a>
 
-### No. 61: Home and furniture — Architectural Modular Sofa Triptych: PINTEREST ARCHITECTURAL EDITORIAL
+### No. 67: Home and furniture — Architectural Modular Sofa Triptych: PINTEREST ARCHITECTURAL EDITORIAL
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Pinterest](https://img.shields.io/badge/Platform-Pinterest-6857ff)
 
@@ -4729,7 +5131,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no peo
 
 <a id="prompt-ec-0005-variant-3"></a>
 
-### No. 62: Home and furniture — Architectural Modular Sofa Triptych: SHOPIFY MATERIAL STORY
+### No. 68: Home and furniture — Architectural Modular Sofa Triptych: SHOPIFY MATERIAL STORY
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Shopify](https://img.shields.io/badge/Platform-Shopify-6857ff)
 
@@ -4807,7 +5209,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no peo
 
 <a id="prompt-ec-0004-variant-1"></a>
 
-### No. 63: Food and beverage — Appetite-Led Rigatoni Delivery Triptych: DELIVERY APP THUMB-STOPPER
+### No. 69: Food and beverage — Appetite-Led Rigatoni Delivery Triptych: DELIVERY APP THUMB-STOPPER
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-DoorDash](https://img.shields.io/badge/Platform-DoorDash-6857ff)
 
@@ -4875,7 +5277,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0004-variant-2"></a>
 
-### No. 64: Food and beverage — Appetite-Led Rigatoni Delivery Triptych: DELIVEROO EDITORIAL TABLE
+### No. 70: Food and beverage — Appetite-Led Rigatoni Delivery Triptych: DELIVEROO EDITORIAL TABLE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Deliveroo](https://img.shields.io/badge/Platform-Deliveroo-6857ff)
 
@@ -4943,7 +5345,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0004-variant-3"></a>
 
-### No. 65: Food and beverage — Appetite-Led Rigatoni Delivery Triptych: MEITUAN SOCIAL PROMO
+### No. 71: Food and beverage — Appetite-Led Rigatoni Delivery Triptych: MEITUAN SOCIAL PROMO
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Meituan](https://img.shields.io/badge/Platform-Meituan-6857ff)
 
@@ -5015,7 +5417,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0003-variant-1"></a>
 
-### No. 66: Consumer electronics — Marketplace Smartphone Conversion Triptych: AMAZON-STYLE PRODUCT-ONLY HERO
+### No. 72: Consumer electronics — Marketplace Smartphone Conversion Triptych: AMAZON-STYLE PRODUCT-ONLY HERO
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon](https://img.shields.io/badge/Platform-Amazon-6857ff)
 
@@ -5083,7 +5485,7 @@ Quality and safety constraints: no readable text, no logo, no watermark, no hand
 
 <a id="prompt-ec-0003-variant-2"></a>
 
-### No. 67: Consumer electronics — Marketplace Smartphone Conversion Triptych: AMAZON A+ CAMERA ENGINEERING
+### No. 73: Consumer electronics — Marketplace Smartphone Conversion Triptych: AMAZON A+ CAMERA ENGINEERING
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Amazon +1](https://img.shields.io/badge/Platform-Amazon_%2B1-6857ff)
 
@@ -5151,7 +5553,7 @@ Quality and safety constraints: no readable text, no logo, no watermark, no hand
 
 <a id="prompt-ec-0003-variant-3"></a>
 
-### No. 68: Consumer electronics — Marketplace Smartphone Conversion Triptych: JD/TMALL WATER-RESISTANCE HERO
+### No. 74: Consumer electronics — Marketplace Smartphone Conversion Triptych: JD/TMALL WATER-RESISTANCE HERO
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-JD +1](https://img.shields.io/badge/Platform-JD_%2B1-6857ff)
 
@@ -5221,7 +5623,7 @@ Quality and safety constraints: no readable text, no logo, no watermark, no hand
 
 <a id="prompt-ec-0002-variant-1"></a>
 
-### No. 69: Fashion — Social-Native Technical Jacket Triptych: TIKTOK STREET ENERGY
+### No. 75: Fashion — Social-Native Technical Jacket Triptych: TIKTOK STREET ENERGY
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-TikTok Shop](https://img.shields.io/badge/Platform-TikTok_Shop-6857ff)
 
@@ -5289,7 +5691,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0002-variant-2"></a>
 
-### No. 70: Fashion — Social-Native Technical Jacket Triptych: DROP CULTURE CLOSE-UP
+### No. 76: Fashion — Social-Native Technical Jacket Triptych: DROP CULTURE CLOSE-UP
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Instagram Shop](https://img.shields.io/badge/Platform-Instagram_Shop-6857ff)
 
@@ -5357,7 +5759,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0002-variant-3"></a>
 
-### No. 71: Fashion — Social-Native Technical Jacket Triptych: SHOPIFY EDITORIAL
+### No. 77: Fashion — Social-Native Technical Jacket Triptych: SHOPIFY EDITORIAL
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Shopify](https://img.shields.io/badge/Platform-Shopify-6857ff)
 
@@ -5427,7 +5829,7 @@ Quality and safety constraints: no readable text, no logos, no watermark, no ext
 
 <a id="prompt-ec-0001-variant-1"></a>
 
-### No. 72: Beauty and skincare — Platform-Native Serum Art Direction Triptych: WATER SCULPTURE
+### No. 78: Beauty and skincare — Platform-Native Serum Art Direction Triptych: WATER SCULPTURE
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Shopify](https://img.shields.io/badge/Platform-Shopify-6857ff)
 
@@ -5495,7 +5897,7 @@ Quality and safety constraints: no readable text, no logo, no watermark, no hand
 
 <a id="prompt-ec-0001-variant-2"></a>
 
-### No. 73: Beauty and skincare — Platform-Native Serum Art Direction Triptych: BOTANICAL LAB
+### No. 79: Beauty and skincare — Platform-Native Serum Art Direction Triptych: BOTANICAL LAB
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Tmall](https://img.shields.io/badge/Platform-Tmall-6857ff)
 
@@ -5563,7 +5965,7 @@ Quality and safety constraints: no readable text, no logo, no watermark, no hand
 
 <a id="prompt-ec-0001-variant-3"></a>
 
-### No. 74: Beauty and skincare — Platform-Native Serum Art Direction Triptych: NIGHT REPAIR
+### No. 80: Beauty and skincare — Platform-Native Serum Art Direction Triptych: NIGHT REPAIR
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue) ![Platform-Instagram Shop](https://img.shields.io/badge/Platform-Instagram_Shop-6857ff)
 
