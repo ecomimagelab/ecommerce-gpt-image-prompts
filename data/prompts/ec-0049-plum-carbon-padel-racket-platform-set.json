@@ -1,0 +1,194 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0049",
+  "slug": "plum-carbon-padel-racket-platform-set",
+  "model": "gpt-image-2",
+  "title": "Plum Carbon Padel Racket Platform Set",
+  "description": "Keeps one plum carbon padel racket stable across retail, performance detail, adult court action, flash-led tunnel campaign, and terrazzo still life.",
+  "prompt": "Create five platform-native e-commerce images for exactly one premium padel racket with one wrist cord, preserving its exact product design while varying scene, composition, lighting, and platform intent.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "fitness-and-wellness",
+  "useCases": [
+    "main-image",
+    "feature-callout",
+    "on-model",
+    "social-ad"
+  ],
+  "styles": [
+    "technical",
+    "social-native",
+    "bright-playful"
+  ],
+  "backgrounds": [
+    "pure-white",
+    "dark-studio",
+    "lifestyle-location",
+    "graphic-set"
+  ],
+  "platforms": [
+    "amazon-sports",
+    "decathlon",
+    "tiktok-shop",
+    "instagram-shop",
+    "pinterest"
+  ],
+  "aspectRatios": [
+    "4:5",
+    "5:8"
+  ],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {
+    "referenceImages": 0,
+    "instructions": "No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU."
+  },
+  "productInvariants": [
+    "Preserve the smoky-plum teardrop carbon face, centered round perforations, and acid-lime edge guard.",
+    "Preserve the short graphite handle, ivory grip tape, and charcoal wrist cord with one lime bar-tack."
+  ],
+  "negativePrompt": "No brand, letters, tennis strings, extra racket, extra ball embedded in face, missing holes, circular beach paddle, long tennis handle, changed edge color, child player, distorted hands, or broken wrist cord. No readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.",
+  "variants": [
+    {
+      "id": "amazon-sports-racket-main",
+      "title": "AMAZON SPORTS RACKET MAIN",
+      "useCase": "main-image",
+      "assetPurpose": "main-image",
+      "platforms": [
+        "amazon-sports"
+      ],
+      "background": "pure-white",
+      "aspectRatio": "4:5",
+      "prompt": "Use case: product-mockup.\nAsset type: main image for amazon sports.\nPrimary request: Create one ultra-photorealistic portrait 4:5 e-commerce image featuring exactly one premium padel racket with one wrist cord.\nProduct design: one fictional unbranded teardrop-shaped padel racket with a matte smoky-plum carbon face, a centered pattern of round perforations, a narrow acid-lime edge guard, a short graphite handle wrapped in ivory grip tape, and one charcoal wrist cord with a single lime bar-tack.\nScene/backdrop: Lay the racket diagonally on seamless pure #FFFFFF with the face fully visible and the wrist cord arranged in one clean open loop.\nComposition/framing: Center the complete racket at about 78% frame fill; show teardrop geometry, every perforation, lime edge, grip, cord, and soft shadow.\nLighting/mood: Broad high-key softboxes, restrained carbon weave, crisp lime separation, and neutral white balance.\nMaterials/textures: Render matte carbon weave, clean perforation edges, acid-lime polymer guard, textured ivory grip tape, and woven wrist cord with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same teardrop silhouette, smoky-plum perforated face, acid-lime edge guard, short graphite handle, ivory grip, and charcoal cord.\nConstraints: Keep the hole pattern centered and racket proportions plausible; adult athletes must use a safe grip. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No ball, hand, case, packaging, court, second racket, or cropped cord. No brand, letters, tennis strings, extra racket, extra ball embedded in face, missing holes, circular beach paddle, long tennis handle, changed edge color, child player, distorted hands, or broken wrist cord. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/fitness-plum-carbon-padel-racket/preview-1.png",
+        "alt": "Plum carbon padel racket on white",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "decathlon-carbon-detail",
+      "title": "DECATHLON CARBON DETAIL",
+      "useCase": "feature-callout",
+      "assetPurpose": "secondary-image",
+      "platforms": [
+        "decathlon"
+      ],
+      "background": "dark-studio",
+      "aspectRatio": "4:5",
+      "prompt": "Use case: product-mockup.\nAsset type: secondary image for decathlon.\nPrimary request: Create one ultra-photorealistic portrait 4:5 e-commerce image featuring exactly one premium padel racket with one wrist cord.\nProduct design: one fictional unbranded teardrop-shaped padel racket with a matte smoky-plum carbon face, a centered pattern of round perforations, a narrow acid-lime edge guard, a short graphite handle wrapped in ivory grip tape, and one charcoal wrist cord with a single lime bar-tack.\nScene/backdrop: Rest the racket face-up on a dark graphite ribbed surface with one plain yellow padel ball near but not touching the lime edge.\nComposition/framing: Use a tight three-quarter technical crop that still includes the full face and handle while emphasizing weave, hole depth, guard thickness, grip, and cord stitch.\nLighting/mood: Hard side strip light, cool fill, narrow lime bounce, and crisp material contrast.\nMaterials/textures: Render matte carbon weave, clean perforation edges, acid-lime polymer guard, textured ivory grip tape, and woven wrist cord with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same teardrop silhouette, smoky-plum perforated face, acid-lime edge guard, short graphite handle, ivory grip, and charcoal cord.\nConstraints: Keep the hole pattern centered and racket proportions plausible; adult athletes must use a safe grip. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No text, arrows, cutaway, exploded face, extra ball, extra racket, or floating diagram. No brand, letters, tennis strings, extra racket, extra ball embedded in face, missing holes, circular beach paddle, long tennis handle, changed edge color, child player, distorted hands, or broken wrist cord. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/fitness-plum-carbon-padel-racket/preview-2.png",
+        "alt": "Carbon and edge detail of a plum padel racket",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "tiktok-adult-court-action",
+      "title": "TIKTOK SHOP COURT ACTION",
+      "useCase": "on-model",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "tiktok-shop"
+      ],
+      "background": "lifestyle-location",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: social creative for tiktok shop.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one premium padel racket with one wrist cord.\nProduct design: one fictional unbranded teardrop-shaped padel racket with a matte smoky-plum carbon face, a centered pattern of round perforations, a narrow acid-lime edge guard, a short graphite handle wrapped in ivory grip tape, and one charcoal wrist cord with a single lime bar-tack.\nScene/backdrop: An athletic adult player in a plain cobalt outfit prepares a controlled forehand on a sunlit terracotta padel court while holding the racket correctly.\nComposition/framing: Use a dynamic full-body low angle with complete safe anatomy, the full racket face visible, one ball approaching, and strong court lines.\nLighting/mood: Hard midday sun mixed with direct flash, crisp moving shadow, natural skin, and energetic creator texture.\nMaterials/textures: Render matte carbon weave, clean perforation edges, acid-lime polymer guard, textured ivory grip tape, and woven wrist cord with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same teardrop silhouette, smoky-plum perforated face, acid-lime edge guard, short graphite handle, ivory grip, and charcoal cord.\nConstraints: Keep the hole pattern centered and racket proportions plausible; adult athletes must use a safe grip. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No child, extra player, multiple balls, distorted arm, unsafe wrist, logo clothing, tennis net close-up, or racket hidden behind body. No brand, letters, tennis strings, extra racket, extra ball embedded in face, missing holes, circular beach paddle, long tennis handle, changed edge color, child player, distorted hands, or broken wrist cord. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/fitness-plum-carbon-padel-racket/preview-3.png",
+        "alt": "Adult padel player preparing a forehand with a plum racket",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "instagram-flash-tunnel",
+      "title": "INSTAGRAM FLASH TUNNEL",
+      "useCase": "social-ad",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "instagram-shop"
+      ],
+      "background": "lifestyle-location",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: social creative for instagram shop.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one premium padel racket with one wrist cord.\nProduct design: one fictional unbranded teardrop-shaped padel racket with a matte smoky-plum carbon face, a centered pattern of round perforations, a narrow acid-lime edge guard, a short graphite handle wrapped in ivory grip tape, and one charcoal wrist cord with a single lime bar-tack.\nScene/backdrop: An adult athlete carries the racket at her side while walking through a cobalt stadium tunnel in a plain ivory warm-up suit.\nComposition/framing: Use a full vertical fashion-sport portrait with relaxed natural stride, complete racket silhouette, cord, lime edge, and confident negative space.\nLighting/mood: Direct flash, saturated cobalt ambience, glossy floor reflection, natural adult expression, and editorial grain.\nMaterials/textures: Render matte carbon weave, clean perforation edges, acid-lime polymer guard, textured ivory grip tape, and woven wrist cord with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same teardrop silhouette, smoky-plum perforated face, acid-lime edge guard, short graphite handle, ivory grip, and charcoal cord.\nConstraints: Keep the hole pattern centered and racket proportions plausible; adult athletes must use a safe grip. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No child, extra racket, distorted fingers, brand clothing, text signage, smoke, crowd, or cropped handle. No brand, letters, tennis strings, extra racket, extra ball embedded in face, missing holes, circular beach paddle, long tennis handle, changed edge color, child player, distorted hands, or broken wrist cord. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/fitness-plum-carbon-padel-racket/preview-4.png",
+        "alt": "Adult athlete carrying a plum padel racket in a cobalt tunnel",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "pinterest-terrazzo-still",
+      "title": "PINTEREST TERRAZZO STILL",
+      "useCase": "social-ad",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "pinterest"
+      ],
+      "background": "graphic-set",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: social creative for pinterest.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one premium padel racket with one wrist cord.\nProduct design: one fictional unbranded teardrop-shaped padel racket with a matte smoky-plum carbon face, a centered pattern of round perforations, a narrow acid-lime edge guard, a short graphite handle wrapped in ivory grip tape, and one charcoal wrist cord with a single lime bar-tack.\nScene/backdrop: Lean the racket across two low cream-terrazzo blocks against a split plum and acid-lime paper background; place one plain ball below.\nComposition/framing: Create a save-worthy graphic still life with the full teardrop face, handle, cord, and bold geometric shadows.\nLighting/mood: Hard side sunlight, clean colored bounce, crisp perforation shadows, and tactile terrazzo detail.\nMaterials/textures: Render matte carbon weave, clean perforation edges, acid-lime polymer guard, textured ivory grip tape, and woven wrist cord with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same teardrop silhouette, smoky-plum perforated face, acid-lime edge guard, short graphite handle, ivory grip, and charcoal cord.\nConstraints: Keep the hole pattern centered and racket proportions plausible; adult athletes must use a safe grip. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No person, extra ball, text, floating racket, second racket, or prop covering the face. No brand, letters, tennis strings, extra racket, extra ball embedded in face, missing holes, circular beach paddle, long tennis handle, changed edge color, child player, distorted hands, or broken wrist cord. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/fitness-plum-carbon-padel-racket/preview-5.png",
+        "alt": "Plum padel racket in a terrazzo color-block still life",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    }
+  ],
+  "author": {
+    "name": "Ecommerce GPT Image Prompts Studio",
+    "url": "https://github.com/ecomimagelab"
+  },
+  "source": {
+    "type": "original",
+    "url": null,
+    "permission": "repository-authored",
+    "notes": "Original prompt and generated previews created for this repository after visual-pattern and open-source workflow research; no external preview asset is included.",
+    "references": [
+      {
+        "type": "visual-research",
+        "url": "docs/VISUAL_RESEARCH.md"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/buluslan/gpt-image2-ecommerce"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/motiful/product-shots"
+      }
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "platformPolicy": {
+    "status": "design-guidance-only",
+    "note": "Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.",
+    "reviewedAt": null,
+    "sources": []
+  },
+  "review": {
+    "status": "approved",
+    "rights": "reviewed",
+    "promptQuality": "reviewed",
+    "previewQuality": "reviewed",
+    "reviewedAt": "2026-07-23"
+  },
+  "featured": false,
+  "publishedAt": "2026-07-23",
+  "translations": {
+    "zh": {
+      "title": "梅子紫碳纤维板式网球拍多平台套图",
+      "description": "让同一支梅子紫碳纤维板式网球拍在零售、性能细节、成年球场动作、闪光灯通道广告和水磨石静物中保持一致。"
+    }
+  }
+}

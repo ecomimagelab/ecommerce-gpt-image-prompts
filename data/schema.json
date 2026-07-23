@@ -158,6 +158,7 @@
       }
     },
     "featured": {"type": "boolean"},
+    "featuredVariantId": {"type": ["string", "null"], "minLength": 1},
     "publishedAt": {"type": "string", "format": "date"},
     "translations": {
       "type": "object",

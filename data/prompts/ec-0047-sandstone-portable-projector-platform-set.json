@@ -1,0 +1,194 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0047",
+  "slug": "sandstone-portable-projector-platform-set",
+  "model": "gpt-image-2",
+  "title": "Sandstone Portable Projector Platform Set",
+  "description": "Keeps one compact sandstone projector consistent across clean retail, feature lighting, architectural living, adult movie night, and outdoor Pinterest cinema.",
+  "prompt": "Create five platform-native e-commerce images for exactly one compact portable projector with one remote, preserving its exact product design while varying scene, composition, lighting, and platform intent.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "consumer-electronics",
+  "useCases": [
+    "main-image",
+    "feature-callout",
+    "branded-hero",
+    "lifestyle-scene"
+  ],
+  "styles": [
+    "technical",
+    "architectural",
+    "quiet-living"
+  ],
+  "backgrounds": [
+    "pure-white",
+    "dark-studio",
+    "home-interior",
+    "outdoor-location"
+  ],
+  "platforms": [
+    "amazon",
+    "best-buy",
+    "shopify",
+    "tiktok-shop",
+    "pinterest"
+  ],
+  "aspectRatios": [
+    "4:5",
+    "5:8"
+  ],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {
+    "referenceImages": 0,
+    "instructions": "No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU."
+  },
+  "productInvariants": [
+    "Preserve the low rounded sandstone aluminum body, front-left circular lens, and narrow burnt-orange focus ring.",
+    "Preserve the right graphite speaker grille, camel leather carry loop, and one small blank matching remote."
+  ],
+  "negativePrompt": "No brand, text, extra projector, second lens, white plastic, floating UI, copyrighted movie, visible streaming logo, impossible beam direction, tangled power cable, overheated glow, child model, or warped remote. No readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.",
+  "variants": [
+    {
+      "id": "amazon-projector-clean-main",
+      "title": "AMAZON PROJECTOR CLEAN MAIN",
+      "useCase": "main-image",
+      "assetPurpose": "main-image",
+      "platforms": [
+        "amazon"
+      ],
+      "background": "pure-white",
+      "aspectRatio": "4:5",
+      "prompt": "Use case: product-mockup.\nAsset type: main image for amazon.\nPrimary request: Create one ultra-photorealistic portrait 4:5 e-commerce image featuring exactly one compact portable projector with one remote.\nProduct design: one fictional unbranded compact portable projector in warm sandstone-beige matte aluminum, shaped as a low rounded rectangle with one large black circular lens on the front-left, a narrow burnt-orange focus ring, a perforated graphite speaker grille on the right side, a slim camel leather carry loop, and one small matching blank remote.\nScene/backdrop: Place the projector front three-quarter on seamless pure #FFFFFF with the camel loop upright and the blank remote lying beside it.\nComposition/framing: Center the complete product set at about 72% frame fill; show lens, orange ring, grille edge, loop, feet, remote, and soft grounding shadow.\nLighting/mood: Broad high-key technical softboxes, controlled lens reflection, warm sandstone accuracy, and crisp perforations.\nMaterials/textures: Render matte aluminum, optical black glass, burnt-orange anodized ring, perforated graphite grille, and camel leather with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same low sandstone body, front-left black lens, orange focus ring, right graphite grille, camel loop, and small blank remote.\nConstraints: Keep projection light physically aligned with the lens; show no copyrighted film or readable interface. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No beam, screen, cable, hand, packaging, extra remote, or lens cap. No brand, text, extra projector, second lens, white plastic, floating UI, copyrighted movie, visible streaming logo, impossible beam direction, tangled power cable, overheated glow, child model, or warped remote. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/electronics-sandstone-portable-projector/preview-1.png",
+        "alt": "Sandstone portable projector and remote on white",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "bestbuy-light-path",
+      "title": "BEST BUY LIGHT PATH",
+      "useCase": "feature-callout",
+      "assetPurpose": "secondary-image",
+      "platforms": [
+        "best-buy"
+      ],
+      "background": "dark-studio",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: secondary image for best buy.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one compact portable projector with one remote.\nProduct design: one fictional unbranded compact portable projector in warm sandstone-beige matte aluminum, shaped as a low rounded rectangle with one large black circular lens on the front-left, a narrow burnt-orange focus ring, a perforated graphite speaker grille on the right side, a slim camel leather carry loop, and one small matching blank remote.\nScene/backdrop: Set the projector on a dark graphite shelf and emit one soft warm beam toward a blank off-frame wall, with the remote resting flat.\nComposition/framing: Use a close side-front technical angle that clearly aligns beam and lens while showing the orange ring, side grille, and leather loop.\nLighting/mood: Cool dark-room ambience, warm optical beam with subtle dust, tight rim light, and precise metal texture.\nMaterials/textures: Render matte aluminum, optical black glass, burnt-orange anodized ring, perforated graphite grille, and camel leather with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same low sandstone body, front-left black lens, orange focus ring, right graphite grille, camel loop, and small blank remote.\nConstraints: Keep projection light physically aligned with the lens; show no copyrighted film or readable interface. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No movie image, floating diagram, text, icons, visible fan, extra projector, or overblown beam. No brand, text, extra projector, second lens, white plastic, floating UI, copyrighted movie, visible streaming logo, impossible beam direction, tangled power cable, overheated glow, child model, or warped remote. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/electronics-sandstone-portable-projector/preview-2.png",
+        "alt": "Portable projector emitting a warm aligned beam",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "shopify-limewash-living",
+      "title": "SHOPIFY LIMEWASH LIVING",
+      "useCase": "branded-hero",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "shopify"
+      ],
+      "background": "home-interior",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: branded hero for shopify.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one compact portable projector with one remote.\nProduct design: one fictional unbranded compact portable projector in warm sandstone-beige matte aluminum, shaped as a low rounded rectangle with one large black circular lens on the front-left, a narrow burnt-orange focus ring, a perforated graphite speaker grille on the right side, a slim camel leather carry loop, and one small matching blank remote.\nScene/backdrop: Place the projector on a low travertine table in a curved limewash living room facing a blank warm-gray wall; the remote sits beside it.\nComposition/framing: Use a wide architectural vertical composition with the product clearly foregrounded, a faint light rectangle on the wall, and generous calm space.\nLighting/mood: Blue-hour window light, warm projected glow, soft plaster gradients, and premium quiet-living texture.\nMaterials/textures: Render matte aluminum, optical black glass, burnt-orange anodized ring, perforated graphite grille, and camel leather with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same low sandstone body, front-left black lens, orange focus ring, right graphite grille, camel loop, and small blank remote.\nConstraints: Keep projection light physically aligned with the lens; show no copyrighted film or readable interface. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No people, television, readable screen, sofa clutter, candles, extra remote, or hidden lens. No brand, text, extra projector, second lens, white plastic, floating UI, copyrighted movie, visible streaming logo, impossible beam direction, tangled power cable, overheated glow, child model, or warped remote. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/electronics-sandstone-portable-projector/preview-3.png",
+        "alt": "Sandstone portable projector in a curved limewash living room",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "tiktok-adult-movie-night",
+      "title": "TIKTOK SHOP MOVIE NIGHT",
+      "useCase": "lifestyle-scene",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "tiktok-shop"
+      ],
+      "background": "home-interior",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: social creative for tiktok shop.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one compact portable projector with one remote.\nProduct design: one fictional unbranded compact portable projector in warm sandstone-beige matte aluminum, shaped as a low rounded rectangle with one large black circular lens on the front-left, a narrow burnt-orange focus ring, a perforated graphite speaker grille on the right side, a slim camel leather carry loop, and one small matching blank remote.\nScene/backdrop: Two adult friends sit on floor cushions in a simple apartment while the projector in the foreground casts abstract soft color shapes onto a blank wall.\nComposition/framing: Use a low creator-style frame with the complete projector dominant and the adults softly behind, naturally reacting without holding branded items.\nLighting/mood: Direct flash on foreground mixed with warm projection ambience, candid adult expressions, and realistic home texture.\nMaterials/textures: Render matte aluminum, optical black glass, burnt-orange anodized ring, perforated graphite grille, and camel leather with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same low sandstone body, front-left black lens, orange focus ring, right graphite grille, camel loop, and small blank remote.\nConstraints: Keep projection light physically aligned with the lens; show no copyrighted film or readable interface. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No children, copyrighted film, readable subtitles, alcohol, phone screens, extra projector, distorted hands, or party clutter. No brand, text, extra projector, second lens, white plastic, floating UI, copyrighted movie, visible streaming logo, impossible beam direction, tangled power cable, overheated glow, child model, or warped remote. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/electronics-sandstone-portable-projector/preview-4.png",
+        "alt": "Adults enjoying a movie night with a sandstone projector",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "pinterest-desert-cinema",
+      "title": "PINTEREST DESERT CINEMA",
+      "useCase": "lifestyle-scene",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "pinterest"
+      ],
+      "background": "outdoor-location",
+      "aspectRatio": "5:8",
+        "prompt": "Use case: product-mockup.\nAsset type: social creative for pinterest.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one compact portable projector with one remote.\nProduct design: one fictional unbranded compact portable projector in warm sandstone-beige matte aluminum, shaped as a low rounded rectangle with one large black circular lens on the front-left, a narrow burnt-orange focus ring, a perforated graphite speaker grille on the right side, a slim camel leather carry loop, and one small matching blank remote.\nScene/backdrop: Place the projector on a pale stone plinth at a desert retreat after sunset, with its front lens physically aimed toward a blank ivory fabric screen between two adobe walls; no people.\nComposition/framing: Use a tall aspirational composition viewed from behind and slightly to the projector's right side: the remote and complete three-quarter-rear projector sit in the lower foreground, the lens is visible in side profile at the left-front corner pointing away from the viewer, and the empty glowing screen occupies the upper background directly along the same optical axis.\nLighting/mood: Lavender dusk, one restrained conical beam traveling from the lens toward the screen, soft adobe texture, and restrained cinematic contrast.\nMaterials/textures: Render matte aluminum, optical black glass, burnt-orange anodized ring, perforated graphite grille, and camel leather with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same low sandstone body, front-left black lens, orange focus ring, right graphite grille, camel loop, and small blank remote.\nConstraints: The projector must sit between the camera and the screen; the lens must face away from the camera toward the screen, and the single light beam must run only from lens to screen. Show no copyrighted film or readable interface. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No lens facing the viewer, no beam behind the projector, no sideways screen, no movie image, stars exaggerated, campfire, alcohol, extra projector, text, wind-distorted screen, or visible cable hazard. No brand, text, extra projector, second lens, white plastic, floating UI, copyrighted movie, visible streaming logo, impossible beam direction, tangled power cable, overheated glow, child model, or warped remote. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/electronics-sandstone-portable-projector/preview-5.png",
+        "alt": "Portable projector at a quiet desert outdoor cinema",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    }
+  ],
+  "author": {
+    "name": "Ecommerce GPT Image Prompts Studio",
+    "url": "https://github.com/ecomimagelab"
+  },
+  "source": {
+    "type": "original",
+    "url": null,
+    "permission": "repository-authored",
+    "notes": "Original prompt and generated previews created for this repository after visual-pattern and open-source workflow research; no external preview asset is included.",
+    "references": [
+      {
+        "type": "visual-research",
+        "url": "docs/VISUAL_RESEARCH.md"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/buluslan/gpt-image2-ecommerce"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/motiful/product-shots"
+      }
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "platformPolicy": {
+    "status": "design-guidance-only",
+    "note": "Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.",
+    "reviewedAt": null,
+    "sources": []
+  },
+  "review": {
+    "status": "approved",
+    "rights": "reviewed",
+    "promptQuality": "reviewed",
+    "previewQuality": "reviewed",
+    "reviewedAt": "2026-07-23"
+  },
+  "featured": false,
+  "publishedAt": "2026-07-23",
+  "translations": {
+    "zh": {
+      "title": "砂岩色便携投影仪多平台套图",
+      "description": "让同一台砂岩色便携投影仪在白底零售、功能光效、建筑客厅、成年观影夜和 Pinterest 户外影院中保持一致。"
+    }
+  }
+}

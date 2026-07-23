@@ -38,7 +38,8 @@ const entries = prompts
     || b.prompt.id.localeCompare(a.prompt.id)
     || a.variantIndex - b.variantIndex);
 const featuredEntries = entries
-  .filter((entry) => entry.prompt.featured && entry.variantIndex === 0)
+  .filter((entry) => entry.prompt.featured
+    && entry.variant.id === (entry.prompt.featuredVariantId ?? entry.prompt.variants[0].id))
   .slice(0, FEATURED_LIMIT);
 const featuredKeys = new Set(featuredEntries.map(entryKey));
 

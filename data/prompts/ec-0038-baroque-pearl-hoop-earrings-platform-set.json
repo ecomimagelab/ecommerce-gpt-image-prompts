@@ -1,0 +1,196 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0038",
+  "slug": "baroque-pearl-hoop-earrings-platform-set",
+  "model": "gpt-image-2",
+  "title": "Baroque Pearl Hoop Earrings Platform Set",
+  "description": "Keeps one asymmetric gold-and-pearl earring pair recognizable across marketplace catalog, lacquered luxury, maker detail, adult-model beauty, and sculptural Pinterest imagery.",
+  "prompt": "Create five platform-native e-commerce images for exactly one matching pair of premium hoop earrings, preserving its exact product design while varying scene, composition, lighting, and platform intent.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "jewelry",
+  "useCases": [
+    "main-image",
+    "branded-hero",
+    "detail-macro",
+    "on-model",
+    "social-ad"
+  ],
+  "styles": [
+    "luxury-premium",
+    "editorial",
+    "handmade-tactile"
+  ],
+  "backgrounds": [
+    "pure-white",
+    "dark-studio",
+    "natural-material",
+    "lifestyle-location",
+    "graphic-set"
+  ],
+  "platforms": [
+    "amazon",
+    "tmall-luxury",
+    "etsy",
+    "instagram-shop",
+    "pinterest"
+  ],
+  "aspectRatios": [
+    "4:5",
+    "5:8"
+  ],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {
+    "referenceImages": 0,
+    "instructions": "No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU."
+  },
+  "productInvariants": [
+    "Preserve the small satin-gold oval hoops and slim hinged posts.",
+    "Preserve five irregular ivory baroque pearls graduated from small to large on each earring."
+  ],
+  "negativePrompt": "No diamonds, gemstones, silver metal, round uniform beads, extra pearl, missing pearl, oversized hoop, dangling chain, mismatched pair, jewelry box branding, or pierced-ear distortion. No readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.",
+  "variants": [
+    {
+      "id": "amazon-jewelry-clean-pair",
+      "title": "AMAZON JEWELRY CLEAN PAIR",
+      "useCase": "main-image",
+      "assetPurpose": "main-image",
+      "platforms": [
+        "amazon"
+      ],
+      "background": "pure-white",
+      "aspectRatio": "4:5",
+      "prompt": "Use case: product-mockup.\nAsset type: main image for amazon.\nPrimary request: Create one ultra-photorealistic portrait 4:5 e-commerce image featuring exactly one matching pair of premium hoop earrings.\nProduct design: one fictional unbranded matching pair of small oval hoops in satin 18k-yellow-gold tone, each hoop carrying five irregular ivory baroque pearls graduated from small at the top to large at the bottom, with a slim hinged post and no stones.\nScene/backdrop: Arrange the pair upright in a gentle mirrored three-quarter stance on seamless pure #FFFFFF with no props.\nComposition/framing: Center the complete pair at about 70% frame fill; keep both hoops, all visible pearls, posts, and soft grounding shadows crisp.\nLighting/mood: Broad high-key softboxes, controlled pearl iridescence, clean gold edge highlights, and neutral white balance.\nMaterials/textures: Render soft satin gold, nacreous irregular pearl skins, tiny hinge construction, and realistic jewelry-scale reflections with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same oval hoop diameter, five-pearl graduation on each earring, ivory nacre, satin-gold finish, and slim hinged posts.\nConstraints: Show exactly two earrings and exactly five pearls on each earring unless a worn close crop naturally hides a rear pearl. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No stand, hand, ear, flowers, shell, card, packaging, harsh reflection, or cropped hoop. No diamonds, gemstones, silver metal, round uniform beads, extra pearl, missing pearl, oversized hoop, dangling chain, mismatched pair, jewelry box branding, or pierced-ear distortion. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/jewelry-baroque-pearl-hoops/preview-1.png",
+        "alt": "Matching baroque pearl hoop earrings on white",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "tmall-luxury-black-lacquer",
+      "title": "TMALL LUXURY BLACK LACQUER",
+      "useCase": "branded-hero",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "tmall-luxury"
+      ],
+      "background": "dark-studio",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: branded hero for tmall luxury.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one matching pair of premium hoop earrings.\nProduct design: one fictional unbranded matching pair of small oval hoops in satin 18k-yellow-gold tone, each hoop carrying five irregular ivory baroque pearls graduated from small at the top to large at the bottom, with a slim hinged post and no stones.\nScene/backdrop: Balance the pair on two low black-lacquer arcs over a deep oxblood reflective floor with a single ivory light blade behind.\nComposition/framing: Use a close low three-quarter composition with one earring forward and its mate slightly elevated, leaving dark negative space above.\nLighting/mood: Narrow specular strips, rich black falloff, controlled oxblood bounce, and luminous pearl highlights without clipping.\nMaterials/textures: Render soft satin gold, nacreous irregular pearl skins, tiny hinge construction, and realistic jewelry-scale reflections with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same oval hoop diameter, five-pearl graduation on each earring, ivory nacre, satin-gold finish, and slim hinged posts.\nConstraints: Show exactly two earrings and exactly five pearls on each earring unless a worn close crop naturally hides a rear pearl. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No smoke, glitter, text, floating pearls, red metal, extra jewelry, or theatrical starburst. No diamonds, gemstones, silver metal, round uniform beads, extra pearl, missing pearl, oversized hoop, dangling chain, mismatched pair, jewelry box branding, or pierced-ear distortion. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/jewelry-baroque-pearl-hoops/preview-2.png",
+        "alt": "Pearl hoop earrings on black lacquer and oxblood",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "etsy-jeweler-bench-macro",
+      "title": "ETSY JEWELER BENCH MACRO",
+      "useCase": "detail-macro",
+      "assetPurpose": "secondary-image",
+      "platforms": [
+        "etsy"
+      ],
+      "background": "natural-material",
+      "aspectRatio": "4:5",
+      "prompt": "Use case: product-mockup.\nAsset type: secondary image for etsy.\nPrimary request: Create one ultra-photorealistic portrait 4:5 e-commerce image featuring exactly one matching pair of premium hoop earrings.\nProduct design: one fictional unbranded matching pair of small oval hoops in satin 18k-yellow-gold tone, each hoop carrying five irregular ivory baroque pearls graduated from small at the top to large at the bottom, with a slim hinged post and no stones.\nScene/backdrop: Rest the finished pair on unbleached linen atop a walnut jeweler's bench beside one plain brass burnisher and a loose cotton thread.\nComposition/framing: Frame a tactile overhead macro that keeps both earrings complete while revealing hinge machining, satin gold, and organic pearl ridges.\nLighting/mood: Soft north-window light, warm bench bounce, shallow but sufficient depth of field, and honest handmade surface detail.\nMaterials/textures: Render soft satin gold, nacreous irregular pearl skins, tiny hinge construction, and realistic jewelry-scale reflections with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same oval hoop diameter, five-pearl graduation on each earring, ivory nacre, satin-gold finish, and slim hinged posts.\nConstraints: Show exactly two earrings and exactly five pearls on each earring unless a worn close crop naturally hides a rear pearl. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No unfinished parts, pliers touching jewelry, glue, fingerprints, extra pearls, written tags, or clutter. No diamonds, gemstones, silver metal, round uniform beads, extra pearl, missing pearl, oversized hoop, dangling chain, mismatched pair, jewelry box branding, or pierced-ear distortion. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/jewelry-baroque-pearl-hoops/preview-3.png",
+        "alt": "Pearl hoop earrings on an artisan jewelry bench",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "instagram-adult-ear-portrait",
+      "title": "INSTAGRAM ADULT EAR PORTRAIT",
+      "useCase": "on-model",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "instagram-shop"
+      ],
+      "background": "lifestyle-location",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: social creative for instagram shop.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one matching pair of premium hoop earrings.\nProduct design: one fictional unbranded matching pair of small oval hoops in satin 18k-yellow-gold tone, each hoop carrying five irregular ivory baroque pearls graduated from small at the top to large at the bottom, with a slim hinged post and no stones.\nScene/backdrop: An adult woman with short dark hair wears the matching pair against a warm clay studio wall, styled with a plain black boat-neck top.\nComposition/framing: Use a beauty close portrait from shoulders up with both ears visible through a slight head turn; keep the forward earring sharply readable and the second clearly matching.\nLighting/mood: Direct flash softened by warm side daylight, natural adult skin texture, restrained makeup, and glossy editorial contrast.\nMaterials/textures: Render soft satin gold, nacreous irregular pearl skins, tiny hinge construction, and realistic jewelry-scale reflections with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same oval hoop diameter, five-pearl graduation on each earring, ivory nacre, satin-gold finish, and slim hinged posts.\nConstraints: Show exactly two earrings and exactly five pearls on each earring unless a worn close crop naturally hides a rear pearl. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No child, extra piercing, other jewelry, covered earring, distorted ear, duplicated earring, branded clothing, or beauty text. No diamonds, gemstones, silver metal, round uniform beads, extra pearl, missing pearl, oversized hoop, dangling chain, mismatched pair, jewelry box branding, or pierced-ear distortion. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/jewelry-baroque-pearl-hoops/preview-4.png",
+        "alt": "Adult model wearing baroque pearl hoop earrings",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "pinterest-shell-sculpture",
+      "title": "PINTEREST SHELL SCULPTURE",
+      "useCase": "social-ad",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "pinterest"
+      ],
+      "background": "graphic-set",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: social creative for pinterest.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one matching pair of premium hoop earrings.\nProduct design: one fictional unbranded matching pair of small oval hoops in satin 18k-yellow-gold tone, each hoop carrying five irregular ivory baroque pearls graduated from small at the top to large at the bottom, with a slim hinged post and no stones.\nScene/backdrop: Suspend the pair from two smooth cream shell-like ceramic curves against a split celadon and apricot paper set.\nComposition/framing: Compose a save-worthy vertical still life with sweeping negative space, elegant asymmetry, and both earrings fully separated from the props.\nLighting/mood: Hard late-afternoon light, precise graphic shadows, pearly color separation, and a sophisticated editorial palette.\nMaterials/textures: Render soft satin gold, nacreous irregular pearl skins, tiny hinge construction, and realistic jewelry-scale reflections with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same oval hoop diameter, five-pearl graduation on each earring, ivory nacre, satin-gold finish, and slim hinged posts.\nConstraints: Show exactly two earrings and exactly five pearls on each earring unless a worn close crop naturally hides a rear pearl. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No real shell animal, sand, ocean cliché, text, flowers, extra pearl, or earring hidden behind a prop. No diamonds, gemstones, silver metal, round uniform beads, extra pearl, missing pearl, oversized hoop, dangling chain, mismatched pair, jewelry box branding, or pierced-ear distortion. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/jewelry-baroque-pearl-hoops/preview-5.png",
+        "alt": "Pearl hoop earrings in a celadon and apricot sculptural still life",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    }
+  ],
+  "author": {
+    "name": "Ecommerce GPT Image Prompts Studio",
+    "url": "https://github.com/ecomimagelab"
+  },
+  "source": {
+    "type": "original",
+    "url": null,
+    "permission": "repository-authored",
+    "notes": "Original prompt and generated previews created for this repository after visual-pattern and open-source workflow research; no external preview asset is included.",
+    "references": [
+      {
+        "type": "visual-research",
+        "url": "docs/VISUAL_RESEARCH.md"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/buluslan/gpt-image2-ecommerce"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/motiful/product-shots"
+      }
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "platformPolicy": {
+    "status": "design-guidance-only",
+    "note": "Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.",
+    "reviewedAt": null,
+    "sources": []
+  },
+  "review": {
+    "status": "approved",
+    "rights": "reviewed",
+    "promptQuality": "reviewed",
+    "previewQuality": "reviewed",
+    "reviewedAt": "2026-07-23"
+  },
+  "featured": false,
+  "publishedAt": "2026-07-23",
+  "translations": {
+    "zh": {
+      "title": "巴洛克珍珠圈耳环多平台套图",
+      "description": "让同一对不对称金色珍珠圈耳环在商城白底、漆面奢华、工艺细节、成年模特美妆和 Pinterest 雕塑静物中保持一致。"
+    }
+  }
+}

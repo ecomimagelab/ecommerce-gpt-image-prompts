@@ -1,0 +1,195 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0040",
+  "slug": "cypress-suede-ankle-boot-platform-set",
+  "model": "gpt-image-2",
+  "title": "Cypress Suede Ankle Boot Platform Set",
+  "description": "Carries one cypress suede ankle-boot pair through clean retail, brutalist editorial, night street movement, artisan detail, and a graphic saved-look still life.",
+  "prompt": "Create five platform-native e-commerce images for exactly one matching pair of ankle boots, preserving its exact product design while varying scene, composition, lighting, and platform intent.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "footwear",
+  "useCases": [
+    "main-image",
+    "branded-hero",
+    "on-model",
+    "detail-macro",
+    "social-ad"
+  ],
+  "styles": [
+    "luxury-premium",
+    "editorial",
+    "handmade-tactile"
+  ],
+  "backgrounds": [
+    "pure-white",
+    "lifestyle-location",
+    "natural-material",
+    "graphic-set"
+  ],
+  "platforms": [
+    "amazon-fashion",
+    "farfetch",
+    "tiktok-shop",
+    "shopify",
+    "pinterest"
+  ],
+  "aspectRatios": [
+    "4:5",
+    "5:8"
+  ],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {
+    "referenceImages": 0,
+    "instructions": "No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU."
+  },
+  "productInvariants": [
+    "Preserve the deep cypress suede, almond toe, inner brass zip, and chestnut welt.",
+    "Preserve the 55 mm sculpted rosewood block heel, slim dark outsole, and matching shaft height."
+  ],
+  "negativePrompt": "No laces, buckle, platform sole, stiletto, black leather, extra shoe, mismatched pair, logo, decorative stitching, square toe, cropped heel, feet distortion, or plastic suede. No readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.",
+  "variants": [
+    {
+      "id": "amazon-fashion-clean-pair",
+      "title": "AMAZON FASHION CLEAN PAIR",
+      "useCase": "main-image",
+      "assetPurpose": "main-image",
+      "platforms": [
+        "amazon-fashion"
+      ],
+      "background": "pure-white",
+      "aspectRatio": "4:5",
+      "prompt": "Use case: product-mockup.\nAsset type: main image for amazon fashion.\nPrimary request: Create one ultra-photorealistic portrait 4:5 e-commerce image featuring exactly one matching pair of ankle boots.\nProduct design: one fictional unbranded pair of women's ankle boots in deep cypress-green fine suede, with an almond toe, a clean inner-side brass zip, a narrow chestnut leather welt, a 55 mm sculpted rosewood block heel, and a slim dark rubber outsole.\nScene/backdrop: Arrange the left boot in front three-quarter view and the right boot behind at a complementary side angle on seamless pure #FFFFFF.\nComposition/framing: Center the complete pair at about 78% frame fill with both toe shapes, shaft tops, zips, welts, heels, and soles readable.\nLighting/mood: Broad high-key softboxes, soft grounding shadow, controlled suede direction, and neutral color.\nMaterials/textures: Render directional suede nap, chestnut welt leather, satin brass zip, rosewood heel grain, and fine rubber edges with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same almond toe, cypress suede, inner brass zip, chestnut welt, sculpted rosewood heel, and slim dark outsole.\nConstraints: Show a matching left and right boot with stable shaft height and heel geometry. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No box, tissue, feet, model, stones, plants, floating pair, or hidden heel. No laces, buckle, platform sole, stiletto, black leather, extra shoe, mismatched pair, logo, decorative stitching, square toe, cropped heel, feet distortion, or plastic suede. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/footwear-cypress-suede-ankle-boot/preview-1.png",
+        "alt": "Cypress suede ankle boots on white",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "farfetch-brutalist-stone",
+      "title": "FARFETCH BRUTALIST STONE",
+      "useCase": "branded-hero",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "farfetch"
+      ],
+      "background": "lifestyle-location",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: branded hero for farfetch.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one matching pair of ankle boots.\nProduct design: one fictional unbranded pair of women's ankle boots in deep cypress-green fine suede, with an almond toe, a clean inner-side brass zip, a narrow chestnut leather welt, a 55 mm sculpted rosewood block heel, and a slim dark rubber outsole.\nScene/backdrop: Place the pair across staggered pale-concrete steps in a brutalist courtyard with one rust-red wall plane.\nComposition/framing: Use a low diagonal fashion composition with the forward boot upright and the second lying on its outer side to reveal the brass zip and heel profile.\nLighting/mood: Hard winter sun, long angular shadow, cool concrete bounce, and finely separated green suede.\nMaterials/textures: Render directional suede nap, chestnut welt leather, satin brass zip, rosewood heel grain, and fine rubber edges with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same almond toe, cypress suede, inner brass zip, chestnut welt, sculpted rosewood heel, and slim dark outsole.\nConstraints: Show a matching left and right boot with stable shaft height and heel geometry. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No person, graffiti, text, extra shoe, wet suede, floating boot, or cropped outsole. No laces, buckle, platform sole, stiletto, black leather, extra shoe, mismatched pair, logo, decorative stitching, square toe, cropped heel, feet distortion, or plastic suede. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/footwear-cypress-suede-ankle-boot/preview-2.png",
+        "alt": "Cypress suede ankle boots on brutalist concrete",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "tiktok-night-step",
+      "title": "TIKTOK SHOP NIGHT STEP",
+      "useCase": "on-model",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "tiktok-shop"
+      ],
+      "background": "lifestyle-location",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: social creative for tiktok shop.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one matching pair of ankle boots.\nProduct design: one fictional unbranded pair of women's ankle boots in deep cypress-green fine suede, with an almond toe, a clean inner-side brass zip, a narrow chestnut leather welt, a 55 mm sculpted rosewood block heel, and a slim dark rubber outsole.\nScene/backdrop: An adult woman wears the pair while stepping from a subway stair onto rain-dark charcoal pavement, styled with plain cropped black trousers.\nComposition/framing: Frame from mid-calf downward at a dynamic low angle; show both boots, one planted and one mid-step, with safe natural anatomy and visible rosewood heels.\nLighting/mood: Direct flash mixed with cool city light, wet reflections, subtle motion in the trouser hem, and sharp suede texture.\nMaterials/textures: Render directional suede nap, chestnut welt leather, satin brass zip, rosewood heel grain, and fine rubber edges with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same almond toe, cypress suede, inner brass zip, chestnut welt, sculpted rosewood heel, and slim dark outsole.\nConstraints: Show a matching left and right boot with stable shaft height and heel geometry. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No child, extra feet, twisted ankle, hidden boot, logo clothing, puddle covering product, or illegible signage. No laces, buckle, platform sole, stiletto, black leather, extra shoe, mismatched pair, logo, decorative stitching, square toe, cropped heel, feet distortion, or plastic suede. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/footwear-cypress-suede-ankle-boot/preview-3.png",
+        "alt": "Adult model stepping in cypress suede ankle boots at night",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "shopify-suede-atelier",
+      "title": "SHOPIFY SUEDE ATELIER",
+      "useCase": "detail-macro",
+      "assetPurpose": "secondary-image",
+      "platforms": [
+        "shopify"
+      ],
+      "background": "natural-material",
+      "aspectRatio": "4:5",
+      "prompt": "Use case: product-mockup.\nAsset type: secondary image for shopify.\nPrimary request: Create one ultra-photorealistic portrait 4:5 e-commerce image featuring exactly one matching pair of ankle boots.\nProduct design: one fictional unbranded pair of women's ankle boots in deep cypress-green fine suede, with an almond toe, a clean inner-side brass zip, a narrow chestnut leather welt, a 55 mm sculpted rosewood block heel, and a slim dark rubber outsole.\nScene/backdrop: Rest one boot on a chestnut leather work surface with the second softly behind; include one plain suede brush and no other tools.\nComposition/framing: Use a close three-quarter crop that still includes the complete forward boot while emphasizing nap direction, brass zip teeth, welt stitching, and rosewood grain.\nLighting/mood: Warm side window light, narrow specular on brass, shallow depth of field, and honest atelier texture.\nMaterials/textures: Render directional suede nap, chestnut welt leather, satin brass zip, rosewood heel grain, and fine rubber edges with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same almond toe, cypress suede, inner brass zip, chestnut welt, sculpted rosewood heel, and slim dark outsole.\nConstraints: Show a matching left and right boot with stable shaft height and heel geometry. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No cobbler hands, glue, loose sole, excess tools, text, damage, or extra shoe. No laces, buckle, platform sole, stiletto, black leather, extra shoe, mismatched pair, logo, decorative stitching, square toe, cropped heel, feet distortion, or plastic suede. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/footwear-cypress-suede-ankle-boot/preview-4.png",
+        "alt": "Cypress suede ankle boot material detail",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "pinterest-rust-cobalt-still",
+      "title": "PINTEREST RUST COBALT STILL",
+      "useCase": "social-ad",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "pinterest"
+      ],
+      "background": "graphic-set",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: social creative for pinterest.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one matching pair of ankle boots.\nProduct design: one fictional unbranded pair of women's ankle boots in deep cypress-green fine suede, with an almond toe, a clean inner-side brass zip, a narrow chestnut leather welt, a 55 mm sculpted rosewood block heel, and a slim dark rubber outsole.\nScene/backdrop: Stage the pair on a cobalt-blue stepped paper set with one curved rust-orange backdrop and no other props.\nComposition/framing: Create a save-worthy vertical still life using strong negative space, clean heel silhouettes, and a diagonal relationship between the two boots.\nLighting/mood: Hard graphic sunlight, dense colored shadows, controlled suede highlights, and modern editorial color blocking.\nMaterials/textures: Render directional suede nap, chestnut welt leather, satin brass zip, rosewood heel grain, and fine rubber edges with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same almond toe, cypress suede, inner brass zip, chestnut welt, sculpted rosewood heel, and slim dark outsole.\nConstraints: Show a matching left and right boot with stable shaft height and heel geometry. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No model, flowers, bag, text, duplicate boot, levitation, or paper edge crossing the product. No laces, buckle, platform sole, stiletto, black leather, extra shoe, mismatched pair, logo, decorative stitching, square toe, cropped heel, feet distortion, or plastic suede. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/footwear-cypress-suede-ankle-boot/preview-5.png",
+        "alt": "Cypress suede boots in a cobalt and rust still life",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    }
+  ],
+  "author": {
+    "name": "Ecommerce GPT Image Prompts Studio",
+    "url": "https://github.com/ecomimagelab"
+  },
+  "source": {
+    "type": "original",
+    "url": null,
+    "permission": "repository-authored",
+    "notes": "Original prompt and generated previews created for this repository after visual-pattern and open-source workflow research; no external preview asset is included.",
+    "references": [
+      {
+        "type": "visual-research",
+        "url": "docs/VISUAL_RESEARCH.md"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/buluslan/gpt-image2-ecommerce"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/motiful/product-shots"
+      }
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "platformPolicy": {
+    "status": "design-guidance-only",
+    "note": "Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.",
+    "reviewedAt": null,
+    "sources": []
+  },
+  "review": {
+    "status": "approved",
+    "rights": "reviewed",
+    "promptQuality": "reviewed",
+    "previewQuality": "reviewed",
+    "reviewedAt": "2026-07-23"
+  },
+  "featured": false,
+  "publishedAt": "2026-07-23",
+  "translations": {
+    "zh": {
+      "title": "柏树绿麂皮踝靴多平台套图",
+      "description": "让同一双柏树绿麂皮踝靴贯穿白底零售、粗野主义编辑、夜间街头动态、工艺细节和高收藏感静物。"
+    }
+  }
+}

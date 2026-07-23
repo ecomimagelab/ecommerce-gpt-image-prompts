@@ -1,0 +1,193 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0057",
+  "slug": "blackened-steel-pruning-shears-platform-set",
+  "model": "gpt-image-2",
+  "title": "Blackened-Steel Pruning Shears Platform Set",
+  "description": "Keeps one forged pruning shear consistent across retail, blacksmith provenance, rose-garden detail, adult gardening action, and organized tool flat lay.",
+  "prompt": "Create five platform-native e-commerce images for exactly one premium bypass pruning shear, preserving its exact product design while varying scene, composition, lighting, and platform intent.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "garden-and-planters",
+  "useCases": [
+    "main-image",
+    "lifestyle-scene",
+    "detail-macro",
+    "on-model"
+  ],
+  "styles": [
+    "handmade-tactile",
+    "natural-organic",
+    "technical"
+  ],
+  "backgrounds": [
+    "pure-white",
+    "natural-material",
+    "outdoor-location"
+  ],
+  "platforms": [
+    "amazon",
+    "etsy",
+    "shopify",
+    "tiktok-shop",
+    "pinterest"
+  ],
+  "aspectRatios": [
+    "4:5",
+    "5:8"
+  ],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {
+    "referenceImages": 0,
+    "instructions": "No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU."
+  },
+  "productInvariants": [
+    "Preserve the forged bypass blade with blackened upper steel, satin cutting edge, and warm-brass pivot bolt.",
+    "Preserve two smoked-ash handles with exactly two brass pins each and one charcoal leather safety loop."
+  ],
+  "negativePrompt": "No brand engraving, text, extra tool, scissors shape, anvil blade, plastic handles, extra pin, missing loop, rust damage, blood, child, unsafe hand near blade, severed fingers, warped pivot, or floating parts. No readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.",
+  "variants": [
+    {
+      "id": "amazon-garden-shears-main",
+      "title": "AMAZON GARDEN SHEARS MAIN",
+      "useCase": "main-image",
+      "assetPurpose": "main-image",
+      "platforms": [
+        "amazon"
+      ],
+      "background": "pure-white",
+      "aspectRatio": "4:5",
+      "prompt": "Use case: product-mockup.\nAsset type: main image for amazon.\nPrimary request: Create one ultra-photorealistic portrait 4:5 e-commerce image featuring exactly one premium bypass pruning shear.\nProduct design: one fictional unbranded forged bypass pruning shear with a dark hand-blackened high-carbon steel blade, a warm-brass pivot bolt, two slim smoked-ash wood handles with exactly two small brass pins per handle, one charcoal leather safety loop at the handle ends, and a compact closed length.\nScene/backdrop: Lay the closed shears diagonally on seamless pure #FFFFFF with the safety loop fastened and blade pointing upper left.\nComposition/framing: Center the complete tool at about 76% frame fill; show blade geometry, satin edge, brass pivot, four total handle pins, wood grain, loop, and soft shadow.\nLighting/mood: Broad high-key tool softboxes, crisp steel edge, warm wood accuracy, and neutral white balance.\nMaterials/textures: Render forged blackened steel, sharpened satin blade edge, warm brass, smoked ash grain, charcoal leather, plant stems, soil, and workshop wood with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same bypass blade geometry, blackened steel, brass pivot, two smoked-ash handles with two pins each, and charcoal safety loop.\nConstraints: Keep the tool mechanically plausible and depict only safe adult use with fingers behind the handles. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No branch, glove, packaging, oil, extra tool, open blade, hand, or cropped handle. No brand engraving, text, extra tool, scissors shape, anvil blade, plastic handles, extra pin, missing loop, rust damage, blood, child, unsafe hand near blade, severed fingers, warped pivot, or floating parts. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/garden-blackened-steel-pruning-shears/preview-1.png",
+        "alt": "Blackened steel pruning shears on white",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "etsy-blacksmith-bench",
+      "title": "ETSY BLACKSMITH BENCH",
+      "useCase": "lifestyle-scene",
+      "assetPurpose": "secondary-image",
+      "platforms": [
+        "etsy"
+      ],
+      "background": "natural-material",
+      "aspectRatio": "4:5",
+      "prompt": "Use case: product-mockup.\nAsset type: secondary image for etsy.\nPrimary request: Create one ultra-photorealistic portrait 4:5 e-commerce image featuring exactly one premium bypass pruning shear.\nProduct design: one fictional unbranded forged bypass pruning shear with a dark hand-blackened high-carbon steel blade, a warm-brass pivot bolt, two slim smoked-ash wood handles with exactly two small brass pins per handle, one charcoal leather safety loop at the handle ends, and a compact closed length.\nScene/backdrop: Rest the finished closed shears on a scarred oak bench beside one plain brass hammer head and a folded charcoal cloth.\nComposition/framing: Use an intimate three-quarter maker portrait showing forge texture, polished cutting edge, pivot machining, wood grain, pins, and leather loop.\nLighting/mood: Warm workshop window light, subtle furnace glow far behind, shallow depth of field, and honest handcrafted texture.\nMaterials/textures: Render forged blackened steel, sharpened satin blade edge, warm brass, smoked ash grain, charcoal leather, plant stems, soil, and workshop wood with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same bypass blade geometry, blackened steel, brass pivot, two smoked-ash handles with two pins each, and charcoal safety loop.\nConstraints: Keep the tool mechanically plausible and depict only safe adult use with fingers behind the handles. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No active flame touching tool, person, text, extra shears, loose blade, rust, excessive tools, or sparks. No brand engraving, text, extra tool, scissors shape, anvil blade, plastic handles, extra pin, missing loop, rust damage, blood, child, unsafe hand near blade, severed fingers, warped pivot, or floating parts. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/garden-blackened-steel-pruning-shears/preview-2.png",
+        "alt": "Finished pruning shears on a blacksmith workbench",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "shopify-rose-garden-detail",
+      "title": "SHOPIFY ROSE GARDEN DETAIL",
+      "useCase": "detail-macro",
+      "assetPurpose": "secondary-image",
+      "platforms": [
+        "shopify"
+      ],
+      "background": "outdoor-location",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: secondary image for shopify.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one premium bypass pruning shear.\nProduct design: one fictional unbranded forged bypass pruning shear with a dark hand-blackened high-carbon steel blade, a warm-brass pivot bolt, two slim smoked-ash wood handles with exactly two small brass pins per handle, one charcoal leather safety loop at the handle ends, and a compact closed length.\nScene/backdrop: Place the open shears safely on a pale stone garden ledge beside one freshly cut green rose stem and three leaves, with no flower head.\nComposition/framing: Use a close vertical material portrait that includes the complete tool and emphasizes bypass overlap, sharp satin edge, brass pivot, pins, and wood grain.\nLighting/mood: Soft morning garden light, green bounce, gentle stone texture, and precise natural color.\nMaterials/textures: Render forged blackened steel, sharpened satin blade edge, warm brass, smoked ash grain, charcoal leather, plant stems, soil, and workshop wood with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same bypass blade geometry, blackened steel, brass pivot, two smoked-ash handles with two pins each, and charcoal safety loop.\nConstraints: Keep the tool mechanically plausible and depict only safe adult use with fingers behind the handles. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No human hand, blood, thorn touching handle, extra tool, open blade beyond safe angle, flower clutter, text, or rust. No brand engraving, text, extra tool, scissors shape, anvil blade, plastic handles, extra pin, missing loop, rust damage, blood, child, unsafe hand near blade, severed fingers, warped pivot, or floating parts. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/garden-blackened-steel-pruning-shears/preview-3.png",
+        "alt": "Blackened steel pruning shears beside a cut rose stem",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "tiktok-adult-gardener",
+      "title": "TIKTOK SHOP ADULT GARDENER",
+      "useCase": "on-model",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "tiktok-shop"
+      ],
+      "background": "outdoor-location",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: social creative for tiktok shop.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one premium bypass pruning shear.\nProduct design: one fictional unbranded forged bypass pruning shear with a dark hand-blackened high-carbon steel blade, a warm-brass pivot bolt, two slim smoked-ash wood handles with exactly two small brass pins per handle, one charcoal leather safety loop at the handle ends, and a compact closed length.\nScene/backdrop: An adult gardener wearing plain canvas gloves safely trims one thin lavender stem with the shears in a sunlit courtyard planter.\nComposition/framing: Use a close vertical action frame showing both complete gloved hands, fingers behind handles, tool identity, controlled cut, and natural adult posture.\nLighting/mood: Direct flash mixed with hard morning sun, crisp plant texture, warm brass glint, and authentic creator energy.\nMaterials/textures: Render forged blackened steel, sharpened satin blade edge, warm brass, smoked ash grain, charcoal leather, plant stems, soil, and workshop wood with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same bypass blade geometry, blackened steel, brass pivot, two smoked-ash handles with two pins each, and charcoal safety loop.\nConstraints: Keep the tool mechanically plausible and depict only safe adult use with fingers behind the handles. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No child, bare fingers near blade, extra fingers, severed thick branch, logo glove, extra shears, unsafe grip, text, or flying debris. No brand engraving, text, extra tool, scissors shape, anvil blade, plastic handles, extra pin, missing loop, rust damage, blood, child, unsafe hand near blade, severed fingers, warped pivot, or floating parts. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/garden-blackened-steel-pruning-shears/preview-4.png",
+        "alt": "Adult gardener safely trimming lavender with forged pruning shears",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "pinterest-tool-flatlay",
+      "title": "PINTEREST TOOL FLAT LAY",
+      "useCase": "lifestyle-scene",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "pinterest"
+      ],
+      "background": "natural-material",
+      "aspectRatio": "4:5",
+      "prompt": "Use case: product-mockup.\nAsset type: social creative for pinterest.\nPrimary request: Create one ultra-photorealistic portrait 4:5 e-commerce image featuring exactly one premium bypass pruning shear.\nProduct design: one fictional unbranded forged bypass pruning shear with a dark hand-blackened high-carbon steel blade, a warm-brass pivot bolt, two slim smoked-ash wood handles with exactly two small brass pins per handle, one charcoal leather safety loop at the handle ends, and a compact closed length.\nScene/backdrop: Lay the closed shears on a sage canvas cloth beside one coiled natural twine, one plain terracotta pot, and three clipped rosemary sprigs.\nComposition/framing: Use an organized overhead composition with the complete tool, four handle pins, leather loop, blade profile, and balanced negative space.\nLighting/mood: Hard side sunlight, graphic herb shadows, warm terracotta bounce, and tactile garden materials.\nMaterials/textures: Render forged blackened steel, sharpened satin blade edge, warm brass, smoked ash grain, charcoal leather, plant stems, soil, and workshop wood with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same bypass blade geometry, blackened steel, brass pivot, two smoked-ash handles with two pins each, and charcoal safety loop.\nConstraints: Keep the tool mechanically plausible and depict only safe adult use with fingers behind the handles. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No text tag, extra tool, soil covering blade, gloves, flowers, duplicate twine, or cropped handle. No brand engraving, text, extra tool, scissors shape, anvil blade, plastic handles, extra pin, missing loop, rust damage, blood, child, unsafe hand near blade, severed fingers, warped pivot, or floating parts. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/garden-blackened-steel-pruning-shears/preview-5.png",
+        "alt": "Forged pruning shears in an organized garden flat lay",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    }
+  ],
+  "author": {
+    "name": "Ecommerce GPT Image Prompts Studio",
+    "url": "https://github.com/ecomimagelab"
+  },
+  "source": {
+    "type": "original",
+    "url": null,
+    "permission": "repository-authored",
+    "notes": "Original prompt and generated previews created for this repository after visual-pattern and open-source workflow research; no external preview asset is included.",
+    "references": [
+      {
+        "type": "visual-research",
+        "url": "docs/VISUAL_RESEARCH.md"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/buluslan/gpt-image2-ecommerce"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/motiful/product-shots"
+      }
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "platformPolicy": {
+    "status": "design-guidance-only",
+    "note": "Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.",
+    "reviewedAt": null,
+    "sources": []
+  },
+  "review": {
+    "status": "approved",
+    "rights": "reviewed",
+    "promptQuality": "reviewed",
+    "previewQuality": "reviewed",
+    "reviewedAt": "2026-07-23"
+  },
+  "featured": false,
+  "publishedAt": "2026-07-23",
+  "translations": {
+    "zh": {
+      "title": "黑化钢园艺修枝剪多平台套图",
+      "description": "让同一把黑化钢修枝剪在白底零售、铁匠工艺、玫瑰园细节、成年园艺动作和工具平铺中保持一致。"
+    }
+  }
+}

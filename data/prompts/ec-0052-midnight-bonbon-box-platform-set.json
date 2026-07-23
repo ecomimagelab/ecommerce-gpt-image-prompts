@@ -1,0 +1,196 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0052",
+  "slug": "midnight-bonbon-box-platform-set",
+  "model": "gpt-image-2",
+  "title": "Midnight Botanical Bonbon Box Platform Set",
+  "description": "Preserves one twelve-piece midnight bonbon box across grocery catalog, dark DTC reveal, adult gifting, chocolatier craft, and bold Pinterest still life.",
+  "prompt": "Create five platform-native e-commerce images for exactly one premium twelve-piece bonbon box, preserving its exact product design while varying scene, composition, lighting, and platform intent.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "food-and-beverage",
+  "useCases": [
+    "main-image",
+    "branded-hero",
+    "on-model",
+    "lifestyle-scene",
+    "social-ad"
+  ],
+  "styles": [
+    "food-editorial",
+    "luxury-premium",
+    "bright-playful"
+  ],
+  "backgrounds": [
+    "pure-white",
+    "dark-studio",
+    "lifestyle-location",
+    "natural-material",
+    "graphic-set"
+  ],
+  "platforms": [
+    "amazon-grocery",
+    "shopify",
+    "instagram-shop",
+    "tiktok-shop",
+    "pinterest"
+  ],
+  "aspectRatios": [
+    "4:5",
+    "5:8"
+  ],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {
+    "referenceImages": 0,
+    "instructions": "No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU."
+  },
+  "productInvariants": [
+    "Preserve the matte midnight-blue square box, blank copper botanical line pattern, and burnt-orange inner tray.",
+    "Preserve exactly twelve chocolates in a three-by-four grid alternating dark domes, ivory cubes, and pistachio faceted pieces."
+  ],
+  "negativePrompt": "No brand, readable text, extra box, missing chocolate, more than twelve pieces, random colors, gold logo, ribbon, melted chocolate, bite marks unless specified, child, alcohol, or warped grid. No readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.",
+  "variants": [
+    {
+      "id": "amazon-grocery-box-main",
+      "title": "AMAZON GROCERY BOX MAIN",
+      "useCase": "main-image",
+      "assetPurpose": "main-image",
+      "platforms": [
+        "amazon-grocery"
+      ],
+      "background": "pure-white",
+      "aspectRatio": "4:5",
+      "prompt": "Use case: product-mockup.\nAsset type: main image for amazon grocery.\nPrimary request: Create one ultra-photorealistic portrait 4:5 e-commerce image featuring exactly one premium twelve-piece bonbon box.\nProduct design: one fictional unbranded rigid square bonbon box in matte midnight-blue paper with a blank embossed copper botanical line pattern, a burnt-orange inner tray holding exactly twelve glossy chocolates in a three-by-four grid, alternating dark-cocoa domes, ivory cubes, and pistachio-green faceted pieces, with no writing.\nScene/backdrop: Place the open box front three-quarter on seamless pure #FFFFFF with the lid standing behind and all twelve chocolates visible.\nComposition/framing: Center the complete box and lid at about 76% frame fill; keep the three-by-four grid, copper pattern, orange tray, corners, and soft shadow crisp.\nLighting/mood: Broad high-key food softboxes, controlled chocolate gloss, true color, and neutral white balance.\nMaterials/textures: Render matte paper, blind copper embossing without letters, burnt-orange card, glossy tempered chocolate, cocoa powder, and fine nut texture with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same midnight square box, copper botanical line pattern, orange tray, exact twelve-piece three-by-four grid, and three repeating chocolate designs.\nConstraints: Show exactly twelve chocolates when the open tray is visible; keep food clean, plausible, and free of unsupported claims. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No hand, ribbon, loose chocolate, crumbs, packaging sleeve, extra lid, or cropped box. No brand, readable text, extra box, missing chocolate, more than twelve pieces, random colors, gold logo, ribbon, melted chocolate, bite marks unless specified, child, alcohol, or warped grid. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/food-midnight-bonbon-box/preview-1.png",
+        "alt": "Open midnight bonbon box with twelve chocolates on white",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "shopify-dark-reveal",
+      "title": "SHOPIFY DARK REVEAL",
+      "useCase": "branded-hero",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "shopify"
+      ],
+      "background": "dark-studio",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: branded hero for shopify.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one premium twelve-piece bonbon box.\nProduct design: one fictional unbranded rigid square bonbon box in matte midnight-blue paper with a blank embossed copper botanical line pattern, a burnt-orange inner tray holding exactly twelve glossy chocolates in a three-by-four grid, alternating dark-cocoa domes, ivory cubes, and pistachio-green faceted pieces, with no writing.\nScene/backdrop: Open the box on a black stone plinth with the patterned lid leaning behind and one narrow copper arc reflected below.\nComposition/framing: Use a low close luxury composition with the complete twelve-piece grid dominant and deep midnight negative space above.\nLighting/mood: Focused warm strip light, cool black fill, polished chocolate highlights, and restrained copper reflection.\nMaterials/textures: Render matte paper, blind copper embossing without letters, burnt-orange card, glossy tempered chocolate, cocoa powder, and fine nut texture with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same midnight square box, copper botanical line pattern, orange tray, exact twelve-piece three-by-four grid, and three repeating chocolate designs.\nConstraints: Show exactly twelve chocolates when the open tray is visible; keep food clean, plausible, and free of unsupported claims. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No smoke, gold text, extra chocolate, floating lid, fruit, flowers, or melted pieces. No brand, readable text, extra box, missing chocolate, more than twelve pieces, random colors, gold logo, ribbon, melted chocolate, bite marks unless specified, child, alcohol, or warped grid. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/food-midnight-bonbon-box/preview-2.png",
+        "alt": "Luxury midnight bonbon box open on black stone",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "instagram-adult-gift",
+      "title": "INSTAGRAM ADULT GIFT",
+      "useCase": "on-model",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "instagram-shop"
+      ],
+      "background": "lifestyle-location",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: social creative for instagram shop.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one premium twelve-piece bonbon box.\nProduct design: one fictional unbranded rigid square bonbon box in matte midnight-blue paper with a blank embossed copper botanical line pattern, a burnt-orange inner tray holding exactly twelve glossy chocolates in a three-by-four grid, alternating dark-cocoa domes, ivory cubes, and pistachio-green faceted pieces, with no writing.\nScene/backdrop: An adult woman in a plain cream suit holds the closed box toward camera at a cobalt doorway, with the copper botanical pattern facing forward.\nComposition/framing: Use a waist-up direct-flash portrait with complete natural hands, the entire box, relaxed expression, and bold color contrast.\nLighting/mood: Direct flash, cobalt ambient light, natural adult skin, crisp matte paper, and contemporary gifting energy.\nMaterials/textures: Render matte paper, blind copper embossing without letters, burnt-orange card, glossy tempered chocolate, cocoa powder, and fine nut texture with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same midnight square box, copper botanical line pattern, orange tray, exact twelve-piece three-by-four grid, and three repeating chocolate designs.\nConstraints: Show exactly twelve chocolates when the open tray is visible; keep food clean, plausible, and free of unsupported claims. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No child, extra box, ribbon, logo clothing, distorted fingers, readable card, jewelry distraction, or open food near face. No brand, readable text, extra box, missing chocolate, more than twelve pieces, random colors, gold logo, ribbon, melted chocolate, bite marks unless specified, child, alcohol, or warped grid. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/food-midnight-bonbon-box/preview-3.png",
+        "alt": "Adult woman presenting a midnight botanical bonbon box",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "tiktok-chocolatier-finish",
+      "title": "TIKTOK SHOP CHOCOLATIER FINISH",
+      "useCase": "lifestyle-scene",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "tiktok-shop"
+      ],
+      "background": "natural-material",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: social creative for tiktok shop.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one premium twelve-piece bonbon box.\nProduct design: one fictional unbranded rigid square bonbon box in matte midnight-blue paper with a blank embossed copper botanical line pattern, a burnt-orange inner tray holding exactly twelve glossy chocolates in a three-by-four grid, alternating dark-cocoa domes, ivory cubes, and pistachio-green faceted pieces, with no writing.\nScene/backdrop: An adult chocolatier wearing plain black gloves places the final pistachio faceted piece into the empty last slot of the orange tray; the other eleven pieces are aligned.\nComposition/framing: Use a close overhead creator frame showing both complete hands, open box, lid edge, precise grid, and the moment the twelfth piece reaches its slot.\nLighting/mood: Bright workbench daylight mixed with direct flash, glossy chocolate detail, tactile paper, and authentic craft energy.\nMaterials/textures: Render matte paper, blind copper embossing without letters, burnt-orange card, glossy tempered chocolate, cocoa powder, and fine nut texture with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same midnight square box, copper botanical line pattern, orange tray, exact twelve-piece three-by-four grid, and three repeating chocolate designs.\nConstraints: Show exactly twelve chocolates when the open tray is visible; keep food clean, plausible, and free of unsupported claims. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No child, bare hand touching food, extra fingers, more than twelve pieces, logo glove, text, melted chocolate, or messy tray. No brand, readable text, extra box, missing chocolate, more than twelve pieces, random colors, gold logo, ribbon, melted chocolate, bite marks unless specified, child, alcohol, or warped grid. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/food-midnight-bonbon-box/preview-4.png",
+        "alt": "Adult chocolatier completing a twelve-piece bonbon box",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "pinterest-cobalt-cocoa",
+      "title": "PINTEREST COBALT COCOA",
+      "useCase": "social-ad",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "pinterest"
+      ],
+      "background": "graphic-set",
+      "aspectRatio": "4:5",
+      "prompt": "Use case: product-mockup.\nAsset type: social creative for pinterest.\nPrimary request: Create one ultra-photorealistic portrait 4:5 e-commerce image featuring exactly one premium twelve-piece bonbon box.\nProduct design: one fictional unbranded rigid square bonbon box in matte midnight-blue paper with a blank embossed copper botanical line pattern, a burnt-orange inner tray holding exactly twelve glossy chocolates in a three-by-four grid, alternating dark-cocoa domes, ivory cubes, and pistachio-green faceted pieces, with no writing.\nScene/backdrop: Place the open box on a cobalt paper plane against a cocoa-brown circular wall shadow, with the patterned lid flat beside it.\nComposition/framing: Create a save-worthy overhead still life showing the exact grid, orange tray, copper pattern, and bold geometric color fields.\nLighting/mood: Hard side sun, clean cocoa shadow, bright controlled chocolate highlights, and crisp graphic separation.\nMaterials/textures: Render matte paper, blind copper embossing without letters, burnt-orange card, glossy tempered chocolate, cocoa powder, and fine nut texture with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same midnight square box, copper botanical line pattern, orange tray, exact twelve-piece three-by-four grid, and three repeating chocolate designs.\nConstraints: Show exactly twelve chocolates when the open tray is visible; keep food clean, plausible, and free of unsupported claims. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No loose chocolate, fruit, flowers, text, extra box, cropped grid, or scattered powder. No brand, readable text, extra box, missing chocolate, more than twelve pieces, random colors, gold logo, ribbon, melted chocolate, bite marks unless specified, child, alcohol, or warped grid. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/food-midnight-bonbon-box/preview-5.png",
+        "alt": "Midnight bonbon box in a cobalt and cocoa still life",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    }
+  ],
+  "author": {
+    "name": "Ecommerce GPT Image Prompts Studio",
+    "url": "https://github.com/ecomimagelab"
+  },
+  "source": {
+    "type": "original",
+    "url": null,
+    "permission": "repository-authored",
+    "notes": "Original prompt and generated previews created for this repository after visual-pattern and open-source workflow research; no external preview asset is included.",
+    "references": [
+      {
+        "type": "visual-research",
+        "url": "docs/VISUAL_RESEARCH.md"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/buluslan/gpt-image2-ecommerce"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/motiful/product-shots"
+      }
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "platformPolicy": {
+    "status": "design-guidance-only",
+    "note": "Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.",
+    "reviewedAt": null,
+    "sources": []
+  },
+  "review": {
+    "status": "approved",
+    "rights": "reviewed",
+    "promptQuality": "reviewed",
+    "previewQuality": "reviewed",
+    "reviewedAt": "2026-07-23"
+  },
+  "featured": false,
+  "publishedAt": "2026-07-23",
+  "translations": {
+    "zh": {
+      "title": "午夜蓝植物纹夹心巧克力礼盒多平台套图",
+      "description": "让同一盒十二枚午夜蓝植物纹夹心巧克力在食品目录、暗调 DTC 开盒、成年赠礼、巧克力工艺和大胆 Pinterest 静物中保持一致。"
+    }
+  }
+}

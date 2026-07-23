@@ -1,0 +1,195 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0046",
+  "slug": "smoke-transparent-earbuds-platform-set",
+  "model": "gpt-image-2",
+  "title": "Smoke-Transparent Wireless Earbuds Platform Set",
+  "description": "Preserves one smoke-transparent earbud set across clean electronics retail, technical detail, dark launch, adult commute, and refractive still life.",
+  "prompt": "Create five platform-native e-commerce images for exactly one charging case and one matching left-right pair of wireless earbuds, preserving its exact product design while varying scene, composition, lighting, and platform intent.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "consumer-electronics",
+  "useCases": [
+    "main-image",
+    "feature-callout",
+    "branded-hero",
+    "on-model",
+    "social-ad"
+  ],
+  "styles": [
+    "technical",
+    "luxury-premium",
+    "editorial"
+  ],
+  "backgrounds": [
+    "pure-white",
+    "dark-studio",
+    "lifestyle-location",
+    "graphic-set"
+  ],
+  "platforms": [
+    "amazon",
+    "best-buy",
+    "tmall-luxury",
+    "instagram-shop",
+    "pinterest"
+  ],
+  "aspectRatios": [
+    "4:5",
+    "5:8"
+  ],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {
+    "referenceImages": 0,
+    "instructions": "No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU."
+  },
+  "productInvariants": [
+    "Preserve the low smoke-transparent rounded case, satin-black inner cradle, and centered amber status dot.",
+    "Preserve exactly two compact stemless smoke-transparent earbuds with one coral touch disc each."
+  ],
+  "negativePrompt": "No brand, text, extra earbud, missing bud, long stems, white plastic, visible battery hazard, tangled cable, duplicate case, oversized internal electronics, ear distortion, child model, or floating interface. No readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.",
+  "variants": [
+    {
+      "id": "amazon-electronics-open-case",
+      "title": "AMAZON ELECTRONICS OPEN CASE",
+      "useCase": "main-image",
+      "assetPurpose": "main-image",
+      "platforms": [
+        "amazon"
+      ],
+      "background": "pure-white",
+      "aspectRatio": "4:5",
+      "prompt": "Use case: product-mockup.\nAsset type: main image for amazon.\nPrimary request: Create one ultra-photorealistic portrait 4:5 e-commerce image featuring exactly one charging case and one matching left-right pair of wireless earbuds.\nProduct design: one fictional unbranded wireless earbud set with a low rounded smoke-transparent charging case, a satin-black inner cradle, two compact stemless earbuds with smoke-transparent outer shells, one small coral touch disc on each earbud, and a single amber status dot centered on the case front.\nScene/backdrop: Place the open charging case front-facing on seamless pure #FFFFFF with both earbuds seated correctly and the lid upright.\nComposition/framing: Center the complete set at about 70% frame fill; show transparent lid, black cradle, both coral discs, amber dot, and soft grounding shadow.\nLighting/mood: Broad high-key softboxes, controlled transparency, crisp internal silhouettes, and neutral white balance.\nMaterials/textures: Render smoked transparent polymer, satin black cradle, coral touch discs, fine acoustic mesh, and controlled internal-component visibility with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same low transparent case, black cradle, two stemless transparent buds, one coral disc per bud, and one centered amber status dot.\nConstraints: Show exactly two earbuds as a matching left-right pair and only one charging case. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No cable, hand, packaging, floating bud, closed lid, extra component, or harsh glare hiding transparency. No brand, text, extra earbud, missing bud, long stems, white plastic, visible battery hazard, tangled cable, duplicate case, oversized internal electronics, ear distortion, child model, or floating interface. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/electronics-smoke-transparent-earbuds/preview-1.png",
+        "alt": "Smoke-transparent wireless earbuds in an open case on white",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "bestbuy-acoustic-detail",
+      "title": "BEST BUY ACOUSTIC DETAIL",
+      "useCase": "feature-callout",
+      "assetPurpose": "secondary-image",
+      "platforms": [
+        "best-buy"
+      ],
+      "background": "dark-studio",
+      "aspectRatio": "4:5",
+      "prompt": "Use case: product-mockup.\nAsset type: secondary image for best buy.\nPrimary request: Create one ultra-photorealistic portrait 4:5 e-commerce image featuring exactly one charging case and one matching left-right pair of wireless earbuds.\nProduct design: one fictional unbranded wireless earbud set with a low rounded smoke-transparent charging case, a satin-black inner cradle, two compact stemless earbuds with smoke-transparent outer shells, one small coral touch disc on each earbud, and a single amber status dot centered on the case front.\nScene/backdrop: Rest one earbud beside the open case on a dark graphite plane while the second remains seated; use faint concentric coral shadow rings on the surface only.\nComposition/framing: Use a tight technical macro showing acoustic mesh, coral touch disc, transparent shell thickness, case cradle, and amber dot without explanatory text.\nLighting/mood: Cool rim light, narrow coral reflection, high microcontrast, and deep controlled shadows.\nMaterials/textures: Render smoked transparent polymer, satin black cradle, coral touch discs, fine acoustic mesh, and controlled internal-component visibility with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same low transparent case, black cradle, two stemless transparent buds, one coral disc per bud, and one centered amber status dot.\nConstraints: Show exactly two earbuds as a matching left-right pair and only one charging case. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No floating sound-wave graphic, labels, exploded parts, extra bud, visible text, water, or ear. No brand, text, extra earbud, missing bud, long stems, white plastic, visible battery hazard, tangled cable, duplicate case, oversized internal electronics, ear distortion, child model, or floating interface. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/electronics-smoke-transparent-earbuds/preview-2.png",
+        "alt": "Technical detail of smoke-transparent wireless earbuds",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "tmall-obsidian-launch",
+      "title": "TMALL OBSIDIAN LAUNCH",
+      "useCase": "branded-hero",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "tmall-luxury"
+      ],
+      "background": "dark-studio",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: branded hero for tmall luxury.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one charging case and one matching left-right pair of wireless earbuds.\nProduct design: one fictional unbranded wireless earbud set with a low rounded smoke-transparent charging case, a satin-black inner cradle, two compact stemless earbuds with smoke-transparent outer shells, one small coral touch disc on each earbud, and a single amber status dot centered on the case front.\nScene/backdrop: Place the open case on one polished obsidian wedge with both earbuds resting symmetrically in front against a near-black background.\nComposition/framing: Create a centered ceremonial vertical composition with smoke transparency glowing from behind and generous luxury negative space.\nLighting/mood: Focused amber backlight, coral specular accents, glossy black reflection, and precise edge separation.\nMaterials/textures: Render smoked transparent polymer, satin black cradle, coral touch discs, fine acoustic mesh, and controlled internal-component visibility with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same low transparent case, black cradle, two stemless transparent buds, one coral disc per bud, and one centered amber status dot.\nConstraints: Show exactly two earbuds as a matching left-right pair and only one charging case. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No neon text, smoke cloud, extra case, floating product, gemstones, gold trim, or mirrored duplicates. No brand, text, extra earbud, missing bud, long stems, white plastic, visible battery hazard, tangled cable, duplicate case, oversized internal electronics, ear distortion, child model, or floating interface. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/electronics-smoke-transparent-earbuds/preview-3.png",
+        "alt": "Smoke-transparent earbuds on an obsidian luxury set",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "instagram-adult-subway",
+      "title": "INSTAGRAM ADULT SUBWAY",
+      "useCase": "on-model",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "instagram-shop"
+      ],
+      "background": "lifestyle-location",
+      "aspectRatio": "5:8",
+        "prompt": "Use case: product-mockup.\nAsset type: social creative for instagram shop.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one charging case and exactly two wireless earbuds total in the entire image.\nProduct design: one fictional unbranded wireless earbud set with a low rounded smoke-transparent charging case, a satin-black inner cradle, two compact stemless earbuds with smoke-transparent outer shells, one small coral touch disc on each earbud, and a single amber status dot centered on the case front.\nScene/backdrop: An adult commuter wears exactly one earbud in the single visible near ear while standing inside a modern subway car, dressed in a plain charcoal coat and looking naturally toward the window; the matching second earbud remains inside the open charging case held in one hand, and the other cradle slot is visibly empty.\nComposition/framing: Use a close shoulders-up side portrait with only one human ear visible, the worn earbud sharply readable, and the open charging case held in one complete relaxed hand so exactly one remaining earbud and exactly one empty slot are obvious.\nLighting/mood: Cool transit ambience with direct-flash lift, natural adult skin, window streak bokeh, and crisp coral accent.\nMaterials/textures: Render smoked transparent polymer, satin black cradle, coral touch discs, fine acoustic mesh, and controlled internal-component visibility with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same low transparent case, black cradle, exactly two stemless transparent buds total, one coral disc per bud, and one centered amber status dot.\nConstraints: Across the complete frame show exactly two earbuds total: one in the visible ear and one inside the case; show exactly one visibly empty cradle slot and only one charging case. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No second earbud inside the case, no third earbud, no two occupied cradle slots, no child, distorted ear, logo clothing, readable transit signs, extra fingers, phone, or exaggerated smile. No brand, text, extra earbud, missing bud, long stems, white plastic, visible battery hazard, tangled cable, duplicate case, oversized internal electronics, ear distortion, child model, or floating interface. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/electronics-smoke-transparent-earbuds/preview-4.png",
+        "alt": "Adult commuter wearing smoke-transparent wireless earbuds",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "pinterest-ice-refraction",
+      "title": "PINTEREST ICE REFRACTION",
+      "useCase": "social-ad",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "pinterest"
+      ],
+      "background": "graphic-set",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: social creative for pinterest.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one charging case and one matching left-right pair of wireless earbuds.\nProduct design: one fictional unbranded wireless earbud set with a low rounded smoke-transparent charging case, a satin-black inner cradle, two compact stemless earbuds with smoke-transparent outer shells, one small coral touch disc on each earbud, and a single amber status dot centered on the case front.\nScene/backdrop: Arrange the open case and two earbuds on clear acrylic blocks over a pale ice-blue floor with one coral circular backdrop.\nComposition/framing: Use a save-worthy refractive still life with all three product components distinct, elegant asymmetry, and clean negative space.\nLighting/mood: Hard cool sunlight, acrylic caustics, coral bounce, and controlled transparent-shell detail.\nMaterials/textures: Render smoked transparent polymer, satin black cradle, coral touch discs, fine acoustic mesh, and controlled internal-component visibility with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same low transparent case, black cradle, two stemless transparent buds, one coral disc per bud, and one centered amber status dot.\nConstraints: Show exactly two earbuds as a matching left-right pair and only one charging case. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No real melting ice, water on electronics, extra bud, text, floating case, or clutter. No brand, text, extra earbud, missing bud, long stems, white plastic, visible battery hazard, tangled cable, duplicate case, oversized internal electronics, ear distortion, child model, or floating interface. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/electronics-smoke-transparent-earbuds/preview-5.png",
+        "alt": "Smoke-transparent earbuds in an ice-blue refractive still life",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    }
+  ],
+  "author": {
+    "name": "Ecommerce GPT Image Prompts Studio",
+    "url": "https://github.com/ecomimagelab"
+  },
+  "source": {
+    "type": "original",
+    "url": null,
+    "permission": "repository-authored",
+    "notes": "Original prompt and generated previews created for this repository after visual-pattern and open-source workflow research; no external preview asset is included.",
+    "references": [
+      {
+        "type": "visual-research",
+        "url": "docs/VISUAL_RESEARCH.md"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/buluslan/gpt-image2-ecommerce"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/motiful/product-shots"
+      }
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "platformPolicy": {
+    "status": "design-guidance-only",
+    "note": "Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.",
+    "reviewedAt": null,
+    "sources": []
+  },
+  "review": {
+    "status": "approved",
+    "rights": "reviewed",
+    "promptQuality": "reviewed",
+    "previewQuality": "reviewed",
+    "reviewedAt": "2026-07-23"
+  },
+  "featured": false,
+  "publishedAt": "2026-07-23",
+  "translations": {
+    "zh": {
+      "title": "烟灰透明真无线耳机多平台套图",
+      "description": "让同一套烟灰透明真无线耳机在电子零售、技术细节、暗调发布、成年通勤和折射静物中保持一致。"
+    }
+  }
+}

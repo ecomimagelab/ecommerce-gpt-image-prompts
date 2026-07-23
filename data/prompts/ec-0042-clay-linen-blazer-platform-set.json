@@ -1,0 +1,197 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0042",
+  "slug": "clay-linen-blazer-platform-set",
+  "model": "gpt-image-2",
+  "title": "Clay Linen Blazer Platform Set",
+  "description": "Keeps one relaxed clay linen blazer consistent across fashion catalog, courtyard adult-model editorial, textile detail, dark luxury, and colorful saved-look styling.",
+  "prompt": "Create five platform-native e-commerce images for exactly one relaxed linen blazer, preserving its exact product design while varying scene, composition, lighting, and platform intent.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "fashion",
+  "useCases": [
+    "catalog-image",
+    "on-model",
+    "detail-macro",
+    "branded-hero",
+    "lifestyle-scene"
+  ],
+  "styles": [
+    "editorial",
+    "luxury-premium",
+    "natural-organic"
+  ],
+  "backgrounds": [
+    "pure-white",
+    "lifestyle-location",
+    "natural-material",
+    "dark-studio",
+    "home-interior"
+  ],
+  "platforms": [
+    "amazon-fashion",
+    "farfetch",
+    "shopify",
+    "tmall-luxury",
+    "pinterest"
+  ],
+  "aspectRatios": [
+    "4:5",
+    "5:8"
+  ],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {
+    "referenceImages": 0,
+    "instructions": "No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU."
+  },
+  "productInvariants": [
+    "Preserve the warm clay-red washed linen, relaxed hip-length cut, and soft notched lapels.",
+    "Preserve one natural horn button, two low patch pockets, center back vent, tonal half lining, and rolled-once sleeves."
+  ],
+  "negativePrompt": "No double-breasted closure, shoulder pads, gold buttons, chest logo, extra garment, cropped jacket, wool texture, missing pocket, pinstripe, hanger distortion, child model, or malformed hands. No readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.",
+  "variants": [
+    {
+      "id": "amazon-fashion-ghost-form",
+      "title": "AMAZON FASHION GHOST FORM",
+      "useCase": "catalog-image",
+      "assetPurpose": "catalog-image",
+      "platforms": [
+        "amazon-fashion"
+      ],
+      "background": "pure-white",
+      "aspectRatio": "4:5",
+      "prompt": "Use case: product-mockup.\nAsset type: catalog image for amazon fashion.\nPrimary request: Create one ultra-photorealistic portrait 4:5 e-commerce image featuring exactly one relaxed linen blazer.\nProduct design: one fictional unbranded women's single-breasted blazer in warm clay-red washed linen, with a relaxed hip-length cut, one natural horn two-hole button, soft notched lapels, two low patch pockets, a center back vent, tonal half lining, and sleeves designed to be casually rolled once.\nScene/backdrop: Present the blazer on an invisible ghost form against seamless pure #FFFFFF, closed with its single button and sleeves down.\nComposition/framing: Use a straight front catalog view with complete lapels, button, pockets, hem, sleeves, and natural waist ease visible.\nLighting/mood: Even high-key apparel lighting, soft interior shaping, true clay color, and crisp linen slub without harsh shadow.\nMaterials/textures: Render visible washed-linen slub, soft tailoring, natural horn, matte tonal lining, and believable garment drape with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same clay-red color, relaxed hip length, single horn button, soft notched lapels, two patch pockets, center vent, and linen slub.\nConstraints: Keep the blazer single-breasted with one visible button and no branding; use adult models only. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No model, visible mannequin, trousers, shirt, hanger, accessories, wrinkled collapse, or back view. No double-breasted closure, shoulder pads, gold buttons, chest logo, extra garment, cropped jacket, wool texture, missing pocket, pinstripe, hanger distortion, child model, or malformed hands. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/fashion-clay-linen-blazer/preview-1.png",
+        "alt": "Clay linen blazer in a clean ghost-form catalog image",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "farfetch-courtyard-model",
+      "title": "FARFETCH COURTYARD MODEL",
+      "useCase": "on-model",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "farfetch"
+      ],
+      "background": "lifestyle-location",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: social creative for farfetch.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one relaxed linen blazer.\nProduct design: one fictional unbranded women's single-breasted blazer in warm clay-red washed linen, with a relaxed hip-length cut, one natural horn two-hole button, soft notched lapels, two low patch pockets, a center back vent, tonal half lining, and sleeves designed to be casually rolled once.\nScene/backdrop: An adult woman wears the blazer open over a plain black bandeau and high-waisted ivory trousers while standing in a sunlit travertine courtyard.\nComposition/framing: Use a full three-quarter fashion portrait with relaxed weight shift, one hand in a patch pocket, the other natural at her side, and the complete blazer silhouette visible.\nLighting/mood: Hard late-afternoon sun, architectural shadow bands, direct-flash lift, real adult skin texture, and refined Mediterranean color.\nMaterials/textures: Render visible washed-linen slub, soft tailoring, natural horn, matte tonal lining, and believable garment drape with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same clay-red color, relaxed hip length, single horn button, soft notched lapels, two patch pockets, center vent, and linen slub.\nConstraints: Keep the blazer single-breasted with one visible button and no branding; use adult models only. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No child, extra blazer, bag, jewelry distraction, branded clothing, distorted fingers, hidden button, cropped hem, or exaggerated pose. No double-breasted closure, shoulder pads, gold buttons, chest logo, extra garment, cropped jacket, wool texture, missing pocket, pinstripe, hanger distortion, child model, or malformed hands. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/fashion-clay-linen-blazer/preview-2.png",
+        "alt": "Adult model wearing a clay linen blazer in a travertine courtyard",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "shopify-linen-detail",
+      "title": "SHOPIFY LINEN DETAIL",
+      "useCase": "detail-macro",
+      "assetPurpose": "secondary-image",
+      "platforms": [
+        "shopify"
+      ],
+      "background": "natural-material",
+      "aspectRatio": "4:5",
+      "prompt": "Use case: product-mockup.\nAsset type: secondary image for shopify.\nPrimary request: Create one ultra-photorealistic portrait 4:5 e-commerce image featuring exactly one relaxed linen blazer.\nProduct design: one fictional unbranded women's single-breasted blazer in warm clay-red washed linen, with a relaxed hip-length cut, one natural horn two-hole button, soft notched lapels, two low patch pockets, a center back vent, tonal half lining, and sleeves designed to be casually rolled once.\nScene/backdrop: Lay the blazer partly folded on pale oak with one lapel, horn button, patch-pocket edge, rolled sleeve, and half-lining visible.\nComposition/framing: Use a close overhead material story that still reads as one complete garment section and emphasizes construction without showing unrelated clothing.\nLighting/mood: Soft north-window light, low warm bounce, fine slub shadows, and natural wrinkle honesty.\nMaterials/textures: Render visible washed-linen slub, soft tailoring, natural horn, matte tonal lining, and believable garment drape with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same clay-red color, relaxed hip length, single horn button, soft notched lapels, two patch pockets, center vent, and linen slub.\nConstraints: Keep the blazer single-breasted with one visible button and no branding; use adult models only. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No scissors, written labels, tailor chalk, extra fabric swatches, loose button, stains, or human hand. No double-breasted closure, shoulder pads, gold buttons, chest logo, extra garment, cropped jacket, wool texture, missing pocket, pinstripe, hanger distortion, child model, or malformed hands. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/fashion-clay-linen-blazer/preview-3.png",
+        "alt": "Clay linen blazer fabric and tailoring detail",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "tmall-ink-gallery",
+      "title": "TMALL INK GALLERY",
+      "useCase": "branded-hero",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "tmall-luxury"
+      ],
+      "background": "dark-studio",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: branded hero for tmall luxury.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one relaxed linen blazer.\nProduct design: one fictional unbranded women's single-breasted blazer in warm clay-red washed linen, with a relaxed hip-length cut, one natural horn two-hole button, soft notched lapels, two low patch pockets, a center back vent, tonal half lining, and sleeves designed to be casually rolled once.\nScene/backdrop: Suspend the blazer on an invisible form inside a deep ink-blue gallery with one low black mirror plinth.\nComposition/framing: Use a low centered fashion composition with the blazer open, sleeves rolled once, and clay silhouette separated from the dark space.\nLighting/mood: Narrow warm key, cobalt rim, restrained mirror reflection, and sculptural shadow depth.\nMaterials/textures: Render visible washed-linen slub, soft tailoring, natural horn, matte tonal lining, and believable garment drape with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same clay-red color, relaxed hip length, single horn button, soft notched lapels, two patch pockets, center vent, and linen slub.\nConstraints: Keep the blazer single-breasted with one visible button and no branding; use adult models only. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No visible hanger, model, floating sleeve, gold prop, smoke, text, trousers, or duplicated reflection. No double-breasted closure, shoulder pads, gold buttons, chest logo, extra garment, cropped jacket, wool texture, missing pocket, pinstripe, hanger distortion, child model, or malformed hands. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/fashion-clay-linen-blazer/preview-4.png",
+        "alt": "Clay linen blazer in a dark ink-blue gallery",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "pinterest-cobalt-chair-style",
+      "title": "PINTEREST COBALT CHAIR STYLE",
+      "useCase": "lifestyle-scene",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "pinterest"
+      ],
+      "background": "home-interior",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: social creative for pinterest.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one relaxed linen blazer.\nProduct design: one fictional unbranded women's single-breasted blazer in warm clay-red washed linen, with a relaxed hip-length cut, one natural horn two-hole button, soft notched lapels, two low patch pockets, a center back vent, tonal half lining, and sleeves designed to be casually rolled once.\nScene/backdrop: Drape the blazer naturally over one cobalt tubular chair beside a saffron wall and pale terrazzo floor.\nComposition/framing: Create a tall saved-look composition with the horn button, lapel, one patch pocket, rolled cuff, and linen texture visible through the drape.\nLighting/mood: Graphic side sun, clean colored shadows, crisp but natural textile texture, and confident editorial blocking.\nMaterials/textures: Render visible washed-linen slub, soft tailoring, natural horn, matte tonal lining, and believable garment drape with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same clay-red color, relaxed hip length, single horn button, soft notched lapels, two patch pockets, center vent, and linen slub.\nConstraints: Keep the blazer single-breasted with one visible button and no branding; use adult models only. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No person, second garment, shoes, bag, vase, text, or blazer falling on floor. No double-breasted closure, shoulder pads, gold buttons, chest logo, extra garment, cropped jacket, wool texture, missing pocket, pinstripe, hanger distortion, child model, or malformed hands. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/fashion-clay-linen-blazer/preview-5.png",
+        "alt": "Clay linen blazer draped over a cobalt chair",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    }
+  ],
+  "author": {
+    "name": "Ecommerce GPT Image Prompts Studio",
+    "url": "https://github.com/ecomimagelab"
+  },
+  "source": {
+    "type": "original",
+    "url": null,
+    "permission": "repository-authored",
+    "notes": "Original prompt and generated previews created for this repository after visual-pattern and open-source workflow research; no external preview asset is included.",
+    "references": [
+      {
+        "type": "visual-research",
+        "url": "docs/VISUAL_RESEARCH.md"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/buluslan/gpt-image2-ecommerce"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/motiful/product-shots"
+      }
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "platformPolicy": {
+    "status": "design-guidance-only",
+    "note": "Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.",
+    "reviewedAt": null,
+    "sources": []
+  },
+  "review": {
+    "status": "approved",
+    "rights": "reviewed",
+    "promptQuality": "reviewed",
+    "previewQuality": "reviewed",
+    "reviewedAt": "2026-07-23"
+  },
+  "featured": true,
+  "featuredVariantId": "farfetch-courtyard-model",
+  "publishedAt": "2026-07-23",
+  "translations": {
+    "zh": {
+      "title": "陶土色亚麻西装多平台套图",
+      "description": "让同一件陶土色宽松亚麻西装在时装目录、庭院成年模特编辑、面料细节、暗调奢华和高收藏配色造型中保持一致。"
+    }
+  }
+}

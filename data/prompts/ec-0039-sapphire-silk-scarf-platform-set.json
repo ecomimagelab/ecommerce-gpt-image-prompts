@@ -1,0 +1,197 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0039",
+  "slug": "sapphire-silk-scarf-platform-set",
+  "model": "gpt-image-2",
+  "title": "Sapphire Silk Scarf Platform Set",
+  "description": "Preserves one sapphire botanical silk square across refined catalog, wind-led adult fashion, lacquer launch, atelier macro, and gallery still life.",
+  "prompt": "Create five platform-native e-commerce images for exactly one premium silk scarf, preserving its exact product design while varying scene, composition, lighting, and platform intent.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "fashion",
+  "useCases": [
+    "catalog-image",
+    "on-model",
+    "branded-hero",
+    "detail-macro",
+    "lifestyle-scene"
+  ],
+  "styles": [
+    "luxury-premium",
+    "editorial",
+    "social-native"
+  ],
+  "backgrounds": [
+    "soft-studio",
+    "lifestyle-location",
+    "dark-studio",
+    "natural-material",
+    "home-interior"
+  ],
+  "platforms": [
+    "farfetch",
+    "instagram-shop",
+    "tmall-luxury",
+    "shopify",
+    "pinterest"
+  ],
+  "aspectRatios": [
+    "4:5",
+    "5:8"
+  ],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {
+    "referenceImages": 0,
+    "instructions": "No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU."
+  },
+  "productInvariants": [
+    "Preserve the sapphire silk square with ivory ginkgo border and four burnt-orange corner medallions.",
+    "Preserve the narrow ivory keyline, hand-rolled edges, fluid silk-twill sheen, and 90 cm square proportions."
+  ],
+  "negativePrompt": "No brand mark, letters, extra scarf, changed print, floral roses, fringe, polyester shine, torn hem, missing corner medallion, duplicated fabric, or impossible fold continuity. No readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.",
+  "variants": [
+    {
+      "id": "farfetch-soft-catalog",
+      "title": "FARFETCH SOFT CATALOG",
+      "useCase": "catalog-image",
+      "assetPurpose": "catalog-image",
+      "platforms": [
+        "farfetch"
+      ],
+      "background": "soft-studio",
+      "aspectRatio": "4:5",
+      "prompt": "Use case: product-mockup.\nAsset type: catalog image for farfetch.\nPrimary request: Create one ultra-photorealistic portrait 4:5 e-commerce image featuring exactly one premium silk scarf.\nProduct design: one fictional unbranded 90 cm square silk-twill scarf with a deep sapphire field, a hand-drawn ivory ginkgo-leaf border, four burnt-orange corner medallions, a narrow ivory outer keyline, and hand-rolled edges.\nScene/backdrop: Drape the complete scarf in one loose vertical cascade from a hidden support against pale warm-gray seamless paper.\nComposition/framing: Show the full square silhouette through a controlled diagonal fold, all four corner medallions, border continuity, and generous clean margins.\nLighting/mood: Large diffused fashion softbox, subtle silk speculars, low shadow density, and true sapphire color.\nMaterials/textures: Render lustrous silk twill, crisp hand-rolled hems, saturated ink, fluid drape, and realistic fold highlights with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same sapphire field, ivory ginkgo border, four burnt-orange corner medallions, square proportions, and narrow ivory keyline.\nConstraints: Keep the print geometry coherent across folds and never invent lettering or a monogram. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No person, hanger, pin, knot, props, white clipping, or cropped corner. No brand mark, letters, extra scarf, changed print, floral roses, fringe, polyester shine, torn hem, missing corner medallion, duplicated fabric, or impossible fold continuity. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/fashion-sapphire-silk-scarf/preview-1.png",
+        "alt": "Sapphire silk scarf draped in a refined catalog studio",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "instagram-wind-portrait",
+      "title": "INSTAGRAM WIND PORTRAIT",
+      "useCase": "on-model",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "instagram-shop"
+      ],
+      "background": "lifestyle-location",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: social creative for instagram shop.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one premium silk scarf.\nProduct design: one fictional unbranded 90 cm square silk-twill scarf with a deep sapphire field, a hand-drawn ivory ginkgo-leaf border, four burnt-orange corner medallions, a narrow ivory outer keyline, and hand-rolled edges.\nScene/backdrop: An elegant adult woman in a plain ivory sleeveless column dress holds one corner while a controlled breeze lifts the scarf behind her against a muted moss-green wall.\nComposition/framing: Use a three-quarter fashion portrait with her complete head, hands, and upper body visible; the scarf forms a dynamic diagonal while its border and two orange medallions remain readable.\nLighting/mood: Warm directional window light with a crisp flash lift, natural adult skin, subtle film grain, and tactile moving silk.\nMaterials/textures: Render lustrous silk twill, crisp hand-rolled hems, saturated ink, fluid drape, and realistic fold highlights with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same sapphire field, ivory ginkgo border, four burnt-orange corner medallions, square proportions, and narrow ivory keyline.\nConstraints: Keep the print geometry coherent across folds and never invent lettering or a monogram. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No child, extra scarf, wind-obscured face, distorted fingers, branded dress, hat, jewelry distraction, or flying detached fabric. No brand mark, letters, extra scarf, changed print, floral roses, fringe, polyester shine, torn hem, missing corner medallion, duplicated fabric, or impossible fold continuity. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/fashion-sapphire-silk-scarf/preview-2.png",
+        "alt": "Adult model holding a sapphire silk scarf in motion",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "tmall-oxblood-fold",
+      "title": "TMALL OXBLOOD FOLD",
+      "useCase": "branded-hero",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "tmall-luxury"
+      ],
+      "background": "dark-studio",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: branded hero for tmall luxury.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one premium silk scarf.\nProduct design: one fictional unbranded 90 cm square silk-twill scarf with a deep sapphire field, a hand-drawn ivory ginkgo-leaf border, four burnt-orange corner medallions, a narrow ivory outer keyline, and hand-rolled edges.\nScene/backdrop: Fold the scarf into a broad sculptural S curve across a glossy oxblood plinth inside a black gallery set.\nComposition/framing: Use a low close angle showing the sapphire face, ivory ginkgo border, one full orange medallion, hand-rolled edge, and deep negative space.\nLighting/mood: Controlled hard rim light, oxblood reflections, saturated sapphire shadows, and polished luxury contrast.\nMaterials/textures: Render lustrous silk twill, crisp hand-rolled hems, saturated ink, fluid drape, and realistic fold highlights with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same sapphire field, ivory ginkgo border, four burnt-orange corner medallions, square proportions, and narrow ivory keyline.\nConstraints: Keep the print geometry coherent across folds and never invent lettering or a monogram. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No mannequin, person, smoke, gold logo, text, extra cloth, crushed folds, or liquid. No brand mark, letters, extra scarf, changed print, floral roses, fringe, polyester shine, torn hem, missing corner medallion, duplicated fabric, or impossible fold continuity. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/fashion-sapphire-silk-scarf/preview-3.png",
+        "alt": "Sapphire silk scarf folded on an oxblood luxury plinth",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "shopify-atelier-macro",
+      "title": "SHOPIFY ATELIER MACRO",
+      "useCase": "detail-macro",
+      "assetPurpose": "secondary-image",
+      "platforms": [
+        "shopify"
+      ],
+      "background": "natural-material",
+      "aspectRatio": "4:5",
+      "prompt": "Use case: product-mockup.\nAsset type: secondary image for shopify.\nPrimary request: Create one ultra-photorealistic portrait 4:5 e-commerce image featuring exactly one premium silk scarf.\nProduct design: one fictional unbranded 90 cm square silk-twill scarf with a deep sapphire field, a hand-drawn ivory ginkgo-leaf border, four burnt-orange corner medallions, a narrow ivory outer keyline, and hand-rolled edges.\nScene/backdrop: Lay one corner over an unbleached cutting table beside a plain wooden seam gauge and a spool of ivory silk thread.\nComposition/framing: Frame a close overhead detail of the hand-rolled hem, one orange medallion, ivory keyline, and ginkgo ink texture while enough scarf remains visible to identify it.\nLighting/mood: Soft north light, gentle wood bounce, shallow depth of field, and truthful thread-scale texture.\nMaterials/textures: Render lustrous silk twill, crisp hand-rolled hems, saturated ink, fluid drape, and realistic fold highlights with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same sapphire field, ivory ginkgo border, four burnt-orange corner medallions, square proportions, and narrow ivory keyline.\nConstraints: Keep the print geometry coherent across folds and never invent lettering or a monogram. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No scissors touching fabric, written ruler numbers, loose damaged thread, extra scarf, tailor hands, or stain. No brand mark, letters, extra scarf, changed print, floral roses, fringe, polyester shine, torn hem, missing corner medallion, duplicated fabric, or impossible fold continuity. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/fashion-sapphire-silk-scarf/preview-4.png",
+        "alt": "Hand-rolled edge detail of a sapphire silk scarf",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "pinterest-gallery-chair",
+      "title": "PINTEREST GALLERY CHAIR",
+      "useCase": "lifestyle-scene",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "pinterest"
+      ],
+      "background": "home-interior",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: social creative for pinterest.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one premium silk scarf.\nProduct design: one fictional unbranded 90 cm square silk-twill scarf with a deep sapphire field, a hand-drawn ivory ginkgo-leaf border, four burnt-orange corner medallions, a narrow ivory outer keyline, and hand-rolled edges.\nScene/backdrop: Drape the scarf over one curved cream plaster chair in a quiet gallery corner with a cobalt floor and a single apricot wall plane.\nComposition/framing: Use a tall architectural composition with the scarf as the central color event, complete corners visible through a natural waterfall drape.\nLighting/mood: Late-afternoon side sun, long geometric shadows, gentle plaster bounce, and rich but restrained color.\nMaterials/textures: Render lustrous silk twill, crisp hand-rolled hems, saturated ink, fluid drape, and realistic fold highlights with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same sapphire field, ivory ginkgo border, four burnt-orange corner medallions, square proportions, and narrow ivory keyline.\nConstraints: Keep the print geometry coherent across folds and never invent lettering or a monogram. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No person, vase, book, second textile, wall art, text, or scarf pooled on a dirty floor. No brand mark, letters, extra scarf, changed print, floral roses, fringe, polyester shine, torn hem, missing corner medallion, duplicated fabric, or impossible fold continuity. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/fashion-sapphire-silk-scarf/preview-5.png",
+        "alt": "Sapphire silk scarf draped over a sculptural gallery chair",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    }
+  ],
+  "author": {
+    "name": "Ecommerce GPT Image Prompts Studio",
+    "url": "https://github.com/ecomimagelab"
+  },
+  "source": {
+    "type": "original",
+    "url": null,
+    "permission": "repository-authored",
+    "notes": "Original prompt and generated previews created for this repository after visual-pattern and open-source workflow research; no external preview asset is included.",
+    "references": [
+      {
+        "type": "visual-research",
+        "url": "docs/VISUAL_RESEARCH.md"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/buluslan/gpt-image2-ecommerce"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/motiful/product-shots"
+      }
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "platformPolicy": {
+    "status": "design-guidance-only",
+    "note": "Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.",
+    "reviewedAt": null,
+    "sources": []
+  },
+  "review": {
+    "status": "approved",
+    "rights": "reviewed",
+    "promptQuality": "reviewed",
+    "previewQuality": "reviewed",
+    "reviewedAt": "2026-07-23"
+  },
+  "featured": true,
+  "featuredVariantId": "instagram-wind-portrait",
+  "publishedAt": "2026-07-23",
+  "translations": {
+    "zh": {
+      "title": "宝石蓝真丝方巾多平台套图",
+      "description": "让同一条宝石蓝植物纹真丝方巾在精品目录、成年模特风动时装、漆面发布、工坊微距和画廊静物中保持一致。"
+    }
+  }
+}

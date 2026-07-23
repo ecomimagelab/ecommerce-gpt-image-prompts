@@ -1,0 +1,195 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0041",
+  "slug": "ember-alpine-backpack-platform-set",
+  "model": "gpt-image-2",
+  "title": "Ember Alpine Backpack Platform Set",
+  "description": "Locks one technical alpine pack across marketplace, rain-performance, mountain DTC, adult hiking, and organized gear-flat-lay imagery.",
+  "prompt": "Create five platform-native e-commerce images for exactly one technical alpine backpack, preserving its exact product design while varying scene, composition, lighting, and platform intent.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "bags-and-accessories",
+  "useCases": [
+    "main-image",
+    "feature-callout",
+    "branded-hero",
+    "on-model",
+    "lifestyle-scene"
+  ],
+  "styles": [
+    "technical",
+    "outdoor-performance",
+    "editorial"
+  ],
+  "backgrounds": [
+    "pure-white",
+    "dark-studio",
+    "outdoor-location",
+    "natural-material"
+  ],
+  "platforms": [
+    "amazon",
+    "outdoor-retail",
+    "shopify",
+    "tiktok-shop",
+    "pinterest"
+  ],
+  "aspectRatios": [
+    "4:5",
+    "5:8"
+  ],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {
+    "referenceImages": 0,
+    "instructions": "No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU."
+  },
+  "productInvariants": [
+    "Preserve the ember-orange ripstop body, charcoal roll-top, centered black G-hook, and two diagonal compression straps.",
+    "Preserve the graphite back panel, slim ice-tool loop, cobalt left-side zipper pull, and 28-liter proportions."
+  ],
+  "negativePrompt": "No brand patch, printed words, extra backpack, hiking poles attached, missing strap, extra buckle, military camouflage, hydration tube, floating gear, deformed shoulder straps, or changed color. No readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.",
+  "variants": [
+    {
+      "id": "amazon-pack-clean-main",
+      "title": "AMAZON PACK CLEAN MAIN",
+      "useCase": "main-image",
+      "assetPurpose": "main-image",
+      "platforms": [
+        "amazon"
+      ],
+      "background": "pure-white",
+      "aspectRatio": "4:5",
+      "prompt": "Use case: product-mockup.\nAsset type: main image for amazon.\nPrimary request: Create one ultra-photorealistic portrait 4:5 e-commerce image featuring exactly one technical alpine backpack.\nProduct design: one fictional unbranded 28-liter alpine backpack in matte ember-orange ripstop nylon, with a charcoal roll-top secured by one centered black G-hook, two diagonal black compression straps, a graphite back panel, one slim ice-tool loop, and a cobalt zipper pull on the left side pocket.\nScene/backdrop: Stand the empty but naturally shaped backpack upright and front-facing on seamless pure #FFFFFF with no props.\nComposition/framing: Center the complete pack at about 76% frame fill; show roll-top, G-hook, diagonal straps, bottom, side pocket edge, and natural grounding shadow.\nLighting/mood: Broad high-key softboxes, controlled ripstop microcontrast, neutral color, and clean black hardware.\nMaterials/textures: Render fine ripstop grid, matte coated nylon, molded graphite foam, black webbing, metal G-hook, and water beads with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same ember roll-top body, charcoal top, centered G-hook, two diagonal compression straps, graphite back, ice-tool loop, and cobalt side pull.\nConstraints: Keep the 28-liter proportions, strap routing, pocket location, and hardware count consistent. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No person, gear, rock, bottle, packaging, detached strap, or back view. No brand patch, printed words, extra backpack, hiking poles attached, missing strap, extra buckle, military camouflage, hydration tube, floating gear, deformed shoulder straps, or changed color. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/bags-ember-alpine-backpack/preview-1.png",
+        "alt": "Ember orange alpine backpack on white",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "outdoor-retail-rain-test",
+      "title": "OUTDOOR RETAIL RAIN TEST",
+      "useCase": "feature-callout",
+      "assetPurpose": "secondary-image",
+      "platforms": [
+        "outdoor-retail"
+      ],
+      "background": "dark-studio",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: secondary image for outdoor retail.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one technical alpine backpack.\nProduct design: one fictional unbranded 28-liter alpine backpack in matte ember-orange ripstop nylon, with a charcoal roll-top secured by one centered black G-hook, two diagonal black compression straps, a graphite back panel, one slim ice-tool loop, and a cobalt zipper pull on the left side pocket.\nScene/backdrop: Stand the pack on a wet dark-slate slab under a controlled curtain of fine rain with the front panel facing camera.\nComposition/framing: Use a close low three-quarter angle showing water beading, sealed seams, G-hook, compression straps, and cobalt pull without diagrams or text.\nLighting/mood: Cold directional rim lights, deep graphite shadows, crisp droplets, and one restrained ember reflection.\nMaterials/textures: Render fine ripstop grid, matte coated nylon, molded graphite foam, black webbing, metal G-hook, and water beads with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same ember roll-top body, charcoal top, centered G-hook, two diagonal compression straps, graphite back, ice-tool loop, and cobalt side pull.\nConstraints: Keep the 28-liter proportions, strap routing, pocket location, and hardware count consistent. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No lightning, waterfall, mud coating, floating arrows, icons, readable claims, open roll-top, or soaked sagging fabric. No brand patch, printed words, extra backpack, hiking poles attached, missing strap, extra buckle, military camouflage, hydration tube, floating gear, deformed shoulder straps, or changed color. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/bags-ember-alpine-backpack/preview-2.png",
+        "alt": "Rain beading on an ember alpine backpack",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "shopify-alpine-blue-hour",
+      "title": "SHOPIFY ALPINE BLUE HOUR",
+      "useCase": "branded-hero",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "shopify"
+      ],
+      "background": "outdoor-location",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: branded hero for shopify.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one technical alpine backpack.\nProduct design: one fictional unbranded 28-liter alpine backpack in matte ember-orange ripstop nylon, with a charcoal roll-top secured by one centered black G-hook, two diagonal black compression straps, a graphite back panel, one slim ice-tool loop, and a cobalt zipper pull on the left side pocket.\nScene/backdrop: Place the pack upright on pale granite beside an alpine tarn at blue hour with distant snow ridges and no person.\nComposition/framing: Use a low environmental portrait that keeps the full pack dominant while the landscape creates generous aspirational depth.\nLighting/mood: Cool twilight ambience, subtle warm side key on ember fabric, realistic lake reflection, and crisp mountain air.\nMaterials/textures: Render fine ripstop grid, matte coated nylon, molded graphite foam, black webbing, metal G-hook, and water beads with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same ember roll-top body, charcoal top, centered G-hook, two diagonal compression straps, graphite back, ice-tool loop, and cobalt side pull.\nConstraints: Keep the 28-liter proportions, strap routing, pocket location, and hardware count consistent. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No tent, trekking pole, campfire, text, snow on product, or pack floating near water. No brand patch, printed words, extra backpack, hiking poles attached, missing strap, extra buckle, military camouflage, hydration tube, floating gear, deformed shoulder straps, or changed color. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/bags-ember-alpine-backpack/preview-3.png",
+        "alt": "Ember alpine backpack beside a mountain tarn",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "tiktok-adult-ridge-hike",
+      "title": "TIKTOK SHOP RIDGE HIKE",
+      "useCase": "on-model",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "tiktok-shop"
+      ],
+      "background": "outdoor-location",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: social creative for tiktok shop.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one technical alpine backpack.\nProduct design: one fictional unbranded 28-liter alpine backpack in matte ember-orange ripstop nylon, with a charcoal roll-top secured by one centered black G-hook, two diagonal black compression straps, a graphite back panel, one slim ice-tool loop, and a cobalt zipper pull on the left side pocket.\nScene/backdrop: An athletic adult hiker wears the pack while crossing a windy grass ridge, dressed in plain slate technical clothing.\nComposition/framing: Use a rear three-quarter full-body frame with a natural walking stride; keep the pack front side, roll-top, straps, side pull, and body scale readable.\nLighting/mood: Crisp overcast daylight with direct-flash lift, moving grass, natural clothing texture, and energetic creator realism.\nMaterials/textures: Render fine ripstop grid, matte coated nylon, molded graphite foam, black webbing, metal G-hook, and water beads with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same ember roll-top body, charcoal top, centered G-hook, two diagonal compression straps, graphite back, ice-tool loop, and cobalt side pull.\nConstraints: Keep the 28-liter proportions, strap routing, pocket location, and hardware count consistent. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No child, dangerous cliff edge, extra backpack, trekking logo, distorted limbs, hidden product, loose unfastened straps, or storm. No brand patch, printed words, extra backpack, hiking poles attached, missing strap, extra buckle, military camouflage, hydration tube, floating gear, deformed shoulder straps, or changed color. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/bags-ember-alpine-backpack/preview-4.png",
+        "alt": "Adult hiker wearing an ember alpine backpack",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "pinterest-gear-flatlay",
+      "title": "PINTEREST GEAR FLAT LAY",
+      "useCase": "lifestyle-scene",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "pinterest"
+      ],
+      "background": "natural-material",
+      "aspectRatio": "4:5",
+      "prompt": "Use case: product-mockup.\nAsset type: social creative for pinterest.\nPrimary request: Create one ultra-photorealistic portrait 4:5 e-commerce image featuring exactly one technical alpine backpack.\nProduct design: one fictional unbranded 28-liter alpine backpack in matte ember-orange ripstop nylon, with a charcoal roll-top secured by one centered black G-hook, two diagonal black compression straps, a graphite back panel, one slim ice-tool loop, and a cobalt zipper pull on the left side pocket.\nScene/backdrop: Lay the backpack open but empty on pale canvas beside one plain steel bottle, one folded charcoal shell, and one coiled orange cord.\nComposition/framing: Use an organized overhead composition showing the complete pack silhouette, roll-top, straps, back panel edge, and restrained gear spacing.\nLighting/mood: Soft directional daylight, honest fabric wrinkles, quiet earthy color, and sharp utility detail.\nMaterials/textures: Render fine ripstop grid, matte coated nylon, molded graphite foam, black webbing, metal G-hook, and water beads with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same ember roll-top body, charcoal top, centered G-hook, two diagonal compression straps, graphite back, ice-tool loop, and cobalt side pull.\nConstraints: Keep the 28-liter proportions, strap routing, pocket location, and hardware count consistent. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No text labels, map, compass branding, knife, food, excessive gear, second bag, or objects inside the pack. No brand patch, printed words, extra backpack, hiking poles attached, missing strap, extra buckle, military camouflage, hydration tube, floating gear, deformed shoulder straps, or changed color. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/bags-ember-alpine-backpack/preview-5.png",
+        "alt": "Organized alpine backpack gear flat lay",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    }
+  ],
+  "author": {
+    "name": "Ecommerce GPT Image Prompts Studio",
+    "url": "https://github.com/ecomimagelab"
+  },
+  "source": {
+    "type": "original",
+    "url": null,
+    "permission": "repository-authored",
+    "notes": "Original prompt and generated previews created for this repository after visual-pattern and open-source workflow research; no external preview asset is included.",
+    "references": [
+      {
+        "type": "visual-research",
+        "url": "docs/VISUAL_RESEARCH.md"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/buluslan/gpt-image2-ecommerce"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/motiful/product-shots"
+      }
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "platformPolicy": {
+    "status": "design-guidance-only",
+    "note": "Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.",
+    "reviewedAt": null,
+    "sources": []
+  },
+  "review": {
+    "status": "approved",
+    "rights": "reviewed",
+    "promptQuality": "reviewed",
+    "previewQuality": "reviewed",
+    "reviewedAt": "2026-07-23"
+  },
+  "featured": false,
+  "publishedAt": "2026-07-23",
+  "translations": {
+    "zh": {
+      "title": "余烬橙高山背包多平台套图",
+      "description": "让同一只余烬橙技术高山背包在商城主图、雨天性能、山地 DTC、成年徒步和装备平铺中保持一致。"
+    }
+  }
+}

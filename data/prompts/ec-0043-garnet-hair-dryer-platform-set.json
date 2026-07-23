@@ -1,0 +1,196 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0043",
+  "slug": "garnet-hair-dryer-platform-set",
+  "model": "gpt-image-2",
+  "title": "Garnet High-Velocity Hair Dryer Platform Set",
+  "description": "Keeps one garnet high-velocity dryer consistent across clean retail, chrome beauty launch, adult vanity styling, salon creator action, and graphic color still life.",
+  "prompt": "Create five platform-native e-commerce images for exactly one premium hair dryer with its single concentrator nozzle, preserving its exact product design while varying scene, composition, lighting, and platform intent.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "beauty",
+  "useCases": [
+    "main-image",
+    "branded-hero",
+    "on-model",
+    "lifestyle-scene",
+    "social-ad"
+  ],
+  "styles": [
+    "luxury-premium",
+    "technical",
+    "social-native"
+  ],
+  "backgrounds": [
+    "pure-white",
+    "color-studio",
+    "lifestyle-location",
+    "graphic-set"
+  ],
+  "platforms": [
+    "amazon",
+    "sephora",
+    "xiaohongshu",
+    "tiktok-shop",
+    "pinterest"
+  ],
+  "aspectRatios": [
+    "4:5",
+    "5:8"
+  ],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {
+    "referenceImages": 0,
+    "instructions": "No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU."
+  },
+  "productInvariants": [
+    "Preserve the deep satin garnet aluminum body, short graphite barrel, hollow circular rear intake, and slim straight handle.",
+    "Preserve the ivory oval control inset, connected charcoal braided cord, and one matching concentrator nozzle."
+  ],
+  "negativePrompt": "No brand word, extra attachment, diffuser, cordless body, pistol grip, black color change, oversized nozzle, visible heating coil, flying hair covering product, child model, damaged cord, or unsafe proximity to water. No readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.",
+  "variants": [
+    {
+      "id": "amazon-beauty-clean-main",
+      "title": "AMAZON BEAUTY CLEAN MAIN",
+      "useCase": "main-image",
+      "assetPurpose": "main-image",
+      "platforms": [
+        "amazon"
+      ],
+      "background": "pure-white",
+      "aspectRatio": "4:5",
+      "prompt": "Use case: product-mockup.\nAsset type: main image for amazon.\nPrimary request: Create one ultra-photorealistic portrait 4:5 e-commerce image featuring exactly one premium hair dryer with its single concentrator nozzle.\nProduct design: one fictional unbranded compact high-velocity hair dryer in deep satin garnet-red aluminum, with a short graphite-gray cylindrical barrel, a hollow circular rear intake, a slim straight handle, one small ivory oval control inset, a charcoal braided cord, and one detachable matching garnet concentrator nozzle.\nScene/backdrop: Place the dryer diagonally upright on its handle with the concentrator attached and the cord arranged in one clean loose curve on seamless pure #FFFFFF.\nComposition/framing: Center the complete device at about 75% frame fill; show barrel opening, rear ring, handle, control inset, nozzle, cord connection, and plug without cropping.\nLighting/mood: Broad high-key softboxes, precise garnet edge control, subtle graphite separation, and a natural grounding shadow.\nMaterials/textures: Render satin anodized aluminum, graphite polymer, fine intake mesh, braided textile cord, and controlled beauty-device reflections with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same garnet short barrel, hollow rear ring, straight slim handle, ivory control inset, charcoal cord, and single concentrator nozzle.\nConstraints: Show only safe adult styling; keep the airflow device physically plausible and the cord connected. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No person, stand, packaging, extra nozzle, floating cord, wall outlet, water, or hidden rear ring. No brand word, extra attachment, diffuser, cordless body, pistol grip, black color change, oversized nozzle, visible heating coil, flying hair covering product, child model, damaged cord, or unsafe proximity to water. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/beauty-garnet-hair-dryer/preview-1.png",
+        "alt": "Garnet high-velocity hair dryer on white",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "sephora-chrome-launch",
+      "title": "SEPHORA CHROME LAUNCH",
+      "useCase": "branded-hero",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "sephora"
+      ],
+      "background": "color-studio",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: branded hero for sephora.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one premium hair dryer with its single concentrator nozzle.\nProduct design: one fictional unbranded compact high-velocity hair dryer in deep satin garnet-red aluminum, with a short graphite-gray cylindrical barrel, a hollow circular rear intake, a slim straight handle, one small ivory oval control inset, a charcoal braided cord, and one detachable matching garnet concentrator nozzle.\nScene/backdrop: Balance the dryer on one low polished-chrome arc inside a garnet-to-black gradient beauty set, with the nozzle aligned beside the body.\nComposition/framing: Use a low sculptural three-quarter composition with generous dark space, crisp silhouette, and controlled mirrored reflection.\nLighting/mood: Narrow beauty strips, deep red glow, cool chrome highlights, and rich premium contrast.\nMaterials/textures: Render satin anodized aluminum, graphite polymer, fine intake mesh, braided textile cord, and controlled beauty-device reflections with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same garnet short barrel, hollow rear ring, straight slim handle, ivory control inset, charcoal cord, and single concentrator nozzle.\nConstraints: Show only safe adult styling; keep the airflow device physically plausible and the cord connected. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No model, smoke, glitter, text, extra attachment, levitating device, liquid, or mirror duplication. No brand word, extra attachment, diffuser, cordless body, pistol grip, black color change, oversized nozzle, visible heating coil, flying hair covering product, child model, damaged cord, or unsafe proximity to water. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/beauty-garnet-hair-dryer/preview-2.png",
+        "alt": "Garnet hair dryer on a polished chrome beauty set",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "xiaohongshu-evening-style",
+      "title": "XIAOHONGSHU EVENING STYLE",
+      "useCase": "on-model",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "xiaohongshu"
+      ],
+      "background": "lifestyle-location",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: social creative for xiaohongshu.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one premium hair dryer with its single concentrator nozzle.\nProduct design: one fictional unbranded compact high-velocity hair dryer in deep satin garnet-red aluminum, with a short graphite-gray cylindrical barrel, a hollow circular rear intake, a slim straight handle, one small ivory oval control inset, a charcoal braided cord, and one detachable matching garnet concentrator nozzle.\nScene/backdrop: An adult East Asian woman in a plain ivory tank uses the dryer with concentrator to smooth one side of her shoulder-length dark hair at a warm evening vanity; the counter is dry and uncluttered.\nComposition/framing: Frame a waist-up mirror-adjacent portrait without photographing through the mirror; show her natural hand grip, face, complete dryer, connected cord, and controlled hair movement.\nLighting/mood: Warm practical lamp mixed with soft direct flash, natural adult skin and hair texture, garnet color separation, and candid creator polish.\nMaterials/textures: Render satin anodized aluminum, graphite polymer, fine intake mesh, braided textile cord, and controlled beauty-device reflections with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same garnet short barrel, hollow rear ring, straight slim handle, ivory control inset, charcoal cord, and single concentrator nozzle.\nConstraints: Show only safe adult styling; keep the airflow device physically plausible and the cord connected. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No child, wet counter, sink, bath, distorted fingers, extra dryer in reflection, hair covering intake, branded cosmetics, or extreme wind. No brand word, extra attachment, diffuser, cordless body, pistol grip, black color change, oversized nozzle, visible heating coil, flying hair covering product, child model, damaged cord, or unsafe proximity to water. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/beauty-garnet-hair-dryer/preview-3.png",
+        "alt": "Adult woman styling her hair with a garnet hair dryer",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "tiktok-salon-motion",
+      "title": "TIKTOK SHOP SALON MOTION",
+      "useCase": "lifestyle-scene",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "tiktok-shop"
+      ],
+      "background": "lifestyle-location",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: social creative for tiktok shop.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one premium hair dryer with its single concentrator nozzle.\nProduct design: one fictional unbranded compact high-velocity hair dryer in deep satin garnet-red aluminum, with a short graphite-gray cylindrical barrel, a hollow circular rear intake, a slim straight handle, one small ivory oval control inset, a charcoal braided cord, and one detachable matching garnet concentrator nozzle.\nScene/backdrop: An adult professional stylist uses the dryer on an adult client's long dark hair in a minimal charcoal salon with no visible branding.\nComposition/framing: Use a close vertical action frame showing the stylist's complete hands, attached nozzle, garnet body, cord, and a controlled sweep of hair while both adults remain naturally posed.\nLighting/mood: Direct flash, cool overhead salon ambience, crisp moving strands, and realistic high-energy creator texture.\nMaterials/textures: Render satin anodized aluminum, graphite polymer, fine intake mesh, braided textile cord, and controlled beauty-device reflections with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same garnet short barrel, hollow rear ring, straight slim handle, ivory control inset, charcoal cord, and single concentrator nozzle.\nConstraints: Show only safe adult styling; keep the airflow device physically plausible and the cord connected. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No child, face distortion, extra hands, second dryer, hair entering intake, scissors, wet floor, logo cape, or unsafe nozzle contact. No brand word, extra attachment, diffuser, cordless body, pistol grip, black color change, oversized nozzle, visible heating coil, flying hair covering product, child model, damaged cord, or unsafe proximity to water. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/beauty-garnet-hair-dryer/preview-4.png",
+        "alt": "Adult stylist using a garnet hair dryer in a salon",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "pinterest-ice-cherry-still",
+      "title": "PINTEREST ICE CHERRY STILL",
+      "useCase": "social-ad",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "pinterest"
+      ],
+      "background": "graphic-set",
+      "aspectRatio": "4:5",
+      "prompt": "Use case: product-mockup.\nAsset type: social creative for pinterest.\nPrimary request: Create one ultra-photorealistic portrait 4:5 e-commerce image featuring exactly one premium hair dryer with its single concentrator nozzle.\nProduct design: one fictional unbranded compact high-velocity hair dryer in deep satin garnet-red aluminum, with a short graphite-gray cylindrical barrel, a hollow circular rear intake, a slim straight handle, one small ivory oval control inset, a charcoal braided cord, and one detachable matching garnet concentrator nozzle.\nScene/backdrop: Lay the dryer diagonally across a frosted pale-blue acrylic plane with one curved cherry-red paper wall and the concentrator attached.\nComposition/framing: Create a graphic overhead product still life with the charcoal cord forming one elegant open loop and every product feature unobstructed.\nLighting/mood: Hard cool sunlight, ruby shadow edges, frosted caustics, and restrained glossy contrast.\nMaterials/textures: Render satin anodized aluminum, graphite polymer, fine intake mesh, braided textile cord, and controlled beauty-device reflections with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same garnet short barrel, hollow rear ring, straight slim handle, ivory control inset, charcoal cord, and single concentrator nozzle.\nConstraints: Show only safe adult styling; keep the airflow device physically plausible and the cord connected. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No ice touching electronics, water drops, model, extra attachment, text, fruit, or cropped plug. No brand word, extra attachment, diffuser, cordless body, pistol grip, black color change, oversized nozzle, visible heating coil, flying hair covering product, child model, damaged cord, or unsafe proximity to water. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/beauty-garnet-hair-dryer/preview-5.png",
+        "alt": "Garnet hair dryer in a frosted blue and cherry still life",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    }
+  ],
+  "author": {
+    "name": "Ecommerce GPT Image Prompts Studio",
+    "url": "https://github.com/ecomimagelab"
+  },
+  "source": {
+    "type": "original",
+    "url": null,
+    "permission": "repository-authored",
+    "notes": "Original prompt and generated previews created for this repository after visual-pattern and open-source workflow research; no external preview asset is included.",
+    "references": [
+      {
+        "type": "visual-research",
+        "url": "docs/VISUAL_RESEARCH.md"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/buluslan/gpt-image2-ecommerce"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/motiful/product-shots"
+      }
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "platformPolicy": {
+    "status": "design-guidance-only",
+    "note": "Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.",
+    "reviewedAt": null,
+    "sources": []
+  },
+  "review": {
+    "status": "approved",
+    "rights": "reviewed",
+    "promptQuality": "reviewed",
+    "previewQuality": "reviewed",
+    "reviewedAt": "2026-07-23"
+  },
+  "featured": true,
+  "featuredVariantId": "xiaohongshu-evening-style",
+  "publishedAt": "2026-07-23",
+  "translations": {
+    "zh": {
+      "title": "石榴红高速吹风机多平台套图",
+      "description": "让同一台石榴红高速吹风机在白底零售、镀铬美妆发布、成年模特梳妆造型、沙龙创作者动态和彩色静物中保持一致。"
+    }
+  }
+}

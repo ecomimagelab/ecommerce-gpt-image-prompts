@@ -15,7 +15,7 @@ const allowedSourceTypes = new Set(["original", "community", "licensed", "public
 const allowedPermissions = new Set(["repository-authored", "creator-granted", "compatible-license", "public-domain"]);
 const allowedReviewStatuses = new Set(["approved", "draft", "rejected", "removed"]);
 const allowedReferenceTypes = new Set(["visual-research", "official-policy", "original-publication", "license-evidence"]);
-const recordKeys = new Set(["$schema", "schemaVersion", "id", "slug", "model", "title", "description", "prompt", "language", "mode", "category", "useCases", "styles", "backgrounds", "platforms", "aspectRatios", "assetPurpose", "inputRequirements", "productInvariants", "negativePrompt", "variants", "author", "source", "license", "platformPolicy", "review", "featured", "publishedAt", "translations"]);
+const recordKeys = new Set(["$schema", "schemaVersion", "id", "slug", "model", "title", "description", "prompt", "language", "mode", "category", "useCases", "styles", "backgrounds", "platforms", "aspectRatios", "assetPurpose", "inputRequirements", "productInvariants", "negativePrompt", "variants", "author", "source", "license", "platformPolicy", "review", "featured", "featuredVariantId", "publishedAt", "translations"]);
 const variantKeys = new Set(["id", "title", "useCase", "assetPurpose", "platforms", "background", "aspectRatio", "prompt", "sample"]);
 const sampleKeys = new Set(["before", "after", "alt", "license", "provenance"]);
 
@@ -203,6 +203,13 @@ for (const {filePath, record: prompt} of entries) {
     requiredString(variant.sample?.license, `${variantLocation}.sample.license`);
     requiredString(variant.sample?.provenance, `${variantLocation}.sample.provenance`);
     if (prompt.mode === "product-edit" && !variant.sample?.before) errors.push(`${variantLocation}.sample.before is required in product-edit mode`);
+  }
+  if (prompt.featuredVariantId !== undefined && prompt.featuredVariantId !== null) {
+    requiredString(prompt.featuredVariantId, `${location}.featuredVariantId`);
+    if (!prompt.featured) errors.push(`${location}.featuredVariantId requires featured=true`);
+    if (!variantIds.has(prompt.featuredVariantId)) {
+      errors.push(`${location}.featuredVariantId must match one of the record's variant ids`);
+    }
   }
   if (prompt.mode === "product-edit" && prompt.inputRequirements?.referenceImages < 1) {
     errors.push(`${location}.inputRequirements.referenceImages must be at least 1 in product-edit mode`);

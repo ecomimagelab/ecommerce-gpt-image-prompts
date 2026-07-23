@@ -1,0 +1,194 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0045",
+  "slug": "graphite-coral-mechanical-keyboard-platform-set",
+  "model": "gpt-image-2",
+  "title": "Graphite-and-Coral Mechanical Keyboard Platform Set",
+  "description": "Locks one compact graphite keyboard across retail, moody desk, technical launch, creator hands, and a colorful Pinterest workspace.",
+  "prompt": "Create five platform-native e-commerce images for exactly one compact mechanical keyboard with one detachable cable, preserving its exact product design while varying scene, composition, lighting, and platform intent.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "consumer-electronics",
+  "useCases": [
+    "main-image",
+    "lifestyle-scene",
+    "feature-callout",
+    "on-model"
+  ],
+  "styles": [
+    "technical",
+    "dark-moody",
+    "social-native"
+  ],
+  "backgrounds": [
+    "pure-white",
+    "home-interior",
+    "graphic-set",
+    "lifestyle-location"
+  ],
+  "platforms": [
+    "best-buy",
+    "shopify",
+    "tmall",
+    "tiktok-shop",
+    "pinterest"
+  ],
+  "aspectRatios": [
+    "4:5",
+    "5:8"
+  ],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {
+    "referenceImages": 0,
+    "instructions": "No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU."
+  },
+  "productInvariants": [
+    "Preserve the compact graphite 75-percent case, blank charcoal keycaps, and exactly three coral keys at the upper right.",
+    "Preserve the knurled brass volume knob, thin amber front light line, and detachable black braided cable."
+  ],
+  "negativePrompt": "No letters, numbers, brand, RGB rainbow, wrist rest, mouse, extra keyboard, extra coral key, missing knob, full-size numpad, warped rows, floating keycaps, transparent case, or disconnected cable unless specified. No readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.",
+  "variants": [
+    {
+      "id": "bestbuy-clean-keyboard",
+      "title": "BEST BUY CLEAN KEYBOARD",
+      "useCase": "main-image",
+      "assetPurpose": "main-image",
+      "platforms": [
+        "best-buy"
+      ],
+      "background": "pure-white",
+      "aspectRatio": "4:5",
+      "prompt": "Use case: product-mockup.\nAsset type: main image for best buy.\nPrimary request: Create one ultra-photorealistic portrait 4:5 e-commerce image featuring exactly one compact mechanical keyboard with one detachable cable.\nProduct design: one fictional unbranded compact 75-percent mechanical keyboard with a bead-blasted graphite aluminum case, low charcoal keycaps with no printed legends, exactly three coral accent keys at the upper-right corner, one small knurled brass volume knob, a thin amber light line under the front edge, and one detachable black braided USB cable.\nScene/backdrop: Place the keyboard at a front three-quarter angle on seamless pure #FFFFFF with the cable connected and arranged in one clean curve.\nComposition/framing: Center the entire keyboard at about 75% frame fill; show case thickness, blank rows, three coral keys, brass knob, amber line, cable, and connector.\nLighting/mood: Broad high-key technical softboxes, clean aluminum highlights, subtle grounding shadow, and restrained amber glow.\nMaterials/textures: Render bead-blasted aluminum, matte PBT keycaps, satin coral caps, knurled brass, braided cable, and restrained amber light with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same compact 75-percent layout, graphite case, blank charcoal caps, three coral upper-right keys, brass knob, amber front line, and black cable.\nConstraints: Keep all keycaps blank to avoid false text and preserve the exact accent-key count. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No hands, computer, mouse, desk mat, packaging, floating keys, or cropped cable connector. No letters, numbers, brand, RGB rainbow, wrist rest, mouse, extra keyboard, extra coral key, missing knob, full-size numpad, warped rows, floating keycaps, transparent case, or disconnected cable unless specified. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/electronics-graphite-coral-keyboard/preview-1.png",
+        "alt": "Graphite mechanical keyboard with coral keys on white",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "shopify-midnight-desk",
+      "title": "SHOPIFY MIDNIGHT DESK",
+      "useCase": "lifestyle-scene",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "shopify"
+      ],
+      "background": "home-interior",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: branded hero for shopify.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one compact mechanical keyboard with one detachable cable.\nProduct design: one fictional unbranded compact 75-percent mechanical keyboard with a bead-blasted graphite aluminum case, low charcoal keycaps with no printed legends, exactly three coral accent keys at the upper-right corner, one small knurled brass volume knob, a thin amber light line under the front edge, and one detachable black braided USB cable.\nScene/backdrop: Place the keyboard on a blackened-oak desk beneath a dark blank monitor, with one smoked-glass lamp far behind and no other peripherals.\nComposition/framing: Use a low desk-level diagonal view with the keyboard dominant and the amber front line leading into deep negative space.\nLighting/mood: Cool midnight window ambience, warm amber edge, soft lamp bokeh, and rich charcoal material separation.\nMaterials/textures: Render bead-blasted aluminum, matte PBT keycaps, satin coral caps, knurled brass, braided cable, and restrained amber light with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same compact 75-percent layout, graphite case, blank charcoal caps, three coral upper-right keys, brass knob, amber front line, and black cable.\nConstraints: Keep all keycaps blank to avoid false text and preserve the exact accent-key count. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No visible UI, readable screen, mouse, headphones, cup, extra cable, messy desk, or neon rainbow. No letters, numbers, brand, RGB rainbow, wrist rest, mouse, extra keyboard, extra coral key, missing knob, full-size numpad, warped rows, floating keycaps, transparent case, or disconnected cable unless specified. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/electronics-graphite-coral-keyboard/preview-2.png",
+        "alt": "Graphite and coral keyboard on a moody midnight desk",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "tmall-technical-grid",
+      "title": "TMALL TECHNICAL GRID",
+      "useCase": "feature-callout",
+      "assetPurpose": "secondary-image",
+      "platforms": [
+        "tmall"
+      ],
+      "background": "graphic-set",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: secondary image for tmall.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one compact mechanical keyboard with one detachable cable.\nProduct design: one fictional unbranded compact 75-percent mechanical keyboard with a bead-blasted graphite aluminum case, low charcoal keycaps with no printed legends, exactly three coral accent keys at the upper-right corner, one small knurled brass volume knob, a thin amber light line under the front edge, and one detachable black braided USB cable.\nScene/backdrop: Float the keyboard a few centimeters above a matte graphite grid floor with three restrained amber light planes revealing its underside profile.\nComposition/framing: Use a precise low front angle that keeps every row aligned and the brass knob, coral keys, cable port, and amber line readable without labels.\nLighting/mood: Hard technical rim lights, crisp controlled reflections, dark negative space, and no holographic text.\nMaterials/textures: Render bead-blasted aluminum, matte PBT keycaps, satin coral caps, knurled brass, braided cable, and restrained amber light with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same compact 75-percent layout, graphite case, blank charcoal caps, three coral upper-right keys, brass knob, amber front line, and black cable.\nConstraints: Keep all keycaps blank to avoid false text and preserve the exact accent-key count. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No exploded parts, arrows, measurements, interface labels, extra keyboard, rainbow light, or impossible levitation shadow. No letters, numbers, brand, RGB rainbow, wrist rest, mouse, extra keyboard, extra coral key, missing knob, full-size numpad, warped rows, floating keycaps, transparent case, or disconnected cable unless specified. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/electronics-graphite-coral-keyboard/preview-3.png",
+        "alt": "Technical graphite keyboard on a dark amber grid",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "tiktok-creator-hands",
+      "title": "TIKTOK SHOP CREATOR HANDS",
+      "useCase": "on-model",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "tiktok-shop"
+      ],
+      "background": "lifestyle-location",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: social creative for tiktok shop.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one compact mechanical keyboard with one detachable cable.\nProduct design: one fictional unbranded compact 75-percent mechanical keyboard with a bead-blasted graphite aluminum case, low charcoal keycaps with no printed legends, exactly three coral accent keys at the upper-right corner, one small knurled brass volume knob, a thin amber light line under the front edge, and one detachable black braided USB cable.\nScene/backdrop: An adult creator types naturally on the keyboard at a compact concrete desk, wearing a plain cobalt sweatshirt; only forearms and complete hands enter the frame.\nComposition/framing: Use a close over-desk vertical view showing both hands with correct anatomy, the full key layout, coral accents, brass knob, amber line, and connected cable.\nLighting/mood: Direct flash mixed with cool window light, slight hand-motion energy, truthful skin, and crisp device texture.\nMaterials/textures: Render bead-blasted aluminum, matte PBT keycaps, satin coral caps, knurled brass, braided cable, and restrained amber light with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same compact 75-percent layout, graphite case, blank charcoal caps, three coral upper-right keys, brass knob, amber front line, and black cable.\nConstraints: Keep all keycaps blank to avoid false text and preserve the exact accent-key count. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No child, extra fingers, long nails obscuring keys, rings, logo clothing, visible screen text, mouse, or second keyboard. No letters, numbers, brand, RGB rainbow, wrist rest, mouse, extra keyboard, extra coral key, missing knob, full-size numpad, warped rows, floating keycaps, transparent case, or disconnected cable unless specified. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/electronics-graphite-coral-keyboard/preview-4.png",
+        "alt": "Adult creator typing on a graphite and coral keyboard",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "pinterest-coral-cobalt-workspace",
+      "title": "PINTEREST CORAL COBALT WORKSPACE",
+      "useCase": "lifestyle-scene",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "pinterest"
+      ],
+      "background": "graphic-set",
+      "aspectRatio": "4:5",
+      "prompt": "Use case: product-mockup.\nAsset type: social creative for pinterest.\nPrimary request: Create one ultra-photorealistic portrait 4:5 e-commerce image featuring exactly one compact mechanical keyboard with one detachable cable.\nProduct design: one fictional unbranded compact 75-percent mechanical keyboard with a bead-blasted graphite aluminum case, low charcoal keycaps with no printed legends, exactly three coral accent keys at the upper-right corner, one small knurled brass volume knob, a thin amber light line under the front edge, and one detachable black braided USB cable.\nScene/backdrop: Stage the keyboard on a cobalt desk plane against a coral wall with one cream cylindrical pencil cup containing two blank pencils.\nComposition/framing: Use an elevated save-worthy workspace crop with the complete keyboard, cable loop, coral keys, brass knob, and strong geometric negative space.\nLighting/mood: Hard side sun, graphic shadows, clean color blocking, and detailed matte surfaces.\nMaterials/textures: Render bead-blasted aluminum, matte PBT keycaps, satin coral caps, knurled brass, braided cable, and restrained amber light with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same compact 75-percent layout, graphite case, blank charcoal caps, three coral upper-right keys, brass knob, amber front line, and black cable.\nConstraints: Keep all keycaps blank to avoid false text and preserve the exact accent-key count. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No monitor, notebook text, mouse, plant, extra keyboard, letters on keys, or clutter. No letters, numbers, brand, RGB rainbow, wrist rest, mouse, extra keyboard, extra coral key, missing knob, full-size numpad, warped rows, floating keycaps, transparent case, or disconnected cable unless specified. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/electronics-graphite-coral-keyboard/preview-5.png",
+        "alt": "Graphite keyboard in a coral and cobalt workspace",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    }
+  ],
+  "author": {
+    "name": "Ecommerce GPT Image Prompts Studio",
+    "url": "https://github.com/ecomimagelab"
+  },
+  "source": {
+    "type": "original",
+    "url": null,
+    "permission": "repository-authored",
+    "notes": "Original prompt and generated previews created for this repository after visual-pattern and open-source workflow research; no external preview asset is included.",
+    "references": [
+      {
+        "type": "visual-research",
+        "url": "docs/VISUAL_RESEARCH.md"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/buluslan/gpt-image2-ecommerce"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/motiful/product-shots"
+      }
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "platformPolicy": {
+    "status": "design-guidance-only",
+    "note": "Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.",
+    "reviewedAt": null,
+    "sources": []
+  },
+  "review": {
+    "status": "approved",
+    "rights": "reviewed",
+    "promptQuality": "reviewed",
+    "previewQuality": "reviewed",
+    "reviewedAt": "2026-07-23"
+  },
+  "featured": false,
+  "publishedAt": "2026-07-23",
+  "translations": {
+    "zh": {
+      "title": "石墨灰珊瑚轴机械键盘多平台套图",
+      "description": "让同一把石墨灰紧凑机械键盘在零售主图、暗调桌面、技术发布、创作者手部和彩色 Pinterest 工作区中保持一致。"
+    }
+  }
+}

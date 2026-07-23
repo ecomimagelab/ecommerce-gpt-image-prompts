@@ -1,0 +1,195 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0056",
+  "slug": "marine-coral-outdoor-cooler-platform-set",
+  "model": "gpt-image-2",
+  "title": "Marine-and-Coral Outdoor Cooler Platform Set",
+  "description": "Preserves one rugged marine cooler across clean retail, ice-detail performance, rocky-shore DTC, adult camp lifestyle, and colorful tailgate still life.",
+  "prompt": "Create five platform-native e-commerce images for exactly one rugged outdoor cooler, preserving its exact product design while varying scene, composition, lighting, and platform intent.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "outdoor-gear",
+  "useCases": [
+    "main-image",
+    "feature-callout",
+    "branded-hero",
+    "on-model",
+    "lifestyle-scene"
+  ],
+  "styles": [
+    "outdoor-performance",
+    "technical",
+    "bright-playful"
+  ],
+  "backgrounds": [
+    "pure-white",
+    "dark-studio",
+    "outdoor-location",
+    "graphic-set"
+  ],
+  "platforms": [
+    "amazon",
+    "outdoor-retail",
+    "shopify",
+    "instagram-shop",
+    "pinterest"
+  ],
+  "aspectRatios": [
+    "4:5",
+    "5:8"
+  ],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {
+    "referenceImages": 0,
+    "instructions": "No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU."
+  },
+  "productInvariants": [
+    "Preserve the matte marine-blue 32-liter body, flat ivory lid, and exactly two coral-red front latches.",
+    "Preserve two charcoal braided side handles, four graphite corner feet, and one coral drain plug low on the right."
+  ],
+  "negativePrompt": "No brand, text, extra cooler, extra latch, missing handle, wheels, telescoping handle, bottle opener, changed colors, floating lid, warped box, child, alcohol branding, raw meat, or dangerous wildlife. No readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.",
+  "variants": [
+    {
+      "id": "amazon-cooler-clean-main",
+      "title": "AMAZON COOLER CLEAN MAIN",
+      "useCase": "main-image",
+      "assetPurpose": "main-image",
+      "platforms": [
+        "amazon"
+      ],
+      "background": "pure-white",
+      "aspectRatio": "4:5",
+      "prompt": "Use case: product-mockup.\nAsset type: main image for amazon.\nPrimary request: Create one ultra-photorealistic portrait 4:5 e-commerce image featuring exactly one rugged outdoor cooler.\nProduct design: one fictional unbranded 32-liter rotomolded outdoor cooler in matte deep-marine blue, with a flat ivory lid, exactly two coral-red rubber front latches, one charcoal braided side handle on each end, four small graphite corner feet, and one coral drain plug low on the right side.\nScene/backdrop: Place the closed cooler front three-quarter on seamless pure #FFFFFF with both coral latches fastened.\nComposition/framing: Center the complete cooler at about 76% frame fill; show lid, two latches, right drain plug, both side-handle attachments, feet, and soft shadow.\nLighting/mood: Broad high-key softboxes, clean polymer texture, true marine color, and crisp ivory-coral separation.\nMaterials/textures: Render matte rotomolded polymer, ivory textured lid, coral rubber, charcoal braided handles, graphite feet, ice, condensation, and outdoor stone with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same marine 32-liter body, ivory lid, two coral front latches, two charcoal side handles, four graphite feet, and right coral drain plug.\nConstraints: Keep latch, foot, handle, and drain-plug counts and locations consistent; use adult models only. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No ice, food, hand, packaging, open lid, extra accessory, or cropped foot. No brand, text, extra cooler, extra latch, missing handle, wheels, telescoping handle, bottle opener, changed colors, floating lid, warped box, child, alcohol branding, raw meat, or dangerous wildlife. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/outdoor-marine-coral-cooler/preview-1.png",
+        "alt": "Marine outdoor cooler with coral latches on white",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "outdoor-retail-ice-detail",
+      "title": "OUTDOOR RETAIL ICE DETAIL",
+      "useCase": "feature-callout",
+      "assetPurpose": "secondary-image",
+      "platforms": [
+        "outdoor-retail"
+      ],
+      "background": "dark-studio",
+      "aspectRatio": "4:5",
+      "prompt": "Use case: product-mockup.\nAsset type: secondary image for outdoor retail.\nPrimary request: Create one ultra-photorealistic portrait 4:5 e-commerce image featuring exactly one rugged outdoor cooler.\nProduct design: one fictional unbranded 32-liter rotomolded outdoor cooler in matte deep-marine blue, with a flat ivory lid, exactly two coral-red rubber front latches, one charcoal braided side handle on each end, four small graphite corner feet, and one coral drain plug low on the right side.\nScene/backdrop: Open the cooler on a wet graphite slab to reveal clear ice and three blank reusable steel bottles in cream, cobalt, and coral; keep lid attached.\nComposition/framing: Use a slightly elevated close view showing insulation rim, both latches, interior volume, right drain plug, handles, and cold condensation.\nLighting/mood: Cool hard rim light, crisp ice sparkle, dark controlled fill, and subtle marine reflection.\nMaterials/textures: Render matte rotomolded polymer, ivory textured lid, coral rubber, charcoal braided handles, graphite feet, ice, condensation, and outdoor stone with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same marine 32-liter body, ivory lid, two coral front latches, two charcoal side handles, four graphite feet, and right coral drain plug.\nConstraints: Keep latch, foot, handle, and drain-plug counts and locations consistent; use adult models only. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No brand, alcohol, loose food, extra cooler, detached lid, more than three bottles, text, or overflowing water. No brand, text, extra cooler, extra latch, missing handle, wheels, telescoping handle, bottle opener, changed colors, floating lid, warped box, child, alcohol branding, raw meat, or dangerous wildlife. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/outdoor-marine-coral-cooler/preview-2.png",
+        "alt": "Open marine cooler filled with ice and three blank bottles",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "shopify-rocky-shore",
+      "title": "SHOPIFY ROCKY SHORE",
+      "useCase": "branded-hero",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "shopify"
+      ],
+      "background": "outdoor-location",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: branded hero for shopify.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one rugged outdoor cooler.\nProduct design: one fictional unbranded 32-liter rotomolded outdoor cooler in matte deep-marine blue, with a flat ivory lid, exactly two coral-red rubber front latches, one charcoal braided side handle on each end, four small graphite corner feet, and one coral drain plug low on the right side.\nScene/backdrop: Place the closed cooler on a flat black coastal rock above a calm slate sea at blue hour, with both latches secured.\nComposition/framing: Use a low environmental product portrait with the complete cooler dominant and layered shoreline creating rugged vertical depth.\nLighting/mood: Cool twilight ambience, warm coral rim, wet-stone reflections, and crisp salt-air texture.\nMaterials/textures: Render matte rotomolded polymer, ivory textured lid, coral rubber, charcoal braided handles, graphite feet, ice, condensation, and outdoor stone with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same marine 32-liter body, ivory lid, two coral front latches, two charcoal side handles, four graphite feet, and right coral drain plug.\nConstraints: Keep latch, foot, handle, and drain-plug counts and locations consistent; use adult models only. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No person, waves touching cooler, fish, boat, extra gear, text, open lid, or floating product. No brand, text, extra cooler, extra latch, missing handle, wheels, telescoping handle, bottle opener, changed colors, floating lid, warped box, child, alcohol branding, raw meat, or dangerous wildlife. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/outdoor-marine-coral-cooler/preview-3.png",
+        "alt": "Marine and coral cooler on a rocky shoreline",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "instagram-adult-camp",
+      "title": "INSTAGRAM ADULT CAMP",
+      "useCase": "on-model",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "instagram-shop"
+      ],
+      "background": "outdoor-location",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: social creative for instagram shop.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one rugged outdoor cooler.\nProduct design: one fictional unbranded 32-liter rotomolded outdoor cooler in matte deep-marine blue, with a flat ivory lid, exactly two coral-red rubber front latches, one charcoal braided side handle on each end, four small graphite corner feet, and one coral drain plug low on the right side.\nScene/backdrop: An adult camper sits beside the closed cooler at a simple pine-forest campsite, resting one complete hand on the ivory lid while holding a blank steel cup in the other.\nComposition/framing: Use a relaxed full-body direct-flash portrait with the entire cooler, latches, handle, feet, and safe adult posture visible.\nLighting/mood: Direct flash mixed with cool dusk, warm tent glow far behind, natural adult skin, and authentic outdoor texture.\nMaterials/textures: Render matte rotomolded polymer, ivory textured lid, coral rubber, charcoal braided handles, graphite feet, ice, condensation, and outdoor stone with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same marine 32-liter body, ivory lid, two coral front latches, two charcoal side handles, four graphite feet, and right coral drain plug.\nConstraints: Keep latch, foot, handle, and drain-plug counts and locations consistent; use adult models only. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No child, alcohol, logo clothing, extra cooler, campfire near product, distorted fingers, food waste, text, or wildlife. No brand, text, extra cooler, extra latch, missing handle, wheels, telescoping handle, bottle opener, changed colors, floating lid, warped box, child, alcohol branding, raw meat, or dangerous wildlife. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/outdoor-marine-coral-cooler/preview-4.png",
+        "alt": "Adult camper sitting beside a marine outdoor cooler",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "pinterest-tailgate-color",
+      "title": "PINTEREST TAILGATE COLOR",
+      "useCase": "lifestyle-scene",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "pinterest"
+      ],
+      "background": "graphic-set",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: social creative for pinterest.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one rugged outdoor cooler.\nProduct design: one fictional unbranded 32-liter rotomolded outdoor cooler in matte deep-marine blue, with a flat ivory lid, exactly two coral-red rubber front latches, one charcoal braided side handle on each end, four small graphite corner feet, and one coral drain plug low on the right side.\nScene/backdrop: Place the closed cooler on a coral picnic mat against a cobalt vehicle tailgate cropped abstractly, with one folded ivory blanket and no people.\nComposition/framing: Create a save-worthy graphic outdoor still life with complete cooler silhouette, exact latches, right drain plug, and strong marine-coral color blocking.\nLighting/mood: Hard late sun, crisp geometric shadows, textured fabric, and polished but believable weekend color.\nMaterials/textures: Render matte rotomolded polymer, ivory textured lid, coral rubber, charcoal braided handles, graphite feet, ice, condensation, and outdoor stone with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same marine 32-liter body, ivory lid, two coral front latches, two charcoal side handles, four graphite feet, and right coral drain plug.\nConstraints: Keep latch, foot, handle, and drain-plug counts and locations consistent; use adult models only. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No vehicle logo, license plate, alcohol, extra cooler, food, text, open lid, or prop covering latches. No brand, text, extra cooler, extra latch, missing handle, wheels, telescoping handle, bottle opener, changed colors, floating lid, warped box, child, alcohol branding, raw meat, or dangerous wildlife. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/outdoor-marine-coral-cooler/preview-5.png",
+        "alt": "Marine cooler in a coral and cobalt tailgate still life",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    }
+  ],
+  "author": {
+    "name": "Ecommerce GPT Image Prompts Studio",
+    "url": "https://github.com/ecomimagelab"
+  },
+  "source": {
+    "type": "original",
+    "url": null,
+    "permission": "repository-authored",
+    "notes": "Original prompt and generated previews created for this repository after visual-pattern and open-source workflow research; no external preview asset is included.",
+    "references": [
+      {
+        "type": "visual-research",
+        "url": "docs/VISUAL_RESEARCH.md"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/buluslan/gpt-image2-ecommerce"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/motiful/product-shots"
+      }
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "platformPolicy": {
+    "status": "design-guidance-only",
+    "note": "Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.",
+    "reviewedAt": null,
+    "sources": []
+  },
+  "review": {
+    "status": "approved",
+    "rights": "reviewed",
+    "promptQuality": "reviewed",
+    "previewQuality": "reviewed",
+    "reviewedAt": "2026-07-23"
+  },
+  "featured": false,
+  "publishedAt": "2026-07-23",
+  "translations": {
+    "zh": {
+      "title": "海军蓝珊瑚扣户外保温箱多平台套图",
+      "description": "让同一只海军蓝珊瑚扣户外保温箱在白底零售、冰块性能细节、岩岸 DTC、成年露营生活方式和彩色尾箱静物中保持一致。"
+    }
+  }
+}

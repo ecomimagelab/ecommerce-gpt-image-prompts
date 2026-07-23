@@ -1,0 +1,194 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0051",
+  "slug": "forest-ceramic-olive-oil-platform-set",
+  "model": "gpt-image-2",
+  "title": "Forest Ceramic Olive Oil Bottle Platform Set",
+  "description": "Keeps one forest ceramic olive-oil bottle consistent across grocery retail, orchard DTC, sunlit Pinterest dining, adult chef action, and harvest maker story.",
+  "prompt": "Create five platform-native e-commerce images for exactly one premium olive-oil bottle with one stopper, preserving its exact product design while varying scene, composition, lighting, and platform intent.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "food-and-beverage",
+  "useCases": [
+    "main-image",
+    "branded-hero",
+    "lifestyle-scene"
+  ],
+  "styles": [
+    "food-editorial",
+    "natural-organic",
+    "handmade-tactile"
+  ],
+  "backgrounds": [
+    "pure-white",
+    "outdoor-location",
+    "natural-material",
+    "lifestyle-location"
+  ],
+  "platforms": [
+    "amazon-grocery",
+    "shopify",
+    "pinterest",
+    "instagram-shop",
+    "etsy"
+  ],
+  "aspectRatios": [
+    "4:5",
+    "5:8"
+  ],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {
+    "referenceImages": 0,
+    "instructions": "No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU."
+  },
+  "productInvariants": [
+    "Preserve the 500 ml tall forest-green satin ceramic bottle, rounded shoulders, narrow neck, and single ivory brushstroke.",
+    "Preserve the natural cork stopper capped with one small cobalt ceramic disc."
+  ],
+  "negativePrompt": "No brand, letters, extra bottle, glass body, metal pourer unless scene specifies open cork removal, missing brushstroke, blue glaze change, floating olives, excessive oil spill, child, unsafe flame, or deformed neck. No readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.",
+  "variants": [
+    {
+      "id": "amazon-grocery-bottle-main",
+      "title": "AMAZON GROCERY BOTTLE MAIN",
+      "useCase": "main-image",
+      "assetPurpose": "main-image",
+      "platforms": [
+        "amazon-grocery"
+      ],
+      "background": "pure-white",
+      "aspectRatio": "4:5",
+      "prompt": "Use case: product-mockup.\nAsset type: main image for amazon grocery.\nPrimary request: Create one ultra-photorealistic portrait 4:5 e-commerce image featuring exactly one premium olive-oil bottle with one stopper.\nProduct design: one fictional unbranded 500 ml tall ceramic olive-oil bottle in deep forest-green satin glaze, with broad rounded shoulders, a narrow neck, one natural cork stopper capped by a small cobalt ceramic disc, a single thin ivory vertical brushstroke on the front, and no words.\nScene/backdrop: Stand the sealed bottle upright and front-facing on seamless pure #FFFFFF with no props.\nComposition/framing: Center the complete bottle at about 76% frame fill; show shoulder shape, neck, cork, cobalt disc, ivory brushstroke, base, and natural shadow.\nLighting/mood: Broad high-key softboxes, true forest glaze, controlled ceramic highlight, and neutral white balance.\nMaterials/textures: Render satin reactive ceramic glaze, natural cork, cobalt ceramic, olive oil, old stone, linen, and believable food surfaces with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same tall forest bottle, rounded shoulders, narrow neck, cork stopper, cobalt top disc, and single ivory brushstroke.\nConstraints: Keep the bottle sealed except in a safe pouring scene and never add claims or readable packaging. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No olives, dish, hand, packaging, extra stopper, reflection, or label text. No brand, letters, extra bottle, glass body, metal pourer unless scene specifies open cork removal, missing brushstroke, blue glaze change, floating olives, excessive oil spill, child, unsafe flame, or deformed neck. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/food-forest-ceramic-olive-oil/preview-1.png",
+        "alt": "Forest ceramic olive oil bottle on white",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "shopify-orchard-stone",
+      "title": "SHOPIFY ORCHARD STONE",
+      "useCase": "branded-hero",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "shopify"
+      ],
+      "background": "outdoor-location",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: branded hero for shopify.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one premium olive-oil bottle with one stopper.\nProduct design: one fictional unbranded 500 ml tall ceramic olive-oil bottle in deep forest-green satin glaze, with broad rounded shoulders, a narrow neck, one natural cork stopper capped by a small cobalt ceramic disc, a single thin ivory vertical brushstroke on the front, and no words.\nScene/backdrop: Stand the sealed bottle on a weathered limestone ledge in a quiet olive grove at early morning, with soft branches far behind.\nComposition/framing: Use a low product portrait keeping the entire bottle dominant and the orchard softly layered into vertical depth.\nLighting/mood: Warm dawn side light, cool leaf shadows, restrained glaze sheen, and tactile old-stone texture.\nMaterials/textures: Render satin reactive ceramic glaze, natural cork, cobalt ceramic, olive oil, old stone, linen, and believable food surfaces with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same tall forest bottle, rounded shoulders, narrow neck, cork stopper, cobalt top disc, and single ivory brushstroke.\nConstraints: Keep the bottle sealed except in a safe pouring scene and never add claims or readable packaging. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No person, basket, text, second bottle, branch touching bottle, floating olives, or dramatic flare. No brand, letters, extra bottle, glass body, metal pourer unless scene specifies open cork removal, missing brushstroke, blue glaze change, floating olives, excessive oil spill, child, unsafe flame, or deformed neck. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/food-forest-ceramic-olive-oil/preview-2.png",
+        "alt": "Forest ceramic olive oil bottle in an olive grove",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "pinterest-sunlit-table",
+      "title": "PINTEREST SUNLIT TABLE",
+      "useCase": "lifestyle-scene",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "pinterest"
+      ],
+      "background": "natural-material",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: social creative for pinterest.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one premium olive-oil bottle with one stopper.\nProduct design: one fictional unbranded 500 ml tall ceramic olive-oil bottle in deep forest-green satin glaze, with broad rounded shoulders, a narrow neck, one natural cork stopper capped by a small cobalt ceramic disc, a single thin ivory vertical brushstroke on the front, and no words.\nScene/backdrop: Place the sealed bottle on a long sunlit linen table beside one shallow cream plate holding torn bread, a small saucer of golden oil, and six green olives.\nComposition/framing: Use a tall editorial dining composition with the bottle as hero, quiet negative space, honest crumbs, and diagonal afternoon shadows.\nLighting/mood: Hard Mediterranean window sun, warm linen bounce, translucent oil glow, and natural food texture.\nMaterials/textures: Render satin reactive ceramic glaze, natural cork, cobalt ceramic, olive oil, old stone, linen, and believable food surfaces with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same tall forest bottle, rounded shoulders, narrow neck, cork stopper, cobalt top disc, and single ivory brushstroke.\nConstraints: Keep the bottle sealed except in a safe pouring scene and never add claims or readable packaging. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No people, second bottle, wine, readable menu, excessive food, flowers, oil spill, or bottle cropped. No brand, letters, extra bottle, glass body, metal pourer unless scene specifies open cork removal, missing brushstroke, blue glaze change, floating olives, excessive oil spill, child, unsafe flame, or deformed neck. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/food-forest-ceramic-olive-oil/preview-3.png",
+        "alt": "Forest olive oil bottle on a sunlit Mediterranean table",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "instagram-adult-chef-drizzle",
+      "title": "INSTAGRAM CHEF DRIZZLE",
+      "useCase": "lifestyle-scene",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "instagram-shop"
+      ],
+      "background": "lifestyle-location",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: social creative for instagram shop.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one premium olive-oil bottle with one stopper.\nProduct design: one fictional unbranded 500 ml tall ceramic olive-oil bottle in deep forest-green satin glaze, with broad rounded shoulders, a narrow neck, one natural cork stopper capped by a small cobalt ceramic disc, a single thin ivory vertical brushstroke on the front, and no words.\nScene/backdrop: An adult chef in a plain charcoal apron pours a thin controlled stream from the uncorked bottle over a plate of roasted tomatoes; the cork with cobalt disc rests safely beside the plate.\nComposition/framing: Use a close vertical action frame showing complete hands, full bottle silhouette, ivory brushstroke, smooth oil stream, food, and natural working posture.\nLighting/mood: Direct flash mixed with warm kitchen light, glossy food texture, real adult skin, and crisp ceramic color.\nMaterials/textures: Render satin reactive ceramic glaze, natural cork, cobalt ceramic, olive oil, old stone, linen, and believable food surfaces with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same tall forest bottle, rounded shoulders, narrow neck, cork stopper, cobalt top disc, and single ivory brushstroke.\nConstraints: Keep the bottle sealed except in a safe pouring scene and never add claims or readable packaging. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No child, extra fingers, logo apron, excessive pour, hot flame, second bottle, text, or oil covering the brushstroke. No brand, letters, extra bottle, glass body, metal pourer unless scene specifies open cork removal, missing brushstroke, blue glaze change, floating olives, excessive oil spill, child, unsafe flame, or deformed neck. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/food-forest-ceramic-olive-oil/preview-4.png",
+        "alt": "Adult chef drizzling olive oil from a forest ceramic bottle",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "etsy-harvest-maker",
+      "title": "ETSY HARVEST MAKER",
+      "useCase": "lifestyle-scene",
+      "assetPurpose": "secondary-image",
+      "platforms": [
+        "etsy"
+      ],
+      "background": "natural-material",
+      "aspectRatio": "4:5",
+      "prompt": "Use case: product-mockup.\nAsset type: secondary image for etsy.\nPrimary request: Create one ultra-photorealistic portrait 4:5 e-commerce image featuring exactly one premium olive-oil bottle with one stopper.\nProduct design: one fictional unbranded 500 ml tall ceramic olive-oil bottle in deep forest-green satin glaze, with broad rounded shoulders, a narrow neck, one natural cork stopper capped by a small cobalt ceramic disc, a single thin ivory vertical brushstroke on the front, and no words.\nScene/backdrop: Stand the sealed bottle on a rough oak packing table beside one small linen pouch of olives and a plain cork bowl.\nComposition/framing: Use an intimate three-quarter maker-story frame emphasizing glaze variation, cork texture, cobalt cap, brushstroke, and hand-finished ceramic base.\nLighting/mood: Soft barn-door daylight, warm wood bounce, gentle film grain, and honest artisanal texture.\nMaterials/textures: Render satin reactive ceramic glaze, natural cork, cobalt ceramic, olive oil, old stone, linen, and believable food surfaces with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same tall forest bottle, rounded shoulders, narrow neck, cork stopper, cobalt top disc, and single ivory brushstroke.\nConstraints: Keep the bottle sealed except in a safe pouring scene and never add claims or readable packaging. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No person, handwritten tag, extra bottle, pottery tools, logo stamp, excessive olives, or damaged cork. No brand, letters, extra bottle, glass body, metal pourer unless scene specifies open cork removal, missing brushstroke, blue glaze change, floating olives, excessive oil spill, child, unsafe flame, or deformed neck. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/food-forest-ceramic-olive-oil/preview-5.png",
+        "alt": "Forest ceramic olive oil bottle on a harvest packing table",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    }
+  ],
+  "author": {
+    "name": "Ecommerce GPT Image Prompts Studio",
+    "url": "https://github.com/ecomimagelab"
+  },
+  "source": {
+    "type": "original",
+    "url": null,
+    "permission": "repository-authored",
+    "notes": "Original prompt and generated previews created for this repository after visual-pattern and open-source workflow research; no external preview asset is included.",
+    "references": [
+      {
+        "type": "visual-research",
+        "url": "docs/VISUAL_RESEARCH.md"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/buluslan/gpt-image2-ecommerce"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/motiful/product-shots"
+      }
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "platformPolicy": {
+    "status": "design-guidance-only",
+    "note": "Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.",
+    "reviewedAt": null,
+    "sources": []
+  },
+  "review": {
+    "status": "approved",
+    "rights": "reviewed",
+    "promptQuality": "reviewed",
+    "previewQuality": "reviewed",
+    "reviewedAt": "2026-07-23"
+  },
+  "featured": true,
+  "featuredVariantId": "pinterest-sunlit-table",
+  "publishedAt": "2026-07-23",
+  "translations": {
+    "zh": {
+      "title": "森林绿陶瓷橄榄油瓶多平台套图",
+      "description": "让同一只森林绿陶瓷橄榄油瓶在食品零售、橄榄园 DTC、阳光 Pinterest 餐桌、成年厨师动作和收获工艺故事中保持一致。"
+    }
+  }
+}

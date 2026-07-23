@@ -1,0 +1,195 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0055",
+  "slug": "oat-modular-stroller-platform-set",
+  "model": "gpt-image-2",
+  "title": "Oat Modular Stroller Platform Set",
+  "description": "Keeps one oat modular stroller consistent across clean retail, architectural DTC, adult-parent city use, safe fold demonstration, and park lifestyle.",
+  "prompt": "Create five platform-native e-commerce images for exactly one premium modular stroller, preserving its exact product design while varying scene, composition, lighting, and platform intent.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "toys-and-kids",
+  "useCases": [
+    "main-image",
+    "branded-hero",
+    "on-model",
+    "feature-callout",
+    "lifestyle-scene"
+  ],
+  "styles": [
+    "minimalist-clean",
+    "quiet-living",
+    "architectural"
+  ],
+  "backgrounds": [
+    "pure-white",
+    "lifestyle-location",
+    "soft-studio",
+    "outdoor-location"
+  ],
+  "platforms": [
+    "amazon",
+    "shopify",
+    "instagram-shop",
+    "tiktok-shop",
+    "pinterest"
+  ],
+  "aspectRatios": [
+    "4:5",
+    "5:8"
+  ],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {
+    "referenceImages": 0,
+    "instructions": "No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU."
+  },
+  "productInvariants": [
+    "Preserve the oat-beige seat and full canopy, graphite oval-tube frame, and cognac wrapped push bar.",
+    "Preserve four charcoal wheels with terracotta hub rings, black under-seat basket, and five-point charcoal harness."
+  ],
+  "negativePrompt": "No brand, text, extra stroller, three wheels, missing wheel, car seat, cup holder, toy, changed fabric color, unsafe stairs, child standing, visible infant face, runaway stroller, warped frame, or detached harness. No readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.",
+  "variants": [
+    {
+      "id": "amazon-stroller-clean-main",
+      "title": "AMAZON STROLLER CLEAN MAIN",
+      "useCase": "main-image",
+      "assetPurpose": "main-image",
+      "platforms": [
+        "amazon"
+      ],
+      "background": "pure-white",
+      "aspectRatio": "4:5",
+      "prompt": "Use case: product-mockup.\nAsset type: main image for amazon.\nPrimary request: Create one ultra-photorealistic portrait 4:5 e-commerce image featuring exactly one premium modular stroller.\nProduct design: one fictional unbranded modular stroller with an oat-beige recycled-textile seat and full canopy, a matte graphite oval-tube frame, a cognac-brown wrapped push bar, four charcoal wheels with slim terracotta hub rings, a black under-seat basket, and one five-point charcoal harness.\nScene/backdrop: Stand the empty stroller fully open at a front three-quarter angle on seamless pure #FFFFFF with canopy extended halfway and harness visible.\nComposition/framing: Center the complete stroller at about 78% frame fill; show all four wheels, frame joints, seat, canopy, push bar, basket, and soft grounding shadow.\nLighting/mood: Broad high-key softboxes, accurate oat textile, clean graphite edges, and neutral white balance.\nMaterials/textures: Render woven oat textile, matte graphite aluminum, cognac wrap, rubber tires, terracotta hub rings, mesh basket, and realistic stroller joints with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same oat seat and canopy, graphite oval frame, cognac push bar, four charcoal wheels with terracotta rings, black basket, and charcoal harness.\nConstraints: Keep stroller geometry safe and plausible; adult-parent scenes may imply an infant under the closed canopy but must not expose or distort a child. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No baby, parent, bag, blanket, packaging, extra wheel, folded frame, or cropped push bar. No brand, text, extra stroller, three wheels, missing wheel, car seat, cup holder, toy, changed fabric color, unsafe stairs, child standing, visible infant face, runaway stroller, warped frame, or detached harness. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/kids-oat-modular-stroller/preview-1.png",
+        "alt": "Oat modular stroller on white",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "shopify-curved-arcade",
+      "title": "SHOPIFY CURVED ARCADE",
+      "useCase": "branded-hero",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "shopify"
+      ],
+      "background": "lifestyle-location",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: branded hero for shopify.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one premium modular stroller.\nProduct design: one fictional unbranded modular stroller with an oat-beige recycled-textile seat and full canopy, a matte graphite oval-tube frame, a cognac-brown wrapped push bar, four charcoal wheels with slim terracotta hub rings, a black under-seat basket, and one five-point charcoal harness.\nScene/backdrop: Park the empty stroller on pale limestone inside a sunlit curved arcade, canopy extended and wheels aligned naturally.\nComposition/framing: Use a low architectural product portrait with the full stroller dominant and repeating arches creating generous vertical depth.\nLighting/mood: Soft morning sun, long curved shadows, warm stone bounce, and crisp textile-frame separation.\nMaterials/textures: Render woven oat textile, matte graphite aluminum, cognac wrap, rubber tires, terracotta hub rings, mesh basket, and realistic stroller joints with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same oat seat and canopy, graphite oval frame, cognac push bar, four charcoal wheels with terracotta rings, black basket, and charcoal harness.\nConstraints: Keep stroller geometry safe and plausible; adult-parent scenes may imply an infant under the closed canopy but must not expose or distort a child. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No person, baby, stairs, bag, plants, text, extra stroller, or wheel clipping. No brand, text, extra stroller, three wheels, missing wheel, car seat, cup holder, toy, changed fabric color, unsafe stairs, child standing, visible infant face, runaway stroller, warped frame, or detached harness. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/kids-oat-modular-stroller/preview-2.png",
+        "alt": "Oat modular stroller in a curved limestone arcade",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "instagram-adult-parent-walk",
+      "title": "INSTAGRAM ADULT PARENT WALK",
+      "useCase": "on-model",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "instagram-shop"
+      ],
+      "background": "lifestyle-location",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: social creative for instagram shop.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one premium modular stroller.\nProduct design: one fictional unbranded modular stroller with an oat-beige recycled-textile seat and full canopy, a matte graphite oval-tube frame, a cognac-brown wrapped push bar, four charcoal wheels with slim terracotta hub rings, a black under-seat basket, and one five-point charcoal harness.\nScene/backdrop: An adult parent pushes the stroller along a wide modern pedestrian path; the full canopy is closed over a sleeping infant who is not visible, and the parent wears plain navy clothing.\nComposition/framing: Use a full-body side-three-quarter walking frame with complete adult anatomy, both hands naturally on the push bar, all four wheels, and stroller silhouette visible.\nLighting/mood: Late-afternoon city sun with direct-flash lift, natural adult expression, moving shadow, and premium lifestyle texture.\nMaterials/textures: Render woven oat textile, matte graphite aluminum, cognac wrap, rubber tires, terracotta hub rings, mesh basket, and realistic stroller joints with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same oat seat and canopy, graphite oval frame, cognac push bar, four charcoal wheels with terracotta rings, black basket, and charcoal harness.\nConstraints: Keep stroller geometry safe and plausible; adult-parent scenes may imply an infant under the closed canopy but must not expose or distort a child. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No visible child face, extra stroller, phone use, stairs, traffic, distorted hands, logo clothing, running pose, or detached wheel. No brand, text, extra stroller, three wheels, missing wheel, car seat, cup holder, toy, changed fabric color, unsafe stairs, child standing, visible infant face, runaway stroller, warped frame, or detached harness. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/kids-oat-modular-stroller/preview-3.png",
+        "alt": "Adult parent pushing an oat stroller on a city path",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "tiktok-safe-fold-demo",
+      "title": "TIKTOK SHOP SAFE FOLD DEMO",
+      "useCase": "feature-callout",
+      "assetPurpose": "secondary-image",
+      "platforms": [
+        "tiktok-shop"
+      ],
+      "background": "soft-studio",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: secondary image for tiktok shop.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one premium modular stroller.\nProduct design: one fictional unbranded modular stroller with an oat-beige recycled-textile seat and full canopy, a matte graphite oval-tube frame, a cognac-brown wrapped push bar, four charcoal wheels with slim terracotta hub rings, a black under-seat basket, and one five-point charcoal harness.\nScene/backdrop: An adult demonstrator safely folds the empty stroller on a pale-gray studio floor, holding the cognac push bar with one hand and a clearly visible central frame release with the other.\nComposition/framing: Use a close full-product vertical frame showing complete hands, all wheels, collapsing frame path, empty seat, and no body part near pinch points.\nLighting/mood: Bright soft studio light with direct-flash clarity, crisp mechanism detail, and neutral instructional polish without text.\nMaterials/textures: Render woven oat textile, matte graphite aluminum, cognac wrap, rubber tires, terracotta hub rings, mesh basket, and realistic stroller joints with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same oat seat and canopy, graphite oval frame, cognac push bar, four charcoal wheels with terracotta rings, black basket, and charcoal harness.\nConstraints: Keep stroller geometry safe and plausible; adult-parent scenes may imply an infant under the closed canopy but must not expose or distort a child. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No child, extra fingers, unsafe pinch, detached parts, floating arrows, labels, second stroller, or impossible fold. No brand, text, extra stroller, three wheels, missing wheel, car seat, cup holder, toy, changed fabric color, unsafe stairs, child standing, visible infant face, runaway stroller, warped frame, or detached harness. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/kids-oat-modular-stroller/preview-4.png",
+        "alt": "Adult safely demonstrating the fold of an oat stroller",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "pinterest-park-still",
+      "title": "PINTEREST PARK STILL",
+      "useCase": "lifestyle-scene",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "pinterest"
+      ],
+      "background": "outdoor-location",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: social creative for pinterest.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one premium modular stroller.\nProduct design: one fictional unbranded modular stroller with an oat-beige recycled-textile seat and full canopy, a matte graphite oval-tube frame, a cognac-brown wrapped push bar, four charcoal wheels with slim terracotta hub rings, a black under-seat basket, and one five-point charcoal harness.\nScene/backdrop: Park the empty stroller beside a curved pale-stone bench in a quiet green park at golden hour, with canopy open and harness neatly arranged.\nComposition/framing: Create a save-worthy lifestyle portrait with the full stroller, all wheels, cognac handle, oat canopy, and softly layered trees.\nLighting/mood: Warm backlight, cool green shadow, subtle lens depth, and realistic park texture.\nMaterials/textures: Render woven oat textile, matte graphite aluminum, cognac wrap, rubber tires, terracotta hub rings, mesh basket, and realistic stroller joints with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same oat seat and canopy, graphite oval frame, cognac push bar, four charcoal wheels with terracotta rings, black basket, and charcoal harness.\nConstraints: Keep stroller geometry safe and plausible; adult-parent scenes may imply an infant under the closed canopy but must not expose or distort a child. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No child, parent, picnic props, extra stroller, flowers in basket, text, traffic, or floating product. No brand, text, extra stroller, three wheels, missing wheel, car seat, cup holder, toy, changed fabric color, unsafe stairs, child standing, visible infant face, runaway stroller, warped frame, or detached harness. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/kids-oat-modular-stroller/preview-5.png",
+        "alt": "Oat modular stroller beside a curved park bench",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    }
+  ],
+  "author": {
+    "name": "Ecommerce GPT Image Prompts Studio",
+    "url": "https://github.com/ecomimagelab"
+  },
+  "source": {
+    "type": "original",
+    "url": null,
+    "permission": "repository-authored",
+    "notes": "Original prompt and generated previews created for this repository after visual-pattern and open-source workflow research; no external preview asset is included.",
+    "references": [
+      {
+        "type": "visual-research",
+        "url": "docs/VISUAL_RESEARCH.md"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/buluslan/gpt-image2-ecommerce"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/motiful/product-shots"
+      }
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "platformPolicy": {
+    "status": "design-guidance-only",
+    "note": "Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.",
+    "reviewedAt": null,
+    "sources": []
+  },
+  "review": {
+    "status": "approved",
+    "rights": "reviewed",
+    "promptQuality": "reviewed",
+    "previewQuality": "reviewed",
+    "reviewedAt": "2026-07-23"
+  },
+  "featured": false,
+  "publishedAt": "2026-07-23",
+  "translations": {
+    "zh": {
+      "title": "燕麦色模块化婴儿车多平台套图",
+      "description": "让同一辆燕麦色模块化婴儿车在白底零售、建筑 DTC、成年家长城市使用、安全折叠演示和公园生活方式中保持一致。"
+    }
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0044",
+  "slug": "jade-refill-face-cream-platform-set",
+  "model": "gpt-image-2",
+  "title": "Jade Refill Face Cream Platform Set",
+  "description": "Preserves one jade refillable cream jar through Sephora catalog, wet-stone DTC, dark luxury, adult skincare ritual, and botanical Pinterest color.",
+  "prompt": "Create five platform-native e-commerce images for exactly one refillable face-cream jar with one lid, preserving its exact product design while varying scene, composition, lighting, and platform intent.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "beauty",
+  "useCases": [
+    "main-image",
+    "branded-hero",
+    "on-model",
+    "social-ad"
+  ],
+  "styles": [
+    "luxury-premium",
+    "natural-organic",
+    "editorial"
+  ],
+  "backgrounds": [
+    "pure-white",
+    "natural-material",
+    "dark-studio",
+    "lifestyle-location",
+    "graphic-set"
+  ],
+  "platforms": [
+    "sephora",
+    "shopify",
+    "tmall-luxury",
+    "instagram-shop",
+    "pinterest"
+  ],
+  "aspectRatios": [
+    "4:5",
+    "5:8"
+  ],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {
+    "referenceImages": 0,
+    "instructions": "No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU."
+  },
+  "productInvariants": [
+    "Preserve the low translucent pale-jade jar, thick clear base, and blank oval ceramic medallion.",
+    "Preserve the brushed-sage removable lid, nested ivory refill cup, and smooth white cream."
+  ],
+  "negativePrompt": "No readable label, dropper, pump, extra jar, gold lid, colored cream, botanical ingredients inside cream, floating refill, deformed rim, missing medallion, child model, eye contact with cream, or medical claim. No readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.",
+  "variants": [
+    {
+      "id": "sephora-clean-jar",
+      "title": "SEPHORA CLEAN JAR",
+      "useCase": "main-image",
+      "assetPurpose": "main-image",
+      "platforms": [
+        "sephora"
+      ],
+      "background": "pure-white",
+      "aspectRatio": "4:5",
+      "prompt": "Use case: product-mockup.\nAsset type: main image for sephora.\nPrimary request: Create one ultra-photorealistic portrait 4:5 e-commerce image featuring exactly one refillable face-cream jar with one lid.\nProduct design: one fictional unbranded low round face-cream jar in translucent pale-jade glass with a thick clear base, a removable brushed-sage aluminum outer lid, a visible ivory refill cup nested inside, smooth white cream, and one blank tiny oval ceramic medallion on the front.\nScene/backdrop: Place the open jar upright on seamless pure #FFFFFF with the sage lid leaning beside it and the nested ivory refill visible.\nComposition/framing: Center the complete jar and lid at about 72% frame fill; keep cream surface, glass thickness, refill rim, medallion, and lid finish crisp.\nLighting/mood: Broad beauty softboxes, pale jade transmission, controlled white cream detail, and a soft grounding shadow.\nMaterials/textures: Render translucent jade glass, clear optical base, brushed sage metal, matte refill polymer, glossy cream, and condensation with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same low jade jar, heavy clear base, brushed-sage lid, ivory inner refill cup, white cream, and blank ceramic oval.\nConstraints: Keep the jar unlabeled and show no invented skincare claims; the refill cup must remain clearly nested and plausible. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No spatula, flowers, water, packaging, extra refill, hand, or cropped lid. No readable label, dropper, pump, extra jar, gold lid, colored cream, botanical ingredients inside cream, floating refill, deformed rim, missing medallion, child model, eye contact with cream, or medical claim. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/beauty-jade-refill-face-cream/preview-1.png",
+        "alt": "Jade refillable face cream jar on white",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "shopify-wet-river-stone",
+      "title": "SHOPIFY WET RIVER STONE",
+      "useCase": "branded-hero",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "shopify"
+      ],
+      "background": "natural-material",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: branded hero for shopify.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one refillable face-cream jar with one lid.\nProduct design: one fictional unbranded low round face-cream jar in translucent pale-jade glass with a thick clear base, a removable brushed-sage aluminum outer lid, a visible ivory refill cup nested inside, smooth white cream, and one blank tiny oval ceramic medallion on the front.\nScene/backdrop: Set the closed jar on one wet charcoal river stone above a shallow pale-jade water plane with the lid correctly seated.\nComposition/framing: Use a close low product portrait with optical glass refraction, one restrained reflection, and generous misty negative space.\nLighting/mood: Soft cool dawn light, subtle water caustics, controlled condensation, and a narrow warm edge on the medallion.\nMaterials/textures: Render translucent jade glass, clear optical base, brushed sage metal, matte refill polymer, glossy cream, and condensation with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same low jade jar, heavy clear base, brushed-sage lid, ivory inner refill cup, white cream, and blank ceramic oval.\nConstraints: Keep the jar unlabeled and show no invented skincare claims; the refill cup must remain clearly nested and plausible. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No leaves, flowers, splashing over open cream, extra jar, floating stone, readable copy, or spa towel. No readable label, dropper, pump, extra jar, gold lid, colored cream, botanical ingredients inside cream, floating refill, deformed rim, missing medallion, child model, eye contact with cream, or medical claim. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/beauty-jade-refill-face-cream/preview-2.png",
+        "alt": "Jade face cream jar on wet river stone",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "tmall-jade-portal",
+      "title": "TMALL JADE PORTAL",
+      "useCase": "branded-hero",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "tmall-luxury"
+      ],
+      "background": "dark-studio",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: branded hero for tmall luxury.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one refillable face-cream jar with one lid.\nProduct design: one fictional unbranded low round face-cream jar in translucent pale-jade glass with a thick clear base, a removable brushed-sage aluminum outer lid, a visible ivory refill cup nested inside, smooth white cream, and one blank tiny oval ceramic medallion on the front.\nScene/backdrop: Place the closed jar inside a circular dark-jade stone portal on a black reflective shelf; set the lid slightly rotated but still seated.\nComposition/framing: Compose a centered ceremonial product portrait with the jar dominant, circular forms aligned, and deep negative space.\nLighting/mood: Focused top light, emerald subsurface glow, graphite shadow falloff, and precise glass-metal separation.\nMaterials/textures: Render translucent jade glass, clear optical base, brushed sage metal, matte refill polymer, glossy cream, and condensation with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same low jade jar, heavy clear base, brushed-sage lid, ivory inner refill cup, white cream, and blank ceramic oval.\nConstraints: Keep the jar unlabeled and show no invented skincare claims; the refill cup must remain clearly nested and plausible. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No Chinese characters, gold dragon motif, smoke, extra lid, floating jar, coins, crystals, or neon rings. No readable label, dropper, pump, extra jar, gold lid, colored cream, botanical ingredients inside cream, floating refill, deformed rim, missing medallion, child model, eye contact with cream, or medical claim. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/beauty-jade-refill-face-cream/preview-3.png",
+        "alt": "Jade face cream jar in a dark circular luxury portal",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "instagram-adult-skin-ritual",
+      "title": "INSTAGRAM ADULT SKIN RITUAL",
+      "useCase": "on-model",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "instagram-shop"
+      ],
+      "background": "lifestyle-location",
+      "aspectRatio": "5:8",
+        "prompt": "Use case: product-mockup.\nAsset type: social creative for instagram shop.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly one refillable face-cream jar with one lid.\nProduct design: one fictional unbranded low round face-cream jar in translucent pale-jade glass with a thick clear base, a removable brushed-sage aluminum outer lid, a visible ivory refill cup nested inside, smooth white cream, and one blank tiny oval ceramic medallion on the front.\nScene/backdrop: An adult woman with natural skin holds the open jar in her complete left hand near her cheek and applies a small dab of white cream with the index fingertip of her complete right hand, against a soft apricot bathroom wall with a completely dry counter; the detached lid rests visibly on the counter and is not held.\nComposition/framing: Use a close shoulders-up beauty portrait; show exactly two complete human hands total, the open jar, the lid resting on the counter, blank medallion, and unretouched adult skin texture.\nLighting/mood: Soft window daylight with gentle direct-flash lift, luminous but believable skin, jade reflections, and clean warm color.\nMaterials/textures: Render translucent jade glass, clear optical base, brushed sage metal, matte refill polymer, glossy cream, and condensation with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same low jade jar, heavy clear base, brushed-sage lid, ivory inner refill cup, white cream, and blank ceramic oval.\nConstraints: Keep the jar unlabeled and show no invented skincare claims; the refill cup must remain clearly nested and plausible. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No third hand, extra hand, extra fingers, child, cream near eye, distorted fingers, extra jar, branded robe, excessive retouching, wet counter, or text. No readable label, dropper, pump, extra jar, gold lid, colored cream, botanical ingredients inside cream, floating refill, deformed rim, missing medallion, child model, eye contact with cream, or medical claim. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/beauty-jade-refill-face-cream/preview-4.png",
+        "alt": "Adult woman holding a jade refillable face cream jar",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "pinterest-fern-apricot",
+      "title": "PINTEREST FERN APRICOT",
+      "useCase": "social-ad",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "pinterest"
+      ],
+      "background": "graphic-set",
+      "aspectRatio": "4:5",
+      "prompt": "Use case: product-mockup.\nAsset type: social creative for pinterest.\nPrimary request: Create one ultra-photorealistic portrait 4:5 e-commerce image featuring exactly one refillable face-cream jar with one lid.\nProduct design: one fictional unbranded low round face-cream jar in translucent pale-jade glass with a thick clear base, a removable brushed-sage aluminum outer lid, a visible ivory refill cup nested inside, smooth white cream, and one blank tiny oval ceramic medallion on the front.\nScene/backdrop: Set the open jar and leaning lid on an apricot paper plinth with one soft fern shadow crossing the background but no physical plant.\nComposition/framing: Use a minimal asymmetric still life showing cream, refill rim, blank medallion, clear base, and lid interior.\nLighting/mood: Hard morning sun, pale-jade glass caustics, warm apricot bounce, and crisp modern color.\nMaterials/textures: Render translucent jade glass, clear optical base, brushed sage metal, matte refill polymer, glossy cream, and condensation with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same low jade jar, heavy clear base, brushed-sage lid, ivory inner refill cup, white cream, and blank ceramic oval.\nConstraints: Keep the jar unlabeled and show no invented skincare claims; the refill cup must remain clearly nested and plausible. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No leaf touching product, botanical ingredient claim, extra refill, model, text, or clutter. No readable label, dropper, pump, extra jar, gold lid, colored cream, botanical ingredients inside cream, floating refill, deformed rim, missing medallion, child model, eye contact with cream, or medical claim. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/beauty-jade-refill-face-cream/preview-5.png",
+        "alt": "Jade face cream jar with fern shadow on apricot",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    }
+  ],
+  "author": {
+    "name": "Ecommerce GPT Image Prompts Studio",
+    "url": "https://github.com/ecomimagelab"
+  },
+  "source": {
+    "type": "original",
+    "url": null,
+    "permission": "repository-authored",
+    "notes": "Original prompt and generated previews created for this repository after visual-pattern and open-source workflow research; no external preview asset is included.",
+    "references": [
+      {
+        "type": "visual-research",
+        "url": "docs/VISUAL_RESEARCH.md"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/buluslan/gpt-image2-ecommerce"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/motiful/product-shots"
+      }
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "platformPolicy": {
+    "status": "design-guidance-only",
+    "note": "Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.",
+    "reviewedAt": null,
+    "sources": []
+  },
+  "review": {
+    "status": "approved",
+    "rights": "reviewed",
+    "promptQuality": "reviewed",
+    "previewQuality": "reviewed",
+    "reviewedAt": "2026-07-23"
+  },
+  "featured": false,
+  "publishedAt": "2026-07-23",
+  "translations": {
+    "zh": {
+      "title": "玉石绿替换芯面霜多平台套图",
+      "description": "让同一只玉石绿可替换芯面霜罐贯穿 Sephora 目录、湿石 DTC、暗调奢华、成年护肤仪式和 Pinterest 植物配色。"
+    }
+  }
+}

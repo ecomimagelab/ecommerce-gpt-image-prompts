@@ -1,0 +1,195 @@
+{
+  "$schema": "../schema.json",
+  "schemaVersion": 2,
+  "id": "ec-0053",
+  "slug": "citrus-botanical-sparkling-water-platform-set",
+  "model": "gpt-image-2",
+  "title": "Citrus Botanical Sparkling Water Platform Set",
+  "description": "Keeps one three-flavor sparkling-water trio coherent across grocery retail, splash-led DTC, adult beach creator, colorful picnic, and graphic Pinterest packaging.",
+  "prompt": "Create five platform-native e-commerce images for exactly three slim sparkling-water cans, one of each flavor color, preserving its exact product design while varying scene, composition, lighting, and platform intent.",
+  "language": "en",
+  "mode": "text-to-image",
+  "category": "food-and-beverage",
+  "useCases": [
+    "main-image",
+    "branded-hero",
+    "on-model",
+    "lifestyle-scene",
+    "social-ad"
+  ],
+  "styles": [
+    "bright-playful",
+    "food-editorial",
+    "social-native"
+  ],
+  "backgrounds": [
+    "pure-white",
+    "color-studio",
+    "outdoor-location",
+    "graphic-set"
+  ],
+  "platforms": [
+    "amazon-grocery",
+    "shopify",
+    "tiktok-shop",
+    "xiaohongshu",
+    "pinterest"
+  ],
+  "aspectRatios": [
+    "4:5",
+    "5:8"
+  ],
+  "assetPurpose": "campaign-set",
+  "inputRequirements": {
+    "referenceImages": 0,
+    "instructions": "No reference image is required for this fictional unbranded product; use product-edit mode with owned source photography when adapting a real SKU."
+  },
+  "productInvariants": [
+    "Preserve exactly three slim 330 ml cans in coral, cobalt, and celery green.",
+    "Preserve the blank cream vertical oval panel, small embossed bubble motif, and silver pull tab on every can."
+  ],
+  "negativePrompt": "No brand, letters, nutrition text, extra can, duplicate color, missing can, plastic bottle, straw, alcohol cue, energy-drink styling, child, deformed pull tab, floating fruit, or unsupported health claim. No readable text, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, or border.",
+  "variants": [
+    {
+      "id": "amazon-grocery-can-trio",
+      "title": "AMAZON GROCERY CAN TRIO",
+      "useCase": "main-image",
+      "assetPurpose": "main-image",
+      "platforms": [
+        "amazon-grocery"
+      ],
+      "background": "pure-white",
+      "aspectRatio": "4:5",
+      "prompt": "Use case: product-mockup.\nAsset type: main image for amazon grocery.\nPrimary request: Create one ultra-photorealistic portrait 4:5 e-commerce image featuring exactly three slim sparkling-water cans, one of each flavor color.\nProduct design: one fictional unbranded trio of slim 330 ml matte aluminum cans sharing a blank cream vertical oval panel and one small embossed bubble motif, with exactly one coral can, one cobalt can, and one celery-green can; each has a silver pull tab and no words.\nScene/backdrop: Stand the three unopened cans in a shallow staggered row on seamless pure #FFFFFF: coral left, cobalt center, celery right.\nComposition/framing: Center the complete trio at about 76% frame fill; show all blank cream ovals, top rims, silver tabs, bottoms, and soft shared shadow.\nLighting/mood: Broad high-key beverage softboxes, clean matte color, restrained condensation-free surfaces, and neutral white balance.\nMaterials/textures: Render matte printed aluminum, silver pull tabs, condensation, clear carbonated water, citrus peel, and realistic cold-can reflections with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same three slim cans, exact coral-cobalt-celery color trio, blank cream oval panels, small embossed bubble motifs, and silver tabs.\nConstraints: Show exactly three cans—one coral, one cobalt, one celery—unless a close lifestyle crop explicitly focuses on one while the other two remain present. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No fruit, ice, water, hand, packaging, extra can, open tab, or cropped base. No brand, letters, nutrition text, extra can, duplicate color, missing can, plastic bottle, straw, alcohol cue, energy-drink styling, child, deformed pull tab, floating fruit, or unsupported health claim. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/beverage-citrus-sparkling-water/preview-1.png",
+        "alt": "Coral cobalt and celery sparkling water cans on white",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "shopify-citrus-splash",
+      "title": "SHOPIFY CITRUS SPLASH",
+      "useCase": "branded-hero",
+      "assetPurpose": "branded-hero",
+      "platforms": [
+        "shopify"
+      ],
+      "background": "color-studio",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: branded hero for shopify.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly three slim sparkling-water cans, one of each flavor color.\nProduct design: one fictional unbranded trio of slim 330 ml matte aluminum cans sharing a blank cream vertical oval panel and one small embossed bubble motif, with exactly one coral can, one cobalt can, and one celery-green can; each has a silver pull tab and no words.\nScene/backdrop: Stand the three cans on a shallow clear-water plane against a pale sky-blue background while one controlled transparent splash arcs behind them; add one curl each of orange, lemon, and lime peel on the floor.\nComposition/framing: Use a low centered hero composition with all cans unobstructed, exact color order, blank panels readable, and generous vertical freshness.\nLighting/mood: Hard sun through water, bright caustics, cold rim light, crisp condensation, and energetic but premium color.\nMaterials/textures: Render matte printed aluminum, silver pull tabs, condensation, clear carbonated water, citrus peel, and realistic cold-can reflections with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same three slim cans, exact coral-cobalt-celery color trio, blank cream oval panels, small embossed bubble motifs, and silver tabs.\nConstraints: Show exactly three cans—one coral, one cobalt, one celery—unless a close lifestyle crop explicitly focuses on one while the other two remain present. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No fruit slice covering panel, extra can, colored liquid, straw, floating peel, logo, or splash crossing the products. No brand, letters, nutrition text, extra can, duplicate color, missing can, plastic bottle, straw, alcohol cue, energy-drink styling, child, deformed pull tab, floating fruit, or unsupported health claim. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/beverage-citrus-sparkling-water/preview-2.png",
+        "alt": "Three botanical sparkling water cans with a clear citrus splash",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "tiktok-adult-beach-cooler",
+      "title": "TIKTOK SHOP BEACH COOLER",
+      "useCase": "on-model",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "tiktok-shop"
+      ],
+      "background": "outdoor-location",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: social creative for tiktok shop.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly three slim sparkling-water cans, one of each flavor color.\nProduct design: one fictional unbranded trio of slim 330 ml matte aluminum cans sharing a blank cream vertical oval panel and one small embossed bubble motif, with exactly one coral can, one cobalt can, and one celery-green can; each has a silver pull tab and no words.\nScene/backdrop: An adult woman at a sunny beach opens a plain cream cooler containing the three cans nestled in ice; she lifts only the coral can while cobalt and celery remain visible.\nComposition/framing: Use a close vertical creator frame showing her complete hands, all three cans, open cooler, natural adult posture, and bright sea bokeh.\nLighting/mood: Direct flash in hard sun, sparkling ice texture, candid adult skin, and saturated summer contrast.\nMaterials/textures: Render matte printed aluminum, silver pull tabs, condensation, clear carbonated water, citrus peel, and realistic cold-can reflections with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same three slim cans, exact coral-cobalt-celery color trio, blank cream oval panels, small embossed bubble motifs, and silver tabs.\nConstraints: Show exactly three cans—one coral, one cobalt, one celery—unless a close lifestyle crop explicitly focuses on one while the other two remain present. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No child, alcohol, drinking action, logo swimwear, extra can, distorted fingers, can hidden by ice, text, or crowded beach. No brand, letters, nutrition text, extra can, duplicate color, missing can, plastic bottle, straw, alcohol cue, energy-drink styling, child, deformed pull tab, floating fruit, or unsupported health claim. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/beverage-citrus-sparkling-water/preview-3.png",
+        "alt": "Adult woman selecting a coral sparkling water can from a beach cooler",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "xiaohongshu-citrus-picnic",
+      "title": "XIAOHONGSHU CITRUS PICNIC",
+      "useCase": "lifestyle-scene",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "xiaohongshu"
+      ],
+      "background": "graphic-set",
+      "aspectRatio": "4:5",
+      "prompt": "Use case: product-mockup.\nAsset type: social creative for xiaohongshu.\nPrimary request: Create one ultra-photorealistic portrait 4:5 e-commerce image featuring exactly three slim sparkling-water cans, one of each flavor color.\nProduct design: one fictional unbranded trio of slim 330 ml matte aluminum cans sharing a blank cream vertical oval panel and one small embossed bubble motif, with exactly one coral can, one cobalt can, and one celery-green can; each has a silver pull tab and no words.\nScene/backdrop: Arrange the three closed cans on a checkerboard apricot picnic cloth beside one plain glass of sparkling water and three small citrus wedges.\nComposition/framing: Use a bright overhead social composition with exact can colors, blank oval panels, neat negative space, and natural picnic imperfection.\nLighting/mood: Soft noon daylight with gentle flash lift, crisp bubbles in glass, matte can texture, and cheerful color.\nMaterials/textures: Render matte printed aluminum, silver pull tabs, condensation, clear carbonated water, citrus peel, and realistic cold-can reflections with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same three slim cans, exact coral-cobalt-celery color trio, blank cream oval panels, small embossed bubble motifs, and silver tabs.\nConstraints: Show exactly three cans—one coral, one cobalt, one celery—unless a close lifestyle crop explicitly focuses on one while the other two remain present. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No person, readable napkin, extra beverage, straw, snack branding, extra can, or fruit covering panels. No brand, letters, nutrition text, extra can, duplicate color, missing can, plastic bottle, straw, alcohol cue, energy-drink styling, child, deformed pull tab, floating fruit, or unsupported health claim. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/beverage-citrus-sparkling-water/preview-4.png",
+        "alt": "Three sparkling water cans in a colorful citrus picnic flat lay",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    },
+    {
+      "id": "pinterest-gradient-packaging",
+      "title": "PINTEREST GRADIENT PACKAGING",
+      "useCase": "social-ad",
+      "assetPurpose": "social-creative",
+      "platforms": [
+        "pinterest"
+      ],
+      "background": "graphic-set",
+      "aspectRatio": "5:8",
+      "prompt": "Use case: product-mockup.\nAsset type: social creative for pinterest.\nPrimary request: Create one ultra-photorealistic portrait 5:8 e-commerce image featuring exactly three slim sparkling-water cans, one of each flavor color.\nProduct design: one fictional unbranded trio of slim 330 ml matte aluminum cans sharing a blank cream vertical oval panel and one small embossed bubble motif, with exactly one coral can, one cobalt can, and one celery-green can; each has a silver pull tab and no words.\nScene/backdrop: Balance the three cans on stepped cylinders against a coral-to-cobalt gradient set with one celery circular shadow plane.\nComposition/framing: Create a save-worthy vertical packaging portrait using height variation, exact color trio, clean panel visibility, and sculptural negative space.\nLighting/mood: Hard graphic light, clean colored shadows, restrained condensation, and precise aluminum highlights.\nMaterials/textures: Render matte printed aluminum, silver pull tabs, condensation, clear carbonated water, citrus peel, and realistic cold-can reflections with physically believable surfaces, disciplined commercial retouching, fine natural microtexture, and premium photographic depth.\nProduct invariants: Preserve the same three slim cans, exact coral-cobalt-celery color trio, blank cream oval panels, small embossed bubble motifs, and silver tabs.\nConstraints: Show exactly three cans—one coral, one cobalt, one celery—unless a close lifestyle crop explicitly focuses on one while the other two remain present. Keep the product fully recognizable and commercially usable; use only fictional, unbranded design details.\nAvoid: No fruit, people, water, text, extra can, floating product, duplicate color, or cropped top. No brand, letters, nutrition text, extra can, duplicate color, missing can, plastic bottle, straw, alcohol cue, energy-drink styling, child, deformed pull tab, floating fruit, or unsupported health claim. No readable text, brand name, logo, trademark, watermark, duplicate product, broken geometry, cheap CGI, collage, split screen, frame, or border.",
+      "sample": {
+        "before": null,
+        "after": "assets/prompts/beverage-citrus-sparkling-water/preview-5.png",
+        "alt": "Sparkling water trio on a coral cobalt gradient set",
+        "license": "CC-BY-4.0",
+        "provenance": "Generated specifically for this repository from the recorded standalone prompt; no third-party preview image is redistributed."
+      }
+    }
+  ],
+  "author": {
+    "name": "Ecommerce GPT Image Prompts Studio",
+    "url": "https://github.com/ecomimagelab"
+  },
+  "source": {
+    "type": "original",
+    "url": null,
+    "permission": "repository-authored",
+    "notes": "Original prompt and generated previews created for this repository after visual-pattern and open-source workflow research; no external preview asset is included.",
+    "references": [
+      {
+        "type": "visual-research",
+        "url": "docs/VISUAL_RESEARCH.md"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/buluslan/gpt-image2-ecommerce"
+      },
+      {
+        "type": "visual-research",
+        "url": "https://github.com/motiful/product-shots"
+      }
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "platformPolicy": {
+    "status": "design-guidance-only",
+    "note": "Platform names identify intended visual treatment only; verify current listing and advertising requirements before publication.",
+    "reviewedAt": null,
+    "sources": []
+  },
+  "review": {
+    "status": "approved",
+    "rights": "reviewed",
+    "promptQuality": "reviewed",
+    "previewQuality": "reviewed",
+    "reviewedAt": "2026-07-23"
+  },
+  "featured": false,
+  "publishedAt": "2026-07-23",
+  "translations": {
+    "zh": {
+      "title": "柑橘植物气泡水多平台套图",
+      "description": "让同一组三口味植物气泡水在食品零售、水花 DTC、成年海滩创作者、彩色野餐和 Pinterest 包装静物中保持一致。"
+    }
+  }
+}
